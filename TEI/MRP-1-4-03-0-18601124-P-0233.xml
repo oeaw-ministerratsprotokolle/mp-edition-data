@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="4">Abteilung IV</title>
+            <title level="s" type="sub">Das Ministerium Rechberg</title>
+            <title level="m" type="main" n="3">Band 3</title>
+            <title level="m" type="sub">Oktober 1860–<date when="1861-02-02">2. Februar 1861</date>
+            </title>
+            <title level="a" type="desc" n="233">Sitzung 233</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1860-11-24"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a4-b3-z233.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung IV Das Ministerium Rechberg, Band 3 Oktober 1860–2. Februar 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2009">2009</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">651</idno>
+                  <idno type="KZ">3955</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1860-11-24"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet (RS. Klaps); VS. Kaiser; BdE. und anw. (Rechberg 26. 11.), Gołuchowski 27. 11., Mecséry 27. 11., Vay 27. 11., Degenfeld, Lasser 27. 11., Szécsen 27. 11., Plener 29. 11.; abw.: Erzherzog Rainer.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+                  <note>RS. Klaps</note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-26">1860-11-26</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8584">
+                     <surname>Gołuchowski</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-27">27. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-27">27. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8679">
+                     <surname>Vay</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-27">27. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-27">27. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8078">
+                     <surname>Szécsen</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-27">27. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-29">29. 11.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_4_3_233_1">Leitung der Presse. Instruktion für das diesfällige Komitee. Gründe der schlechten Stimmung. Verhinderung und Unterdrückung von Exzessen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_4_3_233_2">Dringlichkeit der Ernennung des Grafen Forgách zum Statthalter von Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_4_3_233_3">Ernennung des Leiters der siebenbürgischen Hofkanzlei</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_4_3_233_4">Versammlungsort für die siebenbürgische Beratungskommission</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_4_3_233_5">Instruktion für die ungarischen Obergespäne</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_4_3_233_6">Erfolgung der ungarischen Akten des Unterrichtsministeriums</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-4-03-0-18601124-P-0233" ana="a4-b3-z233">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml#a4-b3_z233.pdf">
+               <title type="num">Nr. 233</title>
+               <title type="descr">Ministerkonferenz, Wien, <date when="1860-11-24">24. November 1860</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet (<choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice> Klaps); <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Kaiser; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Rechberg 26. 11.), Gołuchowski 27. 11., Mecséry 27. 11., Vay 27. 11., Degenfeld, Lasser 27. 11., Szécsen 27. 11., Plener 29. 11.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice>: Erzherzog Rainer.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">3955</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerkonferenz am <date when="1860-11-24">24. November 1860</date> unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_4_3_233_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Leitung der Presse. Instruktion für das diesfällige Komitee. Gründe der schlechten Stimmung. Verhinderung und Unterdrückung von Exzessen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> beleuchtete die gegenwärtige politische Lage im Inneren und zeigte, daß sich ganz offen bedenkliche Zustände vorbreiten, denen man entgegentreten muß. Die Parteien rüsten sich und suchen Teilnehmer unter den Massen zu gewinnen, um die extremen Ziele ihrer Wünsche zu ertrotzen. Dies könne nicht länger geduldet werden<note type="footnote" n="1">Ursache der bedenklichen Zustände war die um sich greifende Ablehnung des Oktoberdiploms bzw. der schon publizierten Landesstatute. Siehe dazu u. a. <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 2, 966 f.</bibl>; <bibl type="secondary">
+                           <author>Fellner</author>, Februarpatent 550</bibl>; <bibl type="secondary">
+                           <author>Fischer</author>, Stellung der Wiener Presse</bibl>; <bibl type="secondary">
+                           <author>Péter</author>, Die Verfassungs­entwicklung in Ungarn</bibl>. In: <bibl type="secondary">
+                           <author>Rumpler – Urbanitsch</author>, Die Habsburgermonarchie 7/1, 302 f.</bibl>; <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 1/1, 672 ff.</bibl>; <bibl type="secondary">
+                           <author>Rogge</author>, Österreich von Világos bis zur Gegenwart 2, 88 f.</bibl>; <bibl type="secondary">
+                           <author>Szabad</author>, Forradalom 77 – 149</bibl>; zum vorliegenden Protokoll <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 1/1, 660 – 684</bibl>.</note>.</p>
+                  <p>Nachdem diese Bestrebungen sich teils durch wiederholte Demonstrationen und Exzesse in verschiedenen Kronländern, teils durch ein systematisches Vorgehen in der Presse kundtue, handelt es sich darum, dem Unfuge in diesen beiden Richtungen zu steuern. In bezug auf die Exzesse kann nur durch kräftigeres Einschreiten aller Behörden zur Unterdrückung jedes Versuches oder durch Bestrafung der gesetzwidrigen Vorgänge eine Besserung erzielt werden. In bezug auf die Presse gibt es drei Wege2: 1. der direkte gütliche Einfluß auf die Redaktionen durch Belehrung und Kapazitierung oder durch Gewährung materieller Vorteile. Hiezu sind vor allem aber geeignete Organe zu suchen. 2. Die gerichtliche Verfolgung wegen strafbarer Artikel. Leider ist jedoch von gerichtlichen Schritten, wie die Erfahrung zeigt, nicht nur kein Vorteil zu erwarten, sondern vielmehr Nachteil zu besorgen. 3. Die administrative Pression. Dieses ist ein sehr wirksames Mittel, wenn es mit solcher konsequenter Energie angewendet wird, wie wir es im Auslande brauchen sehen. Bei uns bewegt man sich aber immer nur im Stadium der Verwarnungen, ohne daß es jemals zur Suspension oder Unterdrückung eines Blattes kommt. Ein einziger Vorgang dieser Art würde einen heilsamen Schrecken unter die Redakteure verbreiten, weil sie sich mit großen materiellen Verlusten bedroht sähen.</p>
+                  <p>
+                     <pb n="96" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s96.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erinnerte, daß er sich immer in diesem Sinne ausgesprochen habe. Die jetzt ganz regellose österreichische Presse strebt mit allen Mitteln nach einem Konstitutionalismus, der mit Österreichs Gedeihen nicht vereinbarlich ist. Sie wendet ihre Angriffe zwar nicht direkt gegen die Ah. Person, aber gegen „die Regierung“, gegen die Minister, gegen die Patente und Statute. Jeden Tag geht man weiter. Die Regierung wird bald eine Unmöglichkeit werden, und Österreich ist verloren, wenn man nicht dem verderblichen Einflusse der Blätter auf die Massen durch das wirksamste Mittel einer kräftigen administrativen Pression steuert. Auch der vom Ministerpräsidenten unter 1. angedeutete gütliche Weg sei nicht so zu vernachlässigen, wie man es seit dem 20. Oktober getan hat. <ref xml:id="fn_4_3_233_a">Insbesondere sei zu bedauern, daß vor Hinausgabe des Diploms man nicht bemüht gewesen sei, im geeigneten Wege die Redakteure der hervorragenden Blätter zu beeinflussen. Dermalen ist die Aufgabe schwieriger, zumal die Journalisten es schwer über sich nehmen dürften, den offen ausgesprochenen Prinzipien entgegenzutreten.</ref>
+                     <note type="variant" n="a" target="#fn_4_3_233_a">Einfügung a–a Gołuchowskis.</note> Graf Gołuchowski hob insbesondere den nachteiligen Einfluß hervor, den die Wiener Presse auf die Journale in den Provinzen übt, <ref xml:id="fn_4_3_233_b">zumal seitens der Regierung gar nichts geschieht. Sie steht ratlos da und läßt ihre Maßnahmen ungehindert verunglimpfen.</ref>
+                     <note type="variant" n="b" target="#fn_4_3_233_b">Einfügung b–b Gołuchowskis.</note> Von Wien geht meistens der Impuls aus, und die Kritik der Landesstatute beginnt in den Provinzen erst dann, wenn ihr die Wiener Journale deren angebliche Mängel <ref xml:id="fn_4_3_233_c">mit Bitterkeit aufgezählt haben.</ref>
+                     <note type="variant" n="c" target="#fn_4_3_233_c">Korrektur c–c Gołuchowskis aus <quote>demonstriert</quote>.</note> Hier im Zentrum muß man das Übel an der Wurzel anpacken, und die Bildung eines mit großer diskretionärer Gewalt ausgestatteten Preßkonseils würde diesfalls vieles nützen. Man müßte verhindern, daß das kaiserliche Diplom und die übrigen gleichzeitig von Sr. Majestät ausgesprochenen Grundsätze offen in die Frage gestellt werden. <ref xml:id="fn_4_3_233_d">Wird die Presse der Metropole gezügelt werden, wird den Statthaltern klar werden, daß die Zentralgewalt nicht hinsiecht, dann werden auch sie Mut fassen und sträflichen Ausschritten der Journalistik mit Erfolg entgegentreten. Jetzt zeigt sich im ganzen Reiche eine vollkommene Apathie der Regierungsgewalt, jeder schaut mit Bangen in die Zukunft und gelangt zum Schlusse, daß bei dem dermaligen Zustande der Finanzen und des Zeitungswesens in Österreich für den Bestand der Regierung die trübste Prognose gestellt werden müsse.</ref>
+                     <note type="variant" n="d" target="#fn_4_3_233_d">Einfügung d–d Gołuchowskis.</note> Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, er müsse diese Schilderung der Preßzustände für richtig anerkennen. Die Frage, wie zu helfen, sei aber eine sehr schwierige. Mit bloßen Repressivmaßregeln und Verwarnungen sei wenig gewonnen. Eine große Schwierigkeit liege auch darin, die Grenzlinie des Erlaubten bei Besprechung der Regierungsmaßregeln in der inneren Politik überhaupt genau zu bezeichnen. Ein drastisches Auskunftsmittel wäre ein allgemeiner Ausspruch, daß jede Opposition und jeder Tadel der Regierungsmaßregeln verboten sei – eine Art Diktatur, ein Ausnahmszustand, der durch die schwierigen Verhältnisse, die inneren und äußeren Gefahren, in denen sich die Monarchie befindet, gerechtfertigt werden könnte.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> bestätigte, daß die schärfsten Artikel in den ungarischen Journalen aus Wiener Blättern entnommen sind. Die Redaktoren der ungarischen Presse <pb n="97" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s97.pdf"/>seien durch Anwendung geeigneter Mittel in neuester Zeit günstiger gestimmt worden. Baron Vay spricht die Überzeugung aus, es werde gelingen, die revolutionäre Clique in Ungarn zu vernichten und Übergriffe zurückzuhalten. Allein, man müsse zu diesem Zwecke alle dynastischen Elemente zu sammeln und zu gewinnen, das noch vorhandene Mißtrauen zu zerstreuen suchen. Dieses Mißtrauen finde seine größte Nahrung in der ungleichen politischen Stellung der nicht ungarischen Länder, weil man daraus folgert, daß in Ungarn das Diplom nie zur vollen Wahrheit werden wird. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> kann nur bestätigen, was über den Einfluß der Wiener auf die Provinzialpresse gesagt wurde; er glaubt jedoch nicht, daß es nötig sei, schon jetzt zu einer Art von Diktatur in Preßangelegenheiten zu schreiten, da man noch durch Anwendung gesetzlicher Mittel Abhilfe treffen kann. Dahin gehört die größte Strenge, wenn die Presse den gesetzlichen Boden negiert, und es ist daher den Redaktoren insbesondere zur Pflicht zu machen, daß sie sich jedes Angriffes auf die Fundamentalbestimmungen vom 20. Oktober zu enthalten haben. In den Monaten November und Dezember haben die Blätter zudem das größte materielle Interesse daran, ihren Bestand keiner Gefahr auszusetzen. <ref xml:id="fn_4_3_233_e">Während man aber der Presse gegenüber sich auf Handhabung des Gesetzes, damit und so lange sie den gesetzliche Boden nicht verlasse, beschränken und dort, wo sie jenen Boden verläßt, mit rücksichtsloser Strenge vorgehen soll, kann und darf man andererseits die Mittel zur Gewinnung der Presse für die Regierung durchaus nicht vernachlässigen. Diese Mittel bestünden teils in der persönlichen Annäherung an die Leiter und Matadore der Journale (wozu geeignete höhere Regierungsorgane zu bestimmen wären), teils in der Gewinnung von Kapazitäten für die Journalistik, um die Presse durch die Presse zu bekämpfen, und teils in materiellen Opfern zur direkten Bestechung. Die Presse ist für die Regierung selbst eine unentbehrliche, und gehörig benützt, höchst wirksame Unterstützung. Bloß durch Strenge allein kann man nicht auf sie wirken, denn</ref>
+                     <note type="variant" n="e" target="#fn_4_3_233_e">Korrektur e–e Lassers aus: <quote>Nebenbei wären die gütlichen Mittel nicht zu unterlassen, wohin auch der persönliche Verkehr mit den Redaktoren und die Gewinnung bedeutender Kapazitäten gehört.</quote>
+                     </note> gänzlich mundtot dürfe man die Blätter nicht machen, zumal man der ausländischen Presse nicht das Schweigen auferlegen kann. Eine größere Freiheit der Besprechung wäre daher immerhin zulässig. Der Kriegsminister ist der Überzeugung, daß man die schlechte Presse mit der Presse selbst am wirksamsten bekämpfen kann. Allzugroße Strenge wirkt nur verbitternd. Im übrigen müsse er den vom ungarischen Hofkanzler ausgesprochenen Ansichten beitreten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> tritt den Meinungen des ungarischen Hofkanzlers und des Minister Ritters v. Lasser bei. Man müsse strenge darauf halten, daß die Ah. Beschlüsse vom 20. Oktober nicht wegen der konstitutionellen Velleitäten der Presse angegriffen werden. Auch dürfe man die Landtagsgesetze von 1847/48 nicht länger zu einem Agitationsmittel ausbeuten lassen. Andererseits müsse man aber auch wohl erwägen, daß die dermaligen Preßzustände nur ein Symptom der sich entwickelnden Strömungen des öffentlichen Geistes sind. Alle Repressivmaßregeln sowie überhaupt negative Waffen werden in die Länge gegen die Überflutung der Revolution nicht auslangen. Dagegen gibt es nur ein Mittel: eine kräftige, in ihrem Gange entschiedene Regierung. Man vermag sich die Frage nicht mit Bestimmtheit zu beantworten, <pb n="98" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s98.pdf"/>was die Regierung in den deutsch-slawischen Provinzen will. Wenn die Regierung seit dem 20. Oktober mit Entschiedenheit, Raschheit und Geschick positiv schaffend vorgegangen wäre, würde ihr die Presse nicht in der öffentlichen Meinung haben schaden können. Das größte Unglück sei, offen gestanden, daß trotz den vorhandenen besten Absichten noch keine neue Institution ins Leben getreten ist und kein Schritt bis jetzt evident beweiset, daß die Regierung ganz in den Sinn des Diploms vom 20. Oktober eingegangen ist. So groß aber auch die Schwierigkeiten seien, man wird derselben Herr werden können, wenn einmal die Minister alle einig sind. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Justizministeriums</rs>
+                     </hi> fand einen weiteren Grund für ein möglichst rasches Vorgehen der Regierung in dem weit verbreiteten Glauben, daß das Ministerium keine Zeit mehr finden werde, die am 20. Oktober vorgezeichneten Institutionen durchzuführen. Dies bringt ein Gefühl der Unsicherheit alles Bestehenden hervor, aus dem jeder herauszukommen strebt und daher oft nur zu leicht bereit ist, jedes extreme Auskunftsmittel, welches ihm ein Journal dazu vorschlägt, zu adoptieren, <ref xml:id="fn_4_3_233_f">bloß deshalb, weil es schneller zur Konsolidierung der Verhältnisse zu führen scheint als der Vorgang der Regierung.</ref>
+                     <note type="variant" n="f" target="#fn_4_3_233_f">Einfügung f–f Lassers.</note> Der Leiter des Finanzministeriums bemerkt, daß nicht bloß <ref xml:id="fn_4_3_233_g">durch die Presse, sondern auch die Stimmung im ganzen Publikum an sich eine sehr</ref>
+                     <note type="variant" n="g" target="#fn_4_3_233_g">Korrektur g-g Pleners aus: <quote>die Presse, sondern auch die Stimmung im ganzen Publikum eine</quote>.</note> schlechte sei, und daß die Journale nur dieser Meinung zu Gefallen ihre scharfen Artikel publizieren. Sie sind nur ein Symptom, ebenso wie die sich verschlechternden Kurse nur der Ausdruck des steigenden Mißtrauens im In- und Auslande sind. <ref xml:id="fn_4_3_233_h">Nicht der Journalist erschafft die schlechte Stimmung, diese ist vielmehr schon da, er schreibt nur, wie es derselben zusagt und gibt ihr nur einen mundgerechten Ausdruck. Ein Journal, welches gegen die allgemeine Stimmung schriebe, würde zweifelsohne sehr bald eingehen, und der Egoismus des Unternehmers hält ihn von einem solchen Vorgehen ganz gewiß ab. Ebenso ist es mit der Börse. Der Coulissier könnte nicht die Kurse drücken, das Agio hinaufschnellen, wenn das fruchtbare Feld des Mißtrauens nicht schon faktisch vorhanden wäre, wenn nicht die Briefe des Auslandes den Mangel an Kredit in unsre Zustände patent machen würden. Da hilft keine Knebelung der Presse und kein polizeiliches Einschreiten, die Zustände müssen von innen heraus aus sich selbst gesunden, und hiezu bedarf es anderer Heilmittel. Übrigens war die Stimmung gleich nach dem 20. Oktober d. J. besser, sie wurde aber mit dem Erscheinen der Landtagsstatute sehr schlecht, indem das darin zugemessene Maß der politischen Freiheit gegenüber den Konzessionen für Ungarn die öffentliche Meinung in den deutschslawischen Ländern tief verletzte, und selbst in Ungarn eine Gleichberechtigung auf dem anderen Ufer der Leitha als eine Garantie der eigenen Freiheiten weit willkommener gewesen wäre.</ref>
+                     <note type="variant" n="h" target="#fn_4_3_233_h">Einfügung h–h Pleners.</note> Das Mißtrauen in unsere Zustände beruht hauptsächlich 1. auf dem Glauben, daß Ungarn sich bereits in einem halbrevolutionären, <ref xml:id="fn_4_3_233_i">für die Finanzen halbverlorenen</ref>
+                     <note type="variant" n="i" target="#fn_4_3_233_i">Einfügung i–i Pleners.</note> Zustande befindet, und 2. darauf, daß in den deutschen Ländern, im grellen Gegensatze mit den ungarischen, keine Aussicht auf Entwicklung des konstitutionellen Lebens vorhanden ist, während die Strömung des Zeitgeistes sich den liberalen Ideen <pb n="99" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s99.pdf"/>
+                     <ref xml:id="fn_4_3_233_j">unaufhaltsam zuwendet und ein kräftiges Gegengewicht gegen Ungarn als ein Gebot politischer Notwendigkeit erscheint</ref>
+                     <note type="variant" n="j" target="#fn_4_3_233_j">Korrektur j–j Pleners aus <quote>zuwendet</quote>.</note>. Einem solchen Mißtrauen gegenüber kann keine Finanzmaßregel gelingen, denn die österreichische Finanzfrage ist zunächst eine politische! Reichsrat v. Plener könne sich übrigens mit den vom Minister v. Lasser beantragten Vorgängen der Presse gegenüber nur einverstanden erklären<note type="footnote" n="3">Zur Äußerung Pleners siehe <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 2, 975 f.</bibl>
+                     </note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte, der Vorwurf über eine Zögerung in der Ausführung der Landesstatute sei nicht begründet, da bekanntlich derselben die neue Gemeindeordnung hätte vorausgehen sollen. Erst vor zehn Tagen wurde Ah. beschlossen, es von der Hinausgabe der Gemeindeordnung abkommen und sofort neue Gemeindewahlen vornehmen zu lassen. Das muß jetzt vor allem geschehen!<note type="footnote" n="4">Vgl. MK. v. <date when="1860-11-13">13. 11. 1860</date>/VII.</note>
+                  </p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> machte aufmerksam, daß <ref xml:id="fn_4_3_233_k">in der Presse die Thesis aufgestellt werde</ref>
+                     <note type="variant" n="k" target="#fn_4_3_233_k">Korrektur k–k Szécsens aus: <quote>sich in der Presse die Thesis aufstelle</quote>.</note>, die im Jahre 1849 erlassenen Landesstatute bestünden noch immer zu Recht, weil 1851<ref xml:id="fn_4_3_233_l"/>
+                     <note type="variant" n="l" target="#fn_4_3_233_l">Einfügung l–l Szécsens.</note> nur die Reichsverfassung Allerhöchstenortes aufgehoben worden sei. In diesem Sinne sagt die Ostdeutsche Post tendentiös, daß nur in Steiermark, Kärnten, Salzburg und Tirol jene Statute durch die neuen Statute aufgehoben worden seien<note type="footnote" n="5">
+                        <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=">Ost-Deutsche Post</ref>
+                           </title> v. 21. und <date when="1860-11-24">24. 11. 1860</date>
+                        </bibl>.</note>. So unrichtig diese Ansicht ist, so würde es doch kaum möglich sein, deren Behauptung durch ein gerichtliches Urteil zur Strafe zu ziehen, <ref xml:id="fn_4_3_233_m">wenn die Regierung nicht vorher ihre Ansicht über die Rechtsbeständigkeit dieser Statute den Zeitungen gegenüber nicht wenigstens im administrativen Wege ausgesprochen hätte.</ref>
+                     <note type="variant" n="m" target="#fn_4_3_233_m">Einfügung m–m Szécsens.</note> Wohl aber wäre es angezeigt, den Redaktoren darüber eine Belehrung zu erteilen und sie vor der Fortsetzung dieser Tendenz zu warnen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> wies auf die Notwendigkeit hin, daß die ministeriellen Organe, denen die Leitung der Presse übergeben werden soll, eine genaue Instruktion über den von ihnen einzuhaltenden Gang erhalten. Die Entwerfung einer solchen Instruktion sei daher sofort in Angriff zu nehmen, und Graf Rechberg würde sich diesfalls mit den Ministern Grafen Gołuchowski und Szécsen und Freiherrn v. Mecséry ins Vernehmen setzen. Die genannten Minister erklärten sich mit diesem Antrage völlig einverstanden.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten zu erinnern, daß nebst der besseren und kräftigeren Preßleitung nach Maßgabe der zu beratenden Instruktion und mit Anwendung der nötigen Geldmittel auch noch die Aufrechthaltung der materiellen Ordnung den Demonstrationen und Ausschreitungen gegenüber sehr nötig sei. Den Statthaltern fehle es häufig an Energie; auch habe man sein Augenmerk vorzüglich dahin zu richten, den Exzessen lieber vorzubeugen als die vollbrachten zu bestrafen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> hielt es für nötig, daß jeder ungesetzliche Vorgang, jedes unberechtigte oder terroristische Auftreten von Studenten, Korporationen oder einzelnen Individuen mit aller Strenge unterdrückt werde.</p>
+                  <p>
+                     <pb n="100" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s100.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> wird an diejenigen Statthalter, welche sich einen Mangel an Energie zuschulden kommen ließen (Böhmen, Galizien und Kroatien), die diesfälligen Weisungen ergehen lassen, nahm jedoch hievon Anlaß, die baldige Ah. Ernennung des Grafen Forgách zum Statthalter von Böhmen motiviert in Antrag zu bringen<note type="footnote" n="6">Siehe dazu den folgenden Tagesordnungspunkt. Zur Preßleitung: Mit Vortrag v. <date when="1860-11-29">29. 11. 1860</date> beantragte Mecséry die Schaffung einer Preßleitung, <bibl type="archival">AVA., OPB., Präs. II 6737/1860 (K.) und Präs. II 18/1861 (RS.)</bibl>; mit Ah. E. v. <date when="1860-12-14">14. 12. 1860</date> genehmigte der Kaiser die neue Einrichtung, siehe auch <bibl type="archival">HHSTA., Gendarmeriedepartement II, Z. 775/1860</bibl>. Mit Vortrag v. <date when="1860-12-28">28. 12. 1860</date> beantragte Mecséry die Ernennung des disponiblen Hofrates Eugen Drotleff Freiherrn v. Friedenfels zum Preßleiter, die mit Ah. E. v. <date when="1860-12-31">31. 12. 1860</date> ausgesprochen wurde, <bibl type="archival">AVA., OPB., Präs. II 7085/1860 (K.) und Präs. II 18/1861 (RS.)</bibl>; siehe auch <bibl type="archival">HHSTA., Gendarmeriedepartement II, Z. 823/1860</bibl>; <bibl type="secondary">
+                           <author>Moser</author>, Geschichte der amtlichen Pressestellen 56 und 63 – 66</bibl>; <bibl type="secondary">
+                           <author>Paupié</author>, Handbuch 60 f. und 80 f.</bibl> Mit Schreiben v. <date when="1861-01-04">4. 1. 1861</date> informierte Mecséry alle Minister von der Einrichtung der Preßleitung und teilte ihnen auch die Instruktion für den Preßleiter mit, <bibl type="archival">AVA., OPB., Präs. II 18/1861</bibl> (K. sowie lithographierte Exemplare des ausführlichen Schreibens und der Instruktion). Die Preßleitung blieb nicht lange beim Polizeiministerium, sondern wurde auf Initiative Schmerlings vom Staatsministerium übernommen, dazu MK. v. <date when="1861-01-11">11. 1. 1861</date>/II, Punkt 3. Gleichzeitig mit der Bestellung Drotleffs wurde der bisherige Preßleiter Ferdinand Johann Wit v. Dörring, der zuletzt erkrankt war, enthoben, es wurde ihm aus Gnade eine Pension von 3000 fl. jährlich gewährt, <bibl type="archival">AVA., OPB., Präs. II 124/1861 und 187/1861</bibl>; siehe auch <ref type="protocol-link" target="MRP-1-5-03-0-18620304-P-0203.xml#top_5_3_203_2">MR. II v. <date when="1862-03-04">4. 3. 1862</date>/II</ref>, <bibl type="internal_ref">Ömr. V/3, Nr. 203</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_233_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Dringlichkeit der Ernennung des Grafen Forgách zum Statthalter von Böhmen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> beleuchtete hierauf die Gründe, welche die Majorität der Ministerkonferenz zu dem Antrage bestimmt hatten, die Ernennung des Grafen Forgách noch bis zur Publizierung des Landesstatuts für Böhmen und Ernennung der Landesoffiziere aufzuschieben<note type="footnote" n="7">Der Staatsminister hatte in der MK. v. <date when="1860-11-17">17. 11. 1860</date> die Ernennung Anton Graf Forgáchs zum Statthalter in Böhmen beantragt, aber keine Mehrheit gefunden. Die Stimmen pro und kontra waren gleichgeteilt, MK. v. <date when="1860-11-17">17. 11. 1860</date>/I.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, daß er unter den gegenwärtigen Verhältnissen keinen großen Wert mehr auf einen weiteren Aufschub bis zur Ah. Ernennung der vier böhmischen Landesoffiziere legen könne<note type="footnote" n="8">Der Kaiser hatte der Ernennung Forgáchs schon zugestimmt, <quote>ebd., Anm. 1</quote>; die <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18601125">Wiener Zeitung</ref>
+                           </title> v. <date when="1860-11-25">25. 11. 1860</date> (M.)</bibl> meldete, daß Forgách mit Handschreiben v. <date when="1860-11-25">25. 11. 1860</date> zum Statthalter in Böhmen ernannt worden war.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_233_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Ernennung des Leiters der siebenbürgischen Hofkanzlei</head>
+                  <p>Hierauf wurde die Ernennung des Leiters der siebenbürgischen Hofkanzlei besprochen<note type="footnote" n="9">Fortsetzung von MK. v. <date when="1860-10-29">29. 10. 1860</date>/I, Punkt 7.</note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Baron Vay</rs>
+                     </hi> bezeichnete den Baron Franz Kemény als den geeignetsten für diesen Posten, und es spreche nur der Umstand dagegen, daß derselbe seinerzeit wieder der geeignetste wäre, um im Landtage die Regierung zu vertreten.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Graf Rechberg</rs>
+                     </hi> glaubte, daß ein Auskunftsmittel darin liegen würde, ihn zu jener Zeit zum Statthalter von Siebenbürgen zu machen, womit Baron Vay vollkommen einverstanden war<note type="footnote" n="10">Franz Freiherr v. Kemény wurde mit Handschreiben v. <date when="1860-12-09">9. 12. 1860</date> zum provisorischen Präsidenten der siebenbürgischen Hofkanzlei ernannt, <bibl type="archival">HHSTA., CBProt. 218c/1860</bibl>; mit Handschreiben v. <date when="1860-12-10">10. 12. 1860</date> wurde dem Grafen Emerich Mikó provisorisch das Präsidiums des siebenbürgischen Guberniums übertragen, <bibl type="archival">ebd. 221c/1860</bibl>; zu beiden Handschreiben <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 4008/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_233_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Versammlungsort für die siebenbürgische Beratungskommission</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> brachte in Anregung, ob die in dem Ah. Handschreiben vom <date when="1860-10-20">20. Oktober 1860</date> an den Ministerpräsidenten angeordnete Kommission zur Beratung <pb n="101" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s101.pdf"/>der siebenbürgischen Angelegenheitenn<ref xml:id="fn_4_3_233_n"/>
+                     <note type="variant" n="n" target="#fn_4_3_233_n">
+                        <quote>nicht</quote> von Szécsen gestrichen.</note>,<note type="footnote" n="11">Handschreiben an Rechberg <bibl type="archival">HHSTA., CBProt. 160c/1860</bibl>, <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 67</bibl>.</note> in Wien, als auf einem neutralen Boden abgehalten <ref xml:id="fn_4_3_233_o">werden sollte</ref>
+                     <note type="variant" n="o" target="#fn_4_3_233_o">Korrektur o–o Szécsens aus: <quote>werde</quote>.</note>, um sich den verschiedenen, vielleicht selbst terroristischen Einflüssen zu entziehen, die sich im Lande geltend machen könnten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> glaubte sich für deren Abhaltung in Siebenbürgen selbst aussprechen zu sollen, zumal man auch dort – in Hermannstadt oder Kronstadt – einen völlig ruhigen Beratungsort finden könne<note type="footnote" n="12">Die Versammlung wurde auf Antrag Keménys in Karlsburg (Alba Iulia) abgehalten. Dazu Fortsetzung MK. v. <date when="1860-12-15">15. 12. 1860</date>/I.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_233_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Instruktion für die ungarischen Obergespäne</head>
+                  <p>Der ungarische Hofkanzler las über Ah. Auftrag zwei Artikel des von ihm verfaßten Entwurfes einer Instruktion für die Obergespäne<note type="footnote" n="13">Vortrag Vays v. <date when="1860-11-14">14. 11. 1860</date>, Präs. 187, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3749/1860</bibl>; ein von Szőgyény paraphierter Entwurf <bibl type="archival">MOL., D 187, fol. 105 – 108</bibl>; in Punkt 8 der Instruktion hieß es: <quote>[Der Obergespan wird] wegen der Errichtung der Komitatshaiduken und -husaren das Nötige einleiten und über die Entfernung der Gendarmerie seinen Bericht der k. ungarischen Statthalterei unterbreiten.</quote>
+                     </note>, und zwar:</p>
+                  <p>1. Die Bestimmung, wonach die Obergespäne wegen Entfernung der Gendarmerie aus den Komitaten ihre Anträge zu erstatten haben würden, wofern dieses Institut in die unternommene Regelung der Verhältnisse nicht paßt. Einstweilen habe die Gendarmerie in Wirksamkeit zu bleiben.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> bemerkt, daß man nicht von oben aus die Beseitigung des einzigen Instituts provozieren sollte, welches dort unter den gegenwärtigen Untergangszuständen noch hält und gute Dienste leistet.</p>
+                  <p>Nachdem dieser Passus der Instruktion die Stellung der Gendarmerie schwächt, während es im Interesse der öffentlichen Ordnung gelegen ist, ihre Autorität möglichst lang zu sichern, geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> die Beseitigung des bezüglichen Satzes zu befehlen.</p>
+                  <p>2. Die Bestimmung, wonach zur Bestreitung der Besoldung für die gewählten Komitatsbeamten ein Pauschale aus dem Staatsschatze zu beheben ist<note type="footnote" n="14">Punkt 10 der Instruktion.</note>.</p>
+                  <p>Se. k. k. apost. Majestät geruhten die Frage zu stellen, ob es der Konsequenzen wegen nicht zweckmäßiger wäre, dieses Pauschale aus dem Landesfonds anzuweisen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> äußerten, daß dies dermal und bis zum nächsten Landtage nicht tunlich sei. Dieses vorausgesetzt, beantragte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi>, daß das fragliche Pauschale provisorisch, bis zur definitiven Regelung der Angelegenheit im Wege der landtäglichen Verhandlung als Vorschuß aus dem Staatsschatze für Rechnung des Landesfonds behandelt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hätte gewünscht, über den diesfälligen Geldbedarf näheres zu wissen, fand jedoch gegen diesen Antrag auf provisorische Erfolgung nichts zu erinnern; ebenso auch der Ministerpräsident, worauf Se. Majestät der Kaiser den Antrag Ah. zu genehmigen geruhten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> stellte die Anfrage, in welcher Art die Instruktion das Verhältnis der Obergespäne zu den Finanzbehörden regelt.</p>
+                  <p>
+                     <pb n="102" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s102.pdf"/>Nachdem der ungarische Hofkanzler den bezüglichen Artikel vorgelesen hatte<note type="footnote" n="15">Punkt 11 der Instruktion lautete: <quote>Die Staatskassen und Steuerämter werden vorläufig bis zum künftigen Landtage in ihrem bisherigen Stande, jedoch unter der Oberaufsicht des Obergespans, belassen; indessen kann hinsichtlich der etwaigen Veränderung des Dienstpersonales der Obergespan im Wege der k. ungarischen Statthalterei seinen Vortrag erstatten.</quote>
+                     </note>, zeigte Reichsrat v. Plener, daß diese Bestimmungen der dermal eingeführten Dienstesordnung in Angelegenheiten der direkten Steuern nicht entsprechen, welche Ordnung ganz intakt zu erhalten vom finanziellen Standpunkte aus lebhaft gewünscht werden muß, weil sonst alle einschlägigen Verhältnisse gelockert <ref xml:id="fn_4_3_233_p">und der Dienst und Erfolg der direkten Besteuerung preisgegeben würde</ref>
+                     <note type="variant" n="p" target="#fn_4_3_233_p">Korrektur p–p Pleners aus <quote>werden dürften</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> teilte ganz diese Ansicht und behielt sich vor, brevi manu mit Reichsrat v. Plener eine entsprechendere Textierung des Artikels zu vereinbaren.</p>
+                  <p>Gemäß der sogleich nach der Konferenz getroffenen Vereinbarung hätte der Artikel zu lauten: „Die Obergespäne treten in bezug auf die Angelegenheiten des Dienstes der direkten Besteuerung zu den Finanzbehörden und deren Organe in das Verhältnis der bisher bestandenen Komitatsvorstände.“<note type="footnote" n="16">Die Instruktion wurde mit Ah. E. v. <date when="1860-11-26">26. 11. 1860</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3749/1860</bibl>; anbei ein Exemplar der Instruktion.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_233_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Erfolgung der ungarischen Akten des Unterrichtsministeriums</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> referierte, daß von Seite des Unterstaatssekretärs Baron Helfert gegen die Erfolgung der Akten über Angelegenheiten des Unterrichts in Ungarn an die ungarische Hofkanzlei deswegen Anstände erhoben werden, weil die Attribute des Unterrichtsrates noch nicht Ah. normiert worden seien und das Unterrichtsministerium somit einstweilen noch ungarische Unterrichtssachen meritorisch zu erledigen haben werde<note type="footnote" n="17">Zu diesem Thema siehe auch MK. v. <date when="1860-10-29">29. 10. 1860</date>/I, Punkt 3. Mit Schreiben v. <date when="1860-11-04">4. 11. 1860</date>, Präs. 11/1860, hatte Hofkanzler Vay dem mit der Leitung des Ministeriums für Kultus und Unterricht betrauten Unter­staatssekretär Helfert die erfolgte Konstituierung der ungarischen Hofkanzlei mitgeteilt und ihn um die Ausfolgung der Ungarn betreffenden Akten gebeten. Helfert erwiderte am <date when="1860-11-09">9. 11. 1860</date>, er sei mit Hand­schreiben v. <date when="1860-10-21">21. 10. 1860</date> mit der Leitung des Ministeriums beauftragt worden, die bloße Konstituierung der Hofkanzlei berechtige ihn daher noch nicht zur Übergabe der Akten; auch sei der Unterrichtsrat noch nicht aktiviert, <bibl type="archival">AVA., Unterricht, Präs. 1838/1860</bibl>. Ein weiteres Schreiben Vays v. <date when="1860-11-14">14. 11. 1860</date>, Nr. 81/1860, bestimmte Helfert nicht, seine Meinung zu ändern, <bibl type="archival">ebd., Präs. 1880/1860</bibl>, so daß die ungarische Seite an die Ministerkonferenz herantrat.</note>. Diese Ansicht scheine nicht begründet, und jedenfalls dürfte der genannte Unterstaatssekretär bloß im Wege der ungarischen Hofkanzlei mit den ungarischen Landesbehörden zu verkehren haben.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten den Hofkanzler Baron Vay Ah. zu beauftragen, hierüber einen Vortrag zu erstatten<note type="footnote" n="18">Fortsetzung MK. II v. <date when="1860-12-20">20. 12. 1860</date>/II.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1860-11-26">26. November 1860</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1860-12-10">10. Dezember 1860</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

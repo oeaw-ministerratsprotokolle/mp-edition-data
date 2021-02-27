@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="2">Abteilung II</title>
+            <title level="s" type="sub">Das Ministerium Schwarzenberg</title>
+            <title level="m" type="main" n="4">Band 4</title>
+            <title level="m" type="sub">Oktober 1850 – <date when="1851-05-30">30. Mai 1851</date>
+            </title>
+            <title level="a" type="desc" n="439">Sitzung 439</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1851-01-07"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a2-b4-z439.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung II Das Ministerium Schwarzenberg, Band 4 Oktober 1850 – 30. Mai 1851</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2011">2011</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MKZ">57</idno>
+                  <idno type="KZ">28</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1851-01-07"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; V. Keine Angabe; BdE. (Schwarzenberg 8. 1.); BdE. und anw. Krauß 8. 1., Bach 8. 1., Schmerling 13. 1., Bruck, Thinnfeld 8. 1., Thun, Csorich, Kulmer (I–X) 11. 1.; abw. Schwarzenberg, Stadion.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-08">8. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-08">8. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-13">13. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8295">
+                     <surname>Bruck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8372">
+                     <surname>Thinnfeld</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-08">8. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7419">
+                     <surname>Thun</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8368">
+                     <surname>Csorich</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8303">
+                     <surname>Kulmer</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (I–X)</note>
+                  <note>BdE. <date when="1851-01-11">11. 1.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-08">1851-01-08</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8275">
+                     <surname>Stadion</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_2_4_439_1">Vorschriften über die Schneeschauflung und Postportofreihei</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_2_4_439_2">Polizeiorganisierung in Salzburg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_2_4_439_3">Gemeindeordnung für Trient</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_2_4_439_4">Freigeld von Inleuten und Auszüglern in Oberösterreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_2_4_439_5">Diäten der Bezirkshauptmannschaftsbeamten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_2_4_439_6">Pensionszulage für Johann Friedl</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_2_4_439_7">Auszeichnung für Tiroler Landes­verteidiger</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_2_4_439_8">Auszeichnung für Anton Dück</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_2_4_439_9">Urkundennachstempelung in Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_2_4_439_10">Todesurteil</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_2_4_439_11">Perin-Vogelsangsche Gerichtsangelegenheit</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_2_4_439_12">Verfügung mit den Kossuthschen Pretiosen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_2_4_439_13">Apotheker und Ärzte der ungarischen Aufständischen, Behandlung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_2_4_439_14">Preußisches Ausfuhrverbot</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_2_4_439_15">Auszeichnungs­anträge</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-2-04-0-18510107-P-0439" ana="a2-b4-z439">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml#a2-b4_z439.pdf">
+               <title type="num">Nr. 439</title>
+               <title type="descr">Ministerrat, Wien, <date when="1851-01-07">7. Jänner 1851</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; V. Keine Angabe; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> (Schwarzenberg 8. 1.); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Krauß 8. 1., Bach 8. 1., Schmerling 13. 1., Bruck, Thinnfeld 8. 1., Thun, Csorich, Kulmer (I–X) 11. 1.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Schwarzenberg, Stadion.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">28</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates, gehalten zu Wien am <date when="1851-01-07">7. Jänner 1851</date>.</head>
+               <div type="agenda_item" xml:id="top_2_4_439_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Vorschriften über die Schneeschauflung und Postportofreihei</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> legte den au. Vortrag und das zu erlassende Patent über die Grundentlastung im Großherzogtume Krakau mit dem Bemerken vor, daß diese beiden Aktenstücke im vollkommenen Einverständnisse mit den Ministern der Finanzen und der Justiz mit besonderer Berücksichtigung der eigentümlichen Verhältnisse dieses Landes ausgearbeitet, außerdem aber die allgemeinen, über diesen Gegenstand für Galizien angenommenen Bestimmungen beibehalten worden seien<note type="footnote" n="1">Der Vortrag des Ministerrates v. <date when="1851-01-15">15. 1. 1851</date> über die Durchführung der Grundentlastung in dem Gebiete des ehemaligen Freistaates Krakau mit dem entsprechenden Patent wurden mit Ah. E. v. <date when="1851-03-12">12. 3. 1851</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 51/1851</bibl>, das kaiserliche Patent v. <date when="1851-03-12">12. 3. 1851</date> publiziert als <bibl type="archival">RGBL. Nr. 89/1851</bibl>. Der Vortrag Bachs, Krauß’ und Schmerlings v. <date when="1851-01-15">15. 1. 1851</date> mit dem <quote>Entwurf der Verordnung über die Organe und das Verfahren desselben bei Durchführung der Grundentlastung in dem Gebiete des ehemaligen Freistaates Krakau</quote> erhielt ebenfalls am <date when="1851-03-12">12. 3. 1851</date> die kaiserliche Genehmigung, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 52/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Polizeiorganisierung in Salzburg</head>
+                  <p>Erhielt er die Zustimmung des Ministerrates zu der Organisierung der Polizeibehörde in Salzburg.</p>
+                  <p>Da die bisherige Versehung der Polizeiangelegenheiten daselbst durch einen exponierten Polizeikommissär sich als unzulänglich herausgestellt und die Stadt selbst als nunmehrige Kronlandshauptstadt um Einrichtung einer eigenen selbständigen Polizeidirektion gebeten hat, so würde der vom Minister angetragene Status in einem Direktor, einem Kommissär, zwei Konzeptsadjunkten und zwei Dienern zu bestehen haben<note type="footnote" n="2">Der Vortrag Bachs v. <date when="1851-01-02">2. 1. 1851</date> wurde nicht genehmigt, statt einer Polizeidirektion wurde auf kaiserlichen Befehl nur ein Polizei(ober)kommissariat eingerichtet. Der in diesem Sinn abgeänderte Vortrag erhielt am <date when="1851-02-02">2. 2. 1851</date> die kaiserliche Genehmigung, <bibl type="archival">ebd., MRZ. 56/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gemeindeordnung für Trient</head>
+                  <p>Brachte er die aus Versehen durch längere Zeit liegen gebliebene Gemeindeordnung für die Stadt Trient in Vortrag. Im wesentlichen stimmt sie mit jener für Bozen überein<note type="footnote" n="3">Zur Gemeindeordnung von Bozen siehe <ref type="protocol-link" target="MRP-1-2-03-0-18500810-P-0380.xml#top_2_3_380_5">MR. v. <date when="1850-08-10">10. 8. 1850</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b3-z380" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b3/pdf/a2-b3-z380.pdf" target="MRP-1-2-03-0-18500810-P-0380.xml">ÖMR. II/3, Nr. 380</ref>
+                        </bibl>.</note>; zu bemerken fand der Minister nur, daß darin nach dem Wunsche der städtischen Vertreter und Vertrauensmänner, der in anderen Gemeindeordnungen festgehaltene Unterschied zwischen Gemeindebürgern und Gemeindeangehörigen aufgegeben worden ist; daß dagegen<pb n="174" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s174.pdf"/> dem Verlangen der Vertreter, die nach dem allgemeinen Gemeindegesetze der Landesvertretung vorbehaltene Wirksamkeit in Gemeindesachen auf die Kreisvertretung zu übertragen, keine Folge gegeben werden konnte, weil hiermit nur den in Südtirol bestehenden Separationsgelüsten nachgegeben und zu bedenklichen Konsequenzen bei anderen Gemeinden Anlaß gegeben werden würde. Der Ministerrat fand hiergegen nichts zu erinnern<note type="footnote" n="4">Die Gemeindeordnung von Trient wurde mit Ah. E. v. <date when="1851-03-21">21. 3. 1851</date> auf den Vortrag Bachs v. <date when="1851-01-02">2. 1. 1851</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 61/1851</bibl>, genehmigt.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Freigeld von Inleuten und Auszüglern in Oberösterreich</head>
+                  <p>Der Minister des Inneren besprach weiters die von den obderennsischen Gutsbesitzern angesuchte Zulassung ihrer Ansprüche auf Entschädigung für den aufgehobenen Bezug des Freigeldes von dem beweglichen Nachlasse der Auszügler und Inleute<note type="footnote" n="5">Einige ehemalige Dominikalbesitzer aus Oberösterreich hatten mit Eingaben v. 20. 3. und dann v. <date when="1850-12-20">20. 12. 1850</date> gegen die unentgeltliche Aufhebung des Freigeldes vom beweglichen Vermögen der Inleute und Auszügler Einspruch erhoben. Dazu und zur entsprechenden Korrespondenz zwischen dem Innen-, Justiz- und Finanzministerium siehe <bibl type="archival">FA., FM., Präs. 13498/1850</bibl>.</note>.</p>
+                  <p>Nach dem Ah. Patente vom <date when="1848-09-07">7. September 1848</date> über die Aufhebung sämtlicher Untertansgiebigkeiten sind zwar alle Bezüge, die e nexu subditelae herrühren, von dem Anspruche auf Entschädigung ausgeschlossen, mithin auch die auf das obrigkeitliche und untertänige Schutzverhältnis gegründeten Freigelderbezüge. Allein, wichtige Billigkeitsrücksichten, insbesondere der Umstand, daß die Freigelder vom Nachlasse der Auszügler und Inleute meist zur Ausgleichung der den Grundherrschaften bei Güterabtretungen der Eltern an ihre Kinder zugegangenen Beeinträchtigung am Laudemium erhoben wurden, und daß die obderennsischen Dominien bei eigenem sehr kleinen Grundbesitze vornehmlich auf das Einkommen aus den sogenannten trockenen Gefällen angewiesen waren, bestimmten sowohl die zur Prüfung der gegenwärtigen Angelegenheit zusammengesetzte Kommission als auch den Minister des Inneren zu dem Antrage, die aus den fraglichen Freigeldern hergeleiteten Bezüge, gleich jenen der Jurisdiktionsgebühren zur Anmeldung nach Abzug der Steuer, die von ihrem Bezuge zu entrichten war, der Auslagen der Grundbuchsführung und des durch die Einnahmen an Tax- und Jurisdiktionsgebühren nicht bedeckten Teils der Ausgaben für politische und Justizverwaltung auf Grundlage des 30-jährigen Durchschnittes zuzulassen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte sich zwar in thesi nicht dagegen, den Patenten in dieser Beziehung eine Berücksichtigung zuteil werden zu lassen, da aber eben eine Verhandlung über die Gewährung einiger Erleichterungen im Zuge ist, welche bei Behandlung der Laudemialabzüge in Niederösterreich, Steiermark und Kärnten einzutreten haben sollen, so erachtete er, daß hiermit auch die Verhandlung über das vorliegende Begehren in Verbindung zu bringen wäre.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> war hiermit einverstanden und behielt sich vor, auf diesen Gegenstand seinerzeit in Verbindung mit dem letzteren zurückzukommen<note type="footnote" n="6">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-04-0-18510129-P-0448.xml#top_2_4_448_7">MR. v. <date when="1851-01-29">29. 1. 1851</date>/VII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Diäten der Bezirkshauptmannschaftsbeamten</head>
+                  <p>Die <ref xml:id="fn_2_4_439_a">Zehrungsgebühr bei Dienstreisen im Amtsbezirke</ref>
+                     <note type="variant" n="a" target="#fn_2_4_439_a">Korrektur a–a Bachs aus <quote>Diäten</quote>.</note> für die bezirkshauptmannschaftlichen Beamten sind mit 2 fr. <ref xml:id="fn_2_4_439_b">per Tag</ref>
+                     <note type="variant" n="b" target="#fn_2_4_439_b">Einfügung b–b Bachs.</note> bemessen. Das mag bei den gewöhnlichen<pb n="175" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s175.pdf"/> Dienstreisen innerhalb des eigenen Amtsbezirks hinreichen; bei Reisen außerhalb des eigenen Amtsbezirks in größerer Entfernung und auf längere Zeit reichen diese Diäten zum anständigen Unterhalte des Beamten nicht hin.</p>
+                  <p>Der Minister des Inneren machte daher den Antrag, diesen Beamten bei Dienstreisen außerhalb ihres Bezirks die charaktermäßigen Diäten zu bewilligen, welche sie ohnehin sonst niemals genießen würden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> wollte zwar das angegebene Motiv nicht gelten lassen, weil diese Gattung von Beamten durch ihre häufigen, stets wiederkehrenden Reisen für den geringeren Diätenbezug entschädigt werden. Da es indessen ohnehin in seiner Absicht liegt, in dem Diätenwesen eine allgemeine Reform in Antrag zu bringen, so erklärte er sich mit dem Antrage des Ministers des Inneren als einem Provisorium gegen dem einverstanden, daß nach Ablauf eines Jahres über die Resultate dieser Einrichtung behufs weiterer Maßnahmen berichtet werde.</p>
+                  <p>In diesem Sinne wird der Minister des Inneren unter Zustimmung des Ministerrates die Weisung hinausgeben<note type="footnote" n="7">Unter den Beständen des AVA., IM. konnte kein Hinweis auf diese Angelegenheit gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Pensionszulage für Johann Friedl</head>
+                  <p>Über das Ah. signierte Gesuch des jubilierten Kreisamtsboten Johann Friedl um eine Zulage zu seinem Ruhegenuß von 150 fr. jährlich machte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> (gegen das Einraten des Finanzministeriums) den Antrag, diesem 75 Jahre alten Diener, welcher 56 im Militare und Civili mit seltner Auszeichnung gedient hat, eine Zulage von 100 fr. jährlich bei Sr. Majestät zu erwirken.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte sich zwar im Grundsatze gegen die Verleihung einer höheren Pension als der Aktivitätsgehalt war; indessen wollte er dem von den übrigen Stimmen geteilten Antrage des Ministers des Inneren nicht direkt entgegentreten, vorausgesetzt, daß die Bewilligung durch die Hindeutung auf die ganz besonderen Verhältnisse des Bittstellers gegen mögliche Konsequenzen verklausuliert werde<note type="footnote" n="8">Der in diesem Sinne gestellte Vortrag Bachs v. <date when="1851-01-09">9. 1. 1851</date> erhielt mit Ah. E. v. <date when="1851-01-16">16. 1. 1851</date> die kaiserliche Genehmigung, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 81/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Auszeichnung für Tiroler Landes­verteidiger</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> brachte folgende Auszeichnungen für mehrere Tiroler aus Anlaß ihrer Mitwirkung bei der Landesverteidigung in Antrag: das goldene Verdienstkreuz für Kappeller, Dr. Wallnöfer, <ref xml:id="fn_2_4_439_c">das silberne für Gritsch, das silberne pro suis meritis für den Franziskanerpater Polycarpus Schlapp</ref>
+                     <note type="variant" n="c" target="#fn_2_4_439_c">Korrektur c–c Bachs aus: <quote>Rasch und Gritsch, das silberne mit Krone für Gritsch und Polycarpus</quote>.</note>,<note type="footnote" n="9">Mit Ah. E. und Handschreiben am dem Ordenskanzler bzw. an den Oberstkämmerer v. <date when="1851-01-22">22. 1. 1851</date> auf den Vortrag Bachs v. <date when="1851-01-04">4. 1. 1851</date> erhielten Anton Kappeller, Johann Wallnöfer, Thomas Gritsch und Polycarp Schlapp die beantragten Auszeichnungen, <bibl type="archival">ebd., MKZ. 62/1851</bibl>.</note> dann</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Auszeichnung für Anton Dück</head>
+                  <p>das goldene Verdienstkreuz mit der Krone für den Vorstand des Wiener Handlungsgremiums Dück, für seine Verdienste um die Errichtung der Gewölbewache<note type="footnote" n="10">Anton Dück erhielt mit Ah. E. und Handschreiben an den Ordenskanzler v. <date when="1851-01-14">14. 1. 1851</date> auf den Vortrag Brucks v. <date when="1851-01-08">8. 1. 1851</date> die beantragte Auszeichnung, <bibl type="archival">ebd., MKZ. 66/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Urkundennachstempelung in Ungarn</head>
+                  <p>Eine an denselben Minister gelangte Anfrage in betreff der Auffassung des Art. V des Stempelgesetzes für Ungern<note type="footnote" n="11">Zur Einführung des neuen Tax- und Stempelgesetzes in Ungarn siehe <ref type="protocol-link" target="MRP-1-2-03-0-18500719-P-0370.xml#top_2_3_370_8">MR. v. <date when="1850-07-19">19. 7. 1850</date>/VIII</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b3-z370" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b3/pdf/a2-b3-z370.pdf" target="MRP-1-2-03-0-18500719-P-0370.xml">ÖMR. II/3, Nr. 370</ref>
+                        </bibl>.</note>, in betreff der Nachstempelung der älteren Urkunden, wurde von dem Finanzminister als bereits durch dessen eigenen Erlaß an die Finanzlandesbehörde gelöst und abgetan erklärt, in dem die Gattung derjenigen Urkunden genau bezeichnet wurde, welche der Nachstempelung bis zu einer gewissen Frist unterliegen<note type="footnote" n="12">Der entsprechende Erlaß (K.) Krauß an Almásy v. <date when="1850-11-10">10. 11. 1850</date> in <bibl type="archival">FA., FM., Präs. 15791/1850</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Todesurteil</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> referierte über das Todesurteil wider Joseph Lukács und Johann Varga wegen Raubmordes mit dem Antrage auf Nachsicht der Todesstrafe, wogegen nichts zu erinnern war<note type="footnote" n="13">Joseph Lukács und Johann Varga wurde mit Ah. E. v. <date when="1851-01-14">14. 1. 1851</date> die Todesstrafe nachgesehen und der Oberste Gerichtshof angewiesen, eine angemessene zeitliche Strafe festzusetzen, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 76/1851</bibl>.</note>.</p>
+                  <p>An der Besprechung der nachstehenden Punkte hat der Minister Baron Kulmer nicht mehr teilgenommen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Perin-Vogelsangsche Gerichtsangelegenheit</head>
+                  <p>Eben dieser Minister [der Justizminister] teilte mit das Resultat seiner Beratung mit dem Generalprokurator und anderen Justizmännern über Art und Weise, auf welche der von Sr. Majestät in der Sitzung vom <date when="1851-01-02">2. l. M.</date> sub Nr. 23 gerügten taktlosen Motivierung des in der Diffamationsklage der Baronin Perin wider die Baronin Vogelsang gefällten Urteils remediert werden könnte<note type="footnote" n="14">Fortsetzung des <ref type="protocol-link" target="MRP-1-2-04-0-18510102-P-0438.xml#top_2_4_438_5">MR. v. <date when="1851-01-02">2. 1. 1851</date>/V</ref>.</note>.</p>
+                  <p>Das Resultat der Beratung war, daß es kein Mittel gebe, die Beweggründe eines richterlichen Urteils zu kassieren, wenn das Erkenntnis selbst aufrecht bleibt, und daß es am angemessensten sein dürfte, die Sache, die nun wieder vergessen sei, nicht vom Neuen zur Publizität zu bringen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> war dagegen des Erachtens, daß dem üblen Eindrucke und den irrigen Konsequenzen, welche die Veröffentlichung jener Motivierung durch die Presse hervorgerufen hat, dadurch abgeholfen werden könnte, wenn in einer der nächsten Gerichtssitzungen durch den Generalprokurator eine Verwahrung gegen die ganz unberufene Auslegung ad protocollum gegeben würde, welche die Freiin v. Perin der gedachten Motivierung gegeben hat, indem, wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hinzusetzte, eigentlich in der Intention des Gerichts nur das war, zu erkennen, daß die Perin durch die Bezeichnung der Parteieigenschaft, welcher sie anzugehören nicht nur bekannt, sondern sich selbst rühmet, offenbar sich an ihrer Ehre nicht gekränkt finden könnte.</p>
+                  <p>Der hiernach bei dem Gerichte ad protocollum zu nehmende Akt wäre sodann durch die Gerichtszeitung zur Kenntnis des Publikums zu bringen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> behielt sich vor, hierwegen die entsprechende Weisung an den Generalprokurator zu erlassen, nachdem die übrigen Stimmen sich damit einverstanden erklärt hatten, daß der Versuch zur nachträglichen Milderung des durch die Veröffentlichung des Erkenntnisses gegebenen Ärgernisses auf diesem Wege gemacht werde<note type="footnote" n="15">Der entsprechende Akt, <bibl type="archival">AVA., JM., Präs. 11/1851</bibl>, liegt nicht mehr ein.</note>.<pb n="177" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s177.pdf"/>
+                  </p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Thun</rs>
+                     </hi> wünschte lebhaft, daß der Versuch gelingen möge, obwohl ihm nicht klar ist, wie der Gerichtshof bei der Unzulässigkeit der Einwendung der Wahrheit der vorgeworfenen Beschuldigung aus dem Dilemma herauskommen kann, welches darin liegt, daß entweder die Baronin Vogelsang gestraft werden muß, wenn ihre Beschuldigungen etwas Unehrenhaftes etc. enthielten, oder daß, wenn sie darum nicht verurteilt wird, darin nur die Bestätigung liegt, wie es nichts Unehrenhaftes sei, der Revolutionspartei anzugehören.</p>
+                  <p>Übrigens machte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> darauf aufmerksam, daß auf seine Veranlassung bereits in der „Volkszeitung“ ein Artikel aufgenommen worden war, worin die Indiskretion der Baronin Perin einer scharfen Kritik unterzogen wurde<note type="footnote" n="16">Der Artikel war bereits in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18501225">Oesterreichischen Volkszeitung</ref>
+                           </title> v. <date when="1850-12-25">25. 12. 1850</date>
+                        </bibl> erschienen. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-04-0-18510115-P-0442.xml#top_2_4_442_3">MR. v. <date when="1851-01-15">15. 1. 1851</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Verfügung mit den Kossuthschen Pretiosen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> referierte über die Verfügung mit den bei Gefangennehmung der Kossuthschen Kinder aufgegriffenen, zur Deckung ihrer mit 624 fr. anerloffenen [sic!] Verpflegskosten zu veräußernden Pretiosen und Effekten<note type="footnote" n="17">Zur Internierung der Kinder Kossuths siehe <ref type="protocol-link" target="MRP-1-2-01-0-18491027-P-0196.xml#top_2_1_196_1">MR. v. <date when="1849-10-27">27. 10. 1849</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b1-z196" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b1/pdf/a2-b1-z196.pdf" target="MRP-1-2-01-0-18491027-P-0196.xml">ÖMR. II/1, Nr. 196</ref>
+                        </bibl>, <ref type="protocol-link" target="MRP-1-2-02-0-18500121-P-0259.xml#top_2_2_259_2">MR. v. <date when="1850-01-21">21. 1. 1850</date>/II</ref>, <quote>ebd. II/2, Nr. 259</quote> und <ref type="protocol-link" target="MRP-1-2-02-0-18500205-P-0272.xml#top_2_2_272_2">MR. v. <date when="1850-02-05">5. 2. 1850</date>/II</ref>, <quote>ebd. II/2, Nr. 271</quote>.</note>; unter selben befindet sich ein silberner Lorbeerkranz und eine mit Edelsteinen besetzte goldene Schreibfeder, welche Gegenstände nicht öffentlich zu veräußern, sondern an die k. k. Schatzkammer abzugeben wären, damit sie nicht etwa von Parteigenossen als Reliquien ihres Führers zu Demonstrationen benützt werden mögen.</p>
+                  <p>Auf Einladung des Finanzministers wird der Kriegsminister die betreffenden Akten dem ersteren abtreten, um die Sache auf den ordentlichen Weg zu leiten, und der Minister des Inneren wird die Veranstaltung treffen, daß das Kontumazialverfahren wider Kossuth betrieben, auch wider Pulszky, wider den actu noch keine Untersuchung anhängig ist, eingeleitet werde<note type="footnote" n="18">Kossuth und Pulszky wurden schließlich durch ein Kriegsgericht am <date when="1851-09-22">22. 9. 1851</date> zum Tode verurteilt, siehe dazu <bibl type="secondary">
+                           <author>Hermann</author>, Megtorlás az 1848–49-es foradalom és szabadságharc után 96 f.</bibl> Fortsetzung des Gegenstandes über die Kinder Kossuths in <ref type="protocol-link" target="MRP-1-2-04-0-18510303-P-0462.xml#top_2_4_462_2">MR. v. <date when="1851-03-03">3. 3. 1851</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Apotheker und Ärzte der ungarischen Aufständischen, Behandlung</head>
+                  <p>Auf die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> vorgetragene Anfrage des Großwardeiner Militärdistriktskommandos, ob, da überhaupt die zwangsweise Abstellung der ehemaligen Honvéds zum Militär aufgehört hat<note type="footnote" n="19">Siehe dazu <ref type="protocol-link" target="MRP-1-2-02-0-18500312-P-0298.xml#top_2_2_298_1">MR. v. <date when="1850-03-12">12. 3. 1850</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b2-z298" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b2/pdf/a2-b2-z298.pdf" target="MRP-1-2-02-0-18500312-P-0298.xml">ÖMR. II/2, Nr. 298</ref>
+                        </bibl>.</note>, nunmehr auch diejenigen, welche als Apotheker und Ärzte in der Insurgentenarmee gedient haben, nur nach den allgemeinen Rekrutierungsvorschriften zu behandeln seien, wird vom Minister des Inneren einstimmig mit den übrigen bejahend geantwortet<note type="footnote" n="20">Unter den Beständen des KA., KM., Präs, Allg. und MKSM., des MHL. und des AVA., IM. konnte kein Hinweis auf diese Angelegenheit gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Preußisches Ausfuhrverbot</head>
+                  <p>Über die Anfrage des Statthalters von Böhmen, ob nicht, da von Seite Preußens am <date when="1850-12-12">12. Dezember 1850</date> die Ausfuhr von Schlachtvieh und Getreide verboten worden, unsererseits<pb n="178" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s178.pdf"/> mit einer Repressalie vorzugehen sei, erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> – einstimmig mit dem Ministerrate – daß dieses unter den dermal geänderten Verhältnissen nicht angezeigt sei<note type="footnote" n="21">Schreiben Mecsérys an Krauß v. <date when="1850-12-27">27. 12. 1850</date>. Krauß antwortete am <date when="1850-01-07">7. 1. 1850</date>, entsprechend diesem Ministerratsbeschlusse, daß es dabei zu bleiben habe, kein Ausfuhrverbot nach Preußen zu erteilen, alles in <bibl type="archival">FA., FM., Präs. 18375/1850</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_439_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Auszeichnungs­anträge</head>
+                  <p>Erhielt der Finanzminister die Zustimmung des Ministerrates zu nachstehenden Auszeichnungs­anträgen: a) für den Zollassistenten Woyton für seine 1848 den k. k. Truppen geleisteten wichtigen Dienste und für Salvierung von Ärarialgeldern das goldene Verdienstkreuz<note type="footnote" n="22">Adalbert Woyton erhielt die beantragte Auszeichnung mit Ah. E. und Handschreiben an den Ordenskanzler v. <date when="1851-01-21">21. 1. 1851</date> auf den Vortrag Krauß’ v. <date when="1851-01-07">7. 1. 1851</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 121/1851</bibl>.</note>; b) für den Aufseher im königlichen Palast zu Venedig Storaro wegen seiner Treue in Bewahrung der Kostbarkeiten das silberne Verdienstkreuz<note type="footnote" n="23">Leonardo Storaro erhielt die beantragte Auszeichnung mit Ah. E. und Schreiben an den Ordenskanzler v. <date when="1851-01-15">15. 1. 1851</date> auf den Vortrag Krauß’ v. <date when="1851-01-07">7. 1. 1851</date>, <bibl type="archival">ebd. MKZ. 87/1851</bibl>.</note>; c) für den Finanzwachkommissär Myszkowski das goldene, die <ref xml:id="fn_2_4_439_d">Respizienten Frenzel und Halla das silberne Verdienstkreuz mit und den Oberaufseher</ref>
+                     <note type="variant" n="d" target="#fn_2_4_439_d">Korrektur d–d Krauß’ aus: <quote>Oberaufseher Halla das silberne Verdienstkreuz mit und die Respizienten Frenzel und</quote>.</note> Ehrlich das silberne Verdienstkreuz ohne Krone wegen Dämpfung einer Unruhe bei der Rekrutierung<note type="footnote" n="24">Miron von Myszkowski, Philipp Halla, Anton Frenzel und Eduard Ehrlich erhielten die beantragte Auszeichnung mit Ah. E. und Schreiben an den Ordenskanzler v. <date when="1851-01-16">16. 1. 1851</date> auf den Vortrag Krauß’ v. <date when="1851-01-07">7. 1. 1851</date>, <bibl type="archival">ebd. MKZ. 93/1851</bibl>.</note>; d) für den nach 45 Dienstjahren in Ruhestand tretenden Kassier in Temesvár Pasconi v. Löwenthal<note type="footnote" n="25">Julian Pasconi v. Löwenthal erhielt die beantragte Auszeichnung mit Ah. E. und Schreiben an den Ordenskanzler v. <date when="1851-01-15">15. 1. 1851</date> auf den Vortrag Krauß’ v. <date when="1851-01-07">7. 1. 1851</date>, <bibl type="archival">ebd. MKZ. 86/1851</bibl>.</note> und e) den Rechnungsoffizial Wachsmann in Siebenbürgen wegen seiner 1848er Verdienste das goldene Verdienstkreuz<note type="footnote" n="26">Joseph Wachsmann erhielt die beantragte Auszeichnung mit Ah. E. und Schreiben an den Ordenskanzler v. <date when="1851-01-21">21. 1. 1851</date> auf den Vortrag Krauß’ v. <date when="1851-01-07">7. 1. 1851</date>, <bibl type="archival">ebd. MKZ. 109/1851</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1851-01-08">8. Jänner 1851</date>. Schwarzenberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolls zur Kenntnis. Franz Joseph. Wien, den <date when="1851-01-16">16. Jänner 1851</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

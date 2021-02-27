@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="115">Sitzung 115</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-09-01"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z115.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">2064</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-09-01"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Wessenberg; BdE. 2. 9. und anw. Doblhoff (keine BdE.), Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; BdE. Franz Karl (12. 9.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-09-12">12. 9.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_115_1">Militärische Angelegenheiten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_115_2">Unterstellung beider slawonischer Grenzinfanterieregimenter unter den Befehl des Warasdiner-Karlstädter Generalkommandos</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_115_3">Organisationsänderung des Kriegsministeriums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_115_4">Wünsche der ungarischen Minister</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_115_5">Ansuchen Jellačić' um Geld zur Auszahlung der Truppe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_115_6">Getreideausfuhrverbot nach Krain</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_115_7">Künftige Organisierung der italienischen Besitzungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_115_8">Projektierte Eisenbahn vom neuen Kärntnertor nach Hütteldorf</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_115_9">Beschäftigtenstand bei öffentlichen Arbeiten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480901-P-0115" ana="a1-1848_z115">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z115.pdf">
+               <title type="num">Nr. 115</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-09-01">1. September 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> 2. 9. und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff (keine <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice>), Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (12. 9.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">2064</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-09-01">1. September 1848</date> unter dem Vorsitze des Conseilspräsidenten, Ministers des Hauses und des Äußern Freiherrn v. Wessenberg.</head>
+               <div type="agenda_item" xml:id="top_1_1_115_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Militärische Angelegenheiten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Graf Latour</rs>
+                     </hi> brachte folgende Gegenstände in Antrag: a) mit dem au. Vortrage vom 25. August d. J., KZ. 2845, die Ah. Bewilligung eines Generalpardons für die Deserteurs der k. k. italienischen Truppenkörper vom Feldwebel und Wachtmeister abwärts auf die Dauer von drei Monaten und Ausdehnung dieses Ah. Gnadenaktes auf alle innerhalb des erwähnten Zeitraumes zurückkehrenden Deserteurs der ganzen k. k. österreichischen Armee<note type="footnote" n="1">Der Vortrag Latours wurde mit Ah. E. v. <date when="1848-09-08">8. 9. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1908/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4885/1848</bibl>. Auf Vortrag Latours v. <date when="1848-09-09">9. 9. 1848</date> wurden überdies allen in Italien stationierten und treu gebliebenen italienischen Soldaten zwei, allen außerhalb Italiens treu gebliebenen italienischen Soldaten ein Jahr ihrer achtjährigen Militärpflicht mit Ah. E. v. <date when="1848-09-19">19. 9. 1848</date> nachgelassen. <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2009/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 5176/1848</bibl>.</note>; b) mit dem au. Vortrag vom 25. August d. J., KZ. 2848, den pensionierten Titulargeneralmajor Ignaz Szereday v. Szent Karamsay für den erledigten Elisabeth Theresianischen Stiftungsplatz dritter Klasse<note type="footnote" n="2">Auf Vortrag Latours wurde Szereday v. Szent Karamsay der erledigte Stiftungsplatz mit Ah. E. v. <date when="1848-09-08">8. 9. 1848</date> verliehen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1911/1848</bibl>.</note>; c) mit dem au. Vortrage vom 20. August d. J., Z. 2849, die Ag. Bewilligung einer Badeunterstützung von 40 fr. für jeden der zwölf im Vortrage namentlich aufgeführten mittellosen subalternen Offiziere, welche wegen ihrer vor dem Feinde erhaltenen Wunden das Badner Bad im dortigen Militärbadhause und in der zweiten diesjährigen Badeperiode daselbst gebraucht haben<note type="footnote" n="3">Der Vortrag Latours wurde mit Ah. E. v. <date when="1848-09-09">9. 9. 1848</date> resolviert, <quote>ebd., MRZ. 1912/1848</quote>.</note>; d) mit dem Vortrage vom 29. August d. J., Z. 2847, die Versetzung des Generalmajors und Brigadiers zu Triest, Victor v. Pontis, in den zeitlichen Ruhestand mit der höheren Generalmajorspension von 2000 fr.<note type="footnote" n="4">Mit Ah. E. v. <date when="1848-09-08">8. 9. 1848</date> wurde dieser Vortrag Latours in allen Punkten bewilligt, <quote>ebd., MRZ. 1910/1848</quote>.</note>; e) mit dem Vortrage vom 29. August d. J., Z. 2846, die Ag. Genehmigung der Erhöhung des Standes der wirklichen Obersten im Generalquartiermeisterstabe von vier auf sechs<note type="footnote" n="5">Mit Ah. E. v. <date when="1848-09-08">8. 9. 1848</date> wurde aufgrund dieses Vortrages Latours der Stand von vier auf sechs erhöht, <quote>ebd., MRZ. 1909/1848</quote>, und <bibl type="archival">KA., HKR., KM., Präs. 4884/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Unterstellung beider slawonischer Grenzinfanterieregimenter unter den Befehl des Warasdiner-Karlstädter Generalkommandos</head>
+                  <p>Mit dem weiteren au. Vortrage vom 29. August d. J., Z. 2241<note type="footnote" n="6">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1907/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4882/1848</bibl>.</note>, erstattet der Kriegsminister die Anzeige, daß sich die beiden slawonischen Grenzinfanterieregimenter (das Broder und Gradiskaner) zur Sicherung ihrer Nationalität und um die durch die separatistischen Tendenzen des ungarischen Ministeriums bedrohte Integrität der österreichischen Monarchie aufrecht zu erhalten, freiwillig unter die Befehle des Warasdiner-Karlstädter Generalkommandos gestellt haben und nicht mehr von dem die Befehle des ungarischen Ministeriums befolgenden slawonisch-syrmischen Generalkommando abhängen wollen<note type="footnote" n="7">Zum Streit über die Kompetenzverteilung in der Militärgrenze vgl. <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_12">MR. v. <date when="1848-04-30">30. 4. 1848</date>/XII</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480501-P-0024.xml#top_1_1_24_12">MR. v. <date when="1848-05-01">1. 5. 1848</date>/XII</ref>
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480504-P-0027.xml#top_1_1_27_2">MR. v. <date when="1848-05-04">4. 5. 1848</date>/II</ref>, und <ref type="protocol-link" target="MRP-1-1-01-0-18480524-P-0050.xml#top_1_1_50_10">MR. v. <date when="1848-05-24">24. 5. 1848</date>/X</ref>.</note>. Das Generalkommando in Agram hat, um diese Regimenter vor einer gänzlichen Auflösung zu bewahren (wie dieses mit den in Syrmien und im Banate liegenden leider schon der Fall ist), solche der Brigade zu Vinkovcze und dem Divisionskommando zu Agram bezüglich des vorgeschriebenen Dienstganges zugewiesen.</p>
+                  <p>Der Kriegsminister findet diese, unter den gegenwärtigen außerordentlichen Verhältnissen des Grenzgebietes notwendige Verfügung des Generalkommandos zu Agram nicht zu beanständen<note type="footnote" n="8">Der in Anm. 6 zit. Vortrag wurde mit Ah. E. v. <date when="1848-09-08">8. 9. 1848</date> zur Kenntnis genommen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Organisationsänderung des Kriegsministeriums</head>
+                  <p>In dem au. Vortrage vom 28. August d. J., Z. 2240<note type="footnote" n="9">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1905/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 5019/1848</bibl>.</note>, findet sich der Kriegsminister aus Anlaß der Ah. genehmigten Umgestaltung des ehemaligen Hofkriegsrates in das Kriegsministerium<note type="footnote" n="10">Zum Aufgehen des Hofkriegsrates im neugeschaffenen Kriegsministerium siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480509-P-0032.xml#top_1_1_32_9">MR. v. <date when="1848-05-09">9. 5. 1848</date>/IX</ref>.</note> und um aus der fortschreitenden Entwicklung dieser neuen Gestaltung auch den Finanzen eine Erleichterung zu verschaffen, zu folgenden Anträgen veranlaßt: die Hofräte Jakob Rosner und Bernhard Weckbecker, von denen der erstere 81 Lebens- und 65 Dienstjahre, der letztere 71 Lebens- und 46 Dienstjahre zählt, mit ihrem bisherigen Aktivitätsgehalte in den Ruhestand zu versetzen und jedem von ihnen das Ritterkreuz des kaiserlich-österreichischen Leopoldordens taxfrei zu verleihen; das bisherige Sanitätsdepartement N aufzulassen, dessen Geschäfte mit jenem des Departements D durch Hofrat Joachim v. Einkhemmer unter Beigabe des dirigierenden Stabsfeldarztes Dr. Kottmayer für wichtige Sanitätsgegenstände und die Angelegenheiten des feldärztlichen Personales mit der ihm zu bewilligenden Zulage von 400 fr. und dem kompetenten Quartiersgenusse besorgen zu lassen; den Hofsekretär Franz Winkler, welcher 68 Jahre alt ist und 47 Jahre dient, in den Pensionsstand mit seinem bisherigen Gehalte normalmäßig zu versetzen und ihm den Titel und Charakter eines Amtsrates zu verleihen; an die Stelle desselben den Oberverpflegsverwalter Hermann Keller v. Schleitheim zum Ministerialsekretär im Zentralmilitärverpflegsdepartement zu ernennen; seinen Ersatz aber beim niederösterreichischen Generalkommando durch den Oberverpflegsverwalter Ehrler aus Peterwardein leisten zu lassen; ferner den Expeditsdirektor Regierungsrat Sartorius und den Registratursdirektor Johann Bugel (welche über 70 Jahre alt sind und über 50 Jahre dienen) mit ihren Aktivitätsgehalten in den Ruhestand zu versetzen und dem ersteren das Ritterkreuz der eisernen Krone III. Klasse <pb n="610" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s610.pdf"/>taxfrei, dem letzteren aber eine Personalzulage jährlicher 300 fr. zu verleihen und ihre Stellen, und zwar die Expeditsdirektorsstelle durch den Hofsekretär Paulin Feuerle und die Registratursdirektorsstelle durch den Hofsekretär Johann Sommer zu besetzen. Schließlich trägt der Kriegsminister an, daß die Hofräte und Hofsekretäre des bestandenen Hofkriegsrates künftig, wie es bei den übrigen Ministerien der Fall ist, Ministerialräte und Ministerialsekretäre benannt werden<note type="footnote" n="11">Der in Anm. 9 zit. Vortrag wurde mit Ah. E. v. <date when="1848-09-09">9. 9. 1848</date> in allen Punkten bewilligt.</note>.</p>
+                  <p>Gegen die Anträge des Kriegsministers sub I und III wurde von keiner Seite etwas zu erinnern gefunden.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Wünsche der ungarischen Minister</head>
+                  <p>Der Kriegsminister eröffnete dem Ministerrate, daß die gegenwärtig hier anwesenden ungarischen Minister, wie er aus einer mit ihnen gepflogenen Besprechung entnommen, drei Begehren stellen, nämlich: a) daß ein Befehl erlassen werde, alle in Ungarn befindlichen, auch nichtungarischen Truppen hätten unbedingt gegen die Serben zu kämpfen; b) daß allen kroatischen Zivil- und Militärautoritäten befohlen werde, keine Feindseligkeiten gegen Ungarn auszuüben, und c) daß Se. Majestät der Kaiser sich auch längere Zeit nach Pest begeben möchten.</p>
+                  <p>Der Kriegsminister bemerkte ihnen, ohne sich in eine Erörterung des letzten Punktes einzulassen, daß hier nur die Vereinigung einiger Ministerien Abhilfe schaffen könne, wogegen dieselben erinnerten, daß kein ungarisches Ministerium bei dem gegenwärtigen Reichstage es durchzubringen vermöchte, das Gesetz des letzten Reichstages hinsichtlich der Minister zurückzunehmen<note type="footnote" n="12">Der am <date when="1847-11-12">12. 11. 1847</date> in Preßburg eröffnete ungarische Reichstag hatte eine Reihe von Gesetzen – die sog. ungarische Verfassung des Jahres 1848 – beschlossen, die von Ferdinand am <date when="1848-04-11">11. 4. 1848</date> sanktioniert wurde. Im § 14 des 3. Gesetzesartikels waren die einzelnen Ministerien aufgezählt und der § 15 desselben Gesetzesartikels bestimmte, daß jedem Ministerium ein besonderer Minister vorzustehen habe; siehe dazu <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 88</bibl>.</note>.</p>
+                  <p>Der Kriegsminister Graf Latour bemerkte denselben weiter, daß das hiesige Ministerium seine Ansichten hierüber in eine Sr. Majestät überreichten Staatsschrift bereits ausgesprochen habe<note type="footnote" n="13">Zur diesbezüglichen Staatsschrift siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480827-P-0113.xml#top_1_1_113_6">MR. v. <date when="1848-08-27">27. 8. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480829-P-0114.xml#top_1_1_114_1">MR. v. <date when="1848-08-29">29. 8. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Ansuchen Jellačić' um Geld zur Auszahlung der Truppe</head>
+                  <p>Derselbe Minister brachte zur Kenntnis des Ministerrates, daß er ein dringendes Schreiben vom Ban, Baron Jellačić, erhalten habe, worin derselbe zur notwendigen Auszahlung der Löhnungen etc. abermals um Geldsubsidien bittet<note type="footnote" n="14">Schreiben Jellačić’ v. <date when="1848-08-29">29. 8. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 4719/1848</bibl>.</note> und den Bedarf mit Rücksicht auf die Rückstände für die Monate Juni, Juli und August d. J. und die zugewachsene Übernahme zweier slawonischer Grenzregimenter<note type="footnote" n="15">Siehe dazu Tagesordnungspunkt II.</note> auf 481.000 fr., für den Monat September allein auf 170.000 fr. berechnet.</p>
+                  <p>Nach der Ansicht des Kriegsministers bleibt, um die schon öfter besprochenen Nachteile von dem kroatisch-slawonischen Militär etc. und von Ungarn selbst abzuwenden, nichts anderes übrig, als den Ban abermals mit Geld zu unterstützen, weil das ungarische Ministerium bestimmt erklärt hat, ihm kein Geld zu schicken, und im Ministerrate <pb n="611" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s611.pdf"/>bereits früher beschlossen wurde, den Ban zu unterstützen, wenn das ungarische Ministerium nicht bis zu Ende dieser Woche antwortet<note type="footnote" n="16">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480826-P-0112.xml#top_1_1_112_2">MR. v. <date when="1848-08-26">26. 8. 1848</date>/II</ref>.</note>.</p>
+                  <p>Es wurde beschlossen, dem Banus aus der Kriegskasse, ohne übrigens von der Ursache zu sprechen, eine Vorschuß von 100.000 fr. für die Löhnungen der Truppen auf Rechnung der Einkommenszweige der Krone Ungarns anzuweisen. Die allenfällige Abrechnung mit den Finanzen kann am Schlusse des Verwaltungsjahres geschehen<note type="footnote" n="17">Mit Schreiben (K.) v. <date when="1848-09-02">2. 9. 1848</date> wurde Jellačić von dieser Entscheidung informiert und gleichzeitig das Universalkriegszahlamt angewiesen, die erforderliche Summe zur Verfügung zu stellen, <bibl type="archival">KA., HKR., KM., Präs. 4719/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480917-P-0121.xml#top_1_1_121_6">MR. v. <date when="1848-09-17">17. 9. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Getreideausfuhrverbot nach Krain</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> teilt eine Anzeige des Grafen Welsersheim mit, nach welcher der Ban von Kroatien, aus Rücksicht für die Verpflegung seiner Armee, die Ausfuhr von Getreide nach Krain verboten und die Kundmachung hievon auch in diesem Lande verlangt hat, welche von dem Gouverneur Grafen Welsersheim auch verfügt worden ist<note type="footnote" n="18">Diese Anzeige Welsersheims konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+                  <p>Diese Maßregel des Banus läßt sich nach dem Dafürhalten des Ministerrates keineswegs rechtfertigen. Während man den Ban hierorts nach Tunlichkeit mit Geld unterstützt, soll Krain durch das erwähnte Verbot nicht in Nachteil versetzt werden. Derselbe wäre demnach bei Übersendung des oberwähnten Vorschusses dringend aufzufordern, das gedachte Ausfuhrverbot wieder rückgängig zu machen, was der Kriegsminister ernstlich zu tun übernahm<note type="footnote" n="19">Mit Schreiben (K.) v. <date when="1848-09-02">2. 9. 1848</date> ersuchte dann Latour Jellačić, diese Verfügung zurückzunehmen, <bibl type="archival">KA., HKR., KM., Präs. 4719/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Künftige Organisierung der italienischen Besitzungen</head>
+                  <p>Auf die vom Minister des Inneren gestellte Anfrage, ob in Beziehung auf die künftige Organisierung von Italien das Nötige bereits vorbereitet sei, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der auswärtigen Angelegenheiten</rs>
+                     </hi>, daß er den Grafen Montecuccoli angegangen habe, seine Ansichten diesfalls mitzuteilen<note type="footnote" n="20">Schreiben (K.) Wessenbergs an Montecuccoli v. <date when="1848-08-04">4. 8. 1848</date>, <bibl type="archival">HHSTA., StK., Provinzen Lombardo-Venetien 19, Fasz. Korrespondenz mit den Pazifizierungs-Hofkommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 287 ff</bibl>.</note>. Graf Montecuccoli habe bereits seine vorläufige Äußerung mitgeteilt<note type="footnote" n="21">Montecuccoli hatte bereits mit Schreiben v. <date when="1848-08-17">17. 8. 1848</date> an Wessenberg ausführlich seine Ansichten dargelegt, <quote>ebd., fol. 311–324</quote>; abgedruckt in <bibl type="secondary">
+                           <author>Filipuzzi</author>, Relazioni diplomatiche 216–222</bibl>.</note>, welche gute Daten enthalte, aber einen ausführlichen Bericht über diesen Gegenstand nachzutragen versprochen, welcher abgewartet werden müsse<note type="footnote" n="22">Ein weiterer ausführlicher Bericht Montecuccolis über diesen Gegenstand ist unter den Beständen des HHSTA., StK., nicht vorhanden.</note>.</p>
+                  <p>Hinsichtlich der Organisierung der Justiz bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, daß seine und des Grafen Montecuccoli ausgesprochenen Ansichten, jemanden vom Obersten Gerichtshofe mit einer bestimmten Instruktion dahin abzusenden, vollkommen übereinstimmen und sich bereits begegnet haben<note type="footnote" n="23">Gemeint ist damit die Entsendung Pederzanis, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480810-P-0100.xml#top_1_1_100_2">MR. v. <date when="1848-08-10">10. 8. 1848</date>/II</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480813-P-0102.xml#top_1_1_102_1">MR. v. <date when="1848-08-13">13. 8. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480816-P-0105.xml#top_1_1_105_2">MR. v. <date when="1848-08-16">16. 8. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Projektierte Eisenbahn vom neuen Kärntnertor nach Hütteldorf</head>
+                  <p>Aus Rücksicht für die Beschäftigung von Arbeitern und in der Hoffnung, ihrer fünf- bis sechstausend durch zwei Jahre bei einer Privatunternehmung anbringen zu können, machte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> auf ein vor mehreren Jahren bereits verhandeltes, nun neuerdings zur Sprache gebrachtes Projekt aufmerksam, nämlich das Projekt von Sichrowsky und Konsorten, eine Eisenbahn vom neuen Kärntnertor am linken Wienufer nach Hietzing und Hütteldorf als Anfang einer künftigen Reichsbahn gegen Salzburg auf Aktien zu bauen, bei welchem Unternehmen mehrere tausend Arbeiter durch zwei Jahre Beschäftigung finden könnten<note type="footnote" n="24">Heinrich Sichrowsky, Generalsekretär der Kaiser Ferdinand-Nordbahn, hatte dieses Projekt mit Anträgen v. 6. 5. und <date when="1844-07-16">16. 7. 1844</date> eingericht. Nach vier Jahren war Sichrowsky nicht mehr sicher, ob das Projekt in der 1844 vorgeschlagenen Art und Weise durchgeführt werden könnte, Schreiben Sichrowskys an die niederösterreichische Landesregierung v. <date when="1848-08-14">14. 8. 1848</date>, <bibl type="archival">NÖLA., G 4, Z. 33833/1848</bibl>; anbei die beiden Anträge von 1844.</note>. Die Unternehmer verlangen bloß eine mäßige Garantie vom Staate.</p>
+                  <p>Gegen dieses Projekt wurde im Ministerrate geltend gemacht, daß eine Eisenbahn von Wien nach Hietzing und Hütteldorf selbst für Vergnügungszwecke nicht notwendig erscheine, indem dieser Zweck viel leichter auch von Hetzendorf aus nötigenfalls erreicht werden könnte, die Ausführung der gedachten Bahn großen Schwierigkeiten und Anständen in Expropriationshinsichten unterworfen wäre und die Rentabilität dieser kurzen Strecke Bahn mit Grund in Zweifel gezogen werden müßte<note type="footnote" n="25">Weder unter den Akten des FA., FM., Präs., noch unter denen des FA., Montan-Präsidial-Acten (AM. Präs), findet sich irgendein Hinweis, daß dieses Projekt im Jahr 1848 weiter verfolgt wurde.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_115_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Beschäftigtenstand bei öffentlichen Arbeiten</head>
+                  <p>Schließlich brachte der Minister der öffentlichen Arbeiten zur Kenntnis des Ministerrates, daß die Zahl der bei öffentlichen Bauten beschäftigten Arbeitern, welche in den Tagen vor der Lohnherabsetzung<note type="footnote" n="26">Zur Herabsetzung der Arbeitslöhne siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480818-P-0107.xml#top_1_1_107_1">MR. v. <date when="1848-08-18">18. 8. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480820-P-0108.xml#top_1_1_108_11">MR. v. <date when="1848-08-20">20. 8. 1848</date>/XI</ref>.</note> 14.800 betrug, heute sich auf 11.200 beläuft und mit Ende der Woche auf 10.500 herabsinken wird. Neue Arbeiter werden nicht mehr aufgenommen<note type="footnote" n="27">Zu der Beschäftigtenzahl vgl. den Bericht des Oberbaudirektors v. <date when="1848-08-29">29. 8. 1848</date>, der allerdings von 13.601 Arbeitern auf 15 Bauplätzen spricht, <bibl type="archival">FA., Montan-Präsidial-Acten (AM. Präs.) 480/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480902-P-0116.xml#top_1_1_116_4">MR. v. <date when="1848-09-02">2. 9. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-09-01">1. September 1848</date>.</dateline>
+                  <seg type="other">Anhergelangt den <date when="1848-09-11">11. 9. 1848</date>.</seg>
+                  <seg type="other">Ges. 12. September. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

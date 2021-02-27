@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="051">Sitzung 51</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-25"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z51.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">960</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-25"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner, Lebzeltern (interimistischer Leiter des Außenministeriums); außerdem anw. Hye (nur bei I), Endlicher (nur bei I), Montecuccoli (nur bei I); BdE. Pillersdorf (27. 5.), Franz Karl (1. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+                  <note>interimistischer Leiter des Außenministeriums</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-27">27. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-01">1. 6.</date>
+                  </note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr3440">
+                     <surname>Hye</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I)</note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8082">
+                     <surname>Endlicher</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I)</note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8233">
+                     <surname>Montecuccoli</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_51_1">Schließung der Universitätsräume; Auflösung der Akademischen Legion</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_51_2">Reise Palatins Erzherzog Stephans nach Innsbruck</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_51_3">Blockade Triests</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_51_4">Verschiebung der Reichstagswahlen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_51_5">Oberösterreichische Adresse: an a) den Kaiser, b) das Ministerium</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_51_6">Kundmachung über die Bestellung Doblhoffs und seines Stellvertreters</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_51_7">Reorganisierung des Ministeriums für öffentliche Arbeiten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_51_8">Aufregung in der Militärgrenze</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_51_9">Verfügungen über den Umtausch von Banknoten in Gold und Silber</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480525-P-0051" ana="a1-1848_z51">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z51.pdf">
+               <title type="num">Nr. 51</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-25">25. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner, Lebzeltern (interimistischer Leiter des Außenministeriums); außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Hye (nur bei I), Endlicher (nur bei I), Montecuccoli (nur bei I); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (27. 5.), Franz Karl (1. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">960</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-05-25">25. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_51_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Schließung der Universitätsräume; Auflösung der Akademischen Legion</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident, Minister des Inneren, Freiherr v. Pillersdorf</rs>
+                     </hi> brachte zunächst die doppelte wichtige Maßregel A) die Schließung der Universität, des Polytechnikums etc., d. i. der betreffenden Lokalitäten<note type="footnote" n="1">Zur Schließung der Universität siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480523-P-0049.xml#top_1_1_49_5">MR. v. <date when="1848-05-23">23. 5. 1848</date>/V</ref>.</note> und B) die Auflösung der Akademischen Legion<note type="footnote" n="2">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480520-P-0045.xml#top_1_1_45_8">MR. I v. <date when="1848-05-20">20. 5. 1848</date>/VIII</ref>.</note> als eines abgesonderten Bestandteiles der Nationalgarde in Anregung.</p>
+                  <p>Daß die Ausführung beider Maßregeln unerläßlich sei, darüber bestehe kein Zweifel. Es handle sich nur um die Frage, ob beide Maßregeln zugleich oder abgesondert zur Ausführung zu gelangen haben.</p>
+                  <p>Ad A) Was die Schließung der Räume der Wiener Universität und des Polytechnikums (denn als Lehranstalten sind sie bereits geschlossen)<note type="footnote" n="3">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480512-P-0035.xml#top_1_1_35_2">MR. v. <date when="1848-05-12">12. 5. 1848</date>/II</ref>, Anm. 11.</note> anbelangt, wurde sich darin geeiniget, daß sie ohne Verzug und zwar noch heute um 11 Uhr nachts auszuführen sei, um der studierenden Jugend ihren Vereinigungspunkt und damit den Anlaß zu politischen Umtrieben zu nehmen. Werden die Lokalitäten, die Aula, geschlossen, so werden sich die Studenten zerstreuen, ein großer Teil wird sich auf die Ferien begeben und schon auf diese Art wird viel zur Herstellung der Ruhe und Ordnung beigetragen. Zum Behufe der Ausführung dieser Schließung wären die nötigen Aufträge zu erlassen (was auch gleich ex consilio geschehen ist): an die Inspektion dieser Gebäude, an das Gardekommando, an den Wiener Magistrat und an diejenige vertraute und verläßliche Person, welche mit der Ausführung dieser Maßregel beauftragt werden würde.</p>
+                  <p>Diese Aufträge gingen im wesentlichen dahin: an die Gebäudeinspektion<note type="footnote" n="4">Eine schriftliche Weisung konnte unter den Beständen des Universitätsarchivs des AVA., IM., Präs., und des AVA. CUM., Präs., nicht gefunden werden.</note>: die Tore zu schließen und geschlossen zu halten, es wurde die Vorsicht angedeutet, mit welcher die in den gedachten Häusern wohnenden Personen aus- und einzulassen sind, und daß sich die Hausinspektion in Ansehung der Detailweisungen an dasjenige Individuum zu wenden hätte, welches mit der Ausführung dieser Maßregel beauftragt ist.</p>
+                  <p>
+                     <pb n="321" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s321.pdf"/>An das Gardekommando: die im Universitäts- und im polytechnischen Institutsgebäude befindliche Wache auf die Hauptwache der Nationalgarde in dem bürgerlichen Zeughause zu verlegen, die Adjutantur in einer entsprechenden Lokalität der Bürgermeisterswohnung zu unterbringen. Unmittelbar nach der Entfernung der Wache seien die sämtlichen Lokalitäten der Universität und des Polytechnischen Institutes zu schließen und geschlossen zu halten<note type="footnote" n="5">Ein schriftlicher Beleg für diese Weisung konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., RTA., gefunden werden.</note>.</p>
+                  <p>Der Wiener Magistrat wäre hievon zu dem Ende zu verständigen, daß er den Sicherheitsausschuß anweise, wenn sich vor diesen Gebäuden größere Menschenmassen anhäufen sollten, die nötigen Maßregeln zu ergreifen<note type="footnote" n="6">Ein schriftlicher Beleg für diese Weisung konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+                  <p>Mit der Ausführung der materiellen Schließung wurde der Regierungsrat Professor Endlicher beauftragt, an ihn werden die Hausinspektionen gewiesen und er hat in vorkommenden Fällen die einzelnen Anfragen und Bedenken derselben zu lösen.</p>
+                  <p>ad B) Ob mit der Schließung der Universität die Auflösung der Akademischen Legion gleichzeitig oder von ihr abgesondert zu geschehen habe? Für die gleichzeitige Auflösung wurden im wesentlichen folgende Rücksichten geltend gemacht: solange die Akademische Legion als ein von der Nationalgarde abgesonderter Körper besteht, werden immer politische Umtriebe darin stattfinden, sie wird immer der Herd von Aufregung und Unordnung sein, und es sei wünschenswert, ja notwendig, diesem Zustande sobald als möglich ein Ende zu machen; der gegenwärtige Augenblick sei zu dieser Auflösung ein günstiger, weil die Bürgerschaft wegen der durch die Legion veranlaßten Abreise Ew. Majestät und wegen der sehr bedauerlichen Vorfälle des 15. Mai d. J. gegen die Studenten eingenommen ist; die Studenten würden dadurch überrascht sein, weil sie die Auflösung jetzt nicht erwarten; es sei im hohen Grade bedenklich, die Verbindung der Studenten mit den Arbeitern länger zu dulden, welche, wie bekannt ist, von den Studenten mit Geld versehen werden; der Widerstand der Studenten könnte sich nicht gleich recht organisieren. Im Falle der Auflösung der Legion wäre vorzüglich mit der Nationalgarde der Stadt zu operieren und das Militär konsigniert zu halten, damit es sogleich zur Hand sei.</p>
+                  <p>Für die Verschiebung der Auflösung auf einen späteren Zeitpunkt wurde angeführt, daß gegenwärtig noch die meisten Studenten hier seien und Widerstand leisten dürften; daß ein Teil der Nationalgarde das Fortbestehen der Studentenlegion wünscht und mit ihr fraternisiert; daß sie die Arbeiter für sich haben; daß, wenn Widerstand geleistet wird und Blut fließen sollte, dies die Rückkehr Ew. Majestät nach Wien nur erschweren dürfte, u. dgl. – Diese Maßregeln wären daher zu teilen, die Universitätslokalitäten sogleich zu schließen und später die Auflösung der Akademischen Legion nachfolgen zu lassen. In kurzer Zeit werden sich die Studenten zerstreuen, hier nur wenige zurückbleiben, und es könnte mittlerweile die Anordnung getroffen werden, daß die Nationalgarde nur einen Körper bilde und kein von ihr getrenntes Korps bestehen <pb n="322" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s322.pdf"/>dürfe, was als Organisierungsakt den moralischen Widerstand der Akademischen Legion schwächen würde.</p>
+                  <p>Vor einem definitiven Beschlusse in dieser wichtigen Angelegenheit glaubte der Ministerrat noch die als Autorität in Angelegenheiten der Akademischen Legion und der studierenden Jugend überhaupt anerkannten Professoren Hye und Regierungsrat Endlicher zu vernehmen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Professor Hye</rs>
+                     </hi> erklärte sich unbedingt für die gleichzeitige Auflösung der Legion. Nach seiner Ansicht wäre eine Proklamation an alle Teilnehmer der Akademischen Legion zu erlassen, darin des Manifestes Ew. Majestät de dato Innsbruck <date when="1848-05-20">20. Mai 1848</date>
+                     <note type="footnote" n="7">Zu diesem Manifest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480524-P-0050.xml#top_1_1_50_20">MR. v. <date when="1848-05-24">24. 5. 1848</date>/XX</ref>.</note> zu erwähnen und anzuführen, daß die Vorgänge vom 15. Mai Grund der Entfernung Ew. Majestät von Wien seien, daß von allen Seiten der Monarchie, von Ständen, Städten, Korporationen Eingaben und Adressen einlangen, worin Protest gegen den Ew. Majestät angetanen Zwang eingelegt und sogar der Wunsch ausgesprochen wird, der Reichstag möge sich unter solchen Umständen nicht in Wien, sondern in irgend einer anderen Provinz versammeln.</p>
+                  <p>Diese Rücksichten hätten den Minister des öffentlichen Unterrichtes bestimmt, dem Ministerrate vorzuschlagen und dieser habe beschlossen: 1. Die Akademische Legion von Wien sei als ein von der Nationalgarde abgesondert bestehender Körper von heut aufgelöst, und haben sich die Studenten der Nationalgarde ihrer Bezirke einreihen zu lassen. 2. Die Mitglieder des Lehrkörpers, die Doktoren und Doktoranden haben ihren Eintritt in die Nationalgarde von heute binnen acht Tagen in Vollzug zu setzen. 3. Den Studenten als ordentlichen Zuhörern der Fakultäten bleibt es freigestellt, ob sie sich der Nationalgarde ihres Bezirkes einreihen lassen wollen oder nicht. 4. Im ersten Falle ist ihre Einreihung binnen acht Tagen zu vollziehen. 5. Studenten, welche, um ihren Studien gehörig obliegen zu können, davon keinen Gebrauch machen wollen, haben ihre Waffen binnen acht Tagen an das zur Abführung bestimmte Depot auszuliefern. 6. Die Gebäude der Universität, des Polytechnischen Institutes und der Akademie der bildenden Künste sind von heute an geschlossen. 7. Andere der Akademischen Legion unbefugt eingereihte Individuen haben ihre Waffen binnen drei Tagen von heute bei Vermeidung von Zwangsmaßregeln abzugeben. 8. Die erweislich an den Gewehren vorgenommenen Verbesserungen werden den betreffenden Individuen angemessen vergütet. 9. Das Oberkommando der Akademischen Legion wird mit der Vollziehung dieser Maßregel beauftragt.</p>
+                  <p>Der Regierungsrat Professor Endlicher erklärte sich, was die Notwendigkeit der baldigen Auflösung der Akademischen Legion anbelangt, mit den vorstehenden Anträgen einverstanden und bemerkte, daß, wenn von der Androhung und nötigenfalls Vollziehung des Standrechtes im Falle der Widersetzlichkeit Gebrauch gemacht werden wollte, Hoffnung vorhanden sei, mit diesem einzigen Worte diese Maßregel zur Ausführung zu bringen; nur wären die Schließung der Gebäude und die Auflösung der Legion durch einige Stunden voneinander zu trennen. Die Schließung der Aula hätte heute in jener Stunde zu geschehen, wo die Studenten dort nicht mehr versammelt sind (um 11 Uhr nachts), die Auflösung der Legion dagegen morgen früh, wo die Studenten gleichfalls noch zerstreut sind. Es wäre die Nationalgarde der Stadt dazu zu <pb n="323" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s323.pdf"/>verwenden, das Militär konsigniert zu halten, die Straßen und Zugänge zur Aula zu besetzen u. dgl.</p>
+                  <p>Professor Hye bemerkte, daß die Kundmachung, welche die Auflösung der Legion verfügt, schon heute durch den Druck in Bereitschaft sein müßte, um gleich nach der Sperrung der Tore der Universität angeheftet zu werden. Hierdurch würde der Widerstand, der allenfalls geleistet werden wollte, den Charakter der Ungesetzlichkeit erhalten, weil die Akademische Legion schon als aufgelöst erschiene, und man könnte dann mit dem Standrechte gesetzlich und wirksam vorgehen.</p>
+                  <p>Mit diesen Modalitäten erklärte sich der Ministerrat für die unverweilte Auflösung der Akademischen Legion.</p>
+                  <p>Die nähere Ausführung wurde dem der Ministerratssitzung in Ansehung dieses Gegenstandes beiwohnenden Regierungspräsidenten Grafen Montecuccoli übertragen, welcher sich hierbei der beiden Professoren Hye und Endlicher bedienen könne<note type="footnote" n="8">Durch ein von Montecuccoli unterzeichnetes Plakat v. <date when="1848-05-25">25. 5. 1848</date> wurde die Auflösung der Akademischen Legion bekanntgegeben, abgedruckt bei <bibl type="secondary">
+                           <author>Peyer</author>, Wiener Chronik Nr. 47, 200ff.</bibl>
+                     </note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Graf Latour</rs>
+                     </hi> übernahm es, die erforderlichen Weisungen dem Kommandierenden Grafen Auersperg zu erteilen<note type="footnote" n="9">Mit Tagesbefehl v. <date when="1848-05-25">25. 5. 1848</date> verkündete Auersperg die Auflösung der Akademischen Legion und die Eingliederung der berechtigten Mitglieder in die Wiener Nationalgarde, abgedruckt bei <quote>ebd., Nr. 48, 203.</quote> Zu den Vorgängen am <date when="1848-05-25">25. 5. 1848</date> siehe <bibl type="secondary">
+                           <author>Molisch</author>, Akademische Legion 107f.</bibl>, <bibl type="secondary">
+                           <title>Reschauer - Smets</title>, Revolution 2, 253–256</bibl>, <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 2, 252.</bibl> Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480526-P-0052.xml#top_1_1_52_1">MR. v. <date when="1848-05-26">26. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Reise Palatins Erzherzog Stephans nach Innsbruck</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> brachte zur Kenntnis des Ministerrates, daß Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Palatin hier durchgereist sind<note type="footnote" n="10">Pillersdorf war davon durch Pulszky unterrichtet worden, vgl. dazu die Antwort Pillersdorfs v. <date when="1848-05-25">25. 5. 1848</date>, <bibl type="archival">MOL., H 6, Z. 1731/1848.</bibl>
+                     </note>, um Sich zu Ew. Majestät nach Innsbruck zu begeben und Allerhöchstdieselben der Loyalität der ungarischen Nation zu versichern. In seinem Gefolge sei der Minister des Kultus und eine andere hochgestellte Person gewesen<note type="footnote" n="11">Der ungarische Kultusminister war Joseph Baron Eötvös; die hochgestellte Person war Staatsrat Czedényi. Zur Reise des Palatins Stephan nach Innsbruck siehe <bibl type="secondary">
+                           <author>Niederhauser</author>, Sturm 105.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Blockade Triests</head>
+                  <p>Derselbe Minister zeigte an, daß eingegangenen Nachrichten von Triest zufolge eine feindliche Flotte (die neapolitanische) vor Triest erschienen sei und den Hafen blockiert habe. Am 23. gegen 10 Uhr vormittags haben Alarmschüsse vom Kastell die Stadt in Bewegung gesetzt<note type="footnote" n="12">Die Blockade Triests durch sardinische, neapolitanische und venezianische Kriegsschiffe wurde am <date when="1848-05-22">22. 5. 1848</date> aufgenommen, siehe dazu <bibl type="secondary">
+                           <author>Benko</author>, K. k. Kriegsmarine 229ff.</bibl> Unter den Beständen des AVA., IM., Präs. ist ein derartiger Bericht nicht mehr vorhanden; siehe dazu aber einen ähnlichen Bericht Gyulais an Latour v. <date when="1848-05-23">23. 5. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 1850/1848.</bibl>
+                     </note>. Die Nationalgarde und die Garnison griffen zu den Waffen, Batterien wurden aufgeführt und die von Pola angekommene österreichische Flotte stellte sich in Schlachtordnung. Die feindlich Flotte soll 28 Segel stark und darunter 5 Kriegsdampfboote sein. Der Geist unseres Militärs ist gut und Graf Gyulai entschlossen, sich auf das äußerste zu verteidigen<note type="footnote" n="13">Zur guten Stimmung der österreichischen Streitkräfte in Triest siehe den Bericht Gyulais v. <date when="1848-05-24">24. 5. 1848</date>, <quote>ebd., Präs. 1887/1848,</quote> und v. <date when="1848-05-25">25. 5. 1848</date>, <quote>ebd., Präs. 1886/1848</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480531-P-0057.xml#top_1_1_57_1">MR. v. <date when="1848-05-31">31. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Verschiebung der Reichstagswahlen</head>
+                  <p>Durch die abgedrungenen Konzessionen vom 15. Mai<note type="footnote" n="14">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref>.</note> und die darauf gefolgte Erklärung vom 16. Mai<note type="footnote" n="15">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480516-P-0039.xml#top_1_1_39_1">MR. v. <date when="1848-05-16">16. 5. 1848</date>/I</ref>.</note> hätte es von der Wahl für den Senat ganz abzukommen, und die Wahl für die Kammer der Abgeordneten Modifikationen zu erleiden.</p>
+                  <p>Der Minister des Inneren fragte sich an, was zu geschehen habe, ob nämlich die Wahlen für den konstituierenden Reichstag auszuschreiben oder dieser Gegenstand einstweilen etwa auf acht Tage zu ajournieren sei. Er erklärte sich für das letztere, weil man dann erst die Erklärungen aus den Provinzen kennen und wissen werde, ob von den Bestimmungen des 15. Mai abzugehen und sich an die Konstitution vom 25. April<note type="footnote" n="16">Zur Pillersdorfschen Verfassung siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot2 top1">MR. II v. <date when="1848-04-22">22. 4. 1848</date>/I</ref>.</note> und das nachgefolgte Wahlgesetz zu halten sein werde oder nicht.</p>
+                  <p>Der Ministerrat erklärte sich mit dieser Ansicht einverstanden<note type="footnote" n="17">Fortsetzung des Gegenstandes über die Einberufung des österreichischen Reichstages in <ref type="protocol-link" target="MRP-1-1-01-0-18480530-P-0056.xml#top_1_1_56_1">MR. v. <date when="1848-05-30">30. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Oberösterreichische Adresse: an a) den Kaiser, b) das Ministerium</head>
+                  <p>Baron Pillersdorf teilte ferner dem Ministerrate mit eine Adresse der obderennsischen Stände a) an Ew. Majestät<note type="footnote" n="18">Der Text der Adresse abgedruckt in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-05-28">28. 5. 1848</date>.</bibl>
+                     </note> und b) an das Ministerium<note type="footnote" n="19">Diese Adresse konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., Kab. Kanzlei, gefunden werden.</note>.</p>
+                  <p>In der ersteren sprechen die Stände die loyalsten Gesinnungen gegen Ew. Majestät aus, tadeln die Vorgänge in Wien vom 15. Mai, wünschen, daß Änderungen nur im gesetzlichen Wege vorgenommen werden u. dgl.</p>
+                  <p>In der zweiten Adresse drücken sie dem Ministerium ihren Dank für die Fortsetzung ihres Amtes aus, protestieren gegen die Vorgänge des 15. Mai, fordern das Ministerium auf, keine inkonstitutionellen Gewalten neben sich zu dulden und zu wirken, daß Ew. Majestät möglichst bald nur verantwortliche Ratgeber zur Seite stehen<note type="footnote" n="20">Der Kaiser hatte der mit der Überbringung der Adresse betrauten oberösterreichischen Deputation mündlich seinen Dank für die loyale Gesinnung ausgesprochen, siehe dazu <bibl type="secondary">
+                           <title>Constitutionelle Donau-Zeitung</title> V. <date when="1848-05-29">29. 5. 1848</date>.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Kundmachung über die Bestellung Doblhoffs und seines Stellvertreters</head>
+                  <p>Derselbe Minister erwähnte hierauf der Verlegenheit, in welcher sich der Ministerialreferent Karl Ritter v. Kleyle deshalb befinde, daß er nicht förmlich als Vertreter des abwesenden Handelsministers Freiherrn v. Doblhoff bestellt sei<note type="footnote" n="21">Zur Bestellung Kleyles zum Vertreter Doblhoffs siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480523-P-0049.xml#top_1_1_49_6">MR. v. <date when="1848-05-23">23. 5. 1848</date>/VI</ref>.</note>. Er bittet daher, das Ministerium wolle sowohl den Minister des Handels als auch ihn als seinen Stellvertreter ämtlich ankündigen, zu welchem Behufe er gleich den Entwurf des diesfälligen Erlasses vorlegte.</p>
+                  <p>Der Ministerrat beschloß diese Angelegenheit dem Baron Doblhoff nachzusenden und seine Äußerung darüber zu vernehmen<note type="footnote" n="22">In seinem Bericht v. <date when="1848-06-02">2. 6. 1848</date> äußerte sich Doblhoff folgendermaßen zu seiner Vertretung: <quote>Rücksichtlich meines Stellvertreters statt des auf Urlaub abgegangenen Ritters v. Kleyle muß ich die Bestimmung und dringliche Verfügung dem löblichen Ministerrath anheimstellen, da ich nicht weiß, wer sich derzeit noch in Wien befindet und zu diesem provisorischen Provisorium geeignet ist,</quote>
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 986/1848.</bibl> Ein weiterer Hinweis auf diesen Gegenstand konnte in den Wiener Archiven nicht gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Reorganisierung des Ministeriums für öffentliche Arbeiten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> bemerkte, die seiner Verwaltung zugewiesenen Gegenstände bestehen aus dem Baudepartement der gewesenen Vereinigten Hofkanzlei, aus der montanistischen Hofkammer und einem Teile des Hofkammerpräsidiums etc. Eine Reorganisation insbesondere des Montanistikums erscheine dringend notwendig. Er beabsichtige, die montanistische Hofkammer aufzulösen und das ganze Montanhüttenwesen in einer Sektion und drei kleineren Unterabteilungen zu vereinigen, von denen die eine das Hüttenwesen, die zweite die Berggerichte und die dritte die Kanzleigeschäfte unter sich hätte. Er werde hierüber einen Vortrag an Ew. Majestät erstatten, wünsche aber noch vor Erstattung dieses Vortrages in dem Personalstande eine andere Einteilung zu machen.</p>
+                  <p>Gegen eine solche vorläufige Personaleinteilung, wie sie auch bei anderen Ministerien vorgenommen wurde, kann nach dem Erachten des Ministerrates kein Anstand obwalten<note type="footnote" n="23">Mit Ministerialzirkulandum v. <date when="1848-05-26">26. 5. 1848</date> an die Hofkammer im Münz- und Bergwesen und die Zentralbergbaudirektion ordnete Baumgartner die hier skizzierte Reorganisierung an. Die den einzelnen Abteilungen zugewiesenen Beamten sind in der angeschlossenen Beilage aufgelistet, <bibl type="archival">FA., Montan-Präsidial-Akten (AM., Präs.) 38/1848.</bibl> Mit Ah. E. v. <date when="1848-06-07">7. 6. 1848</date> wurde auf Vortrag Baumgartners v. <date when="1848-05-23">23. 5. 1848</date> die künftige Verwaltungsorganisierung des Ministeriums der öffentlichen Arbeiten resolviert, <quote>ebd., 82/1848.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Aufregung in der Militärgrenze</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Graf Latour</rs>
+                     </hi> machte die Mitteilung, daß in der Militärgrenze eine so große Aufregung herrsche, daß die dortigen Bewohner zu ihrem Schutze ihre Kameraden aus Italien zurückrufen wollen<note type="footnote" n="24">Vgl. dazu den Bericht Hrabowskys v. <date when="1848-05-22">22. 5. 1848</date> über die Haltung der Kroaten gegen die Ungarn, <bibl type="archival">KA., HKR., KM., Präs. 1910/1848.</bibl>
+                     </note>.</p>
+                  <p>Der Kriegsminister beabsichtige darüber einen Vortrag an Ew. Majestät zu erstatten und anzutragen, Ew. Majestät wollen im Wege des Feldmarschalls Grafen Radetzky an die Grenzer in Italien eine Erklärung ergehen lassen, worin gesagt wird, daß man für die Ruhe in ihrem Lande sorge und daß sie, sobald man ihrer in Italien nicht benötigen werde, in ihr Land würden zurückgeschickt werden. Den Feldmarschall wird Graf Latour davon vorläufig in Kenntnis setzen<note type="footnote" n="25">Konzept dieses Vortrags von Latour v. <date when="1848-05-26">26. 5. 1848</date> und Entwurf eines an Radetzky zu erlassenden Handschreibens, <quote>ebd., Präs. 1848/1848.</quote> Vortrag Latours v. <date when="1848-05-26">26. 5. 1848</date> wurde mit Ah. E. v. <date when="1848-05-31">31. 5. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 951/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 2168/1848,</bibl> anbei Ah. Handschreiben an Radetzky. Mit Schreiben v. <date when="1848-06-04">4. 6. 1848</date> informierte Latour Welden über den Stand der Dinge und stellte ihm frei, diese Erklärung auch bei der Reservearmee zu publizieren, <quote>ebd.</quote>
+                     </note>.</p>
+                  <p>Der Ministerrat findet sich jedoch nicht berufen, hierüber ein meritorisches Gutachten abzugeben.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_51_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Verfügungen über den Umtausch von Banknoten in Gold und Silber</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> bittet in dem vorliegenden au. Vortrage vom <date>25. Mai d. J.</date>, KZ. 1809<note type="footnote" n="26">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 824/1848,</bibl> und <bibl type="archival">FA., FM., Präs. 1737/1848.</bibl>
+                     </note>, um die nachträgliche Ah. Genehmigung in Form eines Patentes jener Verfügungen, welche auf dem Grunde des Ministerratsbeschlusses<note type="footnote" n="27">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480521-P-0047.xml#top_1_1_47_14">MR. v. <date when="1848-05-21">21. 5. 1848</date>/XIV</ref>.</note> die niederösterreichische Regierung durch ihre Zirkularien vom 22. Mai<note type="footnote" n="28">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480522-P-0048.xml#top_1_1_48_22">MR. v. <date when="1848-05-22">22. 5. 1848</date>/XXII</ref> Anm. 50.</note>
+                     <pb n="326" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s326.pdf"/>zur öffentlichen Kenntnis gebracht hat und welche folgende Anordnungen enthalten: Beschränkung der Verwechslung der Banknoten auf den Betrag von 25 fr., Ausgabe der Banknoten von 1 und 2 fr., Annahme der Banknoten bei allen Zahlungen nach ihrem vollen Nennwerte, wenn jedoch die Zahlung in Gold oder ausländischen Silbermünzen gebührt, Leistung der Zahlung nach Wahl des Schuldners in dieser Münze oder nach dem Werte der letzteren, wie er zur Zeit der Zahlung besteht, in Banknoten.</p>
+                  <p>Der Ministerrat erlaubt sich diesen Gegenstand der Ah. Genehmigung Ew. Majestät in tiefster Ehrfurcht zu unterziehen<note type="footnote" n="29">Der in Anm. 26 zit. Vortrag wurde mit Ah. E. v. <date when="1848-06-02">2. 6. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 960/1848.</bibl> In diesem Vortrag ist auch der Zusatz, der im <ref type="protocol-link" target="MRP-1-1-01-0-18480522-P-0048.xml#top_1_1_48_22">MR. v. <date when="1848-05-22">22. 5. 1848</date>/XXII</ref> beschlossen wurde, enthalten. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480608-P-0065.xml#top_1_1_65_4">MR. v. <date when="1848-06-08">8. 6. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Den <date when="1848-05-27">27. Mai 1848</date>, Pillersdorf.</seg>
+                  <seg type="other">Ges. 1. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Innsbruck, am <date when="1848-06-02">2. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

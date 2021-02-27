@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="056">Sitzung 56</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-30"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z56.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">965</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-30"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Baumgartner, außerdem anw. Cordon; abw. Latour, Doblhoff, Lebzeltern; BdE. Pillersdorf (31. 5.), Franz Karl (4. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8231">
+                     <surname>Cordon</surname>
+                  </persName>
+                  <note>außerdem anw. Cordon</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-31">31. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-04">4. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_56_1">Ausschreibung der Reichstagswahlen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_56_2">Verpflichtungen des Ministeriums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_56_3">Maßnahmen in Galizien bei der Abreise Graf Franz Stadions nach Innsbruck</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_56_4">Festhalten des Fürsten Miloš durch Jellačić; Verlegung des diplomatischen Korps nach Innsbruck</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_56_5">Aufregung wegen der Übergabe von Kanonen an die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_56_6">Ordensverleihung an Franz Graf Gyulai</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_56_7">Bewachung der Burg durch Militär und Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_56_8">Arbeitslosenprojekt; Herausgabe von Papiergeld</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480530-P-0056" ana="a1-1848_z56">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z56.pdf">
+               <title type="num">Nr. 56</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-30">30. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Baumgartner, außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Cordon; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Latour, Doblhoff, Lebzeltern; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (31. 5.), Franz Karl (4. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">965</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-05-30">30. Mai 1848</date> unter dem Vorsitze des interimistisch mit dem Präsidio des Ministerrates beauftragten Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_56_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ausschreibung der Reichstagswahlen</head>
+                  <p>Mit Beziehung auf die im Ministerrate vom 20. Mai gefaßten Beschlüsse zu XI. des Protokolls in betreff der Einleitungen zu den Wahlen für den auf den 26. Juni ausgeschriebenen Reichstag stellte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> in Frage, ob nunmehr mit diesen Einleitungen im Sinne der Konzessionen des 15. Mai<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref>.</note> und der hiernach am 20. Mai beschlossenen Modifikationen des Wahlgesetzes<note type="footnote" n="2">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480520-P-0045.xml#top_1_1_45_11">MR. v. <date when="1848-05-20">20. 5. 1848</date>/XI</ref>.</note> vorzugehen sei.</p>
+                  <p>Da diese Modifikationen nicht bedeutend sind, also auch leicht ausgeführt werden können, da ferner, nach Versicherung des der Beratung beigezogenen Hofrates v. Salzgeber, der mit der diesfälligen Ausarbeitung beauftragt ist, die Wahlbezirke bereits gebildet, mithin die Hauptvorbereitungen zu den Wahlen bereits getroffen sind, und es nur mehr darauf ankommen wird, die neuen Bestimmungen über Herabsetzung des Altersminimums für die Wählbarkeit als Abgeordneter von 30 auf 24 Jahre, dann über die Wahl eines Wahlmanns auf 250 Einwohner in Städten ohne Unterschied der Bevölkerung in Anwendung zu bringen, so erklärten sich alle Stimmen für die unverzügliche Einleitung der Wahlen.</p>
+                  <p>Aus den Provinzen sind keine dem Wesen der Konzessionen des 15. Mai feindliche Äußerungen eingelangt oder laut geworden, nur über die Form, in welcher diese Konzessionen erlangt worden, hat man sich mißbilligend ausgesprochen; bestände aber auch wirklich in der einen oder andern Provinz eine Abneigung gegen diese in Wien erreichten Konzessionen, so wird sich dieselbe tatsächlich entweder durch Nichtvornahme der Wahlen, oder durch die Wahl solcher Männer kundgeben, die sich für die Beibehaltung der frühern Bestimmungen ausgesprochen haben. Mit Ausnahme des in einigen Tagesblättern ausgesprochenen Wunsches einer Vermehrung der Anzahl der Abgeordneten ist kein Verlangen nach weiteren Änderungen rege geworden; jener Wunsch aber scheint zu einer Berücksichtigung nicht geeignet zu sein, weil, abgesehen davon, daß er nicht als allgemein gelten kann, die Anzahl von 383 Deputierten für eine konstituierende Reichsversammlung eher zu groß als zu klein ist, und jedenfalls <pb n="347" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s347.pdf"/>dem auch in andern Staaten angenommenen Verhältnisse zur Bevölkerung (ein Deputierter auf 50.000 Seelen) entspricht.</p>
+                  <p>Die wichtigste Frage dabei ist freilich, ob Ew. Majestät das unter den besonderen Verhältnissen des 15. Mai Zugestandene fortan in seiner Kraft erhalten wissen wollen. Der Ministerrat, der dazu – unter gleichzeitiger Anbietung seiner Entlassung<note type="footnote" n="3">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480516-P-0039.xml#top_1_1_39_1">MR. v. <date when="1848-05-16">16. 5. 1848</date>/I</ref>.</note> – geraten, kann nur in Ehrfurcht bemerken, daß jene besondern Verhältnisse bezüglich der Ah. Person Ew. Majestät seit 14 Tagen nicht mehr bestehen, ohne daß über die Zugeständnisse des 15. Mai eine weitere Erklärung Ew. Majestät herabgelangt ist. Er hält sich daher seiner Stellung nach für verpflichtet, den Bestand der Konzessionen des 15. Mai vorauszusetzen und in diesem Sinne mit der unverzüglichen Einleitung zur Vornahme der Wahlen vorzugehen, damit der Reichstag noch an dem ursprünglich festgesetzten Tage, somit am <date when="1848-06-26">26. Juni 1848</date>, dessen weitre Hinausschiebung gewiß wieder neue Aufregung veranlassen würde, sich versammeln könne.</p>
+                  <p>Demgemäß werden vom Minister des Inneren sogleich die erforderlichen Weisungen an die Länderstellen erlassen<note type="footnote" n="4">Die Länderstellen haben diese Weisungen – mit weiteren Ausführungen versehen – an die entsprechenden Verwaltungsstellen weitergeleitet, vgl. dazu das Dekret des niederösterreichischen Landesregierungspräsidiums an den Vorstand des Wiener Gemeindeausschusses v. <date when="1848-06-08">8. 6. 1848</date>, in dem u. a. die Bildung von Wahlkomitees angeordnet wird, <bibl type="archival">WStLA., Gemeinderat 1848, GA., A 1, Z. 102/1848.</bibl>
+                     </note>, und es wird gleichzeitig die entsprechende Verlautbarung durch die öffentlichen Blätter verfügt<note type="footnote" n="5">In der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. 1.6. 1848</bibl> erschien eine relativ kurze Notiz, daß das Ministerium die Wahlen zum Reichstag noch nach der provisorischen Wahlordnung v. <date when="1848-05-09">9. 5. 1848</date> angeordnet und die Länderchefs entsprechend angewiesen hat. Die näheren detaillierten Bestimmungen, die in der ministeriellen Anordnung v. <date when="1848-06-01">1. 6. 1848</date> festgelegt waren, wurden in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-06-04">4. 6. 1848</date>
+                        </bibl> abgedruckt.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verpflichtungen des Ministeriums</head>
+                  <p>Mit der unterm 29. Mai an die Bewohner der Residenz erlassenen Ansprache, wovon ein Exemplar beiliegt<note type="footnote" n="6">Liegt dem Originalprotokoll in gedruckter Fassung bei; siehe dazu auch <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_1">MR. v. <date when="1848-05-29">29. 5. 1848</date>/I</ref>.</note>, haben die Minister Verpflichtungen übernommen, zu deren Ausführung noch einige nähere Bestimmungen nötig sein dürften. Diese Verpflichtungen sind: „a) an allen Freiheiten der Verfassung vom 25. April festzuhalten, b) keinem spätern Zugeständisse die volle Anerkennung zu versagen.“</p>
+                  <p>Beides ist geschehen und bedarf keiner weiteren Ausführung.</p>
+                  <p>„c) der Anarchie oder Störung der Ordnung und jeder Reaktion entgegenzutreten.“</p>
+                  <p>Der Ministerrat hat dies durch Anerkennung des am 26. Mai ins Leben getretenen Ausschusses aus Bürgern, Nationalgarde und Studenten<note type="footnote" n="7">Zur Entstehung dieses Ausschusses siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>, Anm. 1. Das Dekret der Regierung v. <date when="1848-05-27">27. 5. 1848</date>, in dem der Sicherheitsausschuß anerkannt wird, in <bibl type="archival">HHSTA., RTA. 148, Fasz. II, Lit. G, fol. 549.</bibl>
+                     </note> betätigt, auch bereits mehrere Schreiben an diesen Ausschuß erlassen<note type="footnote" n="8">Vgl. dazu das Schreiben Pillersdorfs v. <date when="1848-05-29">29. 5. 1848</date> an den Sicherheitsausschuß, in dem er den Ausschuß auffordert, sich bei Verhaftungen streng an die Gesetze zu halten, <quote>ebd., fol. 283.</quote>
+                     </note>, ohne jedoch eine Antwort erhalten zu haben. „d) den Reichstag allein als befugt zur Erteilung organischer Gesetze anzusehen, e) dessen Beschleunigung nach allen Kräften zu befördern.“ Beides sind Maximen für das Vorgehen des Ministerrates, die er bisher auch beobachtet hat.</p>
+                  <p>
+                     <pb n="348" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s348.pdf"/>„f) bis dahin ein festes Band der Eintracht zwischen den Provinzen zu erhalten.“ Dies zu tun, war das Ministerium des Inneren durch stete Korrespondenzen mit den Länderstellen unablässig bemüht und wird damit fortfahren.</p>
+                  <p>„g und h) alle Einsichten, insbesondere die Körperschaften und Gemeinden zur Sammlung von Materialien und Vorbereitungen für die Arbeiten des Reichstags zu benützen.“ Zur näheren Ausführung dieses Punkts wird das Ministerium eine besondere Kundmachung erlassen, worin mit Hindeutung auf die bevorstehende Eröffnung des Reichstags und dessen wichtige Aufgaben die Aufforderung an Körperschaften und Gemeinden ergeht, diejenigen Vorschläge zu machen, welche sie ihren provinziellen oder den allgemeinen Interessen für entsprechend und notwendig erkennen<note type="footnote" n="9">Weder unter den Beständen des AVA., IM., Präs., noch unter denen der Wiener Flugschriftensammlungen konnte eine entsprechende Kundmachung gefunden werden.</note>.</p>
+                  <p>,.i) den Maßregeln 1. um Ordnung im Staatshaushalte, Vertrauen in die Erfüllung der Verpflichtungen des Staats; 2. Sicherheit im Erwerbe und Verbesserung der Lage der unbemittelten Klassen zu begründen, ihre besondre Sorgfalt zuzuwenden.“</p>
+                  <p>Zum Behufe des ersten Teils dieser Aufgabe, welcher in den Bereich des Finanzministers gehört, wird der letztere einen Kreis unterrichteter Männer, teils nach eigener Wahl, größtenteils aber (um dem Vorwurfe der Parteilichkeit zu entgehen) aus Abgeordneten der beiden hiesigen Handlungsgremien, des Gewerbsvereins, des Gemeindeausschusses der Stadt Wien, endlich der Nationalbank um sich versammeln, um mit denselben die erforderlichen Vorarbeiten zur Regelung des Staatshaushalts und über die Mittel zu dessen Bedeckung sowie über andere dahin einschlagende Gesetzesentwürfe etc. zu beraten<note type="footnote" n="10">Der Akt <bibl type="archival">FA., F.M., Präs. 1541 / 1848</bibl>, der die mit <date when="1848-06-01">1. 6. 1848</date> datierten Einleitungen beinhaltete, ist nicht mehr vorhanden; siehe dazu die Zusagen und Nominierungen von Abgeordneten der genannten Körperschaften von Anfang Juni, alle in <quote>ebd., Präs. 1677/1848.</quote>
+                     </note>. Der zweite Teil dieser Aufgabe betrifft das Ministerium des Handels und der Gewerbe sowie den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi>. Letztrer wird zur Organisierung der Arbeit (jedoch nicht im Blanc’schen Sinne<note type="footnote" n="11">Anspielung auf den französischen Sozialisten Jean Joseph Louis Blanc, der die Errichtung von Arbeiterproduktionsgenossenschaften mit staatlicher Unterstützung propagierte, siehe dazu <bibl type="secondary">
+                           <author>Ullik</author>, Ministerium für öffentliche Arbeiten 36–41</bibl>, vgl. auch <bibl type="secondary">
+                           <author>Prinz</author>, Soziale Frage 115.</bibl>
+                     </note>) und zur Verbesserung der Lage der unbemittelten Klassen eine eigene Kommission bestellen<note type="footnote" n="12">Fortsetzung des Gegenstandes über die Regelung der Arbeitsbeschaffung in <ref type="protocol-link" target="MRP-1-1-01-0-18480611-P-0068.xml#top_1_1_68_2">MR. v. <date when="1848-06-11">11. 6. 1848</date>/II</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480612-P-0069.xml#top_1_1_69_10">MR. v. <date when="1848-06-12">12. 6. 1848</date>/X</ref>.</note>, hält sich aber in dieser Beziehung für verpflichtet, auf die Notwendigkeit einer Maßregel aufmerksam zu machen, um dem ungeheuren Andrange fremder Arbeitsuchenden nach Wien zu begegnen, da selbst die einheimische Bevölkerung nur mit den größten Opfern beschäftigt werden kann.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erinnerte hierüber, daß hierwegen der Sicherheitsausschuß der Stadt Wien anzuweisen sein werde, was der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten nach</rs>
+                     </hi> dem Vorschlage des Finanzministers in der Art zu tun gedenkt, daß der Ausschuß angegangen werde, wegen Ausweisung der fremden Arbeitssuchenden binnen einer bestimmten Frist, dann Abhaltung Neuzuströmender das Nötige zu verfügen oder, falls hierzu seine Mittel nicht ausreichten, beim Ministerium in Antrag zu bringen<note type="footnote" n="13">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480531-P-0057.xml#top_1_1_57_7">MR. v. <date when="1848-05-31">31. 5. 1848</date>/VII</ref>, Anm. 26.</note>. „k) alles aufzubieten, <pb n="349" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s349.pdf"/>um die ersehnte Rückkehr Ew. Majestät nach Wien und jede Bürgschaft des erlauchten Hauptes herzustellen.“</p>
+                  <p>Dieser Verpflichtung kommt der Ministerrat unter einem in einem besondern Vortrage an Ew. Majestät nach, um baldige Rückkehr nach Wien zur bevorstehenden Eröffnung des Reichstages, inzwischen aber um schleunige Abordnung eines kaiserlichen Prinzen – und zwar, da Se. k. k. Hoheit der Herr Erzherzog Franz Karl um die Ah. Person Ew. Majestät bleiben müssen – um Abordnung Sr. k. k.Hoheit des Herrn Erzherzog Johann darum gebeten werden, um durch die Anwesenheit dieses beliebten Prinzen den wünschenswerten Umschwung der Stimmung zu erzielen, dem Ministerium mehr Halt zu geben und die Erwirkung der Bürgschaften für die Sicherheit Ew. Majestät zu erleichtern<note type="footnote" n="14">Vortrag des Ministeriums v. <date when="1848-05-30">30. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 884/1848.</bibl>
+                     </note>.</p>
+                  <p>Ohne dem Antrage wegen Abordnung Sr. k. k. Hoheit des Herrn Erzherzog Johann entgegentreten zu wollen, äußerte der Justizminister den Zweifel, ob der Erzherzog in Tirol werde entbehrt werden können, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> aber konnte das Bedenken nicht unterdrücken, welche Stellung der Prinz hier einnehmen soll, da er verfassungsmäßig auf die Staatsgeschäfte einen entscheidenden Einfluß nicht nehmen kann. Er kann allerdings durch seine Leutseligkeit auf die Parteien wirken, und es wird ihm gelingen, wenn es denselben Ernst ist, den Thron zu stützen; allein es ist auch zu besorgen, daß manche geneigt und versucht sein dürften, den Prinzen als Geisel für das Errungene oder für noch zu Erringendes anzusehen<note type="footnote" n="15">Fortsetzung des Gegenstandes über Erzherzog Johann in <ref type="protocol-link" target="MRP-1-1-01-0-18480619-P-0077.xml#top_1_1_77_3">MR. v. <date when="1848-06-19">19. 6. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Maßnahmen in Galizien bei der Abreise Graf Franz Stadions nach Innsbruck</head>
+                  <p>Zwei Schreiben des Gouverneurs von Galizien Graf Stadion des Inhalts, daß er einer Einladung Sr. k. k.Hoheit des Herrn Erzherzogs Franz Karl, sich ans Ah. Hoflager zu verfügen<note type="footnote" n="16">Diese zwei Schreiben, die Stadion am <date when="1848-05-26">26. 5. 1848</date> abgeschickt hatte, konnten weder unter den Beständen des AVA., IM., Präs., noch unter denen des ZDIAUL., StH., Präs., gefunden werden. <bibl type="secondary">
+                           <author>Helfert</author>, Stadion 3, 24</bibl>, gibt ihren Inhalt wider und zitiert auszugsweise aus ihnen.</note>, ohne ausdrücklichen Ah. Befehl Ew. Majestät nicht entsprechen könne<note type="footnote" n="17">Auch dieses Schreiben Erzherzog Franz Karls konnte in den Wiener Archiven nicht mehr gefunden werden. Die Antwort Stadions v. <date when="1848-05-18">18. 5. 1848</date>, in dem er dasselbe Argument wie hier verwendet, abgedruckt in <quote>ebd., 27</quote>; siehe dazu auch <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_3">MR. v. <date when="1848-05-17">17. 5. 1848</date>/III</ref>.</note>, daß er aber, falls dieser Befehl käme, auf der Stelle abzugehen bereit sei und nur bitte, daß Galizien unter die Oberleitung eines Militärgouverneurs (wozu er den General Roßbach vorschlägt) gestellt, das Politikum einstweilig vom Vizepräsidenten Goł uchowski<note type="footnote" n="18">Zur Ernennung Gołuchowskis zum galizischen Gubernialvizepräsidenten siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480410" ana="prot0 top1">MR. v. <date when="1848-04-10">10. 4. 1848</date>/I</ref>.</note> versehen, übrigens die Teilung des Landes in zwei Gouvernementsgebiete ausgeführt werden möge<note type="footnote" n="19">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480511-P-0034.xml#top_1_1_34_4">MR. v. <date when="1848-05-11">11. 5. 1848</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_3">MR. v. <date when="1848-05-17">17. 5. 1848</date>/III</ref>.</note>, beheben sich nach der Bemerkung des Ministers des Inneren dadurch, daß der Kurier, welcher die unten erwähnte Zuschrift des Ministers Baron Doblhoff<note type="footnote" n="20">Siehe dazu den nächsten Tagesordnungspunkt.</note> brachte, bereits nach Lemberg abgegangen ist, um dem Grafen Stadion den Ah. Befehl Ew. Majestät zum Erscheinen am Ah. Hoflager zu überbringen<note type="footnote" n="21">Zu dieser geheimgehaltenen Mission siehe detailliert <bibl type="secondary">
+                           <author>Helfert</author>, Geschichte Österreichs 3, 35.</bibl>
+                     </note>. Somit käme eine Antwort des Ministeriums auf Graf Stadions Schreiben zu spät, <pb n="350" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s350.pdf"/>und es bleibt ihm überlassen, bei seiner Abreise das nötige Provisorium für die Verwaltung zu treffen und seinerzeit die weitern Maßregeln einzuleiten<note type="footnote" n="22">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480608-P-0065.xml#top_1_1_65_3">MR. v. <date when="1848-06-08">8. 6. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Festhalten des Fürsten Miloš durch Jellačić; Verlegung des diplomatischen Korps nach Innsbruck</head>
+                  <p>Schreiben des Ministers Baron Doblhoff vom 27. Mai<note type="footnote" n="23">Das Schreiben liegt dem Originalprotokoll in handschriftlicher Fassung bei.</note> über seine Ankunft am Ah. Hoflager, den ihm zuteil gewordenen gnädigen Empfang von Ew. Majestät, seine Konferenzen mit Sr. k. k. Hoheit dem Herrn Erzherzog Franz Karl über verschiedene an Ew. Majestät gelangte Adressen und Deputationen, dann mit einer Zuschrift des Hofrates Erb mit einem Auszuge aus einem Schreiben des Banus von Kroatien, welches die Nachricht enthält, daß Fürst Miloš mit einer Masse Geldes in Agram angekommen sei, in der Absicht, nach Syrmien zu reisen um sich Serbiens und Bosniens zu bemächtigen<note type="footnote" n="24">Der Auszug liegt dem Originalprotokoll in handschriftlicher Fassung bei. Miloš Obrenovič, ehemaliger Fürst von Serbien, hatte von der österreichischen Regierung <quote>einen Paß nach Karlsbad und die zunächst gelegenen österr. und auswärtigen Provinzen erhalten, mit welchem er aber die entgegen gesetzte Richtung einschlug,</quote> berichtete Lebzeltern in seinem Schreiben v. <date when="1848-06-05">5. 6. 1848</date> an Latour; <bibl type="archival">KA., HKR., KM., Präs. 2222/1848</bibl>; der Bericht Spannochis, daß Fürst Miloš am <date when="1848-06-15">15. 6. 1848</date> seine Reise von Agram über Laibach nach Innsbruck fortgesetzt habe, <quote>ebd., Präs 2733/1848</quote> ist skartiert worden.</note>, daß der Banus ihn darum in Agram festgehalten habe und um weitre Verhaltungsbefehle bitte.</p>
+                  <p>Hierauf wäre nach dem Erachten des Baron Pillersdorf das abgeforderte Gutachten des Ministerrates dahin zu erstatten, daß, solange Fürst Miloš nichts gegen die innere Ruhe des Landes unternimmt, gegen ihn nicht eingeschritten werden könne, wegen beabsichtigter Unternehmungen gegen ausländische Provinzen aber ein Einschreiten nur auf Requisition der betreffenden Regierung stattzufinden hätte.</p>
+                  <p>Dies wurde dem Baron Doblhoff unter Verdankung seiner Mitteilungen mit der weitern Eröffnung erwidert<note type="footnote" n="25">Das Konzept dieses Schreibens, irrtümlich mit <date when="1848-05-20">20. 5. 1848</date> datiert, liegt dem Originalprotokoll in handschriftlicher Fassung bei.</note>, daß die besorgte Einladung des diplomatischen Korps an das Ah. Hoflager, obwohl der Vollzug des Auftrags dazu von Baron Lebzeltern sistiert worden war, tatsächlich von Wirkung bei einigen Gesandten gewesen ist<note type="footnote" n="26">Zur Verlegung des diplomatischen Korps nach Innsbruck, zur Sistierung dieses Ah. Befehls und zur Reaktion der einzelnen Diplomaten siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480524-P-0050.xml#top_1_1_50_3">MR. v. <date when="1848-05-24">24. 5. 1848</date>/III</ref> und XXI.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Aufregung wegen der Übergabe von Kanonen an die Nationalgarde</head>
+                  <p>Ein Schreiben des Grafen Latour<note type="footnote" n="27">Dieses Schreiben konnte unter den Beständen des KA., HKR., KM., Präs., des AVA., IM., Präs., und des HHSTA., Kab. Kanzlei, nicht gefunden werden.</note> über zu besorgende Aufregung in der Garnison wegen der der Nationalgarde bereits zugestandenen zwölf Kanonen<note type="footnote" n="28">Zur Übergabe von Kanonen an die Wiener Nationalgarde siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_1">MR. v. <date when="1848-05-29">29. 5. 1848</date>/I</ref>. Die Übergabe von zwölf Kanonen fand am <date when="1848-05-30">30. 5. 1848</date> statt, siehe dazu <bibl type="secondary">
+                           <title>Reschauer – Smets</title>, Revolution 2, 316f.</bibl> Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480618-P-0076.xml#top_1_1_76_3">MR. v. <date when="1848-06-18">18. 6. 1848</date>/III</ref>.</note> behebt sich durch die später gemeldete Nachricht, daß es ihm gelungen sei, einem etwaigen Ausbruch jener Aufregung durch begütigende Mittel zuvorzukommen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Ordensverleihung an Franz Graf Gyulai</head>
+                  <p>Vortrag des Kriegsministers vom <date when="1848-05-30">30. Mai 1848</date>, KZ. 2065<note type="footnote" n="29">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 880/1848</bibl>; der Akt <bibl type="archival">KA., HKR., KM., Präs. 1992/1848</bibl>, ist skartiert worden.</note>, wegen einer Auszeichnung für den FML. Grafen Gyulai. Der Antrag ist vollkommen begründet, von den <pb n="351" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s351.pdf"/>Alternativen aber, dem Grafen Gyulai den Orden der Eisernen Krone I. Klasse oder das Kommandeurkreuz des St. Stephansordens zu verleihen, kann unter den gegenwärtigen Verhältnissen im lombardisch-venezianischen Königreiche nur die letztere gewählt werden<note type="footnote" n="30">Mit Ah. E. v. <date when="1848-06-14">14. 6. 1848</date> wurde der in Anm. 21 zit. Vortrag im Sinne des Ministerratsbeschlusses resolviert und gleichzeitig der Kanzler des ungarischen St. Stephansordens mit Kabinettschreiben aufgefordert, alles weitere zu veranlassen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 965/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Bewachung der Burg durch Militär und Nationalgarde</head>
+                  <p>Über eine Zuschrift des Oberstkämmerers Grafen Dietrichstein<note type="footnote" n="31">Schreiben (K.) Dietrichsteins an Pillersdorf v. <date when="1848-05-29">29. 5. 1848</date>, <quote>ebd., OMeA. 563, r. 130/12.</quote>
+                     </note>, worin die Besorgnis ausgesprochen wird, daß die dermalige Bewachung der k. k. Hofburg unzulänglich sein und die Form des Schutzes näher bestimmt werden dürfte, unter welchen mit Ministerratsbeschluß vom 27. Mai das gesamte Staats- und Hofeigentum der Residenz gestellt worden ist<note type="footnote" n="32">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>.</note>, behält sich der Minister des Inneren vor, hierwegen die entsprechende Weisung an den Sicherheitsausschuß zu erlassen und ersucht das Kriegsministerium, das Generalkommando zur Vornahme eines Augenscheins über die dermalige Bewachung der Burg anzuweisen, wozu sich der in Vertretung des Kriegsministers anwesende GM. Baron Cordon mit der Bemerkung bereit erklärte, daß, nachdem nebst der bisherigen ganzen Militärbesetzung auch noch Nationalgarde den Wachtdienst in der Burg versieht<note type="footnote" n="33">Vgl. dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_7">MR. v. <date when="1848-05-17">17. 5. 1848</date>/VII</ref>.</note>, eine Vermehrung kaum angezeigt sein dürfte<note type="footnote" n="34">Pillersdorf stellte trotzdem noch am selben Tag einen Antrag an den Kriegsminister, die Wache in der Hofburg zu vermehren, der Akt <bibl type="archival">KA., HKR., KM., Präs. 2021/1848</bibl>, ist aber skartiert. Latour erreichte, nach Beratung mit dem zuständigen Militärkommando und der Nationalgarde, durch eine bessere Postierung und Vermehrung der Wachposten um zwei Mann eine effizientere Bewachung der Burg, siehe dazu sein Schreiben v. <date when="1848-06-17">17. 6. 1848</date> an Dietrichstein, <bibl type="archival">HHSTA., OMeA. 563, r. 130/12.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_56_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Arbeitslosenprojekt; Herausgabe von Papiergeld</head>
+                  <p>Ein dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> zugekommenes Projekt zur Beschäftigung brotloser Arbeiter teilte derselbe mit Rücksicht auf die darin vorkommende Proposition zur Kreierung einer Art Papiergeldes dem Finanzminister um dessen Wohlmeinung mit. Da der Finanzminister sich auf das bestimmteste gegen jede derlei Konzession erklärte, weil die Nationalbank allein berechtigt ist, zirkulierende, Geld vertretende Papiere auszugeben und eine gleiche Bewilligung an andere Vereine nur zu Exemplifikationen führen würde, so wird der Minister des Inneren den Proponenten bedeuten, daß diesem Teile des Projekts die Genehmigung nicht erteilt werden könne<note type="footnote" n="35">Über dieses Projekt existieren in den Beständen des AVA., IM., Präs., keine schriftlichen Unterlagen; auch die entsprechende Antwort Pillersdorf konnte darin nicht gefunden werden. Zu den Maßnahmen der Regierung zur Eindämmung der Arbeitslosigkeit vgl. <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_4">MR. v. <date when="1848-05-06">6. 5. 1848</date>/IV</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480520-P-0045.xml#top_1_1_45_9">MR. I v. <date when="1848-05-20">20. 5. 1848</date>/IX</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480523-P-0049.xml#top_1_1_49_15">MR. v. <date when="1848-05-23">23. 5. 1848</date>/XV</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480531-P-0057.xml#top_1_1_57_7">MR. v. <date when="1848-05-31">31. 5. 1848</date>/VII</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-05-31">31. Mai 1848</date>. Pillersdorf.</dateline>
+                  <seg type="other">Ges. 4. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Der Inhalt dieses Protokolles dient Mir zur Kenntnis. Ferdinand. Innsbruck, am <date when="1848-06-14">14. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="096">Sitzung 96</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-11"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z96.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1455 et 1456</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-11"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Doblhoff; anw. Sommaruga, Krauß, Latour, Baumgartner; abw. Wessenberg; BdE. Doblhoff (12. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-12">12. 7.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_96_1">Orden für Leopold Freiherr Rzikowsky v. Dobrschitz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_96_2">Verleihung des Oberstencharakters ad honores an Friedrich Freiherr v. Mylius</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_96_3">Finanzielle Unterstützung für Emanuel Freiherr Dietrich v. Hermannsberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_96_4">Reisepauschale für Vincenz Freiherrn v. Augustin</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_96_5">Antrag auf Zerstörung der sardinischen Flotte vor Triest durch Brander</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_96_6">Bezahlung der Krakauer Truppen mir Silbergeld</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_96_7">Revision des Vorschußabkommens mit der Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_96_8">Verpflegskosten der Truppen in der Hofburg während der Märzereignisse</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_96_9">Vermittlung Erzherzog Johanns zwischen Ungarn und Kroaten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_96_10">Bitte Jellačić' um Widerruf des Ah. Manifestes vom <date when="1848-06-10">10. 6. 1848</date>, um Nichteinmischung Johann Freiherrn Hrabovskys v. Hrabova und um Einstellung der ungarischen Kriegsvorbereitungen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480711-P-0096" ana="a1-1848_z96">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z96.pdf">
+               <title type="num">Nr. 96</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-11">11. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Doblhoff; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Doblhoff (12. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1455 et 1456</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-07-11">11. Juli 1848</date> unter dem Vorsitze des Ministerpräsidenten, Ministers des Inneren Freiherrn v. Doblhoff.</head>
+               <div type="agenda_item" xml:id="top_1_1_96_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Orden für Leopold Freiherr Rzikowsky v. Dobrschitz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> übergab seinen Vortrag vom <date when="1848-07-10">10. Juli 1848</date>, KZ. 2048<note type="footnote" n="1">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1417/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 3496/1848</bibl>.</note>, womit er den unterm 20. Jänner<ref xml:id="fn_1_1_96_a"/>
+                     <note type="variant" n="a" target="#fn_1_1_96_a">Im Protokoll irrtümlich <quote>Juni</quote>.</note> 1846 erstatteten, unerledigt zurückgelangten Vortrag des Hofkriegsratspräsidiums<note type="footnote" n="2">
+                        <quote>Ebd</quote>.</note> wegen Verleihung des Ordens der Eisernen Krone III. Klasse an den Ingenieurhauptmann Rzikowsky zur Belohnung der Verdienste desselben um die fortifikatorischen Arbeiten in der Bundesfestung Mainz in der Rücksicht reproduziert, weil ihm (Kriegsminister) die ausgezeichneten Leistungen dieses gegenwärtig bei Sr. kaiserlichen Hoheit dem Herrn Erzherzog Leopold als Dienstkämmerer angestellten Hauptmanns persönlich bekannt sind.</p>
+                  <p>Gegen die Ah. Genehmigung dieses Antrags ergab sich keine Erinnerung<note type="footnote" n="3">Mit Ah. E. v. <date when="1848-07-19">19. 7. 1848</date> auf den in Anm. 1 zit. Vortrag wurde Rzikowsky die angeregte Auszeichnung zugesprochen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1455/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 3496/1848</bibl>. Rzikowsky hatte für seine Tätigkeit in Mainz bereits das preußische Ritterkreuz des Roten-Adler-Ordens und eine schriftliche Belobigung des Königs von Bayern erhalten, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verleihung des Oberstencharakters ad honores an Friedrich Freiherr v. Mylius</head>
+                  <p>Ebenderselbe übergab den Vortrag vom <date when="1848-07-11">11. Juli 1848</date>, KZ. 2479<note type="footnote" n="4">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1418/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 3504/1848</bibl>.</note>, wegen Verleihung des Oberstencharakters ad honores für den sehr verdienten Oberstleutnant und Badhauskommandanten in Baden Baron Mylius, welcher Antrag insbesondere vom Ministerpräsidenten in Rücksicht der bekannten Verdienste des Baron Mylius mit aller Wärme unterstützt ward<note type="footnote" n="5">Mit Ah. E., v. <date when="1848-07-19">19. 7. 1848</date> wurde der in Anm. 4 zit. Vortrag positiv erledigt, <quote>ebd</quote>., und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1455/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Finanzielle Unterstützung für Emanuel Freiherr Dietrich v. Hermannsberg</head>
+                  <p>Weiters erstattete der Kriegsminister den in der Ministerratssitzung vom 8. d. M.<note type="footnote" n="6">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480708-P-0095.xml#top_1_1_95_2">MR. v. <date when="1848-07-08">8. 7. 1848</date>/II</ref>.</note> vorläufig besprochenen Vortrag über das Gesuch des FML. Baron Dietrich in Pest um <pb n="535" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s535.pdf"/>eine Unterstützung (de dato <date when="1848-07-11">11. Juli 1848</date>, KZ. 2047) dahin, daß es der Ah. Gnade anheimgestellt werden müsse, ob diese, von Sr. k. k. Hoheit dem Herrn Erzherzog Stephan mit 5000f. angetragene Unterstützung etwa aus der Ah. Privatkasse Ew. Majestät Ag. zu bewilligen sei<note type="footnote" n="7">Vortrag Latours v. <date when="1848-07-09">9. 7. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1416/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 3497/1848</bibl>.</note>.</p>
+                  <p>Dieser Vortrag wird Ew. Majestät mittelst eines besondern Referatsbogens zur Ah. Schlußfassung vorgelegt<note type="footnote" n="8">Dem in Anm. 7 zit. Vortrag wurde mit Ah. E. v. <date when="1848-07-18">18. 7. 1848</date> keine Folge gegeben, <quote>ebd</quote>., und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1416/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Reisepauschale für Vincenz Freiherrn v. Augustin</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">FML</rs>
+                     </hi>. Baron Augustin, welchem mit Ah. Genehmigung laut Ministerratsprotokoll vom 21. Juni<note type="footnote" n="9">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480621-P-0079.xml#top_1_1_79_11">MR. v. <date when="1848-06-21">21. 6. 1848</date>/XI</ref>.</note> zur Bestreitung der Reiseauslagen nach Neustadt behufs der Inspizierung des Raketenkorps 1200f. gegen dem angewiesen worden sind, daß er diese Auslagen gehörig ausweise, hat nun dargetan<note type="footnote" n="10">Schreiben Augustins v. <date when="1848-07-08">8. 7. 1848</date>, <bibl type="archival">KA., HKR., KM., Allg. 1848, J 26/100</bibl>.</note>, daß dieselben im Laufe eines Jahres wirklich 1327f. betragen haben, und gebeten, ihm sofort die 1200 f. als Pauschale zu belassen, was der Kriegsminister auch unter Zustimmung des Finanzministers und des Ministerrates unter einem zugestanden hat<note type="footnote" n="11">Mit Schreiben (K.) v. <date when="1848-07-12">12. 7. 1848</date> wurde das niederösterreichische Generalkommando von Latour angewiesen, Augustin die 1200 fl. Pauschale weiter auszuzahlen, <quote>ebd</quote>., und Augustin wurde mit Schreiben (K.) vom selben Tag von diesem Schritt benachrichtigt, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Antrag auf Zerstörung der sardinischen Flotte vor Triest durch Brander</head>
+                  <p>In einen vom Kriegsminister mitgeteilten Antrag des Militärkommandanten in Triest, FML. Graf Gyulai, über ein Anerbieten eines Griechen zur Zerstörung der sardinischen Flotte vor Triest mittelst Brandern<note type="footnote" n="12">Gyulai berichtete in seinem Schreiben v. <date when="1848-07-06">6. 7. 1848</date>, er hätte dieses Angebot durch die Vermittlung des österreichischen Gesandten am griechischen Hof Proksch erhalten, <quote>ebd., HKR., KM., Präs. 3596/1848</quote>.</note> glaubte der Ministerrat dermal, nachdem die Flotte sich von Triest entfernt hat<note type="footnote" n="13">Siehe dazu die zuletzt von Gyulai an Latour abgesandten Berichte v. 4. und <date when="1848-07-06">6. 7. 1848</date>, <quote>ebd., Präs. 3197/1848 und Präs. 3264/1848</quote>. Im letzteren Bericht wurde allerdings die Möglichkeit der Rückkehr der sardinischen Flotte vor Triest angedeutet.</note> und ihre fernere Bestimmung unbekannt ist, nicht eingehen zu sollen<note type="footnote" n="14">Mit Schreiben (K.) v. <date when="1848-07-17">17. 7. 1848</date> teilte Latour Gyulai mit, daß der Plan <quote>aus höheren Rücksichten</quote> verworfen wurde, <quote>ebd., Präs. 3254/1848</quote>. Mit Schreiben (K.) vom selben Tag wandte sich Latour an das Außenministerium und bat es, in diesem Sinne auch Prokesch zu informieren, <quote>ebd</quote>. Lebzeltern meldete dann in seinem Schreiben v. <date when="1848-07-22">22. 7. 1848</date>, daß dies auch geschehen sei, <quote>ebd., Präs. 3596/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Bezahlung der Krakauer Truppen mir Silbergeld</head>
+                  <p>Dem vom Kriegsminister vorgetragenen Einschreiten des FML. Grafen Schlik in Krakau um Zusendung eines Teils der monatlichen Dotation zur Bezahlung der dortigen Truppen in Silbergeld wurde, nach Versicherung des Finanzministers, durch eine Verfügung des letzteren bereits entsprochen<note type="footnote" n="15">Der entsprechende Akt <quote>ebd., Präs. 3319/1848</quote>, ist skartiert worden. Im Protokollbuch findet sich unter dieser Zahl folgende Eintragung: <quote>Finanzministerium ohne Nummer am 12. Juli zeigt an, daß es dem FML. Schlick den für die Monate Juni und Juli gestellten Dotations Anspruch erfolgt hat</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Revision des Vorschußabkommens mit der Nationalbank</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte: Nach dem zwischen der Finanzverwaltung und der Nationalbank geschlossenen Übereinkommen<note type="footnote" n="16">Siehe dazu zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_1">MR. v. <date when="1848-04-19">19. 4. 1848</date>/I</ref>.</note> werden von den durch letztre auf Hypothekaranweisungen vorzuschießenden 30 Millionen Gulden 20 auf Begehren der erstem, die andern 10 Millionen aber erst dann erfolgt, wenn jene 20 Millionen durch hinausgegebene Hypothekaranweisungen gedeckt sind. Dies beruhte auf der Voraussetzung, daß jene Papiere vom Publikum sehr gesucht sein würden. Allein, die Maiereignisse<note type="footnote" n="17">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480516-P-0039.xml#top_1_1_39_1">MR. v. <date when="1848-05-16">16. 5. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480518-P-0041.xml#top_1_1_41_1">MR. I v. <date when="1848-05-18">18. 5. 1848</date>/I</ref>.</note> haben den Absatz der Hypothekaranweisungen ins Stocken gebracht; es wurden etwa für 2 Millionen Hypothekaranweisungen ausgegeben, während die Finanzverwaltung genötigt war, von den ersten 20 Millionen Vorschuß bereits 17 Millionen in Anspruch zu nehmen. Indessen drängt die Zeit; der monatliche Abgang der Bedekkungsmittel für den durch den Krieg etc. gesteigerten Staatsaufwand beträgt 9–10 Millionen; ein Anleihen kann nur mit Bewilligung des Reichstags aufgenommen werden. Es kann also für den augenblicklichen Bedarf nur dann Rat geschafft werden, wenn die Bank sich herbeiläßt, von der Bedingung abzugehen, daß vor Erfolgung des Vorschußrests per 10 Millionen der erste Vorschuß per 20 Millionen durch Hinausgabe von Hypothekaranweisungen gedeckt sein müsse.</p>
+                  <p>Die Bank, hierwegen angegangen<note type="footnote" n="18">Das war mit Schreiben (K.) v. <date when="1848-06-16">16. 6. 1848</date> an den Bankgouverneur geschehen, <bibl type="archival">FA., FM., Präs. 2034/1848</bibl>.</note>, hat sich auch dazu bereit erklärt, jedoch unter der Bedingung, daß a) die Bestimmung, wornach die Interessen für jene 10 Millionen, welche 1843 auf Zentralkassaanweisungen genommen wurden, nicht zugunsten der Aktionärs, sondern des Reservefonds verwendet werden sollen<note type="footnote" n="19">Der damalige Hofkammerpräsident Kübeck hatte in seinem Vortrag v. <date when="1843-01-22">22. 1. 1843</date> über den Staatshaushalt vorgeschlagen, den damals fast schon zurückgezahlten Kredit von 10 Millionen gegebenenfalls wieder in Anspruch nehmen zu können, allerdings unter den hier genannten Bedingungen. Das Ansuchen wurde mit Ah. E. v. <date when="1843-06-28">28. 6. 1843</date> resolviert, <bibl type="archival">HHSTA., MKA., MZ. 195/1843</bibl>. Der diesfällige Kredit wurde dann auf Vortrag Kübecks v. <date when="1846-11-14">14. 11. 1846</date> mit Ah. E. v. <date when="1846-11-18">18. 11. 1846</date> bewilligt, <quote>ebd., MZ. 2062/1846</quote>. Zu den seit Mitte 1842 herausgegebenen Zentralkassaanweisungen siehe <bibl type="secondary">
+                           <author>Salomon</author>, Österreichische Staatspapiere 240f</bibl>.</note>, zurückgenommen werde, und b) das Ärar die Kosten übernehme, welche die Herbeischaffung von Silber aus dem Auslande der Bank verursacht<note type="footnote" n="20">Diese Forderung stellte Mayer-Gravenegg in seiner Note v. <date when="1848-06-23">23. 6. 1848</date>, <bibl type="archival">FA., FM., Präs. 2386/1848</bibl>. Zu den diesbezüglichen Verhandlungen mit der Nationalbank siehe <bibl type="secondary">
+                           <author>Pressburger</author>, Notenbank I/1, 256</bibl>.</note>.</p>
+                  <p>Über das Begehren ad a) hat der Finanzminister einen besondern Vortrag unterm <date when="1848-07-08">8. Juli 1848</date>, KZ. 2058, erstattet und darin auf die Ah. Genehmigung dieser Bitte angetragen. Dieselbe dürfte binnen kurzem erfolgen<note type="footnote" n="21">Der Vortrag Krauß’ wurde mit Ah. E. v. <date when="1848-07-22">22. 7. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1432/1848</bibl>.</note>, daher dieser Punkt keinem Anstande mehr unterliege. Bedenklich schiene das Begehren ad b). Die Bank, welche durch Unterstützung des Staats besteht und seit 30 Jahren die glänzendsten Geschäfte gemacht hat, dürfte jetzt, wo sie zum erstenmale in Verlegenheit gekommen, wohl auch schuldig sei, größere Anstrengungen zu machen und Opfer zu bringen, um ihren Kredit zu erhalten. Indessen bedarf auch der Staat fortwährend der Beihilfe der Bank zur <pb n="537" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s537.pdf"/>Aufbringung der klingenden Münze für die nötigen Barsendungen nach Tirol und Italien, wo man sich fortan weigert, Banknoten zu nehmen. Es erscheint daher nicht nur durch die Klugheit geboten, sondern auch in Anbetracht der beträchtlichen Kosten, welche der Bezug des Goldes und Silbers aus dem Auslande verursacht, wirklich billig, daß der Staat wenigstens einen Teil der Kosten der Aufbringung der für seine Zwecke erforderlichen Barschaft übernehme.</p>
+                  <p>Der Finanzminister würde daher die Übernahme der Hälfte dieser Kosten auf das Ärar von nun an und rücksichtlich der Summen, welche der Staat für die Bezahlung der Truppen und zur Versendung nach auswärts in Anspruch nehmen wird, in Antrag bringen, zugleich aber damit, sowohl zur Erleichterung des Ärars als der Bank, eine Maßregel verbinden, wodurch erzweckt würde, daß nicht so viele Barsendungen nach Italien erforderlich werden. Das Mittel dazu wäre entweder die Ausdehnung der in den übrigen k. k. Staaten bestehenden Verordnung, daß die Banknoten bei allen Zahlungen als Münze angenommen werden müssen<note type="footnote" n="22">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480521-P-0047.xml#top_1_1_47_14">MR. v. <date when="1848-05-21">21. 5. 1848</date>/XIV</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480522-P-0048.xml#top_1_1_48_22">MR. v. <date when="1848-05-22">22. 5. 1848</date>/XXII</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480525-P-0051.xml#top_1_1_51_9">MR. v. <date when="1848-05-25">25. 5. 1848</date>/IX</ref>.</note>, auf Tirol<note type="footnote" n="23">Diese Angabe ist etwas irreführend. Die proponierte Maßnahme war in Tirol bereits eingeführt, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480608-P-0065.xml#top_1_1_65_5">MR. v. <date when="1848-06-08">8. 6. 1848</date>/V</ref>.</note> und den von den k. k. Truppen besetzten Teil des lombardisch-venezianischen Königreichs, oder aber die Emission eines anderen Kreditpapiers, sogenannte Schatzkammerscheine. Der Finanzminister würde sich in Anbetracht des üblen Eindrucks, den die erstre Maßregel im lombardisch-venezianischen Königreiche machen würde, für die Emission von Schatzkammerscheinen erklären.</p>
+                  <p>Allein, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> erklärte aufs bestimmteste, die Verantwortlichkeit für diese Maßregel, wodurch eigentlich eine neue Staatsschuld gegründet würde, nicht auf sich nehmen zu können, da zur Kontrahierung von Staatsschulden die Genehmigung des Reichstags erforderlich ist. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entgegnete zwar, daß dies allerdings bei einer fundierten Staatsschuld, nicht aber bei einer schwebenden, wie die vorgeschlagene, der Fall sein würde, und daß rücksichtlich der letztern, nach dem Beispiele aller konstitutionellen Staaten, das Ministerium nicht an die Zustimmung der Reichsstände gebunden wäre. Indessen wolle er nicht länger auf diesem Antrage bestehen, sondern sich für die andere Maßregel, nämlich für den Zwangskurs der Banknoten für Tirol und die von den k. k. Truppen besetzten Teile des lombardisch-venezianischen Königreiches nach dem Wunsche des Ministerpräsidenten erklären, wenn damit zugleich die Verfügung verbunden wird, daß die Hälfte aller Abgaben in diesen Provinzen in Banknoten entrichtet werden muß. Denn nur von einer solchen Vorschrift, welche den Steuerpflichtigen nötiget, sich Banknoten zu verschaffen, kann mit Zuversicht erwartet werden, daß die Banknoten auch bei anderen Zahlungen anstatt Münze werden angenommen werden. Es wird dadurch eine Masse von Silbergeld zurückströmen, die Bank wird durch diese Maßregel sehr befriedigt und zur leichteren Annahme der ihr auf ihr Begehren ad b) gemachten Proposition bewogen, das Ärar aber in eben dieser Beziehung wesentlich dadurch erleichtert werden, daß es dann auch weniger Barsendungen nach Italien zu machen und sohin auch weniger vom Auslande bezogenes Silber von der Bank in Anspruch zu nehmen bemüßiget sein wird.</p>
+                  <p>
+                     <pb n="538" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s538.pdf"/>Was nun die angetragene Übernahme der Hälfte der Kosten für Herbeischaffung von Münzen aus dem Auslande auf das Ärar anbelangt, so hätte zwar der Minister der öffentlichen Arbeiten in Betracht der Höhe dieser Kosten (22%) gewünscht, daß vorerst mit der Bank zu unterhandeln wäre, ob sie nicht von der Forderung sub b) ganz abstehe, da ihr durch die übrigen in Antrag gekommenen Maßregeln, namentlich durch Einführung des Zwangskurses in Italien, wesentliche Vorteile erwachsen werden. Diesen Wunsch teilte auch der Ministerpräsident.</p>
+                  <p>Allein, nachdem der Finanzminister bemerkt hatte, wie schwierig jede Unterhandlung mit der Bank überhaupt und unter den gegenwärtigen dringenden Umständen insbesondre sein würde, nachdem ferner die Minister Baron Sommaruga und Graf Latour dem Finanzminister beigestimmt hatten, so ergab sich der Beschluß dahin, daß die von der Bank gesetzte Bedingung ad a) unbedingt, jene ad b) bezüglich der Hälfte der Kosten und nach Maß der von nun an in Anspruch genommenen Barsummen zugestanden und überdies der Zwangskurs der Banknoten in Tirol und Italien mit der Bestimmung eingeführt werde, daß alldort die Hälfte aller Abgaben in Banknoten zu entrichten sei.</p>
+                  <p>Diesemnach behält sich der Finanzminister vor, die weitern Verfügungen zu treffen<note type="footnote" n="24">Mit Schreiben (K.) v. <date when="1848-07-11">11. 7. 1848</date> an den Bankgouverneur teilte dann aber Krauß mit, daß zwar der Banknotenzwangskurs in Lombardo-Venetien und die Bestimmung bezüglich der Abgaben in Kraft treten werden, der Forderung der Bank nach Übernahme der Kosten bei der Silberbeschaffung vom Ärar nicht einmal zum Teil entsprochen werden könnte, <bibl type="archival">FA., FM., Präs. 2386/1848</bibl>. Anbei Kundmachung (K.) und entsprechende Weisungen (K.) v. <date when="1848-07-11">11. 7. 1848</date> an Latour und Hartig, die Lombardo-Venetien betreffenden Bestimmungen zu publizieren. Die Bank weigerte sich zunächst, die letzten 10 Millionen der Finanzverwaltung zur Verfügung zu stellen, falls nicht zumindest die Hälfte der Silberbeschaffungskosten refundiert würden, Schreiben Mayer-Graveneggs an Krauß v. <date when="1848-07-13">13. 7. 1848</date>, <quote>ebd., Präs. 3022/1848</quote>. Am nächsten Tag teilte der Bankgouverneur allerdings dem Finanzminister mit, die Summe würde ohne die gestellte Bedingung ausgezahlt, <quote>ebd., Präs. 3023/1848</quote>. In einem weiteren Schreiben v. <date when="1848-07-14">14. 7. 1848</date> an Krauß drängte dann Mayer-Gravenegg auf die Übernahme der Hälfte der Kosten durch den Staat, <quote>ebd., Präs. 3029/1848</quote>. Die Angelegenheit fand schließlich mit einer Note (K.) Krauß’ an den Bankgouverneur v. <date when="1848-07-17">17. 7. 1848</date> ihr Ende: Der Staat übernahm die Hälfte der entstandenen und zukünftigen Spesen bei der Beschaffung von Silber im Ausland, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Verpflegskosten der Truppen in der Hofburg während der Märzereignisse</head>
+                  <p>Derselbe stellte den ihm brevi manu zur Äußerung mitgeteilten Vortrag des Obersthofmeisteramts vom <date when="1848-07-02">2. Juli 1848</date>, KZ. 2022<note type="footnote" n="25">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1357/1848</bibl>.</note>, wegen Bedeckung der aus Anlaß der Märzereignisse bestrittenen Auslagen für Verpflegung der Garden und Truppen in der Hofburg mit dem Bemerken zurück, daß er gegen den diesfälligen Antrag des Obersthofmeisteramts sowie gegen die Fortdauer der Verpflegung der zum Wachdienste in der Burg berufenen Nationalgardeabteilung nichts einzuwenden habe.</p>
+                  <p>Der Entwurf der Ah. Erledigung dieses Vortrags wird Ew. Majestät mittelst besondern Votantenbogens au. vorgelegt<note type="footnote" n="26">Der in Anm. 25 zit. Vortrag wurde mit Ah. E. v. <date when="1848-07-19">19. 7. 1848</date> dahingehend resolviert, daß während der Dauer des Reichstages die Nationalgarden weiterhin zu verköstigen seien.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Vermittlung Erzherzog Johanns zwischen Ungarn und Kroaten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> teilte den Inhalt eines Vortrags des Kommandierenden in Slawonien, FML. Baron Hrabowsky, vom <date when="1848-07-08">8. Juli 1848</date> mit<note type="footnote" n="27">Dieser Vortrag konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>, worin derselbe unter <pb n="539" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s539.pdf"/>Darstellung der gegenwärtigen Lage der Dinge in Kroatien, Slawonien und der Militärgrenze Se. k. k. Hoheit den Herrn Erzherzog Johann dringend bittet, das von Ew. Majestät Höchstdemselben übertragene Vermittlungsgeschäft zur Beilegung der ungrisch-kroatischen Wirren<note type="footnote" n="28">Zur Bestellung Erzherzog Johanns als Vermittler zwischen Ungarn und Kroatien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480708-P-0095.xml#top_1_1_95_1">MR. v. <date when="1848-07-08">8. 7. 1848</date>/I</ref>.</note> so bald als möglich zu übernehmen<note type="footnote" n="29">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480826-P-0112.xml#top_1_1_112_1">MR. v. <date when="1848-08-26">26. 8. 1848</date>/I</ref>.</note>; – dann</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_96_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Bitte Jellačić' um Widerruf des Ah. Manifestes vom <date when="1848-06-10">10. 6. 1848</date>, um Nichteinmischung Johann Freiherrn Hrabovskys v. Hrabova und um Einstellung der ungarischen Kriegsvorbereitungen</head>
+                  <p>einen Vortrag des Banus von Kroatien Baron Jellačić<note type="footnote" n="30">Dieser Vortrag konnte unter den Beständen des AVA., IM., Präs., nicht mehr gefunden werden.</note>, worin für die empfangenen 100.000f. zur Bezahlung der Grenztruppen<note type="footnote" n="31">Zur Finanzierung der Grenztruppen siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_6">MR. v. <date when="1848-07-03">3. 7. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480704-P-0092.xml#top_1_1_92_3">MR. v. <date when="1848-07-04">4. 7. 1848</date>/III</ref>; vgl. dazu das Schreiben Jellačić’ an Latour v. <date when="1848-07-12">12. 7. 1848</date>, in dem er den Empfang des Geldes bestätigt, <bibl type="archival">KA., HKR., KM., Präs. 3421/1848</bibl>.</note> der au. Dank abgestattet und um fernere Sorgfalt für diesen Teil des Dienstes, endlich um Revozierung des Ah. Manifests vom 10. Juni<note type="footnote" n="32">Zu diesem Manifest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480625-P-0083.xml#top_1_1_83_3">MR. v. <date when="1848-06-25">25. 6. 1848</date>/III</ref>, Anm. 7.</note> und um Beauftragung des Baron Hrabowsky, sich aller Eingriffe in die Funktionen des Banus zu enthalten, dann um Veranlassung der Einstellung aller Kriegsrüstungen und Zuzüge von Seite Ungerns gegen Kroatien etc. gebeten wird<note type="footnote" n="33">Fortsetzung des Gegenstandes über die Finanzierung der Grenztruppen in <ref type="protocol-link" target="MRP-1-1-01-0-18480718-P-0097.xml#top_1_1_97_8">MR. v. <date when="1848-07-18">18. 7. 1848</date>/VIII</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-07-12">12. Juli 1848</date>. Doblhoff.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolls zur Kenntnis. Erzherzog Johann. Wien, den <date when="1848-07-19">19. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

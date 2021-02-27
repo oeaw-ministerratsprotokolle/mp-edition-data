@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="091">Sitzung 91</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-03"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z91.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1365</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-03"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Pillersdorf; anw. Wessenberg, Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; BdE. Pillersdorf (4. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-04">4. 7.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_91_1">Wahl Erzherzog Johanns zum Reichsverweser</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_91_2">Tragen der deutschen Farben in der k. k. Armee</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_91_3">Lage in Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_91_4">Bericht Mensdorffs und Klezanskys über ihre Kontaktpersonen in Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_91_5">Keine Teilnahme von Mitgliedern des Sicherheitsausschusses an der Regierungskommission für Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_91_6">Reichstagswahlen und Belagerungszustand in Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_91_7">Finanzielle Unterstützung der kroatischen Truppen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480703-P-0091" ana="a1-1848_z91">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z91.pdf">
+               <title type="num">Nr. 91</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-03">3. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Wessenberg, Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (4. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1365</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-07-03">3. Juli 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_91_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Wahl Erzherzog Johanns zum Reichsverweser</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der auswärtigen Angelegenheiten Freiherr v. Wessenberg</rs>
+                     </hi> teilte dem Ministerrate mit einen Bericht des in Frankfurt befindlichen niederösterreichischen Verordneten Ritters v. Schmerling, mit welchem derselbe ein Schreiben der Bundesversammlung an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Johann, dann das Gesetz der deutschen Nationalversammlung zu Frankfurt über die Einführung einer provisorischen Zentralgewalt für Deutschland mit seinen Bemerkungen einbegleite<note type="footnote" n="1">Schreiben Schmerlings v. <date when="1848-06-29">29. 6. 1848</date>, <bibl type="archival">HHSTA., StK., Deutsche Akten, neue Reihe 81, Fasz. 16. 6. – <date when="1848-07-07">7. 7. 1848</date>, fol. 232–243</bibl>. Das Gesetz war von der Nationalversammlung in ihrer 26. Sitzung am <date when="1848-06-28">28. 6. 1848</date> beschlossen worden, <bibl type="secondary">
+                           <title>Stenographische Berichte Über die Verhandlungen der Deutschen Constitutionellen Nationalversammlung</title> 1, 603–604</bibl>, abgedruckt bei <bibl type="secondary">
+                           <title>Huber</title>, Dokumente 1, 276</bibl>.</note>.</p>
+                  <p>In dem Schreiben an Se. kaiserliche Hoheit erwähnt die Bundesversammlung, daß Se. kaiserliche Hoheit der Erzherzog Johann von der deutschen Nationalversammlung mit einer eminenten Stimmenmehrheit zum Reichsverweser ernannt worden sei<note type="footnote" n="2">Das war in der 27. Sitzung am <date when="1848-06-29">29. 6. 1848</date> geschehen, <bibl type="secondary">
+                           <title>Stenographische Berichte Über die Verhandlungen der Deutschen Constitutionellen Nationalversammlung</title> 1. 625–642</bibl>; siehe dazu <bibl type="secondary">
+                           <title>Huber</title>, Deutsche Verfassungsgeschichte 2, 626 f</bibl>.</note>, und daß die Bundesversammlung das Vertrauen hege, dieser Akt werde heilbringend für das Vaterland sein. Die Bundesversammlung drückt zugleich ihre Glückswünsche aus und fügt mit Befriedigung die Bemerkung bei, daß sie noch vor dem Schlusse der Beratung von den betreffenden Regierungen die Ermächtigung erhalten habe, sich für Se. kaiserliche Hoheit zu erklären<note type="footnote" n="3">Vgl. dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_2">MR. v. <date when="1848-07-01">1. 7. 1848</date>/II</ref>.</note>.</p>
+                  <p>Das Gesetz über die Einführung einer provisorischen Zentralgewalt für Deutschland lautet:</p>
+                  <p>1. Bis zur definitiven Begründung einer Regierungsgewalt für Deutschland soll eine provisorische Zentralgewalt für alle gemeinsamen Angelegenheiten der deutschen Nation bestellt werden.</p>
+                  <p>2. Dieselbe hat a) die vollziehende Gewalt zu üben in allen Angelegenheiten, welche die allgemeine Sicherheit und Wohlfahrt des deutschen Bundesstaates betreffen; b) die Oberleitung der gesamten bewaffneten Macht zu übernehmen und namentlich die <pb n="515" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s515.pdf"/>Oberbefehlshaber derselben zu ernennen; c) die völkerrechtliche und handelspolitische Vertretung Deutschlands auszuüben und zu diesem Ende Gesandte und Konsuln zu ernennen.</p>
+                  <p>3. Die Errichtung des Verfassungswerkes bleibt von der Wirksamkeit des Zentralgewalt ausgeschlossen.</p>
+                  <p>4. Über Krieg und Frieden und über Verträge mit auswärtigen Mächten beschließt die Zentralgewalt mit Einverständnis der Nationalversammlung.</p>
+                  <p>5. Die provisorische Zentralgewalt wird einem Reichsverweser übertragen, welcher von der Nationalversammlung frei gewählt wird.</p>
+                  <p>6. Der Reichsverweser übt seine Gewalt durch von ihm ernannte, der Nationalversammlung verantwortliche Minister aus. Alle Anordnungen desselben bedürfen zu ihrer Gültigkeit der Gegenzeichnung wenigstens eines verantwortlichen Ministers.</p>
+                  <p>7. Der Reichsverweser ist unverantwortlich.</p>
+                  <p>8. Über die Verantwortlichkeit der Minister wird die Nationalversammlung ein besonderes Gesetz erlassen.</p>
+                  <p>9. Die Minister haben das Recht, den Beratungen der Nationalversammlung beizuwohnen und von derselben gehört zu werden.</p>
+                  <p>10. Die Minister haben die Verpflichtung, auf Verlangen der Nationalversammlung in derselben zu erscheinen und Auskunft zu erteilen.</p>
+                  <p>11. Die Minister haben das Stimmrecht in der Nationalversammlung nur dann, wenn sie als deren Mitglieder gewählt sind.</p>
+                  <p>12. Die Stellung des Reichsverwesers ist mit der eines Abgeordneten der Nationalversammlung unvereinbar.</p>
+                  <p>13. Mit dem Eintritte der Wirksamkeit der provisorischen Zentralgewalt hört das Bestehen des Bundestages auf.</p>
+                  <p>14. Die Zentralgewalt hat sich in Beziehung auf die Vollziehungsmaßregeln, so weit tunlich, mit den Bevollmächtigten der Landesregierungen ins Einvernehmen zu setzen.</p>
+                  <p>15. Sobald das Verfassungswerk für Deutschland vollendet und in Ausübung gebracht ist, hört die Tätigkeit der provisorischen Zentralgewalt auf.</p>
+                  <p>Ritter v. Schmerling begleitete diese Aktenstücke mit folgenden Bemerkungen: für Österreich sei es günstig, daß Se. kaiserliche Hoheit der Herr Erzherzog Johann zum Reichsverweser gewählt worden sind und daß diese Konstituierung gegen die republikanischen Tendenzen gerichtet ist. Ausgemacht sei es aber nun, daß ein Bundesstaat und kein Staatenbund festgestellt werde.</p>
+                  <p>Der § 5 sei offenbar ein Schritt nach der linken Seite, der zu bedauern ist und überflüssig war, weil man auch ohne die linke Seite der Majorität sicher sein konnte, und man wegen 50 Stimmen ein Prinzip nicht hätte aufgeben sollen. Der Majorität fehlte es bisher an einer guten Führung, welchem Mangel durch das neu zu ernennende Ministerium wird abgeholfen werden können.</p>
+                  <p>Ritter v. Schmerling berichtete ferner, daß Se. kaiserliche Hoheit mit 436 Stimmen gewählt worden seien, daß die bekannt gewordene Wahl mit einem großen Jubel, Glockengeläute etc. aufgenommen wurde und daß alle dem Reichsverweser ihre Unterstützung gelobten. Es sei übrigens eine Deputation von sieben Mitgliedern gewählt worden, welche das Resultat der Wahl eines Reichsverwesers nach Wien zu überbringen hat und die heute hier erwartet wird.</p>
+                  <p>
+                     <pb n="516" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s516.pdf"/>Der Berichtsleger meinte, daß die Wahl anzunehmen wäre, weil die Nichtannahme sowohl für Österreich als Deutschland nachteilige Folgen hätte, in Wien Se. kaiserliche Hoheit ersetzt werden könnten, nicht aber in Frankfurt, und weil, wenn nicht ein befriedigender Präsident die Gewalt übernimmt, man sich der Gefahr aussetzt, in eine Republik zu geraten.</p>
+                  <p>Der Ministerrat einigte sich hierüber darin, Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Johann au. anzuraten:</p>
+                  <p>1. der Frankfurter Deputation zu erklären, die auf Höchstdieselben gefallene Wahl zum Reichsverweser anzunehmen;</p>
+                  <p>2. ihr zu eröffnen, daß Höchstsie sich über den Antritt des neuen Amtes mit Ew. Majestät verständigen, daher sich die Bestimmung des Zeitpunktes vorbehalten müssen, wann Sie in Frankfurt eintreffen können,</p>
+                  <p>3. die Deputation feierlich im Zeremoniensaal oder in dem Saale der Reichskanzlei in Gegenwart der Minister, der Hofchargen, der Generalität, der Chefs der Nationalgarde und der Garnison zu empfangen;</p>
+                  <p>4. die Deputation durch eine feierliche Bewirtung, ein feierliches Diner zu ehren.</p>
+                  <p>In Ansehung der Bestellung der Ministerien werde sich erst nach der Besprechung mit der Deputation ein Antrag machen lassen.</p>
+                  <p>Diese Gegenstände werden übrigens bei der heute um 2 Uhr mittags bei Sr. kaiserlichen Hoheit stattfindenden Beratung der Minister umständlicher besprochen werden<note type="footnote" n="4">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480704-P-0092.xml#top_1_1_92_2">MR. v. <date when="1848-07-04">4. 7. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Tragen der deutschen Farben in der k. k. Armee</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Graf Latour</rs>
+                     </hi> brachte bei diesem Anlasse das Gesuch des hiesigen Sicherheitsausschusses um Anordnung, daß das Militär die deutschen Farben annehmen möge<note type="footnote" n="5">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480702-P-0090.xml#top_1_1_90_3">MR. v. <date when="1848-07-02">2. 7. 1848</date>/III</ref>.</note>, mit dem Bemerken in Anregung, ob nicht der besprochene feierliche Empfang der Frankfurter Deputation<note type="footnote" n="6">Siehe dazu den vorhergehenden Tagesordnungspunkt.</note> anstatt der Bitte des Ausschusses zum Anlaß genommen werden sollte, dem Militär durch einen Armeebefehl aufzutragen, die deutsche Kokarde neben der unsrigen zu tragen.</p>
+                  <p>Der Ministerrat fand diesen Anlaß, wo Deutschland eben seine Sympathien für Österreich durch die Wahl Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzoges Johann zum Reichsverweser an den Tag legt, zu einer solchen Anordnung als vollkommen angemessen, macht jedoch diese Verfügung von der höchsten Zustimmung Sr. kaiserlichen Hoheit abhängig, worüber an dem Abende desselben Tages bei Sr. k. k. Hoheit nochmals die Frage erwogen und beschlossen worden ist, von dem Gebrauche der deutschen Farben bei der Armee abzusehen und diesen Gegenstand fallen zu lassen<note type="footnote" n="7">Schließlich wurden mit Befehl v. <date when="1848-07-30">30. 7. 1848</date> die zur Feier der Ernennung Erzherzog Johanns zum Reichsverweser ausrückenden Truppen angewiesen, doch die deutsche Kokarde zu tragen, der entsprechende Akt <bibl type="archival">KA., HKR., KM., Präs. 3793/1848</bibl>, ist skartiert worden. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480816-P-0105.xml#top_1_1_105_3">MR. v. <date when="1848-08-16">16. 8. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Lage in Böhmen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Freiherr v. Pillersdorf</rs>
+                     </hi> brachte eine telegraphische Depesche aus Böhmen zur Kenntnis des Ministerrates, nach welcher dort nichts <pb n="517" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s517.pdf"/>Neues vorgefallen ist und das für den Czaslauer Kreis beschlossene Standrecht nicht ausgeführt zu werden brauchte<note type="footnote" n="8">Diese Depesche konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des SUA. gefunden werden. Vgl. dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480622-P-0080.xml#top_1_1_80_3">MR. v. <date when="1848-06-22">22. 6. 1848</date>/III</ref>, Anm. 9.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bericht Mensdorffs und Klezanskys über ihre Kontaktpersonen in Böhmen</head>
+                  <p>Derselbe Minister teilte dem Ministerrate den zweiten Bericht der nach Böhmen gesendeten Hofkommissäre, des Generalen der Kavallerie Grafen Mensdorff und des Hofrates Klezansky, zur Kenntnis mit, welcher Bericht das Gutachten über das Benehmen der dortigen Autoritäten, des kommandierenden Generalen Fürsten Windischgrätz, des Gubernialpräsidenten Grafen Leo Thun und des Bürgermeisters Wanka, während der letzten Katastrophe in Prag enthält, mit welchen Autoritäten die Hofkommissäre allein verkehrten<note type="footnote" n="9">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480627-P-0085.xml#top_1_1_85_7">MR. v. <date when="1848-06-27">27. 6. 1848</date>/VII</ref>. Der hier genannte zweite Bericht der Hofkommissäre, <bibl type="archival">AVA., IM., Präs. 2024/1848</bibl>, ist ebenfalls mit <date when="1848-06-25">25. 6. 1848</date> datiert. Er ist identisch mit dem im <ref type="protocol-link" target="MRP-1-1-01-0-18480627-P-0085.xml#top_1_1_85_7">MR. v. <date when="1848-06-27">27. 6. 1848</date>/VII</ref> zit. Bericht, enthält aber zusätzlich noch einige Passagen, die hier besprochen werden. Diese nicht publizierten Stellen abgedruckt bei <bibl type="secondary">
+                           <author>Kazbunda</author>, České hnutí, Beilage XIX, 398–404</bibl>.</note>.</p>
+                  <p>Vom Fürsten Windischgrätz wird darin bemerkt, daß er bei seinen Maßregeln von dem Gedanken ausgegangen sei, es bestehe in Böhmen eine Verschwörung und daß die beabsichtigte Revolution nur durch Militärmacht niedergehalten werden könne. Er habe diesem Treiben in Böhmen Grenzen stecken wollen. Viele danken ihm für die Herstellung der Ordnung, andere sehen in seinem Siege nur den Sieg der Deutschen über die Tschechen. Er habe nur den Aufruhr bekämpft und der konstitutionellen Ordnung nichts anhaben wollen; seine Beweggründe seien loyal gewesen. Von der revolutionären Partei<note type="footnote" n="10">Zu dieser radikalen Partei siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_1">MR. v. <date when="1848-07-01">1. 7. 1848</date>/I</ref>, Anm. 2.</note> schwer beleidigt, habe er Schonung nicht außer Acht gelassen. Gegenwärtig sei er ein Mann der Notwendigkeit, in der Folge aber nicht haltbar, auch wäre seine Existenz in Böhmen gefährdet. Sein Wunsch selbst sei es, nach hergestellter Ruhe sein Amt niederzulegen und nicht in Prag zu bleiben.</p>
+                  <p>Vom Grafen Thun wird angeführt, daß er früher ein warmer Verteidiger des Tschechismus war, daß seine Anstellung in Galizien vor seiner jetzigen<note type="footnote" n="11">Thun war vor seiner Berufung nach Böhmen ab 1847 Gubernialrat in Galizien. Zu seiner Ernennung zum Gubernialpräsidenten in Böhmen siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_6">MR. v. <date when="1848-04-08">8. 4. 1848</date>/VI</ref>.</note> eine Mißstimmung in Prag gegen ihn verursachte, infolge welcher er nicht imstande war, den Übergriffen des Nationalausschusses und der Swornost<note type="footnote" n="12">Zur Svornost siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480616-P-0074.xml#top_1_1_74_6">MR. v. <date when="1848-06-16">16. 6. 1848</date>/VI</ref>, Anm. 14, zum Nationalausschuß <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_1">MR. v. <date when="1848-07-01">1. 7. 1848</date>/I</ref>, Anm. 3.</note> Einhalt zu tun, und daß die Aufstellung einer provisorischen Regierung<note type="footnote" n="13">Zur provisorischen Regierung in Prag siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480614-P-0072.xml#top_1_1_72_1">MR. v. <date when="1848-06-14">14. 6. 1848</date>/I</ref>.</note> die Mißstimmung einer Partei gegen ihn vermehrte. Den kommandierenden Fürsten Windischgrätz habe er übrigens nach Kräften unterstützt.</p>
+                  <p>Der Bürgermeister Wanka sei ein braver Geschäftsmann, ein rechtlicher und rein patriotischer Mann, dem gegenwärtigen Drange der Umstände aber nicht gewachsen<note type="footnote" n="14">Wenzel Wanka war am <date when="1848-05-31">31. 5. 1848</date> zum Prager Bürgermeister gewählt worden, nachdem sein Vorgänger, Thomas Pštross, unter dem Druck der Radikalen zurückgetreten war, siehe dazu <bibl type="secondary">
+                           <author>Kazbunda</author>, České hnutí 223 f</bibl>.</note>. Der Minister des Inneren bemerkt, indem er den obigen Bericht bloß zur Notiz des Ministerrates bringt, daß gegenwärtig noch nicht der Zeitpunkt gekommen sei, über <pb n="518" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s518.pdf"/>die genannten Individuen abzusprechen, weshalb jener Bericht keiner besonderen Erledigung bedürfe; für die Zukunft werden dieselben aber kaum haltbar sein, was sich aber erst nach geschlossener Untersuchung herausstellen werde.</p>
+                  <p>Der Bericht wurde brevi manu dem Kriegsminister übergeben.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Keine Teilnahme von Mitgliedern des Sicherheitsausschusses an der Regierungskommission für Prag</head>
+                  <p>Der Minister des Inneren besprach hierauf die Eingabe des hiesigen Sicherheitsausschusses wegen Beigebung von drei Mitgliedern aus seiner Mitte zu der Regierungskommission, welche die Vorgänge in Prag zu untersuchen hat, mit dem Befugnisse, alle Protokolle einzusehen und allen Verhandlungen beizuwohnen<note type="footnote" n="15">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480702-P-0090.xml#top_1_1_90_1">MR. v. <date when="1848-07-02">2. 7. 1848</date>/I</ref>, Anm. (8).</note>. Baron Pillersdorf meint, und der Ministerrat stimmte ihm bei, daß diesem Einschreiten die Gewährung zu versagen wäre, weil dadurch die Regierungskommission kompromittiert und unter der Prager Bevölkerung ohne zureichenden Grund Aufregung verursacht würde<note type="footnote" n="16">In diesem Sinne unterrichtete Pillersdorf mit Schreiben (K.) v. <date when="1848-07-03">3. 7. 1848</date> den Sicherheitsausschuß vom Beschluß des Ministerrates, <bibl type="archival">AVA., IM., Präs. 2152/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Reichstagswahlen und Belagerungszustand in Böhmen</head>
+                  <p>Der Minister des Inneren forderte unterm 27. v. M. vom Präsidenten des böhmischen Guberniums Grafen Leo Thun die Auskunft, ob bei dem dort bestehenden Belagerungszustande, wodurch die freie Presse und die Assoziation gehemmt sind, die Wahlen für den bevorstehenden Reichstag vorgenommen werden können.</p>
+                  <p>Graf Thun erstattet nun die Auskunft, daß die Vornahme der Wahlen dadurch nicht gehindert werde, Assoziationen seien nicht verboten, nur an ämtliche Bewilligungen geknüpft, welche für die Wahlen ohne Anstand gegeben werden. Die baldige Behebung des Belagerungszustandes werde von beiden gewünscht, gegenwärtig könne sie aber noch nicht ausgeführt werden. Es bestehe zwar Ruhe, aber diese sei noch nicht vollständig sichergestellt. Auf dem Lande treiben sich noch viele Personen herum, die zur Unruhe aufreizen, weshalb auch das Militär in Böhmen nicht vermindert werden sollte<note type="footnote" n="17">Diese Korrespondenz, sowohl die Anfrage Pillersdorfs als auch die Antwort Thuns, konnte weder in den Beständen des SUA., PGT., noch in denen des AVA., IM., Präs., gefunden werden. Pillersdorf hatte mit Schreiben v. <date when="1848-06-30">30. 6. 1848</date> einen genauen Bericht über die Lage in Prag von Thun verlangt und ihn aufgefordert, den Belagerungszustand möglichst bald aufzuheben, <bibl type="archival">SUA., PG., StH., Präs. 6056/1848</bibl>. Thun hatte darauf mit Schreiben (K.) v. <date when="1848-07-01">1. 7. 1848</date> geantwortet, <quote>ebd., Präs. 6156/1848</quote>. Vgl. dazu auch <ref type="protocol-link" target="MRP-1-1-01-0-18480628-P-0086.xml#top_1_1_86_2">MR. v. <date when="1848-06-28">28. 6. 1848</date>/II</ref>, Anm. 7.</note>.</p>
+                  <p>Von dieser zur Kenntnis des Ministerrates gebrachten Auskunft wird ein entsprechender Aufsatz für die Zeitung verfaßt<note type="footnote" n="18">Ein entsprechender Artikel erschien in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-07-06">6. 7. 1848</date>
+                        </bibl> und schloß mit dem Satz: <quote>Spätere Nachrichten lassen erwarten, daß die Behebung des Belagerungszustandes noch vor dem Eintritte der Wahlen in Prag erfolgen werde</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_91_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Finanzielle Unterstützung der kroatischen Truppen</head>
+                  <p>Nach einem vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> mitgeteilten Berichte des Banus von Kroatien<note type="footnote" n="19">Schreiben Jellačić v. <date when="1848-06-30">30. 6. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 3024/1848</bibl>.</note> hat das ungarische Kriegsministerium demselben die weitere Dotation für die Truppen abgeschlagen<note type="footnote" n="20">Die Abschriften der beiden Erlässe des ungarischen Kriegsministeriums v. <date when="1848-06-20">20. 6. 1848</date> in <quote>ebd</quote>.; Jellačić wurde davon mit Schreiben des ungarischen Generalkommandos v. <date when="1848-06-21">21. 6. 1848</date> verständigt,<quote> ebd</quote>.</note>, wornach sich derselbe hinsichtlich der Auszahlung der Löhnungen in der größten Verlegenheit befindet.</p>
+                  <p>Nach dem Berichte des Banus bedarf derselbe für den Monat Juni noch 99.000f. und für den Monat Juli 246.000f. Der Kriegsminister leitete diese Angelegenheit an den <pb n="519" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s519.pdf"/>Finanzminister mit dem Ersuchen, ob nicht durch einen Vorschuß dem Banus aus der Verlegenheit geholfen werden könnte.</p>
+                  <p>Wenn man mit dem ungarischen Ministerium auf einem guten Fuße stünde, dann, meinte der Finanzminister, würde eine Vorschußleistung durchaus keinem Anstande unterliegen. Dies ist aber nicht der Fall. Seit dem Monate April zahlen die Ungarn keinen Heller an die Zentralfinanzen, obgleich sie über drei Millionen abzuführen hätten, ja sie bestreiten selbst das Recht des Ärars auf die Forderung der Rückstände aus den früheren Jahren, welche sich gleichfalls auf mehrere Millionen belaufen.</p>
+                  <p>In dem vorliegenden Falle treten zweierlei Rücksichten hervor, finanzielle und politische. Die ersteren würden anraten, nichts zu geben, weil zu besorgen steht, daß man das Geld nicht wird ersetzen wollen; die zweiten stellen in Aussicht, daß das ungarische Ministerium die den Kroaten geleistete Geldhilfe so ansehen werde, als ob wir die Auflehnung der Kroaten hier unterstützten. Nur ein Modus lasse sich auffinden, dennoch Hilfe zu leisten. Alle Truppen sind nämlich kaiserliche Truppen. Wenn ein Ministerium die Bezahlung derselben verweigert, kann ein anderes die Pflicht nicht ablehnen, sie zu ernähren. Gegenwärtig sind überdies Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Johann als Vermittler zwischen Kroatien und Ungarn bestellt<note type="footnote" n="21">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480626-P-0084.xml">MR. v. <date when="1848-06-26">26. 6. 1848</date>/</ref>1 und <ref type="protocol-link" target="MRP-1-1-01-0-18480627-P-0085.xml#top_1_1_85_6">MR. v. <date when="1848-06-27">27. 6. 1848</date>/VI</ref>.</note>, und man müsse sorgfältig alles vermeiden, daß von keinem Teile Anlaß zu einer Spannung gegeben werde, was zuverlässig der Fall sein würde, wenn die Truppen ihre Löhnungen nicht erhielten.</p>
+                  <p>Alle diese Rücksichten stimmen dafür, daß dem Banus das unumgänglich Erforderliche (etwa 150.000f.) in einer oder zwei Raten aus der Kriegskasse flüssig gemacht werde, welcher Kasse die Finanzen den Ersatz leisten werden. Dieses Geld wäre nach der Ansicht des Ministers Baron Doblhoff nur zur Bezahlung der Truppen, nicht aber auch der Beamten und Pensionisten zu verwenden, und sich jedenfalls der Ersatz zu sichern. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> wird hiernach noch heute mittelst Kuriers dem Banus die nötige Geldhilfe senden<note type="footnote" n="22">Mit Schreiben (K.) vom selben Tag wurde das Universalkriegszahlamt angewiesen, dem nach Agram abgehenden Kurier 100.000 fl. aus dem Staatsschatz zu übergeben, <bibl type="archival">KA., HKR., KM., Präs. 3024/1848</bibl>. Zugleich ersuchte Latour Krauß mit Schreiben (K.) vom selben Tag um Rückerstattung dieser Summe durch die Staatszentralkassa, <quote>ebd</quote>. Latour informierte überdies mit Brief (K.) v. <date when="1848-07-04">4. 7. 1848</date> das ungarische Außenministerium von diesem Schritt und sprach die Hoffnung aus, das ungarische Ministerium werde doch die Agramer Kriegskasse mit den nötigen Geldmitteln versorgen, <quote>ebd</quote>.</note>.</p>
+                  <p>Übrigens wird dieser Gegenstand Sr. kaiserlichen Hoheit besonders gegenwärtig gehalten und die Bitte vorgetragen werden, Höchstdieselben möchten in Ausübung Ihres Vermittleramtes die offenen und auf Ausgleichung berechneten Schritte des hiesigen Ministeriums gegenüber dem ungarischen durch eine eigene Zuschrift bei Sr. kaiserlichen Hoheit dem Herrn Erzherzog Palatin nachdrücklichst zu unterstützen geruhen<note type="footnote" n="23">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480704-P-0092.xml#top_1_1_92_3">MR. v. <date when="1848-07-04">4. 7. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-07-04">4. Juli 1848</date>. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolles zur Wissenschaft. Erzherzog Johann. Wien, den <date when="1848-07-05">5. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

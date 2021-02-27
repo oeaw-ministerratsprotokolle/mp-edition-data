@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="054">Sitzung 54</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-28"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z54.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">963</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-28"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Baumgartner; außerdem anw. Cordon (in Vertretung Latours); BdE. Pillersdorf (29. 5.), Franz Karl (2. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-29">29. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-02">2. 6.</date>
+                  </note>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8231">
+                     <surname>Cordon</surname>
+                  </persName>
+                  <note>in Vertretung Latours</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_54_1">Reduzierung der Wiener Garnison</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_54_2">Bericht Graf Hartigs; Berichte über die Abreise des Kaisers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_54_3">Offizielle Erklärungen in der „Wiener Zeitung“</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_54_4">Schnellere Nachrichtenübermittlung an Graf Franz Stadion</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_54_5">Schreibkräfte für den Ministerrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_54_6">Mißliche Lage Grafen Hoyos'</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_54_7">Pensionierungen und Beförderungen beim Militär</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_54_8">Kanonen für die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_54_9">Zollerleichterungen für den Transithandel</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480528-P-0054" ana="a1-1848_z54">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z54.pdf">
+               <title type="num">Nr. 54</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-28">28. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Baumgartner; außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Cordon (in Vertretung Latours); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (29. 5.), Franz Karl (2. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">963</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-05-28">28. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_54_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Reduzierung der Wiener Garnison</head>
+                  <p>Der Ministerrat hat nach der in der heutigen Wiener Zeitung enthaltenen Kundmachung unter andern folgenden Beschlüssen des Ausschusses von Bürgern, Nationalgarden und Studenten vom 26. d. M. die Genehmigung erteilt<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>.</note>:</p>
+                  <p>1. Die Wachen an den Stadttoren werden von der National- und Bürgergarde und der Akademischen Legion allein bezogen, die übrigen Wachen aber von der Nationalund Bürgergarde und der Akademischen Legion mit dem Militär gemeinschaftlich; die Wache im Kriegsgebäude wird als ein militärischer Posten vom Militär allein versehen.</p>
+                  <p>2. Nur das zum Dienste notwendige Militär bleibt hier, alles übrige wird sobald als möglich abziehen.</p>
+                  <p>Mit Beziehung auf diese Bestimmungen ließ der Kriegsminister Graf Latour durch den ihn vertretenden <hi rend="#letterspaced">
+                        <rs type="person">Generalen Franz Freiherrn v. Cordon</rs>
+                     </hi>
+                     <note type="footnote" n="2">Zur Vertretung des Kriegsministers im Ministerrat durch Cordon siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_5">MR. v. <date when="1848-05-27">27. 5. 1848</date>/V</ref>.</note> folgendes als seine Überzeugung dem Ministerrate eröffnen: Die Behauptung von Wien durch die Besatzung sei unumgänglich notwendig. Es seien hier die Bank, viele Ärarialkassen, das Arsenal, Kabinette, öffentliche Anstalten u. dgl. zu beschützen, die Garnison könne daher nicht vermindert werden, weil, wenn sie zu schwach wäre, sie bei einer allenfälligen Hilfeleistung leicht kompromittiert werden könnte. Der Abmarsch des Regimentes Nugent sei zugesagt, sobald das Regiment Prinz Emil einrückt, was demnächst stattfinden werde. Das nach Ungarn bestimmt gewesene Regiment Wasa könne unter den gegenwärtigen Umständen nicht dahin abgehen gemacht werden, wenn es nicht durch ein anderes Militär ersetzt würde. Die Verbindung mit den Kasernen und Verpflegsmagazinen müsse frei von Barrikaden sein. Sollte die Behauptung Wiens aufgegeben werden, dann wäre es besser, das Militär ganz abziehen zu lassen und die Stadt Wien für jeden dem öffentlichen Gute zugehenden Schaden haftend zu erklären.</p>
+                  <p>Hierüber wurde vom Ministerrate bemerkt, daß man die erst gestern gemachte und heute durch die Zeitung kundgegebene Zusage ad 2. halten müsse. Durch die Bestimmung ad 1. habe sich der Dienst der Garnison auf dem hiesigen Platze wirklich vermindert und sonach könne auch die Garnison um die zu diesem Dienste sonst erforderliche Mannschaft vermindert werden. Es ist nicht notwendig, daß gerade nur so viel Militär hier bleibe, als zu dem ihm übrig bleibenden Wachdienste erforderlich <pb n="336" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s336.pdf"/>ist, sondern, daß nur so viel von hier abziehe, als früher für den nun von der Nationalgarde allein übernommenen Dienst notwendig war.</p>
+                  <p>Nach der vom Generalen Freiherrn v. Cordon vorgebrachten Nachweisung besteht die hiesige Garnison aus 9960 Mann Infanterie und 1350 Mann Kavallerie.</p>
+                  <p>Zu dem von der Nationalgarde nun übernommenen Dienst waren 357 Mann täglich erforderlich. Um diese Zahl, und mit Rücksicht auf den dreitägigen Wechsel eigentlich 1071 Mann, wäre die hiesige Garnison zu verringern, um die oberwähnte Zusage als erfüllt ansehen zu können. Freiherr v. Cordon wird diese Bemerkungen dem Kriegsminister eröffnen und morgen dem Ministerrate weiter referieren<note type="footnote" n="3">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_3">MR. v. <date when="1848-05-29">29. 5. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bericht Graf Hartigs; Berichte über die Abreise des Kaisers</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Freiherr v. Pillersdorf</rs>
+                     </hi> brachte hierauf einige erhaltene Zuschriften zur Kenntnis des Ministerrates, und zwar:</p>
+                  <p>a) ein Schreiben von dem Hofkommissär Grafen Hartig, worin er im wesentlichen meldet, daß die Ereignisse in Wien vom 15. Mai d. J. ihn bestimmt haben, Udine noch nicht zu verlassen<note type="footnote" n="4">Dieses Schreiben konnte unter den Beständen des AVA., IM., Präs., nicht mehr gefunden werden. Vgl. dazu das Schreiben Hartigs an Lebzeltern v. <date when="1848-05-24">24. 5. 1848</date>, in dem er die Wiederherstellung der Ordnung als die erste Bedingung zur Wiederherstellung der österreichischen Herrschaft im lombardisch-venezianischen Königreich bezeichnet, <bibl type="archival">HHSTA., StK., Provinzen Lombardo-Venetien 19, Fasz. Korrespondenz mit den Pazifizierungs Hofkommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 197–202.</bibl>
+                     </note>. Die Übertreibungen, mit welchen die hierortigen Begebenheiten unter das dortige Publikum gelangten, machten einen ungünstigen Eindruck, wirkten aufmunternd für die Bösgesinnten, entmutigend für die Ruhigen, die sich schon freuten, den Wirren der politischen Bewegungen durch Rückkehr unter Österreich entronnen zu sein. Die Zuschrift des Ministeriums des Inneren vom 22. Mai d. J.<note type="footnote" n="5">Diese Zuschrift konnte unter den Beständen des AVA., IM., Präs., ebenfalls nicht mehr gefunden werden.</note> habe Graf Hartig erhalten. Den Aufenthalt in Verona werde er nicht, sondern nach Umständen einen anderen angemessenen Ort wählen und von der Wahl das Ministerium in die Kenntnis setzen<note type="footnote" n="6">Weder in den Ministerratsprotokollen noch unter den Beständen des AVA., IM., Präs., ist eine derartige Benachrichtigung von Seite Hartigs vorhanden.</note>.</p>
+                  <p>Zugleich gibt Graf Hartig Aufklärung über die im gedachten Ministerialschreiben vom 22. d. M. hinsichtlich der Verbreitung des Blattes „II Furlano“ in Venedig gemachten Bemerkungen.</p>
+                  <p>b) Berichte des obderennsischen Regierungspräsidenten Freiherrn v. Skrbensky und des Kreishauptmanns Grafen Chorinsky, die Reise Ew. Majestät und der durchlauchtigsten Familie betreffend<note type="footnote" n="7">Auch diese beiden Berichte konnten unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+                  <p>Es wird bemerkt, daß in der Ah. Begleitung Graf Bombelles war, daß Ew. Majestät für Sich und die Ah. Familie einen Paß unter dem Namen eines Grafen v. Kufstein ausstellen ließen, daß Ihre Majestät die Kaiserin ohne Mantel war, welcher Allherhöchstderselben erst verschafft worden sei, daß Ew. Majestät und die Ah. Familie Ruhe und Fassung zeigten und daß allenthalben die innigste Anhänglichkeit und Untertansliebe Allerhöchstdenselben zu erkennen gegeben wurde.</p>
+                  <p>
+                     <pb n="337" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s337.pdf"/>Die beabsichtigte Kundmachung eines Erlasses über den Grund der Ah. Reise ist unterblieben.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Offizielle Erklärungen in der „Wiener Zeitung“</head>
+                  <p>Der Minister des Inneren teilte dem Ministerrate die Antwort mit, welche Ew. Majestät der steiermärkischen Deputation in Innsbruck bei Gelegenheit, als sie Allerhöchstdenselben die Versicherung der Treue und Anhänglichkeit aussprach, mündlich zu erteilen geruhten<note type="footnote" n="8">Der Text der von dem steiermärkischen ständischen Ausschusse verfaßten Adresse v. <date when="1848-05-21">21. 5. 1848</date>, die von einer Deputation überbracht wurde, ist abgedruckt in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480529">Constitutionellen Donau-Zeitung</ref>
+                           </title> v. <date when="1848-05-29">29. 5. 1848</date>.</bibl>
+                     </note>.</p>
+                  <p>Der Ministerrat erkannte es für angemessen, diese Antwort durch die Wiener Zeitung zur öffentlichen Kenntnis zu bringen und gleichzeitig auch über die Stimmung und den Zustand der Stadt einige beruhigende Worte zu sagen und die sich bei einigen Kompanien der Nationalgarde verbreitete Nachricht, daß Ew. Majestät schon heute um 4 Uhr nachmittags nach Wien zurückkehren werden, als ungegründet darzustellen, da dem Ministerium darüber nichts bekannt sei, es nicht gesäumt haben würde, eine so wünschenswerte Nachricht, wenn sie einen Grund hätte, selbst und schleunig bekanntzumachen, und daß nach den von Innsbruck an das Ministerium täglich gelangenden Nachrichten Ew. Majestät Sich daselbst unausgesetzt den Regierungsgeschäften widmen. Die entsprechenden Aufsätze wurden sogleich vorbereitet, um noch in der heutigen Abendbeilage der Wiener Zeitung zu erscheinen<note type="footnote" n="9">Der Artikel erschien in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (A.) v. <date when="1848-05-28">28. 5. 1848</date>.</bibl> Die Kernaussage der kaiserlichen Antwort bildete der Satz: <quote>Was Ich Meinen Völkern versprochen habe, das werde Ich heilig halten, und Ich hoffe, daß Meine getreuen Steiermärker die Ruhe und Ordnung und das Wohl des Landes auf konstitutionellem Wege erhalten werden.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Schnellere Nachrichtenübermittlung an Graf Franz Stadion</head>
+                  <p>Derselbe Minister las einen von dem galizischen Gouverneur Grafen Stadion erhaltenen Bericht<note type="footnote" n="10">Schreiben Stadions v. <date when="1848-05-24">24. 5. 1848</date>, <bibl type="archival">ZDIAUL., StH., Präs. 6428/1848.</bibl>
+                     </note> vor, worin derselbe die Unzukömmlichkeit darstellt, daß er von den wichtigsten Begebenheiten in Wien oft durch andere früher Nachrichten erhalte als im Wege der Regierung. Von allem, was in Wien wichtiges vorgeht, brauche er von allen Provinzen zuerst in die Kenntnis gesetzt zu werden, teils wegen der großen Entfernung seines Aufenthaltes, teils wegen der besonderen Verhältnisse Galiziens. Um dieses zu erreichen, wären die dringenden dienstlichen Mitteilungen an ihn im Wege des Telegraphen nach Olmütz und dann weiter nach Umständen mittelst Estafette oder der Post zu befördern. Auf diese Art würde er in den Stand gesetzt, wirken zu können. Übrigens bemerkte Graf Stadion, daß sowohl in Lemberg als in den Kreisen des Landes Ruhe herrsche. Die Ministerien werden den vom Grafen Stadion angedeuteten Weg der schnellen Mitteilung benützen<note type="footnote" n="11">Fortsetzung des Gegenstandes über die Entwicklung in Galizien in <ref type="protocol-link" target="MRP-1-1-01-0-18480530-P-0056.xml#top_1_1_56_3">MR. v. <date when="1848-05-30">30. 5. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Schreibkräfte für den Ministerrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> machte aufmerksam, daß es notwendig sei, von den zur öffentlichen Bekanntmachung geeigneten Vorgängen des Ministeriums sogleich und zwar schon aus dem Ministerrate die Kundmachung zu veranlassen.</p>
+                  <p>
+                     <pb n="338" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s338.pdf"/>Ist das Publikum davon in Kenntnis, so werden nicht die sich jetzt so oft wiederholenden Anfragen und Interpellationen des Ministerrates, selbst während seiner Sitzungen, stattfinden, und das Ministerium wird ungestört seine Arbeiten fortsetzen können. Um diesen Zweck zu erreichen, seien aber ein oder zwei Arbeiter notwendig, welche sich in der Nähe des Ministerrates befinden und die erforderlichen Aufsätze für die Zeitungen nach Angabe der Minister oder des den Ministerratssitzungen beiwohnenden Staatsrates v. Pipitz verfassen müßten. Sie brauchen nur redliche, in der Feder gewandte und in der Verfassung von Aufsätzen geübte Männer zu sein.</p>
+                  <p>Der Minister der öffentlichen Arbeiten, von dem Ministerrat darum angegangen, wird sich es angelegen sein lassen, solche Individuen ausfindig zumachen<note type="footnote" n="12">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_8">MR. v. <date when="1848-05-29">29. 5. 1848</date>/VIII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Mißliche Lage Grafen Hoyos'</head>
+                  <p>Hierauf teilte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> einen während der Sitzung erhaltenen Brief des Grafen Hoyos dem Ministerrate mit, worin der Graf bemerkt, daß er durch den 3. Absatz der von dem Ministerrate genehmigten Beschlüsse des Ausschusses von Bürgern, Nationalgarden und Studenten auf unbestimmte Zeit seiner Freiheit beraubt und gehindert sei, seine Geschäfte zu besorgen. Er nimmt den Einfluß des Ministers des Inneren in Anspruch, daß er bald aus dieser peinlichen Lage komme<note type="footnote" n="13">Dieser Brief konnte unter den Beständen des AVA., IM., Präs., nicht mehr gefunden werden. Zu dem ministeriellen Beschluß siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>.</note>.</p>
+                  <p>Baron Pillersdorf bemerkt, durch den erwähnten 3. Absatz werde bestimmt, Graf Hoyos bleibe unter Vorbehalt eines gesetzlichen Vorganges als Bürge für das Zugesicherte und für die Errungenschaften des 15. und 16. Mai unter Aufsicht des Bürgerausschusses.</p>
+                  <p>Hierdurch sei eine Gefangennahme und Arrest des Grafen Hoyos keineswegs gerechtfertiget.</p>
+                  <p>Der Ministerrat habe sich diesfalls bereits gestern an den Ausschuß um Abhilfe gewendet<note type="footnote" n="14">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_8">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VIII</ref>.</note>, sei aber bis jetzt noch ohne Antwort geblieben. Aus Anlaß des Schreibens des Grafen Hoyos wird nach dem Ministerratsbeschlusse das gestrige Ansinnen an den Ausschuß erneuert, was sogleich von dem Minister des Inneren ausgefertigt und abgesendet wurde<note type="footnote" n="15">Dieses Schreiben konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., RTA., gefunden werden. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_6">MR. v. <date when="1848-05-29">29. 5. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Pensionierungen und Beförderungen beim Militär</head>
+                  <p>Mit dem vorliegenden au. Vortrage vom 27. d.M., KZ. 2051<note type="footnote" n="16">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 852/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 2279/1848.</bibl>
+                     </note>, bringt der Kriegsminister durch den ihn vertretenden Generalen <hi rend="#letterspaced">
+                        <rs type="person">Freiherrn v. Cordon</rs>
+                     </hi> die Pensionierung des FZM. Grafen Künigl<note type="footnote" n="17">Zu Hermann Peter Graf Künigl Freiherr zu Ehrenburg und auf der Warth siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 13, 324–327.</bibl>
+                     </note> und des FML. der Artillerie Köck v. Stukkimfeld, dann zum Nachfolger des ersteren in seiner Anstellung beim Artilleriehauptzeugamte den rangsältesten Artilleriegeneralen FML. Baron Augustin<note type="footnote" n="18">Zu Vincenz Freiherr Augustin siehe <quote>ebd., 1, 90f.</quote>
+                     </note> in Antrag.</p>
+                  <p>FZM. Graf Künigl ist vollkommen dienstunfähig wegen Kränklichkeit, Gesichts- und Gehörsschwäche und Abnahme seiner Geisteskräfte. Er hat sich während seiner 67jährigen Dienstzeit, in welcher er 14 Feldzüge mitgemacht, durch alle Chargen der <pb n="339" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s339.pdf"/>Artillerie nicht geringe Verdienste um den Staat erworben. Der Kriegsminister trägt an, Ew. Majestät wollen den FZM. Grafen Künigl in den Ruhestand versetzen und ihm seinen vollem Feldzeugmeistersgehalt von 8000 fr. (der normale Betrag bestünde in 4000 fr.) in Rücksicht der angeführten Verhältnisse zu bewilligen geruhen.</p>
+                  <p>Der FML. der Artillerie Köck v. Stuckimfeld ist bereits 74 Jahre alt und in einem so hohen Grade unbehilflich, daß er selbst zu ganz leichten Friedensdiensten ungeeignet erscheint. Es wird auf seine normalmäßige Pensionierung mit der seinem Charakter zukommenden Pension au. angetragen.</p>
+                  <p>An die Stelle des FZM. Grafen Künigl in seiner Anstellung beim Artilleriehauptzeugamte bringt der Kriegsminister den rangsältesten Generalen der Artillerie FML. Baron Augustin in Vorschlag, welcher im ungetrübten Besitze der vollen Geisteskräfte einen umsichtigen und energischen Betrieb des ihm anvertrauten Geschäftes erwarten läßt, zumal er eine seltene Kenntnis von dem Gewehrwesen durch mehrjährige Verwendung in diesem Fache erlangt hat.</p>
+                  <p>Der Ministerrat hat sich mit diesen Anträgen einverstanden erklärt<note type="footnote" n="19">Der in Anm. 16 zit. Vortrag wurde mit Ah. E. v. <date when="1848-06-03">3. 6. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 963/1848</bibl> und <bibl type="archival">KA., HKR., KM., Präs. 2279/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Kanonen für die Nationalgarde</head>
+                  <p>In der vorliegenden Eingabe<note type="footnote" n="20">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 851/1848.</bibl>
+                     </note> bittet der Ausschuß der Bürger, der Nationalgarde und der Studenten um schleunige Ausfolgung von sechs Batterien samt Munition an den Oberkommandanten der Nationalgarde Obersten v. Pannasch<note type="footnote" n="21">Zur Bestellung Pannasch‘ als provisorischer Oberkommandant der Nationalgarde siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_7">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VII</ref>.</note> zur fortwährenden Disposition und Bedienung durch die gesamte Nationalgarde, damit die Bevölkerung Wiens die volle Garantie erlange, daß keine Reaktion stattfinden werde, weil die Nationalgarde aller Länder Kanonen zu ihrer alleinigen Disposition besitzt und weil nach kundgemachter Erfüllung dieser Bitte erst zur Räumung aller Barrikaden geschritten werden könnte.</p>
+                  <p>Der Ministerrat hat beschlossen, diese Eingabe brevi manu an den Kriegsminister zur Abgabe seiner Meinung und zur Erstattung des au. Vortrages hierüber zu leiten<note type="footnote" n="22">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_2">MR. v. <date when="1848-05-29">29. 5. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_54_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Zollerleichterungen für den Transithandel</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> brachte endlich die Gewährung neuer Zollerleichterungen zur Begünstigung des Durchfuhrhandels in Antrag.</p>
+                  <p>Im Jahre 1833, bemerkte derselbe, seien neue Vorschriften über die Warendurchfuhr erlassen worden<note type="footnote" n="23">Der entsprechende Vortrag der Allgemeinen Hofkammer v. <date when="1833-03-30">30. 3. 1833</date> war mit Ah. E. v. <date when="1833-07-09">9. 7. 1833</date> resolviert worden, siehe dazu <bibl type="archival">HHSTA., ÄStr. 2196/1833.</bibl>
+                     </note>, worin die Zollfreiheit für die von der See eingehenden und durchzuführenden Waren ausgesprochen, dagegen für Waren, welche vom Lande eingehen und über die See auszuführen sind, der Zoll, obgleich in einem mäßigen Ausmaße, beibehalten wurde. Seit dem Jahre 1833 werden Verhandlungen gepflogen, um für die Durchfuhr auch in der Richtung vom Lande über die See Befreiung vom Durchfuhrzolle zu erwirken, es ist aber bis jetzt zu keinem Beschlusse gekommen. Für die Durchfuhr über den Splügen und das Stilfser Joch sind bereits Begünstigungen erteilt <pb n="340" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s340.pdf"/>worden. Von Triest und Tirol sind wiederholte Gesuche eingebracht worden, um Zollbefreiungen für die Durchfuhr auch in der Richtung gegen die See zu erlangen<note type="footnote" n="24">Vgl. dazu die Tiroler Gesuche aus dem Jahr 1847 in <bibl type="archival">FA., FM., Präs. 215/1848.</bibl>
+                     </note>. Zur Unterstützung wird angeführt, daß Tirol sonst in dem für die Provinz wichtigen Durchfuhrshandel durch die Konkurrenz der Schweizer, Piemonts und der italienischen Staaten bedroht wäre.</p>
+                  <p>Der Referent Hofrat Esch erachtete, daß die gegenwärtigen Umstände allerdings ein Zugeständnis für Tirol erheischen, und meinte, daß für die Dauer eines Jahres die Durchfuhr aus der Schweiz über Triest vom Zoll freizulassen wäre. Gegen ein solches Zugeständnis auch für die Durchfuhr aus Bayern erhob er jedoch das Bedenken, daß man dann auch ein gleiches den übrigen Provinzen gewähren müßte<note type="footnote" n="25">Das Gutachten ist im Akt <quote>ebd., Präs. 839/1848.</quote> Darin werden alle bis dahin in dieser Angelegenheit getanenen Schritte genau dargelegt und die Anträge und die Ah. Entschließungen dokumentiert.</note>. Der Finanzminister hält es aber für notwendig, hierin um einen Schritt weiter zu gehen und auch die zur Durchfuhr über Triest bestimmten Güter auf der Nordgrenze von Tirol und nicht bloß von der Schweiz provisorisch für ein Jahr vom Durchfuhrzolle frei zu lassen. Eine solche Maßregel würde mit keinen bedeutenden Opfern für das Ärar (etwa nur 20.000f.) verbunden sein und würde den besten Eindruck nicht bloß in Tirol, sondern auch in Triest machen, was bei den gegenwärtigen Verhältnissen sehr zu berücksichtigen sei.</p>
+                  <p>Dr Ministerrat erklärte sich mit dem Antrage des Finanzministers Freiherrn v. Krauß vollkommen einverstanden, welcher nun hiernach das weitere verfügen wird<note type="footnote" n="26">Mit Zirkularen (K.) v. <date when="1848-05-30">30. 5. 1848</date> an die Landespräsidien und Kameralgefällendirektionen in Innsbruck, Triest und Laibach leitete Krauß die entsprechenden Schritte ein. <quote>ebd.</quote> Mit Vortrag v. <date when="1848-06-10">10. 6. 1848</date> ersuchte Krauß um die temporäre Aufhebung des Transitzolles, die ihm mit Ah. E. v. <date when="1848-06-26">26. 6. 1848</date> erteilt wurde, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1111/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Den <date when="1848-05-29">29. Mai 1848</date>. Pillersdorf.</seg>
+                  <seg type="other">Ges. 2. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Innsbruck, am <date when="1848-06-03">3. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

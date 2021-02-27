@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="061">Sitzung 61</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-04"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z61.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">970</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner; abw. Doblhoff; BdE. Pillersdorf (5. 6.), Franz Karl (10. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-05">5. 6.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-10">10. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_61_1">Sieg bei Curtatone</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_61_2">Enthebung Joseph Freiherrn v. Sardagnas vom Posten des Wiener Stadtkommandanten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_61_3">Ausbesserung des Olmützer Forts</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_61_4">Zurechtweisung Thuns wegen Bildung einer provisorischen Regierung in Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_61_5">Nachrichten Doblhoffs</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480604-P-0061" ana="a1-1848_z61">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z61.pdf">
+               <title type="num">Nr. 61</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-04">4. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Doblhoff; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (5. 6.), Franz Karl (10. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">970</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am 4. Junius 1848 mittags unter dem Vorsitze des interimistischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_61_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Sieg bei Curtatone</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> teilte dem Ministerrate die heute eingelangte, so sehr erfreuliche Nachricht von dem Siege mit, welchen der Feldmarschall Graf Radetzky bei Curtatone über einen Teil der feindlichen Armee erfochten hat<note type="footnote" n="1">In seinem Bericht v. <date when="1848-05-30">30. 5. 1848</date> gab Radetzky eine detaillierte Schilderung dieser Operation v. <date when="1848-05-29">29. 5. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 2178/1848</bibl>; siehe dazu auch <bibl type="secondary">
+                           <author>Bava</author>, Lombardischer Feldzug 25–29</bibl>, und <bibl type="secondary">
+                           <author>Rüstow</author>, Italienischer Krieg 206–209.</bibl>
+                     </note>, eine mit außerordentlicher Kühnheit ausgeführte Waffentat, welche für die österreichischen Truppen äußerst ehrenvoll ist und durch die günstige Stellung, in welche Graf Radetzky dadurch im Rücken und der Flanke der sardinischen Armee gebracht wurde, auf den ganzen Feldzug einen entscheidenden Einfluß zu nehmen verspricht.</p>
+                  <p>Diese Nachricht wurde von dem Ministerrat mit der lebhaftesten Freude und der wärmsten patriotischen Teilnahme aufgenommen<note type="footnote" n="2">Latour schickte einen im entsprechenden Ton gehaltenen Brief (K.) am <date when="1848-06-06">6. 6. 1848</date> an Radetzky, <bibl type="archival">KA., HKR., KM., Präs. 2178/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_61_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Enthebung Joseph Freiherrn v. Sardagnas vom Posten des Wiener Stadtkommandanten</head>
+                  <p>Graf Latour überreicht einen Vortrag, mit welchem er zur Ah. Kenntnis bringt, daß er den Generalmajor Baron Sardagna über sein Ansuchen von dem ihm übertragen gewesenen Stadtkommando in Wien enthoben hat<note type="footnote" n="3">Vortrag Latours v. <date when="1848-06-04">4. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 943/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 2491/1848.</bibl>
+                     </note>. Die Wiederbesetzung dieser Stelle erscheint unter den dermaligen Verhältnissen nicht notwendig, und da dem Baron Sardagna über seine Dienstleistung bereits von den Ministerien des Krieges und des Inneren die Zufriedenheit zu erkennen gegeben wurde<note type="footnote" n="4">Siehe dazu die Schreiben (K.) Latours an das Wiener Generalkommandopräsidium v. <date when="1848-06-04">4. 6. 1848</date>, <quote>ebd., Präs. 1551/1848.</quote>
+                     </note>, so dürfte die vorliegende Anzeige lediglich zur Ah. Wissenschaft genommen werden<note type="footnote" n="5">Mit Ah. E. v. <date when="1848-06-11">11. 6. 1848</date> wurde der in Anm. 3 zit. Vortrag resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 970/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 2491/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_61_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Ausbesserung des Olmützer Forts</head>
+                  <p>Der Kriegsminister brachte ferner mit Berufung auf seinen gleichzeitig überreichten Vortrag vom <date when="1848-06-02">2. l. M.</date>
+                     <note type="footnote" n="6">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 942/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 2490/1848.</bibl>
+                     </note> die Notwendigkeit der Rekonstruktion mehrerer Werke des Olmützer Forts auf dem Galgenberge zur Sprache. Die Unterlage des Forts am Galgenberge ist nämlich teilweise eine seifenartige Talkerde, welche, durch Nässe <pb n="374" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s374.pdf"/>aufgeweicht, eine Verschiebung der darauf ruhenden Bauten zur Folge hat, ein früher nicht vorausgesehener Umstand, der die Baufälligkeit mehrerer Mauern zur Folge hatte. Es wird gegenwärtig unumgänglich notwendig, einen Teil der Escarpe-Futtermauer, der Contre-escarpe und der Gallerie majeure<note type="footnote" n="7">Unter Escarpe versteht man die unterste Brustwehr eines Grabens; Gallerie bedeutet in diesem Zusammenhang einen schmalen Gang zu den Außenwerken, Minengang.</note> neu, und zwar in solcher Weise herzustellen, daß sich keine neue Verschiebung ergeben könne. Bei dieser Gelegenheit könnte mittelst Anwendung eines Hohlbaues ein bombenfreier Belagsraum für 500 Mann gewonnen werden. Die Gesamtauslage per 230.689 fl. würde sich auf zwei bis drei Jahre verteilen und aus der disponiblen extraordinären Dotation für Geniebauten bestritten werden. Damit die in Olmütz befindlichen unbeschäftigten Maurer nicht etwa diesen Platz verlassen und sich nach einem anderen Orte (etwa nach Wien) wenden, hat der Kriegsminister die neue Fundierung bereits sub spe Altissimi rati angeordnet, und der tg. Ministerrat vereinigte sich mit dem au. Antrage auf Ag. Genehmigung dieser zur Verteidigung der wichtigen Festung Olmütz notwendigen Bauführung<note type="footnote" n="8">Der in Anm. 6 zit. Vortrag wurde mit Ah. E. v. <date when="1848-06-11">11. 6. 1848</date> bewilligt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 970/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_61_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Zurechtweisung Thuns wegen Bildung einer provisorischen Regierung in Prag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> las dem Ministerrate den Bericht des Gubernialpräsidenten zu Prag Grafen Thun<note type="footnote" n="9">Schreiben (K.) Thuns an Pillersdorf v. <date when="1848-06-11">11. 6. 1848</date>, <bibl type="archival">SUA., PG., StH., Präs. 4788/1848.</bibl>
+                     </note> vor, worin derselbe infolge des den 1. Junius an ihn ergangenen telegraphischen Auftrags<note type="footnote" n="10">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480602-P-0059.xml#top_1_1_59_2">MR. v. <date when="1848-06-02">2. 6. 1848</date>/II</ref>, Anm. 8.</note> die Aufklärungen über die von ihm gebildete provisorische Regierung erstattet. Diese Aufklärungen beschränken sich im wesentlichen auf die Berufung auf die hierüber in der Prager konstitutionellen Zeitung erschienenen Artikel<note type="footnote" n="11">Siehe dazu ebd., Anm. 10.</note> und auf die Angabe, daß, nachdem die Unabhängigkeit und Selbständigkeit des Ministerrates durch die am 26. Mai in Wien eingetretenen Ereignisse<note type="footnote" n="12">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480526-P-0052.xml#top_1_1_52_1">MR. v. <date when="1848-05-26">26. 5. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>.</note> aufgehoben und somit dessen Einfluß in Regierungsangelegenheiten auf die Provinzen erloschen sei, Graf Thun es nach gepflogener Rücksprache mit dem Kommandierenden Generalen, mit dem Appellations [gerichts] präsidenten und dem Vizepräsidenten des Guberniums für unumgänglich nötig befunden habe, eine provisorische Regierung für Böhmen aus Männern des öffentlichen Vertrauens zusammenzusetzen, welche die den Wirkungskreis der Landesstellen überschreitenden Geschäfte insolange provisorisch besorgen würden, bis über diesen Gegenstand die gleichzeitig direkt eingeholte Entscheidung Sr. Majestät erfolgt ist.</p>
+                  <p>Freiherr v. Pillersdorf trug hierauf den Entwurf seines in Beantwortung dieses Berichts an Graf Thun zu richtenden Erlasses vor, worin die entschiedene Mißbilligung dieses in seiner Art unerhörten Vorganges ausgesprochen und der Gubernialpräsident für alle daraus entstehenden Folgen strenge verantwortlich erklärt wird. Es wird ihm bedeutet, daß durch die erwähnten Ereignisse die Freiheit der Entschlüsse des Ministeriums nicht beeinträchtigt, der Einfluß desselben auf alle übrigen Provinzen unverändert geblieben, der Gang der Administration – mit einziger Ausnahme der in Wien eingetretenen <pb n="375" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s375.pdf"/>veränderten Einrichtungen – in der bisherigen Weise geregelt geblieben und der Verkehr des Ministeriums mit Ah. Sr. Majestät niemals unterbrochen worden sei, zumal es nie aufgehört habe, Se. Majestät durch Erstattung von au. Vorträgen und Vorlegung der Ratsprotokolle von dem Gange der Regierungsgeschäfte in Kenntnis zu erhalten sowie andererseits an das Ministerium fortwährend Ah. Resolutionen in Staatsangelegenheiten herabgelangen<note type="footnote" n="13">
+                        <bibl type="archival">AVA., IM., Präs. 1985/1848.</bibl>
+                     </note> Unter diesen Umständen müsse das Ministerium den Grafen Thun auffordern, die von demselben usurpierte Gewalt abzulegen und in die ihm als Landeschef gebührende Stellung zurückzutreten, widrigens man sich genötigt sehen müßte, die Kreisämter in Böhmen des Gehorsams gegen die Landesstelle förmlich zu entbinden.</p>
+                  <p>Die ganze Fassung dieses Erlasses wurde von dem Ministerrate einstimmig gebilligt und dabei noch von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> herausgehoben, es falle sehr auf, daß, während Graf Thun sich mit dem Kommandierenden Generalen und dem Appellations[gerichts]präsidenten über die Notwendigkeit, eine provisorische Regierung zu bilden, beraten habe, er den Landeschef für die Kameralangelegenheiten nicht zu befragen für nötig befunden habe<note type="footnote" n="14">Mit Schreiben, das allerdings bereits mit <date when="1848-06-03">3. 6. 1848</date> datiert ist, informierte Pillersdorf Thun über den Beschluß des Ministerrates, <bibl type="archival">SUA., PG., StH., Präs. 5078/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480606-P-0063.xml#top_1_1_63_5">MR. v. <date when="1848-06-06">6. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_61_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Nachrichten Doblhoffs</head>
+                  <p>Über ein dem interimistischen Ministerpräsidenten mitgeteiltes Schreiben des Ministers Baron Doblhoff aus Innsbruck de dato 31. v. M.<note type="footnote" n="15">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 941/1848.</bibl>
+                     </note> über verschiedene Staatsangelegenheiten wurde beschlossen, an denselben ein Rückschreiben zu richten<note type="footnote" n="16">Ein entsprechendes Antwortschreiben konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des <bibl type="archival">HHSTA., Kab. Kanzlei, gefunden werden.</bibl>
+                     </note>.</p>
+                  <p>Die den au. Anträgen des Ministerrates zu II und III entsprechenden Resolutionsentwürfe werden auf der Nebenspalte ehrerbietigst der Ah. Sanktion unterzogen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am 5. Junius 1848. Pillersdorf.</dateline>
+                  <seg type="other">Ges. 10. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Innsbruck, am <date when="1848-06-11">11. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="027">Sitzung 27</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-04"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z27.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">618</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. fehlt; VS. Franz Karl; anw. Ficquelmont, Pillersdorf, Sommaruga, Krauß, Latour; BdE. Pillersdorf (6. 5.), Franz Karl (7. 5.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-06">6. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-07">7. 5.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_27_1">Wiederherstellung von Ruhe und Ordnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_27_2">Anspruch des ungarischen Ministeriums auf die Militärgewalt in Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_27_3">Reduzierung des Briefportos</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_27_4">Versetzung Johann Ludwig Freiherrn Dercsényis v. Dercsén</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480504-P-0027" ana="a1-1848_z27">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z27.pdf">
+               <title type="num">Nr. 27</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-04">4. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Franz Karl; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Ficquelmont, Pillersdorf, Sommaruga, Krauß, Latour; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (6. 5.), Franz Karl (7. 5.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">618</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung am <date when="1848-05-04">4. Mai 1848</date> unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzoges Franz Karl.</head>
+               <div type="agenda_item" xml:id="top_1_1_27_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Wiederherstellung von Ruhe und Ordnung</head>
+                  <p>Nach der von Sr. k. k. Hoheit gegebenen Andeutung wurden aus Anlaß der in der Nacht vom 3. auf den <date when="1848-05-04">4. Mai 1848</date> in der Stadt Wien vorgekommenen Störungen vorerst die Mittel zur Sprache gebracht, um Ruhe und Ordnung künftighin auf eine zuverlässigere Art herzustellen. Der gnädigst gemachten Andeutung, daß durch einen von Ew. Majestät selbst ausgehenden Aufruf an die Nationalgarde, Bürger und Studierenden zur Ruhe gemahnt werden soll, glaubte der Minister des Inneren durch die Vorbereitung eines Aufsatzes zuvorgekommen zu sein, mit welchem im Ah. Namen die Notwendigkeit des Zusammenwirkens aller Bewohner Wiens zur Erhaltung der Ruhe hervorgehoben werden soll. Der Erfolg selbst dürfte jedoch so lange kein vollständiger sein, als den Behörden die nötige Autorität, Tätigkeit und der Mut fehlt. Die Polizeidirektion ist noch unsicher und entbehrt einer im Ansehen stehenden Wache, die Munizipalgarde ist noch nicht zustande gebracht<note type="footnote" n="1">Zur Aufstellung dieser Wiener Sicherheitswache siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_12">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XII</ref> und <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot1 top1">MR. I v. <date when="1848-04-22">22. 4. 1848</date>/I</ref>.</note> und der Bürgerausschuß selbst gehet bei seinen Beratungen und Vorkehrungen mit zu viel Schüchternheit vor, die Nationalgarde war gerade an dem erwähnten Abende in dem Übergange, wo der Austritt des Oberkommandanten Grafen Hoyos ausgesprochen war<note type="footnote" n="2">Zum Rücktritt von Hoyos siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_4">MR. v. <date when="1848-04-29">29. 4. 1848</date>/IV</ref>.</note>. Der Minister des Inneren<ref xml:id="fn_1_1_27_a"> verfügte sich selbst von 10 bis 11 Uhr in das Menschengedränge, erkannte leider das Unzureichende der getroffenen Anstalten, um solchen Exzessen vorzubeugen</ref>
+                     <note type="variant" n="a" target="#fn_1_1_27_a">Korrektur a–a Pillersdorfs aus: <quote>war selbst von 10 bis 11 Uhr in das Menschengedränge geraten und konnte nicht annehmen, daß einige Stunden solche Exzesse vorfallen werden</quote>.</note>, wie sich dieselben wirklich zutrugen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Ficquelmont</rs>
+                     </hi> gab zur Erklärung des von ihm getanenen Schrittes, KZ. 1619/1848<note type="footnote" n="3">Rücktrittsgesuch Ficquelmonts v. <date when="1848-05-04">4. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 505/1848</bibl>.</note>, folgende Sachverhältnisse an. Als ihm um 9 Uhr zur Kenntnis kam, daß eine Bewegung der Studenten sich gegen seine Wohnung zum Behufe einer politischen Demonstration richten werde, habe er nur die Äußerung gemacht, daß er für keinen Fall rätlich finde, daß zur Verhinderung dieser Demonstration militärische Gewalt angewendet werde. Er hoffte, daß die Nationalgarde und der gesunde Sinn der Bevölkerung jedem Exzesse zuvorkommen werde. Um 10 Uhr abends sei nun wirklich eine große Menge von Studenten gegen seine in der Landhausgasse <pb n="153" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s153.pdf"/>befindliche Wohnung herangezogen, und da man ihn nicht zu Hause fand, so seien sogar vier Individuen in seine Zimmer eingedrungen und haben dieselben durchsucht, um die Wahrheit seiner Abwesenheit zu erproben. Nach einer halben Stunde habe man auch in der Wohnung seiner Tochter, der Fürstin Clary, nachgeforscht, da jedoch dies ebenfalls verfehlt war, so sammelte sich die Menge vor dem Gebäude der Staatskanzlei, wo der Minister den Geschäften oblag. Das Tor war geschlossen und man konnte hoffen, daß es mit dem Lärmen allein abgehen würde; allein nach 3/4 Stunden wurde das Poltern am Tore so heftig, daß das gewaltsame Einbrechen zu besorgen stand. Graf Ficquelmont ließ daher öffnen, und es kamen 10–12 Studenten, worunter etwa zwei Nationalgarden, in sein Geschäftszimmer und drangen auf die ungestümste, verletzendste Weise in ihn, daß er seine Ministerstelle niederlegen solle. Er erklärte seine Pflicht, wies insbesondere auf die Möglichkeit hin, daß ihm, so wie dem FML. Zichy in Venedig<note type="footnote" n="4">Zur kriegsrechtlichen Verfolgung Zichys siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480403-P-0002.xml#top_1_1_2_4">MR. v. <date when="1848-04-03">3. 4. 1848</date>/IV</ref>.</note>, Vorwürfe gemacht werden könnten, und widerstand durch 3/4 Stunden den anstürmenden Reden der sogenannten Deputation. Dann begleiteten zwei Individuen den Grafen Ficquelmont auf dem Wege nach der Fürst Claryschen Wohnung, wo jedoch bald darauf eine zweite, nicht so zahlreiche, aber noch heftigere Deputation erschien und ihn nicht eher verließ, bis er seine Zusage machte, er werde Ew. Majestät innerhalb 24 Stunden die Bitte um seine Enthebung vorlegen. Leider seien hierbei solche Äußerungen der sogenannten Deputierten vorgekommen, wie sie nicht bloß für ihn als Minister kränkend, sondern auch für seine Tochter und Familiengenossen höchst verletzend sein mußten. Er könne darüber wohl nicht eine strafgerichtliche Prozedur wünschen, weil sie für ihn selbst weitere Belästigung zur Folge hätte. Allein, dieser Exzeß sei so geartet, daß er die schnelle Berücksichtigung seiner Bitte um Enthebung von dem Ministerposten hoffen und dafür auch geltend machen könne, daß die öffentlichen Interessen keine Zögerung gestatten<note type="footnote" n="5">Zu diesem Vorfall siehe auch <bibl type="secondary">
+                           <author>Reschauer – Smets</author>, Revolution 2, 146–150</bibl>; <bibl type="secondary">
+                           <author>Helfert</author>, Österreichische Revolution 2, 40–43</bibl>.</note>.</p>
+                  <p>Graf Ficquelmont müsse in diesem Gassentumulte und Einbruche gegen den Hausfrieden leider einen Zusammenhang mit den aufreizenden Bewegungen der Polen wahrnehmen. Die Ankunft der Deputierten von Krakau<note type="footnote" n="6">Zur Krakauer Deputation siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480426-P-0020.xml#top_1_1_20_8">MR. v. <date when="1848-04-26">26. 4. 1848</date>/VIII</ref>.</note>, das polnische Komitee<note type="footnote" n="7">Zum polnischen Komitee in Wien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_8">MR. v. <date when="1848-04-29">29. 4. 1848</date>/VIII</ref>.</note> ganz nahe der Aula, dann die zahlreichen Besuche bei Fürst Lubomirski<note type="footnote" n="8">Fürst Georg Lubomirski, Mitüberbringer der galizischen Adresse, galt als eine der Galionsfiguren der polnischen Nationalbewegung.</note>, die Benützung eines Franzosen Dighé, all dies lasse eine Verbindung der sogenannten politischen Demonstration der Wiener Studenten mit den Polen aus Krakau und Lemberg schließen.</p>
+                  <p>Wie die Lage der Dinge jetzt ist, wird den Gesetzen schwer die gebührende Achtung zu verschaffen sein. Die öffentlichen Beamten sind eingeschüchtert, die Repressivgesetze insbesondere gegen die Presse nicht zur Ausübung gebracht, und der Aufruf im Ah. Namen dürfte sich als unzureichend erweisen, wenn nicht damit eine bestimmte Erklärung der baldigen Berufung der Reichsstände und eine Vorkehrung verbunden <pb n="154" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s154.pdf"/>ist, daß sich nicht die Assoziation der Studenten mit den Deputierten der Nationalgarde zu einer dauernden gefährlichen Macht ausbilde.</p>
+                  <p>Um die Ruhe für den heutigen Abend zu sichern, wurde einhellig beschlossen, die Bitte des Ministers Graf Ficquelmont um Enthebung von seiner Stelle bei Ew. Majestät sogleich zu unterstützen und die Nachricht hievon in der nebenstehenden Art dem Publikum bekanntzugeben<note type="footnote" n="9">Das in Anm. 3 zit. Rücktrittsgesuch Ficquelmonts wurde mit Ah. E. v. <date when="1848-05-07">7. 5. 1848</date> angenommen und zugleich Lebzeltern interimistisch mit der Weiterführung der Geschäfte des Außenministeriums betraut, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 618/1848</bibl>.</note>.</p>
+                  <p>So bedauerlich die Veranlassung und noch mehr der Austritt des provisorischen Ministerpräsidenten für das Gemeinwesen und die Mitglieder des tg. Ministerrates ist, so glaubte doch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> zur Erklärung der Vorfälle, wie die jetzt die Residenz beunruhigen, einige Bemerkungen beifügen zu sollen. Wenn nämlich auch nicht zu zweifeln ist, daß der Regierung solche Kraftmittel zu Gebote stehen, daß sie mit denselben den Unruhestörern mit Erfolg werde Widerstand leisten, so müsse doch die Möglichkeit eines Mißlingens nicht außer aller Berechnung bleiben. Bei dem fortdauernden Kriege in Italien, der sich nahenden Revolution von Galizien und bei der Anarchie in Ungarn dürfen die schwachen Seiten des hiesigen Zustandes nicht übersehen werden. Die Polizei als solche ist beinahe nicht vorhanden, ihre Organe scheinen mut- und ratlos und ihr Einschreiten wird noch keineswegs von der öffentlichen Meinung unterstützt.</p>
+                  <p>Die Nationalgarde ist von den Vorurteilen nicht frei, welche die Masse beherrschen. Mißtrauen in die Regierungsgewalt und Furcht vor Reaktion machen die Mitwirkung der Nationalgarde für manche Fälle zweifelhaft.</p>
+                  <p>Bei dem Militär endlich kann wohl unbedingt auf Treue und Energie gezählt werden, allein Ew. Majestät geruhten bisher durch Genehmigung der mildesten Maßregeln jedes Blutvergießen zu vermeiden, es dürfte daher dieser äußerste Punkt doch so lange als möglich vermieden werden. Durch Überwachung der Fremden, Entfernung der Unruhestifter und durch eine Norm, welche die Straßentumulte zu beseitigen geeignet ist, dürfte in Verbindung mit dem zu erlassenden Ah. Aufrufe für die Gegenwart ausgereicht werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Unterrichts Freiherr v. Sommaruga</rs>
+                     </hi> glaubt in seinem Wirkungskreise zur Verminderung der unruhigen Auftritte in der Wiener Universitätsaula eine Verordnung an den Rektor magnificus erlassen zu sollen, mit welcher die Zeit und die Art der Zusammenkünfte der Studentenschaft in der Aula eine Regelung erhalten würde. Es sollte die Aula nur durch drei Stunden täglich zu den erwähnten Besprechungen verwendet werden und [bei] denselben immer ein Direktor oder Professor zugegen sein. Freiherr v. Krauß wünschte, aus dieser Anordnung jene Bestimmung hinwegzulassen, welche eine Beglaubigung der Studenten als Körperschaft oder die Haltbarkeit ihrer Beschlüsse voraussetzen würde. Es wird durch die Beigebung eines Professors nur die Verhütung von gesetzwidrigen Akten, nicht aber eine positive Einmischung in die Besprechungen bezielt. Die Schließung der Universität anzuordnen, dürfte jetzt selbst einen Widerstand hervorrufen oder die Gefahr herbeiführen, daß die <pb n="155" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s155.pdf"/>Bewegung von der Aula auf die Gasse versetzt würde. Der Ministerrat fand gegen die angedeutete, durch die Tatsachen bedingte Verfügung zur Herstellung einiger Ordnung in der Aula nichts zu erinnern<note type="footnote" n="10">Mit Schreiben v. <date when="1848-05-04">4. 5. 1848</date> wies Sommaruga den Rektor der Wiener Universität Jenull an, diese im Ministerrat beschlossenen Maßnahmen in die Tat umzusetzen, <bibl type="archival">Universitäts Archiv, Consistorial-Akten 1848, Fasz. I, 326 (332)</bibl>. Der entsprechende Akt des Unterrichtsministeriums, <bibl type="archival">AVA., UM., Präs. 87/1848</bibl>, ist nicht mehr vorhanden. Siehe dazu <bibl type="secondary">
+                           <author>Heintl</author>, Universitäts-Acten Nr. 50</bibl>.</note>.</p>
+                  <p>Die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Unterrichtes</rs>
+                     </hi>, KZ. 1621, vorgeschlagene Weisung an den Wiener Magistrat wegen möglichster Schonung der Studenten bei der bevorstehenden Rekrutierung wurde allseitig als zweckmäßig erkannt und dürfte der Ah. Genehmigung in Betracht der außerordentlichen Umstände für würdig gehalten werden<note type="footnote" n="11">Auf Vortrag Sommarugas v. <date when="1848-05-04">4. 5. 1848</date> um Suspendierung des Rekrutierungsgesetzes hinsichtlich der Studenten, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 507/1848</bibl>, erteilte der Kaiser mit Ah. E. v. <date when="1848-05-07">7. 5. 1848</date> die Genehmigung dazu und wies den Unterrichtsminister an, im Einvernehmen mit dem Innenminister alles Nötige zu veranlassen, <quote>ebd., MRZ. 618/1848</quote>, abgedruckt in <bibl type="secondary">
+                           <author>Wolf</author>, Wiener Universität 97 f., Anmerkung</bibl>. Siehe dazu auch <bibl type="secondary">
+                           <author>Heintl</author>, Universitäts-Acten Nr. 51 und 57</bibl>. Fortsetzung des Gegenstandes allgemein in <ref type="protocol-link" target="MRP-1-1-01-0-18480505-P-0028.xml#top_1_1_28_6">MR. v. <date when="1848-05-05">5. 5. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_27_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Anspruch des ungarischen Ministeriums auf die Militärgewalt in Ungarn</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Krieges</rs>
+                     </hi> brachte die Schwierigkeiten zur Sprache, in welche die Zentralkriegsverwaltung wegen der neuesten ungrischen Reichstagsgesetze<note type="footnote" n="12">Es handelte sich um den § 6, III. Gesetzartikel, der vom ungarischen Landtag Landtag 1847/48 in Preßburg beschlossen und vom Kaiser am <date when="1848-04-11">11. 4. 1848</date> sanktionierten Gesetzartikel, dessen entsprechende Stelle lautete:… <quote>in allen Zivil-, kirchlichen, Ärarial-, Militär- und im Allgemeinen in allen Wehrangelegenheiten wird Se. Majestät die exekutive Gewalt künftighin ausschließlich nur durch das ungarische Ministerium ausüben</quote>, den § 8 desselben Gestzartikels: <quote>Die Verwendung des ungarischen Heeres außerhalb der Landesgrenzen, sowie die Ernennung zu Militärämtern wird gleichfalls Se. Majestät unter Gegenzeichnung des laut § 13 stets um Seine königliche Person sich befindenden verantwortlichen ungarischen Minister bestimmen</quote>, und den § 14 dieses Gesetzartikels, der eine eigene Landesverteidigungsabteilung im ungarischen Ministerium vorsieht, siehe dazu <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 87 f.</bibl>
+                     </note> gerät, da das ungrische Ministerium den ausschließlichen Einfluß auf die Generalkommanden, die Militärgrenze und die übrigen im Lande befindlichen Militärgegenstände, wie selbst Geschütze, Munition, Vorräte, Gestüte etc. anspricht und die Disposition mit den Truppen zu erringen strebt<note type="footnote" n="13">Zu den Versuchen des ungarischen Ministeriums, auch die militärische Befehlsgewalt in den Ländern der Stephanskrone in die Hand zu bekommen, siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_10">MR. v. <date when="1848-04-19">19. 4. 1848</date>/X</ref>, <ref type="protocol-link" target="toc.html?collection=editions#myTable=f19480430" ana="prot0 top4">MR. v. <date when="1948-04-30">30. 4. 1948</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480501-P-0024.xml#top_1_1_24_12">MR. v. <date when="1848-05-01">1. 5. 1848</date>/XII</ref>.</note>. Baron Krauß macht vernehmlich auf die Stellung des Banus und auf den Umstand aufmerksam, daß die Verfügung und der Oberbefehl der Truppen stets dem Könige allein zustand, daß dieser Teil der königlichen Macht seiner Natur nach und nach dem Beispiele aller konstitutionellen Länder keine Mitwirkung verantwortlicher Minister gestatte und daß es selbst in dem Gesetze durch das Wort – honvédelem<note type="footnote" n="14">(Landschutz); Landesverteidigung.</note> – eine Beschränkung für das ungrische Ministerium angedeutet sei. Die Wichtigkeit dieser Betrachtungen erwogen, behielten Sich Se. kaiserliche Hoheit bevor, Ah. Ew. Majestät besonders auf die Vorsichten bei Erledigung der von dem ungrischen Ministerium gestellten Bitten aufmerksam zu machen<note type="footnote" n="15">Ein entsprechender Schritt Erzherzogs Franz Karl ist in den nachfolgenden Ministerratsprotokollen nicht ausgewiesen. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480508-P-0031.xml#top_1_1_31_6">MR. v. <date when="1848-05-08">8. 5. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_27_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Reduzierung des Briefportos</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> brachte die Verminderung des Briefportosatzes in dem Rayon bis 10 Meilen zur Sprache und glaubte durch die Herabsetzung von 6 fr. auf 3 fr. für den einfachen Brief den Verkehr zu erleichtern, ohne dem Gefälle eine Einbuße zuzuziehen. Der Ministerrat stimmte dieser vorgeschlagenen Verfügung bei<note type="footnote" n="16">Die Vorstände der obersten Hofpostverwaltung hatten mit Schreiben v. <date when="1848-04-24">24. 4. 1848</date> auf diese Änderung des Briefportosatzes angetragen, <bibl type="archival">FA., FM., Präs. 245/1848</bibl>. Nach dem Beschluß des Ministerrates verfügte Krauß per Dekret v. <date when="1848-05-04">4. 5. 1848</date> die gewünschte Herabsetzung, <quote>ebd.</quote>; anbei das gedruckte <quote>Porto-Regulativ der k. k. Postanstalt</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_27_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Versetzung Johann Ludwig Freiherrn Dercsényis v. Dercsén</head>
+                  <p>Der Vortrag wegen Versetzung des Hofrates der allgemeinen Hofkammer Freiherr v. Dercsenyi wird ebenfalls mit dem einhelligen Einraten der Ah. Genehmigung unterzogen<note type="footnote" n="17">Auf Vortrag Krauß’ v. <date when="1848-05-04">4. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 515/1848</bibl>, wurde Dercsényi mit Ah. E. v. <date when="1848-05-07">7. 5. 1848</date> in den Ruhestand versetzt, <quote>ebd., MRZ. 618/1848</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-05-06">6. Mai 1848</date>. Pillersdorf.</seg>
+                  <seg type="other">Ges. 7. Mai. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-05-07">7. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="339">Sitzung 339</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-04-07"/>
+               <date when="1863-04-09"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z339.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1143</idno>
+                  <idno type="KZ">1372</idno>
+               </msIdentifier>
+               <p>
+                  <span>Sammelprotokoll, kompiliert aus mehreren Sitzungstagen; </span>
+                  <span ana="non-parsed">Sammelprotokoll; RS.; P. Schurda; VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 9. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein 28. 4.; BdR. Erzherzog Rainer 1. 5.</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-04-07"/>
+                  <date when="1863-04-09"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">Sammelprotokoll; RS.; P. Schurda; VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 9. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein 28. 4.; BdR. Erzherzog Rainer 1. 5.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-04-09">1863-04-09</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-04-28">28. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_339_1">Provisorische Landtagsordnung und provisorische Geschäftsordnung für den bevorstehenden Landtag des Großfürstentums Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_339_2">Beratung des Entwurfs der Strafprozeßordnung im Staatsrat unter Zuziehung der beteiligten Minister</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630409-P-0339" ana="a5-b5-z339">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z339.pdf">
+               <title type="num">Nr. 339</title>
+               <title type="descr">Ministerrat, Wien, 7. und <date when="1863-04-09">9. April 1863</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">Sammelprotokoll; <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> (Erzherzog Rainer 9. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein 28. 4.; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 1. 5.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1143</idno>
+                  <idno type="KZ">1372</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am 7. und <date when="1863-04-09">9. April 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer. [Sitzung vom <date when="1863-04-07">7. April 1863</date>][anw. Erzherzog Rainer, Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein]</head>
+               <div type="agenda_item" xml:id="top_5_5_339_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Provisorische Landtagsordnung und provisorische Geschäftsordnung für den bevorstehenden Landtag des Großfürstentums Siebenbürgen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über die Anträge der siebenbürgischen Hofkanzlei bezüglich der Zusammensetzung des siebenbürgischen Landtages<note type="footnote" n="1">Mit Vortrag v. <date when="1863-03-17">17. 3. 1863</date> hatte Nádasdy das <quote>Provisorische Gesetz über die Zusammensetzung und Wahlordnung für den bevorstehenden Landtag des Großfürstentums Siebenbürgen</quote> mit einem Motivenbericht der Hofkanzlei und einer provisorischen Geschäftsordnung vorgelegt, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 174/1863 (K.) und Präs. 281/1863 (RS.)</bibl>; siehe auch den Vortrag der siebenbürgischen Hofkanzlei vom selben Tag, <quote>ebd., Allgemein 1391/1863 (K.) und 1970/1863 (RS.)</quote>. Der Vortrag war zuerst dem Staatsrat zur Begutachtung übergeben worden, <bibl type="archival">HHSTA., JStr. 269/1863</bibl>. Die Akten der siebenbürgischen Hofkanzlei zum Landtag von 1863–1865 sind, mit Ausnahme der in der Präsidialreihe verbliebenen Stücke, zu einer eigenen Reihe zusammengefaßt worden, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, D 229, Faszikel 275–279</bibl>.Die Vorbereitungen zur Einberufung des siebenbürgischen Landtags reichen weit zurück, siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/2, XXIII f.</bibl>; <bibl type="secondary">
+                           <author>Ders.</author>, Einleitung ÖMR. V/3, XLV ff.</bibl> und Einleitung zu diesem Band XL f. Am <date when="1862-10-20">20. 10. 1862</date> hatte Nádasdy einen Vortrag erstattet, in dem er nach umständlicher Darlegung der Ereignisse seit 1861 und Wiedervorlage der Vorträge seines Amtsvorgängers betreffend den Landtag, nur um die Ermächtigung bat, <quote>neue Vorschläge</quote> ausarbeiten zu dürfen. Mit Ah. E. v. <date when="1862-11-02">2. 11. 1862</date> hatte dies der Kaiser gestattet, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 544/1862</bibl> und <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3249/1862</bibl>. Mit den <quote>Bestimmungen</quote> Franz Josephs v. 30, 3. 1863 war die Entscheidung für die Einberufung endgültig gefallen, die Vorarbeiten traten in ein neues Stadium. Zum vorliegenden Protokoll siehe auch <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 2, 329ff.</bibl>; Fortsetzung <bibl type="secondary">
+                           <author>Koch</author>, Einleitung ÖMR. V/6, XXVIII–XXXVI</bibl>.</note>.</p>
+                  <p>Als Baron Lichtenfels sich zur Begutachtung dieser Anträge durch den Staatsrat wenden wollte, erbat sich der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> das Wort zur Begründung des Antrages, daß diese Angelegenheit noch einer Vorberatung durch ein engeres Komitee aus Mitgliedern des Ministerrates mit Beiziehung weniger Vertrauensmänner, worunter die vier Nationen vertreten wären, unterzogen und dann erst in pleno beraten werde. Für die Beiziehung von Vertrauensmännern spreche vor allem die Bestimmung des Ah. Handschreibens vom 20. Oktober, wonach zur Beratung des siebenbürgischen Statuts Vertrauensmänner zu berufen sind<note type="footnote" n="2">Handschreiben v. <date when="1860-10-20">20. 10. 1860</date> an Rechberg, <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 67</bibl>.</note>. Von besonderer Wichtigkeit sei ferner der Umstand, daß kein Mitglied des Ministerrates die dermaligen Zustände in Siebenbürgen aus eigener Anschauung kennt. Graf Nádasdy <pb n="348" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s348.pdf"/>sei bereits seit vielen Jahren dem Lande entfremdet; Graf Forgách stehe auch nicht an zu bekennen, daß ihm die siebenbürgischen Verhältnisse fast ganz unbekannt seien, und seine übrigen Kollegen dürften sich in der gleichen Lage befinden. Unter diesen Umständen dürfte es sowohl für die Gründlichkeit der Beratung als für die Stärkung des öffentlichen Vertrauens in dieselbe sehr dienlich sein, wenn dem Komitee der Minister noch einige, dem Lande angehörige oder doch dasselbe genau kennende Männer – z. B. die Grafen Toldalagi und Bethlen, Hofrat Kriegs-Au etc. – beigezogen würden. In ein paar Sitzungen könnte es abgetan werden, und es wäre dabei insbesondere zu seiner – des Hofkanzlers – Orientierung viel gewonnen. In neuester Zeit habe das Staatsministerium es für nützlich erachtet, der Beratung des venezianischen Statuts Vertrauensmänner aus dem Lande beizuziehen<note type="footnote" n="3">Siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630109-P-0309.xml#top_5_5_309_4">MR. v. <date when="1863-01-09">9. 1. 1863</date>/IV</ref>, Anm. 21.</note>; eine gleiche Verstärkung des siebenbürgischen Komitees dürfte noch mehr angezeigt erscheinen, wenn man erwägt, daß die komplizierten Verhältnisse Siebenbürgens hierorts viel weniger genau bekannt sind als jene Venetiens. Endlich wolle Graf Forgách noch gegenwärtig halten, daß einer mit ihm gepflogenen staatsrätlichen Beratung auch eine Art von „Vertrauensmann“ beigezogen worden sei, und es somit nicht an einem Präzedens für solche Beratungen in der höchsten Sphäre fehlte. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> trat dem ungarischen Hofkanzler vollkommen bei, verwahrte sich jedoch gegen die Teilnahme an der Komiteeberatung.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> fände gegen eine vorbereitende engere Komiteeberatung aus Mitgliedern des Ministerrates nichts zu erinnern, erklärt aber die Beiziehung von Vertrauensmännern für ganz überflüssig. Die Landtagsangelegenheit ist bereits unter der Amtsleitung des Baron Kemény mit Beiziehung von „Vertrauensmännern“ vielfach beraten worden, und somit ist auch der Bestimmung des Ah. Handschreibens vom 20. Oktober entsprochen. Graf Nádasdy habe bei Antritt seines Amts diese Angelegenheit bereits durch Ah. Entschließungen im wesentlichen normiert gefunden und habe also nur auf einer von Sr. Majestät bezeichneten Grundlage fortgebaut. Im Gremium der Hofkanzlei – welche den vorliegenden Gesetzentwurf auf das gewissenhafteste beraten hat – sind die vier Nationen Siebenbürgens vertreten, und die dortigen Stimmführer sind mit den legislativen und sozialen Eigentümlichkeiten dieses Landes genau und jedenfalls weit besser bekannt, als Männer wie die Grafen Toldalagi und Bethlen, die seit Jahren in Wien, procul negotiis, leben. Der k. k. Hofrat v. Kriegs-Au würde aber in Siebenbürgen schwerlich als ein Vertrauensmann des Landes angesehen werden. Andererseits haben die Bestimmungen des Gesetzentwurfes bis nach Siebenbürgen transpiriert, das Gubernium hat sich darüber geäußert, und es haben sich dort bereits auch andere Stimmen aus den verschiedenen Lagern vernehmen lassen, so daß es an Beleuchtungen, selbst vom nicht bürokratischen Standpunkte, keineswegs gefehlt hat, welche Beleuchtungen selbstverständlich von der Hofkanzlei nicht ignoriert worden sind. Unter diesen Umständen wäre die neuerliche Beratung des Gesetzentwurfes mit Vertrauensmännern wahrlich vom Überfluß und selbst ein Mißtrauensvotum gegen den Leiter der siebenbürgischen Hofkanzlei. Sollte gleichwohl eine solche Beratung beschlossen und der damit verbundene große Zeitaufwand als unerheblich betrachtet werden, so müßte Graf <pb n="349" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s349.pdf"/>Nádasdy beantragen, daß man hiezu Notabilitäten aus Siebenbürgen – wie Graf Mikó, Baron Kemény – hieher berufe, und er würde zu diesem Zweck seine gegenwärtige Vorlage jetzt zurückziehen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> fände die Beiziehung von Vertrauensmännern zu einer Komiteeberatung in dem gegenwärtigen Stadium der Verhandlung einerseits unpassend und andererseits ganz überflüssig, wie Graf Nádasdy überzeugend dargetan hat. Auch der Staatsrat war in der Lage, eine Spezialität über Siebenbürgen in dieser Angelegenheit zu hören, da Staatsrat Baron Geringer, ein Siebenbürger von Geburt, die dortigen Verhältnisse schon seit Jahren genau kennt und selbe mit fortgesetzter Aufmerksamkeit bis in die neueste Zeit beobachtet hat. Der Fall der Berufung eines Vertrauensmanns in den Staatsrat, auf den der ungarische Hofkanzler anspielt, habe keine Analogie mit dem vorliegenden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> verkannte nicht, daß eine Vorberatung durch Mitglieder des Ministerrates von praktischem Nutzen sein könne, doch müsse er gegen die unnütze und in diesem Stadium unzeitige Berufung von Vertrauensmännern Einsprache erheben. Die Vernehmung der venezianischen Vertrauensmänner geschah, als das Statut noch beim Ministerium in Beratung war, während das vorliegende Gesetz der Finalantrag der Hofkanzlei ist, den man nicht mehr einer Superzensur durch Vertrauensmänner unterziehen kann, sondern über den der Ministerrat allein seine Anträge au. zu erstatten hat. Würde aber der Gesetzentwurf zurückgezogen und mit einzuberufenden Vertrauensmännern bei der Hofkanzlei neuerlich beraten, so ist gar nicht abzusehen, wann die Landtagsfrage zu einem Abschlusse gebracht werden kann, und wie somit den bei der nächsten Session des Reichsrates zu gewärtigenden formellen Schwierigkeiten zu begegnen sein wird. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, daß wenn Graf Nádasdy sich davon einen Nutzen verspräche, über die zurückzuziehende Vorlage noch ein paar Vertrauenspersonen zu hören, so würde Baron Mecséry nichts dagegen erinnern; wie die Sache aber jetzt steht, scheine ihm die Einholung eines solchen Superarbitriums über das erstattete Gutachten der Hofkanzlei unzweckmäßig. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> kompromittierte in die vom Grafen Nádasdy bereits mit aller Umsicht und Gründlichkeit veranlaßten Beratungen, aus welchen der vorliegende Entwurf hervorging. Weitere Vernehmungen wären vom Überfluß.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi>
+                     <ref xml:id="fn_5_5_339_a">erklärte, daß er in demselben Falle sich befinde, wie die meisten Mitglieder dieser hohen Konferenz, die so verwickelten und schwierigen Verhältnisse nicht genau zu kennen</ref>
+                     <note type="variant" n="a" target="#fn_5_5_339_a">Einfügung a–a Rechbergs statt <quote>gestand, daß er die siebenbürgischen Verhältnisse nicht genau kenne</quote>.</note> und daher bei dem Votum über die Vorlage sagen müsse: iuro in verba magistri! Umso beruhigender wäre es ihm daher, wenn noch vorläufig Vertrauensmänner darüber gehört würden. Man dürfe allerdings keine Zeit verlieren, <ref xml:id="fn_5_5_339_b">aber bei einem so wichtigen und folgereichen Schritt sei es nicht zulässig, auch ohne gründliche Prüfung die Vorlage anzunehmen, bloß um schnell fertig zu werden. Diese Prüfung könne aber auf eine beruhigende Weise nur von Fachmännern vorgenommen werden</ref>
+                     <note type="variant" n="b" target="#fn_5_5_339_b">Korrektur b–b Rechbergs statt <quote>Aber bloß um schnell fertig zu werden, dürfe man nicht alle Rücksicht beiseite setzen, und hier tue der Ausspruch von Spezialitäten wirklich not</quote>.</note>. Der Reichsrat selbst würde es ohne Zweifel plausibel finden, daß man in einer so wichtigen Sache mit aller Vorsicht zu <pb n="350" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s350.pdf"/>Werke geht und den hieraus resultierenden Aufschub sich gefallen lassen. Graf Rechberg knüpfte hieran eingehende Betrachtungen über unsere politische Lage nach innen und nach außen und über den Zusammenhang der polnischen mit der ungarisch-siebenbürgischen Frage, welcher Zusammenhang ein sehr vorsichtiges Auftregten in unseren östlichen Ländern rätlich mache. Insbesondere dürfe man nicht den Glauben hervorrufen, daß die k. k. Regierung eine Vergewaltigung beabsichtigt. <ref xml:id="fn_5_5_339_c">Die politische Lage sei ernst. Wenngleich das Bestreben der k. k. Regierung auf Aufrechterhaltung des Friedens gerichtet sei, so gehöre doch der Ausbruch eines größeren europäischen Krieges nicht zu den unwahrscheinlichen Ereignissen. Kriege aber müßten, wollte man sich nicht der Gefahr eines unglücklichen und verderblichen Ausganges aussetzen, einer Gefahr, die wir leider im Jahre 1859 schwer erprobten, nach vierfacher Richtung hin sorgfältig vorbereitet werden, militärisch, finanziell, diplomatisch und im Inneren. In letzterer Beziehung sei es nötig, die Stimmung der verschiedenen Teile der Monarchie ins Auge zu fassen und sie vorzubereiten, damit eintretenden Falles die Bereitwilligkeit zu den Opfern gefunden werde, ohne welche ein Krieg nicht glücklich geführt werden könnte. Es seien daher alle inneren Maßregeln sorgfältig zu prüfen und [es sei zu] erwägen, ob sie entsprechend seien und nicht geeignet, eine Erbitterung und eine Mißstimmung hervorzurufen, welche die Regierung im Falle eines Krieges in die Lage bringen dürfte, wie im Jahre 1859 um jeden Preis den Frieden zu schließen. Er stimme aus diesen Gründen für vorläufige Prüfung des Gesetzvorschlages durch eine aus Sachverständigen zusammengesetzte Kommission</ref>
+                     <note type="variant" n="c" target="#fn_5_5_339_c">Einfügung c–c Rechbergs.</note>. Graf Nádasdy gebe zu, daß die Einberufung des siebenbürgischen Landtages in Ungarn sehr aufregend wirken werde. Angesichts der am politischen Himmel hängenden schweren Wolken sei es aber angezeigt, aufregende Maßregeln vorderhand zu unterlassen, oder doch in möglichst schonender Weise zu treffen, und deswegen könne man nur wünschen, daß der vorliegende Entwurf durch unparteiische Kapazitäten aus dem Lande geprüft werde.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> entgegnete, er sehe allerdings voraus, daß in Ungarn in Folge der Einberufung des siebenbürgischen Landtags eine gewisse Aufregung sich zeigen werde. Die Männer, welche jüngst bei Deák demonstriert haben, werden allerdings darüber aufs höchste erbittert sein, aber hinter diesen Männern stehe keineswegs das ganze Land<note type="footnote" n="4">Wahrscheinlich ist damit der Festakt am <date when="1863-03-28">28. 3. 1863</date> gemeint, bei dem Deák ein Album mit den Porträts der Abgeordneten zum Landtag von 1861 erhalten hatte. Die Feier hatte Aufsehen erregt, vgl. z. B. <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18630331">Neueste Nachrichten</ref>
+                           </title> v. <date when="1863-03-31">31. 3. 1863</date>, S. 2</bibl>.</note>. Wenn die Einberufung des siebenbürgischen Landtags durch die höchsten Interessen des Gesamtstaates zu einer politischen Notwendigkeit geworden ist, so betrachtet es Graf Nádasdy als seine Pflicht, dafür zu sorgen, daß der Landtag nicht ein Seitenstück zur Karlsburger Konferenz und das Resultat davon eskamotiert werde<note type="footnote" n="5">Anspielung darauf, daß es der ungarischen Partei und dem Hofkanzler Kemény gelungen war, die auf der Karlsburger Konferenz der Vertrauensmänner im Februar 1861 erhobene Forderung nach Vertretung der Rumänen im Landtag zu unterlaufen. Zur Konferenz siehe <ref type="protocol-link" target="MRP-1-5-01-0-18610314-P-0027.xml#top_5_1_27_1">MR. II v. <date when="1861-03-14">14. 3. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z27" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z27.pdf" target="MRP-1-5-01-0-18610314-P-0027.xml">ÖMR. V/1, Nr. 27</ref>
+                        </bibl>.</note>. Ebendarum aber darf der Landtag nicht more majorum<note type="footnote" n="6">Nach der Gewohnheit der Vorfahren, auf althergebrachte Weise.</note>
+                     <pb n="351" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s351.pdf"/>zusammengesetzt werden. Graf Nádasdy habe die romanische Nation nicht erfunden, sondern gefunden, und zwar mit den ihr von Sr. Majestät am 20. Oktober erteilten Zusicherungen, die noch nicht verwirklicht sind. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter von Lasser</rs>
+                     </hi> erklärt sich gegen jeden selbst kurzen Aufschub durch nochmalige Überprüfung der vorliegenden Anträge durch Vertrauensmänner, da man sich davon gar keinen Vorteil versprechen könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> betonte die Notwendigkeit, daß der siebenbürgische Landtag noch vor der Eröffnung der nächsten Session des Reichsrates einzuberufen sei<note type="footnote" n="7">Siehe dazu auch die Debatte im <ref type="protocol-link" target="MRP-1-5-05-0-18630413-P-0340.xml#top_5_5_340_1">MR. v. <date when="1863-04-13">13. 4. 1863</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-05-0-18630428-P-0346.xml#top_5_5_346_3">MR. v. <date when="1863-04-28">28. 4. 1863</date>/III</ref>.</note>. Wenn Graf Nádasdy selbst eine Überprüfung des Gesetzes <ref xml:id="fn_5_5_339_d">in einem engeren Komitee, vor der Gremialberatung in der Ministerkonferenz</ref>
+                     <note type="variant" n="d" target="#fn_5_5_339_d">Einfügung d–d Pleners.</note>, für nützlich hielte und selbe nicht mehr als acht Tage erforderte, wolle der Minister nichts dagegen erinnern; doch finde er eine Superrevision durch Vertrauensmänner in diesem letzten Stadium nicht mehr am Platze. Der Eindruck der Landtagseinberufung in Ungarn werde kein allgemein deprimierender, sondern <ref xml:id="fn_5_5_339_e">bloß in exklusiven, sogenannten altkonservativen Kreisen ein mißliebiger sein, in der großen Masse der verschiedenen Bevölkerung wird er ein guter und nützlicher sein, weil man darin eine Brücke zum Übergang der Ordnung der staatsrechtlichen Verhältnisse auch für Ungarn erblicken wird</ref>
+                     <note type="variant" n="e" target="#fn_5_5_339_e">Korrektur und Einfügung e–e Pleners statt <quote>da und dort ein nützlicher sein</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> hat volles Vertrauen in die Umsicht der von der siebenbürgischen Hofkanzlei erstatteten und vom Staatsrate geteilten Anträge, sodaß ihm eine neuerliche Beratung derselben mit Männern wie Kemény, Mikó, Bethlen überflüssig und, weil zeitraubend, selbst schädlich erscheint. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> könnte es nur freudig begrüßen, wenn die Einberufung des siebenbürgischen Landtages nach eineinhalbjährigen Verhandlungen endlich eine Wahrheit würde. In Ungarn werde nur eine Partei darüber in Aufregung geraten. Von der beantragten Vorberatung könne man sich keinen Nutzen versprechen, und der Minister betrache es als seine Pflicht, sofort mit loyaler Gesinnung zur Prüfung des von Sr. Majestät dem Ministerrate zugewiesenen Gesetzentwurfes zu schreiten. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> bemerkte, daß auch sein Antrag nur aus loyaler Gesinnung und dem Streben hervorgehe, der Ah. Bestimmung vom 30. v. M. nachzukommen, laut welcher das Gesetz über die Zusammensetzung des siebenbürgischen Landtages einer ruhigen und genauen Prüfung zu unterziehen ist<note type="footnote" n="8">
+                        <ref type="protocol-link" target="MRP-1-5-05-0-18630330-P-0335.xml#top_5_5_335_1">MR. v. <date when="1863-03-30">30. 3. 1863</date>/I</ref>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> äußerte, daß wenn es sich bei der Komiteeberatung nur um einen Aufschub von acht Tagen handle, binnen welcher man sich durch weitere Informationen besser orientieren kann, er nichts dagegen zu erinnern finde.</p>
+                  <p>Nachdem sich sonach die Stimmenmehrheit für eine beschleunigte Vorberatung durch ein engeres Komitee ohne Beiziehung von Vertrauensmännern ausgesprochen hatte, wurde dieses Komitee von Sr. k. k. Hoheit, dem durchlauchtigsten Herrn Erzherzog Rainer aus den Ministern Baron Mecséry und Graf Nádasdy, dem Staatsratspräsidenten <ref xml:id="fn_5_5_339_f">und Staatsrat Baron Geringer</ref>
+                     <note type="variant" n="f" target="#fn_5_5_339_f">Einfügung f–f.</note> und dem ungarischen Hofkanzler zusammengesetzt<note type="footnote" n="9">Das Komitee tagte am <date when="1863-04-08">8. 4. 1863</date>, siehe Beilage zu diesem Sammelprotokoll.</note>.</p>
+                  <p>Wien, <date when="1863-04-10">10. April 1863</date>
+                  </p>
+                  <p>Fortsetzung am <date when="1863-04-09">9. April 1863</date>
+                  </p>
+                  <p>Vorsitz und Gegenwärtige wie am 7. April mit Ausnahme des Ministers des Äußern Grafen Rechberg und des Ministers Grafen Esterházy, dann der Staatsrat Freiherr von Geringer.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über die vollführte Beratung des vorbenannten Komitees, indem er unter Vorlegung des diesbezüglichen hierneben angeschlossenen Protokolles<ref xml:id="fn_5_5_339_g"/>
+                     <note type="variant" n="g" target="#fn_5_5_339_g">Liegt dem Originalprotokoll in Reinschrift bei; gedruckt als Beilage zum vorliegenden Sammelprotokoll Nr. 339 a.</note> bemerkte, daß von Seite des vorsitzenden Polizeiministers zuerst der vorliegende Gesetzentwurf als Ganzes in Erörterung gezogen worden ist und sich hiebei alle Stimmen mit den Prinzipien dieses Entwurfes einverstanden erklärten, nur der ungarische Hofkanzler nicht, welcher im allgemeinen dagegen von zwei Gesichtspunkten Bedenken erhoben habe, und zwar erstens, daß in dem vorliegenden Entwurfe nur die Tendenz vorwaltend sei, die Beschickung des Reichsrates durch den siebenbürgischen Landtag zu erzielen, und zweitens, daß darin die historischen Verhältnisse des Landes entweder keine oder eine sehr untergeordnete Berücksichtigung finden, und es sei sodann zur Beratung jener Bedenken übergegangen worden, welche Graf Forgách bezüglich der Einzelbestimmungen des Entwurfes geltend machte und die sich auf zwei Punkte beschränken, nämlich auf die Berufung der 40 Regalisten (§ 1) für welche er lieber Repräsentanten des großen Grundbesitzes, dann einige Virilstimmen in den Landtag berufen möchte, und dann auf die Bestimmung bezüglich der Anzahl der Deputierten der Städte und Märkte, welche ihm nicht gerechtfertigt scheine und dahin abzuändern wäre, daß bei den neu zum Wahlrecht berufenen Städten und Märkten die Zahl der Deputierten beschränkt, nur den Hauptstädten Hermannstadt und Kronstadt je zwei Deputierte gewährt, den übrigen Ortschaften aber nur die Absendung eines Deputierten gestattet werde. Auch diese Bedenken seien von den übrigen Stimmen nicht geteilt, vielmehr in diesen beiden Punkten an der Vorlage festgehalten, rücksichtlich die Entscheidung hierüber dem Beschlusse des Ministerrates vorbehalten worden.</p>
+                  <p>Nachdem sodann Freiherr von Lichtenfels das diesfällige Votum des ungarischen Hofkanzlers aus dem Komiteeprotokolle vollinhaltlich vorgelesen hatte, erbat sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> das Wort, um zuvörderst der unrichtigen Ansicht zu widersprechen, daß die vorliegende Wahlordnung nur darauf berechnet ist, die Wahlen zum Reichsrate herbeizuführen. Den Bestimmungen des provisorischen Gesetzes über die Zusammensetzung des siebenbürgischen Landtages wurde das repräsentative Prinzip als den zeitgemäßen Anforderungen und Bedürfnissen, dem anerkannten <pb n="353" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s353.pdf"/>Bestande gleicher bürgerlicher Pflichten und Rechte aller Klassen der Bewohner des Landes und den gegenwärtig geltenden Staatsprinzipien allein entsprechend zu Grunde gelegt, wodurch sich bei dem früheren Charakter der siebenbürgischen Verfassung ganz natürlich tiefgreifende Änderungen notwendig machen mußten. Ein Hauptgrundsatz, auf welchen diese Wahlordnung beruhe, sei der, gegen keine Nationalität des Landes ungerecht zu sein und auch <ref xml:id="fn_5_5_339_h">keiner Jurisdiktion</ref>
+                     <note type="variant" n="h" target="#fn_5_5_339_h">Korrektur h–h Nádasdys aus <quote>niemandem</quote>.</note> ein Wahlrecht zu entziehen, welcher dasselbe bisher zustand. Deshalb wurde auch mehreren sächsischen Städten die gerügte Absendung von je zwei Deputierten gewährt, wie es nur billig und gerecht scheine, daß diese hervorragenden Städte den übrigen ungarischen Freistädten, welche eigentlich geringer besteuert sind, denen man aber ihre früher ausgeübten politischen Rechte nicht nehmen wollte, gleichgestellt werden. Im übrigen habe man in Ansehung der abgesonderten Vertretung alle Ortschaften gleich behandelt, damit nicht etwa ein kleinerer Ort wegen seines früher gehabten Rechtes mehr Deputierte entsende als ein größerer, welcher dieses Recht erst jetzt erhält. Daß diese Bestimmungen in betreff der Ortschaften keine Begünstigung namentlich der sächsischen Nationalität in sich schließen, zeige sich deutlich, wenn man die Ziffer des Steuerbetrages, der auf einen Deputierten entfällt, in das Auge faßt, indem sich derselbe bei den ungarischen und romanischen Ortschaften auf 8270 fl., bei den Szeklern auf 5900 fl. und bei den sächsischen auf 16.000 fl. belauft. Belangend die Regalisten, so habe sich Votant an den Grundsatz gehalten, daß, nachdem die Ernennung der Regalisten zu den historischen Rechten der Krone gehöre, das Aufgeben dieses Rechtes umso weniger gerechtfertigt wäre, als dieselben einen Faktor des Landtages zu bilden haben werden, welcher einer ruhigen und ausgleichenden Verhandlung förderlich sein soll. Gleichwohl habe er es aber, um augenfälligen Verdächtigungen von vornehinein vorzubeugen und um auch den repräsentativen Charakter des Landtages nicht zu sehr zu beeinträchtigen, für rätlich und notwendig gehalten, die Anzahl dieser Ah. zu berufenden Landtagsmitglieder bloß auf 40 zu beschränken. Graf Nádasdy erklärte sonach von den Prinzipien des vorliegenden Gesetzentwurfes nicht abgehen zu können. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, schon bei der Komiteeberatung habe er gesagt, daß der Gesichtspunkt, bei der Zusammensetzung des siebenbürgischen Landtags die Beschickung des Reichsrates möglich zu machen, immerhin kein unberechtigter sein kann, gleichwohl sei er aber weit entfernt davon zu behaupten, daß die vorliegende Wahlordnung nur von diesem Standpunkte aus aufgefaßt werde. Seines Erachtens sei man bei dem vorliegenden Gesetzentwurfe ganz richtig von den Bestimmungen des Ah. Handschreibens vom <date when="1860-10-20">20. Oktober 1860</date>
+                     <note type="footnote" n="10">Zit. Anm. 2.</note> ausgegangen, mit welchem ausdrücklich angeordnet wurde, jene Änderungen in der Landesverfassung Siebenbürgens in Antrag zu bringen, welche dadurch unvermeidlich geworden sind, daß die Vorrechte des Adels aufgehoben und die volle Gleichberechtigung aller anerkannten Religionen und Nationalitäten ausgesprochen worden ist. Der Vorwurf, daß das alte Recht nicht geschont worden sei und daß mehreren sächsischen Städten ungeachtet der großen <pb n="354" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s354.pdf"/>Ungleichheit ihrer Einwohnerzahl das Recht zur Absendung zweier Deputierten eingeräumt wurde, halte Votant nicht für begründet, denn man habe bei diesem neuen Wahlgesetze teilweise an frühere Institutionen angeknüpft und in bezug auf die Zahl der Städtedeputierten jene Modifikationen eintreten lassen müssen, die wie Graf Nádasdy nachgewiesen hat, den gegenwärtigen Verhältnissen und Anforderungen entsprechend und mit Rücksicht auf die Besteuerung der Ortschaften angemessen sind und die gewiß zu keiner Unbilligkeit führen. Betreffend die Regalisten, bezüglich welcher der Hofkanzler der Ansicht ist, daß anstatt derselben lieber Repräsentanten des großen Grundbesitzes, dann einige Virilstimmen in den Landtag zu berufen wären, so stehe es ja Sr. Majestät immer frei, bei der Ernennung der 40 Regalisten auf den großen Grundbesitz, die hohe Geistlichkeit etc. Rücksicht zu nehmen, andererseits auch durchaus kein Grund vorhanden ist, von dieser auch früher bestandenen Einrichtung, durch welche Sr. Majestät das Recht gewahrt ist, auf die Zusammensetzung des Landtages einen bedeutenden Einfluß zu nehmen, abzugehen. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> entgegnete, er habe nicht behauptet, daß die Wahlordnung nur von der Tendenz ausgehe, die Beschickung des Reichsrates zu erzielen, sondern gesagt, daß der vorliegende Entwurf diesen Eindruck auf ihn gemacht habe, weil er finde, daß in demselben die unteren Klassen vorzugsweise, <ref xml:id="fn_5_5_339_i">der große Grundbesitz und die Intelligenz nur wenig</ref>
+                     <note type="variant" n="i" target="#fn_5_5_339_i">Einfügung i–i Forgáchs.</note> berücksichtigt sind, was offenbar den Anschein gewinne, daß man auf diese Massen hinsichtlich der Wahlen zum Reichsrate rechnen will<ref xml:id="fn_5_5_339_j"/>
+                     <note type="variant" n="j" target="#fn_5_5_339_j">Folgender Satz von Forgách gestrichen: <quote>Derlei Änderungen halte er aber nur dann für gerechtfertigt, wenn man damit auch sicheren Erfolg erwarten kann; ist dies jedoch nicht der Fall, dann könne sich die Regierung nur außerordentlich schaden</quote>.</note>. Wenn man das frühere ständische Prinzip aufgeben und das Prinzip der Volksvertretung festhalten will, so <ref xml:id="fn_5_5_339_k">sollte dieses Prinzip konsequent durchgeführt sein, und man müßte sich bei dem vorliegenden Gesetze an die Prinzipien der übrigen Landesordnungen, namentlich der von Böhmen, halten, was jedoch nicht der Fall ist. Denn für die Massen ist ein geringer Zensus bestimmt, bei den Regalisten wird an einer beschränkten Ernennung der Krone festgehalten, der große Grundbesitz kommt nirgends zur Geltung, Virilstimmen sind ganz gestrichen. Die neue Wahlordnung basiert sich daher weder auf das alte Gesetz, noch weniger auf das Prinzip der Ineressenvertretung, sie ist ein Mixtum compositum, für die Erreichung eines Zweckes geschaffen</ref>
+                     <note type="variant" n="k" target="#fn_5_5_339_k">Korrektur und Einfügung k–k Forgáchs statt <quote>fände Votant dagegen nichts einzuwenden, nur hätte er geglaubt, daß man dann auch dieses Prinzip konsequent durchführen sollte und sich bei dem vorliegenden Gesetze an homogene Verhältnisse und an die Prinzipien der übrigen Landesordnungen, namentlich der von Böhmen, zu halten gehabt hätte</quote>.</note>. Votant finde es daher<ref xml:id="fn_5_5_339_l"/>
+                     <note type="variant" n="l" target="#fn_5_5_339_l">Korrektur Forgáchs aus <quote>ferner</quote>.</note> inkonsequent, daß für die Regalisten kein Zensus festgestellt ist, mithin hier von dem Grundsatze abgegangen wird, den man nach unten festhält, und er hätte es daher zweckmäßiger und mit dem Prinzipe der Volksvertretung übereinstimmender gefunden, <ref xml:id="fn_5_5_339_m">daß auch im großen Grundbesitz gewählt würde, dann die hohe Geistlichkeit und höhere Würdenträger in den Landtag mit Virilstimmen berufen wären, auf welche Weise dann der Grundsatz der Wahl in der ganzen Wahlordnung durchgeführt wäre. Endlich hätte der Hofkanzler auch gemeint, daß wenn einige unbedeutende Städte vermöge ihres uralten gesetzlichen Rechtes die bisherige Stimme behalten, da man ihnen diese Stimme und das Recht, im Landtage zu erscheinen, nach seiner Ansicht, ohne ein klares erworbenes Recht zu verletzen, nicht entziehen kann, es doch nicht richtig sei, dieselbe Stimme auch anderen kleinen sächsischen Ortschaften, die dieses Recht nie besaßen, zu geben</ref>
+                     <note type="variant" n="m" target="#fn_5_5_339_m">Korrektur m–m Forgáchs aus <quote>wenn dafür Repräsentanten des großen Grundbesitzes, dann einige Virilstimmen, wie die hohe Geistlichkeit und sonst ausgezeichnete Persönlichkeiten in den Landtag berufen werden, auf welche Weise dann der Grundsatz bezüglich des Wahlrechtes in der ganzen Wahlordnung durchgeführt sein würde. Endlich hätte der Hofkanzler auch gemeint, daß, wenn auch einige alte Städte wegen ihrer früheren Verhältnisse die bisherige Stimme behalten, es doch nicht notwendig sei, dieselbe Stimme auch anderen kleinen sächsischen Ortschaften zu geben</quote>.</note>daß auch im großen <pb n="355" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s355.pdf"/>Grundbesitz gewählt würde, dann die hohe Geistlichkeit und höhere Würdenträger in den Landtag mit Virilstimmen berufen wären, auf welche Weise dann der Grundsatz der Wahl in der ganzen Wahlordnung durchgeführt wäre. Endlich hätte der Hofkanzler auch gemeint, daß wenn einige unbedeutende Städte vermöge ihres uralten gesetzlichen Rechtes die bisherige Stimme behalten, da man ihnen diese Stimme und das Recht, im Landtage zu erscheinen, nach seiner Ansicht, ohne ein klares erworbenes Recht zu verletzen, nicht entziehen kann, es doch nicht richtig sei, dieselbe Stimme auch anderen kleinen sächsischen Ortschaften, die dieses Recht nie besaßen, zu geben, zumal es doch nicht in der Billigkeit gegründet sein kann, daß solche kleine Städte, wie zum Beispiel Bistriz, zwei Deputierte absenden, was doch offenbar zu der Idee führen müsse, daß dies nur zur Begünstigung eines speziellen Standes geschehe. <ref xml:id="fn_5_5_339_n">Der Hofkanzler haltet es übrigens für seine Pflicht, seine abweichende Ansicht und seine verneinende Stimme gegen die Grundsätze dieser Oktroyierung nochmals zu Protokoll zu geben</ref>
+                     <note type="variant" n="n" target="#fn_5_5_339_n">Einfügung n–n Forgáchs.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hob hervor, daß der vorliegende Gesetzentwurf auf Ah. vorgezeichneten Grundlagen gebaut ist und in denselben nicht durchwegs neue Prinzipien, sondern mehr den gegenwärtig geltenden Staatsgrundsätzen entsprechende Abänderungen der früheren Einrichtungen aufgenommen sind. So scheine auch in betreff der Zusammensetzung des siebenbürgischen Landtages der frühere Hauptgedanke beibehalten zu sein, denn derselbe habe bestanden aus gewählten Mitgliedern, die aus Deputierten der Komitate, Distrikte, Szekler- und sächsischen Stühle, dann aus jenen der königlichen Freistädte und Taxalorte und auch aus vom Landesfürsten berufenen Mitgliedern, das heißt den sogenannten Regalisten. Eine eigentliche Repräsentanz des großen Grundbesitzes habe in Siebenbürgen nie bestanden, sondern wurde eben durch diese Regalisten ersetzt, und es könnte sich bezüglich dieser zu berufenden Landtagsmitglieder nur fragen, ob diese Berufung eine unbeschränkte oder ob die Anzahl derselben gleich von vornehinein festgestellt werden soll, und da teile Votant vollkommen die Ansicht des Grafen Nádasdy, daß teils zur Wahrung des Charakters des Landtages als einer repräsentativen Versammlung, teils um den immerwährenden Beschwerden wegen der früheren großen Anzahl von Regalisten zu begegnen, für den künftigen Landtag nicht mehr als 40 Regalisten zu berufen wären. Auf die Bemerkung des Hofkanzlers, warum man bei dem vorliegenden Entwurfe nicht die Landesordnungen der übrigen Kronländer zur Richtschnur genommen habe, komme zu erinnern, daß in Siebenbürgen doch ganz andere Verhältnisse obwalten und daß man in den deutschslawischen Ländern nicht an ihre früheren Verfassungen gebunden war, sondern nach ganz neuen Grundlagen ihre Landesordnungen bilden konnte, ferner daß Siebenbürgen auch nicht mit Ungarn in dieser Beziehung zu vergleichen ist, indem dieses eine Magnatentafel hat, in Siebenbürgen aber das Einkammersystem besteht, daher es auch in dieser Hinsicht notwendig sei, der Regierung Mittel an die Hand zu geben, ihre Leute in den Landtag zu bringen, die dann sozusagen auch als Vertreter des Oberhauses erscheinen. Was endlich die Gruppierung der Städte- und Gemeindevertretungen <pb n="356" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s356.pdf"/>betrifft, so sei es nur ganz in der Ordnung, daß sich hierin an die jetzt allgemein geltenden Grundsätze gehalten wurde. Der Staatsminister halte sonach die Bedenken des ungarischen Hofkanzlers nicht von Bedeutung.</p>
+                  <p>Nachdem sich auch alle übrigen Mitglieder der Konferenz mit den Prinzipien des vorliegenden Gesetzentwurfes im allgemeinen einverstanden erklärten, wurde zu der Beratung der Einzelbestimmungen des Entwurfes<ref xml:id="fn_5_5_339_o"/>
+                     <note type="variant" n="o" target="#fn_5_5_339_o">Liegt dem Originalprotokoll im Druck bei; die in diesem Ministerrat beschlossenen Änderungen sind handschriftlich eingetragen.</note> geschritten, wobei sich folgende Bemerkungen ergaben:</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> fand zuvörderst, daß der Titel nicht den Inhalt des Entwurfes erschöpfend bezeichnet, weil derselbe nicht nur die Zusammensetzung und Wahlordnung, sondern auch die Art und Weise, wie der Landtag abgehalten werden soll, feststelle, und beantragte daher folgende Textierung: „Provisorische Landesordnung für den bevorstehenden Landtag des Großfürstentums Siebenbürgen“, welche Abänderung einstimmig vom Ministerrate angenommen wurde.</p>
+                  <p>Zu § 1 wurde die Anschauung des Staatsratspräsidenten, daß nicht nur die Abgeordneten, sondern auch die 40 Regalisten an keine Instruktion gebunden sein sollen, daher bei a) der Nachsatz: „welche keine Instruktion annehmen und ihr Stimmrecht nur persönlich ausüben dürfen“ gänzlich zu entfallen hätte und dafür am Schlusse des § 1 der Satz beizufügen wäre: „Die Landtagsmitglieder dürfen an keine Instruktion gebunden werden und dürfen ihr Stimmrecht nur persönlich ausüben“, allseitig geteilt und diese Abänderung angenommen.</p>
+                  <p>Zu § 4 wurde gegen die vom Grafen Nádasdy über Wunsch des Gubernialpräsidenten vorgeschlagene Abänderung des Wörtchens „des“ in „dieses“ nichts erinnert, so wie sich mit dem Antrage des Ministers Dr. Hein, die Worte „im Wege geheimer Abstimmung“ wegzulassen, die Konferenz einverstanden erklärte<note type="footnote" n="11">Der Paragraph handelte von der Wahl der Schriftführer.</note>.</p>
+                  <p>Bei § 7 bemerkte <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi>, daß der Gubernialpräsident auf Verlangen mehrerer Stimmen von unten beantragt habe, in der dritten Zeile hinter dem Worte „Gehorsam“ einzuschalten „Treue dem Vaterlande“, welchem Antrage jedoch Graf Nádasdy nicht beistimmen, sondern den ursprünglichen Text unverändert beibehalten zu sollen erachtet<note type="footnote" n="12">Die Abgeordneten hatten, analog zu den Landesordnungen für Cisleithanien, nur <quote>Sr. k. k. apost. Majestät Treue und Gehorsam</quote> zu geloben.</note>. Die Konferenz teilte diese Meinung. Ferner sei der Wunsch ausgesprochen worden, im zweiten Absatze dieses Paragraphes ausdrücklich zu sagen, daß die Gelobung des Präsidenten und des Vizepräsidenten „in öffentlicher Landtagssitzung“ zu leisten ist und daß dem „königlichen Landtagskommissär“ das Beiwort „bevollmächtigter“ vorzusetzen wäre. Das letztere würde Graf Nádasdy nicht beanständen, hingegen halte er die Aufnahme des ersteren Zusatzes nicht notwendig, sondern würde es dem Präsidenten überlassen, nach diesem Wunsche vorzugehen. Nachdem vom <hi rend="#letterspaced">
+                        <rs type="person">ungarischen Hofkanzler</rs>
+                     </hi> darauf hingewiesen wurde, daß es nach dem bisherigen Gebrauche nur zwei Formen für derlei Beeidigungen gab, nämlich entweder durch den König oder in öffentlicher Sitzung, und daß, wenn auch die Sache nicht von besonderer Wichtigkeit sei, es doch gewiß <pb n="357" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s357.pdf"/>nichts schade, hier die frühere Form beizubehalten, mithin diese Bestimmung aufzunehmen, und nachdem auch von Seite des Staatsministers, des Polizeiministers und des Ministers Ritter von Lasser diese gewünschte Einschaltung ganz unbedenklich befunden wurde, erklärte <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> weiter auch nicht dagegen stimmen zu wollen, und wurden sofort die beiden Einschaltungen von der Konferenz angenommen, wornach selbstverständlich die Einschaltung des Wörtchens „bevollmächtigten“ in allen folgenden Paragraphen, in welchem vom königlichen Landtagskommissär die Rede ist, Platz zu greifen hat.</p>
+                  <p>Zu § 15 machte Graf Nádasdy bemerklich, daß es der Gouverneur für angezeigt halte, hier auch ausdrücklich zu sagen, welche Gegenstände der Landtag nicht in Verhandlung nehmen kann, was jedoch Graf Nádasdy wegen der Schwierigkeit, ja Unmöglichkeit einer solchen Aufzählung nicht einraten, sondern die Beibehaltung des ursprünglichen Textes befürworten zu sollen glaubte, und womit sich auch die Konferenz einverstanden erklärte.</p>
+                  <p>Zu § 18 wurde die Ansicht des <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsidenten</rs>
+                     </hi>, daß der Präsident des Landtages wegen Absendung von Mitgliedern der Regierungsbehörden sich nicht an die Vorstände der betreffenden Behörden, sondern an den königlichen Landtagskommissär zu wenden habe, allseitig gebilligt und sonach die entsprechende Modifikation des Paragraphes angenommen.</p>
+                  <p>Zu § 23 referierte <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi>, er sei aufmerksam gemacht worden, daß vom Landtage aus auch Petitionen oder Repräsentationen und dergleichen an den Landesfürsten vorkommen werden, bezüglich deren Ausfertigung früher gewisse Förmlichkeiten, so wegen der Siegelung, Unterschrift usw. bestanden, daher es notwendig wäre, hier eine diesfällige Bestimmung beizufügen. Referent erklärte hiermit einverstanden zu sein, nur erachtete er, daß sich hier nicht bloß auf Repräsentationen, sondern auch auf alle durch den Landtag beschlossenen Gesetzentwürfe Bedacht genommen werden müßte, und brachte diesfalls die Anordnung in Antrag, daß diese Ausfertigungen in allen drei üblichen Sprachen geschehen, durch den Landtagspräsidenten und einen Schriftführer unterschrieben und durch den bevollmächtigten königlichen Landtagskommissionär Sr. k. k. Majestät unterbreitet werden sollen. Die Konferenz stimmte diesem Antrag bei, und wurde sonach vom Referenten der Text des § 23 in der aus der Beilage ersichtlichen Form nachträglich redigiert.</p>
+                  <p>Zu § 29<note type="footnote" n="13">Wahlberechtigung.</note> brachte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> in Vorschlag, den Punkt a) richtiger, allenfalls in folgender Art zu textieren: „Alle Bewohner, welche das 24. Lebensjahr zurückgelegt haben, die freie Verwaltung ihres Vermögens besitzen, und auch nicht dem Stande der Dienstboten angehören“, welcher Verbesserung Graf Nádasdy mit dem beistimmte, daß nach dem Worte „Bewohner“ das Wörtchen „männliche“ vorgesetzt werde. Demselben schien aber auch in dem Nachsatze eine Modifikation, und zwar in der Art angemessen zu sein, daß man anstatt des Ausdruckes „und für das laufende Jahr 1863“ jetzt „insoferne sie für das Steuerjahr 1861/62“, wo dann aber, wie <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> bemerkte, statt „entrichtet“ gesagt werden muß „entrichtet haben“. Die Konferenz war mit diesen Modifikationen einverstanden, und wurde auch der Ansicht des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi>, <pb n="358" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s358.pdf"/>daß, nachdem der Steuerzensus ohnehin so gering ist und die Steuerrückstände hier keinen Einfluß üben, es angemessen wäre, das Wahlrecht ausdrücklich an die wirkliche Entrichtung von wenigstens 8 fl. zu binden, allseitig zugestimmt und demgemäß die geeignete Einschaltung dieser zwei Worte beschlossen. Über die hier vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> gestellte Frage, warum hier die Staatsbeamten ausgelassen sind, da doch ohne Rücksicht auf den Betrag an direkten Steuern selbst Apotheker, Kaplane, Gemeindenotare und Schullehrer usw. aufgenommen erscheinen, erinnerte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi>, daß man früher die Beamten unter die Honoratioren eingereiht hatte, dieselben aber in der gegewärtigen Wahlordnung dieser Begünstigung nicht teilhaftig geworden sind, weil man sich in dieser Beziehung an das 1848er Wahlgesetz gehalten hat. Der Staatsrat habe es nicht beanständen zu sollen geglaubt, um hiedurch nicht die ohnehin gegenwärtig bestehenden Eifersüchteleien zu nähren. Nach kurzer Erörterung der Gründe für und wider wurde sich in dem Beschlusse geeinigt, den Punkt b) unverändert zu belassen. Ein anderer Anstand wurde von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsministers</rs>
+                     </hi> erhoben. Derselbe vermißte nämlich in diesem Paragraphe die in allen übrigen Landtagsordnungen in Absicht auf das Wahlrecht des aktiven Militärstandes festgestellten Beschränkungen, worüber der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> offen gestand, daß diese Bestimmung hier übersehen wurde und er daher das Kriegsministerium um die diesbezügliche Mitteilung bitten werde, um die Sache noch nachträglich zu reparieren<note type="footnote" n="14">Siehe dazu <ref type="protocol-link" target="MRP-1-5-05-0-18630413-P-0340.xml#top_5_5_340_3">MR. v. <date when="1863-04-13">13. 4. 1863</date>/III</ref>.</note>.</p>
+                  <p>Zu § 30 wurde der Antrag des Grafen Nádasdy, diesen Paragraph richtiger und klarer dahin zu textieren: „Jeder Wahlberechtigte kann nur in einem Wahlbezirke sein Wahlrecht ausüben. Die Wahl, in welchem Wahlbezirke ein in mehreren Wahlbezirken Wahlberechtigter sein Wahlrecht ausüben will, steht demselben frei“, einstimmig angenommen.</p>
+                  <p>Zu den §§ 34 bis 38, welche von den Zentralkomissionen und den Zentralausschüssen handeln<note type="footnote" n="15">Das waren die zur Durchführung der Wahlen zu bestellenden Gremien.</note>, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, daß der staatsrätliche Referent von der Betrachtung ausgehend, daß in den ungarischen und Szekler Jurisdiktionen die Regierung stets genötigt sein wird, zu dem im § 38 vorsichtshalber aufgestellten Korrektiv zu greifen, es einer näheren Erwägung empfehlen würde, ob man nicht diese Ausnahme lieber gleich als Regel hinstellen sollte und ob nicht auch im übrigen ein vereinfachter und sowohl für die Städte als die sonstigen Jurisdiktionen mehr gleichförmiger Organismus bei Bestellung der Wahlkommissionen anzunehmen, jedenfalls aber von der Einberufung der Munizipalausschüsse abzusehen wäre. Die Majorität des Staatsrates habe jedoch in der Erwägung, daß die faktischen Verhältnisse wohl zunächst dem siebenbürgischen Hofkanzler bekannt sein müssen, erachtet, sich für die Vorlage aussprechen zu sollen. Der hierauf zur Äußerung aufgeforderte <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> bemerkte, daß er zu seiner obbemerkten Anschauung zuvörderst dadurch geführt wurde, daß die Einberufung des siebenbürgischen Landtages schon im Monate Mai l. J. anberaumt war, daher hierwegen rasch vorgegangen werden sollte, dieses aber bei der mit großem Zeitverluste verbundenen Einberufung und Funktionierung der vorgeschriebenen mehrfach gegliederten <pb n="359" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s359.pdf"/>Wahlorgane, vor deren Konstituierung auch noch die Einberufung der Zentralausschüsse ad hoc vorangehen muß, ganz unmöglich erscheine. Fürs zweite habe er hier auch das politische Moment im Auge gehabt und gemeint, daß, sowie man einerseits nicht erwarten darf, daß die ungarischen und Szekler Jurisdiktionen eine regierungsfreundliche Tätigkeit entwickeln werden, es andererseits sehr in Frage stehe, ob erst die andere Partei für diese Maßregel danken wird. Daß sich die Agitationen bis in die untersten Wahlkommissionen erstrecken werden, sei nicht zu bezweifeln, und darum hatte er geglaubt, daß, sowie man in den anderen Ländern ohneweiters den Beamten die Leitung der Wahlen überlassen hat, man mit einem gleichen Vorgange in Siebenbürgen nicht gefehlt hätte. Nachdem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> erlärte, die Besorgnisse der Vorstimme nicht teilen, vielmehr nach den in dieser Richtung gemachten Voreinleitungen darauf rechnen zu können, daß viele Munizipien bereitwillig zur Förderung der Landtagswahlen mitwirken werden, glaubte er die Beibehaltung der Bestimmungen der fraglichen Paragraphe befürworten zu sollen, und wurden dieselben sofort in der ursprünglichen Textierung angenommen.</p>
+                  <p>Zu § 48 wurde sich über Anregung des Grafen Nádasdy, für den im Punkte d) enthaltenen Ausdruck „Festsetzung des“ zu setzen „Einschaltung des vom Gubernium festgesetzten“, einhellig ausgesprochen.</p>
+                  <p>Zu § 52 war die Konferenz mit der vom Staatsrate beantragten Verbesserung, nämlich daß statt der Worte (alinea 4 und 5) „Wahlkommissionen, deren Präsident“ gesagt werde „Gemeinden, deren Wahlkommissionspräsident“, einverstanden.</p>
+                  <p>Zu §68 glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi>, daß statt des zweiten „Skrutiniums“ eine zweite „Wahl“ vorzunehmen wäre, was allseitig gebilligt und die entsprechende Abänderung beschlossen wurde.</p>
+                  <p>Zu § 70 ist sich für die vom Staatsrate beantragte Weglassung des alinea 4 vorkommenden hier ganz unpassenden Wortes „gemeinschaftlich“ und Umwandlung desselben in „und“ einstimmig ausgesprochen worden.</p>
+                  <p>Endlich wurde zu § 72 über Anregung des Grafen Nádasdy die Umänderng der Schlußworte dieses Paragraphes „bis das Gegenteil bekannt ist“ in „bis der Landtag die Wahl für ungültig erklärt“, beschlossen.</p>
+                  <p>Bei der hierauf folgenden Beratung der beiliegenden provisorischen Geschäftsordnung<ref xml:id="fn_5_5_339_p"/>
+                     <note type="variant" n="p" target="#fn_5_5_339_p">Liegt dem Originalprotokoll im Druck bei; die in diesem Ministerrat beschlossenen Änderungen sind handschriftlich eingetragen.</note> referierte zuerst der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> die diesfalls vom Staatsrate gestellten Anträge.</p>
+                  <p>Diese beziehen sich auf § 43, in welchem statt des § 15 irrigerweise der § 14 des provisorischen Gesetzes über die Zusammensetzung des Landtages bezogen worden sei. Der Antrag des Staatsrates, diese Berichtigung vorzunehmen, wurde allseitig gebilligt, und zugleich mit Rücksicht auf den nun geänderten Titel des Gesetzentwurfes beschlossen, daß in allen Paragraphen der Geschäftsordnung, in welchen sich auf das provisorische Gesetz über die Zusammensetzung des Landtages bezogen wird, statt dessen zu setzen sei „Provisorische Landtagsordnung“.</p>
+                  <p>Zu § 60 beantragte der Staatsratspräsident, die im zweiten Satze enthaltenen Worte „mit Genehmigung des Hauses“ als im Widerspruche mit dem Inhalte des dritten Satzes stehend gänzlich wegzulassen, womit die Konferenz einverstanden war. Ferner entspann sich hier eine kurze Diskussion über die Frage, ob die Bestimmung opportun ist, daß zu einem Beschlusse des Hauses, wornach ein Redner, welchem das Wort vom Präsidenten genommen wurde, dennoch gehört werden soll, nebst der namentlichen Abstimmung auch noch die Mehrheit von zwei Dritteilen der anwesenden Stimmen erforderlich ist, oder ob es nicht genügend wäre, wenn sich hierüber die Majorität ausgesprochen hat. Nachdem die mehreren Votanten für das letztere stimmten, wurde die Weglassung der beiden letzten Absätze des § 60 und in Verbindung damit im § 59 die Streichung der Worte „und die Mehrheit von zwei Dritteilen der anwesenden Stimmen“, beschlossen.</p>
+                  <p>Zu § 70 sprach sich der Staatsratspräsident gegen die in diesem Paragraph der Regierung auferlegte Verpflichtung, die Ablehnung der Interpellationen zu begründen, aus, wornach im letzten Satze dieses Paragraphes die Worte „letztere unter Anführung der Gründe“, zu entfallen hätten. Die Konferenz erklärte sich hiemit einverstanden.</p>
+                  <p>Ebenso ergab sich gegen den zu § 73 vom Staatsrate gestellten Antrag, daß die Schriftführer das Protokoll zu unterfertigen haben, mithin am Schlusse dieses Paragraphes beizufügen ist „und gefertigt“, keine Erinnerung.</p>
+                  <p>Zu § 79 war der Staatsratspräsident der Ansicht, daß die Geschäftsordnung nur mit Genehmigung der Regierung geändert werden könne, denn die Erfahrung habe bereits gelehrt, welchen Verlust an Zeit und welche Umtriebe mit den Debatten über die Geschäftsordnung verbunden sind. Es wäre demnach mit dem ersten Satze des § 79: „Anträge auf Abänderung dieser Geschäftsordnung sind gleich anderen Anträgen einzubringen und zu behandeln“, zu schließen und der übrige Inhalt wegzulassen. Dieser Ansicht wurde allseitig beigestimmt, und es ergab sich zugleich in Verbindung mit dieser Abstimmung die Notwendigkeit, den § 24 der provisorischen Landtagsordnung dahin abzuändern, daß in denselben statt „bis zur Feststellung einer Geschäftsordnung durch den Landtag selbst“, gesagt wird, „bei den Verhandlungen des Landtages wird etc.“</p>
+                  <p>Hierauf nahm der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> das Wort, um über die vom Gubernium aus zu den folgenden Paragraphen angeregten Abänderungen zu referieren.</p>
+                  <p>So habe man zu § 18 beanständet, daß die Adressen an Se. k. k. apost. Majestät außer [von] dem Landtagspräsidenten auch von demjenigen Mitgliede des Landtages, von welchem die Ausfertigung entworfen ist, unterzeichnet werden sollen, und gewünscht, daß diese letztere Bestimmung aus dem Paragraph weggelassen werde. Referent glaube jedoch, diesem nicht beistimmen, sondern bei seinem Antrage verbleiben zu sollen. Hingegen erklärte sich die Mehrheit der Konferenz für die Ansicht des Guberniums, daß die Unterfertigung der Adresse durch den Verfasser zu entfallen habe, zumal häufig die ursprüngliche Arbeit durch den Landtag wesentliche Abänderungen erleidet und am Ende eine solche Adresse doch nur als ein Beschluß des Landtages hinausgeht, mithin wie alle Landtagsbeschlüsse von dem Präsidenten und Schriftführer zu unterzeichnen ist.</p>
+                  <p>Zu § 41, welcher zur Beschlußfähigkeit des Landtages die Anwesenheit von mehr als der Hälfte seiner Mitglieder vorschreibt, habe man die Besorgnis ausgesprochen, ob auch immer die Hälfte der Mitglieder sich einfinden werde und ob es daher nicht angezeigt wäre, unter die Hälfte zu gehen oder doch wenigstens das verlangte Plus über die Hälfte aufzulassen. Graf Nádasdy würde bei der Hälfte bleiben, indem ein Herabgehen auf eine geringere Zahl dahin deuten würde, daß man eben kein Vertrauen auf eine besondere Beteiligung am Landtage habe. Bei der Erörterung ergab sich zunächst die Frage, wie denn eigentlich die Hälfte zu verstehen sei, ob es nämlich die Hälfte der sämtlichen Landtagsmitglieder oder bloß die Hälfte der wirklich im Landtage erscheinenden Mitglieder sein soll, und da wurde allseitig anerkannt, daß die letztere Alternative die richtige sei, wornach man sich in dem Beschlusse einigte, im § 41 zu sagen: „Der Landtag ist beschlußfähig, wenn die Hälfte der Mitglieder, welche ihren Sitz im Landtage eingenommen haben, anwesend ist.“ In Folge dieser Abstimmung ergab sich zugleich die Notwendigkeit, eine gleiche Abänderung im § 19 der provisorischen Landtagsordnung vorzunehmen.</p>
+                  <p>Zu § 74 habe man von unten das Verlangen gestellt, daß die Protokolle nicht bloß aufgelegt, sondern immer in der nächsten Sitzung vorgelesen werden sollen. Referent würde bei seinem Antrage bleiben, indem das Vorlesen der Protokolle nur mit großem Zeitverluste verbunden und gewiß auch von keinem praktischen Werte ist. Bei der Diskussion hierüber war die Mehrheit der Konferenz der Ansicht, daß man in dieser Sache nicht obligatorisch vorgehen, sondern es mehr dem Belieben des Landtages anheimstellen soll, mithin hier die Alternative zu stellen wäre, worauf Graf Nádasdy die entsprechende Modifizierung des Paragraphes zusagte.</p>
+                  <p>Endlich wurde zu § 78 über Anregung des Grafen Nádasdy beschlossen, daß der Petitionsausschuß über die ihm zugewiesenen Bittschriften nur [Vorlagen] an den Landtag zu machen hat, daher die letzten zwei Sätze des Paragraphen „oder dieselben den betreffenden Regierungsbehörden abzutreten oder einfach zu hinterlegen“ gänzlich zu entfallen haben.</p>
+                  <p>Schließlich erbat sich noch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> das Wort, um zu den Paragraphen 15, 20, 24, 25, 33, 39 und 49 die in der Beilage ersichtlichen Abänderungen und Verbesserungen zu beantragen, welche sämtlich von der Konferenz ohne Erinnerung angenommen wurden<note type="footnote" n="16">Es handelt sich um sprachliche Verbesserungen. Hein, der bis zur Ernennung zum Justizminister Präsident des Abgeordnetenhauses gewesen war, hatte sich offenbar eingehend mit der provisorischen Geschäftsordnung befaßt.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte sodann noch das Gutachten des Staatsrates bezüglich des vorgelegten Resolutionsentwurfes. Die Majorität habe sich nämlich für den Entwurf des Grafen Nádasdy mit der Modifikation ausgesprochen, daß aus demselben der Passus „und befehle zugleich, daß dasselbe diesem Landtage auch als eine der vorzugsweise zu verhandelnden Regierungsvorlagen mitgeteilt werde“, zu entfallen habe, weil die Landtagsordnung ohnedem in die Reihe der königlichen Propositionen aufgenommen werden werde, was genügend erscheine. Freiherr von Lichtenfels würde aber auch noch wünschen, daß in diesem Entwurfe nebst dem Ah. Diplome vom <date when="1860-10-20">20. Oktober 1860</date> auch das Ah. Patent vom <date when="1861-02-26">26. Februar 1861</date> zu berufen wäre. Auch würde er den Zeitpunkt des Zusammentrittes des Landtages in dem <pb n="362" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s362.pdf"/>Ah. Handschreiben nicht ausdrücken. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> erklärte sich mit diesem Einraten ganz einverstanden, und es ergab sich auch von keiner anderen Seite eine Erinnerung dagegen<note type="footnote" n="17">Noch zweimal wurde im Ministerrat über die provisorische Landtagsordnung gesprochen, und zwar im <ref type="protocol-link" target="MRP-1-5-05-0-18630413-P-0340.xml">MR. v. <date when="1863-04-13"/>13. 4. 1863</ref> über das Wahlrecht der Militärpersonen und im <ref type="protocol-link" target="MRP-1-5-05-0-18630421-P-0343.xml#top_5_5_343_1">MR. v. <date when="1863-04-21">21. 4. 1863</date>/I</ref>, bei der der Kaiser die Anzahl der Regalisten zur Debatte stellte. Mit Ah. E. v. <date when="1863-04-22">22. 4. 1863</date> bzw. mit Handschreiben vom selben Tag genehmigte Franz Joseph die provisorische Landtagsordnung und die laut § 24 beigeschlossene provisorische Geschäftsordnung. Die siebenbürgische Hofkanzlei wurde beauftragt, auf Grundlage dieser Bestimmungen die nötigen Einleitungen zu treffen, damit der Landtag mit möglichster Beschleunigung zusammentreten könne, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1227/1863 und ebd., CBProt. 31c/1863</bibl> und <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 1967/1863</bibl>. Gleichzeitig wurde ein Reskript an das Gubernium wegen Einberufung des Landtags erlassen, vgl. <ref type="protocol-link" target="MRP-1-5-05-0-18630416-P-0341.xml#top_5_5_341_1">MR. I v. <date when="1863-04-16">16. 4. 1863</date>/I</ref>. Publikation der provisorischen Landtagsordnung <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                           <date when="1863-05-09">9. 5. 1863</date>
+                        </bibl>; <bibl type="secondary">
+                           <title>Sammlung der wichtigeren Staatsacten</title> 3, 83–102</bibl>; die provisorische Geschäftsordnung ist gedruckt in <quote>ebd., 102–116</quote>. Dem Staatsratsakt <bibl type="archival">HHSTA., JStr. 269/1863</bibl> liegen Exemplare bei. Eine ausführliche Rechtfertigung des Wahlmodus <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18630510">Wiener Zeitung</ref>
+                           </title> v. <date when="1863-05-10">10. 5. 1863</date>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_339_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Beratung des Entwurfs der Strafprozeßordnung im Staatsrat unter Zuziehung der beteiligten Minister</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> brachte zur Kenntnis der Konferenz, daß im Staatsrate die Beratungen über die neue Strafprozeßordnung schon im Anfang der nächsten Woche beginnen werden und daß es seines Ermessens sehr gut und zur Erzielung einer schnellern Vereinbarung sehr vorteilhaft wäre, wenn, wie es bereits beim Preßgesetze geschah, diesen Beratungen zugleich die betreffenden Minister, hier also der Justiz-, der Polizei-, der Staatsminister und der Minister Ritter von Lasser, beiwohnen würden. Auch sei er gesonnen, den Hofrat Baron Apfaltern diesen Beratungen beizuziehen, dagegen die nicht beteiligten Staatsräte wegzulassen.</p>
+                  <p>Hierwegen ergab sich keine Erinnerung<note type="footnote" n="18">Zum Entwurf der Strafprozeßordnung siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630511-P-0351.xml#top_5_6_351_1">MR. v. <date when="1863-05-11">11. 5. 1863</date>/I</ref>, Anm. 1. Der Entwurf wurde im Staatsrat unter Beteiligung der genannten Minister in sechs Sitzungen vom <date when="1863-04-14">14. 4. 1863</date> bis <date when="1863-04-24">24. 4. 1863</date> beraten, <bibl type="archival">HHSTA., JStr. 268/1863</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1863-04-09">9. April 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, <date when="1863-05-01">1. Mai 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-05-01">1. 5. 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         <div type="appendix">
+                    <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-05-0-18630408-P-0339a.xml">Beilage: MRP-1-5-05-0-18630408-P-0339a.xml</tei:ref>
+                    </ab>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

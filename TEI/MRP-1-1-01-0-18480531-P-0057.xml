@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="057">Sitzung 57</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-31"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z57.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">966</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-31"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Baumgartner; BdE. Pillersdorf (1. 6.), Franz Karl (4. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-01">1. 6.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-04">4. 6.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_57_1">Aufhebung der Blockade von Triest</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_57_2">Aufhebung der Natural-, Urbarial- und Zehentleistungen in Oberösterreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_57_3">Austausch Graf Heinrich O'Donells</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_57_4">Provisorische Besetzung der Oberkommandantenstelle der Wiener Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_57_5">Note Pillersdorfs an den Sicherheitsausschuß</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_57_6">Pensionierungsgesuch Hermengild Ritter v. Francesconis</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_57_7">Öffentliche Arbeiten zur Eindämmung der Arbeitslosigkeit</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480531-P-0057" ana="a1-1848_z57">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z57.pdf">
+               <title type="num">Nr. 57</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-31">31. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Baumgartner; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (1. 6.), Franz Karl (4. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">966</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-05-31">31. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_57_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Aufhebung der Blockade von Triest</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Der provisorische Ministerpräsident Minister des Inneren Freiherr v. Pillersdorf</rs>
+                     </hi> brachte nachfolgende fünf Gegenstände zum Vortrage.</p>
+                  <p>Einen Bericht des Gouverneurs im Küstenlande Grafen Salm über die in der letzteren Zeit von der kombinierten feindlichen Flotte vorgenommene Blockade des Freihafens von Triest<note type="footnote" n="1">Dieser Bericht konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+                  <p>Graf Salm bemerkt, daß diese Demonstration gegen Triest nur eine kurze Zeit gedauert habe und bereits behoben sei<note type="footnote" n="2">Zum Erscheinen der feindlichen Flotte vor Triest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480525-P-0051.xml#top_1_1_51_3">MR. v. <date when="1848-05-25">25. 5. 1848</date>/III</ref>, Anm. 12. Die alliierte Flotte blieb vor Triest; es kam aber weder zu einem Angriff auf den Hafen, noch wurde der Handel behindert, siehe dazu detailliert <bibl type="secondary">
+                           <author>Benko</author>, Kriegsmarine 255 – 260.</bibl>
+                     </note>. Der Erfolg derselben war, daß unsere Blockade von Venedig faktisch aufgehoben werden mußte<note type="footnote" n="3">Die Blockade Venedigs war seit dem <date when="1848-05-23">23. 5. 1848</date> aufgehoben worden, siehe dazu <quote>ebd., 253, bes. Anm. 2.</quote>
+                     </note>. Graf Salm meint, daß die Regierung die Aufhebung dieser Blockade nun auch im ordentlichen Wege aussprechen sollte, ohne jedoch eine Kundmachung zu veranlassen, weil die Blockade Venedigs gegenwärtig unausführbar ist und weil, wenn wir unseren Handelsschiffen nicht die freie Pratica nach Venedig gestatten, wir dadurch nur unserem Handel schaden, indem fremden Schiffen das Einlaufen in Venedig nun ohnehin nicht verwehrt werden kann.</p>
+                  <p>Der Ministerrat hat sonach beschlossen, die früher ausgesprochene Blockade von Venedig<note type="footnote" n="4">Auf Vortrag Hohenlohes v. <date when="1848-03-31">31. 3. 1848</date> war mit Ah. E. v. <date when="1848-04-02">2. 4. 1848</date> die Seeblockade Venedigs bewilligt worden, <bibl type="archival">KA., HKR., KM., Präs. 283/1848</bibl>. In volle Wirksamkeit trat sie am 12./<date when="1848-05-13">13. 5. 1848</date>, siehe dazu den Bericht Gyulais an Latour v. <date when="1848-05-14">14. 5. 1848</date>, <quote>ebd., Präs. 1501/1848.</quote>
+                     </note> wieder aufzuheben, und der Minister des Inneren wird die diesfalls erforderlichen Schreiben an den Kriegsminister und an den Gouverneur Grafen Salm erlassen, an den ersteren wegen der Anweisung des Militärs, an den letzteren, daß er diesfalls einvernehmlich mit dem Kommandierenden Grafen Gyulai vorgehe<note type="footnote" n="5">Mit Schreiben v. <date when="1848-05-31">31. 5. 1848</date> teilte Pillersdorf Latour den Beschluß des Ministerrates mit und ersuchte ihn, Gyulai entsprechende Anweisungen zu geben, <quote>ebd., Präs. 2070/1848</quote>. Latour entsprach diesem Ansuchen in seinem Schreiben (K.) v. <date when="1848-06-01">1. 6. 1848</date> an Gyulai, <quote>ebd.</quote>
+                     </note>.</p>
+                  <p>Der Justizminister Freiherr v. Sommaruga glaubte, ohne sich übrigens von dem Beschlusse zu trennen, nur bemerken zu sollen, daß die Aufhebung der besprochenen <pb n="353" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s353.pdf"/>Blockade nicht ganz unbedenklich zu sein scheine, weil nun auch von dem nahen Triest Kriegsbedürfnisse, Waffen, Munition etc. nach Venedig geschafft werden können<note type="footnote" n="6">Fortsetzung des Gegenstandes über Venedig in <ref type="protocol-link" target="MRP-1-1-01-0-18480622-P-0080.xml#top_1_1_80_2">MR. v. <date when="1848-06-22">22. 6. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Aufhebung der Natural-, Urbarial- und Zehentleistungen in Oberösterreich</head>
+                  <p>Das Ansuchen der obderennsischen Stände wegen der Umwandlung der Natural-, Urbarial- und Zehentleistungen in eine billige Geldentschädigung<note type="footnote" n="7">Pillersdorf hatte dieses Ansuchen bereits mit Vortrag v. <date when="1848-05-30">30. 5. 1848</date> dem Kaiser vorgelegt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 906/1848.</bibl> Zu den diesbezüglichen Verhandlungen der oberösterreichischen Stände siehe <bibl type="secondary">
+                           <author>Hugelmann</author>, Österreichische Landtage 1, 90–97.</bibl>
+                     </note>. Es soll hierbei nach denselben Grundsätzen vorgegangen werden, welche Ew. Majestät für die Nachbarprovinzen Niederösterreich und Steiermark bereits zu genehmigen geruhet haben<note type="footnote" n="8">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_5">MR. v. <date when="1848-04-08">8. 4. 1848</date>/V</ref>.</note>, und auch in Obderenns der <date when="1849-01-01">1. Jänner 1849</date> als derjenige Zeitpunkt gelten, von welchem an die erwähnten Naturalleistungen gänzlich aufzuhören haben. Nur wäre für Österreich ob der Enns ausdrücklich der Beisatz aufzunehmen, daß das, um was die Realität durch die Ablösung der bisherigen Lasten im Werte steigt, bei Bemessung des Freigeldes künftighin in keinem Falle in Anschlag gebracht werden dürfe (was nur zum Vorteile der Untertanen gereichen kann).</p>
+                  <p>Der Ministerrat findet dagegen (nach dem Vorgange bei mehreren anderen Provinzen) durchaus nichts zu erinnern und erachtet, daß Ew. Majestät dem diesfälligen Patentsentwurfe die Ah. Genehmigung zu erteilen geruhen dürften<note type="footnote" n="9">Der in Anm. 7 zit. Vortrag wurde mit Ah. E. v. <date when="1848-06-07">7. 6. 1848</date> resolviert, der Patententwurf liegt dem Originalprotokoll in handschriftlicher Fassung bei; abgedruckt bei <bibl type="secondary">
+                           <author>Hugelmann</author>, Österreichische Landtage 1, 98f., Anm. 1.</bibl> Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480630-P-0088.xml#top_1_1_88_5">MR. v. <date when="1848-06-30">30. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Austausch Graf Heinrich O'Donells</head>
+                  <p>Einen Bericht des beim Ausbruche des Aufstandes in Mailand als Geisel zurückbehaltenen dortigen Vizepräsidenten Grafen O’Donell und ein Schreiben desselben an den Minister des Inneren (durch den Appellationsrat Bakesch überbracht)<note type="footnote" n="10">Weder der Bericht noch das Schreiben O’Donells konnte unter den Beständen des AVA., IM., Präs., gefunden werden.</note>.</p>
+                  <p>In dem ersteren gibt Graf Odonell Rechenschaft über seine Amtshandlung von der Zeit an, wo er sein Amt in Mailand übernahm, bis zum Ausbruche der Revolution und seiner Gefangennehmung als Geisel. In dem zweiten bemerkt Graf O’Donell, daß, wenn die österreichische Regierung sich seiner nicht annimmt, er vielleicht noch ein Jahr zurückbehalten werden dürfte, und deutet auf den österreichischerseits zurückbehaltenen Delegaten Bellati, welcher gegen ihn ausgetauscht werden könnte. Zugleich bittet Graf O’Donell, daß sein oberwähnter Bericht öffentlich kundgemacht werde.</p>
+                  <p>Der Ministerrat erkannte, daß die Kundmachung des konfidentiellen Berichtes des Grafen O’Donell über seine Amtshandlung von Seite der Regierung nicht angemessen und für den Berichterstatter selbst in seinem gegenwärtigen Aufenthalte vielleicht kompromittierend wäre. Wollte Graf O’Donell diesen Bericht selbst öffentlich bekannt machen, so stünde es ihm frei. Da man aber gegenwärtig keinen Weg kennt, auf welchem dem Grafen O’Donell eine Antwort sicher zukommen gemacht werden könnte, so hätte diese Angelegenheit auf sich zu beruhen, bis es möglich sein wird, ihm zu antworten.</p>
+                  <p>
+                     <pb n="354" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s354.pdf"/>Was den Austausch anbelangt, bemerkte der Minister des Inneren, daß die Staatskanzlei in dieser Absicht bereits jemanden abgeschickt und daß auch er einem der hier zurückbehaltenen italienischen Geisel (Fortis) auf sein Ehrenwort die Bewilligung erteilt habe, in gleicher Absicht nach Mailand zu reisen und, wenn er den Zweck seiner Reise nicht erreichen sollte, wieder hierher zurückzukehren<note type="footnote" n="11">Pillersdorf hatte dies mit Dekret (K.) v. <date when="1848-05-30">30. 5. 1848</date> verfügt, <bibl type="archival">AVA., IM., Präs. 1957/1848.</bibl>
+                     </note>. Man müsse demnach die Zurückkunft des Fortis oder eine Nachricht von ihm abwarten<note type="footnote" n="12">Unter den Beständen des AVA., IM., Präs. des HHStA., Kab. Kanlei und des KA., HKR., KM., Präs. konnten keine Hinweise zu dieser Angelegenheit gefunden werden; O’Donell wurde schließlich im Juli 1848 freigelassen, siehe dazu <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 7, 206.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Provisorische Besetzung der Oberkommandantenstelle der Wiener Nationalgarde</head>
+                  <p>Die provisorische Besetzung der Oberkommandantenstelle der hiesigen Nationalgarde, nachdem der frühere Oberkommandant Graf Hoyos ausgetreten<note type="footnote" n="13">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_6">MR. v. <date when="1848-05-17">17. 5. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_7">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VII</ref>.</note> und der an seine Stelle Ew. Majestät au. vorgeschlagene und bereits Ah. ernannte Divisionär in Italien General Wocher<note type="footnote" n="14">Zur Ernennung Wochers siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_6">MR. v. <date when="1848-05-17">17. 5. 1848</date>/VI</ref>.</note> noch nicht angelangt, die Versehung dieser Stelle aber dringend notwendig geworden ist.</p>
+                  <p>Der Ausschuß der Bürger, Nationalgarden und Studenten spricht seine Überzeugung dahin aus, daß der Oberst Pannasch der geeignetste Mann für diesen Posten wäre, und bittet auf denselben Rücksicht zu nehmen<note type="footnote" n="15">Ein schriftlicher Beleg für diese Bitte des Sicherheitsausschusses konnte unter den Beständen des AVA., IM., Präs., und des HHSTA., RTA. nicht gefunden werden.</note>.</p>
+                  <p>Der Ministerrat findet keinen Anstand, nach dem Wunsche der Bittsteller dem Obersten Pannasch provisorisch die Führung der Nationalgarde zu gestatten, wovon derselbe im militärischen Dienstwege zu verständigen und Ew. Majestät hievon die au. Anzeige zu erstatten wäre<note type="footnote" n="16">Mit Schreiben vom selben Tag teilte Pillersdorf dem Kriegsministerium mit, daß er nichts gegen Bestellung Pannasch‘s zum provisorischen Oberkommandanten der Nationalgarde einzuwenden habe, und bat das Kriegsministerium, diesen entsprechend anzuweisen, <bibl type="archival">KA., HKR., KM., Präs. 2083/1848.</bibl> Latour kam diesem Ansuchen mit Schreiben (K.) v. l. 6. 1848 an Pannasch, das niederösterreichische Generalkommando und die Kriegsarchivdirektion nach, <quote>ebd.</quote> Pillersdorf benachrichtigte mit Schreiben v. <date when="1848-05-31">31. 5. 1848</date> den Sicherheitsausschuß von dieser Entscheidung, <bibl type="archival">HHSTA., RTA. 148, Fasz. II, Lit. G, fol. 387.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Note Pillersdorfs an den Sicherheitsausschuß</head>
+                  <p>Endlich teilte der Minister des Inneren dem Ministerrate den Inhalt seiner Note<note type="footnote" n="17">Schreiben Pillersdorfs an den Sicherheitsausschuß v. <date when="1848-05-31">31. 5. 1848</date>, <quote>ebd., fol. 389f.</quote>
+                     </note> mit, welche er neuerdings an den Ausschuß der Bürger, Nationalgarde und Studenten wegen der vorgenommenen illegalen Verhaftungen<note type="footnote" n="18">Gemeint ist u. a. die Festnahme von Hoyos und Dietrichstein, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref> und VIII.</note> zu richten sich bestimmt gefunden hat.</p>
+                  <p>Der Minister benützte als Veranlassung zu dieser Zuschrift das Ah. Namensfest Ew. Majestät.</p>
+                  <p>Der wesentliche Inhalt der Zuschrift war folgender: Auf die beklagenswerten Vorfälle vom 26. d. M.<note type="footnote" n="19">Zu diesen Vorfällen siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480526-P-0052.xml#top_1_1_52_1">MR. v. <date when="1848-05-26">26. 5. 1848</date>/I</ref>.</note> sei gestern (den 30. d. M.) ein Tag der Freude gefolgt. Die hier an den Tag gelegten Gefühle gegen die geheiligte Person Ew. Majestät würden dem Herzen Ew. Majestät auch in der Ferne wohltun und Allerhöchstdieselben bestimmen, Ihre <pb n="355" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s355.pdf"/>Entfernung von Wien möglichst abzukürzen. Noch angenehmer müßte es jedoch Ew. Majestät sein, wenn alle Spuren der letzten Ereignisse in Wien verschwänden und alle Nachforschungen und Untersuchungen aus diesem Anlasse ganz aufgehoben und alle Personen freigegeben würden. Dies würde am meisten dazu beitragen, die gestörte Eintracht und die erwünschte Versöhnung wieder herbeizuführen.</p>
+                  <p>Der Ministerrat erklärte sich mit dem Inhalte dieser versöhnlichen Zuschrift einverstanden<note type="footnote" n="20">Fortsetzung des Gegenstandes über die Untersuchung gegen Hye in <ref type="protocol-link" target="MRP-1-1-01-0-18480603-P-0060.xml#top_1_1_60_5">MR. v. <date when="1848-06-03">3. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Pensionierungsgesuch Hermengild Ritter v. Francesconis</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten v. Baumgartner</rs>
+                     </hi> eröffnete dem Ministerrate, daß nach einem soeben an ihn gelangten Gesuche des Vorstehers der Generaldirektion der Staatseisenbahnen Hofrates v. Francesconi derselbe um Enthebung von seinem Dienstposten und entweder um die normalmäßige Pensionierung oder, wenn dieses bei den gegenwärtigen Verhältnissen mit Anständen verbunden sein sollte, auch ohne Pension mit bloßer Belassung seines Hofratstitels ad honorem bittet<note type="footnote" n="21">Das Gesuch Francesconis v. <date when="1848-05-30">30. 5. 1848</date> in <bibl type="archival">FA., Montan-Präsidial-Akten (AM. Präs.) 114/1848.</bibl> Francesconi begründete sein Gesuch mit dem Umstand, daß er Italiener sei.</note>. Er führt an, daß er nebst einer früheren zehnjährigen Militärdienstleistung seit dem Jahre 1821 im Zivile, somit im ganzen 37 Jahre, diene und daß seine Familie nicht ohne Vermögen sei.</p>
+                  <p>Zur Aufklärung über diesen Schritt des Hofrates v. Francesconi bemerkte der Minister v. Baumgartner, daß er in seiner gegenwärtigen Stellung notwendig jemanden brauche, der ihm bei der Abfertigung der Staatseisenbahnangelegenheiten werktätige Hilfe leiste. Er habe sich hierzu den Generalinspektor der Staatseisenbahnen Negrelli gewählt, den Francesconi hievon verständigt und von ihm den Vorschlag zur Besetzung der Stelle des Negrelli abgefordert<note type="footnote" n="22">Zu Alois (Ritter v.) Negrelli (v. Moldelbe) siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 20, 123–129</bibl>. Baumgartner hatte bereits mit Schreiben (K.) v. <date when="1848-05-29">29. 5. 1848</date> Francesconi von der Berufung Negrellis informiert und ihn angewiesen, einen geeigneten Mann als Inspektor der Staatseisenbahnen vorzuschlagen. Mit Schreiben (K.) vom selben Tag wurde Negrelli von seiner Versetzung benachrichtigt, beide Schreiben in <bibl type="archival">FA., Montan-Präsidial-Akten (AM. Präs.) 39/1848.</bibl>
+                     </note>. Da Negrelli früher unter Francesconi stand, dieser anfangs Soldat war und die Quasi-Präterierung durch Negrelli nicht hinnehmen mag, so scheine dieses die eigentliche Ursache des oberwähnten Gesuches zu sein. Von einer Pensionierung des Hofrates v. Francesconi kann nach der Bemerkung des Ministers v. Baumgartner nicht wohl eine Rede sein, weil die Bedingungen zu einer Pensionierung hier ganz fehlen. Es könnte daher nur die Annahme der Dienstesresignation desselben mit allenfälliger Belassung des Hofratstitels statthaben.</p>
+                  <p>Weil es aber möglich ist, daß Hofrat v. Francesconi in der ersten Aufregung den getanenen Schritt vielleicht nicht reiflich genug erwogen hat, so will der Minister denselben noch einmal zu sich kommen lassen und mit ihm darüber sprechen. Beharrt er bei seinem Beschlusse, so wird v. Baumgartner diesen Gegenstand neuerdings im Ministerrate zur Sprache bringen.</p>
+                  <p>Der Ministerrat erklärte sich mit diesem Vorgange einverstanden<note type="footnote" n="23">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480603-P-0060.xml#top_1_1_60_11">MR. v. <date when="1848-06-03">3. 6. 1848</date>/XI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_57_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Öffentliche Arbeiten zur Eindämmung der Arbeitslosigkeit</head>
+                  <p>Derselbe Minister erbat sich von dem Ministerrate die Weisung, ob er bei dem Umstande, daß noch eine große Anzahl von Leuten ohne Beschäftigung und daher ohne Erwerb ist, nicht neue Arbeitsobjekte auszumitteln hätte, um den unbeschäftigten Arbeitern Verdienst zu verschaffen. Nach seiner Angabe werden bereits 12.000 Individuen bei den öffentlichen Bauten in und bei Wien beschäftiget und ungefähr 1000 sind derzeit noch ohne Beschäftigung<note type="footnote" n="24">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480523-P-0049.xml#top_1_1_49_15">MR. v. <date when="1848-05-23">23. 5. 1848</date>/XV</ref>.</note>. Nach der Ansicht des Ministers wären die in ruhigen Zeiten vorbereiteten, daher als notwendig erkannten Arbeiten, wie z. B. die Verbesserung der Straße über den Wienerberg, nun zur Ausführung zu bringen, zu welchem Behufe er mit den betreffenden Organen im Falle der Zustimmung des Ministerrates mit tunlichster Beschleunigung eine Besprechung anstellen würde.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden, unter der von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherrn v. Krauß</rs>
+                     </hi> geltend gemachten Bedingung, daß in Ansehung der Geldverwendung eine bestimmte Grenze, z. B. die Verwendung von noch 100.000 fr., festgesetzt und dieser Betrag für die hierortigen unbeschäftigten Arbeiter verwendet und die fremden Arbeiter zurückgeschickt werden<note type="footnote" n="25">Zur Abschiebung nicht nach Wien gehöriger Arbeiter siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_7">MR. v. <date when="1848-05-29">29. 5. 1848</date>/VII</ref>.</note>.</p>
+                  <p>Was die Zurückschickung der fremden Arbeiter anbelangt, wurde bemerkt, daß diesfalls sowohl von dem Minister des Inneren als von dem Minister der öffentlichen Arbeiten bereits an den Ausschuß geschrieben<note type="footnote" n="26">Der Akt <bibl type="archival">FA., Montan-Präsidi-Alakten (AM. Präs.) 44/1848</bibl>, in dem der Sicherheitsausschuß aufgefordert wurde, <quote>das Herbeiströmen von Arbeitern aus der Ferne zu hindern</quote>, ist nicht mehr vorhanden.</note> und der Vorstand der Regierung angegangen wurde, die Kreisämter anzuweisen, auswärtigen Arbeitern keine Pässe nach Wien zu erteilen<note type="footnote" n="27">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480601-P-0058.xml#top_1_1_58_5">MR. v. <date when="1848-06-01">1. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-06-01">1. Juni 1848</date>. Pillersdorf.</dateline>
+                  <seg type="other">Ges. 4. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolles zur Wissenschaft. Ferdinand. Innsbruck, <date when="1848-06-07">7. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="4">Abteilung IV</title>
+            <title level="s" type="sub">Das Ministerium Rechberg</title>
+            <title level="m" type="main" n="2">Band 2</title>
+            <title level="m" type="sub">März 1860–<date when="1860-10-16">16. Oktober 1860</date>
+            </title>
+            <title level="a" type="desc" n="213">Sitzung 213</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1860-09-20"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a4-b2-z213.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung IV Das Ministerium Rechberg, Band 2 März 1860–16. Oktober 1860</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2007">2007</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">595</idno>
+                  <idno type="KZ">3184</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1860-09-20"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet (RS. Klaps); VS. Kaiser, Rechberg (bei VI); BdE. und anw. Erzherzog Wilhelm, Erzherzog Rainer, (Rechberg 22. 9.), Thun 22. 9. (bei VI. abw.), Nádasdy 23. 9., Gołuchowski 26. 9., Thierry 27. 9., Plener 28. 9., FML. Schmerling 29. 9.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+                  <note>RS. Klaps</note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>(bei VI)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8489">
+                     <surname>Erzherzog Wilhelm</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-22">1860-09-22</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr7419">
+                     <surname>Thun</surname>
+                  </persName>
+                  <note>BdE. 22. 9</note>
+                  <note>nicht durchgehend anwesend (bei VI. abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-23">23. 9.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8584">
+                     <surname>Gołuchowski</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-26">26. 9.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8600">
+                     <surname>Thierry</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-27">27. 9.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-28">28. 9.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8621">
+                     <surname>FML. Schmerling</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-09-29">29. 9</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_4_2_213_1">Notwendigkeit einer schleunigen Rekrutierung und Einschaltung eines beruhigenden Artikels darüber in die Wiener Zeitung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_4_2_213_2">Gesetzentwurf über die künftige Bemessung der Branntweinsteuer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_4_2_213_3">Pensionierung des deutschen Predigers in Venedig Johann Unterbacher</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_4_2_213_4">Baufälligkeit des Gymnasiums in Brünn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_4_2_213_5">Gesuche des Patriarchen Rajacsich, der Bischöfe Maschirevics und Schaguna, dann der ao. Reichsräte Mocsonyi und Freiherrn v. Petrinó in Angelegenheiten der griechisch-nichtunierten Kirche</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_4_2_213_6">Ah. Verleihung der geheimen Ratswürde an den Finanzpräfekten Ritter v. Holzgethan</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-4-02-0-18600920-P-0213" ana="a4-b2-z213">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml#a4-b2_z213.pdf">
+               <title type="num">Nr. 213</title>
+               <title type="descr">Ministerkonferenz, Wien, <date when="1860-09-20">20. September 1860</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet (<choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice> Klaps); <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Kaiser, Rechberg (bei VI); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Erzherzog Wilhelm, Erzherzog Rainer, (Rechberg 22. 9.), Thun 22. 9. (bei VI. <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice>), Nádasdy 23. 9., Gołuchowski 26. 9., Thierry 27. 9., Plener 28. 9., FML. Schmerling 29. 9.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">3184</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerkonferenz am <date when="1860-09-20">20. September 1860</date> unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_4_2_213_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Notwendigkeit einer schleunigen Rekrutierung und Einschaltung eines beruhigenden Artikels darüber in die Wiener Zeitung</head>
+                  <p>Se. k. k. Hoheit der durchlauchtigste Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Chef des Armeeoberkommandos</rs>
+                     </hi> referierte über die Notwendigkeit der schleunigen Vornahme einer Rekrutierung gegenüber der ernsten Phase der italienischen Angelegenheit<note type="footnote" n="1">Vgl. MK. v. <date when="1860-09-13">13. 9. 1860</date>/II und Einleitung LII.</note>. Nachdem aber Se. Majestät bereits vor mehreren Monaten auszusprechen geruhten, daß für 1860 keine Rekrutierung stattzufinden habe<note type="footnote" n="2">MK. v. <date when="1859-12-08">8. 12. 1859</date>, Anm. 7, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z73" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z73.pdf" target="MRP-1-4-01-0-18591208-P-0073.xml">ÖMR. IV/1, Nr. 73</ref>
+                        </bibl>.</note>, hätte diese Heeresergänzung für das Jahr 1861 zu gelten, wornach im nächsten Jahre keine weitere Rekrutierung mehr Platz zu greifen hätte, es sei denn, daß ein großer Krieg ausbreche.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> äußerte, daß die beantragte Maßregel unter den gegenwärtigen Verhältnissen leider zur Notwendigkeit geworden sei, doch dürfte gleichzeitig mit den diesfälligen Erlässen ein aufklärender und beruhigender Artikel in der Wiener Zeitung veröffentlicht werden. Se . k. k. Hoheit erwiderte, daß Höchstdieselben bereits darauf vorgedacht und einen diesfälligen Entwurf verfaßt haben, welcher sofort in der Konferenz verlesen wurde.</p>
+                  <p>Gegen die Vornahme der Rekrutierung sowohl als gegen den Inhalt des Zeitungsartikels darüber ergab sich von keiner Seite eine Erinnerung, und <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten den durchlauchtigsten Herrn Erzherzog Wilhelm mit der Erstattung eines Vortrages darüber zu beauftragen und die Beschleunigung des ganzen Geschäfts anzuempfehlen<note type="footnote" n="3">Mit Ah. E. v. <date when="1860-09-21">21. 9. 1860</date> auf den Vortrag des Armeeoberkommandos vom selben Tag, 2. Abteilung, Nr. 5628, genehmigte der Kaiser, daß die Heeresergänzung des Jahres 1861, wenn es nötig sein sollte, selbst noch vor Abschluß des Jahres 1860 vorgenommen werden dürfe, <bibl type="archival">KA., MKSM. 3781/1860</bibl>; Publikation in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18600928">Wiener Zeitung</ref>
+                           </title> v. <date when="1860-09-28">28. 9. 1860</date>
+                        </bibl>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> äußerte die Besorgnis, daß, nach den gemachten Erfahrungen, die beschleunigte Vornahme dieser Rekrutierung die ganze Tätigkeit der politischen Behörden dergestalt in Anspruch nehmen dürfte, daß das Steuereinhebungsgeschäft völlig in Stocken gerät. Da gleichwohl eine Stockung in der Steuerzahlung gerade im gegenwärtigen Zeitpunkte sehr bedauerlich wäre, so könne <pb n="418" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s418.pdf"/>Reichsrat v. Plener nicht umhin, den Minister des Inneren dringend aufzufordern, daß den politischen Behörden die Steuereinhebung nachdrücklich empfohlen werde, und er erbot sich, dem Minister zur Aushilfe bei diesem Geschäfte Finanzbeamte zur Verfügung zu stellen. <hi rend="#letterspaced">
+                        <rs type="person">Graf Gołuchowski</rs>
+                     </hi> nahm diesen Antrag an und wird in dem angedeuteten Sinne die nötigen Weisungen erlassen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_213_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gesetzentwurf über die künftige Bemessung der Branntweinsteuer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> referierte über seinen Antrag wegen künftiger Bemessung der Branntweinsteuer nach der Quantität und Qualität des Erzeugnisses statt nach dem Maischraume und las den diesfälligen Gesetzesentwurf, dessen günstige Aufnahme bei dem verstärkten Reichsrate nach der Äußerung vieler Reichsräte außer Zweifel zu sein scheine<note type="footnote" n="4">Fortsetzung von MK. v. <date when="1860-09-13">13. 9. 1860</date>/I.</note>.</p>
+                  <p>Was die in dem verlesenen Entwurfe enthaltenen Bestimmungen betrifft, war die Konferenz im wesentlichen damit einverstanden, und nur bezüglich des Steuersatzes von 6 3⁄10 fr. wurde durch den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> der Wunsch geäußert, daß der Bruchteil entfalle, zumal ohnehin durch Aufhebung des 15% Dareinlasses eine indirekte Steuererhöhung bei den großen Produzenten und somit ein bedeutender Mehrertrag eintreten würde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> schloß sich gleichfalls dieser Meinung an, gegen welche jedoch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> geltend machte, daß die Aufhebung jener 3⁄10 fr. einen jährlichen Entgang von 700.000 fr. begründen würde. Der 15% Dareinlaß sei eigentlich nicht ein Steuernachlaß, sondern nur eine Erleichterung für den Produzenten zur Deckung der Verluste durch die zufälligen Unterbrechungen der als konstant versteuerten Branntweinerzeugung.</p>
+                  <p>Gegen den Antrag, das fragliche Gesetz noch der Begutachtung des jetzt versammelten verstärkten Reichsrates zu unterziehen, erhoben der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justiz - und der Polizeiminister</rs>
+                     </hi> das Bedenken, daß die Komitee- und Plenarberatungen darüber den äußerst wünschenswerten Schluß der Reichsratsverhandlungen leicht verzögern könnten. <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten den durchlauch­tigsten Herrn Erzherzog Reichsratspräsidenten aufzufordern, vorläufig im konfidentiellen Wege Erkundigungen einzuziehen, ob Aussicht vorhanden sei, daß der besprochene Gesetzentwurf von dem jetzt tagenden Reichsrate ohne Weiterungen werde angenommen werden<note type="footnote" n="5">Der Gesetzentwurf wurde dem verstärkten Reichsrat nicht vorgelegt, siehe dazu MK. v. <date when="1860-04-21">21. 4. 1860</date>/II, Anm. 3.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_213_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pensionierung des deutschen Predigers in Venedig Johann Unterbacher</head>
+                  <p>Der Kultusminister referierte über eine Meinungsverschiedenheit mit dem Finanzministerium über den Ruhegenuß des deutschen Predigers in Venedig Johann Unterbacher, welchen Graf Thun mit dem annähernden Betrage von Gehalt und Personalzulage, d. i. 700 fr., v. Plener aber nur mit 600 fr. zu bemessen beantragt. Zugleich bringt der Kultusminister in Antrag, daß dieser sich jetzt erledigende Posten von nun an mit 700 fr. jährlich samt freier Wohnung dotiert werde.</p>
+                  <p>Se. Majestät geruhten die Anträge des Kultusministers Ag. zu genehmigen<note type="footnote" n="6">Vortrag Thuns v. <date when="1860-09-17">17. 9. 1860</date>, Z. 12878, mit genehmigender Ah. E. v. <date when="1860-10-06">6. 10. 1860</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3186/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_213_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Baufälligkeit des Gymnasiums in Brünn</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kultusminister</rs>
+                     </hi> referierte, das Gymnasialgebäude zu Brünn sei in neuester Zeit dergestalt baufällig geworden, daß es für die Besucher desselben nicht ohne Gefahr ist und man das Gymnasium demnächst wegen Mangels eines Lokales werde schließen müssen. Unter solchen Umständen müsse man jetzt ohne allen Verzug zum Neubau des Gymnasiums schreiten, was allerdings einen Aufwand von 120.000 fr. verursachen werde, welcher im Präliminare für 1861 nicht gedeckt ist.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> fanden es nicht angezeigt, sofort und ohne erwiesene absolute Notwendigkeit zu einem so kostspieligen Baue zu schreiten. Vielleicht könnten in dem geräumten Strafhausgebäude noch die nötigen Gymnasiallokalitäten gefunden werden. Jedenfalls habe der Minister des Inneren genau zu erheben, ob keine anderweite Unterkunft für das Gymnasium gefunden werden könne<note type="footnote" n="7">Im Vortrag v. <date when="1860-10-16">16. 10. 1860</date>, Z. 13664, begründete Thun die Dringlichkeit des Neubaus und legte einen Finanzierungsplan vor; der Kaiser ließ diesen mit dem Vermerk sehr dringend vom ständigen Reichsrat prüfen, der keine Einwände erhob. Mit Ah. E. v. <date when="1860-10-22">22. 10. 1860</date> wurde der Antrag Thuns genehmigt.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_213_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Gesuche des Patriarchen Rajacsich, der Bischöfe Maschirevics und Schaguna, dann der ao. Reichsräte Mocsonyi und Freiherrn v. Petrinó in Angelegenheiten der griechisch-nichtunierten Kirche</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kultusminister</rs>
+                     </hi> referierte über die Eingaben des Patriarchen Rajacsich und des Temesvárer Bischofs Maschirevics, dann der Bischofs Schaguna und der ao. Reichsräte Mocsonyi und Freiherrn v. Petrinó in Angelegenheit der griechisch-nichtunierten Kirche<note type="footnote" n="8">Fortsetzung von MK. v. <date when="1860-08-23">23. 8. 1860</date>/II. Dort waren die Bitten 6 –12 zur Sprache gekommen. Im folgenden werden alle Bitten besprochen mit Ausnahme der Bitte 5 über die finanzielle Unterstützung, die gar nicht zur Sprache kam. Zur Eingabe des Rajacsich und des Maschirevics ebd., Anm. 3; das Majestäts­gesuch des rumänischen griechisch-orthodoxen Bischofs von Hermannstadt Andreas Feiherr v. Schaguna sowie der Gutsbesitzer Andreas Mocsonyi (Banat) und Nikolaus Freiherr v. Petrinó (Bukowina) v. <date when="1860-08-21">21. 8. 1860</date> liegt ebenfalls in <bibl type="archival">AVA, CUM., Neuer Kultus, Akatholisch (griechisch-orientalisch), Z. 14589/1860</bibl>. Der folgenden Diskussion lag der Vortag Thuns v. <date when="1860-09-12">12. 9. 1860</date>, Z. 10913, mit detaillierten Anträgen zu­grunde. Allgemein zur Lage der griechisch-orthodoxen Serben und Rumänen der Karlowitzer Metropolie <bibl type="secondary">
+                           <author>Turczynski</author>, Orthodoxe und Unierte</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka – Urbanitsch</author>, Habsburgermonarchie 4, 428 – 437</bibl>; ältere Literatur: <bibl type="secondary">
+                           <author>Mischler – Ulbrich</author>, Staatswörterbuch 2, 580</bibl>.</note>.</p>
+                  <p>Nach Vorausschickung einer detaillierten historischen Einleitung über das Entstehen und die Privilegien der griechisch-nichtunierten serbisch-walachischen Nationalkirche in Österreich wendete sich der Minister vor allem zur Beleuchtung der Hauptgesuchspunkte des Patriarchen, und zwar</p>
+                  <p>1. [Bitte 3] die Abhaltung einer Synode mit Beiziehung der griechisch-nichtunierten Bischöfe von Siebenbürgen, der Bukowina und Dalmatien zur Regelung der hierarchischen Verhältnisse<note type="footnote" n="9">Dieses Anliegen war bereits in MK. v. <date when="1860-05-23">23. 5. 1860</date>/V erwähnt worden.</note>. Auf dieser Synode dürfte unter anderem auch die Ausscheidung des Bistums von Siebenbürgen im kanonischen Wege bewirkt werden. Gegen die diesfälligen, vom Kultusminister gestellten und im Resolutionsent­wurfe zum Vortrage vom 12. September d. J. formulierten Anträge ergab sich keine Erinnerung, und <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten hiebei auch die Ah. Geneigtheit auszusprechen, daß alle Jahre eine griechisch-nichtunierte Synode abgehalten werde. Als kaiserlicher Kommissär bei der Synode gedenken Se. Majestät nach dem Wunsche des Patriarchen den Ban FML. Baron Šokčević zu bestimmen, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> die Andeutung machte, <pb n="420" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s420.pdf"/>daß im gegenwärtigen Augenblicke wenigstens die Anwesenheit des Banus in Kroatien vor allem dringend wäre<note type="footnote" n="10">Man befürchtete einen Angriff italienischer Revolutionäre auf die kroatisch-dalmatinische Küste, vgl. MK. v. <date when="1860-08-23">23. 8. 1860</date>/I und MK. v. <date when="1860-09-10">10. 9. 1860</date>. Mit Ah. E. v. <date when="1860-12-10">10. 12. 1860</date> wurde Šokčević ernannt und die Instruktion genehmigt, Vortrag des Kultusministers v. <date when="1860-11-26">26. 11. 1860</date>, Z. 17419, RS. bei <bibl type="archival">AVA, CUM., Neuer Kultus, Akatholisch (griechisch-orientalisch), Z. 18201/1860</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3864/1860</bibl>. Die Synode fand aber nicht statt; mit Vortrag v. <date when="1861-02-14">14. 2. 1861</date>, Z. 1287, berichtete Staatsminister Schmerling über die Anzeige des Patriarchen v. <date when="1861-01-17">17. 1. 1861</date>, daß er die auf den <date when="1861-02-02">2. 2. 1861</date> festgesetzte Eröffnung der Synode auf unbestimmte Zeit vertage. Die Behörden seien in Umgestaltung begriffen, deren Ergebnis man abwarten müsse. Die Regelung der serbischen Angelegenheiten habe Vorrang, daher sei der illyrische Nationalkongreß vorzuziehen; dieser Vortrag wurde mit Ah. E. v. <date when="1861-02-25">25. 2. 1861</date> zur Kenntnis genommen, Anzeige und Vortrag <bibl type="archival">AVA, CUM., Kultus, Präs. StM. 997/1861</bibl>. Zum illyrischen Nationalkongreß siehe den folgenden Punkt 2; zur Synode und in der Folge zur Errichtung einer eigenen Metropolie kam es erst 1864, <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/8, XXIV</bibl>.</note>.</p>
+                  <p>2. [Bitten 1 und 2] Die Zusammensetzung und Abhaltung eines illyrischen Nationalkongresses, in welchem auch die griechisch-nichtunierten Romanen der Diözesen Arad, Temesvár und Werschetz, dann die Romanen der Militärgrenze gehörig vertreten sein sollen, während die Dalmatiner sich daran nicht zu beteiligen hätten.</p>
+                  <p>Gegen die Anträge des Kultusminister ad 2. ergab sich keine Erinnerung, und <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> nahmen hieran Anlaß zu erwähnen, daß man auch <ref xml:id="fn_4_2_213_a">die Wahl des griechischnichtunierten Bischofes von Dalmatien der Wahlsynode der serbischen Bischöfe</ref>
+                     <note type="variant" n="a" target="#fn_4_2_213_a">Korrektur a–a Thuns aus: <quote>den Dalmatinern die Wahl des griechisch-nichtunierten Bischofes</quote>.</note> überlassen könnte, zumal derlei Wahlen stets auf die von der Regierung bezeichnete Person zu fallen pflegen<note type="footnote" n="11">Fortsetzung zum illyrischen (serbischen) Nationalkongreß <ref type="protocol-link" target="MRP-1-5-01-0-18610219-P-0012.xml#top_5_1_12_1">MR. v. <date when="1861-02-19">19. 2. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z12" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z12.pdf" target="MRP-1-5-01-0-18610219-P-0012.xml">ÖMR. V/1, Nr. 12</ref>
+                        </bibl>, und <ref type="protocol-link" target="MRP-1-5-01-0-18610320-P-0032.xml#top_5_1_32_2">MR. v. <date when="1861-03-20">20. 3. 1861</date>/II</ref>, <quote>ebd., Nr. 32</quote>. Er fand vom 2.–<date when="1861-04-21">21. 4. 1861</date> statt, <bibl type="secondary">
+                           <author>Haselsteiner</author>, Die Serben und der Ausgleich 39–49</bibl>; <bibl type="secondary">
+                           <author>Turczynski</author>, Orthodoxe und Unierte</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka – Urbanitsch</author>, Habsburger­monarchie 4, 431</bibl>.</note>.</p>
+                  <p>Hierauf referierte <hi rend="#letterspaced">
+                        <rs type="person">Graf Thun</rs>
+                     </hi> über die Bitten des Patriarchen <ref xml:id="fn_4_2_213_b">und des Bischofes von Temesvár</ref>
+                     <note type="variant" n="b" target="#fn_4_2_213_b">Korrektur b–b Thuns aus: <quote>der Bischöfe und der Reichsräte</quote>.</note>, welche von geringem Belange sind, und zwar:</p>
+                  <p>a) [Bitte 4] Vorschlag einer anderen offiziellen Benennung statt „griechisch-nichtunierte Kirche“ durch die Synode.</p>
+                  <p>Dieser Punkt wäre, da er zur Genehmigung nicht geeignet ist, unerledigt zu lassen. Es handelt sich überhaupt nicht darum, alle Gesuchspunkte, sondern nur die dringendsten und jene, worauf die Bittsteller den größten Wert legen, [zu erledigen], um die Serben zu beruhigen<note type="footnote" n="12">Später wurde der Bitte doch stattgegeben. Mit Ah. E. v. <date when="1864-11-26">26. 11. 1864</date> wurde die Benennung griechisch­nichtuniert in griechisch-orientalisch geändert, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3331/1864</bibl>; Verordnung des Staatsministeriums, des Kriegsministeriums, der ungarischen, der siebenbürgischen und der kroatisch-slawonischen Hofkanzlei v. <date when="1864-11-29">29. 11. 1864</date>, <bibl type="archival">RGBL. Nr. 91/1864</bibl>.</note>.</p>
+                  <p>b) [Bitte 7] Vereinigung der in Wien lebenden griechisch-nichtunierten Serben zu einer Pfarrgemeinde und unentgeltliche Bewilligung eines Baugrundes zur Erbauung einer Kirche, dann der Schul- und Pfarrgebäude.</p>
+                  <p>
+                     <pb n="421" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s421.pdf"/>Graf Thun glaubt, daß die Bildung einer solchen Gemeinde zu bewilligen und <ref xml:id="fn_4_2_213_c">ihr sodann</ref>
+                     <note type="variant" n="c" target="#fn_4_2_213_c">Einfügung c–c Thuns.</note> zur Herstellung der Gebäude eine Sammlung im ganzen Reiche zu gestatten wäre. Die Bitte um Anweisung eines Baugrundes dürfte an den Minister des Inneren geleitet werden zur vorläufigen Erhebung, ob und unter welchen Bedingungen diese Bitte gewährt werden könne.</p>
+                  <p>Die Anträge des Kultusminister zur a) und b) wurden sofort Ah. genehmigt, letzterer jedoch mit der Modifikation, daß schon jetzt die Ah. Geneigtheit zur unentgeltlichen Anweisung eines Baugrundes ausgesprochen werde<note type="footnote" n="13">Die Gemeinde konstituierte sich im Dezember 1860, ein Bauplatz am Franz Josephs-Kai wurde zur Verfügung gestellt, aber nicht in Anspruch genommen, weil das Geld für den Bau der Kirche nicht aufgebracht werden konnte; erst 1890 kam es an einem anderen Ort zum Bau der serbisch-orthodoxen Kirche, dazu <bibl type="secondary">
+                           <author>Czeike</author>, Historisches Lexikon Wien 5, 206</bibl>.</note>.</p>
+                  <p>c) [Bitte 8] Errichtung einer serbischen und einer romanischen Hochschule auf Staatskosten.</p>
+                  <p>Der Kultusminister erklärt diese Bitte wegen des Mangels an den Vorbedingungen und Elementen zu solchen Nationaluniversitäten für verfrüht, glaubt aber, daß statt dessen für jetzt die griechisch-nichtunierten Gymnasien zu Neusatz und Kronstadt durch die Regierung und aus Staatsmitteln nach und nach zu achtklassigen mit dem Rechte der Öffentlichkeit auszubilden wären [Bitte 12]. Dies würde vorderhand nur einen Aufwand von einigen tausend Gulden erfordern. Bezüglich des Karlowitzer <ref xml:id="fn_4_2_213_d">erzbischöflichen Gymnasiums, welches den Grenzmilitärbehörden untersteht, müßte diesen die Beurteilung, ob die gesetzlichen Bedingungen der Anerkennung als öffentliches Gymnasium vorhanden seien, überlassen bleiben.</ref>
+                     <note type="variant" n="d" target="#fn_4_2_213_d">Korrektur d–d Thuns aus: <quote>Gymnasiums behält sich Graf Thun noch nähere Erhebungen vor</quote>.</note></p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> fand gegen diese Anträge in Erwägung der wichtigen politischen Rücksichten nichts zu erinnern<note type="footnote" n="14">Zu den genannten Schulen der orthodoxen Serben und Rumänen und ihrem Ausbau zu achtklassigen Gymnasien siehe <bibl type="secondary">
+                           <author>Turczynski</author>, Orthodoxe und Unierte</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka – Urbanitsch</author>, Habsburger­monarchie 4, 463 ff. und 471</bibl>.</note>.</p>
+                  <p>d) [Bitte 9] Schutz gegen die Proselitenmacherei der griechisch-unierten Geistlichkeit. Der [Kultus]Minister erörterte die diesfälligen heiklichen Verhältnisse und glaubte, es dürfte den Gesuchstellern bedeutet werden, daß die Regierung die Anwendung unlauterer Mittel zum Wechsel der Religion keineswegs billige und daß, wenn solche vorkommen sollten, die Beschwerdeführer dagegen den Schutz der lf. Behörden anzurufen haben.</p>
+                  <p>e) [Bitte 10] Steuerfreiheit der griechisch-nichtunierten Klöster.</p>
+                  <p>Diese Sache steht noch in Verhandlung und wird, wenn kein Einverständnis der Ministerien des Kultus und der Finanzen darüber erzielt werden kann, der Ah. Schlußfassung unterzogen werden<note type="footnote" n="15">Kirchen und Amtswohnungen der Seelsorger waren von der Grundsteuer befreit, eine allgemeine Steuerfreiheit besaßen die Klöster nicht, <bibl type="secondary">
+                           <author>Mayrhofer – Pace</author>, Politischer Verwaltungsdienst 4, 32 f.</bibl> Der Patriarch bezog sich auf die Steuerfreiheit der Bettelmönche; die serbisch-orthodoxen Klöster gehörten zum Orden des Hl. Basilius und waren laut Rajacsich Bettelmönche.</note>.</p>
+                  <p>
+                     <pb n="422" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s422.pdf"/>f) [Bitte 11] Änderung der Benennung des „illyrisch-Banater“ Grenzregiments in „serbisch-Banater“.</p>
+                  <p>Die Anträge zu c) bis e) wurden sofort Ah. genehmigt, und gedenken <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> bezüglich des Punktes f) einen Ah. Befehl an das Armeeoberkommando zu erlassen<note type="footnote" n="16">Die Namensänderung wurde sofort veranlaßt; gemäß Zirkularverordnung des Armeeoberkommandos v. <date when="1860-10-01">1. 10. 1860</date>, CK. 4671, hatte auf Ah. Befehl das <quote>Illyrisch-Banater Grenz-Infanterieregiment Nr. 14</quote> den Namen <quote>Serbisch-Banater Grenz-Infanterieregiment Nr. 14</quote> zu führen, <bibl type="secondary">
+                           <title>K. K. Armee-verordnungsblatt</title> Nr. 201/1860</bibl>. Das 12. Grenz-Infanterieregiment hieß seit seiner Errichtung 1767 Deutsch-Banater, das 13. seit 1848 Romanen-Banater, vgl. <bibl type="secondary">
+                           <title>Militärschematismus</title> 1860/61, 314–318</bibl>.</note>.</p>
+                  <p>g) [Bitte 6] Bildung einer eigenen griechisch-nichtunierten Sektion im Kultusministerium.</p>
+                  <p>Dieses Begehren findet der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kultusminister</rs>
+                     </hi> zur Ah. Gewährung nicht geeignet, denn die geltend gemachte Analogie mit den Evangelischen in Ungarn besteht nicht<note type="footnote" n="17">MK. v. <date when="1860-08-23">23. 8. 1860</date>/II, Anm. 5.</note>. Letztere haben keine so feste hierarchische Gliederung wie eine bischöfliche Kirche, bei welcher ohnehin alle kirchlichen Angelegenheiten nur im Vernehmen mit den Bischöfen geregelt werden. Die Bildung einer griechisch-nichtunierten Sektion würde daher nicht notwendig und auch selbst der Autonomie der Kirche keineswegs förderlich sein. Vor allem fehle es an gebildeten, völlig vertrauenswürdigen Nationalen für diese Sektion. Würden ferner die kirchlichen Angelegenheiten der Serben und Romanen in die Hand eines Mannes gelegt, so wäre die Klage der Bevorzugung der einen Nationalität vorauszusehen. Dies zwänge also zur Kreierung von zwei neuen Dienststellen mit einem doch ganz entbehrlichen neuen Aufwande. Wenn dermal selbst die kirchlichen Angelegenheiten der Katholiken bei den Statthaltereien durch einen Laien entsprechend bearbeitet werden, so <ref xml:id="fn_4_2_213_e">dürfte auch für die Griechisch-nichtunierten eine spezielle Vorsorge in dieser Beziehung entbehrlich sein.</ref>
+                     <note type="variant" n="e" target="#fn_4_2_213_e">Korrektur e–e Thuns aus: <quote>dürften sich auch die Griechisch-nichtunierten dabei beruhigen können</quote>.</note> Graf Thun habe diese Rücksicht bereits in der Konferenz am 23. v. M. geltend gemacht; allein, die Majorität habe sich für die Gewährung der Bitte erklärt. Nach gepflogener Rücksprache mit dem Statthalter Grafen Saint Quentin glaube der Kultusminister zwar noch auf seinem Antrage beharren, aber zugleich einen Vorschlag machen zu sollen, der zur Beruhigung der Serben beitragen werde. Es wäre nämlich Allerhöchstenortes die Vorbereitung zur Beleuchtung der serbischen Nationalprivilegien anzuordnen, und zwar unter Beiziehung eines Sachverständigen griechisch-nichtunierten Serben.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> fand den Wunsch, daß ein Vertrauensmann griechischnichtunierter Religion im Kultusministerium angestellt sei, völlig gerechtfertigt, ebenso der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, der auf die Zahl von drei Millionen Serben in Österreich hindeutet. Ein solcher Beamter, sei er nun Rat, Sekretär oder Konzipist, würde in Schul- und Kultusangelegenheiten wohl auch manche nützliche Auskunft erteilen können, und der gute Eindruck eines solchen Schrittes sei die allfällige, relativ nicht bedeutende Mehrauslage gewiß wert. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Reichsrat v. Plener</rs>
+                     </hi> traten der Meinung des Grafen Nádasdy bei<note type="footnote" n="18">Das Kultusministerium wurde infolge des Oktoberdiploms aufgelöst. Die katholischen und evangelischen Kultusangelegenheiten ressortierten zum Staatsministerium bzw. zu den Hofkanzleien, dazu MK. II v. <date when="1860-12-20">20. 12. 1860</date>/II. Die orthodoxen Angelegenheiten kamen zum Staatsministerium, was den Widerspruch der ungarischen Seite hervorrief, dazu <ref type="protocol-link" target="MRP-1-5-01-0-18610309-P-0025.xml#top_5_1_25_5">MR. v. <date when="1861-03-09">9. 3. 1861</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z25" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z25.pdf" target="MRP-1-5-01-0-18610309-P-0025.xml">ÖMR. V/1, Nr. 25</ref>
+                        </bibl>; <ref type="protocol-link" target="MRP-1-5-02-0-18610601-P-0075.xml#top_5_2_75_1">MR. v. <date when="1861-06-01">1. 6. 1861</date>/I</ref>, <quote>ebd. V/2, Nr. 75</quote>.</note>.</p>
+                  <p>
+                     <pb n="423" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s423.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kultusminister</rs>
+                     </hi> las hierauf den Entwurf der Ah. Resolution, welche er sich über seine au. Anträge erbittet und welche auf Ah. Befehl sowohl in bezug auf die Ah. Geneigtheit zur Überlassung eines Bauplatzes als bezüglich der von Sr. Majestät beschlossenen Anstellung eines Beamten griechisch-nichtunierter Religion im Kultusministerium zu ergänzen sein wird<note type="footnote" n="19">Der in Anm. 8 zit. Vortrag Thuns wurde mit Ah. E. v. <date when="1860-09-27">27. 9. 1860</date> resolviert, <bibl type="archival">AVA, CUM., Neuer Kultus, Akatholisch (griechisch-orientalisch), Z. 14589/1860</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3142/1860</bibl>. Die Ah. Entschließung lautet: <quote>Was Ich bezüglich der in diesem Vortrage besprochenen Angelegenheiten an den griechisch-nichtunierten Patriarchen erlassen habe, werden Sie aus der anliegenden Abschrift Meines Handschreibens entnehmen.</quote>
+                        <quote>Sie haben die Einleitung zu treffen, daß dasselbe öffentlich bekanntgemacht werde. Nachdem Ich Meinen Banus von Kroatien und Slawonien FML. Freiherr v. Šokčević zu Meinem Kommissär, welcher bei der Synode und dem Nationalkongresse zu intervenieren hat, zu ernennen beabsichtige, so haben Sie die ihm zu erteilende Instruktion im Einvernehmen mit ihm und Meinem Armeeoberkommando zu entwerfen und Mir zur Genehmigung vorzulegen.</quote>
+                        <quote>Ich weise unter einem Mein Armeeoberkommando an zu erwägen, welche Änderung in der Verteilung der Deputierten aus dem Militärstande etwa vorzunehmen wäre, damit auch den griechisch-nichtunierten Romanen der Militärgrenze eine billige Vertretung zuteil werde, und Mir darüber im Einvernehmen mit Ihnen einen Vortrag zu erstatten.</quote>
+                        <quote>Von der Bewilligung der Synode haben Sie den griechisch-nichtuneirten Bischof von Siebenbürgen Freiherr v. Schaguna mit dem Bedeuten in Kenntnis zu setzen, daß Ich der Errichtung einer romanischen griechisch-nichtunierten Metropolie nicht abgeneigt bin, daß aber die Auflösung des bisherigen hierarchischen Verbandes nur auf Grundlage der Begutachtung einer ordnungsmäßigen Synode stattfinden kann, daß Ich demnach von seiner erprobten Gesinnung erwarte, er werde bereitwillig an dieser Synode jenen Anteil nehmen, den ihm die bisherige Gesetzgebung zuweiset, zumal nur dadurch die Verwirklichung des Wunsches seiner griechisch-nichtunierten Stamm­genossen gefördert werden kann.</quote>
+                        <quote>Desgleichen haben Sie von der Bewilligung des Nationalkongresses die Bischöfe derjenigen Diözesen, für welche das Erläuterungsreskript Geltung hat, zu verständigen und sie zur Beschleunigung der von Ihnen eingeleiteten Erhebungen bezüglich der Pfarreinkünfte aufzufordern.</quote>
+                        <quote>Wegen gründlicher Beleuchtung der serbischen Privilegien haben Sie sofort das Geeignete im Einvernehmen mit den übrigen beteiligten Zentralstellen zu veranlassen. Ebenso haben Sie zur Ausführung der Zusage, welche Ich dem Patriarchen bezüglich der in Wien lebenden griechisch-nichtunierten Serben gemacht habe, das Geeignete zu verfügen.</quote>
+                        <quote>Um den höheren Unterricht unter den griechisch-nichtunierten Glaubensgenossen serbischen wie romanischen Stammes, soweit es die gegenwärtigen Verhältnisse gestatten, in wirksamer Weise zu fördern, befehle Ich, daß sogleich Verhandlungen angeknüpft werden, um mit angemessener Unterstützung aus dem Staatsschatze das serbische griechisch-nichtunierte Gymnasium zu Neusatz und das romanische griechisch-nichtunierte Gymnasium zu Kronstadt, die Zustimmung derjenigen vorausgesetzt, welche über diese Anstalten zu verfügen berechtigt sind, unter der Leitung Meines Unterrichtsministeriums so zu vervollkommnen, daß dieselben unter Wahrung ihres kirchlichen und nationalen Charakters sobald als möglich den Anforderungen entsprechen, welche an vollständige Staatsgymnasien gestellt werden.</quote>
+                        <quote>Schießlich ist es Mein Wille, daß sobald als möglich auch ein griechisch-nichtunierter Glaubens­genosse in dem Ministerium für Kultus und Unterricht angestellt werde. Sie haben in dieser Beziehung im eigenen Wirkungskreis zu handeln oder Mir die erforderlichen Anträge zu erstatten. Schönbrunn, <date when="1860-09-27">27. 9. 1860</date>.</quote>
+                     </note>.</p>
+                  <p>
+                     <pb n="424" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s424.pdf"/>Ferner beabsichtigen <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> das Gesuch des Patriarchen Rajacsich Allerhöchstselbst durch Erlassung eines Handschreibens an denselben direkt zu erledigen<note type="footnote" n="20">Das Handschreiben an den Patriarchen Rajacsich v. <date when="1860-09-27">27. 9. 1860</date>, <bibl type="archival">HHSTA., CBProt. 152 c/1860</bibl>, publiziert in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18601005">Wiener Zeitung</ref>
+                           </title> v. <date when="1860-10-05">5. 10. 1860</date> (M.)</bibl>, lautet: <quote>Lieber etc. In Erledigung der Bitten, welche Sie mit dem Bischofe von Temesvár Mir vorgelegt haben, genehmige Ich, daß eine Synode der griechisch-nichtunierten Bischöfe abgehalten werde, welche die allgemeinen Angelegenheiten ihrer Kirche in Österreich zu beraten und Mir bezüglich derselben ihre kanonisch begründeten Wünsche und Anträge vorzulegen haben wird. Insbesondere ist es Mein Wille, daß diese Synode, zu welcher auch die griechisch-nichtunierten Bischöfe von Siebenbürgen, der Bukowina und Dalmatien beizuziehen sind, darüber berate und Mir mit Berücksichtigung der kanonischen Vorschriften begründete Vorschläge erstatte, wie die hierarchischen Verhältnisse zu regeln seien, damit auch den Bedürfnissen und krichlichen Interessen der griechisch-nichtunierten Romanen in gebührender Weise Rechnung getragen werde.</quote>
+                        <quote>Ich erwarte, daß während oder nach der Synode, dem Herkommen gemäß, Sie mit den Bischöfen von Arad, Bács, Karlstadt, Ofen, Pakrac, Temesvár und Werschetz zusammentreten und in gemeinsame Erwägung ziehen werden, welche Gegenstände auf dem demnächst einzuberufenden illyrischen Nationalkongresse zu verhandeln seien, worüber Mir sodann die geeigneten Anträge zu erstatten sein werden. Ich behalte Mir vor, Meinen Banus von Kroatien und Slawonien, FML. Baron Šokčević, als Meinen Kommissär zur Synode zu entsenden und werde denselben beauftragen, Mir über die Zu­sammensetzung des Nationalkongresses, durch welche auch den griechisch-nichtunierten Diözesen Arad, Temesvár und Werschetz eine billige Vertretung gesichert werden muß, nach gepflogener Rücksprache mit Ihnen und den Bischöfen jener Diözesen, sowie einiger einsichtsvoller Männer romanischen Stammes ein wohlerwogenes Gutachten zu erstatten.</quote>
+                        <quote>Jedenfalls wird die Verbesserung der Lage der Pfarrgeistlichkeit und die davon untrennbare Regelung der Pfarrsprengel in jenen Diözesen, für welche das Erläuterungsreskript vom 16. Juli 1779 gesetzliche Geltung hat, einen Gegenstand der Beratung des Nationalkongresses zu bilden haben. Eben deshalb werden die hierauf bezüglichen Erhebungen, zu deren Einleitung Sie und die Bischöfe bereits von Meinem Minister für Kultus und Unterricht aufgefordert worden sind, zu beschleunigen sein, indem die Einberufung des Kongresses zum Teile dadurch bedingt sein wird, daß die Ergebnisse dieser Erhebungen bereits gesammelt vorliegen.</quote>
+                        <quote>Der jährlichen Abhaltung von Synoden steht nichts entgegen.</quote>
+                        <quote>Nachdem Ich übrigens aus dem Mir über Ihre Eingabe erstatteten Vortrage ersehen habe, daß die Wünsche und Begehren Meiner getreuen serbischen Untertanen schon auf dem im Jahre 1790 zu Temesvár abgehaltenen illyrischen Nationalkongreß mit Beziehung auf die der serbischen Nation von Meinen Vorfahren erteilten Privilegien umständlich verhandelt und weiland Kaiser Leopold II. vor­getragen worden sind, die darüber erfolgte Schlußfassung aber nicht kundgemacht worden ist, so habe Ich die Anordnung getroffen, daß unverweilt die nötigen Vorarbeiten zur gründlichen Beleuch­tung dieser Privilegien unternommen und hierzu auch ein sachverständiger Mann aus der Mitte der griechischnichtunierten Serben beigezogen werde.</quote>
+                        <quote>Was Ihre Bitte anbelangt, es möge verhindert werden, daß die Angehörigen Ihrer Kirche durch unlautere Mittel veranlaßt werden, ihr Glaubensbekenntnis zu ändern, so haben sich die griechisch-nichtunierten Bischöfe, wenn solche Vorgänge stattfinden sollten, um Schutz dagegen an Meine Behörden zu wenden.</quote>
+                        <quote>Ich habe den Auftrag gegeben, daß den in Meiner Haupt- und Residenzstadt Wien wohnenden, der griechisch-nichtunierten Kirche angehörigen Serben eröffnet werde, es sei ihnen gestattet, sich zu einer Pfarrgemeinde zu vereinigen. Sobald sich ein Ausschuß dieser Gemeinde gebildet haben wird, soll ihnen bewilligt werden, im ganzen Reiche eine Sammlung freiwilliger Beiträge zur Erbauung einer Kirche sowie eines Parr- und Schulhauses einzuleiten. Auch werde Ich geneigt sein, hierzu einen Bauplatz anweisen zu lassen, in welcher Beziehung die Gemeinde ihre Bitte zur geeigneten Verhand­lung an Meinen Minister des Inneren zu richten haben wird.</quote>
+                        <quote>Endlich werde Ich darauf bedacht sein, daß in Meiner mit der Behandlung der Angelegenheiten der griechisch-nichtunierten Kirche in oberster Instanz betrauten Behörde auch ein Angehöriger dieser Kirche angestellt werde.</quote>
+                        <quote>Über Ihre weiteren Mir vorgetragenen Bitten und Anliegen wird Meine Entschließung erfolgen, sobald die darüber anhängigen Verhandlungen zum Abschlusse gediehen sein werden. Schönbrunn, <date when="1860-09-27">27. 9. 1860</date>.</quote>
+			Antwort an Schaguna <bibl type="archival">AVA, CUM., Neuer Kultus, Akatholisch (griechisch-orientalisch), Z. 14721/1860</bibl>.</note>.</p>
+                  <p>
+                     <pb n="425" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s425.pdf"/>Über die beantragte Verstärkung der Deputierten von dem romanischen Grenzregimente wird vor allem eine Beratung zwischen dem Kultusminister und dem Armeeoberkommando zu pflegen sein<note type="footnote" n="21">Vgl. Absatz 4 der Ah. Entschließung. Die Weisung an das Armeeoberkommando liegt dem Akt <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3142/1860</bibl> bei. Die Teilnahme von Vertretern der Militärgrenze am illyrischen Nationalkongreß wurde nicht gestattet, vgl. <ref type="protocol-link" target="MRP-1-5-01-0-18610219-P-0012.xml#top_5_1_12_1">MR. v. <date when="1861-02-19">19. 2. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z12" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z12.pdf" target="MRP-1-5-01-0-18610219-P-0012.xml">ÖMR. V/1, Nr. 12</ref>
+                        </bibl>, <quote>87 f.</quote> Fortsetzung MK. v. <date when="1860-10-04">4. 10. 1860</date>/III, dann <ref type="protocol-link" target="MRP-1-5-01-0-18610219-P-0012.xml">MR. v. <date when="1861-02-19"/>19. 2. 1861</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z12" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z12.pdf" target="MRP-1-5-01-0-18610219-P-0012.xml">ÖMR. V/1, Nr. 12</ref>
+                        </bibl>.</note>.</p>
+                  <p>Nachdem Se. k. k. apost. Majestät die Konferenz aufzuheben geruht hatten, fand noch eine Ministerkonferenz unter dem Vorsitze des Ministerpräsident Grafen Rechberg statt, welcher alle Konferenzglieder mit Ausnahme des Kultusministers beiwohnten.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_213_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Ah. Verleihung der geheimen Ratswürde an den Finanzpräfekten Ritter v. Holzgethan</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> referierte über den Antrag des Statthalters in Venetien wegen Ah. Verleihung der geheimen Ratswürde an den Finanzpräfekten Ritter v. Holzgethan.</p>
+                  <p>Reichsrat v. Plener äußerte, daß er sich eines Gutachtens hierüber wegen seiner Schwägerschaft zum Obgenannten enthalten müsse, dessen Gemahlin des Referenten Schwester ist. Der Leiter des Finanzministeriums würde es daher überhaupt vorgezogen haben, diese Auszeichnungssache ganz ruhen zu lassen, wenn nicht Ritter v. Toggenburg sich des Finanzpräfekten mit so vieler Wärme angenommen hätte, so daß er nicht umhin könne, diesen Antrag in der Konferenz zur Sprache zu bringen.</p>
+                  <p>Die sämtlichen übrigen Stimmführer vereinigten sich sofort in Berücksichtigung der vom Statthalter angeführten Gründe mit dem Ministerpräsidenten zu dem au. Antrage auf Ah. taxfreie Verleihung der geheimen Ratswürde an Ritter v. Holzgethan<note type="footnote" n="22">Vortrag Pleners v. <date when="1860-09-18">18. 9. 1860</date>, Präs. 3445; dem Präsidenten der Finanzpräfektur im lombardisch-venezianischen Königreiche Dr. Ludwig Ritter v. Holzgethan wurde taxfrei die geheime Ratswürde verliehen, Handschreiben an Plener und Rechberg v. <date when="1860-09-24">24. 9. 1860</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3070/1860</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1860-09-22">22. September 1860</date>. Rechberg.</seg>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1860-10-04">4. Oktober 1860</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

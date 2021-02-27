@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="064">Sitzung 64</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-07"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z64.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">973</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-07"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner; abw. Doblhoff, Wessenberg; BdE. Pillersdorf (8. 6.), Franz Karl (14. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-08">8. 6.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-14">14. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_64_1">Publizierung des kaiserlichen Manifestes vom <date when="1848-06-03">3. 6. 1848</date>
+                  </ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_64_2">Übernahme des Außenministeriums durch Wessenberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_64_3">Verbleiben Doblhoffs in Innsbruck</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_64_4">Frankreichs Italienpolitik; Leitung der Pazifikationsmission in Lombardo-Venetien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_64_5">Modifikation des Staatshandbuches für 1848</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_64_6">Entwurf der provisorischen Geschäftsordnung für den Reichstag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_64_7">Pensionierung Ignaz Freiherrn v. Lederers</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480607-P-0064" ana="a1-1848_z64">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z64.pdf">
+               <title type="num">Nr. 64</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-07">7. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Doblhoff, Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (8. 6.), Franz Karl (14. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">973</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am 7. Junius 1848 unter dem Vorsitze des interimistischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_64_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Publizierung des kaiserlichen Manifestes vom <date when="1848-06-03">3. 6. 1848</date>
+                  </head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> legte ein an ihn vom Minister Baron Doblhoff aus Innsbruck am <date when="1848-06-06">6. l. M.</date> eingelangtes Schreiben<note type="footnote" n="1">Schreiben Doblhoffs v. <date when="1848-06-04">4. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 999/1848.</bibl>
+                     </note> vor, mit welchem das Manifest Sr. Majestät des Kaisers, de dato Innsbruck 3. Junius 1848<note type="footnote" n="2">Auf den gemeinsamen Vortrag Wessenbergs und Doblhoffs v. <date when="1848-06-03">3. 6. 1848</date> hatte der Kaiser mit Ah. Entschließung vom selben Tag das Manifest <quote>An die getreuen Einwohner Meiner Residenz resolviert, ebd., MRZ. 1001/1848.</quote>
+                     </note>, zur Verlautbarung hierher befördert wurde – jedoch mit der Ah. Ermächtigung, die Publikation nach Umständen auch zu unterlassen oder zu verschieben.</p>
+                  <p>Da übrigens die Verhältnisse in Wien von der Art sind, daß die Erlassung eines Ah. Manifests, wie das vorliegende, als vollkommen zeitgemäß und entsprechend anerkannt werden muß, und da namentlich die am Schlusse enthaltene Zusicherung über die Rückkehr Sr. Majestät nach Wien allgemein den beruhigendsten und freudigsten Eindruck hervorbringen muß, so habe Baron Pillersdorf ohne Verzug die Verlautbarung durch Zeitungen und Plakate veranlaßt und sich begnügt, das Manifest in einer hinzugefügten Aufschrift „An die getreuen Einwohner Meiner Residenz“ zu adressieren<note type="footnote" n="3">Publiziert in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-06-07">7. 6. 1848</date>.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Übernahme des Außenministeriums durch Wessenberg</head>
+                  <p>Die von Baron Doblhoff erhaltene Mitteilung<note type="footnote" n="4">Siehe dazu Doblhoffs Schreiben v. <date when="1848-06-02">2. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 986/1848</bibl> und v. <date when="1848-06-04">4. 6. 1848</date>, <quote>ebd., MRZ. 999/1848.</quote>
+                     </note>, daß Freiherr v. Wessenberg das ihm Ah. übertragene Ministerium des Äußern und des Hauses übernommen habe<note type="footnote" n="5">Zur Berufung Wessenbergs zum Außenminister siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_1">MR. v. <date when="1848-05-06">6. 5. 1848</date>/I</ref>.</note>, wurde vom Ministerrate zur Nachricht genommen, und ist die diesfällige Verlautbarung durch die Wiener Zeitung bereits eingeleitet<note type="footnote" n="6">Publiziert in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-06-07">7. 6. 1848</date>.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Verbleiben Doblhoffs in Innsbruck</head>
+                  <p>Nachdem ferner Baron Doblhoff angefragt hatte, ob er selbst dermal, wo der verantwortliche Minister Baron Wessenberg sich am Ah. Hoflager befindet und daselbst auch verweilen wird, nicht nach Wien zurückkehren könne, um die unmittelbare Leitung der Geschäfte des Agrikulturs- und Handelsministers wieder zu übernehmen<note type="footnote" n="7">Schreiben v. <date when="1848-06-04">4. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 999/1848.</bibl>
+                     </note>, <pb n="387" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s387.pdf"/>beschloß der Ministerrat, demselben hierauf sofort zu erwidern, daß sein verlängerter Aufenthalt am Ah. Hoflager umso wünschenswerter erscheine, als einerseits die Kränklichkeit des Baron Wessenberg denselben zuweilen dem Ah. Dienste entziehen dürfte, und als andererseits Graf Stadion – welcher, dem Ah. Rufe folgend, am 7. Junius nach Innsbruck abzureisen gedenkt – einen großen Wert darauf legen würde, den Baron Doblhoff noch am Ah. Hoflager zu finden<note type="footnote" n="8">Zur Rückkehr Doblhoffs nach Wien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480621-P-0079.xml#top_1_1_79_1">MR. v. <date when="1848-06-21">21. 6. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Frankreichs Italienpolitik; Leitung der Pazifikationsmission in Lombardo-Venetien</head>
+                  <p>Der Ministerpräsident teilte einen Abriß der Unterredung mit, welche er am <date when="1848-06-06">6. l. M.</date> mit dem französischen Geschäftsträger Monsieur de la Cour gehabt hat, der [um] dieselbe angesucht hatte<note type="footnote" n="9">Ein schriftlicher Bericht über diese Unterredung in <bibl type="archival">HHSTA., StK., Provinzen, Lombardo-Venetien 31, Fasz. Materialien betreffend die italienische Pacifications Frage, fol. 111–114.</bibl>
+                     </note>. In dieser Konferenz, welche jedoch bloß den Charakter einer rein konfidentiellen Besprechung hatte, da Baron Pillersdorf sich zu keinen offiziellen Erklärungen berufen erklärte, äußerte Monsieur de la Cour im wesentlichen, daß Frankreich die baldige Beendigung der italienischen Wirren auf friedlichem Wege wünsche, daß es in Italien nicht die Vergrößerung seines eigenen Gebietes oder der Macht Karl Alberts, wohl aber die Selbständigkeit der italienischen Nationalität beabsichtige und insbesondere die völlige Trennung der Lombardie von der österreichischen Monarchie als eine unvermeidliche Notwendigkeit betrachte. Damit aber der Krieg in Italien nicht zu einem europäischen werde, sei es notwendig, daß der Friede daselbst baldmöglichst wieder hergestellt werde.</p>
+                  <p>Baron Pillersdorf und mit ihm der Ministerrat erkannten, daß diese Gesinnungen Frankreichs mit dem eigenen Interesse der österreichischen Monarchie wegen der Pazifikation Italiens<note type="footnote" n="10">Zur Hartigschen Pazifikationsmission siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480606-P-0063.xml#top_1_1_63_2">MR. v. <date when="1848-06-06">6. 6. 1848</date>/II</ref>.</note> zusammentreffen, und da General Vacani, welchen man laut des Sitzungsbeschlusses vom 6. Junius mit Führung der diesfälligen Unterhandlungen zu betrauen gedachte<note type="footnote" n="11">Ebd.</note>, über vorläufige Anfrage geäußert hat, er glaube nicht, daß seine Dazwischenkunft im vorliegenden Falle von Nutzen sein könne, so erachtete der Ministerrat, daß der gewesene Botschafter Graf Colloredo<note type="footnote" n="12">Zur Abberufung Colloredos als österreichischer Vertreter beim Deutschen Bund siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480511-P-0034.xml#top_1_1_34_11">MR. v. <date when="1848-05-11">11. 5. 1848</date>/XI</ref>.</note> seiner erprobten Gesinnung und Gewandtheit nach am meisten geeignet sein dürfte, um diese hochwichtige Unterhandlung zu einem für Österreich vorteilhaften Abschlusse zu bringen. Um jedoch keine Zeit zu verlieren, wurde beschlossen, den eben in der Nähe von Wien auf dem Lande lebenden Grafen Colloredo sofort einzuladen, sich direkt nach Innsbruck zu begeben, damit er dort – im Falle Baron Wessenberg sich seiner zur angedeuteten Negoziation zu bedienen gedächte – mit den nötigen Instruktionen versehen werde und seine Unterhandlungen in der kürzesten Zeitfrist eröffnen könne<note type="footnote" n="13">Schreiben an Colloredo v. <date when="1848-06-07">7. 6. 1848</date>, <bibl type="archival">HHSTA., StK., Noten an die Hofkanzlei 67, Fasz. 1848, fol. 140.</bibl>
+                     </note>.</p>
+                  <p>Der Minister Baron Wessenberg wird durch Baron Doblhoff von dieser Einleitung in Kenntnis gesetzt werden<note type="footnote" n="14">Eine diesbezügliche Weisung an Doblhoff ist nicht erhalten. Wessenberg wurde von der Vorgangsweise des Ministerrates aber auch von Lebzeltern benachrichtigt, vgl. dazu das Schreiben Lebzelterns an Wessenberg v. 8. 6. <quote>ebd., Interiora 81, Fasz. alt 101, fol. 37–44.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Modifikation des Staatshandbuches für 1848</head>
+                  <p>Der Minister des Inneren brachte zur Sprache, daß es an der Zeit sein dürfte, das Staatshandbuch<note type="footnote" n="15">Gemeint ist das <bibl type="secondary">
+                           <title>Hof- und Staatshandbuch des österreichischen Kaiserthumes</title>
+                        </bibl>, auch <bibl type="secondary">
+                           <title>Hof- und Staatsschematismus</title>
+                        </bibl> genannt.</note> für 1848, dessen Druck bereits vollendet ist, mit den durch die neuesten Veränderungen bedingten Modifikationen erscheinen zu lassen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, obgleich in thesi einverstanden, glaubte doch, daß diese Herausgabe in dem gegenwärtigen Augenblicke, wo der Organismus aller Ministerien noch nicht völlig gegliedert ist und wo der Bestand mehrerer Dienstesstellen in den höheren und höchsten Sphären in Frage gestellt ist, noch nicht ganz an der Zeit sein dürfte<note type="footnote" n="16">Das Staatshandbuch für 1848 wurde schließlich mit dem Vermerk <quote>Vollendet vor dem <date when="1848-03-13">13. März 1848</date>
+                        </quote> herausgegeben.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Entwurf der provisorischen Geschäftsordnung für den Reichstag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> brachte den Entwurf einer „provisorischen Geschäftsordnung für den demnächst zusammentretenden konstituierenden Reichstag“ in Vortrag.</p>
+                  <p>Sämtliche Minister erklärten sich mit diesem Entwurfe im wesentlichen einverstanden, und es wurden nur einige wenige Modifikationen an demselben beschlossen. Dahin gehört namentlich der Schwur der Treue für den konstitutionellen Kaiser, welcher in die Eidesformel für den Präsidenten des Reichstages und für die Deputierten (§§ 37 und 38) eingeschaltet wurde – und die Bestimmung, daß der Präsident einem nicht eingeschriebenen Redner auch dann das Wort gestatten könne (§ 68), wenn er über persönliche Beziehungen Aufklärungen zu erteilen wünscht.</p>
+                  <p>Der Ministerrat unterzieht demnach den dergestalt rektifizierten Entwurf, wovon eine Abschrift dem Protokolle beiliegt, der Ah. Sanktion, nach deren Herablangen diese Geschäftsordnung in Druck gelegt werden wird<note type="footnote" n="17">Die Entwurfsabschrift ist nicht erhalten geblieben. Der Entwurf selbst wurde mit Ah. E. v. <date when="1848-06-15">15. 6. 1848</date> sanktioniert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 973/1848</bibl>. Ein gedrucktes Exemplar der <quote>Provisorischen Geschäftsordnung für den Constituierenden Reichstag</quote> liegt dem Akt bei, <quote>ebd., MRZ. 1254/1848.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_64_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Pensionierung Ignaz Freiherrn v. Lederers</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> brachte mit Beziehung auf seinen gleichzeitig überreichten au. Vortrag vom 6. Junius 1848<note type="footnote" n="18">
+                        <quote>Ebd., MRZ. 998/1848 und</quote>
+                        <bibl type="archival">KA., HKR., MK. Präs. 2872/1848.</bibl>
+                     </note> in Vorschlag, daß dem kommandierenden General Baron Lederer, welcher die Versetzung in den Ruhestand angesucht hat<note type="footnote" n="19">Das Pensionsansuchen Lederers v. <date when="1848-06-06">6. 6. 1848</date> in <quote>ebd. Präs. 2872/1848.</quote>
+                     </note>, mit Rücksicht auf seine 65jährige ruhmvolle Kriegsdienstleistung seine volle Gage als Ruhegehalt und nebstdem das Großkreuz des Leopoldordens als Merkmal der Ah. Anerkennung verliehen werde<note type="footnote" n="20">Der in Anm. 18 zit. Vortrag <bibl type="archival">(HHSTA., Kab. Kanzlei, MRZ. 998/1848)</bibl>. wurde zwar mit Ah. E. v. <date when="1848-06-15">15. 6. 1848</date> vom Kaiser resolviert, ist aber nicht expediert worden, da der identische Vortrag, <bibl type="archival">KA., HKR., MK. Präs. 2872/1848</bibl>, mit Ah. E. v. <date when="1848-06-16">16. 6. 1848</date> folgendermaßen entschieden wurde: Behebt sich durch Meine Entschließung über Ihren Vortrag vom <date when="1848-06-10">10. Juni 1848</date>. Siehe dazu die Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480610-P-0067.xml#top_1_1_67_4">MR. v. <date when="1848-06-10">10. 6. 1848</date>/IV</ref>.</note>.</p>
+                  <p>Sämtliche Minister traten diesem au. Antrage bei.</p>
+                  <p>Für den Fall, Ew. Majestät den au. Anträgen unter Zahl 6 und 7 des gegenwärtigen Protokolles die Ah. Genehmigung zu erteilen geruhen, werden die entsprechenden <pb n="389" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s389.pdf"/>Resolutionsentwürfe hier beigefügt und an dieselben weiters ein Entwurf des Ah. Kabinettschreibens angereiht, mittelst welchem das Obersthofmeisteramt von der erfolgten Ah. Ernennung des Baron Wessenberg zum Minister des Äußern und des kaiserlichen Hauses verständigt wird<note type="footnote" n="21">Der Entwurf des Handschreibens an Dietrichstein, mit Ah. E. v. <date when="1848-06-15">15. 6. 1848</date> resolviert, liegt dem Originalprotokoll bei. Zur Ernennung Wessenbergs zum Minister des Äußern siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_6">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am 8. Junius 1848. Pillersdorf.</dateline>
+                  <seg type="other">Ges. 14. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand, Innsbruck, am <date when="1848-06-15">15. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

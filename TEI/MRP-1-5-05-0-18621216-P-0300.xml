@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="300">Sitzung 300</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-12-16"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z300.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1104</idno>
+                  <idno type="KZ">4021</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-12-16"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Kaiser; BdE. und anw. (Erzherzog Rainer 20. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy; abw. Pratobevera, Burger; BdR. Erzherzog Rainer <date when="1863-01-05">5. 1. 1863</date>.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-12-20">1862-12-20</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_300_1">Thronrede bei der Schließung der Reichsratssession</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_300_2">Maßnahmen gegen das Räuberunwesen in Kroatien</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621216-P-0300" ana="a5-b5-z300">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z300.pdf">
+               <title type="num">Nr. 300</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-12-16">16. Dezember 1862</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Kaiser; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 20. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Pratobevera, Burger; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer <date when="1863-01-05">5. 1. 1863</date>.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1104</idno>
+                  <idno type="KZ">4021</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1862-12-16">16. Dezember 1862</date> früh halb neun Uhr abgehaltenen Ministerrates unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_5_5_300_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Thronrede bei der Schließung der Reichsratssession</head>
+                  <p>Nachdem die Fassung des vom Staatsminister vorgelegten und im Ministerrate in Beratung gezogenen Entwurfs der Ah. Schlußrede an den Reichsrat<note type="footnote" n="1">Siehe MR. v. 10. und <date when="1862-12-11">11. 12. 1862</date> ( = Sammelprotokoll Nr. 296).</note> von Sr. Majestät dem Kaiser in einigen Beziehungen nicht entsprechend befunden wurde, haben Allerhöchstdieselben einen zweiten Entwurf verfassen zu lassen geruht, welcher in der heutigen Konferenz seinem vollen Inhalte nach vorgelesen wurde<note type="footnote" n="2">Dieser zweite Entwurf, der schließlich mit mehreren im Ministerrat beschlossenen Modifikationen genehmigt wurde, liegt dem Protokoll nicht bei, er konnte auch in den Beständen des <quote>HHSTA.</quote> nicht gefunden werden. Es bleibt offen, wen der Kaiser mit der Abfassung betraut hatte. Rechberg und Esterházy, die am <date when="1862-12-10">10. 12. 1862</date> den Schmerlingschen Entwurf grundsätzlich kritisiert hatten, kommen nach dem Wortlaut des vorliegenden Protokolls wohl nicht in Frage: sie befürworten zwar den zweiten Entwurf, kritisieren aber auch ein Detail.</note>.</p>
+                  <p>Infolge der Ah. Aufforderung, sich über den neuen Text zu äußern, ergriff zuerst der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> das Wort und machte aufmerksam, daß der Ausdruck „Hochwürdige Kirchenfürsten“ auf die Kardinäle, welchen die Titulatur „Hochwürdigsten“ gebührt, nicht paßt, und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> bemerkte, daß der Titel „Kirchenfürsten“ strenggenommen den Bischöfen, die nicht Kardinäle sind, nicht gebührt. <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten hiernach Ah. zu befehlen, daß eine veränderte Fassung des Absatzes zur Behebung dieser Anstände anzuwenden wäre.</p>
+                  <p>
+                     <pb n="117" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s117.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> glaubte, folgende Differenzen zwischen den beiden Entwürfen herausheben zu sollen: 1. daß in dem letzeren von der Aussicht auf die Fortdauer friedlicher Verhältnisse keine Rede ist; 2. daß über die bloß ausnahmsweise stattgefundene Beratung der Finanzangelegenheiten im engeren Reichsrat keine Andeutung vorkommt; 3. daß das Staatsgrundgesetz im 2. Entwurf mit sehr wenig Nachdruck erwähnt wird, und 4. daß der neue Schluß, so wie überhaupt der ganze Text, zu kalt und nüchtern gehalten sei. Die kaiserliche Thronrede am Schlusse der ersten Session des österreichischen Reichsrates sei nämlich nicht ein gewöhnliches Aktenstück und dürfte daher mit der Eröffnungsrede dem Tone nach mehr in Einklang zu bringen sein, so wie auch die am 1. Mai Ah. herausgehobenen Punkte, welche die Durchführung der Verfassung betreffen, jetzt nicht fallengelassen, sondern in einer Weise erwähnt werden dürften, daß man über die Fortdauer der kaiserlichen Intentionen nicht in Zweifel bleibe. Im In- und Auslande sehe man einem Ah. Ausspruche darüber mit Spannung entgegen. Zu 1. äußerte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Rechberg</rs>
+                     </hi>, daß die obwaltenden friedlichen Verhältnisse gerade in den letzten Tagen dadurch modifiziert worden seien, daß Preußen zur Erreichung seiner Zwecke einen Intimidationsversuch gemacht hat, dem man fest negativ entgegentreten soll<note type="footnote" n="3">Damit sind die Dezemberunterredungen Bismarcks mit Károlyi gemeint, in denen der preußische Ministerpräsident offen von der Möglichkeit eines preußisch-österreichischen Krieges gesprochen hatte, <bibl type="secondary">
+                           <author>Lutz</author>, Zwischen Habsburg und Preußen 438</bibl>; <bibl type="secondary">
+                           <author>Srbik</author>, Deutsche Einheit 3, 447 ff.</bibl>
+                     </note>. Man könne daher eben jetzt nicht die Friedensaussichten als wohlbegründet ansehen. Andererseits pflegen ausländische Souveräns der Friedensaussichten etc. nur in den Eröffnungs-, nicht aber in den Schlußreden zu gedenken. Der Finanzminister erklärte es von seinem Standpunkt für wünschenswerter, daß des Verhältnisses zu fremden Staaten [besser] gar nicht, als in einer Beunruhigung verratenden Weise gedacht werde. Die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Schmerling, Graf Nádasdy, Ritter v. Lasser, Graf Wickenburg</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Baron Mecséry</rs>
+                     </hi> fanden es dagegen wünschenswert, daß beiläufig gesagt werde, die Segnungen des Friedens seien bisher ungetrübt erhalten worden und man könne auf deren Fortdauer hoffen. Dies sei vollkommen wahr! <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten Allerhöchstsich für einen Absatz dieses Inhaltes auszusprechen. Ebenso geruhten Allerhöchstdieselben nach dem einstimmigen Antrage anzuordnen, daß gehörigen Ortes angedeutet werde, wie die finanzielle Tätigkeit des Reichsrates dieses Mal bloß eine exzeptionelle gewesen sei. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> bedauerte lebhaft, daß die Stellen des ersten Entwurfes, welche den Ausspruch des strengen Festhaltens an den kaiserlichen Beschlüssen und an der Durchführung des 26. Februar enthalten, im zweiten Entwurfe bis zur Unkenntlichkeit abgeschwächt erscheinen. Für den Leiter der siebenbürgischen Angelegenheiten sei aber eine bestimmte Ah. Kundgebung in diesem Augenblicke deswegen unentbehrlich, weil es sonst nicht gelingen wird, einen siebenbürgischen Landtag zusammenzubringen. Namentlich dürfte die Hoffnung ausgesprochen werden, den nächsten Reichsrat vollzählig <ref xml:id="fn_5_5_300_a">oder, wenn dieser Satz Anstände hat, „in größerer Anzahl“</ref>
+                     <note type="variant" n="a" target="#fn_5_5_300_a">Einfügung a–a Nádasdys.</note> versammelt zu sehen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> berief sich auf die <pb n="118" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s118.pdf"/>Motivierung, womit er sich seinen ersten Entwurf zu begleiten erlaubt hatte, und knüpfte daran die Bitte, daß der Eingang der Schlußrede an die begeisternden Worte vom 1. Mai eingehender erinnere. Übrigens dürfte auch der übrige Inhalt der Rede, welche nicht ein gewöhnliches Aktenstück sein soll, schwunghafter gehalten, der Tätigkeit des Reichsrates die wohlverdiente kaiserliche Anerkennung in wärmeren Ausdrücken zugesprochen und die Hoffnung ausgedrückt werden, den Reichsrat bald wieder versammelt zu sehen. Der Schlußabsatz des zweiten Entwurfs endlich sei zu matt und dürfte demjenigen des ersten Entwurfes weichen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> begann mit der Erklärung, daß seine Kritik des ersten Entwurfs keineswegs gegen die in demselben ausgesprochenen Grundsätze, sondern nur gegen den stellenweise zu salbungsvollen, homiletischen Ton gerichtet war. Die kürzere, mehr neutrale Weise, in der der zweite Entwurf die neuen Gesetze bespricht, sei allerdings vorzuziehen. Dagegen vermisse Graf Degenfeld darin den Ausspruch, daß Österreich durch die Übereinstimmung von Volk und Regierung neu gekräftigt sei, sowie das erneute Ah. Gelöbnis, die Verfassung vom 26. Februar durchzuführen, und er würde auch, gleich dem Graf Nádasdy, vorschlagen, daß auf die Einberufung des Gesamtreichsrates hingewiesen werde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, dem Staatsminister beitretend, äußerte, daß in einer Ansprache wie der fraglichen der gewöhnliche Kanzleistil am unrechten Ort sei und eine des Ah. Sprechens und des Gegenstandes würdigere und etwas mehr poetische Sprache zu gebrauchen wäre. Daß in England die Eröffnung und Schlußreden – die zudem auch oft bloß von <ref xml:id="fn_5_5_300_b">einer Kommission</ref>
+                     <note type="variant" n="b" target="#fn_5_5_300_b">Korrektur b–b Lassers aus <quote>den Ministern</quote>.</note> abgelesen werden – im nüchternsten Aktenstile abgefaßt werden, beruht auf uraltem Herkommen und ist vielleicht in einem Lande, wo der Souverän eigentlich nicht Regent, sondern nur Träger der Krone ist, ganz vorzüglich am Platze. In Österreich aber ist das Verhältnis ein wesentlich verschiedenes, und es fehlt somit an einem Grunde, sich hier die englische Form anzueignen. Dieses vorausgeschickt, hob der Sprecher einige solche zu beseitigende Kanzleiausdrücke und die undeutsche Konstruktion „die von Mir beobachtete Verfassung“ heraus. Ferner sprach der Minister den Wunsch aus, daß des nicht unwichtigen Gesetzes über das Ausgleichsverfahren gedacht und der Passus über die Zustandebringung des Gemeindeorganismus auf eine Art textiert werde, welche den Einfluß der Landtage bei dieser Zustandebringung auf die gesetzliche „Mitwirkung“ beschränkt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> findet, daß der zweite Entwurf im Wesen und im Stil hinter dem ersten weit zurücksteht, daher er sich auch mit den von den Ministern Baron Mecséry und Ritter v. Lasser beantragten Modifikationen einverstanden erklären müsse. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> gibt der Aufzählung der Gesetze im zweiten Entwurf den Vorzug; auch scheine es nicht notwendig, daß alle Gesetze erwähnt werden. Übrigens dürfe man nicht vergessen, daß das Vertrauen auf die Beobachtung und endliche Durchführung der Verfassung ein Hauptfaktor der jetzigen besseren Lage ist, <ref xml:id="fn_5_5_300_c">daher eine diesfällige Berufung und Bekräftigung in der Thronrede allerdings für den Kredit Österreichs zweckdienlich erscheint. Was die Evantualität eines Anlehens anbelangt, so werden für dessen günstige Begebung mehr die Zustände zur Zeit der Begebung als der jetzige Zeitpunkt, in welchem die Thronrede gehalten wird, maßgebend sein</ref>
+                     <note type="variant" n="c" target="#fn_5_5_300_c">Einfügung c–c Pleners.</note>daher eine diesfällige Berufung und Bekräftigung in der Thronrede allerdings für den Kredit Österreichs zweckdienlich erscheint. Was die Evantualität eines Anlehens anbelangt, so werden für dessen günstige Begebung mehr die Zustände zur <pb n="119" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s119.pdf"/>Zeit der Begebung als der jetzige Zeitpunkt, in welchem die Thronrede gehalten wird, maßgebend sein. Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> erinnerte, daß man bei Erwähnung des Vergleichsverfahrens in der Thronrede nicht unterlassen sollte, den bloß transitorischen Charakter desselben zu erwähnen. Da die Zustandebringung der Gesetze so viel Zeit und Mühe gekostet hat, sollte man die ausdrückliche Erwähnung aller nicht scheuen. Freiherr v. Lichtenfels bedauert die Beseitigung mehrerer wichtiger Punkte aus dem ersten Entwurf. Die Hinweisung auf das Gelöbnis vom 1. Mai sei insbesondere den hervortretenden Zweifeln gegenüber und wegen Siebenbürgens nötig. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> muß seinerseits dem heute verlesenen Entwurfe den Vorzug geben, da vom Ah. Throne aus nur die strengste Wahrheit gesprochen werden solle. Votant halte es für vollkommen hinreichend, wenn der Verfassungsgrundlagen Erwähnung getan wird, ohne dabei das Gelöbnis förmlich zu erneuern. Solche Wiederholungen sind vom Überfluß, schaden aber in Ungarn und können auch in Siebenbürgen nichts Wesentliches nützen. Gegen eine mehr schwunghafte Fassung einzelner Stellen aber sei nichts zu erinnern. Auch <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> findet den zweiten Entwurf vorzuziehen. Die Thronrede vom 18. d. M. kann mit jener am 1. Mai v. J. nicht verglichen werden. Diese letztere war die feierliche Inauguration der Verfassung, die nächstbevorstehende Thronrede aber schließt nur eine Session ab, bei nicht durchgeführter Verfassung. Se. Majestät der Kaiser dürfen in dieser Rede nicht mit früher ausgesprochenen kaiserlichen Worten in Widerspruch treten; andererseits aber muß alles vermieden werden, was die Zustandebringung der verfassungsmäßigen Einrichtungen erschweren kann. Bei einer oktroyierten Verfassung ist das Gelöbnis, sie zu halten, entweder eine bloße Phrase oder aber eine Fessel, die in der Folge sehr gefährlich werden kann. Durch die Wiederholung eines solchen Gelöbnisses verstärkt man einerseits nicht das Vertrauen auf dasselbe, andererseits bringt man aber einen schlechten Eindruck in jenen Ländern hervor, wo die Verfassung noch nicht durchgeführt ist. Graf Esterházy stimme daher dagegen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten auszusprechen, die Eröffnungsrede vom 1. Mai sei vortrefflich verfaßt gewesen und habe die innerste Überzeugung Sr. Majestät ausgesprochen; dagegen entspreche der erste Entwurf der Schlußrede nicht ganz der Ah. Denkweise. Auch hat man sich bei dessen Verfassung den Unterschied zwischen einer Eröffnungs- und Schlußrede nicht hinlänglich vorgehalten. Darüber, daß die Staatsverfassung gehalten werden muß, sind Allerhöchstdieselben mit dem Ministerium völlig einer Meinung. Eine Oktoyierung ist nicht mehr möglich, und der Ausbau der Verfassung kann nur auf dem durch die Grundgesetze vorgezeichneten Wege und unter Mitwirkung des Reichsrates stattfinden. Dieser Ausspruch, auf den es hauptsächlich ankommt, ist in dem zweiten Entwurfe enthalten, und die wiederholte Ablegung eines „Gelöbnisses“, die Verfassung zu halten, ist nicht nur überflüssig, sondern sie schwächt selbst die Kraft des ersten Gelöbnisses ab, weil man ein ernstgemeintes Versprechen nicht stets zu wiederholen braucht. Die Art, wie die Gesetze im zweiten Entwurfe besprochen werden, sei den Ah. Intentionen gemäß, doch wäre die Aufzählung durch das Gesetz über das Ausgleichsverfahren mit dem vom Freiherrn v. Lichtenfels beantragten Beisatze zu ergänzen. Die von den Ministern Ritter v. Schmerling und Ritter v. Lasser angedeuteten stilistischen Berichtigungen <pb n="120" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s120.pdf"/>wären am zweiten Entwurfe vorzunehmen, und aus dem ersten Entwurf der schwungvollere Schlußsatz wie auch der Passus wegen der Aussicht, den Reichsrat künftiges Jahr wieder versammelt zu sehen, herüberzutragen. Die Hoffnung, den Reichsrat hiebei vollständig zu finden, wäre aber nicht auszusprechen, da Se. Majestät diese Hoffnung nicht hegen, so wie auch unter den Reichsräten kaum einer daran glaubt.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> äußerte, daß er explizitere Ah. Erklärungen in der Schlußrede dann gewiß nicht beantragen würde, wenn er die Überzeugung hätte, daß man in Ungarn an den Ah. Willen glaube, die Verfassung durchzuführen. Dies sei aber nicht der Fall. Es ist auch nicht zu erwarten, daß ein solcher Glaube dort Wurzeln fasse, solang Journale, welche subventioniert werden und für Organe der ungarischen Hofkanzlei gelten, Artikel bringen, welche mit diesem Glauben nicht vereinbarlich sind. So lese man in einer Wiener Korrespondenz des Sürgöny vom <date when="1861-07-27">27. Juli 1861</date>: „Es wird mir verbürgt, daß Graf Forgách, als er seinen gegenwärtigen Posten übernahm, dies unter der bestimmten Bedingung tat, daß man in Ungarn keine direkten Wahlen ausschreiben werde.“ Diese Notiz des Sürgöny ist bis jetzt nicht dementiert worden und gilt daher allgemein als richtig, wirkt aber auf Siebenbürgen sehr nachteilig zurück, weil nur die Aussicht auf die ultima ratio der direkten Wahlen den Landtag zu Wahlen bestimmen kann. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> fügte bei, er könne seinerseits nur bestätigen, daß der Statthalter Graf Pálffy infolge des Impulses aus der ungarischen Hofkanzlei sich ganz in gleicher Weise ausspricht. Die Weglassung eines erneuerten, bestimmten Ah. Ausspruches aus der Thronrede werde die vorhandenen irrigen Ansichten bestärken. <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten Ah. zu bemerken, daß die Thronrede nicht der gehörige Ort sei, um über den eben angeregten Punkt zu entscheiden. Die Ah. Absicht sei auf eine friedliche Einigung mit Beseitigung einer Oktroyierung gerichtet.</p>
+                  <p>Die Minister Ritter v. Schmerling und Ritter v. Lasser erhielten schließlich den Ah. Auftrag, den zweiten Entwurf nach Maßgabe der Ah. Beschlüsse zu redigieren und das Elaborat in einer am selben Tage noch, um 2½ Uhr, von Sr. Majestät Ah. zu präsidierenden Konferenz, vorzulegen.</p>
+                  <p>Fortsetzung am selben Tage 2½ Uhr nachmittag.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> las den gemäß der Ah. Beschlüsse amendierten und ergänzten zweiten Entwurf der kaiserlichen Schlußrede, und es erhielt dieses Elaborat die Ah. Genehmigung mit zwei einzigen Modifikationen: Statt des Ausdruckes „die Kundgebung der öffentlichen Meinung, die durch den Mund der Presse spricht“ (Absatz 7) geruhten Se. Majestät den richtigeren „insofern sie durch die Presse spricht“ zu wählen, und im 14. Absatze wurde statt „befriedigenderes Verhältnis“ aus stilistischen Gründen gesetzt „günstigeres Verhältnis“<ref xml:id="fn_5_5_300_d"/>
+                     <note type="variant" n="d" target="#fn_5_5_300_d">Dem Originalprotokoll liegt ein Exemplar der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18621219">Wiener Zeitung</ref>
+                           </title> v. <date when="1862-12-19">19. 12. 1862</date>
+                        </bibl> bei, in der die Thronrede im Wortlaut abgedruckt ist.</note>, <note type="footnote" n="4">Die Thronrede wurde in der feierlichen Schlußsitzung beider Häuser des Reichsrates am <date when="1862-12-18">18. 12. 1862</date> verlesen, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1861/62, 4899 f., und ebd., HH. 1861/62, 1435 f.</bibl>; der Text u. a. auch <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18621219">Wiener Zeitung</ref>
+                           </title> v. <date when="1862-12-19">19. 12. 1862</date>
+                        </bibl>; <bibl type="secondary">
+                           <author>Kolmer</author>, Parlament und Verfassung 1, 126ff.</bibl> Zu den Feierlichkeiten beim Schluß der Reichsratssession siehe <ref type="protocol-link" target="MRP-1-5-05-0-18621215-P-0299.xml#top_5_5_299_3">MR. v. <date when="1862-12-15">15. 12. 1862</date>/III</ref>, Anm. 13.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_300_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Maßnahmen gegen das Räuberunwesen in Kroatien</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten, die im Ministerrate am 15. d. M. beratenen Maßregeln gegen das Räuberunwesen in Kroatien zur Sprache zu bringen<note type="footnote" n="5">
+                        <ref type="protocol-link" target="MRP-1-5-03-0-18620215-P-0197.xml#top_5_3_197_2">MR. v. <date when="1862-02-15">15. 2. 1862</date>/II</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> brachte zur Ah. Kenntnis, die Stimmenmehrheit habe sich gegen die Ausdehnung des standrechtlichen Verfahrens auf die Hehler ausgesprochen, weil dies eine bedenkliche Ausnahme von dem österreichischen Strafgesetze bilden würde, welche Ausnahme der kroatische Hofkanzler selbst nicht für notwendig erklärt, indem die kroatischen Zivilgerichte ihre Pflichten erfüllen werden und die österreichischen Strafgesetze dort noch in Kraft bestehen. In Ungarn mag eine exzeptionelle Strenge jetzt dadurch notwendig geworden sein, daß man das österreichische Strafrecht eiligst über den Haufen warf und die veralteten Strafgesetze wieder einführte. Freiherr v. Lichtenfels halte eine drakonische Gesetzgebung schon deswegen für nicht gut, weil es das Begehen schwerer Verbrechen hervorruft, sobald schon leichte Verbrechen mit größter Strenge bestraft werden. Zur Verhängung der Geldstrafen über passiv sich verhaltende Gemeinden fehle es dermal in Kroatien noch an einem Anlaß, da Beschwerden über solches Benehmen bei räuberischen Anfällen dort noch nicht, wie in Ungarn, vorgekommen sind. Überdies sei dies ebenfalls eine sehr harte Maßregel, deren Erfinder die Franzosen in Dalmatien waren. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> erwiderte, daß die ordentlichen Gerichte und Gesetze nur bei normalen Zeitläufen genügen können. Graf Forgách habe auch mit der politischerseits beantragten Anwendung der Ausnahmsmaßregeln nach dem Antrage der königlichen Tafel drei Monate lang gezögert, während welcher Zeit aber die Räubereien die bedenklichsten Dimensionen annahmen, sodaß man sich dazu entschließen mußte. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten daran zu erinnern, daß Se. k[aiserliche] Hoheit der Generalgouverneur Erzherzog Albrecht sich genötigt sah, gegen die Räuber mit solcher Strenge standrechtlich vorzugehen, daß im Pester Bezirke allein 156 Hinrichtungen stattfanden<note type="footnote" n="6">Siehe dazu MK. v. <date when="1852-12-04">4. 12. 1852</date>/III, <bibl type="internal_ref">
+                           <ref type="internal" n="a3-b1-z69" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a3-b1/pdf/a3-b1-z69.pdf" target="MRP-1-3-01-0-18521204-P-0069.xml">ÖMR. III/1, Nr. 69</ref>
+                        </bibl>.</note>. Wenn übrigens dermal in Kroatien nichts Derartiges zu verfügen kommt, so dürfte überhaupt wenig geschehen können, denn von der Verlegung von Militär in die an Ungarn grenzenden Komitate sei gar kein Erfolg zu erwarten, wie die Erfahrung zur Genüge bewiesen hat. Dieses vorausgesetzt, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, gebe es doch noch immer Mittel der Abschreckung sowohl als der Ergreifung von Verbrechern, z. B. Vermehrung der Komitatsgendarmen, Erhöhung der Verbrechertaglien etc. Diese wären zu versuchen.</p>
+                  <p>Schließlich geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> Ah. zu befehlen, es sei dem Ban telegraphisch zu eröffnen, daß, nachdem die von ihm beantragte Verlegung von Militär zur Erreichung des beabsichtigten Zweckes nichts nützen würde, er andere geeignete Abhilfsmittel <pb n="122" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s122.pdf"/>entweder im eigenen Wirkungskreis zu treffen oder höheren Ortes in Antrag zu bringen habe<note type="footnote" n="7">Der betreffende Akt ist im <quote>KA.</quote> skartiert worden.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1862-12-20">20. Dezember 1862</date>. Erherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1863-01-05">5. Jänner 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-01-05">5. Jänner 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

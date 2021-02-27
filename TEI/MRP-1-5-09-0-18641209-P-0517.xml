@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="9">Band 9</title>
+            <title level="m" type="sub">Dezember 1864–<date when="1865-07-11">11. Juli 1865</date>
+            </title>
+            <title level="a" type="desc" n="517">Sitzung 517</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-12-09"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b9-z517.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 9 Dezember 1864–11. Juli 1865</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1323</idno>
+                  <idno type="KZ">3907</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-12-09"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 13. 12), Mensdorff, Schmerling, Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg, Mažuranić, Reichenstein, Jireček; abw. Mecséry, Nádasdy, Esterházy; BdR. Erzherzog Rainer 31.12.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-12-13">1864-12-13</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7788">
+                     <surname>Mensdorff</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr9070">
+                     <surname>Jireček</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_9_517_1">Provisorische Zuteilung des Vizepräsidenten der niederösterreichischen Statthalterei Franz Ritter Riedl v. Riedenau zur Dienstleistung im Staatsrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_9_517_2">Errichtung einer selbständigen Metropolie für die griechisch-orientalischen Rumänen in Siebenbürgen und in Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_9_517_3">Teilung des illyrischen Nationalfonds</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_9_517_4">Einberufung des serbischen Nationalkongresses und der Synode der griechisch-orientalischen Bischöfe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_9_517_5">Programm für die Beratungen des serbischen Nationalkongresses</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_9_517_6">Gesetz betreffend die Bewilligung eines Nachlasses an der Branntweinsteuer bei der Erzeugung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_9_517_7">Regierungsvorlage wegen unbedingter Verzinsung der Anleihe von 80 Millionen Gulden bei der Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_5_9_517_8">Einkommensteuer der Niederösterreichischen Escompte-Gesellschaft</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-09-0-18641209-P-0517" ana="a5-b9-z517">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml#a5-b9_z517.pdf">
+               <title type="num">Nr. 517</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-12-09">9. Dezember 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 13. 12), Mensdorff, Schmerling, Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg, Mažuranić, Reichenstein, Jireček; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Mecséry, Nádasdy, Esterházy; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 31.12.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1323</idno>
+                  <idno type="KZ">3907</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-12-09">9. Dezember 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_9_517_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Provisorische Zuteilung des Vizepräsidenten der niederösterreichischen Statthalterei Franz Ritter Riedl v. Riedenau zur Dienstleistung im Staatsrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> brachte zur Kenntnis, daß er sich durch die neuerliche Entsendung des Staatsrates Baron Halbhuber nach Holstein genötigt sehe, auf einen provisorischen Ersatz desselben im Gremium des Staatsrates vorzudenken<note type="footnote" n="1">Freiherr Anton Halbhuber v. Festwill war im Juli 1864 als Zivilkommissär nach Jütland entsandt worden und sollte, wie der Minister des Äußern dem Staatsratspräsidenten mündlich mitgeteilt hatte, als Zivilkommissär nach Holstein gehen; zu Halbhuber <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 2, 159</bibl>.</note>. Den eingezogenen Erkundigungen nach dürfte der Vizepräsident der niederösterreichischen Statthalterei v. Riedl die benötigte Aushülfe in vollkommen entsprechender Weise zu leisten imstande sein. Bevor jedoch Freiherr v. Lichtenfels seine diesfällige au. Bitte Sr. k. k. apost. Majestät vortrage, glaube er, die Sache im Ministerrat zur Sprache bringen zu sollen, um zu erfahren, ob gegen v. Riedls zeitweilige Verwendung beim Staatsrate in dienstlicher Hinsicht kein Anstand obwalte.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erwiderte, daß in dieser Beziehung kein Anstand obwalte, zumal der disponible Vizepräsident Baron Roszner vor kurzem erst der niederösterreichischen Statthalterei zugewiesen worden ist<note type="footnote" n="2">Mit Vortrag v. <date when="1864-12-10">10. 12. 1864</date> beantragte Lichtenfels die zeitweise Verwendung Riedls beim Staatsrat. Sie wurde mit Ah. E. v. <date when="1864-12-11">11. 12. 1864</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3724/1864; ebd., JStr., Präs. 183/1864 und Präs. 186/1864</bibl>. Am <date when="1865-12-04">4. 12. 1865</date> trat Halbhuber den Dienst im Staatsrat wieder an, <quote>ebd., Präs. 201/1865</quote>. Carl Freiherr v. Roszner war mit Ah. E. v. <date when="1864-09-21">21. 9. 1864</date> von der dalmatinischen zur niederösterreichischen Statthalterei versetzt worden, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2825/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Errichtung einer selbständigen Metropolie für die griechisch-orientalischen Rumänen in Siebenbürgen und in Ungarn</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den vom Staats- und dem Kriegsminister, einverständlich mit den drei Hofkanzleien, erstatteten Vortrag vom <date when="1864-11-06">6. November 1864</date> betreffend die Errichtung einer selbständigen Metropolie für die griechisch-orientalischen Romanen<note type="footnote" n="3">Mit dem Vortrag v. <date when="1864-11-06">6. 11. 1864</date>, <bibl type="archival">AVA., Kultusregistratur, Nr. 7127/1864 (K.) und Nr. 8642/1864 (RS.)</bibl> hatten die genannten Minister das Ergebnis der Beratungen der Synode der orthodoxen Bischöfe vorgelegt. Ein wichtiger Punkt war die Zuordnung der einzelnen Gemeinden zur neuen rumänischen bzw. zur serbischen Metropolie; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 972/1864. Die Akten sind in AVA., Präsidialkultusindex 1848–1922</bibl>, unter <quote>Kultus, griechisch orthodoxer</quote>, indiziert. Zur Errichtung der rumänisch-orthodoxen Metropolie siehe zuletzt <ref type="protocol-link" target="MRP-1-5-08-0-18640912-P-0488.xml#top_5_8_488_1">MR. v. <date when="1864-09-12">12. 9. 1864</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z488" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z488.pdf" target="MRP-1-5-08-0-18640912-P-0488.xml">ÖMR. V/8, Nr. 488</ref>
+                        </bibl>, und <quote>ebd., Einleitung XXIII f</quote>.</note>.</p>
+                  <p>
+                     <pb n="4" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s4.pdf"/>Nach Verlesung der beantragten Ah. Entschließung und des Handschreibens an den Bischof Baron Schaguna, bemerkte der Präsident, daß der Staatsrat sich im wesentlichen mit dem ministeriellen Antrage vereinigt habe. Die bestehenden drei Differenzen sind folgende:</p>
+                  <p>1. Es scheint dem Staatsrate nicht rätlich und auch nicht notwendig, den künftigen Sitz der Metropolie in Hermannstadt bleibend zu begründen, bevor noch die wesentlich darauf Einfluß nehmenden Vorfragen über das künftige hierarchische Verhältnis der Diözese der Bukowina und über die allfällige Errichtung von Suffraganen in Siebenbürgen selbst entschieden sein werden<note type="footnote" n="4">Die sprachlich gemischte Diözese Czernowitz blieb aus der Diskussion ausgenommen, vgl. <quote>ebd., XXIII</quote>.</note>. Nicht nur, daß die Frage über die Residenz des Erzbischofes eine offene, lediglich dem Ah. Ausspruch anheimgegebene ist, hat Bischof Schaguna in seiner Eingabe lediglich die Bitte ausgesprochen, daß nach dem Wunsche der griechisch-orientalischen Romanen das Amt und die Würde eines Erzbischofes mit jenem des Siebenbürger Bistumes verbunden und dem neuen Metropoliten der Titel „Siebenbürger Erzbischof und Metropolit der romanischen Nation griechischorientalischer Religion“ beigegeben werde<note type="footnote" n="5">Eingabe Schagunas v. <date when="1864-09-30">30. 9. 1864</date>, zit. <bibl type="archival">HHSTA., JStr. 972/1864</bibl>.</note>. Eine „bischöfliche Kirche in Hermannstadt“ – wie es im Resolutionsentwurf der Minister heißt – gebe es nicht, sondern, nach dem Wortlaute der Ah. Ernennungen, nur einen Bischof der Nichtunierten in Siebenbürgen, dessen Sitz in älteren Zeiten ein wandelbarer war und auch derzeit weder kirchenrechtlich noch gesetzlich fixiert ist. Ja, das Kultusministerium habe selbst über Ah. Auftrag den Gebrauch des Titels „griechisch-orientalischer Bischof von Hermannstadt“ förmlich untersagt<note type="footnote" n="6">Zur Ernennung Schagunas siehe <bibl type="archival">HHSTA., ÄStr. 246/1848</bibl>; zum Verbot des Titels „Bischof von Hennannstadt“ siehe Vortrag des Kultusministers v. <date when="1856-08-09">9. 8. 1856</date>, <quote>ebd., Kab. Kanzlei, MCZ. 2870/1856</quote>.</note>! Wenn nun gleich eine Änderung der dermaligen bischöflichen Residenz des Baron Schaguna Allerhöchstenortes nicht anzuordnen wäre, so dürfte doch gar kein Grund sein, für alle Zukunft jetzt Hermannstadt zu fixieren, wo nur 13½ Perzent der Bevölkerung zum griechisch-orientalischen Ritus gehören. Hierauf wurde der bezügliche Teil des staatsrätlichen Resolutionsentwurfes verlesen<note type="footnote" n="7">Der Staatsrat beantragte die Formulierung: … <quote>genehmige Ich, daß … die bischöfliche Kirche in Siebenbürgen zur Metroplitanwürde erhoben werde</quote>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> bemerkte, daß, soviel ihm bekannt ist, nach den Kanones der griechisch-orientalischen Kirche die Metropolie ein Privilegium loci, ein mit einer bestimmten Domkirche verbundenes Recht ist, und daß man hierauf bei der gemeinschaftlichen Beratung der Zentralbehörden den Antrag gestützt habe, „die bischöfliche Kirche in Hermannstadt zur Metropolitanwürde zu erheben“. Die Bestimmung der Residenz des Metropoliten sei allerdings der Ah. Willensmeinung völlig freigestellt, und eine Fixierung derselben in Hermannstadt für die weitere Zukunft allerdings nicht streng notwendig; allein es dürfte ein politisches Moment dafür sprechen, der Verlegung des Sitzes dieser romanischen Metropolie nach Ungarn vorzubauen. <pb n="5" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s5.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> äußerte, daß er in Anbetracht der vom Staatsratspräsidenten geltend gemachten Gründe seinen mit den übrigen Zentralstellen übereinstimmenden Antrag über diesen Punkt aufgebe und dem staatsrätlichen Resolutionsentwurf beipflichte. Graf Zichy hält es auch aus politischen Gründen für wünschenswert, den Romanen in Ungarn und in der Bukowina nicht jede Hoffnung zu nehmen, einstens die Metropolie in ihrer Mitte zu besitzen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> trat gleichfalls dem Antrage des Staatsrates bei, ebenso der Finanzminister, vorausgesetzt, daß kein kanonisches Hindernis im Weg stehe. Der Referent dieser Angelegenheiten im Staatsministerium, <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialsekretär Jireček</rs>
+                     </hi>, glaubte, daß nach den Kanones der orientalischen Kirche die Metropolie von einer Metropole nicht getrennt gedacht werden könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, durch den Antrag der Zentralstellen, die Kirche in Hermannstadt zur Metropolie zu erheben, werde keineswegs beabsichtigt, dem kaiserlichen Verfügungsrecht über die Festsetzung oder Änderung der Residenz des Metropoliten irgend vorzugreifen. Sofern daher in den kirchlichen Satzungen kein wesentliches Hindernis bestünde – worüber Ritter v. Schmerling noch eine ganz verläßliche Auskunft einzuholen gedenkt –, würde er keinen Anstand nehmen, den Entwurf der Ah. Ermächtigung und des Ah. Handschreibens in der Art zu modifizieren, daß die bischöfliche Kirche in Siebenbürgen (statt Hermannstadt) zur Metropolitanwürde erhoben werde, „ohne daß übrigens in der dermaligen Residenz des Baron Schaguna eine Änderung eintrete“.</p>
+                  <p>Die Stimmenmehrheit vereinigte sich sofort mit dem Antrage des Staatsministers, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> die Notwendigkeit heraushob, sich über die vorgebrachten kirchlichen Bedenken Beruhigung zu verschaffen.</p>
+                  <p>2. soll nach dem Antrage des Staatsrates dem zur Veröffentlichung in der Wiener Zeitung bestimmten Ah. Handschreiben an Baron Schaguna am Schluß eine Stelle beigefügt werden, durch welche die Wichtigkeit dieser der griechisch-orientalischen Kirche hiemit zuteil werdenden Pflege ihrer Interessen hervorgehoben würde. Gegen einen Beisatz dieser Art wurde von Seite des Ministerrates nichts eingewendet<note type="footnote" n="8">Das Handschreiben wurde in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18650103">Wiener Zeitung</ref>
+                           </title> v. <date when="1865-01-03">3. 1. 1865</date> (M.)</bibl> publiziert, jedoch ohne einen Hinweis auf seine Bedeutung.</note>.</p>
+                  <p>3. Der ministerielle Resolutionsentwurf enthält folgenden Satz: „Die Regelung der Diözesen bezüglich der serbischen Pfarrgemeinden der bisherigen griechisch-orientalischen Diözesen von Arad, Temesvár und Werschetz finde Ich einem späteren Zeitraum vorzubehalten.“ Der staatsrätliche Entwurf lautet: „Über die neue Abgrenzung und Einteilung der bei der serbischen Metropolie verbleibenden Diözesen Temesvár und Werschetz sehe Ich den Anträgen entgegen.“ Der Staatsrat hat demnach die neue Abgrenzung bei der Diözese Arad nicht für nötig erachtet, was mit den Vorverhandlungen und namentlich auch mit dem Texte der kaiserlichen Nachtragsinstruktion für GM. Baron Philippović de dato <date when="1864-09-16">16. September 1864</date>, Art. II, vollkommen in Einklang steht<note type="footnote" n="9">Vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18640912-P-0488.xml#top_5_8_488_1">MR. v. <date when="1864-09-12">12. 9. 1864</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z488" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z488.pdf" target="MRP-1-5-08-0-18640912-P-0488.xml">ÖMR. V/8, Nr. 488</ref>
+                        </bibl>.</note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialsekretär Jireček</rs>
+                     </hi> bemerkte, daß es sich wohl vorzüglich um Temesvár und Werschetz handle, gleichwohl aber in der Arader Diözese eine Serbengemeinde <pb n="6" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s6.pdf"/>und mehrere gemischte Gemeinden bestehen. Die Abtrennung derselben werde zwar keine Änderung in der Abgrenzung und Ausdehnung der Diözese Arad hervorbringen, dieselbe dürfte aber doch in der nach dem Antrag des Staatsrates formulierten Ah. Entschließung durch einen Zusatz vorzubehalten sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> fand gegen die Weglassung der Diözese Arad aus dem berufenen Satze nichts zu erinnern<note type="footnote" n="10">Am <date when="1864-12-24">24. 12. 1864</date> unterzeichnete Franz Joseph die Ah. Entschließung nach den Beschlüssen des Ministerrates, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3848/1864</bibl> (sie ist zit. bei <ref type="protocol-link" target="MRP-1-5-07-0-18631217-P-0429.xml">MR. v. <date when="1863-12-17"/>17. 12. 1863</ref>, Anm. 15, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z429" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z429.pdf" target="MRP-1-5-07-0-18631217-P-0429.xml">ÖMR. V/7, Nr. 429</ref>
+                        </bibl>) und das Handschreiben an Schaguna, in dem er zum Erzbischof und Metropolit der griechisch-orthodoxen Rumänen in Siebenbürgen und Ungarn ernannt wurde, <quote>ebd., CBProt. 87 c/1864</quote>; Publikation des Handschreibens <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18650103">Wiener Zeitung</ref>
+                           </title> v. <date when="1865-01-03">3. 1. 1865</date> (M.)</bibl>; das Errichtungsdiplom für die Metropolie und das Ernennungsdiplom für Schaguna wurden am <date when="1865-11-23">23. 11. 1865</date> ausgefertigt. Zur weiteren Durchführung siehe die folgenden Tagesordnungspunkte III–V, dann <ref type="protocol-link" target="MRP-1-6-01-0-18650901-P-0007.xml#top_6_1_7_3">MR. v. <date when="1865-09-01">1. 9. 1865</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b1-z7" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b1/pdf/a6-b1-z7.pdf" target="MRP-1-6-01-0-18650901-P-0007.xml">ÖMR. VI/1, Nr. 7</ref>
+                        </bibl>, <ref type="protocol-link" target="MRP-1-6-01-0-18651114-P-0025.xml#top_6_1_25_3">MR. v. <date when="1865-11-14">14. 11. 1865</date>/III</ref>, <quote>ebd., Nr. 25</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 436/1867 und KZ. 651/1868</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Teilung des illyrischen Nationalfonds</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den vom Staats- und Kriegsminister, dann den drei Hofkanzleien am <date when="1864-11-06">6. November 1864</date> gemeinschaftlich erstatteten Vortrag in betreff der Trennung des illyrischen Nationalfonds mit Bezug auf den Austritt des romanischen Sprengels aus der Karlowitzer Metropolie und der Behandlung der im romanischen Gebiete gelegenen Klöster<note type="footnote" n="11">
+                        <bibl type="archival">AVA., Kultusregistratur, Nr. 7311/1864 (K.) und Nr. 8643/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 973/1864</bibl>.</note>.</p>
+                  <p>Die Ansichten der Serben und Romanen über die Teilung des Nationalfonds im Gesamtbetrage von 2,005.764 fl. gehen sehr weit auseinander. Die ersteren wollen den Romanen nur 1/20 davon überlassen, während die letzteren volle 2/5 davon begehren. Im wesentlichen fand der Staatsrat gegen die ministeriellen Anträge nichts zu bemerken, beantragte jedoch zwei Zusätze zu dem Entwurf der dem GM. Philippović diesfalls zu erteilenden ersten Instruktion, wodurch die schwierigen und voraussichtlich langwierigen Verhandlungen schneller zu dem wünschenswerten Abschlusse gebracht werden dürften. 1. Die von den Vertretungskörpern der Nationen zu wählenden Ausschüsse wären nicht bloß zur Unterhandlung über einen Vergleich bezüglich der Vermögensteilung, sondern auch zum Abschlusse des Vergleiches selbst zu bevollmächtigen. 2. Wenn von diesen Ausschüssen – wie zu besorgen steht – auf keine Weise ein Vergleich zustande gebracht werden kann, wäre ein Schiedsgericht zusammenzustellen, zu welchem jeder der Vertretungskörper drei Mitglieder zu wählen und wobei GM. Baron Philippović den Vorsitz zu führen hätte. Der zu erlassende Schiedsspruch wäre vor der Erlassung der Ah. Genehmigung zu unterziehen. Auf diese Weise würde das mißliche Geschäft einer endlichen administrativen Entscheidung über den Streit von der Regierung ferngehalten und selbe in die Hände weniger Vertrauenspersonen beider Teile gelegt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> fand gegen den Antrag 1 wegen Bevollmächtigung der Ausschüsse zum Vergleichsabschluß nichts zu erinnern. Zu 2. aber glaubte er, daß es besser wäre, sich über das nach dem Scheitern eines Vergleichs zu Verfügende freie Hand zu lassen und daher von der eventuellen Bestellung eines Schiedgerichts jetzt noch Umgang zu <pb n="7" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s7.pdf"/>nehmen. Seinerzeit werde man mit mehr Sachkenntnis das opportunste Auskunftsmittel für diese heikle Streitsache wählen können.</p>
+                  <p>Die Stimmenmehrheit vereinigte sich zu 1. und 2. mit den Anträgen des Staatsministers, wobei der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> bemerkte, daß auch der schiedsrichterliche Spruch den Streit nicht zu einem ruhigen Ende führen würde, zumal, nach der Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonischen Hofkanzlers</rs>
+                     </hi>, der zum Obmann designierte GM. Baron Philippović, obgleich ein Ehrenmann, viele Antipathien gegen sich hat<note type="footnote" n="12">Mit Ah. E. v. <date when="1864-12-24">24. 12. 1864</date> genehmigte der Kaiser die vom Ministerrat beschlossene Vorgangsweise und die (erste) Instruktion an Philippović, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3846/1864</bibl>; eine Abschrift der Instruktion liegt dem Akt bei. Zur Stellung Philippoviá <bibl type="secondary">
+                           <author>Haselsteiner</author>, Die Serben und der Ausgleich 68</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Einberufung des serbischen Nationalkongresses und der Synode der griechisch-orientalischen Bischöfe</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den gemeinschaftlichen Vortrag des Staats- und des Kriegsministers, dann der drei Hofkanzleien, vom <date when="1864-11-17">17. November 1864</date>, Z. 7872 [StM.I], wegen Einberufung des Nationalkongresses und der Synode der griechisch-orientalischen Bischöfe<note type="footnote" n="13">
+                        <bibl type="archival">AVA., Kultusregistratur, Nr. 7872/1864 (K.) und Nr. 8645/1864 (RS.)</bibl>. Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 998/1864</bibl>.</note>.</p>
+                  <p>An dem ministeriellen Entwurf der zweiten Instruktion für Baron Philippović dürften nach der Meinung des Staatsrates folgende Modifikationen vorzunehmen sein.</p>
+                  <p>1. Der Art. I bezeichnet unter a) als ein Agendum des Nationalkongresses die Entscheidung über die Art der Teilung des gemeinschaftlichen Vermögens der serbischromanischen griechisch-orientalischen Kirche in Kroatien-Slawonien und der Militärgrenze. Nachdem jedoch, laut des vom Ministerrat soeben über den Beratungspunkt III gefaßten Beschlusses, die definitive Erledigung der Teilungsfrage in die Hände der zu wählenden Ausschüsse der Vertretungskörper gelegt werden soll, dürfte jenes Agendum entfallen und die obbezeichnete Bestimmung der Instruktion weggelassen werden können. Hiemit im Zusammenhange stünden auch weitere Textmodifikationen im Art. VI derselben Instruktion.</p>
+                  <p>Im Laufe der hierüber gepflogenen längeren Erörterung äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß durch den zu III gefaßten Ministerratsbeschluß der Einfluß des Nationalkongresses auf die Trennung des illyrischen Nationalfonds noch nicht ganz sein Ende erreichen wird. Denn angenommen, daß es dem königlichen Kommissar gelingt, die drei Vertretungskörper zu bestimmen, daß sie ihren Ausschüssen die Vollmachten zum Vergleichsabschlusse erteilen, bleibt es doch immer nötig, daß dieses Endergebnis dem Nationalkongreß, wo nicht zur Ratifikation, doch zur Kenntnisnahme mitgeteilt werde. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> fand diese weitere Ingerenz des Kongresses nicht nötig, da seine Tätigkeit mit der erfolgten Wahl der Ausschüsse und deren Bevollmächtigung ohne Vorbehalt einer Ratifikation ihr Ende erreicht, der Nationalkongreß sohin faktisch aufgelöst ist und die romanischen Deputierten keinen Grund haben, weiter in demselben zu erscheinen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialsekretär Jireček</rs>
+                     </hi> erkennt vollkommen, daß die Art. I und VI der fraglichen Instruktion, infolge des Ministerratsbeschlusses zu III, eine teilweise veränderte Textierung werden erhalten müssen, wobei jedoch nicht übersehen <pb n="8" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s8.pdf"/>werden darf, daß der Nationalkongreß auch stante hoc concluso noch in den Fall kommen kann, über die Trennungsfrage zu entscheiden: wenn es nämlich dem königlichen Kommissär nicht gelingt, die Vertretungskörper zu bestimmen, daß sie die Ausschüsse zum Vergleichsabschluß bevollmächtigen, oder wenn die gehörig bevollmächtigten Ausschüsse den Vergleich nicht zustande bringen. <ref xml:id="fn_5_9_517_a">Der Staatsratspräsident bemerkt, daß auch in diesen beiden Fällen der Kongreß als Gesamtkörper nie über die Rechte der beiden Teile, in welche er sich auflöst, gegeneinander entscheiden kann. In diesem Punkte müsse notwendig die Textierung geändert werden, wenn man nicht etwas ganz Unjuridisches bestimmen will.</ref>
+                     <note type="variant" n="a" target="#fn_5_9_517_a">Einfügung a–a Lichtenfels’.</note>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkt, daß auch in diesen beiden Fällen der Kongreß als Gesamtkörper nie über die Rechte der beiden Teile, in welche er sich auflöst, gegeneinander entscheiden kann. In diesem Punkte müsse notwendig die Textierung geändert werden, wenn man nicht etwas ganz Unjuridisches bestimmen will. In beiden Fällen werden die romanischen Deputierten ein Interesse haben, im Kongresse zu erscheinen, um ihre Rechte zu verwahren. Deren Ausschließung von diesen Kongreßberatungen aber dürfte die Folge haben, daß man die dabei gefaßten Beschlüsse als einseitig und inkompetent bestreiten wird. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> betrachtete den Nationalkongreß noch nicht als ipso facto aufgelöst, sondern als nach den alten Statuten fortwaltend, bis sein neues Statut in Wirksamkeit tritt. Es würde ihm umso schwerer werden, diesen prinzipiellen Standpunkt zu verlassen, als auf Grundlage desselben die Instruktionsentwürfe mit GM. Baron Philippović vereinbart worden sind.</p>
+                  <p>Die Stimmenmehrheit schloß sich dem Staatsminister an.</p>
+                  <p>2. Im Art. II, Absatz 2, der Instruktion des königlichen Kommissärs wird angeordnet, daß die Synode die Wahl eines Bischofs von Karlstadt vorzunehmen habe. Der Staatsrat glaubt nur, daß zugleich auch die Wahl für den nach Maschirevics erledigten Bischofsitz in Temesvár Ah. anzuordnen wäre<note type="footnote" n="14">Samuel Maschierevics war serbisch-orthodoxer Metropolit von Karlowitz geworden, vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18640812-P-0485.xml#top_5_8_485_2">MR. v. <date when="1864-08-12">12. 8. 1864</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z485" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z485.pdf" target="MRP-1-5-08-0-18640812-P-0485.xml">ÖMR. V/8, Nr. 485</ref>
+                        </bibl>.</note>; denn die Zentralstellen beantragen selbst in ihrem Vortrag vom <date when="1864-11-06">6. November 1864</date>, Z. 972<note type="footnote" n="15">Das ist der in Tagesordnungspunkt II behandelte Vortrag Z. 7121/StM. 1; die Zahl 972 ist die Aktenzahl des Staatsratsgutachtens.</note>, dieses „serbische Bistum“ aufrechtzuerhalten, und Se. Majestät haben die Wiederbesetzung desselben bereits in der Instruktion vom <date when="1864-06-14">14. Juni 1864</date>, Art. 26, in Aussicht zu stellen geruht<note type="footnote" n="16">Zu dieser Instruktion siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640531-P-0476.xml#top_5_8_476_2">MR. v. <date when="1864-05-31">31. 5. 1864</date>/II</ref>, Anm. 9, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z476" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z476.pdf" target="MRP-1-5-08-0-18640531-P-0476.xml">ÖMR. V/8, Nr. 476</ref>
+                        </bibl>. Zur Besetzung des Temesvarer Bischofssitzes siehe <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1876/1865 und KZ. 2948/1865</bibl>.</note>.</p>
+                  <p>Der Ministerrat fand gegen diesen Antrag nichts zu erinnern.</p>
+                  <p>Die Bemerkung des Staatsratspräsidenten, es dürfte angezeigt sein, dem königlichen Kommissär Weisungen für den Fall zu geben, wenn im Kongreß andere, von der Regierung nicht vorhergesehene Wünsche und Anträge auftauchen, behob sich durch die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialsekretär Jireček</rs>
+                     </hi> gegebene Auskunft, daß diese Weisungen in die dritte Instruktion, Art. V, aufgenommen worden sind<note type="footnote" n="17">Zur dritten Instruktion siehe Tagesordnungspunkt V. Mit Ah. E. v. <date when="1864-12-24">24. 12. 1864</date> genehmigte der Kaiser die Anträge und die (zweite) Instruktion, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3847/1864</bibl>; eine Abschrift der Instruktion liegt dem Akt bei. Zum serbischen Nationalkongreß siehe auch den folgenden Tagesordnungspunkt, weiters <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 315/1865, KZ. 993/1865 und KZ. 1084/1865 (Schlußbericht Philippovićs)</bibl>, <ref type="protocol-link" target="MRP-1-6-01-0-18651114-P-0025.xml#top_6_1_25_2">MR. v. <date when="1865-11-14">14. 11. 1865</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b1-z25" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b1/pdf/a6-b1-z25.pdf" target="MRP-1-6-01-0-18651114-P-0025.xml">ÖMR. VI/1, Nr. 25</ref>
+                        </bibl>, <ref type="protocol-link" target="MRP-1-6-01-0-18660105-P-0042.xml#top_6_1_42_1">MR. v. <date when="1866-01-05">5. 1. 1866</date>/I</ref>, <quote>ebd., Nr. 42</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 436/1867 und KZ. 651/1868</bibl>,</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Programm für die Beratungen des serbischen Nationalkongresses</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den Vortrag des Staats- und des Kriegsministers, dann der drei Hofkanzleien, vom <date when="1864-11-17">17. November 1864</date>, Z. 7312 [StM.I], wegen Feststellung des Programmes für den Nationalverhandlungskongreß<note type="footnote" n="18">
+                        <bibl type="archival">AVA., Kultusregistratur, Nr. 7312/1864 (K.) und Nr. 8644/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 997/1864</bibl>. Die Vorbereitungssynode hatte die Behandlung folgender Gegenstände beantragt: <quote>1. Organisierung der Kirchengemeinden; 2. Regelung des Einflusses derselben auf die Bestellung der Seelsorger und Lehrer; 3. Regelung des serbischen Schulwesens; 4. Festsetzung einer Norm für die Verwaltung der Klostergüter und der Nationalfonds; 5. Reduktion und entsprechende Dotation der Pfarrgerichtlichkeit; 6. Organisierung der Eparchial-Konsistorien und des Metropolitan-Kirchenrates, dann der bischöflichen Synode als Gerichtshofes letzter Instanz; 7. Bestimmungen über die Prüfung von Kandidaten des Pfarramtes und 8. das Statut nebst Wahl- und Geschäftsordnung für den Nationalkongreß</quote>. Den letzten Punkt wollten die vortragenden Minister dem Kaiser vorbehalten.</note>.</p>
+                  <p>Zum Art. XI des diesfälligen Instruktionsentwurfes: „Bestimmungen über das Statut, die Geschäfts- und Wahlordnung für den Nationalkongreß zu erlassen, behalten Wir Uns, soweit es Uns ersprießlich scheinen wird, Selbst vor“, hat der Staatsrat erinnert, daß die vorgelegten Entwürfe über die Wahl- und Geschäftsordnung für den Nationalkongreß mit den vom königlichen Kommissär dabei beantragten Modifikationen unbedenklich und im Interesse der Sache dem bevorstehenden Kongresse vorzulegen wären, weil bereits im § 10 der Ah. Instruktion vom <date when="1864-08-13">13. August 1864</date>
+                     <note type="footnote" n="19">Diese Instruktion für Philippović wegen Einberufung der Verhandlunssynode der griechisch-nichtunierten Bischöfe war mit Vortrag des Staats- und des Kriegsministers und der Hofkanzlei v. <date when="1864-08-12">12. 8. 1864</date>, Z. 5741/StM. I, beantragt worden, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2456/1864</bibl>; vgl. <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/8, XXIV, Anm. 70</bibl>.</note> die Revision der bisherigen Stimmenverteilung, also die Vorlage einer modifizierten Wahlordnung, für notwendig erkannt worden ist und auch hier, im Art. XI, abermals nur in Aussicht gestellt wird, obgleich kein Grund für die Vertagung vorhanden ist.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> – mit dem sich die Majorität vereinigte – war jedoch des Erachtens, es sei vorsichtiger, eine Beratung der Wahl- und der Geschäftsordnung durch den Kongreß nicht zu veranlassen, weil davon leicht auf eine Beratung des Statuts übergegangen werden könnte, wobei der Kongreß versuchen würde, sich als Konstituante zu gerieren. Ohnehin habe der Kongreß so viele Agenden vor sich, daß deren Vermehrung durch weitere, so umfassende Vorlagen vom Überfluß erscheint. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> fand in den unter den Serben eben jetzt stattfindenden magyarischen Agitationen einen Grund mehr, für die Vertagung von solchen Verhandlungen zu stimmen<note type="footnote" n="20">Mit Ah. E. v. <date when="1864-12-24">24. 12. 1864</date> genehmigte der Kaiser die Anträge und die (dritte) Instruktion, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3847/1864</bibl>; eine Abschrift der Instruktion liegt dem Akt bei; zur Geschäfts- und Wahlordnung Fortsetzung <ref type="protocol-link" target="MRP-1-6-01-0-18660105-P-0042.xml#top_6_1_42_1">MR. v. <date when="1866-01-05">5. 1. 1866</date>/I</ref>, 61, Nr. 42.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Gesetz betreffend die Bewilligung eines Nachlasses an der Branntweinsteuer bei der Erzeugung</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte, der beigeschlossene Regierungsentwurf eines Gesetzes wegen Bewilligung des 10% Nachlasses an der Steuer von gebrannten geistigen Flüssigkeiten bei der Erzeugung<ref xml:id="fn_5_9_517_b"/>
+                     <note type="variant" n="b" target="#fn_5_9_517_b">Liegt dem Originalprotokoll im Druck bei.</note>, habe dem Prinzip nach im Ausschusse des Abgeordnetenhauses eine gute Aufnahme gefunden, allein man habe die Ziffer des Nachlasses zu niedrig gefunden und beantragt, daß 16% nachgelassen würden, indem die nach <pb n="10" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s10.pdf"/>dem neuen Systeme eingetretene Steuererhöhung sich tatsächlich so hoch belaufe<note type="footnote" n="21">Zu diesem Gesetz siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_5">MR. v. <date when="1864-10-24">24. 10. 1864</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z502" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z502.pdf" target="MRP-1-5-08-0-18641024-P-0502.xml">ÖMR. V/8, Nr. 502</ref>
+                        </bibl>.</note>. Nachdem die Motivierung dieses Antrags allerdings manches für sich hat und die Herabsetzung der Verzehrungssteuer die Erzeugung wesentlich vermehren dürfte, so daß darin einige Kompensation an der Mindereinnahme von der bisherigen Produktion, per einer Million, gefunden werden wird, gedächte der Finanzminister auf eine Erhöhung des Nachlasses bis 15% einzugehen, jedoch mit der Beschränkung auf das laufende Jahr, dessen außerordentliche Verhältnisse eine solche vorübergehende Erleichterung rechtfertigen<note type="footnote" n="22">Vgl. z. B. die Probleme der Zuckerindustrie, <bibl type="secondary">
+                           <author>Malfèr</author> Einleitung ÖMR. V/8, XXXI</bibl>; zu den Ursachen der Krise in der Branntweinindustrie siehe die Debatten im Reichsrat, zit. Anm. 23.</note>. Zudem kann im nächsten Jahr das Zurückgehen auf den höheren Steuersatz von der Regierung entweder als Kompelle gegen den Reichsrat oder als Kompensation <ref xml:id="fn_5_9_517_c">für andere dem Reichsrate zustehende Bewilligungen</ref>
+                     <note type="variant" n="c" target="#fn_5_9_517_c">Einfügung c–c Pleners.</note> in Anwendung gebracht werden.</p>
+                  <p>Der Ministerrat war mit diesen Anträgen einverstanden<note type="footnote" n="23">Das Plenum des Abgeordnetenhauses folgte nicht dem Antrag des Ausschusses, sondern nahm eine grundsätzliche Änderung vor. Statt einer Steuerermäßigung sollte die gesetzliche Steuerrückvergütung bei der Ausfuhr erhöht werden, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 297–312 (17. Sitzung/<date when="1864-12-15">15. 12. 1864</date>) und 476–499 (23/<date when="1865-01-27">27. 1. 1865</date>)</bibl>. Der so abgeänderte Entwurf gelangte im Herrenhaus zur Beratung. Dazu siehe <ref type="protocol-link" target="MRP-1-5-09-0-18650222-P-0543.xml#top_5_9_543_2">MR. v. <date when="1865-02-22">22. 2. 1865</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Regierungsvorlage wegen unbedingter Verzinsung der Anleihe von 80 Millionen Gulden bei der Nationalbank</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erinnerte, daß die Nationalbank im § 4 des Übereinkommens vom <date when="1862-12-27">27. Dezember 1862</date>
+                     <note type="footnote" n="24">Die sog. Bankakte, <bibl type="archival">RGBL. Nr. 2/1863</bibl>.</note> die bedingte Zusicherung einer jährlichen Pauschalsumme von einer Million Gulden für das Darlehen von 80 Millionen Gulden Banknoten erhalten habe, der Bank jedoch, um sie zur Eingehung des Übereinkommens zu bestimmen, die Zusicherung gemacht worden sei, sobald sie es verlangt, eine Regierungsvorlage an den Reichsrat zu machen, zu dem Zwecke, diese bedingte Verzinsung in eine unbedingte zu verwandeln<note type="footnote" n="25">Diese Zusicherung hatte Plener in der Schlußphase der Verhandlungen mit der Note v. <date when="1862-12-26">26. 12. 1862</date> gemacht, siehe <ref type="protocol-link" target="MRP-1-5-05-0-18621226-P-0304.xml">MR. v. <date when="1862-12-26"/>26. 12. 1862</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z304" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z304.pdf" target="MRP-1-5-05-0-18621226-P-0304.xml">ÖMR. V/5, Nr. 304</ref>
+                        </bibl>, Anm. 3 und Anm. 6, um die Bank zur Annahme des Vertragswerkes zu bewegen.</note>. Die Verhältnisse haben es aber der Bankdirektion bisher nicht wünschenswert gemacht, diese Umwandlung in Anspruch zu nehmen, und der Gouverneur hat sich dadurch bereits im verflossenen Jahre zur Bitte an den Finanzminister veranlaßt [gesehen], die Angelegenheit zu vertagen, mit dem Beisatz, die Regierung wolle die Erklärung abgeben, daß es demungeachtet bei der obigen Zusage verbleibe. Gemäß Ministerratsbeschlusses vom 27. Julius 1863 wurde hierauf dem Bankgouverneur eröffnet, daß die von der Regierung gegebene Zusage der Befürwortung einer unbedingten statt der bedingten Verzinsung bei dem Reichsrate dadurch, daß die Sache erst in der nächsten Reichsratssession vorgenommen wird, keineswegs alteriert oder behoben werde<note type="footnote" n="26">
+                        <ref type="protocol-link" target="MRP-1-5-06-0-18630727-P-0378.xml#top_5_6_378_3">MR. v. <date when="1863-07-27">27. 7. 1863</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z378" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z378.pdf" target="MRP-1-5-06-0-18630727-P-0378.xml">ÖMR. V/6, Nr. 378</ref>
+                        </bibl>.</note>. Nunmehr hat die Bankdirektion vorsichtsweise dasselbe Petitum mit dem gleichen Vorbehalt für die nächste Reichsratssession <pb n="11" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s11.pdf"/>1865 erneuert, und der Finanzminister glaube, daß dasselbe auch in gleicher Weise wie das frühere beantwortet werden dürfte.</p>
+                  <p>Der Ministerrat war hiemit einverstanden<note type="footnote" n="27">Der Notenwechsel <bibl type="archival">FA., FM., Präs. 5822/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_517_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Einkommensteuer der Niederösterreichischen Escompte-Gesellschaft</head>
+                  <p>Der Ministerrat hat unterm <date when="1864-09-19">19. September 1864</date>
+                     <note type="footnote" n="28">Tagesordnungspunkt III, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z491" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z491.pdf" target="MRP-1-5-08-0-18640919-P-0491.xml">ÖMR. V/8, Nr. 491</ref>
+                        </bibl>.</note> über Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi> beschlossen, daß die Wiener<ref xml:id="fn_5_9_517_d"/>
+                     <note type="variant" n="d" target="#fn_5_9_517_d">D. h. die in Wien residierende Niederösterreichische.</note> Escompte-Gesellschaft, ungeachtet ihrer Einsprüche, zu verhalten sei, die Einkommensteuer für die im Jahre 1864 und in den folgenden [Jahren] bei ihr auf laufende Rechnung verzinslich erlegten Geldbeträge zu bezahlen. Bei Bekanntgebung dieses Beschlusses habe Edler v. Plener jedoch die Geneigtheit ausgesprochen, der Anstalt in bezug auf diese Zahlungen die tunlichen Erleichterungen zuzuwenden, und beigefügt, er sei bereit, ihre diesfälligen Wünsche entgegenzunehmen. Statt aber dieser Aufforderung nachzukommen, hat jedoch die Eskompteanstalt mit einer auffallenden Hartnäckigkeit ihr früheres Begehren um fortgesetzte Einkommensteuer­befreiung einfach erneuert<note type="footnote" n="29">
+                        <bibl type="archival">FA., FM., Präs. 6071/1864</bibl>.</note>. Der Finanzminister ist nun des Erachtens, daß einer so weit getriebenen Renitenz nicht ferner nachzugeben, sondern <ref xml:id="fn_5_9_517_e">daß die neuerliche Eingabe der Anstalt unbedingt ab[zuweisen] und auf den früheren Ministerratsbeschluß und dessen erfolgte Intimation zu verweisen,</ref>
+                     <note type="variant" n="e" target="#fn_5_9_517_e">Einfügung e–e Pleners.</note> der Eskomptebank aber zur Erstattung der von ihr verlangten Äußerung ein peremtorischer Termin von 14 Tagen festzusetzen wäre, nach dessen erfolglosem Ablaufe die gesetzlichen Schritte zur Einbringung der Steuer einzutreten hätten.</p>
+                  <p>Der Ministerrat fand dagegen nichts zu erinnern<note type="footnote" n="30">Die Antwortnote Pleners <quote>ebd.</quote>; eine Denkschrift zum Thema <quote>ebd., Präs. 801/1864</quote>. Eine allgemeine, nicht nur die Niederösterreichische Escompte-Gesellschaft betreffende Regelung erfolgte im März 1866, <bibl type="archival">FA., FM., Präs. 5873/1865 und Präs. 1334/1866</bibl>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 636/1866</bibl>, <ref type="protocol-link" target="MRP-1-6-01-0-18660310-P-0054.xml#top_6_1_54_1">MR. v. <date when="1866-03-10">10. 3. 1866</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b1-z54" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b1/pdf/a6-b1-z54.pdf" target="MRP-1-6-01-0-18660310-P-0054.xml">ÖMR. VI/1, Nr. 54</ref>
+                        </bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-12-13">13. Dezember 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1864-12-31">31. Dezember 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-12-31">31. Dezember 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

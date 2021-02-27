@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="015">Sitzung 15</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-19"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z15.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">325</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-19"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Taaffe, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (20. 4.), Franz Karl (21. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-20">20. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-21">21. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_15_1">Konsolidierungsverhandlungen bezüglich der Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_15_2">Eigenes Siegel für den Ministerrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_15_3">Behandlung geringfügiger Angelegenheiten durch den Kaiser</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_15_4">Rücktritt des Justizministers Graf Ludwig Taaffe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_15_5">Bestellung Karl Ludwig Graf Ficquelmonts zum provisorischen Ministerpräsidenten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_15_6">Interimistische Führung des Justizministeriums durch Baron Franz Sommaruga</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_15_7">Angestrebte Kontrolle des ungarischen Ministeriums über das Militär</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_15_8">Verlegung zweier nichtslawischer Regimenter aus Galizien nach Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_15_9">Errichtung der Nationalgarde unter dem galizischen Landvolk</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_15_10">Ansuchen der Triester Territorialmiliz; Säbeltragen für Offiziere bei der deutschen Infanterie</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_15_11">Ag. Wohlgefallen über das Verhalten Peter Joseph Freiherrn v. Eichhoffs und Baron Karl Kübecks</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480419-P-0015" ana="a1-1848_z15">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z15.pdf">
+               <title type="num">Nr. 15</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-19">19. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (20. 4.), Franz Karl (21. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">325</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des Ministerrates vom <date when="1848-04-19">19. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_15_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Konsolidierungsverhandlungen bezüglich der Nationalbank</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr</rs>
+                     </hi> v. Krauß brachte mit Beziehung auf die in einem früheren Protokolle<note type="footnote" n="1">Siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480416-P-0013.xml#top_1_1_13_1">MR. v. <date when="1848-04-16">16. 4. 1848</date>/I</ref>.</note> bereits besprochene Konsolidierung der Nationalbank (zu welchem Behufe derselben eine Hypothek von 30 Millionen Gulden auf die Saline Gmunden bestellt wurde) zur Kenntnis des Ministerrates, daß von Seite der Bank in Ansehung des Betrages dieser Sicherstellung einige Anstände erhoben werden<note type="footnote" n="2">Siehe ebd., Anm. 2.</note>.</p>
+                  <p>Die Bank findet nämlich, daß eine Sicherstellung von 30 Millionen in diesem Falle für die öffentliche Meinung zu wenig sei. Der Staat sei der Bank beinahe 60 Millionen schuldig und davon seien nur 30 Millionen gedeckt, eine größere Deckung erscheine daher notwendig.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erkennet darin nur einen Vorwand, eine größere Hypothek zu erlangen.</p>
+                  <p>Er bemerkt, mit dem Minister des Inneren sich darüber besprochen zu haben, und dieser habe es als ratsam erklärt, alles, was möglich ist, zur Beruhigung der Bank zu tun.</p>
+                  <p>Die Bank spricht über die bereits erhaltene Hypothek noch eine weitere von mindestens 18 Millionen an. Durch diese Begünstigung würde sie den auf sie eindrängenden Bedürfnissen zu genügen imstande sein, während sie es sonst nicht vermöchte. Eine Verbindlichkeit, diesem Ansinnen der Bank zu entsprechen, besteht, wie der Finanzminister bemerkt, nicht.</p>
+                  <p>Die von der Bank itzt angesprochenen 18 Millionen sind gerade dasjenige, was von dem Werte der Saline Gmunden nach Abschlag der bereits davon hypothezierten 60 Millionen übrig bleibt. (Der Ertrag dieser Saline ist auf jährlich 3,900.000 fl. angeschlagen, was zu 5% einen Kapitalswert von 78 Millionen darstellt.) Diesen ganzen Rest von 18 Millionen der Bank zu bewilligen, ginge wohl nicht an; man muß alles vermeiden, was die öffentliche Meinung beleidigen könnte, und dies letztere wäre <pb n="83" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s83.pdf"/>unstreitig der Fall, wenigstens bei den Gegnern der Bank, deren sie viele im Publikum hat, wenn man ihr die ganzen Saline hingeben würde.</p>
+                  <p>Etwas muß indessen für die Bank noch getan werden, und es kann auch füglich und ohne Nachteil für dieselbe noch etwas geschehen, weil alles, was der Bank auf dem Grunde der erhaltenen Hypothek eingezahlt wird, an der Hypothek abzufallen hat, und weil die Bestätigung der erwähnten Hypothezierung von Seite der Reichsstände vorbehalten wurde. Sollte diese verweigert werden, so will die Bank die erhaltenen Sekuritäten an den Staat wieder zurückgeben. Das Ministerium stehe in einer Verfassung da, diesen Vorgang vor dem Reichstage rechtfertigen zu können; es hat das Pfand nicht auf immerwährende Zeit, sondern nur bis zum nächsten Reichstage gegeben, wo dann dieser Gegenstand neuerdings in Erwägung gezogen werden kann. In Ansehung der Vermehrung der in der Rede stehenden Hypothek von 30 Millionen Gulden ist auch von den Reichsständen nicht leicht eine Einwendung zu besorgen, weil die gegenwärtigen Umstände es dringend notwendig machen, den Stand der Bank zu konsolidieren und alles aufzubieten, um Einstellung der Zahlungen bei derselben auf alle tunliche Weise zu verhüten.</p>
+                  <p>Der Finanzminister meinte daher, daß der Bank noch 15 Millionen zu bewilligen, d. i. die derselben auf die Saline Gmunden bereits gegebene Hypothek von 30 Millionen, auf 45 Millionen zu erhöhen wäre, und setzte die Vorteile auseinander, welche mit diesem Vorgange verbunden wären.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden, auf welchem Grunde der Finanzminister sogleich ex consilio das diesfalls Nötige verfügt hat.</p>
+                  <p>Was die Formfrage anbelangt, ob diese 15 Millionen der Bank als ein besonderes Zugeständnis zu bewilligen oder gleich in den Vertrag wegen der gewährten Hypothek von 30 Millionen aufzunehmen wäre, erklärte man sich einstimmig für das letztere, weil dadurch das Geschäft vereinfacht und das Ministerium vor den künftigen Reichsständen statt zweier nur einen Akt nötigenfalls zu rechtfertigen haben würde<note type="footnote" n="3">Der Vertrag zwischen der Oesterreichischen Nationalbank und dem Finanzministerium wurde nach den im Ministerrat beschlossenen Modalitäten am <date when="1848-04-20">20. 4. 1848</date> unterzeichnet, <bibl type="archival">FA., PP. 3565/1848</bibl>. Siehe dazu <bibl type="secondary">
+                           <author>Pressburger</author>, Noteninstitut I/1, 244f</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Eigenes Siegel für den Ministerrat</head>
+                  <p>Hierauf kam die Notwendigkeit der Anschaffung eines eigenen Siegels für den Ministerrat Ew. Majestät zur Sprache, zu dessen Bewerkstelligung sogleich von dem Ministerrate das Erforderliche angeordnet wurde<note type="footnote" n="4">Unter den Beständen des <quote>HHSTA., Kab. Kanzlei</quote>, konnte eine entsprechende Anordnung nicht gefunden werden. Auch in der Siegelsammlung des <quote>HHSTA</quote>. findet sich weder ein Ministerratssiegel noch ein Hinweis auf dessen Ausfertigung.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Behandlung geringfügiger Angelegenheiten durch den Kaiser</head>
+                  <p>Ferner wurde bemerkt, daß, um einerseits den vielbeschäftigten Ministerrat nicht mit geringfügigen Geschäftsstücken zu sehr in Anspruch zu nehmen und andererseits keine Geschäftsstockung zu verursachen, es angemessen, ja notwendig sein dürfte, solche geringfügige Angelegenheiten, mindere Gnadensachen u. dgl., deren täglich mehrere von den verschiedenen Ministern Ew. Majestät vorgelegt werden, nach vorläufiger Bearbeitung im Ministerpräsidialbureau gleich unmittelbar zur Approbation des Ministerpräsidenten vorzulegen.</p>
+                  <p>
+                     <pb n="84" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s84.pdf"/>In solchen Fällen dürfte die übereinstimmende Ansicht und der gleichförmige Antrag zweier Minister zur Beruhigung Ew. Majestät als vollkommen genügend erkannt und die Vorlegung mehrerer Akten mit einem einzigen Umschlags- und Abstimmungsbogen versehen behufs der Ah. Genehmigung der darin enthaltenen Gegenstände veranstaltet werden.</p>
+                  <p>Ein solches Verfahren wurde für die Zukunft als Norm festgesetzt<note type="footnote" n="5">Dieser Beschluß des Ministerrates wurde sogleich in die Tat umgesetzt; siehe dazu den Sammelvortrag Ficquelmonts v. <date when="1848-04-22">22. 4. 1848</date>, in dem er zehn, von verschiedenen Ministern eingereichte, Vorträge zur Ah. Genehmigung vorlegte, <bibl type="archival">HHHTA., Kab. Kanzlei, MRZ 322/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Rücktritt des Justizministers Graf Ludwig Taaffe</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister Graf Taaffe</rs>
+                     </hi> nahm für eine seine Stellung zum Ministerrate berührende Angelegenheit die Aufmerksamkeit in Anspruch.</p>
+                  <p>Als er nämlich das ihm von der Ah. Gnade anvertraute Amt eines Justizministers übernahm<note type="footnote" n="6">Taaffe war mit Ah. Handschreiben v. <date when="1848-03-20">20. 3. 1848</date> zum Justizminister bestellt worden, <quote>ebd., MRZ. 126/1848</quote>.</note>, hielt er sich für mutig genug, die Beschwerden und Angriffe, die ihn erwarteten, durch längere Zeit zu besiegen. Allein seine in der letzten Zeit herabgesunkene Gesundheit setzt ihn außer Stande, die fortgesetzten Verunglimpfungen der Presse<note type="footnote" n="7">Taaffe war hauptsächlich wegen des Preßgesetzes durch die Zeitungen kritisiert worden, vgl. <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480410">Die Constitution</ref>
+                           </title> v. <date when="1848-04-10">10. 4. 1848</date>
+                        </bibl>; <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480408">Oesterreichische Zeitung</ref>
+                           </title> v. <date when="1848-04-08">8. 4. 1848</date>
+                        </bibl>. Heftig angegriffen wurde er auch von der Nationalgarde, siehe ihre Petition v. <date when="1848-04-14">14. 4. 1848</date>, abgedruckt in <bibl type="secondary">
+                           <author>Peyer</author>, Wiener-Chronik 75</bibl>.</note> und die Störung durch Gassentumulte fernerhin zu ertragen. So habe er die verflossene Nacht um 12 Uhr in seiner Wohnung das Stürmen des Haustores, das Einwerfen der Fenster und eine Katzenmusik bestehen müssen<note type="footnote" n="8">Siehe dazu <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 1, 453</bibl>.</note>, was für seine Familie noch mehr als für ihn betrübend gewesen sei. Daher habe er Sr. Majestät das mündliche Ansuchen gemacht, die Ministerstelle niederlegen zu dürfen. Bis zur Bestimmung des Nachfolgers in Departement sei er zwar bereit, die Geschäfte fortzuführen und selbst an der heutigen Beratung teilzunehmen, allein er müsse doch dringend um die Abnahme des Departements, wäre es auch nur interimal, wozu vielleicht der Minister des Unterrichtes sich herbeilassen würde, bitten, umso mehr, als er auch von einer sich nennenden ständischen Deputation beleidigende Zumutungen erfahren habe<note type="footnote" n="9">Vor dieser Deputation, die aus Mitgliedern aus neun Kronländern bestand, hielt Taaffe eine sehr lange und provokant konservative Rede, worauf einige Deputierte noch während seiner Ausführungen den Raum verließen, <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480419">Die Constitution</ref>
+                           </title> v. <date when="1848-04-19">19. 4. 1848</date>
+                        </bibl>.</note>. Se. Majestät hätten ihm erlaubt und aufgetragen, im Ministerrate einen Vorschlag für seinen Nachfolger zu machen, was er durch die Bezeichnung des Baron Sommaruga<note type="footnote" n="10">Zu Franz Vincenz Emanuel Freiherr v. Sommaruga siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 35, 276–286</bibl>.</note> und des Vizepräsidenten Baron Gärtner<note type="footnote" n="11">Zu Conrad Freiherr v. Gärtner siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 5, 52</bibl>.</note> in Erfüllung brächte. Sein Entschluß, gegen dessen Vollziehung die Mitglieder des Ministerrates Vorstellungen machten, sei nicht mehr zurückzunehmen, da er bereits die Wiener Abendzeitung, die öffentliche Mitteilung zu machen, veranlaßt habe<note type="footnote" n="12">Tatsächlich erschien in der Abend-Beilage zur <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18480419">Wiener Zeitung</ref>
+                           </title> v. <date when="1848-04-19">19. 4. 1848</date>
+                        </bibl> eine kurze Mitteilung über Taaffes Rücktritt, und noch einmal derselbe Text in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18480420">Wiener Zeitung</ref>
+                           </title> v. <date when="1848-04-20">20. 4. 1848</date>
+                        </bibl>.</note>. So schmerzhaft ihm das Scheiden aus dem Ministerrate, zu dessen <pb n="85" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s85.pdf"/>Mitgliedern er in den angenehmsten persönlichen Beziehung steht, fallet, so tröste ihn doch der Gedanke, daß das Ministerium hierdurch an Festigkeit gewinnen und für die öffentlichen Interessen noch wohltätiger wirken werde.</p>
+                  <p>Der Ministerrat bedauerte, daß die Resignation unwiderruflich ausgesprochen sei, und bemerkte, daß eigentlich die Bekanntmachung erst dann hätte erfolgen sollen, wenn sie dem Ministerrate schon mitgeteilt worden wäre, damit kein Intervall des einzelnen Ministerdepartementsvorstehers vorkomme. Die eigentliche Formalisierung des Rücktrittes könne doch nur über eine vom Ministerium kontrasignierte Ah. Anordnung stattfinden. Diesem zu entsprechen, wird nach dem Wunsche des Grafen Taaffe die gegenwärtige Erklärung zur Grundlage eines seine Enthebung aussprechenden Ah. Beschlusses genommen werden<note type="footnote" n="13">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_2">MR. v. <date when="1848-04-20">20. 4. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Bestellung Karl Ludwig Graf Ficquelmonts zum provisorischen Ministerpräsidenten</head>
+                  <p>Selbst die Intimation von der definitiven Enthebung des provisorischen Ministerpräsidenten Grafen Kolowrat<note type="footnote" n="14">Kolowrat war auf seinen Vortrag v. <date when="1848-04-17">17. 4. 1848</date> mit Kabinettschreiben v. <date when="1848-04-18">18. 4. 1848</date> vom Posten des provisorischen Präsidenten des Ministerrates definitiv enthoben worden, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 344/1848</bibl>.</note> lasse noch etwas in formeller Hinsicht zu wünschen übrig, nämlich die ausdrückliche Bestellung des gegenwärtigen interimistischen Ministerpräsidenten Grafen v. Ficquelmont zum provisorischen Ministerpräsidenten; denn ohne diesen Ausspruch könnte das Ministerium als inkomplett betrachtet werden. Deshalb werden Ew. Majestät auch gebeten, alsbald den Ausspruch wegen des provisorischen Ministerpräsidenten Ag. zu tun<note type="footnote" n="15">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_1">MR. v. <date when="1848-04-20">20. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Interimistische Führung des Justizministeriums durch Baron Franz Sommaruga</head>
+                  <p>Was die Versehung des Portefeuilles der Justiz betrifft, so wird ad interim es allerdings der Minister des Unterrichtes übernehmen, allein baldigst wird diesfalls eine definitive Vorsehung zu treffen sein. – Geruhen demnach Ew. Majestät diesfalls baldigst die Ag. Willensmeinung zu erkennen zu geben<note type="footnote" n="16">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_2">MR. v. <date when="1848-04-20">20. 4. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Angestrebte Kontrolle des ungarischen Ministeriums über das Militär</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> bringt die dringende Erledigung seines Vortrages vom <date when="1848-04-17">17. April 1848</date>, Z. 1441<note type="footnote" n="17">
+                        <bibl type="archival">KA., HKR., KM., Präs. 794/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 236/1848</bibl>.</note>, zur Sprache, in betreff dessen man sich dahin einigte, derzeit sich zu bestreben, das ungarische Ministerium bei seinen Verfügungen in Absicht auf das Militär in jene Richtung zu bringen, in welcher sich früher bereits die Statthalterschaft befand, daß nämlich die eigentlichen militärischen Verfügungen wohl im Vernehmen mit der Zivilbehörde, nicht aber von ihr, sondern von dem Militärgeneralkommando ausgehen. Es ist zu hoffen, daß durch viel vorsichtigeres Benehmen den Übergriffen des Ministeriums vorgebeugt und die militärischen Interessen unbeirrt erhalten werden<note type="footnote" n="18">Mit Ah. E. v. <date when="1848-04-27">27. 4. 1848</date> auf den in Anm. 17 zit. Vortrag verfügte der Kaiser, das Kriegsministerium solle die gleiche Haltung gegenüber dem neuen ungarischen Ministerium einnehmen, wie früher die ungarische Hofkanzlei und die Statthalterei. Weiters wies Ferdinand Zanini an: <quote>Es wird den Gegenstand Ihrer besonderen Aufmerksamkeit und Umsicht bilden, diesfalls unter möglichster Vermeidung von Konflikten das dem Militärdienste förderlichste Verfahren für die Behandlung der Militärangelegenheiten in Ungarn auszumitteln und festzustellen</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Verlegung zweier nichtslawischer Regimenter aus Galizien nach Ungarn</head>
+                  <p>Über das Ansinnen des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">ungarischen Ministers Fürsten Esterházy</rs>
+                     </hi>, zwei Regimenter, jedoch nichtslawischer Zunge, aus Galizien nach den ungarischen Karpaten zu beordern<note type="footnote" n="19">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480416-P-0013.xml#top_1_1_13_10">MR. v. <date when="1848-04-16">16. 4. 1848</date>/X</ref>.</note>, bemerkt der Kriegsminister, daß diesfalls die Lage Galiziens große Hindernisse in den Weg lege. – Höchstens könnten vier Eskadrons von König von Preußen Husaren nach Ungarn verlegt werden, um hierdurch wenigstens die Bereitwilligkeit zu zeigen, dem Wunsche nach Kräften zu entsprechen, womit der Ministerrat einverstanden war<note type="footnote" n="20">Auf den Vortrag Zaninis v. <date when="1848-04-16">16. 4. 1848</date> bewilligte der Kaiser diesen Vorschlag mit Ah. E. v. <date when="1848-04-22">22. 4. 1848</date>. <bibl type="archival">KA., HKR., KM., Präs. 574/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 268/1848</bibl>. Zur Transferierung der Truppen siehe <bibl type="archival">KA., HKR., KM., Präs. 603/1848 und Präs. 829/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Errichtung der Nationalgarde unter dem galizischen Landvolk</head>
+                  <p>Ferner brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> dasjenige zur Kenntnis, was er wegen zweckmäßiger Errichtung und Bildung der Nationalgarde unter dem Landvolke Galiziens veranlaßt habe<note type="footnote" n="21">Siehe seinen Befehl (K.) an Hammerstein v. <date when="1848-04-18">18. 4. 1848</date>. <quote>ebd., Präs. 404/1848</quote>. Pillersdorf hatte mit Schreiben v. <date when="1848-04-08">8. 4. 1848</date> Stadion das provisorische Nationalgardeorganisationsgesetz mitgeteilt, <bibl type="archival">ZDIAUL., StH., Präs. 5059/1848</bibl>. Stadion hatte bereits mit Schreiben (K.) v. <date when="1848-04-05">5. 4. 1848</date> Graf Josef Zaluski das Oberkommando der Nationalgarde in Galizien übertragen, <quote>ebd. Präs. 3768/1848</quote>. Siehe dazu auch das gedruckte Kreisschreiben des galizischen Landesguberniums bezüglich der Errichtung und Organisierung der Nationalgarde, <quote>ebd., fol. 83 f</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Ansuchen der Triester Territorialmiliz; Säbeltragen für Offiziere bei der deutschen Infanterie</head>
+                  <p>Endlich brachte derselbe Minister mit seinen beiden au. Vorträgen vom 18./<date>19. April d. J.</date>, ZZ. 1457 und 1458, a) das patriotische Anerbieten der Triester Territorialmiliz, gegen den Feind dienen zu wollen, mit der Bitte zur Ah. Kenntnis, Ag. genehmigen zu wollen, daß das Offizierskorps dieser Miliz das Port d’Epée und die Feldbinde gleich der Armee tragen dürfe, und b) daß die Tragung des Säbels nach dem allgemeinen Muster für die Offiziers auch bei der deutschen Infanterie eingeführt werde.</p>
+                  <p>Mit beiden Anträgen erklärte sich der Ministerrat einverstanden. Die Erledigungsentwürfe befinden sich bei den oberwähnten Geschäftszahlen<note type="footnote" n="22">Die Anträge Zaninis wurden mit Ah. E. v. <date when="1848-04-22">22. 4. 1848</date> vom Kaiser bewilligt, ad a) <bibl type="archival">KA., HKR., KM., Präs. 573/1848</bibl>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 264/1848</bibl>; ad b) <quote>ebd., MRZ. 267/1848</quote>, und <bibl type="archival">KA., HKR., KM., Präs. 572/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_15_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Ag. Wohlgefallen über das Verhalten Peter Joseph Freiherrn v. Eichhoffs und Baron Karl Kübecks</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> stellte schließlich den Antrag, Ew. Majestät wollen sich Ag. bestimmt finden lassen, den beiden gewesenen Hofkammerpräsidenten Baron Eichhoff und Baron Kübeck, von denen der erstere laut KZ. 1415/1848<note type="footnote" n="23">Vortrag Krauß’ v. <date when="1848-04-15">15. 4. 1848</date>. <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 206/1848</bibl>.</note> auf seinen Ruhegenuß von 16.000 fl. verzichtet und der letztere laut KZ. 1426/1848<note type="footnote" n="24">Eingabe Kübecks v. <date when="1848-04-12">12. 4. 1848</date>, <quote>ebd., MRZ. 228/1848</quote>.</note> die ihm mit Ah. Kabinettschreiben vom <date when="1847-07-03">3. Juli 1847</date>
+                     <note type="footnote" n="25">
+                        <quote>Ebd., MKA., MZ. 1253/1847</quote>.</note> Ag. überlassene Realität „der Bankostadel“<note type="footnote" n="26">Es handelte sich um einen Gartengrund mit ebenerdigen Gebäuden und einen Stadel, der dem jeweiligen Hofkammerpräsidenten zur Benützung freistand, <quote>ebd</quote>.</note> in der Weißgärber-Vorstadt zu Wien zurücklegt, für diesen ihren patriotischen Sinn das Ag. Wohlgefallen zu erkennen zu geben, womit sich der Ministerrat einverstanden erklärte<note type="footnote" n="27">Die beiden in Anm. 23 und 24 zit. Eingaben wurden mit Ah. E. v. <date when="1848-04-22">22. 4. 1848</date> resolviert und mit Kabinettschreiben vom selben Tag an die beiden ehemaligen Hofkammerpräsidenten beantwortet.</note>.</p>
+                  <p>
+                     <pb n="87" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s87.pdf"/>Die diesfälligen Erledigungsentwürfe befinden sich bei den betreffenden Kabinettszahlen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-20">20. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 21. April. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

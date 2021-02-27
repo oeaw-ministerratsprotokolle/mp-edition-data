@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="477">Sitzung 477</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-06-04"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z477.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1281</idno>
+                  <idno type="KZ">1862</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-06-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Schmerling 4. 6.), Rechberg, Nádasdy, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck (BdE. FML. Schmerling), Zichy 17. 6., Reichenstein 19. 6.; außerdem anw. Geringer; abw. Mecséry; BdR. Rechberg 28. 6.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-06-04">1864-06-04</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+                  <note>BdE. FML. Schmerling</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-06-17">17. 6.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-06-19">19. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_477_1">Gesuch der Brüder Riche um die Konzession zum Bau und Betrieb einer Eisenbahn von Kaschau nach Oderberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_477_2">Gesetzentwurf betreffend die Sanktionierung und Kundmachung der Landtagsartikel in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_477_3">Gesetzentwurf über die Abänderungen in der politischen Einteilung Siebenbürgens</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV</num>
+                  </label>
+                  <ref target="#top_5_8_477_4">Gesetzentwurf über die Organisation der politischen Verwaltung in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_477_5">Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz in Siebenbürgen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640604-P-0477" ana="a5-b8-z477">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z477.pdf">
+               <title type="num">Nr. 477</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-06-04">4. Juni 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Schmerling 4. 6.), Rechberg, Nádasdy, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> FML. Schmerling), Zichy 17. 6., Reichenstein 19. 6.; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Geringer; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Mecséry; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Rechberg 28. 6.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1281</idno>
+                  <idno type="KZ">1862</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-06-04">4. Juni 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herren Erzherzoges Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_8_477_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Gesuch der Brüder Riche um die Konzession zum Bau und Betrieb einer Eisenbahn von Kaschau nach Oderberg</head>
+                  <p>Über die von dem Leiter des Handelsministeriums Baron Kalchberg an Se. k. k. Hoheit den durchlauchtigsten Erzherzog Rainer gestellte Bitte, daß der au. Vortrag des Handelsministeriums vom 28. Jänner l. J., Z. 1480, betreffend das Gesuch der Gebrüder Riche um Verleihung der Konzession zum Baue und Betriebe einer Lokomotiveisenbahn von Kaschau über Sillein nach Oderberg im Ministerrate zur Beratung gelange, fanden Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. Hoheit</rs>
+                     </hi> der Konferenz zu eröffnen, daß es zur Förderung dieser Angelegenheit am besten sein werde, wenn dieselbe vorerst in einem engeren Ministerkomitee, wie es bei der Siebenbürgerbahn der Fall war, beraten werde, und welches Komitee aus dem Staatsminister, dem Finanzminister, Minister Ritter v. Lasser, [dem] ungarischen Hofkanzler und Baron Kalchberg zu bestehen hätte.</p>
+                  <p>Die Konferenz nahm diese Verfügung zur Kenntnis<note type="footnote" n="1">Zum Ergebnis der Komiteeberatung siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640812-P-0485.xml#top_5_8_485_3">MR. v. <date when="1864-08-12">12. 8. 1864</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_477_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gesetzentwurf betreffend die Sanktionierung und Kundmachung der Landtagsartikel in Siebenbürgen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte den au. Vortrag der siebenbürgischen Hofkanzlei vom 25. v. M., Z. 418, womit der Gesetzentwurf betreffend die Sanktionierung und Kundmachung der Landtagsartikel für das Großfürstentum Siebenbürgen<ref xml:id="fn_5_8_477_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_477_a">Liegt dem Originalprotokoll im Druck bei.</note> mit der Bitte vorgelegt wird, denselben als Regierungsvorlage beim Landtage einbringen zu dürfen<note type="footnote" n="2">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f. Vortrag v. <date when="1864-05-25">25. 5. 1864</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 418/1864</bibl> (K.), und <quote>Z. 2756/1864</quote> (R.); Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 490/1864</bibl>.</note>.</p>
+                  <p>Nachdem Referent die von der Hofkanzlei in dem au. Vortrage entwickelten Motive zu diesem Gesetze im wesentlichen berührte und den Inhalt des vorliegenden Entwurfes vorgelesen hatte, bemerkte er, daß der Staatsrat gegen den Zweck und die Wesenheit des Gesetzes nichts zu erinnern hatte. Was aber die Textierung desselben betrifft, so haben sich gegen dieselbe einige Bedenken ergeben. Zunächst halte man die Bestimmung des § 1 für etwas ganz Überflüssiges, weil dieselbe keine Abänderung der bezüglich der Ah. Sanktion bisher bestandenen Gesetze und Gepflogenheiten enthalte, <pb n="21" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s21.pdf"/>wie es doch nach dem Wortlaute des Einganges dieses Entwurfes vorausgesetzt werden müßte. Ferner wird beanständet, daß sich in diesem Entwurfe einmal des Wortes Bestätigung, das andere Mal des Wortes Zustimmung und endlich des Wortes Sanktion bedient wird, was dazu führen dürfte, daß zwischen Zustimmung und Sanktion ein Unterschied sei, während alle diese Worte doch nur das Nämliche bedeuten sollen. Allerdings habe bisher in Siebenbürgen die Ah. Bestätigung eines Gesetzartikels der Ah. Sanktion desselben vorauszugehen gehabt, aber dieser Unterschied solle ja eben aufgehoben werden. Der Staatsrat beantrage daher, den § 1 ganz hinwegzulassen und den § 3 dahin zu textieren: „Erteilt Se. k. k. apost. Majestät dem vorgelegten Artikel die Bestätigung, so erlangt derselbe dadurch sogleich Gesetzeskraft und es erfolgt sofort auch die Mitteilung desselben an den Landtag.“ Den zweiten Absatz des § 3 halte man aber jedenfalls für unstatthaft, weil Se. Majestät durchaus nicht gehalten werden könne, in allen Fällen den nicht bestätigten Artikelsentwurf zur weitern Verhandlung an den Landtag zurückzuleiten. Es können Fälle eintreten, wo es ratsam erscheint, einen vorgelegten Gesetzentwurf zwar nicht zu genehmigen, aber dem Landtage darüber gar keine Eröffnung zu machen, so wie es wieder andere Fälle geben könne, wo die Regierung einen Antrag ganz ablehnt und dieses dem Landtage bekannt macht, wo dann eine weitere Verhandlung darüber im Landtage unstatthaft sei, während sie in diesen Fällen nach der vorliegenden Textierung doch statthaben müßte. Nur wenn die Regierung geneigt ist, den Entwurf mit Modifikationen anzunehmen, könne eine weitere Verhandlung im Landtage darüber eingeleitet werden. Der Regierung müsse also für diese Fälle freie Hand gelassen werden, was nur damit zu erreichen sei, wenn hier der zweite Absatz ganz hinweggelassen werde.</p>
+                  <p>Bei der Erörterung hierüber bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Vizehofkanzler Baron Reichenstein</rs>
+                     </hi> vorerst, daß die Bestätigung und Sanktion nach der bisherigen Gepflogenheit in Siebenbürgen zwei verschiedene Sachen waren. Zuerst sei nämlich der vom Landtage beschlossene Gesetzentwurf dem Landesfürsten zur Bestätigung (Konfirmation) vorgelegt worden, sodann, wenn die erbetene Bestätigung erfolgt, an den Landtag zurückgesendet und dort in Verhandlung genommen worden und dann erst in der üblichen Form von Gesetzartikel mittelst einer neuerlichen au. Repräsentation dem Landesfürsten zur Sanktion unterbreitet worden. Der vorgelegte Gesetzentwurf konnte entweder die erbetene Bestätigung anstandslos erhalten, oder mit Modifikationen, oder endlich ganz abgelehnt werden. In allen Fällen mußte aber derselbe wieder zur Verhandlung an den Landtag zurückgeleitet werden. Dieses sei allerdings ein hemmender Umzug gewesen, und die Hofkanzlei beabsichtige mit dem vorliegenden Gesetzentwurfe hauptsächlich die Verbesserung, daß, wenn ein vorgelegter Artikelsentwurf in terminis die Ah. Bestätigung erlangt, derselbe nicht mehr wie früher an den Landtag zur Verhandlung zurückgeleitet werde, sondern sofort die Ah. Sanktion desselben erfolge. Nur wenn der vorgelegte Artikel in der vom Landtage vorgeschlagenen Fassung die Ah. Zustimmung nicht erhalte, solle derselbe zu weitern Verhandlung an den Landtag zurückgeleitet werden. Noch weiter zu gehen und wie der Staatsrat meint, diesen Unterschied hier nicht zu machen, sondern in dem Entwurfe statt der Bestätigung gleich die Sanktion hervorzuheben, könnte er nicht befürworten, zumal dies zu stark gegen den bisherigen Usus verstoßen würde. Betreffend die Textierungsanträge des Staatsrates, so glaubte Baron Reichenstein der Streichung des § 1, obwohl er gerade nichts Überflüssiges darin <pb n="22" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s22.pdf"/>erblicke, nicht entgegentreten, dagegen aber bezüglich des ersten Absatzes des § 3 auf dem Antrage allenfalls mit der Modifikation beharren zu sollen, daß statt des Wortes „Zustimmung“ das Wort „Bestätigung“ gesetzt werde. Belangend jedoch den zweiten Absatz, so könnte er sich mit der beantragten Weglassung desselben nur dann einverstehen, wenn hinter dem Worte „Artikel“ der Satz „in der von dem Landtage vorgeschlagenen Fassung“ eingeschaltet werde. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erinnerte, daß mit diesem Vorschlage die gegen den zweiten Absatz erhobenen Bedenken nicht beseitigt sein dürften, und es entspann sich bezüglich dieses Punktes eine längere Diskussion, nach welcher sich die Konferenz im ganzen dahin einigte, daß der § 1 des Entwurfes wegzulassen, daß überall nur der eine Ausdruck „Sanktion“ zu gebrauchen sei, daß der § 3 die in der Beilage ersichtlich gemachte Fassung erhalte<note type="footnote" n="3">Sie lautete: <quote>Erteilt Se. k. k. apost. Majestät dem vorgelegten Artikel in der von dem Landtage vorgeschlagenen Fassung die Sanktion, so erlangt derselbe dadurch die Gesetzeskraft und erfolgt sofort auch die Mitteilung derselben an den Landtag.</quote>
+                     </note> und endlich daß in den §§ 5 und 6 (rücksichtlich 4 und 5) die Worte „Kraft und“ weggestrichen werden<note type="footnote" n="4">Mit Ah. E. v. <date when="1864-06-06">6. 6. 1864</date> genehmigte Franz Joseph die Einbringung des Gesetzentwurfs im Landtag als Regierungsvorlage, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1719/1864</bibl>; Fortsetzung <ref type="protocol-link" target="MRP-1-5-08-0-18640728-P-0482.xml#top_5_8_482_1">MR. v. <date when="1864-07-28">28. 7. 1864</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_477_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gesetzentwurf über die Abänderungen in der politischen Einteilung Siebenbürgens</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> referierte den au. Vortrag der siebenbürgischen Hofkanzlei vom 29. Mai l. J., Z. 3200, womit um die Ag. Ermächtigung gebeten wird, den hierneben beiliegenden Gesetzentwurf über die zur leichteren Erzielung einer geordneten Verwaltung und Rechtspflege notwendigen Abänderungen in der politischen Einteilung Siebenbürgens<ref xml:id="fn_5_8_477_b"/>
+                     <note type="variant" n="b" target="#fn_5_8_477_b">Liegt dem Originalprotokoll im Druck bei.</note> der Verhandlung des siebenbürgischen Landtages unterziehen zu dürfen. Nach einem Exposé über die Prinzipien, durch welche sich die Hofkanzlei bei ihren Anträgen leiten ließ, bemerkte der Referent, daß sich dem Staatsrate weder gegen die Grundsätze noch gegen das Detail eine Bemerkung ergab.</p>
+                  <p>Die Konferenz fand hierwegen ebenfalls nichts zu erinnern<note type="footnote" n="5">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f. Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 500/1864</bibl>; mit Ah. E. v. <date when="1864-06-14">14. 6. 1864</date> genehmigte Franz Joseph die Einbringung des Gesetzentwurfs im Landtag als Regierungsvorlage, ebd., <quote>Kab. Kanzlei, KZ. 1788/1864</quote>. Zu diesem Gesetzentwurf, der keine Erledigung fand, siehe <bibl type="secondary">
+                           <author>Kutschera</author>, Landtag und Gubernium in Siebenbürgen 136</bibl>; <bibl type="secondary">
+                           <author>Teutsch</author>, Geschichte der Siebenbürger Sachsen 3, 426</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_477_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV </num>
+                     </label>Gesetzentwurf über die Organisation der politischen Verwaltung in Siebenbürgen</head>
+                  <p>ter Gegenstand der Beratung war der beiliegende Gesetzentwurf über die Organisation der politischen Verwaltung<ref xml:id="fn_5_8_477_c"/>
+                     <note type="variant" n="c" target="#fn_5_8_477_c">Liegt dem Originalprotokoll im Druck bei.</note>. Der referierende Staatsrat Baron Geringer führte an, daß unter den Gegenständen, worüber nach dem k[öniglichen] Reskripte vom 15. Juni v. J.<note type="footnote" n="6">Reskript zur Eröffnung des siebenbürgischen Landtags, <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18630717">Wiener Zeitung</ref>
+                           </title> v. <date when="1863-07-17">17. 7. 1863</date>
+                        </bibl>; vgl. <ref type="protocol-link" target="MRP-1-5-06-0-18630612-P-0364.xml">MR. II v. <date when="1863-06-12"/>12. 6.1863</ref>, Anm. 6, <bibl type="internal_ref">ÖMR. V/6. Nr. 364</bibl>: siehe auch das Einberufungsreskript v. <date when="1863-05-09">9. 5. 1863</date>, <quote>ebd. V/5, Nr. 341 b</quote>.</note> Gesetzentwürfe dem siebenbürgischen Landtage vorgelegt werden sollen, sich auch jener über die Organisation der politischen Verwaltung Siebenbürgens befindet und <pb n="23" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s23.pdf"/>daß also nun die Hofkanzlei einen solchen Gesetzentwurf mit der Bitte vorlegt, denselben dem Landtage als Regierungsvorlage zur Verhandlung übergeben zu dürfen<note type="footnote" n="7">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f.; Vortrag v. <date when="1864-05-31">31. 5. 1864</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 429/1864</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 506/1864</bibl>.</note>. Im Prinzipe habe sich dem Staatsrate keine Bemerkung ergeben.</p>
+                  <p>Belangend die einzelnen Paragraphen des Entwurfes, so ergab sich zu § 1 keine Erinnerung.</p>
+                  <p>Zu § 2 beantragte der Staatsrat eine textuelle Änderung des zweiten Absatzes unter Verbindung mit dem ersten Absatze, indem derselbe die hier ausgesprochene Gliederung der Vertretungskörper aus Gründen der politischen Opportunität nicht angezeigt, vielmehr für genügend hält, hier zu sagen, „die öffentliche Verwaltung wird von den königlichen politischen Behörden besorgt, insoferne nicht durch besondere gesetzliche Bestimmungen die Gemeinde- und Munizipalvertretungen zur Mitwirkung oder Entscheidung berufen werden“. Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Vizehofkanzler</rs>
+                     </hi> wandte dagegen ein, daß dann die Vertretungen einzelner Kreise wegfallen würden, so wie auch dann die untersten Verwaltungsgebiete keine Vertretungen hätten, was jedenfalls Anstoß finden würde. Wenn man aber den Bedenken Rechnung tragen und hier die dreifache Gliederung vermeiden will, so müßte doch dafür ein solcher Ausdruck gewählt werden, der allgemein passend ist, und es dürfte sich seines Erachtens am entsprechendsten zeigen, wenn gesagt würde „den Gemeinden oder sonstigen Vertretungskörpern“, was sofort von der Konferenz angenommen und der § 2 hiernach redigiert wurde.</p>
+                  <p>Zu § 3 wurde der Antrag des Staatsrates auf eine allgemeine Textierung dieses Paragraphen angenommen und demgemäß dem § 3 die im Entwurfe ersichtliche Fassung gegeben.</p>
+                  <p>Zu § 4 wurde nichts erinnert.</p>
+                  <p>Zu § 5 hatte der Staatsrat, obschon diese Anordnung bisher nirgends als Norm besteht, doch nichts einzuwenden. Die Konferenz hielt es in dem Anbetrachte, daß der Vollzug dieser Bestimmung doch nur in das Gebiet der Exekutive fällt, für angemessen, hier das Wörtchen „werden“ in „können“ umzuwandeln.</p>
+                  <p>Zu § 6 bis inklusive 10 ergab sich keine Bemerkung.</p>
+                  <p>Zu § 11 hält der Staatsrat die Aufnahme dieses Paragraphen in den Entwurf nicht geeignet, indem er sich auf sein Votum bei der politischen und Justizorganisierung in den Ländern diesseits der Leitha<note type="footnote" n="8">
+                        <quote>Ebd., JStr. 113/1861</quote>; MR. v. 3. v. <date when="1861-05-04">4. 5. 1861</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z61" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z61.pdf" target="MRP-1-5-02-0-18610504-P-0061.xml">ÖMR. V/2, Nr. 61</ref>
+                        </bibl>.</note>, dann bei der Beratung über den Obersten Gerichtshof in Siebenbürgen<note type="footnote" n="9">
+                        <bibl type="archival">HHSTA., JStr. 781/1863</bibl>; <ref type="protocol-link" target="MRP-1-5-06-0-18630928-P-0397.xml#top_5_6_397_1">MR. v. <date when="1863-09-28">28. 9. 1863</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z397" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z397.pdf" target="MRP-1-5-06-0-18630928-P-0397.xml">ÖMR. V/6, Nr. 397</ref>.</bibl>
+                     </note> beruft, wonach die Bestimmungen über den Besoldungsstand nicht in die Kompetenz des Landtages gehören, sondern eine Sache der Exekutivgewalt sind<note type="footnote" n="10">Der § 11 des Gesetzentwurfs lautete: <quote>Die für das k. Landesgubernium, dann für die öffentliche Verwaltung der Munizipien und Kreise bestimmten Kategorien von Konzeptsbeamten und Dienern sowie die Bezüge derselben sind aus dem beiliegenden Personal- und Besoldungsstande und den dazugehörigen Bemerkungen ersichtlich.</quote>
+                     </note>. Der Vizehofkanzler Baron Reichenstein glaubte bei dem Antrage der Hofkanzlei umsomehr beharren zu sollen, als durch ein Nichtmitgeben <pb n="24" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s24.pdf"/>des Personal- und Besoldungsschemas an den Landtag nur die Besorgnis erregt werden dürfte, daß man diese Normierung gänzlich dem siebenbürgischen Landtage entziehen und dem weiteren Reichsrate zuweisen wolle. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> befürwortete ebenfalls die Beibehaltung dieser Bestimmung, indem nach seiner Ansicht dem siebenbürgischen Landtage die Ingerenz bei der Erstellung des Personal- und Besoldungsstandes nicht weggenommen werden könne. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erinnerte an den bei Beratung der Gerichstorganisation gefaßten Ministerratsbeschluß, demgemäß das betreffende Schema bloß dem Reichsratsausschusse pro informatione mitzuteilen ist, und bemerkte, daß man es auch hier nicht tun könne, das Besoldungsschema dem Landtage vorzulegen. Seines Erachtens komme eine Beschlußnahme über das Besoldungsschema nicht dem engeren Reichsrate und auch keinem Landtage jenseits der Leitha zu, sondern müsse vielmehr dem weiteren Reichsrate vorbehalten werden, wobei übrigens von diesem nur die Hauptsumme festzustellen sei, zumal die Fixierung der einzelnen Gebühren usw. immer nur eine Sache der Administration zu bleiben haben wird. Vor den engeren Reichsrat rücksichtlich hier vor den siebenbürgischen Landtag könne also nur die Personalsystemisierung, überhaupt nur die technischen Fragen der Organisierung gehören. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> sprach sich in ähnlicher Weise aus. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> besprach die bisherige Haltung der Regierung bei allen von dem Reichsrate beantragten Gehaltsaufbesserungen der Beamten – Jusitz- und Postbeamten – wobei strenge an dem Grundsatze festgehalten wurde, daß eine Besoldungssystemisierung nicht bei Gelegenheit der Beratung des Budgets abgehalten werden könne, sondern dieses nur mittelst einer besonderen Vorlage in verfassungsmäßige Behandlung gebracht werden müsse. Dieses festhaltend werde man nie auskommen, wenn man nicht vorerst hinsichtlich der Kompetenz des engeren und des weiteren Reichsrates in dieser Frage mit sich ins reine kommt. Er würde keinen Anstand nehmen, derlei Regulierungen im ganzen dem engeren Reichsrate rücksichtlich hier dem siebenbürgischen Landtage zuzuweisen, und glaube daher im vorliegenden Falle mit Grafen Nádasdy und Baron Reichenstein für die Beibehaltung des § 11 stimmen zu sollen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> war gleicher Meinung, indem er hervorhob, daß es nicht im Widerspruche mit der Verfassung stehe, die fragliche Bestimmung des § 11 aufrechtzuhalten. Desgleichen sprachen sich auch die übrigen Stimmführer, also die Mehrheit der Konferenz für die Belassung des § 11 aus, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> unter Zustimmung des Ministers Grafen Esterházy bemerklich machte, daß es zur Hintanhaltung von Kollissionen dahin kommen müsse, das Budget in ein Reichsbudget und die einzelnen Landesbudgets zu scheiden.</p>
+                  <p>Zu §§ 12, 13, 14 und 15. Der Staatsrat hält diese Paragraphen zur Aufnahme nicht geeignet, weil die darin enthaltenen Bestimmungen in den Wirkungskreis der Exekutive gehören. Der <hi rend="#letterspaced">
+                        <rs type="person">Vizehofkanzler Baron Reichenstein</rs>
+                     </hi> wünschte die Beibehaltung derselben, weil es spezielle Bestimmungen seien, deren Vorausbestimmung sich notwendig mache. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> meinte, daß, wenn diese Bestimmungen etwa in dem Entwurfe über die Organisation der politischen Behörden in den Ländern diesseits der Leitha nicht aufgenommen erscheinen, er auch hier gegen die Streichung derselben nichts einzuwenden hätte. <pb n="25" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s25.pdf"/>Nachdem die Konferenz damit einverstanden war, forderten Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. Hoheit</rs>
+                     </hi> den siebenbürgischen Vizehofkanzler auf, demgemäß nachträglich die Redaktion dieser Paragraphen vorzunehmen<ref xml:id="fn_5_8_477_d"/>
+                     <note type="variant" n="d" target="#fn_5_8_477_d">An dieser Stelle rechtsbrüchig eine Anmerkung des Protokollführers: <quote>Bei der vom Baron Reichenstein unter Zuziehung des gefertigten Protokollführers vorgenommenen Vergleichung ergab sich, daß in dem betreffenden Organisationsgesetze für die deutsch-slawischen Länder die hier fraglichen Paragraphen 12, 13 und 14 wörtlich, der § 15 mit Ausnahme des letzten Absatzes aber dem Wesen nach aufgenommen erscheinen, daher in dem vorliegenden Entwurfe diese vier Paragraphe unter Streichung des letzten Absatzes des § 15 beibehalten worden sind.</quote>
+                     </note>.</p>
+                  <p>Zu § 16 sah der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> nicht die Notwendigkeit der hier am Schlusse ausgesprochenen Zusicherung der Bedachtnahme auf die Landesangehörigkeit ein, da die Regierung bei den Ernennungen ohnehin gewiß darauf volle Rücksicht nehmen und sicher auch auf die gleiche Vertretung aller rezipierten Religionen acht haben wird. Graf Zichy würde diese Bestimmung schon wegen des Präzedens bezüglich Ungarns hier nicht gerne belassen, da dort nicht so leicht das Indigenat zu erhalten sei, mithin viele tüchtige Männer von der Anstellung ausgeschlossen bleiben würden. Sowohl der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> als auch der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Vizehofkanzler</rs>
+                     </hi> legten einen besonderen Wert auf die Beibehaltung dieser Bestimmung, indem beide überzeugt sind, daß es gar nicht möglich wäre, den Ah. Vorbehalt der Ernennungen durchzusetzen, wenn nicht zugleich in dem Gesetze ausdrücklich gesagt würde, daß die Chargen nur Eingeborene erhalten können. Die Konferenz sprach sich sonach für die Belassung dieser Bestimmung aus.</p>
+                  <p>Zu § 17 und § 19 beantragte der Staatsrat die Weglassung derselben, da sie nichts Neues normieren und weil es immerhin mißlich sei, sich auf eine künftig zu erlassende Dienstpragmatik zu berufen. Mit der Streichung des § 19 war die Konferenz einhellig einverstanden. In betreff des § 17 einigte sich die Konferenz über die Bemerkung des Vizehofkanzlers Baron Reichenstein, daß die darin enthaltene Bestimmung wegen der übrigen Beamten der öffentlichen Verwaltung notwendig sei, indem man sonst glauben würde, daß es bezüglich dieser bei der bisherigen Gepflogenheit verbleibe, in dem Beschlusse, daß dieser Paragraph zu belassen und nur aus demselben die Worte „zu erlassende Dienstpragmatik“ wegzustreichen sind.</p>
+                  <p>Zu § 18 ergab sich keine Bemerkung.</p>
+                  <p>Zu § 20 wurde vom Staatsrat auf Weglassung desselben beantragt, weil diese Bestimmungen Sache der Exekutive seien. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person">Vizehofkanzler Baron Reichenstein</rs>
+                     </hi> hielten den ersten Absatz für sehr wesentlich, weil man mit der ausdrücklichen Anordnung, daß die Beamten für ihre Geschäftsführung verantwortlich [seien], den Leuten eine gewisse moralische Beruhigung geben wolle. Beide sprachen sich also für die Beibehaltung des ersten Absatzes, wogegen sie der Streichung des zweiten Absatzes nicht entgegentreten wollten. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> würde wohl den ganzen Paragraph für überflüssig halten. Wolle man aber den ersten Absatz beibehalten, dann würde er proponieren, daß man vor das Wort „verantwortlich“ das Wörtchen „ihnen“ einschalte, um damit jeder weiteren Auslegung dieser Verantwortlichkeit vorzubeugen. <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> war damit einverstanden, und es schlossen sich diesem Antrage auch alle übrigen Stimmführer an.</p>
+                  <p>
+                     <pb n="26" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s26.pdf"/>Zu § 21, § 22 und § 23 ergab sich keine Erinnerung, nur wurde von der Konferenz bei § 23 für besser befunden, statt des in der ersten Zeile vorkommenden Wortes „Gesetze“ das Wort „Vorschriften“ zu setzen.</p>
+                  <p>Zu § 24. Die vom Staatsrat beantragte Weglassung dieses Paragraphen wurde auch von der Konferenz gebilligt.</p>
+                  <p>Zu § 25 beanständete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> die Fassung dieses Paragraphen, da z. B. die Ausschreibung der Steuerbeträge usw. den politischen Organen gar nicht zukomme, und beantragte die im Entwurfe ersichtlich gemachte Textierung, welche sofort von der Konferenz angenommen wurde.</p>
+                  <p>Zu § 26 wurde nichts bemerkt.</p>
+                  <p>Zu § 27 und § 28. Der Staatsrat beantragte, diese Paragraphen hinwegzulassen, weil gegen eine Mitwirkung des Landtages bei Aufgaben, welche ausschließlich der Exekutivgewalt obliegen, vielfache Bedenken obwalten<note type="footnote" n="11">Diese Paragraphen sahen die Einsetzung einer Landeskommission zur Durchführung der neuen Organisation der Verwaltung vor, deren Mitglieder zu einem Drittel vom Kaiser zu ernennen, zu zwei Drittel vom Landtag zu wählen waren.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Vizehofkanzler Baron Reichenstein</rs>
+                     </hi> bemerkte, daß bisher alle solche Organisierungen mittelst Landeskommissionen bewirkt und durchgeführt wurden und es daher nicht abzusehen sei, warum dieses nicht auch in Siebenbürgen tunlich wäre. Was aber die Zusammensetzung dieser Kommission rücksichtlich die Zuziehung von Landtagsmitgliedern betrifft, so wollte man durch diese Zusicherung des landtäglichen Einflusses bewirken, daß diese Vorlage angenommen werde. Auch habe übrigens schon das erste Landtagseinberufungsreskript die Zulässigkeit solcher Wahlen ausgesprochen<note type="footnote" n="12">Reskript v. <date when="1861-09-19">19. 9. 1861</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3021/1861</bibl>; vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610909-P-0121.xml#top_5_2_121_1">MR. v. <date when="1861-09-09">9. 9. 1861</date>/I</ref>. Anm. 6, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z121" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z121.pdf" target="MRP-1-5-02-0-18610909-P-0121.xml">ÖMR. V/2, Nr. 121</ref>
+                        </bibl>. Dieses Reskript kam nie zur Ausführung, vgl. <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/2, XXIII</bibl>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> hält dafür, daß sich die Regierung diese Sache nicht aus der Hand nehmen lassen dürfe und hier eine Intervention des Landtages umso mehr vermieden werden sollte, als sich dann diese Kommission nur zu einem permanenten Landesausschuß herausbilden würde, der für die Durchführung der Organisation kaum förderlich wirken dürfte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> äußerte, daß er einen großen Wert auf diese Bestimmung lege. Der Hauptzweck sei der, daß der Landtag in die Vorlage eingehe. Um dieses nun zu erreichen, sei es politisch wichtig zu sagen, daß diese Organisierung einvernehmlich mit einigen Mitgliedern des Landtages bewirkt werden solle. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> würde wohl diese zwei Paragraphen am liebsten weglassen, aber in Berücksichtigung der vom Grafen Nádasdy und Baron Reichenstein geltend gemachten politischen Gründe glaube er die Modifikation beantragen zu sollen, daß die Kommission zwar in der beantragten Zusammensetzung belassen, jedoch bezüglich ihrer Tätigkeit bloß auf die Erstattung von Vorschlägen zur Besetzung der Dienstposten beschränkt, das übrige Detail aber hier ganz weggelassen rücksichtlich der § 28 gestrichen werde. Nachdem die Mehrheit der Konferenz mit diesem Antrage einverstanden war, forderten Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. Hoheit</rs>
+                     </hi> den Antragsteller auf, in dieser Richtung den § 27 nachträglich zu redigieren.</p>
+                  <p>
+                     <pb n="27" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s27.pdf"/>Zu § 29. Der Antrag des Staatsrates auf Weglassung dieses Paragraphen wurde von der Konferenz angenommen.</p>
+                  <p>Ebenso ergab sich gegen die vom Staatsrate zu § 30 beantragte, im Entwurfe ersichtlich gemachte Textänderung der Konferenz keine Bemerkung.</p>
+                  <p>Zu § 31 wurde nichts bemerkt<note type="footnote" n="13">Mit Ah. E. v. <date when="1864-06-14">14. 6. 1864</date> genehmigte Franz Joseph die Einbringung des Gesetzentwurfs im Landtag als Regierungsvorlage, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1789/1864</bibl>. Der Gesetzentwurf fand keine Erledigung.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_477_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz in Siebenbürgen</head>
+                  <p>und letzter Gegenstand der Beratung war der dem siebenbürgischen Landtage vorzulegende hierneben angeschlossene Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz<note type="footnote" n="14">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung #; Vortrag v. <date when="1864-05-30">30. 5. 1864</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 430/1864</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 508/1864</bibl>.</note>, <ref xml:id="fn_5_8_477_e"/>
+                     <note type="variant" n="e" target="#fn_5_8_477_e">Liegt dem Originalprotokoll im Druck bei.</note>.</p>
+                  <p>Der referierende <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, daß sich dem Staatsrate gegen den Inhalt der §§ 1–8 des Entwurfes keine Erinnerung ergeben habe. Belangend die §§ 9 und 10, welche die Zahl, die Sitze und die Sprengel der Kollegial- und Einzelngerichte bestimmen, so erscheinen diese Bestimmungen, als der Wandelbarkeit unterworfen, zu einer Regelung im Gesetzgebungswege nicht geeignet. Der Staatsrat beantrage daher die Streichung dieser Paragraphe und statt derselben einen Paragraph folgenden Inhalts: „Die Bestimmungen über die Zahl der Gerichte, über die Gerichtssprengel und die Gerichtssitze werden mit Berücksichtigung der Grenzen der Munizipien und Kreise im Verordnungswege getroffen.“</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Baron Reichenstein</rs>
+                     </hi> wünschten die Belassung dieser Paragraphen in der ursprünglichen Fassung, weil nach ihrer Ansicht in dem Momente, gleich jetzt die Orte zu bestimmen, wo die Gerichte hinkommen, die Möglichkeit liege, das ganze Gesetz durchzubringen. Alle übrigen Stimmführer, also die Mehrheit der Konferenz, traten dem Antrage des Staatsrates bei<note type="footnote" n="15">Ein Vortrag Reichensteins zu den §§ 9 und 10 wurde im <ref type="protocol-link" target="MRP-1-5-08-0-18640705-P-0480.xml#top_5_8_480_1">MR. v. <date when="1864-07-05">5. 7. 1864</date>/I</ref> zurückgewiesen.</note>.</p>
+                  <p>Bezüglich der folgenden §§ 11–15 ergab sich keine Bemerkung.</p>
+                  <p>Zu § 16 machte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> aufmerksam, daß mit Rücksicht auf den heute zu § 27 des Gesetzentwurfes über die politische Organisation gefaßten Beschluß auch dieser Paragraph entsprechend modifiziert werden müsse<note type="footnote" n="16">Mit Ah. E. v. <date when="1864-06-14">14. 6. 1864</date> genehmigte Franz Joseph die Einbringung des Gesetzentwurf im Landtag als Regierungsvorlage, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1787/1864</bibl>. Der Gesetzentwurf fand keine Erledigung.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1864-06-04">4. Juni 1864</date>. In Abwesenheit Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzoges Rainer. Schmerling.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Karlsbad, <date when="1864-06-24">24. Juni 1864</date>.</seg>
+                  <seg type="other">Praes[entatum]. <date when="1864-06-28">28. Juni 1864</date>. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

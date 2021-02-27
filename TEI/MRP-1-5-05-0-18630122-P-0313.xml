@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="313">Sitzung 313</title>
+            <title level="a" type="sub" n="1">Protokoll I</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-01-22"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z313.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1117</idno>
+                  <idno type="KZ">416</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-01-22"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 24. 1.), Rechberg, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein, Mažuranić (nur bei I anw.);<orig> abw. Degenfeld; BdR. Erzherzog Rainer </orig>7.2.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-01-24">1863-01-24</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I anw.)</note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_313_1">Mittel zum Bau der Reichsstraße von Fiume nach St. Peter</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_313_2">Gutachten der Landtage zum Grundbuchsgesetz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_313_3">Petition des Kärntner Landtages um Herabsetzung des Standes des Kärntner Infanterieregiments</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_313_4">Bau eines neuen Universitätsgebäudes in Wien</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630122-P-0313" ana="a5-b5-z313">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z313.pdf">
+               <title type="num">Nr. 313</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-01-22">22. Jänner 1863</date> – Protokoll I</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 24. 1.), Rechberg, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein, Mažuranić (nur bei I <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice>);<orig> <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Degenfeld; <choice>
+                                    <abbr>BdR.</abbr>
+                                    <expan>Bestätigung des Rückempfangs</expan>
+                                </choice> Erzherzog Rainer </orig>7.2.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1117</idno>
+                  <idno type="KZ">416</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll I des zu Wien am <date when="1863-01-22">22. Jänner 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_313_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Mittel zum Bau der Reichsstraße von Fiume nach St. Peter</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag der kroatischslawonischen Hofkanzlei vom <date when="1862-12-23">23. Dezember 1862</date> betreffend des Ah. bezeichnete Gesuch des Gemeinderates der Stadt Fiume wegen Bewilligung einer Staatslotterie zu öffentlichen Zwecken der Stadt, darunter auch zur Umlegung der Reichsstraße von Fiume nach St. Peter<note type="footnote" n="1">Vortrag der kroatisch-slawonischen Hofkanzlei, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 365/1863</bibl>; Gutachten des Staatsrates <quote>ebd., JStr. 1101/1862</quote>. Der Bau einer Straße von Fiume zur Eisenbahnstation in St. Peter (Pivka) war von größter Bedeutung für die Stadt.</note>.</p>
+                  <p>Referent entwickelte die au. Anträge der Hofkanzlei, welche dahin gehen, daß dem Begehren um Bewilligung einer Lotterie nicht zu willfahren, dagegen aber die baldige Herstellung der fraglichen, für notwendig, ja selbst dringend anerkannten Straßenkorrektion in folgender Weise zu ermöglichen wäre. Die Stadt Fiume hätte mittels eines von ihr aufzunehmenden, à 6% verzinslichen Anlehens von 259.000 fl. die Baukosten vorschußweise zu bestreiten, und das Ärar rücksichtlich die Straßenbaufonds von Kroatien, Krain und Küstenland hätten der Stadt in zehn Jahresraten vom <date when="1863-11-01">1. November 1863</date> an den wirklichen Aufwand bis zum Maximalbetrage von 259.000 fl., dann die 5% Zinsen zu vergüten<note type="footnote" n="2">Die Zinsdifferenz von 1% wollte die Stadt übernehmen.</note>. Freiherr v. Lichtenfels erörterte hierauf die Motive des von der Majorität des Staatsrates erstatteten Gutachtens, wonach, mit Beseitigung des kostspieligen Umzuges einer Vorschußleistung, der Stadt Fiume die Herstellung der ganzen Strecke von Fiume bis St. Peter aus Staatsmitteln Ah. zu bewilligen wäre, die Kosten in das Staatspräliminar für 1864 einzustellen seien, zugleich aber vorzusorgen komme, damit zum Zweck des unverzüglichen Beginns der Bauführung schon im Jahr 1863 angemessene Vorschüsse angewiesen werden. Der Staatspräsident habe sich mit diesem au. Antrage unter Voraussetzung der finanziellen Durchführbarkeit einverstanden erklärt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> äußerte, er habe sich im Wege der Korrespondenz<note type="footnote" n="3">
+                        <bibl type="archival">FA., FM., Präs. 3955/1862</bibl> und <quote>ebd., III. Abt. (Kredit), Nr. 44537/1862, Faszikulatur 12. 12</quote>.</note> mit der von der Hofkanzlei beantragten Modalität der vorschußweisen Deckung des Aufwandes durch ein von der Stadt Fiume aufzunehmendes Anlehen einverstanden erklärt. Allein in Erwägung der vom <pb n="193" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s193.pdf"/>Staatsrate geltend gemachten Gründe glaube er dermal von diesem ungewöhnlichen, für die Stadt besonders lästigen Auskunftsmittel zur Deckung der relativ zu den Hülfsquellen des Staates geringfügigen Baukosten absehen und sich dem Antrage des Staatsrates anschließen zu sollen, und zwar in der Art, daß die Stadt Fiume den Bau um die Maximalsumme von 259.000 fl und unter der Oberleitung der Triester Baubehörde übernehme, dieser Aufwand auf die Jahre 1863 und 1864 verteilt und die nachträgliche Einschaltung in das Budget für 1863 der Reichsvertretung gegenüber gerechtfertigt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> erklärte sich hiermit umso mehr einverstanden, als er bei seiner letzten Reise nach Fiume sich von der Notwendigkeit der beabsichtigten Straßenkorrektion im Interesse des Handels überzeugt habe und als die Verpflichtung des Ärars zur Herstellung solcher Reichsstraßen nicht bestritten werden kann. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> hielt es für nötig, vor allem aufmerksam zu machen, daß es sich hier, <ref xml:id="fn_5_5_313_a">da nur ein kleiner Teil des neuen Straßenzuges nach Kroatien, der weitaus größte Teil aber nach Istrien und Krain gehöre</ref>
+                     <note type="variant" n="a" target="#fn_5_5_313_a">Einfügung a–a Lassers.</note>, um eine beträchtliche Erhöhung des Aufwandes für das Staatsministerium handle, welche Erhöhung allerdings gerechtfertigt sei, aber auf extraordinärem Wege bedeckt werden müsse, da aus der ordentlichen Dotation für den Straßenbau auf dieses Objekt nichts verwendet werden könne. Den Vollzug der Herstellung durch die Stadt Fiume, <ref xml:id="fn_5_5_313_b">welche als Unternehmerin des Baues gegen eine Pauschalsumme von 259.000 fl. zu behandeln sein würde</ref>
+                     <note type="variant" n="b" target="#fn_5_5_313_b">Korrektur b–b Lassers aus <quote>aus der Pauschalsumme von 259.000 fl.</quote>
+                     </note>, hält der Minister ebenfalls für angezeigt, um den Staatsschatz vor Mehrauslagen zu schützen, zumal kein detailliertes Bauprojekt noch vorliegt. Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> den von der Vorstimme gemachten Vorbehalt in Absicht auf die Bedeckung als ganz richtig anerkannt hatte, äußerte der <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonische Hofkanzler,</rs>
+                     </hi> daß er von seinem Standpunkte gegen die Anträge des Staatsrates nichts zu erinnern finde und nicht zweifle, daß der ganze Bau von der Stadt Fiume noch im Lauf des heurigen Jahres vollständig werde zustandegebracht werden. Auch die übrigen Stimmführer waren mit diesen Anträgen einverstanden, wobei <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherr v. Burger</rs>
+                     </hi> – mit Berufung auf die von ihm in Triest geleiteten Verhandlungen – die Wichtigkeit der zu legenden Straßen für den Handelsverkehr Fiumes heraushob<ref xml:id="fn_5_5_313_c"/>
+                     <note type="variant" n="c" target="#fn_5_5_313_c">Randvermerk Ransonnets: <quote>Nach dem Schlusse der Beratung über Punkt I verließ der kroatisch-slawonische Hofkanzler den Ministerrat</quote>.</note>, <note type="footnote" n="4">Mit Ah. E. v. <date when="1863-02-02">2. 2. 1863</date> genehmigte der Kaiser die Anträge des Ministerrates.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_313_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gutachten der Landtage zum Grundbuchsgesetz</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> hat gemäß des bei der letzten Konferenz<note type="footnote" n="5">
+                        <ref type="protocol-link" target="MRP-1-5-05-0-18630119-P-0312.xml#top_5_5_312_3">MR. v. <date when="1863-01-19">19. 1. 1863</date>/III</ref>.</note> gefaßten Beschlusses die Aufgabe formuliert, welche den Landtagen in bezug auf den mitzuteilenden Entwurf des Grundbuchsgesetzes vorzuzeichnen wäre. Hiernach wären die Landtage aufzufordern, Gutachten zu erstatten, ob und welche Anstände mit Rücksicht auf eigentümliche Verhältnisse (des Königreiches oder Landes) einzelnen Bestimmungen des Gesetzentwurfes entgegenstehen. Diese negative Fassung scheine <pb n="194" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s194.pdf"/>am wenigsten geeignet, eingehende Erörterungen des ganzen Gesetzentwurfes von Seite der Landtage zu provozieren.</p>
+                  <p>Der Ministerrat war mit dieser Formulierung vollkommen einverstanden<note type="footnote" n="6">Mit Ah. E. v. <date when="1863-01-27">27. 1. 1863</date> wurde der Justizminister ermächtigt, den Entwurf des Grundbuchsgesetzes den Landtagen mit dieser Frage vorzulegen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 288/1863</bibl>; der Vortrag Heins JM., Präs. 78/1863 (K.) und Präs. 98/1863 (RS.) fehlt in der Präsidialreihe. Am <date when="1863-02-14">14. 2. 1863</date> übermittelte Hein dem Staatsminister den Gesetzentwurf samt Grundbuchsordnung zur Befragung der Landtage, <bibl type="archival">AVA., StM., Präs 1302/1863</bibl> (bei <quote>ebd., IM. 10/5</quote>). Das Allgemeine Grundbuchsgesetz kam erst 1871 zustande, <bibl type="archival">RGBL. Nr. 95/1871</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_313_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Petition des Kärntner Landtages um Herabsetzung des Standes des Kärntner Infanterieregiments</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte, es sei ihm von dem durchlauchtigsten Herrn Vorsitzenden eine Petition des kärntnerischen Landtages an das Gesamtministerium wegen Herabsetzung des Standes des kärntnerischen Infanterieregimentes zugekommen<note type="footnote" n="7">Der Antrag war im Landtag vom Abgeordneten Paul Freiherr v. Herbert eingebracht und nach Abführung einer Debatte zum Beschluß erhoben worden, <bibl type="secondary">
+                           <title>Stenographisches Protokoll des Kärntnerischen Landtages</title> 1863, 32 (2. Sitzung/<date when="1863-01-09">9. 1. 1863</date>) und 56–61 (4/<date when="1863-01-13">13. 1. 1863</date>)</bibl>.</note>. Nachdem der Landtag hiebei einen von den Bestimmungen der Landesordnung abweichenden Weg eingeschlagen hat, so dürfte demselben diese Petition mit dem Bemerken zurückzustellen sein, daß der Landtag seinem Wunsch im Wege des Landeshauptmanns an den Landeschef bekanntzugeben habe.</p>
+                  <p>Der Ministerrat war mit diesem Antrage einverstanden<note type="footnote" n="8">Ende Februar konnte der Landeschef, Franz Freiherr v. Schluga, dem Landtage mitteilen, daß ein Regiment reduziert werde und außerdem zwei Infanteriebataillone in ein anderes Land verlegt würden, <quote>ebd. 476 (22/<date when="1863-02-21">21. 2. 1863</date>)</quote> und <quote>524 (24/<date when="1863-02-25">25. 2. 1863</date>)</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_313_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bau eines neuen Universitätsgebäudes in Wien</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> besprach die bisherigen Verhandlungen über den Bau eines neuen Universitätsgebäudes in Wien<note type="footnote" n="9">Zur Geschichte des Neubaus der Wiener Universität siehe <bibl type="secondary">
+                           <author>Krause</author>, Die Baugeschichte</bibl>. In: <bibl type="secondary">
+                           <author>Fillitz</author>, Universität am Ring 17–25</bibl>, und <bibl type="secondary">
+                           <title>Springer</title>, Ringstraße 340–344</bibl>.</note>.</p>
+                  <p>Nachdem Se. Majestät der Kaiser über Antrag des Unterrichtsministers Grafen Thun Allerhöchstsich für diesen notwendig gewordenen Neubau zu entscheiden geruht hatten, wurden die Architekten Van der Nüll und Sicardsburg mit Entwerfung der Pläne für ein Gebäude beauftragt, dessen Standort damals hinter der Votivkirche bestimmt wurden. Die mittlerweilen begonnene Stadterweiterung und der Mangel an Geldmitteln zur Führung eines so großartigen Baues waren schuld, daß die Angelegenheit ins Stocken geriet, bis Referent und der Staatsminister sich aufs neue mit diesem Bau beschäftigten und die Modalitäten ins Auge faßten, um die Baukosten aus dem Stadterweiterungsfonds gegen Ersatz vorschießen zu lassen. Man beschäftigte sich auch mit Ausmittlung eines passenden Standortes statt jenes hinter der Votivkirche, welcher die freie Ansicht der Chorseite dieses Gebäudes beeinträchtigen und auch größere Baukosten für die Universität nach sich ziehen würde, weil man dort zur Annahme des mit der Kirche übereinstimmenden weit kostspieligeren gotischen Baustils gewissermaßen genötigt wäre. Ein geeigneter Platz für die Universität wurde schließlich in dem projektierten Häuserkomplexe vor dem bestandenen Neutore ausgemittelt, welcher Platz sich durch seine nicht bedeutende Entfernung von den Spitälern empfiehlt. Man veranlaßte hierauf eine Zusammentretung der beteiligten Ministerien, wobei Ritter v. Lasser seinen Antrag über die Geldfrage dahin präzisierte: <pb n="195" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s195.pdf"/>der Stadterweiterungsfonds habe aus seinen Barvorräten die Kosten zum Bau, <ref xml:id="fn_5_5_313_d">Vorausgesetzt, daß die Bausumme nicht allzu hoch sei und sich auf mehrere Jahre verteile</ref>
+                     <note type="variant" n="d" target="#fn_5_5_313_d">Einfügung d–d Lassers.</note>, nach und nach gegen möglichst billig festzusetzende Zinsen vorzuschießen, und wäre dieser Vorschuß, insoweit er nicht durch Kompensationen gedeckt würde, ab aerario in angemessenen Zahlungsfristen zu ersetzen. Solche Kompensationsobjekte wären: der Betrag von zirka 350.000 fl.<ref xml:id="fn_5_5_313_e"/>
+                     <note type="variant" n="e" target="#fn_5_5_313_e">Korrektur Lassers aus <quote>160.000 fl.</quote>
+                     </note>, welchen der Stadterweiterungsfonds dem Ärar <ref xml:id="fn_5_5_313_f">für Demolierungsvorschüsse und für einen zu einer Ausfahrt aus der Johannesgasse überlassenen Gebäudeteil</ref>
+                     <note type="variant" n="f" target="#fn_5_5_313_f">Einfügung f–f Lassers.</note> schuldet, endlich<ref xml:id="fn_5_5_313_g"/>
+                     <note type="variant" n="g" target="#fn_5_5_313_g">Korrektur Lassers aus <quote>dann</quote>.</note> der Kaufwert für die dem Fonds zu überlassenden Grundflächen mehrerer Ärarialgebäude, darunter auch der dermaligen<ref xml:id="fn_5_5_313_h"/>
+                     <note type="variant" n="h" target="#fn_5_5_313_h">Einfügung Lassers.</note> Verpflegsbäckerei. Der Erfolg dieser Zusammentretung war insofern ein ungünstiger, als der Vertreter des Finanzministeriums die Notwendigkeit des Baues zwar nicht in Abrede stellte, aber die Übernahme der Kosten auf das Ärar rücksichtlich den Studienfonds entschieden ablehnte und deren definitive Bestreitung dem Stadterweiterungsfonds zumutete. Referent sehe sich durch diese vom Finanzminister selbst über direkte Rücksprache bestätigte Ablehnung veranlaßt, die Frage vor den Minsterrat zu bringen. Mit Rücksicht auf die vorhandenen Kompensationsobjekte würde es sich um die bare Bestreitung eines Restes von wenigstens 2 Millionen Gulden an Baukosten handeln, eine Summe, die der Stadterweiterungsfonds durchaus nicht entbehren kann, wenn er auch nur den größten Teil der ihm bereits durch Ah. Beschlüsse zur Pflicht gemachten vielen Monumentalbauten ausführen soll, und welche noch durch den Ausbau der Votivkirche sowie des Rudolfsspitals um zwei kostbare Objekte vermehrt werden dürften. Nachdem Minister Ritter v. Lasser die einschlägigen Verhältnisse eingehend erörtert hatte, reassumierte er seinen Antrag in folgenden Sätzen: 1. Es muß zum Baue eines neuen Universitätsgebäudes in Wien geschritten werden, 2. die Kosten desselben können bei diesem ersten und zentralen wissenschaftlichen Institute des Reiches nicht aus Lokal-, sondern nur aus Reichsmitteln bestritten werden; und 3. der Stadterweiterungsfonds habe die baldige Unternehmung des Baues durch Vorschüsse gegen Ersatz <ref xml:id="fn_5_5_313_i">nach den beantragten Modalitäten</ref>
+                     <note type="variant" n="i" target="#fn_5_5_313_i">Einfügung i–i Lassers.</note> zu erleichtern. Wolle man aber den Fonds, <ref xml:id="fn_5_5_313_j">dem eine Verpflichtung, zum Universitätsbaue beizutragen, nicht obliege und auch nicht aufgelastet werden könne, ohne andere wichtige und sonst ganz unmöglich werdende Bauobjekte zu beseitigen</ref>
+                     <note type="variant" n="j" target="#fn_5_5_313_j">Einfügung j–j Lassers.</note>, in dieser Weise zu Hilfe nehmen, so müsse man sich bald dafür entscheiden, da das Fondspräliminar vorsichtsweise auf 2 Jahre im vorhinein festgestellt werden soll.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, der die Anträge der Vorstimme in allen Punkten teilt, erwähnte, er habe, um die dem Baue entgegenstehenden finanziellen Schwierigkeiten zu mindern, an dem Programme jede tunliche Reduktion vorgenommen und daher weder die Universitätsbibliothek noch die Akademie der bildenden Künste darin belassen. <pb n="196" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s196.pdf"/>Der Neubau soll keine Naturalwohnungen und selbst keine Kanzleien enthalten, welche letzteren so wie die Quästur im dermaligen sogenannten alten Universitätsgebäude ohne Nachteil verbleiben können. Für Kultuszwecke wird die benachbarte Votivkirche benützt werden. Über die dermaligen Übelstände, welche bekannt genug sind, wolle Ritter v. Schmerling nichts weiter mehr sagen, als daß die Studenten gewisser Jahrgänge auf dem Wege von einem Hörsaale zum anderen täglich eine Stunde zuzubringen genötigt sind! Das in drei Jahren bevorstehende Jubiläum der Universität<note type="footnote" n="10">Im Jahre 1865 feierte die Universität Wien das 500-Jahr-Jubiläum ihres Bestehens.</note> sei noch eine Nötigung mehr, den Bau in Angriff zu nehmen und mit Energie fortzusetzen. Aber hiezu bedürfe es vor allem einer Entscheidung über die Frage, ob der Bau aus Lokal- oder Reichsmitteln zu bestreiten sei. Die Frage könne übrigens bei dieser Universität, welche von Hörern aus allen Kronländern besucht wird und ein Gemeingut des ganzen Reiches bildet, nicht zweifelhaft sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> teilt ganz die Meinung der Vorstimme über <ref xml:id="fn_5_5_313_k">Wichtigkeit und</ref>
+                     <note type="variant" n="k" target="#fn_5_5_313_k">Einfügung k–k Wickenburgs.</note> Dringlichkeit des Baues sowie darüber, daß er <ref xml:id="fn_5_5_313_l"/>
+                     <note type="variant" n="l" target="#fn_5_5_313_l">Korrektur l–l Wickenburgs aus <quote>eine Reichssache bilde</quote>.</note>aus Reichsmitteln zu bestreiten sei. Als Präsident der Stadterweiterungskommission müßte Graf Wickenburg allerdings bedauern, wenn die Mittel des Stadterweiterungsfonds auch nur vorschußweise zum Universitätsbaue in Anspruch genommen würden, da demselben die Mittel zur Lösung der vielen und großartigen ihm bereits<ref xml:id="fn_5_5_313_m"/>
+                     <note type="variant" n="m" target="#fn_5_5_313_m">Einfügung Wickenburgs.</note> zugewiesenen Aufgaben dadurch, wenn auch nur vorübergehend, entzogen werden. <ref xml:id="fn_5_5_313_n">Jedenfalls müßte, wenn der Vorschuß unumgänglich nötig sei, auf dessen angemessenen Rückersatz fürgedacht werden</ref>
+                     <note type="variant" n="n" target="#fn_5_5_313_n">Einfügung n–n Wickenburgs.</note>. Man richte an diesen Fonds unerschwingliche Zumutungen, und der Minister müsse daher wünschen, daß derselbe auch seinerzeit <ref xml:id="fn_5_5_313_o">nicht zu den Kosten des Ausbaues der Votivkirche beigezogen werde, und er glaubt, daß der Reichsrat es wohl als eine heilige Verpflichtung ansehen werde, dieselben auf das gesamte Reich zu übertragen</ref>
+                     <note type="variant" n="o" target="#fn_5_5_313_o">Korrektur o–o Wickenburgs aus <quote>von den Kosten des Ausbaues der Votivkirche verschont bleibe. Der Reichsrat dürfte wohl dieselben auf das Ärar übernehmen</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> voraussehend, bei dieser <ref xml:id="fn_5_5_313_p">die Vertretung und den Schutz der finanziellen Interessen betreffenden</ref>
+                     <note type="variant" n="p" target="#fn_5_5_313_p">Einfügung p–p Pleners.</note> Frage so wie schon bei vielen anderen <ref xml:id="fn_5_5_313_q">derlei Fragen</ref>
+                     <note type="variant" n="q" target="#fn_5_5_313_q">Einfügung q–q Pleners.</note> majorisiert zu werden, glaubte, sich kurz fassen zu können. Er wolle nur dem Ministerrate gegenwärtig halten, daß wenn es schön ist, monumentale Bauten auszuführen, sparen unter unseren Verhältnissen noch schöner sein dürfte. Darauf zu dringen sei seine Pflicht als Finanzminister. Die Herstellung des finanziellen Gleichgewichtes im Jahre 1864 wäre das schönste Monument! Edler v. Plener müsse daher beantragen, den Staatsschatz mit dieser Last zu verschonen und selbe dem dazu berufenen Stadterweiterungsfonds zuzuweisen. <ref xml:id="fn_5_5_313_r">Dieser Fonds besitze aktuell die Geldmittel, die, wenn der Universitätsbau gar so sehr dringe, demselben zugewendet werden wollen. Übrigens sei die Frage, ob zwei bis drei Millionen aus dem Staatsschatze für einen Universitätsbau verwendet [werden] sollen, eine reine Budgetfrage, welche, wie wohl jedermann einleuchten soll, den Gegenstand der Beratung im Reichsrat zu bilden hat. Es fehlt daher derzeit vollends an der Kompetenz der Regierung zur Entscheidung, ob aus den Reichsfinanzen diese Ausgabe bestritten werden solle. Jedenfalls ist der gegenwärtige Moment hiezu nicht geeignet, um einseitig über das Prinzip zu entscheiden. Ist der Bau dringend, so möge, ohne über das Prinzip zu entscheiden, der thesaurierende Stadterweiterungsfonds die Zahlungen leisten</ref>
+                     <note type="variant" n="r" target="#fn_5_5_313_r">Korrektur und Einfügung r–r Pleners statt <quote>Wenn nicht, so würde es den Gegenstand der Beratung im Reichsrat bilden, ob der Bau im Reichsbudget zu bedecken sei. Könnte man denn nicht länger zuwarten?</quote>
+                     </note>Dieser Fonds <pb n="197" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s197.pdf"/>besitze aktuell die Geldmittel, die, wenn der Universitätsbau gar so sehr dringe, demselben zugewendet werden wollen. Übrigens sei die Frage, ob zwei bis drei Millionen aus dem Staatsschatze für einen Universitätsbau verwendet [werden] sollen, eine reine Budgetfrage, welche, wie wohl jedermann einleuchten soll, den Gegenstand der Beratung im Reichsrat zu bilden hat. Es fehlt daher derzeit vollends an der Kompetenz der Regierung zur Entscheidung, ob aus den Reichsfinanzen diese Ausgabe bestritten werden solle. Jedenfalls ist der gegenwärtige Moment hiezu nicht geeignet, um einseitig über das Prinzip zu entscheiden. Ist der Bau dringend, so möge, ohne über das Prinzip zu entscheiden, der thesaurierende Stadterweiterungsfonds die Zahlungen leisten. Der ungarische Hofkanzler und der Minister des Äußern <ref xml:id="fn_5_5_313_s">sowie auch Graf Esterházy</ref>
+                     <note type="variant" n="s" target="#fn_5_5_313_s">Einfügung s–s Esterházys.</note>, stimmten dem Finanzminister bei. Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> erschien es dagegen ganz klar, daß der Stadterweiterungsfonds nicht berufen sein könne, die Kosten für das Universitätsgebäude definitiv zu bestreiten. Durch die Vorschußleistung aus demselben aber würde ja der Wunsch, den Staatsschatz in den nächsten Jahren mit Ausgaben für das Objekt zu verschonen, erfüllt. Baron Mecséry stimme daher mit dem Referenten.</p>
+                  <p>Die übrigen Stimmführer stimmten ebenfalls mit dem Minster Ritter v. Lasser, dessen Anträge daher zum Majoritätsbeschluß erhoben werden<ref xml:id="fn_5_5_313_t"/>
+                     <note type="variant" n="t" target="#fn_5_5_313_t">Der Randvermerk Ransonnets <quote>Minister Graf Esterházy nahm an der Abstimmung über diesen Punkt keinen Anteil</quote> wurde von Esterházy gestrichen.</note>, <note type="footnote" n="11">Mit Ah. E. v. <date when="1863-06-24">24. 6. 1863</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2027/1863</bibl>, genehmigte der Kaiser die Anträge Lassers und der Mehrheit des Ministerrates. Dennoch kam es nicht zum Bau auf hier vorgesehenen Gründen. Erst 1870 wurde der Neubau auf dem ehemaligen Paradeplatz nach den Plänen Heinrich Ferstels definitiv beschlossen, <bibl type="secondary">
+                           <title>Springer</title>, Ringstraße 470 f.</bibl>
+                     </note>.</p>
+                  <p>Über den weiteren Beratungsgegenstand, die Behandlung der sogenannten Innviertler Schulden, wird ein besonderes Protokoll verfaßt<note type="footnote" n="12">Siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630122-P-0314.xml">MR. II v. <date when="1863-01-22"/>22. 1.1863</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1863-01-24">24. Jänner 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1863-02-06">6. Februar 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-02-07">7. Februar 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

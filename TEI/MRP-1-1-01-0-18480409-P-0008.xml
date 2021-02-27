@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="008">Sitzung 8</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-09"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z8.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">106</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-09"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Sommaruga, Zanini; außerdem anw. Mayer-Gravenegg; BdE. Ficquelmont (10. 4.), Franz Karl (11. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-10">10. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-11">11. 4.</date>
+                  </note>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8254">
+                     <surname>Mayer-Gravenegg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_8_1">Anleiheverhandlungen mit der Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_8_2">Anstellungsgesuch Jakob Baumgartners</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_8_3">Pensionshöhe für Joachim Eduard Graf v. Münch-Bellinghausen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_8_4">Unterstützung für das deutsche Hospital in London und den deutschen Hilfsverein in Paris</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_8_5">Rekrutierungsausschreibung für 1848</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_8_6">Verstärkung der deutsch-erbländischen Infanterieregimenter</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_8_7">Ankauf von Bespannungspferden</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_8_8">Suspendierung der Steuerausschreibung für 1849</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_8_9">Instruktionen für Franz Graf v. Hartig</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_8_10">Herabsetzung des Salzpreises in Tirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_8_11">Zuweisung Thaddäus Peithners Freiherrn v. Lichtenfels zum Justizministerium</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480409-P-0008" ana="a1-1848_z8">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z8.pdf">
+               <title type="num">Nr. 8</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-09">9. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Sommaruga, Zanini; außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Mayer-Gravenegg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (10. 4.), Franz Karl (11. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">106</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des Ministerrates am <date when="1848-04-09">9. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_8_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Anleiheverhandlungen mit der Nationalbank</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Vizepräsident v. Mayer</rs>
+                     </hi> erstattete weiteren Bericht über seine Unterhandlungen mit der Nationalbank in betreff des Anlehens (vide Protokoll vom <date when="1848-04-07">7. April 1848</date>)<note type="footnote" n="1">Siehe bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_2">MR. v. <date when="1848-04-07">7. 4. 1848</date>/II</ref>.</note>. Die Nationalbank hat in der letzten Zusammentretung noch weitere Forderungen gestellt; nämlich a) Garantie des Staates für die in England zur Vergrößerung des Bankschatzes anzukaufenden Silberbarren im Wert von 2,000.000 Pfund Sterling unter Verpfändung der Staatseisenbahnen; b) Verpfändung der ehemals toskanischen Herrschaften in Böhmen; c) Verzinsung des Anlehens per 30 Millionen à 4% des Jahres, und d) Ergänzung der durch den gesunkenen Wert der Metalliques nicht mehr hinlänglichen Hypothek für das alte Darlehen der Nationalbank an den Staat per 81 Millionen<note type="footnote" n="2">Zum Kurssturz der österreichischen Metalliques siehe <bibl type="secondary">
+                           <author>Brandt</author>, Neoabsolutismus I, 144f.</bibl>; zum Darlehen der Bank <quote>ebd. 131</quote>.</note>.</p>
+                  <p>Es wurde einstimmig beschlossen, die Garantie zu a) zuzugestehen, b) die Verpfändung der ein Privateigentum Sr. Majestät bildenden extoskanischen Herrschaften, wo nur immer möglich, abzulehnen oder dieselbe doch erst in letzter Linie nach den übrigen reichlichen Hypotheken gegen vorläufige Ah. Genehmigung zuzugestehen, c) den Zinsfuß von 4% auf 3% herabzustimmen und d) auf eine Ergänzung der vorhandenen Hypothek in Metalliques nicht einzugehen.</p>
+                  <p>Dieser Instruktion gemäß wird Vizepräsident v. Mayer die weitere Unterhandlung pflegen<note type="footnote" n="3">Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480412-P-0011.xml#top_1_1_11_6">MR. v. <date when="1848-04-12">12. 4. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Anstellungsgesuch Jakob Baumgartners</head>
+                  <p>Einen weiteren Gegenstand der Beratung bildete die in dem Vortrage des Hofkammerpräsidiums vom <date when="1848-04-02">2. l. M.</date>, KZ. 1262/1848<note type="footnote" n="4">
+                        <bibl type="archival">FA., FM., GP. 3348/1848</bibl>.</note>, beleuchtete Frage wegen der Anstellung des ehemaligen Landammans zu St. Gallen, Dr. Jakob Baumgartner, im österreichischen Staatsdienste.</p>
+                  <p>Es wurde einerseits anerkannt, daß die Anstellung eines Ausländers im österreichischen Staatsdienste überhaupt gar nicht an der Zeit sei, da demnächst so viele aktive k. k.</p>
+                  <p>
+                     <pb n="47" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s47.pdf"/>Beamte in Quieszenz verfallen dürften, und daß insbesondere auch gar keine Notwendigkeit zur Bestellung eines zweiten Sekretärs bei der Eisenbahngeneraldirektion vorhanden sei. Da andererseits dem Dr. Baumgartner bereits auf Ah. Befehl eröffnet worden sei, daß [er] die erwähnte Stelle mit den damit verbundenen Genüssen provisorisch erhalten werde<note type="footnote" n="5">Der konservativ-katholische Baumgartner hatte nach den Wahlen im Mai 1847, bei denen seine Partei unterlegen war, seinen Posten in der St. Gallener Kantonsverwaltung verloren. Baumgartner, der Österreich oder zumindest Metternich offenbar gute Dienste geleistet hatte, wandte sich nun an die österreichischen Behörden um eine Anstellung, was auch von Metternich befürwortet wurde, <quote>ebd., GP. 2962</quote>, und Vortrag Metternichs v. <date when="1847-08-31">31. 8. 1847</date>, <bibl type="archival">HHSTA., StK., Vorträge 295, Fasz. VIII-X</bibl>. Der um seine Meinung gefragte Kübeck schlug in seinem Vortrag v. <date when="1847-11-04">4. 11. 1847</date> vor, Baumgartner provisorisch bei der Staatseisenbahn unterzubringen, was mit Ah. E. v. <date when="1848-01-26">26. 1. 1848</date> bewilligt wurde, <bibl type="archival">FA., FM., GP. 3187/1848</bibl>, und Ah. E. vom selben Tag auf den Vortrag Metternichs v. <date when="1848-01-11">11. 1. 1848</date>, <bibl type="archival">HHSTA., StK., Vorträge 296, Fasz. I-IV, fol. 45–56</bibl>.</note>, so vereinigte man sich zu dem Mittelwege, den Obgenannten so zu behandeln, als ob er ein infolge administrativer Maßregeln disponibel werdender Staatsbeamter wäre, und ihm sonach seine einjährigen Gebühren per 1400f. Gehalt und 240f. Quartiergeld als Abfertigung anzuweisen<note type="footnote" n="6">Die Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> auf den in Anm. 4 zit. Vortrag fiel im Sinne des Ministerratsbeschlusses aus.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pensionshöhe für Joachim Eduard Graf v. Münch-Bellinghausen</head>
+                  <p>Der Vortrag des Ministers der auswärtigen Angelegenheiten d. dto. <date when="1848-04-04">4. April 1848</date>, KZ. 1261<note type="footnote" n="7">
+                        <bibl type="archival">HHSTA., StK., Vorträge 196, Fasz. I-IV, fol. 250–256</bibl>.</note>, behandelt das Ruhegehalt für den gewesenen Bundestagspräsidenten Grafen Münch<note type="footnote" n="8">Am <date when="1848-03-20">20. 3. 1848</date> hatte Joachim Eduard Graf v. Münch-Bellinghausen um seine Enthebung vom Posten des Bundestagspräsidenten angesucht, <bibl type="archival">HHSTA., Admin. Reg., F 4, Karton 229, fol. 23ff.</bibl>; Ficquelmont leitete diese Bitte mit Vortrag v. <date when="1848-03-21">21. 3. 1848</date> an den Kaiser weiter, der mit Ah. E. v. <date when="1848-03-23">23. 3. 1848</date> seine Zustimmung gab, <quote>ebd. Fol. 28f</quote>. Zu Münch-Bellinghausen siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 19, 441ff.</bibl>
+                     </note> und die Bemessung der Bezüge seines Nachfolgers Grafen Colloredo<note type="footnote" n="9">Mit Ah. E. v. <date when="1848-03-23">23. 3. 1848</date> war Graf Franz Colloredo-Wallsee auf Vortrag Ficquelmonts v. <date when="1848-03-21">21. 3. 1848</date> definitiv zum Präsidialgesandten beim Deutschen Bundestag ernannt worden, <bibl type="archival">HHSTA., Admin. Reg, F 4, Karton 57, Fol. 238ff</bibl>. Zu Colloredo siehe <bibl type="secondary">
+                           <title>Allgemeine deutsche Biographie</title> 4, 415f.</bibl>
+                     </note>. Über den zweiten Punkt wurde kein Beschluß gefaßt, nachdem Graf Colloredo bereits die Abberufung von seinem Posten angesucht hat<note type="footnote" n="10">Diesen Wunsch sprach Colloredo in seinem Bericht an Ficquelmont v. <date when="1848-04-03">3. 4. 1848</date> aus, <bibl type="archival">HHSTA., StK., Deutsche Akten, neue Reihe Karton 80, Fol. 275ff.</bibl>
+                     </note>.</p>
+                  <p>Bezüglich des Ruhegehalts für Graf Münch lagen zweierlei Anträge vor: jener des Hofkammerpräsidiums, welches sich für 6000f.<note type="footnote" n="11">Note (K.) des Hofkammerpräsidiums an Ficquelmont v. <date when="1848-03-30">30. 3. 1848</date>, <bibl type="archival">PP. 2803/1848</bibl>, und <bibl type="archival">HHSTA., Admin. Reg., F 4, Karton 229, Fol. 35f. (RS.)</bibl>.</note>, und jener des Ministers des Äußern, welcher sich für 10.000f.<note type="footnote" n="12">Wird im Vortrag Ficquelmonts v. <date when="1848-04-04">4. 4. 1848</date> mit Hinweis auf Präzedenzfälle begründet.</note> jährlich ausgesprochen hatte. Der Ministerrat glaubte nicht die Verantwortlichkeit auf sich nehmen zu können, einen höheren Betrag als 6000f. au. in Antrag zu bringen, da einerseits die traurige Lage der Staatsfinanzen es zur gebieterischen Notwendigkeit macht, die möglichste Sparsamkeit zu beobachten, Diplomaten systemmäßig auf Pension gar keinen Anspruch haben und Graf Münch, welcher für keine Familie zu sorgen hat, sich notorisch in sehr günstigen Vermögensverhältnissen befindet<note type="footnote" n="13">Der in Anm. 7 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> ganz im Sinne des Ministerratsbeschlusses resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 106/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Unterstützung für das deutsche Hospital in London und den deutschen Hilfsverein in Paris</head>
+                  <p>In dem Vortrage vom <date when="1848-04-03">3. April 1848</date>, KZ. 1290 (MR. 29)<note type="footnote" n="14">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 29/1848</bibl> und <bibl type="archival">FA., PP. 865 (K.) und 3430 (RS.) beide ex 1848</bibl>.</note>, hat sich das Hofkammerpräsidium gegen die von der Staatskanzlei in Antrag gebrachte Beitragsleistung<note type="footnote" n="15">Metternich hatte bereits mit Vortrag v. <date when="1848-01-09">9. 1. 1848</date> um die Unterstützung dieser beiden Institutionen angesucht, worauf der Hofkammerpräsident Kübeck mit Ah. Handschreiben v. <date when="1848-01-28">28. 1. 1848</date> um ein diesbezügliches Gutachten ersucht, <bibl type="archival">HHSTA., MKA. MZ. 52/1848</bibl>.</note> aus dem Staatsschatze zu dem deutschen Hospital in London<note type="footnote" n="16">Zur Errichtung und wiederholten Ansuchen dieses Spitals um Unterstützung siehe <quote>ebd., MZ. 580 und 706, beide ex 1848</quote>, und <quote>ebd., MZ. 620/1847</quote>.</note> und dem deutschen Hilfsverein in Paris<note type="footnote" n="17">Zum deutschen Hilfsverein in Paris siehe <quote>ebd., MZ. 52/1848</quote>.</note> erklärt. Nachdem der Minister das Äußern gegenwärtig die Erklärung abgab, daß er gleichfalls unter den jetzigen Verhältnissen die in Rede stehenden Unterstützungen nicht angezeigt halte, erklärten sich sämtliche Minister für die Ablehnung<note type="footnote" n="18">Der in Anm. 14 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> im Sinne des Ministerratsbeschlusses entschieden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Rekrutierungsausschreibung für 1848</head>
+                  <p>Über die im Vortrage des Ministers des Inneren vom <date when="1848-03-26">26. März 1848</date>, StRZ. 1433/1044<note type="footnote" n="19">Vortrag Pillersdorfs <bibl type="archival">HHSTA., ÄSrR. 1433/1848</bibl>.</note> zur Sprache gebrachte Frage, ob für dieses Jahr die Rekrutierung auszuschreiben sei, wurde einstimmig anerkannt, daß in dem gegenwärtigen Zeitpunkte, wo die Monarchie mit äußern und inneren Feinden zu kämpfen hat, während die Reihen der Armee teils von Ungarn nicht gehörig ergänzt, teils durch Defektion der italienischen Truppen gelichtet wurden, die Ergänzung des österreichischen Heeres mittelst Rekrutierung eine unerläßliche Maßregel sei. Der Kriegsminister gab bei diesem Anlaß die beruhigende Versicherung, daß die Rekrutierung auch bereits beinahe überall mit dem besten Erfolge begonnen habe<note type="footnote" n="20">Der Vortrag des Innenministers ist mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> genehmigt worden, <quote>ebd.</quote>, und <quote>ebd., Kab. Kanzlei, MRZ. 106/1848</quote>. Zu der günstigen Stimmung in Wien für diese Maßnahme siehe <bibl type="secondary">
+                           <author>Reschauer-Smets</author>, Revolution 1, 56</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Verstärkung der deutsch-erbländischen Infanterieregimenter</head>
+                  <p>Aus denselben Gründen und mit Rücksicht auf die vorhandene Notwendigkeit, dem Feldmarschall Grafen Radetzky ohne Verzug Verstärkungen zuzuführen, wurde der vom Kriegsminister gemachte Antrag wegen Aufstellung der 3. Divisionen bei den 3. Bataillons der deutschen Infanterieregimenter wie bei den 1. Landwehrbataillons – ungeachtet des dadurch verursachten Mehraufwandes – einstimmig genehmigt<note type="footnote" n="21">Der Vortrag Zaninis v. <date when="1848-04-09">9. 4. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 72/1848</bibl>, wurde mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> resolviert, <quote>ebd., MRZ. 106/1848</quote>, vgl. auch ebd., <quote>MRZ. 72/1848</quote>. Der entsprechende Akt <bibl type="archival">KA., HKR., MK., Präs. 113/1848</bibl>, ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Ankauf von Bespannungspferden</head>
+                  <p>Der Ministerrat beschloß ebenfalls über Antrag des Kriegsministers, der Militärverwaltung zu dem wegen Mangels an Transportmitteln äußerst dringend gewordenen Ankaufe von Bespannungen, eine vorläufige Summe von 200.000f. aus den Finanzen erfolgen zu lassen<note type="footnote" n="22">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_16">MR. v. <date when="1848-04-08">8. 4. 1848</date>/XVI</ref>. Mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> wurde auf Vortrag Zaninis v. <date when="1848-04-08">8. 4. 1848</date> die geforderte Summe bewilligt, <bibl type="archival">KA., HKR., MK., Präs. 286/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 106/1848</bibl>; zugleich wurde Krauß mit Ah. Handschreiben v. <date when="1848-04-11">11. 4. 1848</date> angewiesen, geeignete Schritte zur Bereitstellung des Geldes einzuleiten, <quote>ebd</quote>. Zum weiteren Einvernehmen zwischen Krauß und Zanini siehe <bibl type="archival">FA., PP. 3417 und 3481, beide ex 1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Suspendierung der Steuerausschreibung für 1849</head>
+                  <p>Nach gepflogener Beratung über die Frage, ob die direkten Steuern für 1849 schon jetzt nach der früher üblichen Weise auszuschreiben seien, vereinigte sich der Ministerrat zu dem Beschlusse, daß, nachdem das Recht, die Steuern zu bewilligen, zu den konstitutionellen Befugnissen der Reichsstände gehören dürfte, eine Steuerausschreibung für 1849 derzeit noch nicht einzutreten hätte, sondern dieser Gegenstand seinerzeit mit Rücksicht auf die den vereinigten Reichsständen zu machenden Vorlagen in Erwägung zu ziehen sein werde<note type="footnote" n="23">Auf den Vortrag Kübecks v. <date when="1848-03-12">12. 3. 1848</date>, <bibl type="archival">FA., PP. 3454/1848</bibl>, erfolgte eine Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> ganz im Sinne des Ministerratsbeschlusses, <quote>ebd.</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 106/1848</bibl>; zur Vorgeschichte siehe den Notenwechsel zwischen Inzaghy und Kübeck, <bibl type="archival">FA., PP. 1471 und 2160, beide ex 1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Instruktionen für Franz Graf v. Hartig</head>
+                  <p>Der Minister des Äußern trug hierauf die dem Staats- und Konferenzminister Grafen Hartig aus Anlaß seiner Sendung zur Pazifizierung des lombardisch-venezianischen Königreiches zu gebende Instruktion vor, mit deren Fassung und Ausfertigung der Ministerrat völlig einverstanden war<note type="footnote" n="24">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480406-P-0005.xml#top_1_1_5_7">MR. v. <date when="1848-04-06">6. 4. 1848</date>/VII</ref>. Mit Ah. E. v. <date when="1848-04-10">10. 4. 1848</date> wurden auf Vortrag Ficquelmonts sowohl die Pazifikationsmission als auch die Instruktionen im besonderen genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 80/1848</bibl>. Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_13">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XIII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Herabsetzung des Salzpreises in Tirol</head>
+                  <p>Ein weiterer Gegenstand der Beratung war das Gesuch der Tiroler Landesdeputierten um allgemeine Herabsetzung des Salzpreises in jener Provinz ohne Beschränkung auf ein Limitoquantum, und zwar von 5f. 58 Kreuzer auf 3f. 30 Kreuzer vom Zentner<note type="footnote" n="25">Das Gesuch in <bibl type="archival">FA., PP. 3313/1848</bibl>.</note>. Nachdem bereits das Limitoquantum durch den Gouverneur Grafen Brandis provisorisch auf 142.000 Zentner erhöht worden ist<note type="footnote" n="26">Brandis hatte breits mit Schreiben v. <date when="1848-03-16">16. 3. 1848</date> um die Erhöhungauf 130.000 Zentner angesucht, <bibl type="archival">HHSTA., MKA., MZ. 793/1848</bibl>. Daraufhin wurde der Allgemeinen Hofkammer, die ein früheres diesbezügliches Gutachten Brandis noch nicht bearbeitet hatte, <quote>die gehörige Beschleunigung dieser Angelegenheit</quote> befohlen, <quote>ebd., CBProt. 45c/1848v. <date when="1848-03-25">25. 3. 1848</date>
+                        </quote>, und <bibl type="archival">FA., PP. 2706/1848</bibl>. Brandis ging die Sache zu langsam und er zeigte mit Schreiben v. <date when="1848-03-22">22. 3. 1848</date>, das am <date when="1848-03-25">25. 3. 1848</date> beim Präsidium der Allgemeinen Hofkammer angelangt war. an, daß er das Limitosalzquantum nicht nur um 16.000 Zentner, wie von den Ständen erbeten, sondern um 38.000 auf insgesamt 152.000 Zentner erhöht habe, <quote>ebd., PP. 2697/1848</quote>. Dagegen protestierte Mayer v. Gravenegg in seinem Vortrag v. <date when="1848-03-29">29. 3. 1848</date> und versuchte, die Angelegenheit wieder unter seine Kontrolle zu bekommen, <quote>ebd., PP. 3455/1848</quote>.</note>, so würde die allgemeine Preisherabsetzung nur einen Ausfall von etwa 45.000f. verursachen. Bei den gegenwärtigen Zeitverhältnissen, wo auf der günstigen Stimmung des Landes Tirol so wichtige Interessen beruhen, und da Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Johann erklärten, sich nur dann von seiner Reise in dieses Land einen günstigen Erfolg versprechen zu können, wenn er Überbringer dieser Zugeständnisse wäre, glaubte sich der Ministerrat einstimmig für die angesuchte allgemeine Salzpreisherabsetzung erklären zu sollen. Die hierüber entworfenen Ah. Handbillets an den durchlauchtigsten Herrn Erzherzog Johann und den Finanzminister wurden bereits zur Gewinnung an Zeit abgesondert der Ah. Schlußfassung unterzogen<note type="footnote" n="27">Auf Vortrag Mayer v. Graveneggs v. <date when="1848-04-09">9. 4. 1848</date> wurde die Herabsetzung des Salzpreises auf 3 fl. 30 Kreuzer per Zentner mit Ah. E. v. <date when="1848-04-10">10. 4. 1848</date> sanktioniert, <quote>ebd., PP. 3356/1848</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 89/1848</bibl>; das Handschreiben an Erzherzog Johann liegt bei.</note>, so daß es hier nur mehr die dem <pb n="50" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s50.pdf"/>Gouverneur Grafen Brandis über die von ihm getroffenen Verfügungen zu gebende Erledigung beigeschlossen wird<note type="footnote" n="28">Mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> wurde auf den in Anm. 27 zit. Vortrag Mayer v. Graveneggs v. <date when="1848-03-29">29. 3. 1848</date> die Erhöhung des Limitoquantums durch Brandis zur Kenntnis genommen, <bibl type="archival">FA., PP. 3455/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 106/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_8_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Zuweisung Thaddäus Peithners Freiherrn v. Lichtenfels zum Justizministerium</head>
+                  <p>Schließlich äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, daß es ihm wünschenswert wäre, so bald als möglich den beim Staatsrate in Verwendung stehenden Hofrat v. Lichtenfels<note type="footnote" n="29">Zu Thaddäus Peithner Freiherr v. Lichtenfels siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 15, 79–82</bibl>.</note> für die Bearbeitung der Ministerialgeschäfte zugewiesen zu erhalten, und bat um huldvolle Erlassung eines Ah. Auftrages zu diesem Ende<note type="footnote" n="30">Mit Handschreiben an den Staatsrat v. <date when="1848-04-11">11. 4. 1848</date> wurde Lichtenfels von seiner Verwendung beim Staatsrat enthoben und dem Justizministerium zugewiesen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 106/1848</bibl>.</note>.</p>
+                  <p>Die den vorstehenden Beschlüssen des tg. Ministerrates entsprechenden Entwürfe der Ah. Erlässe werden nachfolgend der Ah. Sanktion in Ehrfurcht unterzogen.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-04-10">10. April 1848</date>. Ficquelmont.</seg>
+                  <seg type="other">Ges. 11. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Preßburg, am <date when="1848-04-11">11. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

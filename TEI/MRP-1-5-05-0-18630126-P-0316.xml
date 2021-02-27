@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="316">Sitzung 316</title>
+            <title level="a" type="sub" n="2">Protokoll II</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-01-26"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z316.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1120</idno>
+                  <idno type="KZ">587</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-01-26"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 26. 1.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; außerdem anw. Holzgethan; BdR. Erzherzog Rainer 23. 2.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-01-26">1863-01-26</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr3487">
+                     <surname>Holzgethan</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_316_1">Abhaltung einer rumänischen Nationalkonferenz in Hermannstadt</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_316_2">Erhöhung des Unterrichtsgeldes an den aus öffentlichen Fonds erhaltenen Gymnasien zur Aufbesserung des Einkommens der Gymnasiallehrer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_316_3">Abhaltung einer Weltausstellung in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_316_4">Bestreitung der Kosten für die Herausgabe des wissenschaftlichen Werkes über die Novara-Expedition</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630126-P-0316" ana="a5-b5-z316">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z316.pdf">
+               <title type="num">Nr. 316</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-01-26">26. Jänner 1863</date> – Protokoll II</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 26. 1.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Holzgethan; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 23. 2.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1120</idno>
+                  <idno type="KZ">587</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll II des zu Wien am <date when="1863-01-26">26. Jänner 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_316_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Abhaltung einer rumänischen Nationalkonferenz in Hermannstadt</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> referierte über den au. Vortrag der siebenbürgischen Hofkanzlei vom 14. d. M., Z. 133, betreffend die Abhaltung einer rumänischen Nationalkonferenz in Hermannstadt unter dem Vorsitze des griechisch-katholischen Erzbischofes Sterka-Sulucs und des griechisch-orientalischen Bischofes Freiherrn v. Schaguna.<note type="footnote" n="1">
+                        <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 133/1863 (K.) und 783/1863 (RS.)</bibl>.</note>
+                  </p>
+                  <p>Diese beiden Kirchenoberhäupter haben an das siebenbürgische Gubernium ein gemeinschaftliches Gesuch gerichtet, worin sie um die Erlaubnis zur Abhaltung dieser neuerlichen Konferenz zu dem Zwecke bitten, damit in derselben die über die im <pb n="207" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s207.pdf"/>Jänner 1861 abgehaltene rumänische Nationalversammlung erflossene Ah. Entschließung vom <date when="1862-10-18">18. Oktober 1862</date>
+                     <note type="footnote" n="2">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3195/1862</bibl>; dazu siehe MR. v. 10. und <date when="1862-10-13">13. 10. 1862</date>/II, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z269" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z269.pdf" target="MRP-1-5-04-0-18621013-P-0269.xml">ÖMR. V/4, Nr. 269</ref>
+                        </bibl>, dort auch Literatur.</note> in feierlicher Weise zur Kenntnis der Nation gebracht und ihr Gelegenheit geboten werde, nicht nur den tiefsten Dank für diesen neuen Beweis des kaiserlichen Wohlwollens auszusprechen, sondern auch sich über die mit Rücksicht auf den bevorstehenden Landtag<note type="footnote" n="3">Zum siebenbürgischen Landtag siehe Einleitung XL f.</note> und die dabei zur Verhandlung kommenden wichtigen Fragen einzunehmende politische Haltung zu beraten. Zu dieser Versammlung sollen Staatsbeamte höherer Kategorie der rumänischen Nation, die Direktoren der beiden rumänischen Gymnasien zu Blasendorf und Kronstadt, dann 40 geistliche und 60 weltliche Honoratioren eingeladen werden. Diese Eingabe sei von dem Gubernium in Verhandlung genommen worden, wobei zwei Stimmen für die Gewährung der obigen Bitte in ihrem vollen Umfange stimmten, die übrigen aber zwei Beschränkungen beantragen, nämlich, daß zu der fraglichen Versammlung bloß die Mitglieder vom Jahre 1861 einzuberufen wären und daß in derselben nichts anderes als die Kundmachung der oberwähnten Ah. Entschließung geschehe, mithin alle politischen Fragen vermieden werden sollen. Dieser Auffassung schließe sich auch der Präsident Graf Crenneville mit dem Beifügen an, daß die unbeschränkte Bewilligung zur Verhandlung und Beratung politischer Fragen auch bei der ungarischen und Szekler Bevölkerung gleiche Wünsche hervorrufen würde, deren Gewährung aber von der Regierung verweigert werden müßte. Die Hofkanzlei teile jedoch diese Besorgnisse des Guberniums nicht, sondern glaube die von den genannten Kirchenoberhäuptern angesuchte Erlaubnis zur Abhaltung einer Konferenz in Hermannstadt unbedingt erteilen zu können, welchen Beschluß sie aber vorläufig mittelst des gegenwärtigen Vortrages zur Ah. Kenntnis zu bringen sich erlaubt. Referent sei mit der Ansicht der Hofkanzlei vollkommen einverstanden und habe seine Meinung beziehungsweise seine die Bedenken des Grafen Crenneville widerlegenden Bemerkungen in einem besonderen au. Präsidialvortrage vom 25. d. M., Z. 51, niederlegt<note type="footnote" n="4">
+                        <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 51/1863 (K.) und Präs. 89/1863 (RS.)</bibl>.</note>, deren wesentlicher Inhalt sich dahin zusammenfassen lasse, daß aus der zu erteilenden Bewilligung zur Abhaltung der fraglichen Versammlung eine gleiche Berechtigung für die ungarische und Szekler Bevölkerung nicht abgeleitet werden könne, indem im gegenwärtigen Falle die loyale Absicht der beiden geistlichen Oberhirten, die an die rumänische Nation in Siebenbürgen gerichtete Ah. Antwort Sr. Majestät vom <date when="1862-10-18">18. Oktober 1862</date> in einer Versammlung der hervorragendsten Persönlichkeiten dieser Nation feierlich kundzumachen, die Veranlassung zur Einberufung dieser Konferenz bietet, was aber heute tatsächlich weder bei der ungarischen noch [bei] der Szekler Bevölkerung vorhanden ist, ferner daß die in Rede stehende Versammlung eine ganz verschiedene von jener sei, wie sie von den Szeklern im Jahre 1848 abgehalten wurde, und daß man auch der ungarischen und Szekler Bevölkerung die Abhaltung von Nationalversammlungen ähnlich der romanischen bewilligen könnte, wenn nämlich diese Konferenzen solche hervorragende Männer dieser Nationalitäten beabsichtigen würden, welche der Regierung durch ihre Loyalität <pb n="208" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s208.pdf"/>und politischen Anschauungen eine Garantie nicht nur für den ruhigen Verlauf dieser Konferenzen, sondern auch dafür bieten, daß diese Versammlungen die Förderung der wohlwollenden Absichten Sr. Majestät bezwecken, wie dies rücksichtlich der beiden geistlichen Oberhirten romanischer Bevölkerung der Fall sei. Referent beabsichtige daher in diesem Sinne für den Fall, als der obgedachte au. Vortrag der Hofkanzlei genehmigend zur Ah. Kenntnis genommen werden würde, den Bericht des Grafen Crenneville zu erledigen. Die vorgelegten Resolutionsentwürfe für die beiden au. Vorträge lauten: „Ich nehme diese Anzeige zur Kenntnis“, weil die beantragten Verfügungen eigentlich im eigenen Wirkungskreise der Kanzlei liegen.</p>
+                  <p>Über diesen Vortrag ergab sich eine längere Diskussion, bei welcher vor allem vom <hi rend="#letterspaced">
+                        <rs type="person">ungarischen Hofkanzler</rs>
+                     </hi> hervorgehoben wurde, daß bei der gegenwärtigen Lage der Verhältnisse durch die Einvernehmung einzelner Nationalversammlungen die schwebenden Fragen gewiß nicht zu einer günstigen Lösung gebracht werden, vielmehr solche Maßregeln die Regierung nur erschweren dürften, und daß aber namentlich ein Spiel mit der Nationalität an der Grenze bei den gegenwärtigen orientalischen Verhältnissen und bei der bekannten Wechselwirkung zwischen den österreichischen Rumänen und jenen der Walachei und Moldau höchst gefährlich sei. Der gegenwärtige Fall, wo man von dieser Konferenz eine Loyalitätsäußerung erwartet, könne wohl im Momente der Regierung nicht unlieb sein und vielleicht auch zur Schwächung des ungarischen Elementes im Lande benützt werden, von nachhaltiger Wirkung für die Monarchie werde es gewiß nicht sein, sicher aber <ref xml:id="fn_5_5_316_a">mit der Zeit nachteilig</ref>
+                     <note type="variant" n="a" target="#fn_5_5_316_a">Korrektur a–a Forgáchs aus <quote>ungünstig</quote>.</note> auf das deutsche Element einwirken, indem es immer ein zweischneidiges Schwert sei, welches sehr gefährlich werden kann. Votant glaube sich daher nicht bloß im allgemeinen gegen die Gestattung von Nationalversammlungen, sondern auch insbesondere gegen die Bewilligung zur Abhaltung der fraglichen rumänischen Konferenz aussprechen zu sollen. <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> erwiderte, daß ihm die Bedenken gegen Nationalversammlungen im allgemeinen nicht entgangen sind und daß er auch im vorliegenden Falle getrachtet hätte, die Sache abzulehnen, wenn sich der fragliche Kongreß bei seiner ersten Zusammentretung nicht so gut, wie es der Fall war, benommen hätte und man bei der erprobten Loyalität der beiden geistlichen Oberhirten nicht zu der gerechten Erwartung berechtigt wäre, daß diese Versammlung nur die Förderung der Ah. Absichten zur Richtschnur ihrer Handlungen nehmen und gewiß den Charakter der loyalen Ergebenheit in keiner Weise verletzen, geschweige denn eine Demonstration zugunsten des Auslandes machen wird. Aber abgesehen hievon komme auch zu beachten, daß die romanische Bevölkerung Siebenbürgens über eine Million Seelen zähle und Referent es daher für den bevorstehenden Landtag von Bedeutung und großem Gewinn halte, wenn diese Nation ihre politische Gesinnung kundgibt und eine Erklärung hinsichtlich der Anerkennung der mit dem kaiserlichen Diplome vom <date when="1860-10-20">20. Oktober 1860</date> und dem kaiserlichen Patente vom <date when="1861-02-26">26. Februar 1861</date> festgestellten Staatsprinzipien abgibt. Übrigens dürfte für die Bewilligung zur Abhaltung der rumänischen Konferenz auch der Umstand sprechen, daß derlei Konferenzen auch von Seite der ungarischen und Szekler Notabilitäten, ohne daß die Regierung davon in Kenntnis gesetzt wird, tatsächlich fortwährend <pb n="209" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s209.pdf"/>stattfinden, wie es zum Beispiel laut des Berichtes des früheren Gouverneurs Fürsten v. Liechtenstein – dieser Bericht wurde vorgelesen – im Jahre 1861 zu Tasnád der Fall war und auch beim letzten Wettrennen zu Klausenburg geschehen ist<note type="footnote" n="5">Die Stelle lautet im Vortrag so: <quote>Schließlich dürfte auch der Umstand noch einige Beachtung verdienen, daß ja derlei Konferenzen, freilich in kleinerem Maßstab und oft mehr in der Form geselliger Zusammenkünfte, durch hervorragende Persönlichkeiten ungarischer und Szekler Nationalität tatsächlich fortwährend stattfinden</quote>. Der Bericht Liechtensteins v. <date when="1861-01-16">16. 1. 1861</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 54/1861</bibl>.</note>. Werden nun diese Versammlungen rücksichtlich der Nationalitätsfrage von der einen Seite nicht für gefährlich gehalten, warum sollte es die rumänische Konferenz sein. Auf die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers des Äußern,</rs>
+                     </hi> daß im Augenblicke, wo in den benachbarten Provinzen die Stimmung eine sehr aufgeregte ist, die Regierung besonders verpflichtet sei, mit solchen Nationalversammlungen äußerst vorsichtig vorzugehen und namentlich gegenwärtig alles zu vermeiden, was das rumänische Element aufmuntern und zu einer etwaigen Koalition mit den auswärtigen Stammgenossen führen könnte, entgegnete <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy,</rs>
+                     </hi> daß er ebenfalls darauf gedacht und auch diese Besorgnis gegen mehrere hervorragende Romanen geäußert, von diesen aber zur Antwort erhalten habe, daß es gerade jetzt sehr angezeigt erscheine, den gerechten Wünschen der rumänischen Nation möglichst nachzukommen, um sie nicht in das andere Lager zu treiben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> fand die Motive des ungarischen Hofkanzlers schon deswegen nicht plausibel, weil dann eigentlich die ganze Bevölkerung an der Grenze für Österreich gefahrvoll wäre. Seines Erachtens liege eine größere Gefahr wohl darin, wenn man solche legale Versammlungen verhindern würde, was nur zur Folge hätte, daß geheime Beratungen abgehalten werden, deren Zwecke gewiß einen bedenklicheren Charakter an sich tragen. Für die Bewilligung zur Abhaltung der fraglichen Konferenz sei übrigens auch maßgebend, daß die rumänische Nation de facto noch nicht zu den rezipierten Nationen gehört und ihr daher auf diesem Wege Gelegenheit gegeben werden muß, sich über ihre politische Haltung zu beraten und selbe kundzugeben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> und der Staatsminister traten auch den Anträgen des Grafen Nádasdy bei, der erstere von der Ansicht ausgehend, daß, insoferne man hier in der Lage ist, zwischen zwei Übeln zu wählen, man wohl für das geringere sich entscheiden müsse, und dieses liege offenbar in der Bewilligung der fraglichen Konferenz. <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Schmerling</rs>
+                     </hi> erwähnte, daß, wenn man sich bei uns immer von der Furcht vor dem Auslande leiten ließe und jede politische Maßregel von der Rücksicht auf die Stimmung der Nachbarländer abhängig machen müßte, man wohl kaum den heutigen Standpunkt einnehmen würde. Vor kurzer Zeit habe man gewarnt, die serbische Frage zu lösen, die doch gewiß anstandslos mit Erfolg gelöst werden konnte, heute warne man wieder vor der rumänischen. Votant glaube aber, daß man unbeirrt festen Schrittes den geraden Weg gehen solle, zumal nach seiner Erfahrung das Zögern und Zuwarten noch zu keinem Heile geführt habe. Auch sei nicht abzusehen, warum im gegenwärtigen Falle diejenigen, die offen und ehrlich bitten, schlechter behandelt werden sollen als die anderen, die ihre Versammlungen selbst ohne behördliche Erlaubnis abhalten. Derselben Meinung waren auch der Kriegsminister, <pb n="210" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s210.pdf"/>der Minister Ritter v. Lasser, der Finanzminister und der Handelsminister. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> ergriff nochmals das Wort, um zu betonen, daß hier eigentlich früher eine Vorfrage zu lösen wäre, nämlich die, <ref xml:id="fn_5_5_316_b">ob bei den ernsten Schwierigkeiten, welche die Verschiedenheit der Nationalitäten jetzt schon heraufbeschwöre, in Prag, Lemberg und an so vielen anderen Punkten der Monarchie, es zweckmäßig sei, auch noch neue Nationalitäten heraufzuberufen, und zwar in einem der äußersten Enden der Monarchie, wo sie so viele Anziehungspunkte im Auslande finden. Es sei dies nicht dem Geiste des Staatsgrundgesetzes entsprechend, das ein einiges, kräftiges, und nicht ein durch Nationalitäten zersplittertes Österreich anstrebe</ref>
+                     <note type="variant" n="b" target="#fn_5_5_316_b">Einfügung b–b Rechbergs statt <quote>ob es angemessen sei, bei Nationen, die noch auf einer niederen Kulturstufe stehen, das Nationalgefühl wachzurufen und überhaupt den Nationalitätsschwindel heraufzubeschwören. Es sei dies äußerst gefährlich, auch scheine es nicht im Geiste des Staatsgrundgesetzes vom <date when="1862-02-26">26. Februar 1862</date> zu liegen, vielmehr solle die Regierung aufgrund der da gegebenen Institutionen die einzelnen Nationalitäten zum einträchtlichen Zusammenwirken zu kräftigen trachten und so die Einheit der Monarchie, ein Großösterreich, sichern</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> stimmte der Meinung des Grafen Nádasdy bei, indem er nicht einzusehen vermag, warum man jetzt die Fortsetzung einer Versammlung, die sich so loyal bewiesen hat, nicht gestatten sollte, und weil eine Verweigerung ihres Begehrens leicht den Übertritt in das andere Lager zur Folge haben könnte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> stimmte prinzipiell der Meinung des ungarischen Hofkanzlers bei. Für den Fall aber, als <ref xml:id="fn_5_5_316_c">in der Absicht, etwaige geheime, noch bedenklichere Beratungen zu verhüten</ref>
+                     <note type="variant" n="c" target="#fn_5_5_316_c">Einfügung c–c Esterházys.</note>, die Erteilung der Bewilligung zur Abhaltung der fraglichen Konferenz beliebt werden sollte, erklärte er, sich der Meinung des siebenbürgischen Guberniums anzuschließen, nämlich daß zu dieser Konferenz, <ref xml:id="fn_5_5_316_d">welcher er dann, der Auffassung des Herrn Staatsratspräsidenten gemäß, rein den Charakter einer Fortsetzung der ersten Versammlung vom Jahre 1861 bewahrt sehen möchte</ref>
+                     <note type="variant" n="d" target="#fn_5_5_316_d">Einfügung d–d Esterházys.</note>, nur die früher Anwesenden geladen werden und sich bloß auf die Kundmachung der Ah. Resolution vom <date when="1862-10-18">18. Oktober 1862</date> und die diesfällige Danksagung beschränkt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> würde sich mit Rücksicht auf die vom Grafen Rechberg gemachten Bemerkungen nicht getrauen zu entscheiden, ob gerade jetzt schon diese Versammlung zu gestatten wäre. Soll aber diese Erlaubnis gegeben werden, so erachte er, dem Antrage des Guberniums beizutreten.</p>
+                  <p>Nachdem hierauf <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> konkludierten, daß sich die Mehrheit der Konferenz für die Anträge des Ministers Grafen Nádasdy aussprach, erklärte schließlich <hi rend="#letterspaced">
+                        <rs type="person">Graf Forgách,</rs>
+                     </hi> daß, wenn schon diese Konferenz stattfinden soll, er sich dann mit dem Votum des Grafen Esterházy, rücksichtlich mit dem Antrage des Guberniums vereinige<note type="footnote" n="6">Am <date when="1863-02-03">3. 2. 1863</date> legte Erzherzog Rainer die beiden Vorträge der siebenbürgischen Hofkanzlei und des Hofkanzlers befürwortend dem Kaiser vor, der sie mit Ah. E. v. <date when="1863-02-15">15. 2. 1863</date> antragsgemäß zur Kenntnis nahm. <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 523/1863</bibl>. Die rumänische Nationalkonferenz wurde vom 20.–<date when="1863-04-23">23. 4. 1863</date> in Hermannstadt abgehalten. Gleichzeitig wurde übrigens der siebenbürgische Landtag einberufen, siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630416-P-0341.xml">MR. I. v. <date when="1863-04-16"/>16. 4.1863</ref>. Am <date when="1863-05-04">4. 5. 1863</date> empfing Franz Joseph eine von Bischof Şaguna angeführte Abordnung des Kongresses; dazu <bibl type="secondary">
+                           <author>Schulthess</author>, Europäischer Geschichtskalender 4 (1863) 153</bibl>; <bibl type="secondary">
+                           <author>Larcher</author>, Die Rumänen Siebenbürgens 71f.</bibl>; <bibl type="secondary">
+                           <title>Sammlung der wichtigeren Staatsacten</title> 3, 39 (Nr. 102) und 75–81 (Nr. 108–110)</bibl> und den Vortrag Nádasdys v. <date when="1863-05-02">2. 5. 1863</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 304/1863 (K.) und Präs. 311/1863 (RS. und Beilagen)</bibl>, dann <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1419/1863</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_316_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Erhöhung des Unterrichtsgeldes an den aus öffentlichen Fonds erhaltenen Gymnasien zur Aufbesserung des Einkommens der Gymnasiallehrer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> begründete in längerer Rede seinen mittelst au. Vortrages vom 29. November v. J., Z. 13031, gestellten Antrag wegen Erhöhung des Unterrichtsgeldes an den aus öffentlichen Fonds erhaltenen Gymnasien zur Aufbesserung des Einkommens der Gymnasiallehrer und entwickelte ausführlich die von der im Staatsministerium abgehaltenen Kommission beschlossenen Modalitäten, unter welchen dieser Antrag durchgeführt werden soll<note type="footnote" n="7">Dem Vortrag lag eine <quote>Denkschrift über die ökonomischen Verhältnisse der Gymnasiallehrer in Österreich</quote> aus der Feder des Mitarbeiters von Exner und Professors an der Wiener Universität Hermann Bonitz zugrunde, die er 1858 dem Minister für Kultus und Unterricht, Graf Leo Thun, und, da sie ohne Folgen blieb, im Jahre 1861 dem Ausschuß für Wissenschaft und Unterricht des Abgeordnetenhauses vorgelegt hatte; ein Exemplar dieser Denkschrift liegt dem Staatsratsgutachten bei, <bibl type="archival">HHSTA., JStr. 1021/1862</bibl>, aus dem auch der Inhalt des Vortrags mit den Ergebnissen der erwähnten Kommission hervorgeht.</note> und welche sich im wesentlichen wie folgt zusammenfassen lassen: a) für jene Gymnasien, welche den Ertrag des Schulgeldes an den Studienfonds abführen, hätte die Staatsverwaltung die Erhöhung des Schulgeldes anzuordnen; für jene Gymnasien, bei denen dies nicht der Fall ist, bleibe es denjenigen, welche das Schulgeld beziehen, überlassen, dasselbe bis zu dem gleichen Maße zu erhöhen; b) diese Schulgelderhöhung solle 50% betragen, so daß die Taxe statt des bisherigen Betrages von 8 fl. 40 Kreuzer und 12 fl. 60 Kreuzer mit 12 fl. 60 Kreuzer und 18 fl. 90 Kreuzer zu bemessen käme; c) der Ertrag dieser Erhöhung wäre nicht zur Gründung eines allgemeinen Aufbesserungsfonds, sondern zur unmittelbaren Verteilung an jedem einzelnen Gymnasium zu verwenden; d) an diesem Ertrage hätten 1. an vollständigen Gymnasien der Direktor und die ersten vier Lehrer, 2. an Untergymnasien der Direktor und die zwei ersten Lehrer zu partizipieren, und zwar in dem Ausmaße, daß an ersteren Gymnasien der Direktor 30%, der zweite und dritte Lehrer je 20%, der vierte und fünfte je 15%, an Untergymnasien aber der Direktor 45%, der zweite Lehrer 30% und der dritte Lehrer 25% des Ertrages der Erhöhung empfangen; endlich e) hätten für die Befreiung vom Schulgelde die bestehenden gesetzlichen Bestimmungen in Kraft zu bleiben.</p>
+                  <p>Im Staatsrate haben sich mehrere Bedenken gegen diese Maßregel ergeben, und Se. k. k. Hoheit forderten sonach den Staatsrat <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Holzgethan</rs>
+                     </hi> auf, das diesbezügliche staatsrätliche Gutachten<note type="footnote" n="8">Zit. Anm. 7.</note> zu referieren. Dieser wies zunächst in längerer Auseinandersetzung nach, daß ein unabweisliches Bedürfnis einer Aufbesserung der Bezüge des Gymnasiallehrpersonales nicht vorhanden sei, daß, wenn auch die Besoldung desselben bei den gegenwärtigen Teuerungsverhältnissen keine reichliche ist, sie doch im Gegenhalte der Genüsse anderer Staatsbeamten durchaus nicht zurückstehe und daß, wenn wohl eine den Zeitumständen entsprechendere Entlohnung der Staatsbediensteten als ein allgemeines Bedürfnis anerkannt werden muß, für ein spezielles Bedürfnis des erwähnten Lehrpersonales aber keine ausreichende Begründung vorliege. Allein, auch die angetragene Art der Aufbesserung der Bezüge dieses Personales scheine nicht angemessen zu sein, denn abgesehen davon, daß sich im allgemeinen nicht behaupten lasse, daß der dermalige Betrag des Schulgeldes von <pb n="212" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s212.pdf"/>jährlich 12 fl. respektive 8 fl. Konventionsmünze ein auffallend geringer sei, wäre bei der neuen Methode zu besorgen, daß der Lehrkörper bei der Befreiung vom Schulgelde, auf welche er wesentlichen Einfluß nimmt, nicht mehr in der bisherigen liberalen Weise vorgehen, sondern vielmehr hindernd sich betätigen würde, um einer Schmälerung seiner individuellen Bezüge zu begegnen. Auch würde diese Schulgelderhöhung eine bedeutende Mißstimmung hervorrufen, indem sie im Grunde nichts anderes als eine Kopfsteuer in den Beträgen von 6 fl. 30 [Kreuzer] und 4 fl. 20 [Kreuzer] zugunsten der Direktoren und Lehrer wäre. Aus diesen Gründen habe sich daher die Majorität des Staatsrates gegen die beantragte Maßregel aussprechen zu sollen erachtet. Für den Fall aber, fährt dann Ritter v. Holzgethan fort, daß diese Maßregel als zulässig erkannt werden sollte, erklärte die staatsrätliche Majorität, sich doch nicht mit dem vorgeschlagenen Verteilungsmodus des Mehrbetrages vereinigen zu können, weil hiebei vorzugsweise der Direktor, wiewohl eben dieser nicht so bedürftig sein kann, bedacht erscheine, und andererseits ein erheblicher Sprung in den Bezügen der Lehrer hervortrete, zumal nach der vom Referenten gelieferten Nachweisung der Direktor das Doppelte des sechsten Lehrers und der fünften Lehrer [und] gegen seinen unmittelbaren Nachfolger um 436 fl. mehr an Bezügen hätte, welches Mißverhältnis noch mehr hervortrete, wenn erwogen wird, daß der Direktor und der ältere Lehrer bereits in die Dezennalzulage<note type="footnote" n="9">Nach einer zehn- bzw. zwanzigjährigen zur Zufriedenheit zurückgelegten Dienstzeit gebührte die Dezennalzulage von je 100 fl.</note> getreten sein werden. Dem Staatsrate scheine es daher angemessener, die Verteilung derart vorzunehmen, daß der Direktor von dem eingegangenen Gesamtbetrage des erhöhten Schulgeldes einen Voranteil von 10% als eine Art Leitungsgebühr erhielte, der Rest aber sowohl auf ihn als auf sämtliche angestellte Lehrer zu gleichen Teilen repartiert würde.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> äußerte, daß er der Ansicht der Majorität beipflichte, jedoch es für das zweckmäßigste ansehen würde, wenn diese Angelegenheit bis zu dem Zeitpunkte verschoben würde, wo sie im Zusammenhange mit der Regelung des gesamten Gymnasialstudienplanes im Einvernehmen mit dem Unterrichtsrate in Verhandlung genommen werden könne. Es scheine ihm die Frage in der Tat nicht so dringend zu sein, denn die Professoren seien wenigstens nicht schlechter daran als die Kreis- und Landesgerichtsräte, die überdies zu dieser Stellung sicher später gelangen als die Professoren, und es dürfte daher eine solche Bevorzugung dieser Klasse kaum zu rechtfertigen sein. Hierauf ergriff der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> wieder das Wort, um sich zunächst gegen die vom Staatsrate erhobenen Bedenken zu wenden, daß mit dieser Maßregel eine einseitige Berücksichtigung einzelner Kategorien der Staatsbediensteten bezweckt werde, während das Bedürfnis in dieser Beziehung ein allgemeines ist. Es sei allerdings richtig, daß auch alle anderen Staatsbeamten gleich schlecht daran sind und man über kurz oder lang an eine Steigerung der Entlohnung der Beamten werde denken müssen. Bei der jetzigen Finanzlage sei dies aber unmöglich, und daraus könne aber nicht gefolgert werden, daß, wenn nicht dem allgemeinen abgeholfen werden kann, auch der einzelne nicht berücksichtigt werden darf, vielmehr es tröstlich erscheinen müsse, daß doch wenigstens einer Klasse eine Begünstigung zuteil werde. Übrigens dürfe hier nicht unbeachtet gelassen <pb n="213" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s213.pdf"/>werden, daß die faktischen Verhältnisse der Staatsbeamten doch wesentlich verschieden von jenen der Professoren sind. So habe dieser nicht wie der Beamte sein Büro und alle zu seinem Geschäftsleben gehörigen Bedürfnisse gedeckt, sondern müsse sich selber alles aus eigenem schaffen, auch sei der gewöhnliche Aufwand des Lehrers ein größerer als der des Beamten. Der Auffassung, daß, wenn eine Erhöhung der Bezüge zugestanden werden will, diese nur aus Staatsmitteln geschehen solle, würde sich der Staatsminister wohl mit Freude anschließen, wenn nur der Finanzminister dazu zustimmen wollte. Auf den Einwurf, daß diese Schulgelderhöhung vielen Familien sehr drückend sein werde, müsse erwidert werden, daß bisher nirgends der Unterricht so billig ist wie in Österreich, daß übrigens die ärmere Klasse von dieser Erhöhung weniger betroffen werde, zumal diese Art Schüler weniger an den Gymnasien der Hauptstädte als vielmehr an den Landgymnasien zu finden sind, welch letztere von dieser Maßregel größtenteils ausgenommen bleiben. Ebenso dürfte die Besorgnis, daß die Schulgelderhöhung gleich einer Steuer Mißstimmung erzeugen oder daß gesagt werde, der Staat mache daraus eine Art Einnahmsquelle, ganz unbegründet sein, indem ja der Mehrbetrag speziell nur für die Lehrer der bezüglichen Anstalten verwendet wird. Was nun die vorgeschlagene Art der Verteilung betrifft, so beruhe dieselbe auf einstimmigen Äußerungen und Vorschlägen von Männern, die im Gymnasialleben ergraut sind, und der Staatsminister mußte bei Erstattung seiner Anträge umso mehr die moralische Überzeugung von der Zweckmäßigkeit und Richtigkeit dieses Modus haben, als man am Ende in dieser Sache doch nur auf diese mit der gehörigen Erfahrung ausgerüsteten Männer kompromittieren müsse, von denen übrigens auch eine Befangenheit nicht vorauszusetzen sei, da sie nicht mehr Lehrer sind, daher nicht für ihren eigenen Vorteil zu sprechen hatten. Belangend endlich den Anwurf des Staatsratspräsidenten, diese Frage mit der allgemeinen Gymnasialregelung durch den Unterrichtsrat verhandeln zu lassen, so müsse der Staatsminister bemerken, daß diese Sache niemals in das Ressort des Unterrichtsrates gelangen könne, weil es ein rein administrativer Gegenstand sei, welchen das Staatsministerium in eigener Hand behalten müsse. Der Staatsminister erkannte sonach die Bedenken des Staatsrates nicht für überwiegend und glaubte daher, bei seinen gestellten Anträgen, die er schließlich noch rekapitulierte, beharren zu sollen.</p>
+                  <p>Im Laufe der weiteren Erörterung hierüber erklärten sich der Minister des Äußern und der Minister Graf Nádasdy in allen Punkten mit dem Staatsminister einverstanden. Desgleichen stimmten für diese Anträge der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi>, jedoch mit der Bemerkung, daß bezüglich der Verteilung ein anderer Modus zu wählen wäre, indem es diesen Stimmführern nicht gerecht schien, daß an dem Mehrertrage bloß die Direktoren und die älteren Lehrer partizipieren sollen. Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> schien eine Erhöhung der Bezüge der Volksschullehrer ein noch größeres Bedürfnis zu sein und würde daher die fragliche Erhöhung des Schulgeldes zugunsten der Gymnasiallehrer nicht früher eintreten lassen, wenn schon nicht Mittel vorhanden sind, auch ein Gleiches für die Volksschullehrer zu tun. Freiherr v. Mecséry hätte auch einige Bedenken gegen die Durchführungsmodalitäten dieser Maßregel und hielte es namentlich in Absicht auf die Beteilung für angemessener, <pb n="214" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s214.pdf"/>wenn das ganze Schulgeld respektive auch der Mehrbetrag an den betreffenden öffentlichen Fonds abzugeben [wäre] und von da aus nach Maßgabe des Ergebnisses eine gleiche Verteilung an alle Lehrer der bezüglichen Anstalt eintreten würde. Diese Modifikation fand auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> richtig, indem eine unmittelbare Verteilung auch schon den Nachteil hätte, daß in der Schulgeldbefreiungsfrage eine härtere Behandlungsweise eintreten würde, zumal der hiebei tätige Lehrkörper denn doch immer befangen bleibt. Im übrigen glaubte aber dieser Votant, die Anträge des Staatsministers auf das wärmste unterstützen zu sollen, wobei er sich aber der Betrachtung nicht entziehen konnte, daß weit mehr als das Schulgeld die Anschaffung der erforderlichen Lehrmittel heutzutage das Studieren kostspielig mache und sich daher eine Einwirkung des Staatsministeriums auf Herbeischaffung von wohlfeilen Schulbüchern sehr empfehlen würde. Der Minister Graf Esterházy schloß sich diesem Votum an. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> anerkannte die vom Staatsrate gegen die fragliche Maßregel geltend gemachten Gründe, hielt übrigens diese Sache keineswegs für so dringend, als daß sie praeferenter in die Hand genommen werde und stimmte daher dem Einraten des Staatsratspräsidenten bei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> trat den Anträgen des Staatsministers mit dem Bemerken bei, daß allerdings im Reichsrate der Wunsch nach Aufbesserung der Bezüge der Gymnasiallehrer lautgeworden, zugleich aber damit auch die Aufbesserung der Lage der Realschullehrer in Verbindung gebracht worden sei, er daher der Meinung wäre, daß, wenn jetzt das eine geschehe, gleichzeitig auch das zweite ins Werk gesetzt werden solle. Dieser Stimmführer glaubte auch die Frage aufwerfen zu sollen, ob die gedachte Maßregel ohne Mitwirkung des Reichsrates getroffen werden könne, und meinte, für seine Person sich dahin entscheiden zu sollen, daß es im einfachen Verordnungswege nicht abgetan werden kann.</p>
+                  <p>Nach dem Vorangelassenen sprach sich die Mehrheit der Konferenz für die Anträge des Staatsministers und hievon wieder die relative Mehrheit für einen andern Modus der Verteilung des erhöhten Schulgeldes aus<note type="footnote" n="10">Nachdem ein neuer Verteilungsmodus ausgearbeitet war, legte Erzherzog Rainer den Gegenstand dem Kaiser vor, der die Anträge genehmigte, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 588/1863</bibl>; die entsprechende Verordnung des Staatsministeriums wurde am <date when="1863-05-28">28. 5. 1863</date> erlassen, <bibl type="archival">RGBL. Nr. 51/1863</bibl>; danach hatten am Obergymnasium die sechs obersten Lehrer mit Einschluß des Direktors je 15%, der siebente Lehrer 10%, an Untergymnasien die oberen vier Lehrer mit Einschluß des Direktors je 25% vom Ertrag der Schulgelderhöhung zu erhalten.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_316_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Abhaltung einer Weltausstellung in Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> referierte über seinen au. Vortrag vom 20. November v. J., Z. 1036, wegen Abhaltung einer Industrie- und Landwirtschaftsausstellung in Wien<note type="footnote" n="11">
+                        <bibl type="archival">AVA., MHVw., Präs. 1036/1862 (K.) und Präs. 198/1863 (RS.)</bibl>.</note>.</p>
+                  <p>Die Frage wegen dieser allgemeinen Ausstellung im Jahre 1865 sei zuerst von der Handels- und Gewerbekammer in Wien mit Zuziehung von Delegierten der hiesigen einschlägigen Vereine und Gesellschaften ausgegangen<note type="footnote" n="12">Gedenkschrift der Handels- und Gewerbekammer in Wien vom August 1862, <quote>ebd., Präs. 729/1862</quote>. Der Wunsch nach einer solchen Ausstellung in Wien war aber schon älter, vgl. <quote>ebd., Präs. 310/1862</quote>.</note>. Über diesen Vorschlag habe Referent vorerst sämtliche Handels- und Gewerbekammern und landwirtschaftlichen Vereine der Monarchie vernehmen und insbesondere zur Abgabe ihrer <pb n="215" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s215.pdf"/>Äußerungen über die zwei Hauptfragepunkte auffordern zu sollen geglaubt, ob nämlich das Jahr 1865 hiezu geeignet und ob es zweckmäßig sei, eine allgemeine Weltausstellung zu veranlassen oder solche bloß auf die Teilnahme der deutschen Bundesstaaten zu beschränken<note type="footnote" n="13">
+                        <quote>Ebd., Präs. 729/1862</quote>. Von den mehr als 50 Antworten liegen nur mehr sieben dem Sammelakt bei, <quote>ebd., Allgemein 7480/1862</quote>, und zwar vom Wiener Gemeinderat, von den Handelskammern Laibach, Pilsen und Prag und von drei Vereinen.</note>. Alle diese Korporationen befürworten einstimmig die Abhaltung einer Industrie- und Agrikulturausstellung. Die Frage, ob es eine Weltausstellung sein soll, werde mit Ausnahme der Budweiser und Innsbrucker Handelskammer, welche eine österreichisch-deutsche Ausstellung befürworten, von allen übrigen entschieden bejaht. In bezug auf das Jahr sind Verschiedenheiten der Ansichten, indem die mehreren für 1865, andere für 1866 und wieder andere sogar für 1870 und 1872 stimmen. Im allgemeinen sei also der Grundsatz festgehalten, daß es eine Weltausstellung, und zwar in den nächsten Jahren sein soll. Für die Wahl des Jahres 1865 spreche der Umstand, daß sonst ein anderer Staat Österreich zuvorkomme und eine Weltausstellung ausschreiben werde. Über die Modalitäten der Durchführung wäre erst dann, wenn das Projekt die Ah. Zustimmung erhalten haben wird, zu beraten, und Referent habe sich daher vorläufig auf den au. Antrag beschränkt, Se. Majestät mögen Ag. gestatten, daß in Wien eine allgemeine Weltausstellung jedenfalls in keiner früheren Zeit als im Jahre 1865 abgehalten werde und hiezu die ausländischen Staaten unverweilt eingeladen werden. Schließlich glaubte Referent noch erwähnen zu sollen, daß bei der ganzen Sache an die Finanzen keinerlei größere<ref xml:id="fn_5_5_316_e"/>
+                     <note type="variant" n="e" target="#fn_5_5_316_e">Einfügung Wickenburgs.</note> Anforderungen werden gestellt werden. Hierauf referierte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, daß der Staatsrat<note type="footnote" n="14">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 986/1862</bibl>.</note> dem Antrage des Handelsministers einhellig beigetreten sei und nur geglaubt habe, daß der Minister darauf aufmerksam zu machen wäre, daß die Ausstellung auch auf die Schöpfungen der bildenden Künste auszudehnen wäre und demnach ein entsprechender Zusatz zu dem vorgelegten Resolutionsentwurfe beantragt wurde, womit sich der Handelsminister sofort einverstanden erklärte.</p>
+                  <p>Bei der hierauf folgenden Beratung wurde gegen die Abhaltung einer Weltausstellung in Wien im Prinzipe nichts eingewendet, über die Frage aber, ob das Jahr 1865 hiezu für geeignet gehalten werde, entspann sich eine längere Diskussion, bei welcher von mehreren Stimmführern dieser Zeitraum mit Hinblick auf die heuer in London stattgefundene Ausstellung<note type="footnote" n="15">Die Londoner Weltausstellung von 1862 war mehrmals Gegenstand im Ministerrat gewesen, vgl. Register zu <quote>ÖMR. V/1–4</quote>; zur Teilnahme Österreichs siehe <bibl type="secondary">
+                           <author>Pemsel</author>, Die Wiener Weltausstellung von 1873, 16 f.</bibl>
+                     </note> als viel zu kurz bezeichnet und dargelegt wurde, daß es, nicht bloß um der Industrie zum neuen Aufschwunge Zeit zu gewinnen, sondern auch um die Aussteller von den vielfachen Kosten sich erholen zu lassen, sehr wünschenswert erscheine, einen späteren Termin zu wählen, wozu das Jahr 1870 wohl das passendste wäre, wogegen wieder die anderen Stimmen dem Antrage des Handelsministers nicht geradezu entgegenzutreten vermeinten und nur wünschten, daß sich bezüglich dieses Termines so viel als möglich allgemein gehalten werde, <pb n="216" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s216.pdf"/>so daß, wenn im Jahre 1865 Hindernisse eintreten sollten oder man überhaupt hievon abgehen wollte, es immer möglich bleibt, die Ausstellung um ein oder zwei Jahre hinauszuschieben. Als dann im weiteren Verlaufe der Debatte von der Majorität der Konferenz proponiert wurde, die Sache einstweilen zu sistieren, der Handelsminister jedoch dagegen geltend machte, daß man auf die diesfällige Erklärung der Regierung allgemein warte, daß sonst andere Staaten, namentlich Preußen [zu]vorkommen könnten, welches bekanntlich bereits die Idee hat, eine Weltausstellung für das Jahr 1865 auszuschreiben, endlich daß doch auch die Eingabe der hiesigen Handelsund Gewerbekammer beantwortet werden müsse, einigten<ref xml:id="fn_5_5_316_f"/>
+                     <note type="variant" n="f" target="#fn_5_5_316_f">Korrektur Wickenburgs aus <quote>einigte man</quote>.</note> sich schließlich über Antrag des Staatsministers <ref xml:id="fn_5_5_316_g">die mehreren Stimmen, mit Ausnahme des auf seinem Antrage beharrenden Handelsministers</ref>
+                     <note type="variant" n="g" target="#fn_5_5_316_g">Einfügung g–g Wickenburgs.</note>, in dem au. Einraten, Se. Majestät geruhe den Handelsminister in Erledigung seines gegenwärtigen Vortrages Ag. zu beauftragen, über diese Frage nach weiter gemachten Wahrnehmungen der nächsten ein oder zwei Jahre neuerlich Vortrag zu erstatten<note type="footnote" n="16">Auf den Vortrag des Handelsministers erging am <date when="1863-02-08">8. 2. 1863</date> folgende Ah. Entschließung: <quote>Es ist Mein Wille, daß die hier beantragte Industrie- und Landwirtschaftsausstellung, welche sich übrigens auch auf die Schöpfungen der bildenden Künste erstrecken soll, wenn die Durchführung der dazu erforderlichen Vorbereitungen dies gestattet, im Jahre 1865 oder wenigstens in einem der nächstdarauffolgenden Jahre abgehalten werde. Sie haben nach Ablauf eines Jahres das von Ihnen zu diesem Behufe Verfügte zu Meiner Kenntnis zu bringen</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 437/1863</bibl>. Fortsetzung <ref type="protocol-link" target="MRP-1-5-06-0-18630630-P-0368.xml#top_5_6_368_3">MR. v. <date when="1863-06-30">30. 6. 1863</date>/III</ref>. Die Weltausstellung kam schließlich erst 1873 zustande; dazu siehe umfassend <bibl type="secondary">
+                           <author>Pemsel</author>, Die Wiener Weltausstellung von 1873</bibl>; zur Geschichte der Planungen <quote>ebd. 36–44</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_316_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bestreitung der Kosten für die Herausgabe des wissenschaftlichen Werkes über die Novara-Expedition</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> referierte in Hinsicht der Frage wegen Herausgabe des wissenschaftlichen Teiles des Novara-Werkes rücksichtlich wegen Bestreitung der diesfälligen Kosten<note type="footnote" n="17">Zur Weltumseglung der Fregatte „Novara“ vom <date when="1857-04-30">30. 4. 1857</date> bis <date when="1859-08-30">30. 8. 1859</date> siehe zusammenfassend <bibl type="secondary">
+                           <author>Hamann</author>, Forschungsreisen 418–421</bibl>, der sie als <quote>die letzte globale, klassische Umfahrung der Erde im alten Stil unter gleichzeitiger Verwendung moderner Errungenschaften wissenschaftlichen Arbeitens</quote> charakterisiert.</note>.</p>
+                  <p>Nach einem einleitenden Vortrage, in welchem der Referent die bezüglichen Verhältnisse beleuchtete und die Notwendigkeit darlegte, das von den Mitgliedern der Novara-Expedition gesammelte großartige wissenschaftliche Material der Veröffentlichung und praktischen Verwertung zuzuführen, bemerkte er, daß die fraglichen wissenschaftlichen Arbeiten auf vier Jahre verteilt und das Gesamtwerk aus 13 Bänden bestehen wird und daß die Kosten hierfür die Summe von 80.000 fl. nicht übersteigen werden. Um nun diese Angelegenheit mit Erfolg zum Abschlusse zu bringen, glaube Referent folgendes in Antrag bringen zu sollen: Es hätte nämlich die Herausgabe des Werkes durch das Marineministerium eingeleitet zu werden, und wären die Kosten vorschußweise in der Art zu bestreiten, daß von der Totalsumme per 80.000 fl. eine Tangente von 20.000 fl. auf die hiebei beteiligten Ministerien, und zwar das Staatsministerium, das Handelsministerium und das Marineministerium entfiele, während die noch übrig bleibenden 20.000 fl. beim Finanzministerium, und zwar dadurch zu bedecken wären, daß dasselbe die Verwendung der Staatsdrukkerei <pb n="217" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s217.pdf"/>ohne des üblichen Zuschlages von 60% gestattete, was bei der Größe des Werkes einem Zuschuß von 20.000 fl. ungefähr gleichkäme. Da die Herausgabe auf vier Jahre verteilt ist, so würde jährlich ein jedes dieser Ministerien nur 5000 fl. zu leisten haben. Diese Unterstützung dürfte keinem der gedachten Ministerien schwerfallen, und Freiherr v. Burger glaube diesen seinen Vorschlag der Konferenz zur Annahme umso mehr empfehlen zu sollen, als er sonst keinen anderen Weg wüßte, wie dieses Werk zustande kommen soll.</p>
+                  <p>Bei der eingehenden längeren Erörterung hierüber erklärten der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> sich gegen diesen Vorschlag aussprechen zu müssen; der erstere, weil das ganze nur eine Überschreitung des Finanzgesetzes wäre, der letztere, weil die Dotation des Handelsministeriums bereits so beschränkt sei, daß es ihm unmöglich ist, diese 5000 fl. hereinzubringen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> nahm dagegen kein Bedenken, diese Beihilfe zuzusagen, indem er hofft, diese 5000 fl. aus der Dotation des Staatsministeriums zu ersparen, im entgegengesetzten Falle aber diese Überschreitung zu verteidigen wissen wird. Seines Erachtens sei das Sparen hier nicht am rechten Orte, denn zu welchem Zwecke wäre die ganze kaiserliche Expedition gewesen, wenn jetzt die praktische Nutzanwendung davon ausbleiben soll. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, daß, um die Arbeiten nicht zu stören, er bereit sei, das laufende Erfordernis unterdessen zu bestreiten, jedoch davon nicht abgehen könne, daß das ganze seinerzeit an den Reichsrat gebracht und der verfassungsmäßigen Behandlung unterzogen werde. <ref xml:id="fn_5_5_316_h">[Der] Handelsminister erklärte, dieser Weg sei der einzige vollkommen korrekte. In der ursprünglich für die Novara-Reise bestimmten Dotation sei auch schon auf die Herausgabe der wissenschaftlich erreichten Zwecke vorgedacht worden, und da jenes Präliminare derzeit nicht erschöpft wurde, brauche nur dieses Erfordernis nachträglich bei dem Reichsrate geltend gemacht werden</ref>
+                     <note type="variant" n="h" target="#fn_5_5_316_h">Einfügung h–h Wickenburgs.</note>[Der] <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> erklärte, dieser Weg sei der einzige vollkommen korrekte. In der ursprünglich für die Novara-Reise bestimmten Dotation sei auch schon auf die Herausgabe der wissenschaftlich erreichten Zwecke vorgedacht worden, und da jenes Präliminare derzeit nicht erschöpft wurde, brauche nur dieses Erfordernis nachträglich bei dem Reichsrate geltend gemacht werden. Gegen den vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> gemachten Vermittlungsvorschlag, die an der Dotation für die Londoner Weltausstellung ersparten 15.000 fl. zu dem fraglichen Zwecke zu verwenden, wurde das Bedenken erhoben, daß ein Revirement nicht gestattet ist und das Ersparte in einer Rubrik an die Finanzen zurückfalle.</p>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> nochmals in näherer Auseinandersetzung die Durchführbarkeit des vorgeschlagenen Modus nachzuweisen und ferner darzulegen versucht hatte, daß auf diese Weise zunächst das Gelingen dieses ehrenvollen Unternehmens gesichert sein dürfte, erklärte sich die Majorität der Konferenz mit seinen Anträgen einverstanden<note type="footnote" n="18">Erzherzog Rainer schlug jedoch im Einverständnis mit Schmerling vor, die Herausgabe der wissenschaftlichen Teile des Novara-Werkes der Akademie der Wissenschaften unter Oberaufsicht des Staatsministeriums zu übertragen, in dessen Budget die Kosten in der Form einzustellen waren, daß die erste Rate von 20.000 fl. als Nachtragsdotation, die weiteren drei Raten durch ordentliche Budgetierung in den kommenden Jahren zu bedecken waren. Mit Vortrag v. <date when="1863-02-13">13. 2. 1863</date> legte Erzherzog Rainer den Vortrag Burgers v. <date when="1863-01-24">24. 1. 1863</date> und den neuen Vorschlag dem Kaiser vor, der dem Antrag Erzherzog Rainers mit Ah. E. v. <date when="1863-02-15">15. 2. 1863</date> bzw. mit Handschreiben an Schmerling und Plener vom selben Tag stattgab, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 524/1863</bibl>, und <quote>ebd., CBProt. 22 c/1863</quote>. Das Werk erschien in 21 Bänden zwischen 1861 und 1877 unter dem Titel <quote>Reise der österreichischen Fregatte Novara um die Erde in den Jahren 1857–1859, unter den Befehlen des Commodore Bernhard Freiherr v. Wüllerstorf-Urbair</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>
+                     <pb n="218" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s218.pdf"/>Wien, am <date when="1863-01-26">26. Jänner 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1863-02-21">21. Februar 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-02-23">23. Februar 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

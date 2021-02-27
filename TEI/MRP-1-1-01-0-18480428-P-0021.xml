@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="021">Sitzung 21</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-28"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z21.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">511–512</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-28"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Pillersdorf, Krauß, Taaffe, Zanini; BdE. Ficquelmont (29. 4.), Franz Karl (29. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-29">29. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-29">29. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_21_1">Rücktritt FML. Peter Zaninis; Ernennung Theodor Graf Baillet de Latours zu seinem Nachfolger</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_21_2">Bezüge Graf Karl Ferdinand Buol-Schauensteins als Gesandter in Rußland</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_21_3">Kein österreichisches Kontingent für eine deutsche Reservearmee</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_21_4">Behandlung bei Gefechten gefaßter Zivilisten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_21_5">Proteste gegen das Silberausfuhrverbot</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_21_6">Offizielle Erklärung zur Verzögerung des Amtsantrittes Erzherzog Franz Josephs in Böhmen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480428-P-0021" ana="a1-1848_z21">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z21.pdf">
+               <title type="num">Nr. 21</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-28">28. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Krauß, Taaffe, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (29. 4.), Franz Karl (29. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">511–512</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des Ministerrates vom <date when="1848-04-28">28. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_21_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Rücktritt FML. Peter Zaninis; Ernennung Theodor Graf Baillet de Latours zu seinem Nachfolger</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident</rs>
+                     </hi> zeigte dem Ministerrate an, daß er infolge der in einer früheren Ministerratssitzung beschlossenen<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_3">MR. v. <date when="1848-04-20">20. 4. 1848</date>/III</ref>.</note> und von ihm übernommenen Mission Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Franz Karl den festen Entschluß und die dringende Bitte des Kriegsministers, FML. Zanini, seinen Ministerposten in die Hände Ew. Majestät zurückzulegen, vorgetragen und Höchstdemselben zugleich die Ansicht des Ministerrates eröffnet habe, daß der FZM. Graf Baillet Latour derjenige Mann sei, welcher seinen Fähigkeiten, Kenntnissen und persönlichem Charakter nach als der Nachfolger Zaninis im Kriegsministerium bezeichnet werden könnte.</p>
+                  <p>Der provisorische Ministerpräsident bemerkte zugleich, hierüber auch mit dem FZM. Grafen Latour gesprochen zu haben, welcher sich dahin äußerte, daß er diesen Posten zwar nicht gesucht haben würde, wenn aber das Vertrauen Ew. Majestät ihn dazu beruft, so würde er keinen Anstand nehmen, ihn anzutreten, weil es Kleinmut verraten würde, sich nicht dort zu stellen, wohin ihn der Dienst ruft, nur sprach er den Wunsch und die Hoffnung aus, daß ihm sein Vorgänger FML. v. Zanini in seinem neuen Amte an die Hand gehen möge, was dieser bereitwillig und mit Vergnügen zu tun versprach. Ew. Majestät dürften Sich sonach Ag. bestimmt finden, den Kriegsminister FML. v. Zanini seines Ministerpostens in Gnaden zu entheben und an seine Stellen den FZM. Grafen Baillet Latour zum Minister des Kriegswesens zu ernennen<note type="footnote" n="2">Mit Kabinettschreiben v. <date when="1848-04-29">29. 4. 1848</date> wurde FML. Zanini seines Postens als Kriegsminister enthoben, FLM. Graf Baillet-Latour zu seinem Nachfolger bestellt, alle übrigen Minister davon unterrichtet und der Erste Obersthofmeisterstellvertreter angewiesen, alles Erforderliche einzuleiten, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 511/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_21_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bezüge Graf Karl Ferdinand Buol-Schauensteins als Gesandter in Rußland</head>
+                  <p>Der provisorische Ministerpräsident brachte hierauf als Minister des Auswärtigen einen an Ew. Majestät wegen Bewilligung der Bezüge für den nach Rußland bestimmten Gesandten Grafen Buol-Schauenstein von ihm beabsichtigten Antrag zur Sprache<note type="footnote" n="3">Der erste Entwurf des Vortrages mit den von Ficquelmont ursprünglich eingesetzten Zahlen <quote>ebd., Admin. Reg., F 4, Karton 43, Fasz. Grat Buol-Schauenstein, fol. 52–55</quote>. Zu Carl Ferdinand Graf Buol-Schauenstein siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 2, 204–208</bibl>.</note>.</p>
+                  <p>
+                     <pb n="115" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s115.pdf"/>Um einen Maßstab für die Bemessung seiner Bezüge zu erhalten, bemerkte derselbe, daß die Vorgänger auf diesem Gesandtschaftsposten in den Jahren 1810 und 1816, Saint-Julien und Lebzeltern<note type="footnote" n="4">Ludwig Graf Lebzeltern, <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 14, 280 t.</bibl>, war Gesandter in St. Petersburg von 1816–1826; FML. Johann Josef Graf v. Saint-Julien, <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 28, 83</bibl>, hatte diese Stelle von 1809–1812 bekleidet, siehe auch <bibl type="secondary">
+                           <author>Matsch</author>, Auswärtiger Dienst 121</bibl>.</note>, an Gehalt und Zulage 60.000 fl., an Quartiergeld 12.000 fl. (Baron Lebzeltern erhielt die Vergütung des Mietzinses nach Bedarf), dann zur ersten Einrichtung 40.000 fl. ein für allemal bezogen haben.</p>
+                  <p>Nach dem vorläufigen Antrage des Ministers der auswärtigen Angelegenheiten wären für den Gesandten in Rußland, Grafen Buol-Schauenstein, folgende Bezüge festzusetzen: 60.000 fl. an Gehalt (8.000 fl. fix und 52.000 fl. als Zulage), 12.000 fl. Quartiergeld und 30.000 fl. zur Einrichtung.</p>
+                  <p>Da jedoch bemerkt wurde, daß gerade dieser Gesandtschaftsposten im Publikum vielfachen Anfechtungen ausgesetzt sein werde, und man sich gegen Vorwürfe von Seite des Reichstages schützen müsse, Graf Buol-Schauenstein übrigens auch eigenes Vermögen besitzt, so einigte sich der Ministerrat in der Ansicht, daß dem Gesandten in Rußland an Gehalt und Zulage 50.000 fl., an Quartiergeld 10.000 fl. und zur Einrichtung ein für allemal 20.000 fl. zu bewilligen wären.</p>
+                  <p>Der Minister der auswärtigen Angelegenheiten wird demgemäß den au. Vortrag an Ew. Majestät erstatten<note type="footnote" n="5">Ficquelmont erstattete am <date when="1848-04-29">29. 4. 1848</date> einen diesbezüglichen Vortrag, in dem die vom Ministerrat bewilligten Bezugssummen eingesetzt wurden, <bibl type="archival">HHSTA., Admin. Reg., F 4, Karton 43, Fasz. Grat Carl Buol-Schauenstein, fol. 52–55</bibl>. Krauß wurde daraufhin mit Kabinettschreiben v. <date when="1848-05-05">5. 5. 1848</date> von Ferdinand angewiesen, ein Gutachten über die zu bewilligenden Gelder zu erstellen, <bibl type="archival">FA., FM., Präs. 539/1848</bibl>. Mit Vortrag v. <date when="1848-05-10">10. 5. 1848</date> wollte der Finanzminister das Reise- und Einrichtungspauschale auf 17.000 fl im ersten Jahr und auf 12.000 fl. in den folgenden Jahren reduzieren, für Gehalt und Zulage nur 40.000 fl. ausgeben und das Quartiergeld mit 8000 fl. p. a. begrenzen, <quote>ebd., Präs. 7571/1848</quote>. Buol wurde erst auf Vortrag Schwarzenbergs v. <date when="1848-12-04">4. 12. 1848</date> mit Ah. E. v. <date when="1848-12-06">6. 12. 1848</date> zum Gesandten in St. Petersburg bestimmt, <bibl type="archival">HHSTA., Admin. Reg., F 4, Karton 43, Fasz. Graf Carl Buol-Schauenstein, fol. 65–71</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_21_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Kein österreichisches Kontingent für eine deutsche Reservearmee</head>
+                  <p>Derselbe Minister brachte den Antrag und Beschluß des Ausschusses in Militärangelegenheiten zu Frankfurt zur Kenntnis des Ministerrates, wornach in der Absicht, die deutschen Bundesgrenzen zu decken, die Aufstellung einer Reservearmee im Herzen von Deutschland in der Gegend von Hof und Bamberg für notwendig erkannt und das Ansinnen gestellt wird, daß 20.000 Österreicher und Preußen dahin beordert werden mögen, und daß dem Ausschusse die Zeit, wann die Vorbereitungen zum Abmarsche fertig sind, angezeigt werden wolle<note type="footnote" n="6">Der Beschluß der Bundesversammlung v. <date when="1848-04-20">20. 4. 1848</date>, 38. Sitzung, Separatprotokoll, <bibl type="archival">PDB. 444 a/444 b</bibl>, wurde noch mit Schreiben Colloredos vom selben Tag an Ficquelmont übersandt, <bibl type="archival">HHSTA., StK., Deutsche Akten, neue Reihe 55, Fasz. 66</bibl>.</note>.</p>
+                  <p>Der Ministerrat findet es angedeutet, ja notwendig, dieses Ansinnen so viel möglich abzulehnen, was umso leichter geschehen könne, als Österreich sich gegenwärtig im Kriege mit allen italienischen Regierungen befindet, die östliche Grenze und Tirol gleichfalls bedroht sind, und Deutschland auch deshalb weniger Rücksicht verdiene, weil es den polnischen Emigranten den Durchzug zu unserem Nachteile gestattet.</p>
+                  <p>
+                     <pb n="116" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s116.pdf"/>Der Minister des Äußern wird sich hiernach benehmen<note type="footnote" n="7">Ficquelmont informierte mit Schreiben (K.) v. <date when="1848-04-30">30. 4. 1848</date> zunächst das Kriegsministerium von der deutschen Forderung und schlug vor. da man allgemein wußte, daß tu Böhmen eine größere Truppenmenge stand, unter Hinweis auf die schwierige Lage Österreichs in Frankfurt anfragen zu lassen, in welcher Zeit die Truppen <quote>im Herzen Deutstillands</quote> bereitzustellen wären, <quote>ebd</quote>. Von diesem Schritt unterrichtete Ficquelmont auch Colloredo. Schreiben (K.) v. <date when="1848-05-01">1. 5. 1848</date>, <quote>ebd</quote>. Latour schätzte, var der zweiten Hälfte Juli das erforderliche Kontingent nicht stellen zu können. Schreiben an Ficquelmont v. <date when="1848-05-02">2. 5. 1848</date>, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_21_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Behandlung bei Gefechten gefaßter Zivilisten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> trug dem Ministerrate vor, daß der FZM. Graf Nugent im Gefechte bei Visco am <date>18. April d. J.</date> 25 Individuen des Zivilstandes mit Waffen in der Hand gefangengenommen und dem Kreisamte zu Görz, dieses aber sie dem Stadt- und Landrechte zu Triest überliefert habe, damit sie als Hochverräter in Untersuchung gezogen werden.</p>
+                  <p>Gegen die kriminalgerichtliche Behandlung dieser und ähnlicher Individuen durch Zivilgerichte macht der Triester Stadt- und Landrechtspräsident Baron Buffa und der küstenländische Gouverneur Graf Salm dringende Vorstellungen<note type="footnote" n="8">Der Bericht Salms v. <date when="1848-04-22">22. 4. 1848</date>, an Pillersdorf gerichtet, in <bibl type="archival">AVA., IM., Präs. 1543/1848</bibl>. Pillersdorf übergab diesen Akt an Sommaruga, <quote>ebd., Präs. 1188/1848</quote>; anbei auch das erwähnte Schreiben Buffas an Salm v. <date when="1848-04-20">20. 4. 1848</date>. Vgl. dazu den Bericht Hartigs an Ficquelmont v. <date when="1848-04-20">20. 4. 1848</date>, in dem er auf dasselbe Problem eingeht, <bibl type="archival">HHSTA., StK., Provinzen, Lombardo-Venetien 19, Fasz. Korrespondenz mit den Pazifìzierungs Kommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 97f.</bibl>, und v. <date when="1848-04-24">24. 4. 1848</date>, in dem er auch über das Einschreiten Salms berichtet, <quote>ebd., 112–115</quote>.</note>.</p>
+                  <p>Sie finden, es sei in Rechtsbeziehung schwer auszumitteln, ob solche mit den Waffen in der Hand ergriffenen Individuen freiwillig oder gezwungen die Waffen gegen Österreich trugen, jedenfalls würde diese Ermittlung sehr viel Zeit in Anspruch nehmen. In politischer Beziehung würde die Behandlung solcher Individuen nach der Strenge der Gesetze dem Pazifikationsgeschäfte des Grafen Hartig<note type="footnote" n="9">Zur Hartigschen Pazifizierungsmission siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480422-P-0017.xml#top_1_1_17_3">MR. v. <date when="1848-04-22">22. 4. 1848</date>/III</ref>.</note> sehr hinderlich und im Widerspruche mit den milden Gesinnungen Ew. Majestät sein, nachdem Allerhöchstdieselben erst unlängst Amnestie für ähnliche Fälle in Galizien und Italien auszusprechen geruhet haben<note type="footnote" n="10">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480417-P-0014.xml#top_1_1_14_1">MR. v. <date when="1848-04-17">17. 4. 1848</date>/I</ref>. Anm. 3.</note>.</p>
+                  <p>Ferner würde es für die Zivilstrafbehörde bei Einlieferung dieser und anderer ähnlicher Gefangener absolut unmöglich sein, ihr Amt wegen Mangels an Richtern und Arresten gehörig zu üben.</p>
+                  <p>Der Ministerrat erklärte sich mit der Ansicht des Justizministers und des Ministers des Inneren (an welchen die erwähnten Vorstellungen zuerst gelangten und von ihm an den Justizminister geleitet wurden)<note type="footnote" n="11">Siehe Anw. 8.</note> vollkommen einverstanden, daß der FZM. Graf Nugent nicht zu hindern wäre, solche Gefangene nach Umständen als Kriegsgefangene zu behandeln, als Hochverräter wären sie aber nicht in Untersuchung zu ziehen, wenn eine Untersuchung gegen sie nicht etwa wegen anderer Verbrechen angedeutet erscheint.</p>
+                  <p>Um unsere Truppenkörper in Italien hiernach anzuweisen, wird diese Angelegenheit an den Kriegsminister geleitet<note type="footnote" n="12">Mit Note v. <date when="1848-04-28">28. 4. 1848</date> teilte Sommaruga den Beschluß des Ministerrates Zanini mit. <bibl type="archival">KA., HKR., KM., Präs. 820/1848</bibl>. Der Kriegsministers gab mit Schreiben (K.) v. <date when="1848-04-29">29. 4. 1848</date> an Radetzky und Nugent die Weisung, in diesem Sinne zu verfahren, <quote>ebd</quote>.</note>, gleichzeitig aber vom Justizminister das Erforderliche <pb n="117" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s117.pdf"/>an Grafen Salm, an den obersten Justizpräsidenten und an den Minister des Inneren erlassen<note type="footnote" n="13">Der entsprechende Akt <bibl type="archival">AVA, IM., Präs. 373/1848</bibl> ist nicht mehr vorhanden. Sommaruga zeigte mit Schreiben v. 28. 4.1 848 Pillersdorf an, daß er die entsprechneden Maßnahmen eingeleitet habe, <quote>ebd., Präs. 1333/1848</quote>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident</rs>
+                     </hi> erinnerte bei diesem Anlasse, daß der Gouverneur Graf Salm die oberwähnte Vorstellung auch dem Grafen Hartig mitgeteilt, und daß Graf Hartig bei dem erfolgreichen Fortschreiten der k.k. Armee und im Sinne seines Pazifikationswerkes die erwähnten Gefangenen an dem Geburtsfeste Ew. Majestät freigelassen habe<note type="footnote" n="14">Siehe dazu die Abschrift einer entsprechenden Weisung Hartigs an Riccabona, Kriminalgerichtspräsident von Görz, v. <date when="1848-04-24">24. 4. 1848</date>, <bibl type="archival">HHSTA., StK., Lombardo-Venetien 19, Fasz. Korrespondenz mit den Pazifizierungs Kommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 111f.</bibl>; abgedruckt bei <bibl type="secondary">
+                           <author>Filipuzzi</author>, Relazioni diplomatiche 1, 62</bibl>.</note>. Dieser Gnadenakt habe eine sehr gute Wirkung hervorgebracht. Die Freigelassenen seien auf ihre Knie gefallen und haben schluchzend ausgerufen: „Evviva il nostro Imperadore Ferdinando.“<note type="footnote" n="15">So Hartig in seinem Bericht an Ficquelmont v. <date when="1848-04-24">24. 4. 1848</date>, <bibl type="archival">HHSTA., StK., Lombardo-Venetien 19, Fasz. Korrespondenz mit den Pazifizierungs Kommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 112–115</bibl>; abgedruckt bei <bibl type="secondary">
+                           <author>Filipuzzi</author>, Relazioni diplomatiche 1. 60 f.</bibl>
+                     </note>
+                  </p>
+                  <p>Wenn nun auch durch die gedachte Freilassung für den gegenwärtigen Fall keine Verfügung notwendig erscheine, so bleibe sie doch für künftige Fälle erforderlich, und die oberwähnte Erledigung erleide hierdurch keine Abänderung.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_21_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Proteste gegen das Silberausfuhrverbot</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwähnte hierauf der Anstände, welche das unlängst erlassene Silberausfuhrverbot in einigen benachbarten Staaten, insbesondere in Bayern und Sachsen, hervorgebracht hat<note type="footnote" n="16">Mit Verfügung des Finanzministers v. <date when="1848-04-02">2. 4. 1848</date> war die Ausfuhr der österreichischen Silbermünze ins Ausland bis Ende Juni 1848 verboten worden, <bibl type="archival">FA., PP. 3008/1848</bibl>. Dieser Akt ist nicht mehr auffindbar; das diesbezügliche gedruckte Zirkular in <bibl type="archival">ebd., PP. 3071/1848</bibl>. Mit Erlaß v. <date when="1848-04-04">4. 4. 1848</date> wurden diese Bestimmungen auch auf die Ausfuhr österreichischer Goldmünzen ausgedehnt, <quote>ebd</quote>.</note>.</p>
+                  <p>Die bayerische Regierung droht mit Retorsionsmaßregeln in der Getreideausfuhr<note type="footnote" n="17">Siehe dazu das Schreiben Ficquelmonts an Krauß v. <date when="1848-04-25">25. 4. 1848</date>, <quote>ebd., Präs. 204/1848</quote>. Berichte (K.) Brenners, des österreichischen Gesandten in München, an Ficquelmont v. 14. u. <date when="1848-04-22">22. 4. 1848</date>, <bibl type="archival">HHSTA., Gesandtschaftsarchiv, München 30, Fasz. Berichte 1847–1848, fol. 85f. und 88</bibl>.</note>.</p>
+                  <p>Die sächsische Regierung hat gleichfalls dagegen protestiert und wünscht vorzüglich Erleichterungen in dieser Beziehung für die Leipziger Messe<note type="footnote" n="18">Siehe dazu das Schreiben Ficquelmonts an Krauß v. <date when="1848-04-21">21. 4. 1848</date>, <bibl type="archival">FA., FM., Präs. 45/1848 und Präs. 282/1848</bibl>. Note (Abschrift) des sächsischen Außenministers v. der Pfordten an den österreichischen Gesandten in Dresden Kuefstein v. <date when="1848-04-17">17. 4. 1848</date>, <bibl type="archival">HHSTA., Gesandtschaftsarchiv, Dresden 57, Fasz. 1848</bibl>. Bericht (K.) Kuefsteins an Ficquelmont v. <date when="1848-04-18">18. 4. 1848</date>, <quote>ebd., Karton 37</quote>.</note>. Ihre Wünsche lassen sich auf folgende Punkte zurückführen: a) daß die betreffenden Staatsangehörigen, wenn sie anerkannte Forderungen hierlands haben, diese ungehindert in Silber beziehen dürfen; b) daß auch hiesigen Untertanen die Abtragung ihrer Schuldigkeiten in Münze an fremde Untertanen möglichst erleichtert werde, und c) daß zum Einkaufe von Getreide Silbergeld ausgeführt werden dürfe.</p>
+                  <p>
+                     <pb n="118" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s118.pdf"/>Der Finanzminister bemerkt, daß in Tirol die Behörden bis zu den Zollämtern ermächtiget sind, Pässe zur Silberausfuhr zum Einkaufe von Getreide zu erteilen<note type="footnote" n="19">Diese Ermächtigung ist nach Intervention Brandis’ v. <date when="1848-04-10">10. 4. 1848</date> mit Schreiben (K.) v. <date when="1848-04-15">15. 4. 1848</date> an den Kameral-Gefälls-Administrator in Innsbruck ergangen, <bibl type="archival">FA., PP. 3495/1848</bibl>; vgl. auch <quote>ebd., PP. 3590/1848</quote>.</note>.</p>
+                  <p>Schwieriger seien die beiden ersten Punkte, weil in Böhmen und Oberösterreich das Ausfuhrverbot strenge gehandhabt wird und auch die Mehrzahl der Glieder der Nationalbank gegenwärtig für das Ausfuhrverbot gut gestimmt ist.</p>
+                  <p>Der Finanzminister müsse übrigens auch erinnern, daß Professor Endlicher und andere, welche von Frankfurt hier ankamen, ihm vorgestellt haben, daß dieses Verbot in Deutschland den übelsten Eindruck hervorgebracht habe und daß zu besorgen sei, wenn das Verbot bis zur Eröffnung des Frankfurter Landtages nicht zurückgenommen ist, unsere Deputierten dort gar nicht zugelassen werden<note type="footnote" n="20">Siehe dazu Brief Stephan Endlichers und Mühlfelds v. <date when="1848-04-28">28. 4. 1848</date>. <quote>ebd., FM., Präs. 320/1848</quote>.</note>.</p>
+                  <p>Der Finanzminister findet den Widerruf des gedachten Verbotes (welches auf die Verminderung der Banknotenumwechslung offenbar wohltätig eingewirkt hat) gegenwärtig nicht rätlich und meint, daß die Silberausfuhr nur dann zuzugestehen wäre, wenn glaubwürdig dargetan wird, daß das Geld als Zahlung für Forderungen an Österreich oder zur Tilgung unserer Verbindlichkeiten im Auslande gebraucht wird, in welchem Falle Pässe bis auf 5.000 fl. zu erteilen wären.</p>
+                  <p>Hiernach wären (ohne übrigens eine Kundmachung zu veranlassen) die Landeschefs von Tirol, ob der Enns und Böhmen (das letztere für die Dauer der Leipziger Messe) anzuweisen<note type="footnote" n="21">Die diesbezüglichen Schreiben (K.) v. <date when="1848-04-28">28. 4. 1848</date> an die erwähnten Landeschefs, <quote>ebd., Präs. 204/1848</quote>.</note>.</p>
+                  <p>Es ist zwar nicht zu verkennen, daß diese Zwischenverfügung auf mancherlei Art wird mißbraucht werden können, indessen wird sie doch dazu dienen, die fremden Regierungen zu beschwichtigen, und vielleicht wird das Silberausfuhrverbot selbst in kurzer Zeit zurückgenommen werden können. Der Ministerrat erklärte sich mit den Ansichten des Finanzministers einverstanden<note type="footnote" n="22">Im Schreiben (K.) v. <date when="1848-04-28">28. 4. 1848</date> an Ficquelmont erklärte Krauß nochmals die Notwendigkeit der verfügten Maßnahmen und sprach die Hoffnung aus, das Ausfuhrverbot noch vor Ende Juni wieder aufheben zu können, <quote>ebd</quote>. Diese Hoffnung sollte sich nicht nur nicht erfüllen, sondern es wurde mit Verfügung v. <date when="1848-06-20">20. 6. 1848</date> die Frist für das Silber- und Goldmünzenausfuhrverbot bis linde Juli 1848 ausgedehnt, <quote>ebd., Präs. 2152/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_21_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Offizielle Erklärung zur Verzögerung des Amtsantrittes Erzherzog Franz Josephs in Böhmen</head>
+                  <p>Schließlich wurde zur Aufklärung des Umstandes im Publikum, warum Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Franz Joseph Ihr Amt in Böhmen noch nicht angetreten haben<note type="footnote" n="23">Zur Ernennung Erzherzog Franz Josephs zum Statthalter von Böhmen siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_1">MR. v. <date when="1848-04-05">5. 4. 1848</date>/I</ref>, bes. Anm. 1.</note>, beschlossen, diesfalls einen Artikel in die priv. Wiener Zeitung einrücken zu lassen, wie derselbe in dieser Zeitung vom 29. d.M. wirklich so erscheint: „Da Graf Leo Thun, welchen Ah. Se. Majestät zur Oberleitung des böhmischen Guberniums berufen haben, nicht sogleich Galizien, wo ihn bisher sein Dienstverhältnis festgehalten hatte, verlassen konnte und derselbe, bevor er zur Übernahme seines Dienstpostens nach Prag sich begab, erst noch nach Wien sich zu verfügen hatte, <pb n="119" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s119.pdf"/>so trat eine Zwischenzeit ein, welche der zum Statthalter nach Böhmen bestimmte Erzherzog Franz Joseph dazu benützte, von seinem durchlauchtigsten Vater sich die Erlaubnis zu erwirken, auf einige Tage durch Tirol nach demjenigen Teile des lombardisch-venezianischen Königreiches zu reisen, welcher gegenwärtig die Aufmerksamkeit aller auf sich zieht. Der durchlauchtigste Prinz benützte diese kurze Zeit vor dem Antritte seiner Mission nach Böhmen dazu, um ein lebendiges Bild von den Rüstungen und Verteidigungsmitteln zu erhalten, welche Feldmarschall Graf Radetzky gesammelt hat, und womit er an der Spitze des mutvollen österreichischen Heeres den vom Auslande her eingedrungenen Aufwieglern und Feinden der Ruhe entgegentritt. Nach Besichtigung des Terrains zwischen dem Mincio und der Etsch, welches im früheren Kriege der Schauplatz so vieler wichtiger Kriegsereignisse war, werden Se. kaiserliche Hoheit die Rückreise nach Wien antreten.“<note type="footnote" n="24">
+                        <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) V. <date when="1848-04-29">29. 4. 1848</date>
+                        </bibl>.</note>
+                  </p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-29">29. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 29. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-29">29. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="106">Sitzung 106</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-08-17"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z106.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1995</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-08-17"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. fehlt; BdE. 18. 8. und anw. Doblhoff (keine BdE.), Latour, Krauß (keine BdE.), Bach, Hornbostel, Schwarzer; abw. Wessenberg; BdE. Franz Karl (20. 8.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-20">20. 8.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_106_1">Tragen der deutschen Farben beim österreichischen Militär</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_106_2">Beförderung Joseph Graf Ingelheims Echter von und zu Mespelbrunn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_106_3">Pensionierung und Beförderung von Militärs</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_106_4">Militärische Beförderung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_106_5">Bezüge Erzherzog Johanns</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_106_6">Ungarischer Wunsch nach Anwesenheit des Kaisers bei der Schließung des ungarischen Reichstags</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_106_7">Entsendung eines vertrauenswürdigen Mannes nach Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_106_8">Vorläufig keine militärische Bewachung von Arbeitern</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_106_9">Ordensverleihung an Grafen Grünne</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_106_10">Pensionserhöhung für die Witwe Franz Ritter v. Nadhernys</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_106_11">Auflösung des Wiener Gemeinde- und Sicherheitsausschusses</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_106_12">Beschwerde Windischgrätz' über ministerielle Einflußnahme auf Untersuchungen in Prag</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480817-P-0106" ana="a1-1848_z106">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z106.pdf">
+               <title type="num">Nr. 106</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-08-17">17. August 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> 18. 8. und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff (keine <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice>), Latour, Krauß (keine <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice>), Bach, Hornbostel, Schwarzer; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (20. 8.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1995</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-08-17">17. August 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_106_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Tragen der deutschen Farben beim österreichischen Militär</head>
+                  <p>In dem Ministerratsprotokolle vom 16. August d. J. kam unter anderm vor, daß der Kriegsminister über die dort erwähnten Modalitäten des Tragens der deutschen Farben von Seite des österreichischen Militärs einen eigenen Vortrag an Se. Majestät erstatten werde<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480817-P-0106.xml#top_1_1_106_3">MR. v. <date when="1848-08-17">17. 8. 1848</date>/III</ref>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> eröffnet nun, daß er darüber mündlich Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Franz Karl Mitteilungen gemacht und von Höchstdemselben die Billigung dieser Modalitäten erhalten habe, wornach es von der Erstattung eines eigenen Vortrages abkommen dürfte<note type="footnote" n="2">Mit Schreiben (K.) an die Generalkommadopräsidien in Böhmen, Mähren, Schlesien, Nieder- und Innerösterreich und die Militärkommanden in Linz, Innsbruck und Triest v. <date when="1848-08-18">18. 8. 1848</date> befahl Latour, daß alle Truppen, deren Wehrbebezirke sich in den zum Deutschen Bund gehörenden Provinzen befinden und welche in diesen Provinzen garnisoniert sind, an den Fahnen und Standarten ein Band mit den deutschen Farben zu tragen haben. Die deutschen Kokarden sollten aber erst dann angesteckt werden, wenn ein Truppenkörper tatsächlich in deutschen Bundesdienst trat, <bibl type="archival">KA., HKR., KM., Präs. 4279/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Beförderung Joseph Graf Ingelheims Echter von und zu Mespelbrunn</head>
+                  <p>In dem Vortrage vom <date>13. August d. J.</date>, Z. 2718<note type="footnote" n="3">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1757/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4489 1/2 ex 1848</bibl>.</note>, zeigt der Kriegsminister an, daß der Feldmarschall Graf Radetzky in seinem innehabenden 5. Husarenregimente zum Ersatze des vor dem Feinde gebliebenen Majors Grafen Szécsen bei der Nichteignung der beiden rangsältesten Eskadronskommandanten zu aktiven Stabsoffiziers den dritten Premier-Rittmeister Grafen Ingelheim mit 3. d. M. zum Major ernannt habe, und erbittet sich die nachträgliche Ah. Genehmigung dieser Ernennung<note type="footnote" n="4">Der in Anm. 3. zit. Vortrag Latours wurde von Doblhoff am <date when="1848-08-20">20. 8. 1848</date> dem Kaiser vorgelegt und mit Ah. E. v. <date when="1848-08-23">23. 8. 1848</date> resolviert, <quote>ebd</quote>., und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1790/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pensionierung und Beförderung von Militärs</head>
+                  <p>Mit dem weiteren au. Vortrage vom 15. August d. J., Z. 2720<note type="footnote" n="5">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1759/1848</bibl>.</note>, trägt der Kriegsminister an, dem halbinvalid gewordenen Oberstleutnant v. Großmann von Graf Latour-Infanterie in den normalmäßigen Pensionsstand mit gleichzeitiger Vormerkung für eine Friedensanstellung zu übernehmen und an dessen Stelle den ersten Major dieses <pb n="575" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s575.pdf"/>Regiments Franz Landgrafen Fürstenberg zum Oberstleutnant im Regimente zu befördern<note type="footnote" n="6">Der in Anm. 5 zit. Vortrag Latours wurde von Doblhoff am <date when="1848-08-20">20. 8. 1848</date> dem Kaiser vorgelegt und mit Ah. E. v. <date when="1848-08-23">23. 8. 1848</date> resolviert. <quote>ebd., MRZ. 1790/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Militärische Beförderung</head>
+                  <p>In dem Vortrage vom 15. August d. J., Z. 2719<note type="footnote" n="7">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1758/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4478/1848</bibl>.</note>, unterstützt der Kriegsminister den Antrag des Pionierkorpskommandanten, einen dritten Major im Pionierkorps für die Dauer der gegenwärtigen Verhältnisse zu kreieren und diese Stelle dem rangsältesten Hauptmann im Korps, Anton Obermüller, der bereits 32 Jahre brav und eifrig dient und seine dermalige Charge über 12 Jahre bekleidet, zu verleihen<note type="footnote" n="8">Der in Anm. 7 zit. Vortrag wurde mit Ah. E. v. <date when="1848-08-22">22. 8. 1848</date> resolviert.</note>.</p>
+                  <p>Gegen die Anträge sub II, III und IV wurde nichts zu erinnern gefunden.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Bezüge Erzherzog Johanns</head>
+                  <p>Laut des weiteren au. Vortrages vom <date>16. August d. J.</date>, Z. 2189<note type="footnote" n="9">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1756/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4492/1848</bibl>.</note>, unterstützt der Kriegsminister das bereits im Ministerratsprotokolle vom 14. d. M.<note type="footnote" n="10">
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480814-P-0103.xml#top_1_1_103_2">MR. v. <date when="1848-08-14">14. 8. 1848</date>/II</ref>.</note> erwähnte Ansuchen Sr. kaiserlichen Hoheit des Herrn Erzherzogs Johann, welches dahin geht: a) daß die Gebühren Höchstdesselben an Gage (10.000f.) und Generaldirektorszulage (6000f.) bei der Mainzer Feldoperationskasse angewiesen werden; b) daß die bisherigen zwölf unentgeltlichen Pferdeportionen auf 24 Gratisfourageportionen erhöht und vom <date when="1848-08-01">1. August 1848</date> angefangen in Mainz erfolgt werden; c) daß für die wenigen in Wien zurückgelassenen Pferde Sr. kaiserlichen Hoheit noch auf kurze Zeit der Fourageempfang wie vorher fortdauere, endlich d) daß die Gebühren der drei bei Sr. kaiserlichen Hoheit verwendeten Stabsoffiziere (des Dienstkämmerers Obersten Peter Grafen Morzin, des Adjutanten Oberstleutnants Karl Frossard und des als Adjutant verwendeten Majors Ludwig v. Weißenthurn) sowie das Quartiergeld derselben nach dem Wiener Fuße und auch die Fourierschützengebühren<note type="footnote" n="11">Das ist ein Rastmacher.</note> denselben gleich den übrigen zu Frankfurt kommandierten k. k. Offizieren bei der Mainzer Feldoperationskasse flüssig gemacht werden.</p>
+                  <p>Der Kriegsminister erbittet sich über dieses Einschreiten Sr. kaiserlichen Hoheit die Ah. Bestimmung Sr. Majestät, wogegen sich gleichfalls keine Erinnerung ergab<note type="footnote" n="12">Der in Anm. 9 zit. Vortrag Latours wurde am <date when="1848-08-20">20. 8. 1848</date> von Doblhoff dem Kaiser vorgelegt, der ihn mit Ah. E. v. <date when="1848-08-23">23. 8. 1848</date> resolvierte, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1790/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4492/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Ungarischer Wunsch nach Anwesenheit des Kaisers bei der Schließung des ungarischen Reichstags</head>
+                  <p>Der Kriegsminister machte ferner im Auftrage Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzoges Franz Karl dem Ministerrate die Mitteilung, daß nach einer Eröffnung des Fürsten Esterházy in Pest der Wunsch lebhaft geäußert werde, Se. Majestät der Kaiser möchten Sich zur Schließung des Reichstages nach Ofen zu begeben geruhen<note type="footnote" n="13">Ferdinand hatte versprochen, bei der Eröffnung des ungarischen Reichstages anwesend zu sein, Handschreiben Ferdinands v. <date when="1848-05-29">29. 5. 1848</date> an Erzherzog Palatin Stephan, <bibl type="archival">MOL., N 31, Z. 1300/1848</bibl>; diese Zusage hatte er mit Handscheiben v. <date when="1848-06-26">26. 6. 1848</date> an den Palatin zurückgenommen, <quote>ebd., Z. 1620/1848</quote>. Esterházy hatte bereits mit Vortrag v. <date when="1848-08-16">16. 8. 1848</date> um die Anwesenheit des Kaisers bei der Schließung des ungarischen Reichstages angesucht, <quote>ebd., H 6, Z. 1031/1848</quote>.</note>.</p>
+                  <p>
+                     <pb n="576" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s576.pdf"/>Der Ministerrat kann sich diesfalls nur auf dasjenige beziehen, was Se. Majestät den ungarischen Deputationen zu erwidern und sonst darüber auszusprechen geruhten<note type="footnote" n="14">Die Ah. E. v. <date when="1848-08-20">20. 8. 1848</date> auf den in Anm. 13 zit. Vortrag Esterbázys v. <date when="1848-08-16">16. 8. 1848</date> fiel ganz im Sinne der ministeriellen Empfehlung aus. Eine Deputation des ungarischen Reichstages hatte am <date when="1848-08-08">8. 8. 1848</date> in Innsbruck Ferdinand die Bitte vorgetragen, der Kaiser möge den Reichstag schließen, Text der Petition abgedruckt bei <bibl type="secondary">
+                           <title>Frey</title>, Kossuth 1, 212ff.</bibl> Ferdinand erwiderte darauf, daß er, wenn es möglich sein werde, den ungarischen Reichstag persönlich beschließen werde; Text der Antwort abgedruckt bei <quote>ebd., 214</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Entsendung eines vertrauenswürdigen Mannes nach Prag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Freiherr v. Doblhoff</rs>
+                     </hi> eröffnete dem Ministerrate mit Beziehung auf die im Ministerratsprotokolle vom 14. d. M.<note type="footnote" n="15">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480814-P-0103.xml#top_1_1_103_8">MR. v. <date when="1848-08-14">14. 8. 1848</date>/VIII</ref>.</note> dargestellten Notwendigkeit, daß er einen vollkommen vertrauenswürdigen Mann nach Prag gesendet habe, um in die dortigen Zustände Einsicht zu nehmen und mittelst eines Planes die dortigen militärischen Dispositionen ersichtlich zu machen. – Diese Sendung habe übrigens keinen ämtlichen Charakter und soll nur dazu dienen, um über die sich so sehr widersprechenden Angaben hinsichtlich des Zustandes von Prag dem Ministerium Aufklärung zu verschaffen<note type="footnote" n="16">Unter den Beständen des AVA., IM., Präs., befinden sich weder Akten über diesen Gegenstand, noch ein Hinweis auf die Identität dieses Vertrauensmannes.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Vorläufig keine militärische Bewachung von Arbeitern</head>
+                  <p>Hinsichtlich der im Ministerratsprotokolle vom 16. d. M.<note type="footnote" n="17">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480816-P-0105.xml#top_1_1_105_13">MR. v. <date when="1848-08-16">16. 8. 1848</date>/XIII</ref>.</note> besprochenen und beschlossenen Absendung einer Kompanie Soldaten zur Überwachung der Eisenbahnarbeiter in der Gegend von Gloggnitz und anderer Vorkehrungen bemerkte der Minister des Inneren, daß nach den neuesten, ihm zugekommenen Nachrichten es nun dort ruhig sei. Auch sei ihm versichert worden, daß die Absendung des Militärs dahin eine äußerst schlechte Wirkung auf die Arbeiter hervorbringen und sie vielleicht zum Aufgeben der Arbeit bestimmen würde. Etwas mehr Zivilaufsicht würde den Zweck besser erreichen. Es sei nur eine Fraktion der Arbeiter exzessiv; die Absendung des Militärs würde aufreizend wirken; auch wäre dessen Unterbringung in der dortigen Gegend schwer und für die Bevölkerung belästigend. Bei diesen Verhältnissen wird mit den beschlossenen Maßregeln einstweilen innegehalten<note type="footnote" n="18">Erst mit Befehl (K.) Latours v. <date when="1848-09-02">2. 9. 1848</date> wurde eine Kompanie des III. Batatillons des Deutschmeister-Infanterie-Regiments nach Gloggnitz befohlen, <bibl type="archival">KA., HKR., KM., Präs. 4735/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Ordensverleihung an Grafen Grünne</head>
+                  <p>Derselbe Minister eröffnete, daß sich der Herr Erzherzog Stephan Palatin von Ungarn an Se. kaiserliche Hoheit den Herrn Erzherzog Johann wegen Verleihung des Ordens der Eisernen Krone an Grafen Grünne, Obersten in der Armee, verwendet habe, welcher mehrere Jahre bei demselben in Diensten gestanden ist und diese Dienste in Ungarn nicht fortsetzen konnte<note type="footnote" n="19">Grünne war mit Handschreiben v. <date when="1848-06-27">27. 6. 1848</date> von der Obersthofineisterstelle bei Erzherzog Stephan enthoben, zugleich aber mit der gleichen Funktion bei Erzherzog Franz Joseph betraut worden, <bibl type="archival">KA., HKR., KM., Präs. 2958/1848</bibl>.</note>.</p>
+                  <p>Da kein schriftliches Einschreiten diesfalls vorliegt, wird der Minister des Inneren Sr. kaiserlichen Hoheit schreiben, diesen Gegenstand in gehörige Form bringen zu wollen<note type="footnote" n="20">Es war dann aber Latour, der mit Schreiben v. <date when="1848-09-03">3. 9. 1848</date> Erzherzog Joseph fragte, ob er eine Auszeichnung Grünnes befürworte, der Akt <quote>ebd., Präs. 4846/1848</quote>, ist skartiert worden. Nachdem Erzherzog Joseph mit Schreiben v. <date when="1848-09-04">4. 9. 1848</date> eine positive Antwort gab, stellte Latour mit Vortrag v. <date when="1848-09-09">9. 9. 1848</date> den Antrag, Grünne das Kommandeurkreuz des Leopoldordens zu verleihen, was auch mit Ah. E. v. <date when="1848-09-17">17. 9. 1848</date> genehmigt wurde, <quote>ebd., Präs. 5160/1848</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480910-P-0118.xml#top_1_1_118_1">MR. v. <date when="1848-09-10">10. 9. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Pensionserhöhung für die Witwe Franz Ritter v. Nadhernys</head>
+                  <p>Derselbe brachte das Gesuch der Witwe des Hofrates v. Nadherny um eine höhere als die normalmäßige Pension, nämlich um 800f. statt 600f., zur Sprache<note type="footnote" n="21">Ihr Mann, Franz Ritter v. Nadherny, war am <date when="1848-08-07">7. 8. 1848</date> gestorben.</note>.</p>
+                  <p>Hinsichtlich dieses Gesuches wurde bemerkt, daß man sich bei der noch immer bestehenden Vorschrift, wo Gnadenanträge nur über vorläufige Ah. Bezeichnungen erstattet werden können, das Gesuch aber nicht Ah. bezeichnet ist, nicht erlauben könne, diese Bitte ohne eine Ah. Aufforderung bei Sr. Majestät zu unterstützen<note type="footnote" n="22">Auf Vortrag Doblhoffs v. <date when="1848-09-09">9. 9. 1848</date> wurde das Gesuch mit Ah. E. v. <date when="1848-09-21">21. 9. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2051/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Auflösung des Wiener Gemeinde- und Sicherheitsausschusses</head>
+                  <p>Der Minister des Inneren leitete nun die Aufmerksamkeit des Ministerrates auf die beiden hier bestehenden Körperschaften, nämlich den Gemeindeausschuß und den Sicherheitsausschuß<note type="footnote" n="23">Zur Errichtung des Wiener Sicherheitsausschusses siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>. Der Gemeindeausschuß war mit Erlaß v. <date when="1848-04-18">18. 4. 1848</date> von Pillersdorf genehmigt worden und hatte sich, nachdem die Wahlen am <date when="1848-05-20">20. 5. 1848</date> durchgeführt worden waren, am <date when="1848-05-25">25. 5. 1848</date> konstituiert, siehe dazu <bibl type="secondary">
+                           <title>Weiß</title>, Gemeinde-Verfassung 79ff.</bibl>
+                     </note>. Er bemerkte, daß diese Korporationen sich feindselig entgegenstehen und sich wechselseitig in ihrem Wirken schwächen<note type="footnote" n="24">Die Unstimmigkeiten zwischen den beiden Ausschüssen gingen so weit, daß der Gemeindeausschuß am <date when="1848-07-21">21. 7. 1848</date> eine Kommission <quote>wegen obwaltender Differenzen</quote> mit dem Sicherheitsausschuß bildete und den Innenminister bat, den Sicherheitsausschuß zur Beschickung dieses Komitees zu bewegen, siehe dazu <bibl type="archival">HHSTA., RTA. 148, Fasz. II, Lit. G, fol. 514ff</bibl>.</note>. Der Sicherheitsausschuß sei für die gegenwärtigen Verhältnisse nicht mehr passend. Der Gemeindeausschuß habe von allem Anfange wenig Vertrauen genossen, sei durch seine Kämpfe mit dem anderen Ausschusse noch mehr unpopulär geworden, habe wenig Energie entwickelt, und schon die Basis, auf welcher er konstruiert wurde (der hohe Zensus), sei nicht volkstümlich gewesen<note type="footnote" n="25">Der Wahlmodus für den Gemeindeausschuß war am 6. und <date when="1848-04-07">7. 4. 1848</date> vom gesamten Rat und dem provisorischen Bürgerausschuß beschlossen worden. Die gedruckte Wahlordnung in <bibl type="archival">ebd., RTA. 146, Fasz. I, Lit. E, fol. 412 f</bibl>.</note>. Zwischen diesen beiden Ausschüssen steht die Stadthauptmannschaft und weiß nicht, wem sie eigentlich gehorchen soll.</p>
+                  <p>Der Minister würde dafür halten, daß es am besten wäre, diese beiden Ausschüsse aufzuheben. Der Sicherheitsausschuß sei bereit dazu, und der Gemeindeausschuß, welcher noch immer in dem Wahne befangen ist, vollkommen zu entsprechen, wäre dazu zu stimmen. Eine Änderung sei dringend notwendig, denn man brauche eine kräftige Unterstützung von der Kommunalbehörde, teils zur Wahrung der öffentlichen Sicherheit, teils zur Ordnung der gewerblichen Verhältnisse. Es könnte sich sogleich ein neuer Gemeindeausschuß auf einer liberaleren Basis (wo etwa jeder Steuerpflichtige wählbar, ein Zensus von etwa 5f. anzunehmen wäre, während er gegenwärtig in 20f. Steuer besteht) konstituieren, um eine ausgiebigere Wirksamkeit zu beginnen.</p>
+                  <p>Die übrigen Stimmführer glaubten nicht, daß der Ministerrat den Gemeindeausschuß schon dermal aufheben könne. Der Ministerrat selbst habe den Gemeindeausschuß auf den gegenwärtigen Zensus und zu dem Ende ins Leben gerufen, daß er binnen einer <pb n="578" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s578.pdf"/>Jahresfrist die Gemeindeverfassung für Wien zustande bringe<note type="footnote" n="26">Der Gemeindeausschuß änderte einige Bestimmungen der Wahlordnung für die Wahl des Gemeinderates der Stadt Wien in seiner Sitzung am <date when="1848-08-26">26. 8. 1848</date>. Neben der Erweiterung der zur Wahl zugelassenen Personengruppen waren auch alle jene wahlberechtigt, <quote>welche von einem steuerpflichtigen Gewerbe eine gerechte Steuer entrichten</quote>; eine bestimmte Steuerleistung wurde nicht mehr gefordert, gedruckte Kundmachung dieser Wahlordnung v. <date when="1848-08-27">27. 8. 1848</date> in <bibl type="archival">ebd., RTA. 157, fol. 233f</bibl>.</note>. Erst nach dieser Jahresfrist, oder wenn er nicht entspräche oder gefährlich wäre (was denn doch nicht von ihm behauptet werden könne), könnte er aufgelöst werden. Auch werde bemerkt, daß der neue, auf einer liberaleren Basis errichtete Gemeindeausschuß kaum besser als der jetzige entsprechen würde<note type="footnote" n="27">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480820-P-0108.xml#top_1_1_108_4">MR. v. <date when="1848-08-20">20. 8. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_106_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Beschwerde Windischgrätz' über ministerielle Einflußnahme auf Untersuchungen in Prag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> Dr. Bach brachte endlich eine ihm vom Kriegsminister Grafen Latour mitgeteilte Note des Kommandierenden in Prag Fürsten Windischgrätz<note type="footnote" n="28">Der Bericht Windischgrätz’ v. <date when="1848-08-10">10. 8. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 4149/1848</bibl>, ist skartiert worden; Konzept in <quote>ebd., AFA., Karton 1809, 8/5</quote>.</note> zur Sprache, worin a) die Entlassung des Dr. Brauner<note type="footnote" n="29">Der liberal-nationale tschechische Politiker Brauner war auf Befehl Windischgrätz’ am <date when="1848-06-28">28. 6. 1848</date> unter dem Verdacht festgenommen worden, ein Anführer des Prager Pfingstaufstandes gewesen zu sein, und am <date when="1848-08-08">8. 8. 1848</date> entlassen worden. Brauner war zum Abgeordneten des Wiener Reichstages gewählt worden. Siehe dazu <bibl type="secondary">
+                           <author>Král</author>, Brauner za revoluce 158–161</bibl>. Zu Brauner siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 2, 125f.</bibl>, und <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 1, 109</bibl>.</note> aus der Haft als illegal, inkonstitutionell und durch die Macht verfügt erklärt und b) Verwahrung gegen die mögliche Niederschlagung des Prozesses und Freilassung der Gefangenen ausgesprochen wird. Die Freigebung dieser Individuen hieße die ganze Untersuchung niederschlagen, weil sie sich gegenseitige Mitteilungen machen und die Untersuchung vereiteln könnten. Hierüber bemerkt der Justizminister ad a) daß die Tatsachen hinsichtlich des bereits vollzogenen Gerichtsaktes unrichtig dargestellt erscheinen. In der Prager Angelegenheit habe das Ministerium den Gang des Gesetzes genau eingehalten. Als der Belagerungszustand in Prag aufgehoben<note type="footnote" n="30">Der Belagerungszustand in Prag war mit Kundmachung Windischgrätz’ v. <date when="1848-07-20">20. 7. 1848</date> aufgehoben worden, siehe dazu <bibl type="secondary">
+                           <author>Černý</author>, Boj za právo 347f.</bibl>
+                     </note>, aber zugleich die Fortdauer der Militäruntersuchungskommission<note type="footnote" n="31">Zu dieser Untersuchungskommission siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480725-P-0099.xml#top_1_1_99_1">MR. v. <date when="1848-07-25">25. 7. 1848</date>/I</ref>.</note> ausgesprochen wurde, habe das Ministerium sich verpflichtet gehalten, diese nun nicht mehr zu rechtfertigende Kommission aufzulösen und die weitere Untersuchung dem ordentlichen Richter zuzuweisen<note type="footnote" n="32">Siehe dazu ebd., insbesondere Anm 4.</note>. Der Reichstag habe diese Verfügung genehmiget. Von Seite des Ministeriums ist kein Machtspruch erfolgt, sondern der Spruch des ordentlichen Gerichtes, das die Vermutung des gesetzlichen Vorganges für sich hat, habe die Freilassung des Dr. Brauner verfügt<note type="footnote" n="33">Bach hatte dann auch mit Schreiben v. <date when="1848-08-19">19. 8. 1848</date> gegen die Behauptung Windischgrätz’, Brauner sei auf ministerielle Weisung freigelassen worden, protestiert, der Akt <bibl type="archival">KA., HKR., KM., Präs. 4486/1848</bibl>, ist skartiert worden.</note>.</p>
+                  <p>Ad b) bemerkte der Minister, daß eine Deputation von Prag bei ihm war, welche die Niederschlagung des Prozesses und die Freilassung der Gefangenen begehrt habe; er habe ihr aber erwidert, daß er nicht in der Lage sei, in den gesetzlichen Gang der Untersuchung einzugreifen; was er tun könne und werde, sei nur auf die Beschleunigung <pb n="579" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s579.pdf"/>der Untersuchung einzuwirken<note type="footnote" n="34">Auch das Schreiben Bachs v. <date when="1848-08-30">30. 8. 1848</date>, <quote>ebd., Präs. 4716/1848</quote>, in dem er den Erhalt eines entsprechenden Gesuches bestätigt und seine diesbezügliche Antwort ausführt, ist skartiert worden; Abschrift dieses Schreibens in <quote>ebd., AFA., Karton 1809, 8/5 b</quote>.</note>. Er hoffe binnen wenigen Tagen die Nachricht zu erhalten, ob gesetzliche Anzeigungen vorliegen, die Inkulpierten auf freiem Fuße zu untersuchen, oder sie im Verhafte zu behalten. Diese Verwahrung des Fürsten Windischgrätz verfehlt daher ganz ihren Zweck.</p>
+                  <p>Was jedoch die Beschuldigungen ad a) anbelangt, sah sich der Justizminister zu der Erklärung veranlaßt, daß der Fürst Windischgrätz aufgefordert werde, dieselben zurückzunehmen und den getanen Schritt zu redressieren, indem er sonst diese Sache vor den Reichstag bringen oder bei solchen Beschuldigungen von ungesetzlichen Vorgängen von seinem Posten abtreten müßte.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> nahm es über sich, dem Fürsten Windischgrätz darüber im Auftrage des Ministeriums nachdrücklich zu schreiben und den erwähnten Schritt rückgängig zu machen<note type="footnote" n="35">Das einzige, was Latour tat, war – und das erst mit Schreiben v. <date when="1848-09-09">9. 9. 1848</date> – Windischgrätz über die in Anm. 33 und Anm. 34 getanen Aussagen Bachs kommentarlos zu informieren, <quote>ebd., 8/5 a</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-08-17">17. August 1848</date>.</dateline>
+                  <seg type="other">Ges. 20. August. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

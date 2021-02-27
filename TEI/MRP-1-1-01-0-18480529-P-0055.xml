@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="055">Sitzung 55</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-29"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z55.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">964</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-29"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Baumgartner, Lebzeltern (nur bei V–VIII); außerdem anw. Cordon (in Vertretung Latours); abw. Latour, Doblhoff; BdE. Pillersdorf (30. 5.), Franz Karl (4. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="attendant" ana="partially-absent">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei V–VIII)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-30">30. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-04">4. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8231">
+                     <surname>Cordon</surname>
+                  </persName>
+                  <note>in Vertretung Latours</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_55_1">Publizierung des ministeriellen Programms</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_55_2">Kanonen für die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_55_3">Reduzierung der Wiener Garnison</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_55_4">Bekanntgabe zu II. und III. an die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_55_5">Ordensverleihung an Franz Graf Gyulai</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_55_6">Verwahrung gegen Verhaftungen hochstehender Personen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_55_7">Abschiebung nicht nach Wien zuständiger Arbeiter</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_55_8">Anstellung Peter Harums</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480529-P-0055" ana="a1-1848_z55">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z55.pdf">
+               <title type="num">Nr. 55</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-29">29. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Baumgartner, Lebzeltern (nur bei V–VIII); außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Cordon (in Vertretung Latours); <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Latour, Doblhoff; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (30. 5.), Franz Karl (4. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">964</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-05-29">29. Mai 1848</date> um 1/2 10 Uhr vormittags unter dem Vorsitze des interimistischen Ministerpräsidenten Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_55_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Publizierung des ministeriellen Programms</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> eröffnete die Sitzung mit der Vorlesung des Entwurfes eines bereits in dem letzten Ministerrate besprochenen Programmes über den Gang, den das Ministerium bisher in seinen Amtshandlungen befolgt hat und noch bis zum Schlusse seiner dermaligen interimistischen Gestion zu verfolgen beabsichtigt<note type="footnote" n="1">Eine Besprechung des von Pillersdorf erwähnten Regierungsprogrammes läßt sich im Protokoll des <ref type="protocol-link" target="MRP-1-1-01-0-18480528-P-0054.xml">MR. v. <date when="1848-05-28"/>28. 5. 1848</ref> nicht finden. Die Minister behandelten lediglich im Tagesordnungspunkt I ihre Reaktion auf die Forderungen des Sicherheitsausschusses.</note>.</p>
+                  <p>Baron Pillersdorf stellte hierauf an den Ministerrat die Fragen:</p>
+                  <p>a) Soll das Ministerium dermal ein Programm veröffentlichen?</p>
+                  <p>b) Wird (im bejahenden Falle) die hier vorgeschlagene Textierung angenommen?</p>
+                  <p>Der Ministerrat erkannte einstimmig, a) daß es zweckmäßig sei, sich dem Publikum gegenüber hinsichtlich des Ganges der Regierung auszusprechen, um dadurch den ewig sich wiederholenden Gerüchten und Vorwürfen über beabsichtigte oder vollbrachte Reaktionen, über Mangel an einer leitenden Idee, über Schwanken und Untätigkeit – Vorwürfe, welche von Bösgesinnten ausgestreut und von der Menge gläubig wiederholt werden – auf eine entschiedene Weise auszusprechen. Es würde dadurch auch einer in Journalen und Flugschriften bereits sehr oft vorgebrachten Aufforderung zur Veröffentlichung eines ministeriellen Programmes entsprochen werden. Indessen dürfte man sich nicht erwarten, daß eine solche Mitteilung einen wesentlichen Einfluß auf die politische Stellung des Ministeriums üben werde, da man die extreme Partei damit doch nicht zufriedenstellen und nicht jeden Vorwand zu ungerechten Beschuldigungen beseitigen könne.</p>
+                  <p>Was b) die im Entwurfe des Freiherrn v. Pillersdorf ausgesprochenen Grundsätze und die ganze Fassung desselben betrifft, so erkannten alle übrigen Minister, daß derselbe die leitenden Prinzipien, welche dem Ministerium bisher vorgeschwebt haben und denen es fortan getreu bleiben wird, auf die würdigste und angemessenste Weise ausspricht und in keiner Beziehung etwas zu wünschen übrig läßt, obgleich es dabei nicht an mancherlei Schwierigkeiten fehlte. Zu den letzteren gehört auch der Ausspruch der Ansichten des Ministeriums über die Konzessionen vom 15. Mai<note type="footnote" n="2">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480516-P-0039.xml#top_1_1_39_1">MR. v. <date when="1848-05-16">16. 5. 1848</date>/I</ref>.</note>. Ganz übergangen <pb n="342" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s342.pdf"/>kann dieser Punkt, auf den die öffentliche Meinung in der Residenz einen so großen Wert legt, unmöglich bleiben; andererseits kann das Ministerium diese Konzessionen, welche seinen Rücktritt veranlaßt haben, nicht als zu seinem Plan gehörig adoptieren. Es erübrigte daher nichts, als diese Konzessionen, unter deren Bestande die Gestion des Ministeriums interimistisch wieder übernommen worden ist, als eine Tatsache anzuerkennen. Der Punkt b) des Entwurfes lautet: „Die Minister erklären, keinem der späteren Zugeständnisse (nach dem 25. April) die volle Anerkennung zu versagen.“</p>
+                  <p>Es wurde demnach einstimmig beschlossen, dieses Programm in die Wiener Zeitung vom 30. Mai unter der Aufschrift: „An die Bewohner Wiens“ einrücken und außerdem noch durch zu verteilende Flugblätter verbreiten zu lassen<note type="footnote" n="3">Der Artikel mit den in diesem Ministerrat beschlossenen Punkten erschien im amtlichen Teil der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-05-30">30. 5. 1848</date>
+                        </bibl> unter dem Titel: <quote>Das Ministerium an die Bewohner Wiens</quote>; das Flugblatt abgedruckt auch bei <bibl type="secondary">
+                           <author>Peyer</author>, Wiener Chronik Nr. 62.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Kanonen für die Nationalgarde</head>
+                  <p>Der GM. <hi rend="#letterspaced">
+                        <rs type="person">Baron Cordon</rs>
+                     </hi> übergab dem Ministerrate eine schriftliche Äußerung des Kriegsministers über das Ansinnen der Nationalgarde um Erfolgung von sechs Batterien<note type="footnote" n="4">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480528-P-0054.xml#top_1_1_54_8">MR. v. <date when="1848-05-28">28. 5. 1848</date>/VIII</ref>. Das mit <date when="1848-05-29">29. 5. 1848</date> datierte Gutachten Latours liegt dem Originalprotokoll in handschriftlicher Fassung bei.</note>.</p>
+                  <p>Diese Äußerung, welche dem gegenwärtigen Protokolle zuliegt, geht dahin, daß Graf Latour vom militärischen Standpunkte aus nicht dafür stimmen könne, daß eine so bedeutende Anzahl von Kanonen auf die Wälle zur Disposition der Nationalgarde gebracht werde. Denn mit diesen 36 Geschützen wäre es möglich, drei Kasernen zu beschießen und die Straßen, auf welchen sich die Truppen beim Ein- und Ausmarsch zu bewegen haben, zu bestreichen. Dies könnte nun, wenn bei einem Aufruhr die Partei des Umsturzes jene Geschütze der Nationalgarde zu entreißen vermöchte, die nachteiligsten Folgen nach sich ziehen. Der Ministerrat glaubte jedoch bei Würdigung der Frage über die Ausfolgung von Geschützen an die Nationalgarde und Bürgerschaft nicht bloß den militärischen Standpunkt, sondern die gegenwärtige politische Lage der Regierung überhaupt in Berücksichtigung ziehen zu sollen.</p>
+                  <p>Die Ausfolgung der Geschütze ist ein laut und allgemein ausgesprochener Wunsch der Nationalgarde und der Legion. Die absolute Verweigerung dieses Ansinnens würde unter den dermaligen Umständen als ein Mißtrauen der Regierung gedeutet und ihr überdies die Absicht der zwangsweisen Durchführung reaktionärer Maßregeln unterlegt werden. Die unmittelbare Folge wären eine große Aufregung, wiederholte Demonstrationen und Gewaltschritte, wobei man in die Alternative des Blutvergießens oder Nachgebens versetzt würde.</p>
+                  <p>Andererseits sind die Wiener Bürger bereits im Besitze von sechs Kanonen, von welchen bisher nie Mißbrauch gemacht worden ist. Eine der so bedeutend vermehrten Zahl der Bürgerwehr entsprechende Vermehrung dieser Geschütze erscheint auch an und für sich betrachtet nicht unbillig und der eintretende Fall des Bedarfes der Artillerie gegen die Masse von 15.000 Arbeitern zur Verteidigung des Eigentumes keineswegs unmöglich.</p>
+                  <p>
+                     <pb n="343" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s343.pdf"/>In Erwägung aller dieser Umstände glaubte der tg. Ministerrat, es auf sich nehmen zu sollen, der Wiener Nationalgarde vorläufig wenigstens den dritten Teil der von ihnen geforderten 36 Geschütze aus dem reichlich dotierten Ärarialdepot schon jetzt erfolgen zu lassen und sich zur Ausfolgung der noch gewünschten übrigen 24 Stück die Ah. Genehmigung au. zu erbitten, zu welchem Ende dem gegenwärtigen Protokoll der Entwurf der entsprechenden Ah. Resolution ehrerbietigst am Schlusse beigefügt wird.</p>
+                  <p>Mit den 12 Geschützen, deren Auswahl der kompetenten Militärbehörde im Einvernehmen mit dem neuerlich zum Nationalgarde-Oberkommandanten gewünschten Obristen Pannasch<note type="footnote" n="5">Zur Betrauung Pannasch‘ mit der Leitung der Nationalgarde siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_7">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VII</ref>.</note> überlassen bliebe, wäre auch zugleich eine angemessene Menge von Munition zu erfolgen<note type="footnote" n="6">Mit Schreiben (K.) v. <date when="1848-05-29">29. 5. 1848</date> informierte Pillersdorf Latour vom Beschluß des Ministerrates und ersuchte ihn um Durchführung, <bibl type="archival">AVA., IM., Prås. 1952/1848</bibl>; der entsprechende Akt <bibl type="archival">KA., HKR., KM., Präs. 1973/1848</bibl>, ist nicht mehr auffindbar. Mit Ah. E. v. <date when="1848-06-14">14. 6. 1848</date> genehmigte Ferdinand die Überlassung der restlichen 24 Geschütze an die Wiener Nationalgarde sowie das vom Ministerrat früher Verfügte, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 964/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480530-P-0056.xml#top_1_1_56_5">MR. v. <date when="1848-05-30">30. 5. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Reduzierung der Wiener Garnison</head>
+                  <p>Mit Beziehung auf das dem Kriegsminister mitgeteilte Ansinnen des Wiener Sicherheitsausschusses wegen Entfernung der für den Dienst nicht mehr notwendigen Truppen<note type="footnote" n="7">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480528-P-0054.xml#top_1_1_54_1">MR. v. <date when="1848-05-28">28. 5. 1848</date>/I</ref>.</note> eröffnete GM. Baron Cordon im Namen des Grafen Latour, daß dieses, wenn es vom Ministerrate beschlossen wird, am leichtesten durch Rückverlegung von acht Kompanien Wasa-Infanterie nach Kaiserebersdorf, des 7. Jägerbataillons nach Mauer und des 3. Bataillons von Hess-Infanterie nach St. Pölten zu erreichen wäre<note type="footnote" n="8">Das entsprechende Schreiben Latours v. <date when="1848-05-28">28. 5. 1848</date> liegt dem Originalprotokoll in handschriftlicher Fassung bei.</note>.</p>
+                  <p>Der Ministerrat beschloß, sofort an den Grafen Latour eine Aufforderung zu diesem Ende zu richten und dem Sicherheitsausschuß hievon gleichzeitig mit dem Bedeuten in Kenntnis zu setzen, daß man gegenwärtig der unverzüglichen Beseitigung der noch bestehenden Barrikaden entgegensehe<note type="footnote" n="9">Das Wasa-Infanterieregiment wurde allerdings nach Ungarn entsandt, <bibl type="archival">KA., HKR., KM., Präs. 2071/1848</bibl>; das 3. Bataillon des Heß-Infanterieregiments rückte nach St. Pölten ab, der Akt <quote>ebd., Präs. 2068/1848</quote>, ist skartiert worden, und das 7. Jägerbataillon ging ebenfalls nach Ungarn ab, der Akt <quote>ebd., Präs. 2329/1848,</quote> ist ebenfalls skartiert worden. Eine enstprechende Aufforderung an den Sicherheitsausschuß konnte unter den Beständen des AVA., IM., Präs., und des HHSTA., RTA., nicht gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bekanntgabe zu II. und III. an die Nationalgarde</head>
+                  <p>Eine vor dem Ministerrate erschienene Deputation der Wiener Nationalgarde und Legion wurde von den Beschlüssen zu II. und III. sofort mündlich in Kenntnis gesetzt. Hiermit wurde die Vormittagssitzung geschlossen.</p>
+                  <p>Fortsetzung nachmittags um 2 Uhr. Gegenwärtige: die am Eingang erwähnten, dann noch Staatsrat Baron Lebzeltern.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Ordensverleihung an Franz Graf Gyulai</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> übergab dem in Auftrag des Kriegsministers erschienenen GM. Baron Cordon einen Bericht des küstenländischen Gouverneurs Grafen Salm<note type="footnote" n="10">Dieser Bericht Salms konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>, worin auf Ag. Verleihung eines Ordensgroßkreuzes an FML. Graf Gyulai</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Verwahrung gegen Verhaftungen hochstehender Personen</head>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Abschiebung nicht nach Wien zuständiger Arbeiter</head>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_55_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Anstellung Peter Harums</head>
+               </div>
+               <closer/>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

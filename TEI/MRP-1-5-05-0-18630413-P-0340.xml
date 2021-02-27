@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="340">Sitzung 340</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-04-13"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z340.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1144</idno>
+                  <idno type="KZ">1309</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-04-13"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 16. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; BdR. Erzherzog Rainer 25. 4.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-04-16">1863-04-16</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_340_1">Reichsratsangelegenheiten: 1. Regierungsvorlagen. 2. Zeitpunkt der Einberufung des Reichsrates nach Einberufung des siebenbürgischen Landtags. 3. Schindlers Gesetzentwurf über die Beratung umfassender Gesetze im Reichsrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_340_2">Einmahnung der Forderung Österreichs an Dänemark aus dem Titel der Exekutionsführung in Schleswig-Holstein im Jahre 1850</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_340_3">Aktives und passives Wahlrecht der Militärpersonen für den siebenbürgischen Landtag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_340_4">Ablegung der Amtseide in Siebenbürgen in den verschiedenen Landessprachen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_5_340_5">Besetzung der Statthalterposten in Troppau, Prag, Linz, Salzburg und Triest</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630413-P-0340" ana="a5-b5-z340">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z340.pdf">
+               <title type="num">Nr. 340</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-04-13">13. April 1863</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 16. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 25. 4.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1144</idno>
+                  <idno type="KZ">1309</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1863-04-13">13. April 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_340_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Reichsratsangelegenheiten: 1. Regierungsvorlagen. 2. Zeitpunkt der Einberufung des Reichsrates nach Einberufung des siebenbürgischen Landtags. 3. Schindlers Gesetzentwurf über die Beratung umfassender Gesetze im Reichsrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über den Zeitpunkt der Einberufung und die Agenden der nächsten Session des Reichsrates<note type="footnote" n="1">§9 des Grundgesetzes über die Reichsvertretung, Beilage zum Februarpatent, bestimmte: <quote>Der Reichsrat wird vom Kaiser alljährlich einberufen</quote>. Die am <date when="1861-05-01">1. 5. 1861</date> eröffnete erste Sitzungsperiode hatte sich auch ins Folgejahr erstreckt und war erst am <date when="1862-12-18">18. 12. 1862</date> geschlossen worden, vgl. MR. v. 10. und <date when="1862-12-11">11. 12. 1862</date> (= Sammelprotokoll Nr. 296) und <ref type="protocol-link" target="MRP-1-5-05-0-18621216-P-0300.xml#top_5_5_300_1">MR. v. <date when="1862-12-16">16. 12. 1862</date>/I</ref>. Im folgenden handelt es sich also um die zweite Session. Sie dauerte vom <date when="1863-06-17">17. 6. 1863</date> bis zum <date when="1864-02-15">15. 2. 1864</date>.</note>.</p>
+                  <p>Hiernach würde der Reichsrat in der ersten Hälfte des Monats Mai zusammenzutreten haben, und er wäre nach Ablauf von drei Monaten wieder zu schließen. Die Regierungsvorlagen wären vor allem der Staatsvoranschlag für 1864, dann noch einige andere finanzielle Gesetze über die Punzierung, über Gebühren, dann die Revision des Steuersystems. Vom Justizministerium werden vorgelegt werden die neue Zivil- und die Strafprozeßordnung, an die sich die Grundzüge der Justiz- und politischen Organisation reihen würden, vom Staatsministerium ein Gesetz über das Heimatsrecht, vom Handelsministerium Gesetze über das Wasserrecht, über Portobefreiungen und über die Subvention für den österreichischen Lloyd. Eine dringende Vorlage ist der Entwurf des Gesetzvorschlages über die Art der Behandlung umfassender Gesetzvorschläge im Reichsrate. Die bisher gesammelte Erfahrung habe nämlich gezeigt, daß die Beratung umfassender Gesetzentwürfe – wie deren so manche bevorstehen – im Reichsrate lang zu keinem Ende führen würde, wenn dieselben nacheinander im Plenum beider Häuser prinzipiell, dann paragraphenweise beraten und sodann noch die Differenzen vereinbart werden sollen. Der Abgeordnete Schindler habe zur Behebung dieses großen Übelstandes vorgeschlagen, daß nach dem Vorbilde der bayrischen Geschäftsordnung von jedem Hause Ausschüsse gewählt würden, welche die Vorlagen samt den ihnen durch Reichsratsmitglieder einzusendenden Amendements gründlich zu beraten, sich nötigenfalls auch untereinander in Verbindung zu setzen und ihre Schlußberichte an die Häuser zu erstatten hätten, worüber in Pleno bloß eine kurze Debatte mehr stattfinden würde, da dort die <pb n="371" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s371.pdf"/>Einbringung neuer Amendements nicht mehr zulässig wäre. Die Einbringung des diesfälligen Gesetzvorschlages dürfte am füglichsten durch Dr. Schindler selbst stattfinden und sich aller Unterstützung von Seite der Regierung erfreuen<note type="footnote" n="2">Zu diesem Gesetz siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630601-P-0357.xml#top_5_6_357_5">MR. v. <date when="1863-06-01">1. 6. 1863</date>/V</ref>.</note>. Ist das Gesetz sanktioniert, so würde zur Niedersetzung der verschiedenen Ausschüsse geschritten, welche sofort die neuen Vorlagen in Angriff zu nehmen hätten, während die Häuser des Reichsrates sich etwa auf drei Wochen bis zur Entgegennahme der Ausschußberichte zu vertagen hätten. Mit den Regierungsvorlagen wäre ein solches Maß einzuhalten, daß die Möglichkeit vorhanden ist, in drei Monaten zu Ende zu kommen, weil es für die Regierung sehr wichtig erscheint, die Geduld der Reichsräte durch lange Sessionen nicht zu sehr zu erschöpfen, weil man dabei zu besorgen hätte, daß die Mitglieder des Herrenhauses sich an den Beratungen nur wenig beteiligen, die wohlhabenderen unabhängigen Abgeordneten aber auf ihre Mandate verzichten dürften, um nicht ihren Geschäften und Gewohnheiten ganz entzogen zu werden. Solche Opfer wie in der ersten Session kann man nicht öfter fordern. Andererseits würden allzulange Sessionen nur Zeit und Gelegenheit bieten, mit allerlei unreifen und unbequemen Anträgen der Regierung Verlegenheiten zu bereiten. Wird der Reichsrat im Julius, zur heißesten Zeit, geschlossen, so bleibt dann eine allseitig erwünschte Unterbrechung der legislativen Tätigkeit auf zwei bis drei Monate bis zu den Versammlungen der Landtage. Allein die Vorbedingung, damit der Reichsrat in der nächsten Session an die Lösung seiner Aufgaben gehe, ist, daß der siebenbürgische Landtag vor der Reichsratseröffnung bereits Ah. einberufen sei<note type="footnote" n="3">Der siebenbürgische Landtag war als einziger Landtag seit Erlassung des Februarpatents noch nicht einberufen worden und hatte daher keine Möglichkeit gehabt, die Abgeordneten zum Reichsrat zu wählen, weshalb der Reichsrat nicht als Gesamtreichsrat gelten konnte. Siehe dazu die folgende Diskussion unter 2.</note>.</p>
+                  <p>Über diese Anträge des Staatsministers ergab sich eine sehr eingehende längere Erörterung, im Laufe welcher die nachfolgenden Punkte einer speziellen Beratung unterzogen werden.</p>
+                  <p>1. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> fand es bedenklich, die Eröffnung der Reichsratssession auf einen so nahen Zeitpunkt anzuberaumen, während noch keine der zu machenden Vorlagen, vom Budget angefangen, Sr. Majestät vorläufig unterbreitet worden ist und dem Staatsrat zur Begutachtung nur der einzige Entwurf über die Strafprozeßordnung vorliegt<note type="footnote" n="4">Siehe MR. v. 7. und <date when="1863-04-09">9. 4. 1863</date>/II (= Sammelprotokoll Nr. 339).</note>. Es ist nicht denkbar, daß der Staatsrat selbst bei Aufbietung aller Kräfte alle jene, zum Teil umfassenden Entwürfe gründlich werde begutachten können, die voraussichtlich in der letzten Stunde von allen Seiten bei ihm sich zusammmenfinden werden. Es wird ihm zu seinen Arbeiten – so wie bei der letzten Session – Zeit sowohl als die nötige Ruhe fehlen, und es wäre daher besser, ihn von einer unmöglichen Aufgabe zu entheben, welche ihn ganz mit Unrecht im Publikum als den Hemmschuh des legislativen Organismus erscheinen läßt<note type="footnote" n="5">Zur Rolle des Staatsrates bei der Entstehung eines Gesetzes siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/2, XXI</bibl>; zur Kritik am Staatsrat z. B. MR. v. 17., 18., 20. und <date when="1861-09-26">26. 9. 1861</date>/I, <quote>ebd., Nr. 128</quote>.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> sicherte die Übersendung der Gerichtsorganisation und der <ref xml:id="fn_5_5_340_a"/>
+                     <note type="variant" n="a" target="#fn_5_5_340_a">Einfügung a–a Heins.</note>für <pb n="372" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s372.pdf"/>die Gerichtsorganisation leitenden Grundsätze dera Zivilgerichtsordnung in kürzester Zeitfrist zu mit dem Bemerken, er glaube nicht, daß diese Elaborate nach dem Vorausgegangenen dem Staatsrate eine große Mühwaltung auflegen würden. Doch müsse er das Verzeichnis der Vorlagen noch durch die Konkursordnung ergänzen. <ref xml:id="fn_5_5_340_b">Bemerken müsse er jedoch, daß diese umfangreichen Vorlagen längere Vorberatungen im Ausschusse des Reichsrates erfordern und keinesfalls in einer kurzen Reichsratssession werden erledigt werden können, daher jedenfalls eine Geschäftsbehandlung wie im bayrischen Reichsrate sehr wünschenswert erscheine. Im wesentlichen mit dem vom Herrn Staatsminister entwickelten Plane einverstanden, könne er sich jedoch der Besorgnis nicht ganz entschlagen, daß – wenn der Reichsrat bis Ende Juli mit den Budgetberatungen zu Ende kommen solle – derselbe sofort bei seinem Zusammentreten eine Finanzkommission wählen müsse, und seine Arbeit beendigt sein dürfte, ehe der siebenbürgische Landtag zur Wahl von Reichsratsabgeordneten geschritten sein wird, dies alles aber möglicherweise eine ungünstige Wirkung auf den siebenbürgischen Landtag äußern könne. Sollte diese Besorgnis von der Regierung geteilt werden, dann wäre es vielleicht entsprechend, den Reichsrat erst für den Monat August zu berufen</ref>
+                     <note type="variant" n="b" target="#fn_5_5_340_b">Einfügung b–b Heins.</note>. Auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> stellte die Einbringung weiterer Gesetzentwürfe über Patentwesen, Einheit von Maß und Gewicht, siebenbürgische Eisenbahnbauten, Elbeschiffahrt, Musterschutz und Aufhebung der Mühlordnung in Aussicht. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> warnte schließlich wiederholt vor Überbürdung des Reichsrates mit Agenden und meinte, daß die Konkursordnung seinerzeit einer Spezialkommission des Reichsrates werde zuzuweisen sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erachtete, daß das gleiche auch mit seinen neuen Vorschlägen zu einer umfassenden Steuerreform zu geschehen hätte, <ref xml:id="fn_5_5_340_c">jedoch nur in betreff der umfangreichen Operate der Grund- und Gebäudesteuerregulierung, während die neue Erwerb- und Rentensteuer schon im Laufe der Session erledigt werden sollten</ref>
+                     <note type="variant" n="c" target="#fn_5_5_340_c">Einfügung c–c Pleners.</note>. <ref xml:id="fn_5_5_340_d">Die Aufgabe des Staatsrates bleibt aber in beiden Fällen die gleiche, denn stets wird es sich um Gesetzentwürfe handeln, welche an den Reichsrat gelangen und dort entweder jener künftigen ständigen Kommission oder den gewöhnlichen Ausschüssen übergeben werden. Die staatsrätliche Begutachtung muß aber der Einbringung in den Reichsrat jedenfalls vorausgehen, und diese Begutachtung erfordere Zeit, und zwar nicht nur bei der Steuerreform, sondern auch bei dem Budget und [dem] Finanzgesetze. Zur diesfälligen Prüfung muß dem Staatsrate die notwendige Frist eingeräumt werden. Was das Budget anbelangt, so hat der Abgang des Voranschlags von zwei Verwaltungszweigen (Staatsministerium und Grundentlastung) den Abschluß des Voranschlages für 1864 bisher unmöglich gemacht. Doch dürfte es gelingen, denselben in den ersten Tagen des kommenden Monats Mai zur staatsrätlichen Prüfung und Behandlung vorzubereiten</ref>
+                     <note type="variant" n="d" target="#fn_5_5_340_d">Korrektur und Einfügung d–d Pleners aus <quote>Die Schwierigkeit der Aufgabe des Staatsrates in der nächsten Zukunft sei unverkennbar, und er bedaure lebhaft, daß der Abgang des Voranschlags von zwei Verwaltungszweigen den Abschluß des Voranschlags für 1864 unmöglich macht; doch dürfte es bald gelingen, denselben zu der wohl nicht bis ins Detail herabsteigenden staatsrätlichen Überprüfung vorzubereiten</quote>.</note>. Der Minister gedenke sich auch dem <pb n="373" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s373.pdf"/>Reichsrat gegenüber auf eine schriftliche<ref xml:id="fn_5_5_340_e"/>
+                     <note type="variant" n="e" target="#fn_5_5_340_e">Korrektur Pleners aus <quote>summarische</quote>.</note> Budgetvorlage ohne Drucklegung zu beschränken. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, dem sich der Kriegsminister anschloß, war aus den vom Staatsminister geltend gemachten Gründen des Erachtens, daß dem Reichsrate in seiner diesjährigen Session nebst dessen Hauptagenden – dem Staatsvoranschlage – nur wenige Vorlagen zu machen wären<note type="footnote" n="6">Nicht alle der von Schmerling und den anderen Ministern erwähnten Gesetzesvorlagen wurden dem Reichsrat vorgelegt, z. B. die Zivil- und Strafprozeßordnung. Tatsächlich verabschiedet wurden in der zweiten Session 18 Gesetze, von den hier erwähnten nur das Finanzgesetz 1864, die Änderung der Stempel- und Gebührengesetze und das Gesetz über die Regelung der Heimatverhältnisse. Auf der Strecke blieben insbesondere die Steuerreform, die Konkursordnung und das Gesetz über die Behandlung umfangreicher Gesetze.</note>.</p>
+                  <p>2. In bezug auf die vom Staatsminister beantragte Einberufung des Reichsrates in der ersten Hälfte Mai, und zwar nach vorausgegangener Einberufung des siebenbürgischen Landtages, bemerkte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi>, daß sobald der Entwurf des königlichen Einberufungsreskripts im Ministerrate wird beraten sein, die ganze Landtagsangelegenheit Sr. Majestät werde unterbreitet werden, so daß das Ah. Reskript noch im Monat April ablaufen könnte<note type="footnote" n="7">Zur Einberufung des siebenbürgischen Landtags von 1863 siehe Einleitung XL f. sowie die betreffenden Protokolle im vorliegenden und im folgenden Band.</note>. Allein Graf Nádasdy müsse aufmerksam machen, daß die hierauf folgenden Stadien der Wahlen etc. es nicht hoffen lassen, daß der Landtag vor Ablauf von zwei Monaten nach der Einberufung werde versammelt sein können, das ist also ehestens um die Mitte Juni. Der versammelte Landtag aber werde wenigstens noch einen Monat mit Prüfung der Wahlen, mit der Wahl seines Präsidenten und anderen Formalitäten zubringen müssen, bis er zu Beginn der Arbeiten konstituiert ist, und die Aufforderung zur Beschickung des Reichsrates an ihn gerichtet werden kann. Damit ist man aber bis zur Mitte Julius vorgerückt, und vor Ende dieses Monats ist demnach kein Landtagsbeschluß über diese königliche Proposition zu erwarten. Dies sei nun allerdings sehr spät, relativ zu der bereits am 15. August beabsichtigten Schließung des Reichsrates, aber eine notwendige Folge des Umstandes, daß die Ah. Einberufung des Landtages erst jetzt erfolgt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> äußerte, daß es ihm bei den soeben vernommenen Aufklärungen wünschenswert erscheine, die Einberufung des Reichsrates bis zum September oder Oktober zu verschieben. Dann würde nämlich der siebenbürgische Landtag sich in der einen oder anderen Weise entschieden haben und die Kompetenz des Reichsrates formal ganz sichergestellt sein, was eben bezüglich der finanziellen Vorlagen von höchster Wichtigkeit ist. <ref xml:id="fn_5_5_340_f">Die [Ein]bringung der Finanzvorlagen an den Reichsrat, insolange derselbe wegen Nichtentscheidung der siebenbürgischen Frage noch der engere ist, scheint ihm sehr bedenklich, weil der Reichsrat in dieser Eigenschaft selbst zur Übernahme der Vorlagen, zu der Wahl des Finanzausschusses und zur Ausschußverhandlung nicht kompetent ist und eine Wiederholung der Oktroyierung zum weiteren Reichsrate höchstwahrscheinlich in bezug auf den Erfolg mißlingen würde. Eine frühere Einberufung für die Aufgaben des engeren Reichsrates sei ebenfalls nicht angezeigt, weil die Justizvorlagen noch gar nicht fertig seien. Vielmehr müsse eine kurze Dauer der Session gewünscht werden. Sie wird aber unverhältnismäßig lang werden, wenn der Reichsrat im Mai zusammentritt, bis zu der erst nach drei Monaten stattfindenden Wahl oder Nichtwahl von Seite Siebenbürgens sich bloß mit finanziellen Ausschußverhandlungen und Justizfragen beschäftigt und dann erst in die Plenarverhandlung über Finanzsachen eintritt, wozu abermals nahezu zwei bis drei Monate erforderlich sein werden. Übrigens wird auch die Session gerade in die heißesten Sommermonate fallen, was höchst unzweckmäßig erscheint</ref>
+                     <note type="variant" n="f" target="#fn_5_5_340_f">Einfügung f–f Rechbergs</note>Die [Ein]bringung der Finanzvorlagen an den Reichsrat, insolange derselbe wegen Nichtentscheidung der siebenbürgischen Frage noch der engere ist, scheint ihm sehr bedenklich, weil der Reichsrat in dieser Eigenschaft selbst zur Übernahme der Vorlagen, zu der Wahl des Finanzausschusses und zur Ausschußverhandlung nicht kompetent ist und eine Wiederholung der Oktroyierung zum weiteren Reichsrate<note type="footnote" n="8">Dieser Weg war in der ersten Session beschritten worden, vgl. <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/3, XV–XVII</bibl>.</note> höchstwahrscheinlich in bezug auf den Erfolg mißlingen <pb n="374" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s374.pdf"/>würde. Eine frühere Einberufung für die Aufgaben des engeren Reichsrates sei ebenfalls nicht angezeigt, weil die Justizvorlagen noch gar nicht fertig seien. Vielmehr müsse eine kurze Dauer der Session gewünscht werden. Sie wird aber unverhältnismäßig lang werden, wenn der Reichsrat im Mai zusammentritt, bis zu der erst nach drei Monaten stattfindenden Wahl oder Nichtwahl von Seite Siebenbürgens sich bloß mit finanziellen Ausschußverhandlungen und Justizfragen beschäftigt und dann erst in die Plenarverhandlung über Finanzsachen eintritt, wozu abermals nahezu zwei bis drei Monate erforderlich sein werden. Übrigens wird auch die Session gerade in die heißesten Sommermonate fallen, was höchst unzweckmäßig erscheint. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> entgegnete, sobald man sich sklavisch an die Form binden wolle, werde man in diesem Jahre gar nicht dazu kommen, Finanzgesetze im Reichsrate diskutieren zu lassen, und die Anwendung des § 13 wäre dann allerdings der einzige korrekte Vorgang zur Erledigung der Finanzangelegenheiten. Allein die höchsten Interessen machten es rätlich, im laufenden Jahre noch von der strikten Form abzugehen, und dies wird sich auch seinerzeit in einer kaiserlichen Botschaft an den Reichsrat standhältig motivieren lassen. Bindet sich die Regierung schon im vorhinein die Hände dadurch, daß sie die Tätigkeit des Reichsrates absolut von dem Beschluß des siebenbürgischen Landtages abhängig macht, so wird es lediglich in die Willkür des letzteren gelegt, ob und wann 1863 ein Finanzgesetz diskutiert werden soll. Dies kann und darf nicht sein! Durch das Aufschieben der Reichsratssession über den Monat Mai hinaus würde die Regierung den Vorwurf der Inkonsequenz auf sich laden, weil sie ja eben mit Hinblick auf die bevorstehende Reichsratssession die Dauer der Landtage so kurz bemessen hat. Durch Verzögerung der Einberufung des Reichsrates würde dann auch das Wiederzusammentreten der Landtage im November erschwert oder ganz unmöglich gemacht. Man kommt nicht in die Ordnung! Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> stimmt gleichfalls für die Einberufung des Reichsrates um die Mitte des Monats Mai, jedoch bloß in der Eigenschaft eines engeren, und wäre der Zeitpunkt des Beginns seiner Tätigkeit als Gesamtreichsrat auf den Moment zu bestimmen, wo man annehmen kann, daß die Beschickung desselben dem siebenbürgischen Landtage bereits proponiert sein wird, das ist also etwa den 15. Julius. <ref xml:id="fn_5_5_340_g">Er meint, daß die Einberufung des gesamten Reichsrates unter der Form zu geschehen hätte, daß ein bestimmter Tag im vorhinein als der vorläufig jenige zu bezeichnen wäre, an welchem der gesamte Reichsrat zusammenzutreten hätte. An diesem Tage, gleichviel ob Abgeordnete von Siebenbürgen gekommen sind, wenn sie überhaupt nur hätten kommen können, seien erst die Finanzvorlagen zu machen. Durch diesen Vorgang würde der jedenfalls mißliche Schritt vermieden, dem engeren Reichsrate Finanzvorlagen zu machen, was nicht ohne neuerliche spezielle kaiserliche Ermächtigung geschehen könnte. Auch würde vermieden, daß für die Funktion des Reichsrates als Gesamtreichsrat eine besondere Deklaration notwendig wäre</ref>
+                     <note type="variant" n="g" target="#fn_5_5_340_g">Einfügung g–g Mecsérys.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> könnte dieses Auskunftsmittel, wobei man neue Komplikationen mit dem siebenbürgischen Landtage hervorruft, nicht empfehlen und müßte sich überhaupt dagegen verwahren, daß der nächste Reichsrat bloß als ein engerer einberufen werde. Die Einberufung im Mai sei eine Notwendigkeit, <pb n="375" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s375.pdf"/>und wenn sie gleich in der ersten Hälfte, wegen [der] vielen Vorarbeiten noch nicht tunlich ist, könnte dieselbe doch füglich zwischen dem 16. und 28. Mai – vor oder nach Pfingsten – anberaumt werden. Die Bestimmung der Session auf den 15. August würde den Reichsräten ganz gewiß die unwillkommenste sein. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erklärt, es gehe jetzt nicht mehr an, diesseits der Leitha in Finanzangelegenheiten nach § 13 vorzugehen. Man muß daher die Finanzvorlagen an den Reichsrat bringen und Siebenbürgen nötigenfalls nach der Kontumazierungstheorie<note type="footnote" n="9">D. h. das Fernbleiben vom Reichsrat der Abgeordneten jener Landtage, welche die Möglichkeit der Wahl gehabt, sie aber nicht wahrgenommen hatten, durfte zu keinen Rechtsfolgen für den Reichsrat selbst führen.</note> behandeln. Jedenfalls muß aber vorgebaut werden, daß der Reichsrat nicht zusammentrete, bevor hinlängliche Beschäftigung für denselben vorhanden ist. Die Minister des Krieges, des Handels und der Marine vereinigten sich mit den Anträgen der Minister Ritter v. Schmerling und v. Lasser. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> findet, daß der Reichsrat, wie er im Mai zusammentritt, <ref xml:id="fn_5_5_340_h">strikte genommen</ref>
+                     <note type="variant" n="h" target="#fn_5_5_340_h">Einfügung h–h Heins.</note> noch nicht kompetent sei, um den Finanzausschuß für den Voranschlag zu wählen, und daß Siebenbürgen sich durch eine so vorgreifende Wahl verletzt finden dürfte. Es wäre daher von diesem Gesichtspunkte wünschenswert, die Session erst im August beginnen zu lassen, wenn der siebenbürgische Landtag sich entschieden hat. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi>
+                     <ref xml:id="fn_5_5_340_i">erklärte, daß für ihn das wichtige Motiv darin bestehe, daß genügend Vorlagen für den Reichsrat vorbereitet seien, um ihn sogleich nach seinem Zusammentritt zu beschäftigen und zu verhindern, daß er wegen Mangel an Beschäftigung verleitet werde, seine Tätigkeit anderen Gegenständen zuzuwenden. Sei dies gesichert, so habe er gegen die sofortige Einberufung keine Einwendung zu erheben</ref>
+                     <note type="variant" n="i" target="#fn_5_5_340_i">Einfügung i–i statt <quote>„und“</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> stimmte<ref xml:id="fn_5_5_340_j"/>
+                     <note type="variant" n="j" target="#fn_5_5_340_j">Korrektur Rechbergs aus <quote>stimmten</quote>.</note>, wie früher der Finanzminister, für die Berufung des Reichsrates im Monat August. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> enthielt sich der Abstimmung über diese Frage, in der er sich nicht kompetent findet.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> der durchlauchtigste Vorsitzende sprach den Beschluß der Majorität dahin aus, daß die Einberufung um die Hälfte Mai stattzufinden habe und mittlerweilen die Vorlagen schleunigst zustande gebracht werden sollen.</p>
+                  <p>3. Für die Unterstützung des vom Staatsminister in seinem Referate beleuchteten Schindlerschen Gesetzentwurfes in betreff der Beratung umfassender Gesetze in den beiden Häusern sprach sich die Stimmenmehrheit des Ministerrates aus, wobei sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> insbesondere auf die in den bayrischen Kammern gemachten Erfahrungen über die Vorteile einer solchen Geschäftsbehandlung berief. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> äußerte das Bedenken, daß die nach Aufhebung der Session mit Diätengenuß forttagenden Reichsratskommissionen leicht in ähnlicher Art ausarten könnten, wie weiland die ungarischen Regnikolardeputationen mit hundert und mehr Mitgliedern, welche jahrelang saßen und sich allerlei Eingriffe in die Verwaltung erlaubten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> gab die Aufklärung, daß die vorgeschlagenen Gesetzkommissionen des Reichsrates je aus höchstens neun Individuen <pb n="376" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s376.pdf"/>zu bestehen hätten und denselben sowohl ihre Aufgabe als der Wirkungskreis bestimmt und auf völlig beruhigende Weise wird vorgezeichnet werden<note type="footnote" n="10">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18630428-P-0346.xml#top_5_5_346_3">MR. I v. <date when="1863-04-28">28. 4. 1863</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_340_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Einmahnung der Forderung Österreichs an Dänemark aus dem Titel der Exekutionsführung in Schleswig-Holstein im Jahre 1850</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> referierte, daß die soeben von der dänischen Regierung vertragswidrig beschlossene Einverleibung Schleswigs mit Dänemark Österreich die Verpflichtung auferlegt, an Dänemark darüber ein ernstes Wort zu richten<note type="footnote" n="11">Am <date when="1863-03-30">30. 3. 1863</date> hatte König Friedrich VII. von Dänemark eine Ah. Bekanntmachung über das Verfassungsverhältnis Holsteins zu Dänemark erlassen, wodurch das Herzogtum Schleswig faktisch Dänemark einverleibt wurde; Text der Bekanntmachung <bibl type="secondary">
+                           <title>Das Staatsarchiv</title> 5 (1863), Nr. 835</bibl>. Dies richtete sich gegen die Vereinbarungen von 1851/52 zwischen Dänemark und den durch Österreich und Preußen vertretenen Deutschen Bund.</note>, zumal Österreich es war, welches die Exekution im Jahre 1850 gegen die Herzogtümer geführt hat<note type="footnote" n="12">Nach Beendigung des deutsch-dänischen Kriegs von 1848–1850 hatte Österreich namens des Deutschen Bundes die allein weiterkämpfenden Schleswig-Holsteiner durch einen Exekutionsfeldzug zur Entwaffnung gezwungen und die Herzogtümer Dänemark übergeben.</note>. Es liegt nun sehr nah, bei dieser Gelegenheit auch in Anregung zu bringen, daß Dänemark die Entschädigung für die von Österreich vorschußweise bestrittenen Exekutionskosten per 7 Millionen fl. nicht geleistet und somit auch dieser seiner bundesrechtlichen Verpflichtung nicht nachgekommen ist. Die Stellung dieses Ersatzanspruches ist an sich plausibel, muß aber doch auch aus dem Gesichtspunkte ins Auge gefaßt werden, daß die österreichische Note seinerzeit in die Öffentlichkeit dringen wird und man auch darauf gefaßt sein muß, daß unser Ersatzanspruch abgelehnt wird, was hie und da schlechten Eindruck machen kann.</p>
+                  <p>Nachdem der Minister des Äußern den Entwurf einer schließlich die Ersatzforderung betonenden österreichischen Note gelesen hatte, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, daß ihm die Ersatzforderung mit dem politischen Teile der Note in keinem nahen Zusammenhange zu stehen scheine und daher diese Reklamation, deren Erfolg ohnehin zweifelhaft ist, hier lieber weggelassen und abgesondert erhoben werden dürfte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> zeigte hierauf die enge Verbindung, welche zwischen beiden Angelegenheiten besteht, wies nach, daß die Festung Rendsburg uns sogar als Pfand für die Exekutionskosten eingeräumt war und daß Österreich, wenn dieser Schritt erfolglos bleibt, sich an den Deutschen Bund zur Abhilfe nach Bundesrecht wenden könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> stimmte für die Erhebung des Ersatzanspruches, welche er bei dem Ministerium des Äußern ohnehin demnächst in Anregung zu bringen gedachte. Die Stimmenmehrheit vereinigte sich mit dem Antrage des Ministers Grafen Rechberg, während der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> sich für die getrennte Behandlung der fraglichen Angelegenheiten aussprach<note type="footnote" n="13">Die Note Rechbergs an den k. k, Gesandten in Kopenhagen v. <date when="1863-04-13">13. 4. 1863</date>
+                        <bibl type="secondary">
+                           <title>Das Staatsarchiv</title> 5 (1863), Nr. 836</bibl>; <quote>ebd.</quote> auch zahlreiche weitere Aktenstücke zum deutsch-dänischen Konflikt um Schleswig-Holstein vor Ausbruch des Krieges von 1864. Zusammenfassende Darstellung dazu mit weiterführender Literatur <bibl type="secondary">
+                           <author>Schieder</author>, Vom Deutschen Bund zum Deutschen Reich</bibl>. In: <bibl type="secondary">
+                           <author>Gebhardt</author>, Handbuch 3, 183–188</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_340_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Aktives und passives Wahlrecht der Militärpersonen für den siebenbürgischen Landtag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte, es seien zwischen dem Kriegsministerium und der siebenbürgischen Hofkanzlei die Bestimmungen bezüglich der Wahlfähigkeit und Wählbarkeit [der] k. k. Offiziers und Militärparteien in den siebenbürgischen Landtag vereinbart worden, welche in die Landtagswahlordnung einzuschalten <pb n="377" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s377.pdf"/>wären<note type="footnote" n="14">Dies hatte Degenfeld bei der Besprechung des § 29 (Wahlberechtigung) der provisorischen Landtagsordnung am <date when="1863-04-09">9. 4. 1863</date> angeregt, MR. v. 7. und <date when="1863-04-09">9. 4. 1863</date> (= Sammelprotokoll Nr. 339).</note>. Ohne Erinnerung gegen den Text zu erheben, habe es jedoch dem Staatsrate passender erschienen, wenn diese Bestimmungen durch das Kriegsministerium für das k. k. Militär vorgeschrieben würden und die Wahlordnung bloß eine einfache Beziehung auf diese Vorschrift enthielte. Nachdem jedoch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> erklärt hatte, er sehe nicht ab, wie sein Ministerium berufen sein könne, Vorschriften über die politischen Rechte des aktiven und passiven Wahlrechts zu erlassen und selbe auch in nicht militärischen Kreisen zu verlautbaren, äußerte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi>, er nehme keinen Anstand, diese Bestimmungen über die vom Wahlrecht „ausgenommenen“ [Personen] als einen neuen § 33 in den Entwurf der siebenbürgischen Wahlordnung aufzunehmen. Der § 34 werde dann diejenigen Personen aufzählen, welche vom Wahlrecht „ausgeschlossen“ sind. Der Ministerrat war hiemit einverstanden<note type="footnote" n="15">Die Bestimmungen sind in der provisorischen Landtagsordnung enthalten.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_340_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Ablegung der Amtseide in Siebenbürgen in den verschiedenen Landessprachen</head>
+                  <p>Minister Graf Nádasdy referierte, er habe am 3. d. M. bei Sr. k. k. apost. Majestät au. beantragt, es wolle proprio motu Alt[issimi]<note type="footnote" n="16">Auf Ah. Veranlassung.</note> bestimmt werden, daß künftighin der Amtseid in Siebenbürgen nach der freien Wahl des zu Beeidigenden in jeder der drei langesüblichen Sprachen abgelegt werden dürfe<note type="footnote" n="17">Vortrag Nádasdys v. <date when="1863-04-03">3. 4. 1863</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 215/1863</bibl> (K. und RS.).</note>. Referent erinnerte vorerst an einen bereits im Ministerrate verhandelten Fall mit dem Gerichtstafelbeisitzer Romanu, der den Amtseid nur in romanischer Sprache ablegen wollte, womit er von der siebenbürgischen Hofkanzlei abgewiesen wurde. Doch behob sich diese Angelegenheit dadurch, daß Romanu, ohne Erhaltung des abweislichen Bescheides, den Amtseid freiwillig in ungarischer Sprache ablegte<note type="footnote" n="18">MR. v. 10. und <date when="1862-10-13">13. 10. 1862</date>/III, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z269" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z269.pdf" target="MRP-1-5-04-0-18621013-P-0269.xml">ÖMR. V/4, Nr. 269</ref>
+                        </bibl>.</note>. Zur Stellung des gegenwärtigen au. Antrags findet sich Graf Nádasdy hauptsächlich durch die Erwägung bestimmt, daß ein solches Zugeständnis den so mächtigen Nationalitätsgefühlen Befriedigung gewähren würde. Selbst in Komitatsausschüssen, wo die Majorität ungarischer Nation ist, habe sich bereits das Bestreben gezeigt, den romanischen Mitgliedern in der Sprachenfrage größere Zugeständnisse zu machen und so der Regierung in dieser Beziehung zuvorzukommen. Hiezu kommt noch, daß jeder in seiner Muttersprache den Eid am leichtesten ablegen kann.</p>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> sich dagegen erklärt hatte, daß die in Rede stehende freie Wahl den Beamten seines Ressorts zugestanden werde, äußerte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi>, er sei bereit, seinen au. Antrag auf die Eide der Justiz- und politischen Beamten zu beschränken. <ref xml:id="fn_5_5_340_k">Der Finanzminister hält es hier zweckmäßig, betreff der Sprachenfrage keine Ah. Entschließung zu erwirken, weil dies nur zu sehr unangenehmen Erörterungen und Folgerungen führen werde und es in dieser Angelegenheit besser sei, den Gebrauch sich herausbilden zu lassen, als allzu maßregelnd von Regierungsseite initiativ einzugreifen. Jedenfalls müsse der dermalige Gebrauch der deutschen Sprache im inneren Dienste und Behördenverkehr der Finanz-, Post- und Telegrafenorgane aufrechtbleiben, so wie die Ausfertigung der Erlässe und die Protokollsaufnahme auch bei diesen Behörden in der Sprache der betreffenden Parteien stets geschehen müsse und schon jetzt geschehe</ref>
+                     <note type="variant" n="k" target="#fn_5_5_340_k">Einfügung k–k Pleners.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hält es hier zweckmäßig, betreff der Sprachenfrage keine Ah. Entschließung zu erwirken, weil dies nur zu sehr unangenehmen Erörterungen und Folgerungen führen werde und es in dieser Angelegenheit besser sei, den Gebrauch sich herausbilden zu lassen, als allzu maßregelnd von Regierungsseite initiativ einzugreifen. Jedenfalls müsse der dermalige Gebrauch der deutschen Sprache im inneren Dienste und Behördenverkehr <pb n="378" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s378.pdf"/>der Finanz-, Post- und Telegrafenorgane aufrechtbleiben, so wie die Ausfertigung der Erlässe und die Protokollsaufnahme auch bei diesen Behörden in der Sprache der betreffenden Parteien stets geschehen müsse und schon jetzt geschehe. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> stimmte selbst gegen eine dergestalt beschränkte Ah. Anordnung, indem diese Freilassung der Wahl ein neues Prinzip sei, welches in den anderen Kronländern mit gemischter Bevölkerung noch nicht gilt. Die administrative Sprache ist überhaupt die für den Amtseid vorgeschriebene, in Siebenbürgen ist dies die ungarische. Der Landtag, die Munizipien können für sich ein anderes Prinzip annehmen, aber die Regierung dürfte schwerlich genügenden Grund haben, es vorschnell, und zwar nur einseitig für die Beamten zweier Verwaltungszweige, anzunehmen. <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> erwiderte, daß die Beamten der Landesteile mit gemischter Bevölkerung ungarisch und walachisch amtieren, doch sei allerdings die interne Amtssprache die ungarische. Bei der siebenbürgischen Hofkanzlei würden die Amtseide in lateinischer Sprache abgelegt, um die Sprachenfrage zu umgehen. Der Staats-, der Kriegs- und der Handelsminister, dann Minister Dr. Hein und der Staatsratspräsident traten dem Minister Grafen Nádasdy bei. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, obgleich Anhänger der Gleichberechtigung der Nationalitäten, sieht keinen entscheidenden Grund, von dem plausiblen Prinzipe abzugehen, daß der Amtseid in der Amtssprache abzulegen sei. In gleicher Weise äußerten sich die Minister Graf Rechberg, Baron Mecséry, Graf Esterházy und Baron Burger<note type="footnote" n="19">Der Antrag war also mit 7 : 5 Stimmen abgelehnt (Lichtenfels hatte kein Stimmrecht), und Nádasdy zog seinen Vortrag zurück, vgl. <ref type="protocol-link" target="MRP-1-5-05-0-18630416-P-0341.xml#top_5_5_341_3">MR. I v. <date when="1863-04-16">16. 4. 1863</date>/III</ref>. Bei dem in Anm. 17 zit. Akt liegt folgende Notiz Nádasdys: Die Majorität sei gegen den Antrag gewesen, und <quote>in Berücksichtigung des Umstandes, daß böhmische, polnische, ruthenische Eidesablegungen angestrebt werden dürften, welches zu unangenehmen Erörterungen führen müßte, erklärte sich [der Antragsteller] bereit, den au. Antrag gegenwärtig zurückzuziehen und insolange auf sich beruhen zu lassen, bis die unerquickliche Sprachenfrage in dem nächsten siebenbürgischen Landtage der Erledigung zugeführt werden wird</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_340_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Besetzung der Statthalterposten in Troppau, Prag, Linz, Salzburg und Triest</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die au. Anträge, die er wegen Ah. Besetzung einiger Statthalterposten zu erstatten gedenkt. Es wären hiernach 1. Vizepräsident Baron Kellersperg zum Statthalter im Küstenlande, 2. der Salzburger Statthalter Baron Spiegelfeld zum Statthalter in Österreich ob der Enns, und 3. Statthaltereirat Graf Taaffe zum Statthalter in Salzburg Ah. zu ernennen. Zur Leitung der böhmischen Statthalterei mit dem Titel eines Vizepräsidenten und der halben Funktionszulage eines wirklichen Statthalters wäre der Statthalter von Schlesien, Graf Belcredi, und an die Stelle des letzteren der disponible Statthaltereirat Baron Pillersdorf Ah. zu berufen. Nachdem der Staatsminister über die Qualifikation, die Familien- und sonstigen Verhältnisse der obgenannten Kandidaten umständliche Auskünfte mitgeteilt hatte, erklärte sich der Ministerrat mit jenen au. Anträgen einverstanden<note type="footnote" n="20">Mit zwei Vorträgen v. <date when="1863-04-24">24. 4. 1863</date>, StM. I 3288 und StM. I 3290, unterbreitete Schmerling die Besetzungsvorschläge. Mit Ah. Handschreiben an den Staatsminister v. <date when="1863-04-28">28. 4. 1863</date> wurden die Ernennungen vorgenommen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1313/1863 und KZ. 1314/1863</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1863-04-16">16. April 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, den <date when="1863-04-25">25. April 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-04-25">25. April 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

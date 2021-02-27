@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="037">Sitzung 37</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-14"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z37.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">781 et 782</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-14"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner, Lebzeltern (interimistischer Leiter des Außenministeriums); BdE. Pillersdorf (17. 5.) Franz Karl (17. 5.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+                  <note>interimistischer Leiter des Außenministeriums</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-17">17. 5.</date>
+                  </note>
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-17">17. 5.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_37_1">Verbot der politischen Tätigkeit der Wiener Akademische Legion</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_37_2">Sicherheitskomitee für Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_37_3">Weitere Amnestien für Galizien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_37_4">Pensionierung Joseph Freiherrn v. Odelgas</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_37_5">Untersuchung der Krawalle in Buda und Pest</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480514-P-0037" ana="a1-1848_z37">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z37.pdf">
+               <title type="num">Nr. 37</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-14">14. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner, Lebzeltern (interimistischer Leiter des Außenministeriums); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (17. 5.) Franz Karl (17. 5.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">781 et 782</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-05-14">14. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_37_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Verbot der politischen Tätigkeit der Wiener Akademische Legion</head>
+                  <p>Der mit [der] Führung des Ministeriums des Unterrichts provisorisch beauftragte <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Sommaruga</rs>
+                     </hi> eröffnete die Sitzung mit der Vorlesung eines Erlasses<note type="footnote" n="1">Dieser Erlaß konnte weder unter den Beständen des <quote>Universitätsarchivs</quote> noch unter denen des AVA., UM., Präs., gefunden werden.</note>, welchen er an das Kommando der Wiener Akademischen Legion zu richten beabsichtigt, worin sie nicht bloß (gleich den Nationalgarden<note type="footnote" n="2">Zu dem Erlaß an die Wiener Nationalgarde siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480512-P-0035.xml#top_1_1_35_2">MR. v. <date when="1848-05-12">12. 5. 1848</date>/II</ref>.</note>) bestimmt angewiesen wird, sich aller politischen Debatten, Beschlüsse und Demonstrationen zu enthalten, sondern womit sie zugleich eine ernste Warnung vor Exzessen, aufregenden Vorgängen, Eingriffen in Privatverhältnisse, Entsendung von agitierenden Agenten in die Provinzen etc. erhält.</p>
+                  <p>Wenn dieser Erlaß an das Kommando der Akademischen Legion und nicht, wie es allerdings dem Geschäftsgange entsprechender wäre, an die Universität gerichtet wird, so geschieht dies deswegen, weil der Universitätsvorstand auf die Studierenden beinahe gar keinen Einfluß übt, die Leitung der Legion ganz in der Hand des Kommandos liegt, und daher nichts erübrigt, als sich an dieses zu wenden, wenn man seines Erfolges sicher sein will.</p>
+                  <p>Sämtliche Minister waren mit dem Inhalte dieses Erlasses einverstanden, und es wurde nur beschlossen, daß mit dessen Ausfertigung noch durch 24 Stunden innezuhalten wäre, um ihn eventuell nach Maßgabe des Vorganges der Nationalgarde bezüglich der Unterlassung politischer Deliberationen noch modifizieren zu können<note type="footnote" n="3">Dieser Erlaß an die Akademische Legion kam nie zum Tragen, da er mit der Zurücknahme des Tagesbefehls an die Nationalgarde hinfällig geworden war. Vgl. dazu <bibl type="secondary">
+                           <title>Mohsch</title>, Akademische Legion 90 f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_37_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Sicherheitskomitee für Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> berichtete, der kommandierende General in Niederösterreich habe an ihn die Anfrage über das einzuhaltende Benehmen des Militärs bei größeren Straßenexzessen und Demonstrationen in Wien gestellt<note type="footnote" n="4">Ein schriftlicher Beleg für diese Anfrage konnte unter den Beständen des KA., HKR., KM., Präs., nicht gefunden werden.</note>, und Graf Latour hob die Notwendigkeit heraus, für solche Fälle die bestimmtesten Instruktionen zu erteilen, da die sogenannten Katzenmusiken unter Zusammenfluß mehrerer tausend Menschen sich häufig <pb n="225" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s225.pdf"/>wiederholen<note type="footnote" n="5">Vgl. dazu <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 2, 39.</bibl>
+                     </note> und die zur Erhaltung und Wiederherstellung der Ordnung berufene Nationalgarde sich bei dem Exzesse in der Nacht vom 13. auf den 14. d. M. vor dem Hause des Schauspieldirektors Carl mehr passiv verhalten habe<note type="footnote" n="6">Der Direktor des Carl-Theaters wurde reaktionärer Gesinnung beschuldigt, vgl. dazu <quote>ebd.</quote>; zu den Vorfällen um seine Person siehe <bibl type="secondary">
+                           <title>Reschauer - Smets</title>, Revolution 2, 171 f.</bibl> Die Unruhen waren hauptsächlich wegen der Forderung entstanden, anstelle des in der provisorischen Wahlordnung vorgesehenen Zwei- das Einkammersystem einzuführen.</note>, ungeachtet sie in der bedeutenden Stärke von zehn Kompanien auf dem Platze versammelt war. Vor allem sei es notwendig, genau zu bestimmen, wann der Zeitpunkt eintrete, wo die Militärmacht aufgeboten werden muß, und wer das Recht habe, das Einschreiten des Militärs in Anspruch zu nehmen. Es dürfte dabei nicht übersehen werden, daß, wenn die Aufforderung hiezu von Seite der Zivilbehörde im ordentlichen Instanzenzuge durch die Regierung und Generalkommando an das bezügliche Truppenkommando geleitet werden soll, die Militärhilfe in den meisten Fällen, besonders bei nächtlichen Exzessen, zu spät kommen dürfte, zumal bei Volksaufläufen oft auf die Differenz einer Viertelstunde sehr viel ankommt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erwiderte, dieser allerdings sehr wichtige und folgenreiche Gegenstand habe bereits den Gegenstand reifer Beratung bei dem mit der Bildung des Sicherheitskomitees beschäftigten provisorischen Wiener Bürgerausschusse gebildet<note type="footnote" n="7">Zur Bildung dieses Sicherheitsausschusses siehe die Beratungen des provisorischen Bürgerausschusses v. <date when="1848-04-13">13. 4. 1848</date>, <bibl type="archival">WStLA., B 1/1</bibl>; dabei wurde auch die Überlastung der Nationalgarde und die Unfähigkeit der Polizei erwähnt.</note>, und die vom Kriegsminister gestellten Anfragen würden durch die instruktionsmäßigen Attribute des Sicherheitskomitees und das demselben vorzuzeichnende Verfahren ihre einfache Lösung finden. Leider aber sei die wirkliche Organisierung dieses Komitees wegen entstandener bedeutender Meinungsverschiedenheiten im bürgerlichen Ausschusse ungeachtet der häufigen Erinnerungen und nachdrücklichen schriftlichen Betreibungen von Seite des Ministers des Inneren<note type="footnote" n="8">Diese schriftlichen Urgenzen konnten weder im AVA., IM., Präs., noch im WStLA., Gemeinderat 1848, gefunden werden.</note> noch nicht zustande gekommen.</p>
+                  <p>Baron Pillersdorf, von der Notwendigkeit überzeugt, für die Handhabung der öffentlichen Sicherheitsaufsicht baldmöglichst in einer oder anderer Weise fürzusorgen, werde sofort an den Magistrat die bestimmte Weisung erlassen, entweder binnen 48 Stunden die Munizipalsicherheitsbehörde einzusetzen, oder aber eine negative Erklärung abzugeben, damit die Staatsverwaltung selbst für die kräftige Handhabung der Sicherheitspolizei in der Residenz durch geeignete Organe ohne weiteren Verzug Vorkehrungen treffen könne.</p>
+                  <p>Diesem Antrage wurde einstimmig beigepflichtet<note type="footnote" n="9">Mit Dekret (K.) vom selben Tag drängte Pillersdorf den Magistrat und provisorischen Bürgerausschuß, einen Sicherheitsausschuß ins Leben zu rufen, <bibl type="archival">AVA., IM., Präs. 1878/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_37_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Weitere Amnestien für Galizien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister Baron Sommaruga</rs>
+                     </hi> trug den Inhalt eines vom galizischen Appellationsgerichte erstatteten Berichtes<note type="footnote" n="10">Siehe dazu das Schreiben (K.) Stadions v. <date when="1848-05-08">8. 5. 1848</date> an Pillersdorf, in dem er sich, nach Rücksprache mit dem Appellationsgerichtspräsidenten, für eine Amnestie für die in diesem Ministerratsprotokoll genannten Fälle aussprach, <bibl type="archival">ZDIAUL., StH., Präs. 5990/1848</bibl>. Den Anlaß dazu hatte Pillersdorf mit seinem Schreiben v. <date when="1848-04-22">22. 4. 1848</date> gegeben, in dem er Stadion aufforderte, gemeinsam mit dem Appellationsgerichtspräsidenten einen Bericht über diese Angelegenheit vorzulege, <quote>ebd., Präs. 5542/1848.</quote>
+                     </note> vor, worin auf die Erwirkung von <pb n="226" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s226.pdf"/>zwei Amnestien angetragen wird, nämlich: a) für jene bereits amnestierten politischen Verbrecher aus Galizien<note type="footnote" n="11">Die Amnestie für politische Verbrechen in Galizien war auf Vortrag Taaffes v. <date when="1848-03-17">17. 3. 1848</date> mit Ah. Handschreiben v. <date when="1848-03-20">20. 3. 1848</date> erteilt worden, <bibl type="archival">HHSTA., Kab. Archiv, Conferenz Akten a, 341/1848.</bibl>
+                     </note>, welche wegen gleichzeitig begangener gemeiner Verbrechen noch im Kerker zurückgehalten werden, und b) für die galizischen Bauern, welche wegen der während der Ereignisse des Jahres 1846<note type="footnote" n="12">Zu den Ereignissen von 1846 siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480417-P-0014.xml#top_1_1_14_1">MR. v. <date when="1848-04-17">17. 4. 1848</date>/I</ref>, Anm. 4.</note> begangenen gemeinen Verbrechen angeklagt sind und zum Teil auch bereits in Untersuchung stehen. Beide Arten von Amnestie werden vom galizischen Landesgouverneur und vom Appellationsgerichte aus politischen Gründen für dringend notwendig erklärt, und jene zugunsten der Bauern (b) insbesondere deswegen, um sie vor den Verfolgungen von Seite der aus dem Auslande oder aus den Straforten heimkehrenden polnischen Adeligen zu schützen.</p>
+                  <p>Der Ministerrat vereinigte sich über Antrag des Justizministers dahin, daß die Amnestie ad a) durch die Verhältnisse angezeigt erscheine. Dagegen wurde es bedenklich gefunden, in dem gegenwärtigen Augenblicke die von dem galizischen Landvolke während der politischen Unruhen im Jahre 1846 begangenen Verbrechen im allgemeinen für straflos zu erklären. Es würde eine solche Maßregel, sie mag nun in Form einer Amnestie oder der Niederschlagung der Untersuchungen aus dem Titel von derlei Verbrechen geschehen, bei den galizischen Edelleuten und der ganzen polnischen Partei einen schlimmen Eindruck hervorbringen und als eine Aufforderung der Regierung an die Bauern, bei den jetzigen Konjunkturen die Greuel des Jahres 1846 zu wiederholen, ausgelegt werden.</p>
+                  <p>Der Ministerrat war daher des Erachtens, daß das galizische Appellationsgericht anzuweisen wäre, die Untersuchungen gegen Bauern wegen Verbrechen der erwähnten Art von den Kriminalgerichten durchführen zu lassen, jedoch mit möglichster Beschleunigung und ohne die Inquisiten zu verhaften. Die Begnadigungsanträge wären seinerzeit einzeln vorzulegen.</p>
+                  <p>Übrigens behielt sich der Justizminister vor, bezüglich der in Rede stehenden Amnestieanträge der galizischen Landsbehörden die Ah. Schlußfassung mittelst eines eigenen au. Vortrages einzuholen<note type="footnote" n="13">In seinem Vortrag v. <date when="1848-05-17">17. 5. 1848</date> sprach sich Sommaruga dann allerdings für die Amnestierung der unter a) und b) genannten Gruppen aus. Sein Antrag wurde mit Ah. E. v. <date when="1848-05-26">26. 5. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 701/1848.</bibl> Pillersdorf teilte diese Entscheidung Stadion im Schreiben v. <date when="1848-06-04">4. 6. 1848</date> mit, <bibl type="archival">ZDIAUL., StH., Präs. 7776/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_37_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Pensionierung Joseph Freiherrn v. Odelgas</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> machte im Nachhang zu der Ministerratsdeliberation vom <date when="1848-05-13">13. l. M.</date>
+                     <note type="footnote" n="14">
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480513-P-0036.xml#top_1_1_36_16">MR. v. <date when="1848-05-13">13. 5. 1848</date>/XVI</ref>.</note> über die Pensionierung des FML. v. Odelga den Umstand geltend, daß dieser greise Kriegsmann bereits vor mehreren Monaten Sr. Majestät zur Ernennung als Feldzeugmeister in Vorschlag gebracht wurde, und es daher mit Rücksicht auf so viele ähnliche Vorgänge wohl nur billig sein dürfte, dessen 58jährige gute Dienste durch die Verleihung des Feldzeugmeistercharakters und Pension (4000 fl.) abzuschließen. (Da diesem Antrage allseitig beigestimmt wurde, so ist der entsprechende Resolutionsentwurf <pb n="227" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s227.pdf"/>Sr. Majestät mit dem Protokoll über die Ministerratssitzung vom <date when="1848-05-13">13. Mai 1848</date> au. unterbreitet worden.)<note type="footnote" n="15">Odelga wurde dann mit Ah. E. v. <date when="1848-05-16">16. 5. 1848</date> mit Charakter und Pension eines Feldzeugmeisters in Ruhestand geschickt, <bibl type="archival">KA., HKR., KM., Präs. 1510/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 661/1848</bibl>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_37_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Untersuchung der Krawalle in Buda und Pest</head>
+                  <p>Der Kriegsminister teilte schließlich eine Eröffnung des ungarischen Ministeriums mit, wonach es zur Untersuchung über die Veranlassung und Teilnehmer an den Krawallen vor dem Hause des kommandierenden Generals Baron Lederer und über das Benehmen der Militärautoritäten bei diesem Anlasse eine gemischte Kommission zusammengesetzt hat<note type="footnote" n="16">Deutsche Übersetzung eines Schreibens Batthyánys an Esterházy v. <date when="1848-05-11">11. 5. 1848</date>, von Esterházy am <date when="1848-05-13">13. 5. 1848</date> an Latour weitergeschickt, in <bibl type="archival">KA., HKR., KM., Präs. 1414/1848.</bibl>
+                     </note>. Da nun diese Untersuchung bei der bekannten Tendenz des ungarischen Ministeriums zu Übergriffen ohne Zweifel zu der noch unerhörten Unzukömmlichkeiten führen würde, daß die gemischte Kommission den kommandierenden General zur Verantwortung zöge über die zur Abwehr des Angriffes von ihm getroffenen militärischen Maßregeln, so würde Graf Latour dem ungarischen Ministerium erwidern, daß er dem General der Kavallerie Baron Lederer über sein bereits früher gestelltes Ansuchen einen Urlaub zur Reise nach Wien erteilt habe<note type="footnote" n="17">Lederer hatte bereits am <date when="1848-05-03">3. 5. 1848</date> den Antrag auf einen vierwöchigen Urlaub in Wien gestellt. Mit Ah. E. v. <date when="1848-05-12">12. 5. 1848</date> auf Vortrag Latours v. <date when="1848-05-05">5. 5. 1848</date> wurde Lederer diese Bitte genehmigt, <quote>ebd., Präs. 1313/1848.</quote> Der kommandierende General war bereits am <date when="1848-05-11">11. 5. 1848</date> aus Budapest abgereist. Latour hatte übrigens mit seiner Befürchtung recht – der ungarische Ministerrat beauftragte den Außenminister Esterházy <quote>das hierortige Erscheinen des Baron Lederer behufs der gegen ihn eingeleiteten Untersuchung im geeigneten Wege zu bewirken.</quote> Bericht des Stellvertretern von Lederer Boyneburg v. <date when="1848-05-13">13. 5. 1848</date>, <quote>ebd., Präs. 1413/1848.</quote>
+                     </note>. Wofern aber das ungarische Ministerium vom General der Kavallerie Baron Lederer bezüglich des gedachten Krawalls Auskünfte einzuziehen nötig findet, habe es sich dieselben im Wege des in Wien befindlichen Ministers Fürsten Esterházy zu verschaffen.</p>
+                  <p>Sämtliche Minister waren mit dieser Erledigungsmodalität einverstanden<note type="footnote" n="18">In diesem Sinne instruierte Latour auch Esterházy mit Schreiben (K.) v. <date when="1848-05-15">15. 5. 1848</date>, <quote>ebd., Präs. 1414/1848.</quote> Zur weiteren Entwicklung in Budapest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_6">MR. v. <date when="1848-05-15">15. 5. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-05-17">17. Mai 1848</date>. Pillersdorf.</seg>
+                  <seg type="other">Ges. 17. Mai. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Der Inhalt des gegenwärtigen Protokolls dient zur Wissenschaft. Ferdinand. Innsbruck, am <date when="1848-05-22">22. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

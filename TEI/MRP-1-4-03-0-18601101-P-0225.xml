@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="4">Abteilung IV</title>
+            <title level="s" type="sub">Das Ministerium Rechberg</title>
+            <title level="m" type="main" n="3">Band 3</title>
+            <title level="m" type="sub">Oktober 1860–<date when="1861-02-02">2. Februar 1861</date>
+            </title>
+            <title level="a" type="desc" n="225">Sitzung 225</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1860-11-01"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a4-b3-z225.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung IV Das Ministerium Rechberg, Band 3 Oktober 1860–2. Februar 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2009">2009</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">626</idno>
+                  <idno type="KZ">3667</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1860-11-01"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Rechberg; BdE. und anw. (Rechberg 1. 11./ 11. 11.), Gołuchowski 2. 11., Mecséry 5. 11., Vay 6. 11., Lasser 6. 11., Szécsen 7. 11., Plener 7. 11., FML. Schmerling 8. 11.; abw. Degenfeld.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-11">1860-11-11</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8584">
+                     <surname>Gołuchowski</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-02">2. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-05">5. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8679">
+                     <surname>Vay</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-06">6. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-06">6. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8078">
+                     <surname>Szécsen</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-07">7. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-07">7. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8621">
+                     <surname>FML. Schmerling</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-08">8. 11.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_4_3_225_1">Ausgabe von Münzscheinen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_4_3_225_2">Auszahlung der Silberkupons in Papier mit Aufzahlung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_4_3_225_3">Papiergeld mit Zwangskurs im lombardisch-venezianischen Königreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_4_3_225_4">Emission von Schatzscheinen im ganzen Reich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_4_3_225_5">Vorladung des Leiters des Finanzministeriums als Zeuge im Prozeß Richter</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-4-03-0-18601101-P-0225" ana="a4-b3-z225">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml#a4-b3_z225.pdf">
+               <title type="num">Nr. 225</title>
+               <title type="descr">Ministerkonferenz, Wien, <date when="1860-11-01">1. November 1860</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Rechberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Rechberg 1. 11./ 11. 11.), Gołuchowski 2. 11., Mecséry 5. 11., Vay 6. 11., Lasser 6. 11., Szécsen 7. 11., Plener 7. 11., FML. Schmerling 8. 11.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Degenfeld.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">3667</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der zu Wien am <date when="1860-11-01">1. November 1860</date> abgehaltenen Ministerkonferenz unter dem Vorsitze des Ministerpräsidenten, Ministers des kaiserlichen Hauses etc. Grafen v. Rechberg. Der Leiter des Finanzministeriums brachte mit Beziehung auf seine in den Konferenzen vom 27. und 29. Oktober gemachte Andeutung folgende, durch die äußerste Bedrängnis der Staats­finanzen, Erschöpfung der Kassabestände in Silber und Papier sowie durch unerwartete Mehr­forderungen für die Armee dringend notwendig gewordene Finanzmaßregel in Antrag, und zwar:</head>
+               <div type="agenda_item" xml:id="top_4_3_225_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ausgabe von Münzscheinen</head>
+                  <p>die unverzügliche Hinausgabe von Münzscheinen à 10 Kreuzer im Belaufe von 10 – 12 Millionen Gulden, um dem fühlbaren Mangel an Scheidemünze abzuhelfen, welcher durch das Verschwinden der Silbersechser aus dem Verkehr entstanden ist und durch alleinige Ausgabe von Kupfergeld nicht behoben werden kann<note type="footnote" n="2">Das Verschwinden der Silbersechser war eine Folge des Agios, der Wertdifferenz zwischen Metall- und Papiergeld.</note>. Es wurde in Erwägung gezogen, ob nicht sogenannte „Billons“ ausgegeben werden sollten<note type="footnote" n="3">Billon = nicht vollhaltige Scheidemünze.</note>; allein, dies wäre einerseits gegen den Münzvertrag<note type="footnote" n="4">§ 14 des Münzvertrags v. <date when="1857-01-24">24. 1. 1857</date> zwischen Österreich und den deutschen Staaten, <bibl type="archival">RGBL. Nr. 101/1857</bibl>; zum Münzvertrag siehe <bibl type="secondary">
+                           <author>Probszt</author>, Münz- und Geldgeschichte 2, 539f.</bibl>
+                     </note>, andererseits würde deren Ausprägung zu lange Zeit erfordern, wogegen die Münzscheine, welche den früheren Erfahrungen gemäß den Wünschen und Bedürfnissen des Publikums mehr zusagen dürften, bereits vorbereitet sind<note type="footnote" n="5">Münzscheine zu 6 und 10 Kreuzer waren 1849 ausgegeben worden, <ref type="protocol-link" target="MRP-1-2-01-0-18490617-P-0099.xml#top_2_1_99_14">MR. v. <date when="1849-06-17">17. 6. 1849</date>/XIV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b1-z99" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b1/pdf/a2-b1-z99.pdf" target="MRP-1-2-01-0-18490617-P-0099.xml">ÖMR. II/1, Nr. 99</ref>
+                        </bibl>, für Ungarn <ref type="protocol-link" target="MRP-1-2-01-0-18490729-P-0130.xml#top_2_1_130_3">MR. v. <date when="1849-07-29">29. 7. 1849</date>/III</ref>, <quote>ebd., Nr. 130</quote>. Sämtliche Münzscheine waren wieder eingezogen worden, die sog. deutschen mit <bibl type="archival">RGBL. Nr. 106/1853</bibl> (zu 6 Kreuzer) und <bibl type="archival">ebd. Nr. 3/1854</bibl> (zu 10 Kreuzer), die ungarischen mit <bibl type="archival">ebd. Nr. 39/185</bibl>6 (zu 6 Kreuzer) und <bibl type="archival">ebd. Nr. 88/1857</bibl> (zu 10 Kreuzer).</note>. Der Leiter des Finanzministeriums hätte gewünscht, die Ausgabe der Münzscheine bloß im Wege der Umwechslung gegen Banknoten bewirken zu können; allein, die oben angedeuteten mißlichen Verhältnisse der Finanzen zwingen ihn, damit zugleich eine Finanzoperation zu machen, um dem Staatsschatze gleich jetzt durch unmittelbare Ausgabe derselben bei den Staatskassen einige Geldmittel zu beschaffen. Bei eintretenden <pb n="27" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s27.pdf"/>günstigen Verhältnissen würden diese Münzscheine, wie die früheren, wieder aus dem Verkehr gezogen werden.</p>
+                  <p>Im allgemeinen war die Konferenz mit diesem Antrage vollkommen einverstanden, nur bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi>, daß, nachdem die Summe der früheren Münzscheine 20 Millionen Gulden betragen hat, die neuen ebenfalls bis zu diesem Belaufe emittiert werden dürften, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> war der Meinung, daß sie, nachdem sie im Publikum selbst längst erwartet worden, auch in ähnlicher Form und in ähnlichem Betrage wie die früheren ausgegeben werden sollten<note type="footnote" n="6">Fortsetzung MK. v. <date when="1860-11-13">13. 11. 1860</date>/III.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_225_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Auszahlung der Silberkupons in Papier mit Aufzahlung</head>
+                  <p>Bei der Erschöpfung des Silbervorrats und bei der Unmöglichkeit, Silber ohne die empfindlichsten Opfer und ohne die nachteiligste Rückwirkung auf den Silberkurs anzukaufen, muß die Auszahlung der Kupons des Nationalanleihens in Silber sistiert werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> beantragte daher, wieder zu dem schon einmal angewandten Auskunftsmittel, der Zahlung in Banknoten mit einem Aufgeld, zu schreiten<note type="footnote" n="7">Vom <date when="1859-07-01">1. 7. 1859</date> bis <date when="1859-12-31">31. 12. 1859</date> waren die fälligen Zinsen der Nationalanleihe von 1854 in Banknoten mit Aufgeld gezahlt worden, siehe MK. v. <date when="1859-05-19">19. 5. 1859</date>/II, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z1" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z1.pdf" target="MRP-1-4-01-0-18590519-P-0001.xml">ÖMR. IV/1, Nr. 1</ref>
+                        </bibl> und MK. I v. <date when="1859-10-26">26. 10. 1859</date>, Punkt 3, <quote>ebd., Nr. 49</quote>.</note> und nur die Modifikation eintreten zu lassen, daß statt des damals beliebten, jedoch dem Interesse der Gläubiger bei hohem Silberagio wenig entsprechenden Aufgelds von 15%<note type="footnote" n="8">Zur Berechnung des Aufgeldes siehe MK. II v. <date when="1859-09-03">3. 9. 1859</date>/V, <quote>ebd., Nr. 30</quote>.</note> die Berechnung des letzteren nach dem Durchschnittskurse der drei Monate stattfinde, welche dem Monate, in dem die Zahlung geleistet wird, unmittelbar vorausgehen. Durch diese letztere Modalität beabsichtigt man, sich dem wirklichen Werte der Silberkupons möglichst zu nähern und Spekulationen auf Steigen oder Fallen hintanzuhalten. </p>
+                  <p>Gegen die Zahlung der Silberkupons mit Aufzahlung in Papiergeld ergab sich von keiner Seite eine Einwendung. Was dagegen die Berechnung des Aufgeldes anbelangt, so waren der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staats- und der Polizeiminister</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>, <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">FML. v. Schmerling</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> für den Durchschnittspreis des Silbers in denjenigen drei Monaten, welche dem Verfallstage des betreffenden Kupons unmittelbar vorausgehen, weil dieser Tag, an welchem der Kupon realisierbar, also zum Gelde wird, der entscheidende ist, die Fixierung des Aufgelds wesentlich erleichtert, sowohl dem Gläubiger als der Regierung eine zuverlässige Berechnung über dasjenige gestattet, was ersterer zu erhalten, letztere zu leisten hat, während die Berechnung nach den drei Monaten vor der Auszahlung eben einen Reiz bieten würde, die Präsentation des Kupons zur Zahlung auf den dem Gläubiger günstigsten Moment zu verschieben, was jedoch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> nicht, wenigstens nicht in erheblichen Summen besorgen zu müssen glaubt, indem niemand beträchtliche Summen um eines sehr ungewissen Gewinns wegen lang über die Verfallszeit tot liegen lassen dürfte. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> endlich beschränkte sich auf die Äußerung, daß eine Berechnungsmodalität gewählt werde, welche dem wahren Werte des Kupons am nächsten entspricht. <pb n="28" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s28.pdf"/>
+                     <ref xml:id="fn_4_3_225_a">Der Staatsminister bemerkte ferner, daß der Durchschnittspreis des Silbers der vorangehenden drei Monate genau eingehalten werden müsse und jede willkürliche Kursbestimmung, wie dies vor einem Jahr geschah, vermieden werden soll. Schon zu jener Zeit habe er gegen den Antrag des gewesenen Finanzministers Bruck in der Konferenz Einsprache erhoben, allein er wurde von seinen Kollegen überstimmt, und ein willkürlicher Durchschnittskurs wurde fixiert, was im Publikum den schlechtesten Eindruck hervorrief</ref>
+                     <note type="variant" n="a" target="#fn_4_3_225_a">Einfügung a–a Gołuchowskis.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte ferner, daß der Durchschnittspreis des Silbers der vorangehenden drei Monate genau eingehalten werden müsse und jede willkürliche Kursbestimmung, wie dies vor einem Jahr geschah, vermieden werden soll. Schon zu jener Zeit habe er gegen den Antrag des gewesenen Finanzministers Bruck in der Konferenz Einsprache erhoben, allein er wurde von seinen Kollegen überstimmt, und ein willkürlicher Durchschnittskurs wurde fixiert, was im Publikum den schlechtesten Eindruck hervorrief.<note type="footnote" n="9">Die Maßnahme wurde Mitte Dezember noch einmal beraten und dann umgesetzt, <ref type="protocol-link" target="MRP-1-4-03-0-18601214-P-0243.xml#top_4_3_243_2">MR. II v. <date when="1860-12-14">14. 12. 1860</date>/II</ref>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_225_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Papiergeld mit Zwangskurs im lombardisch-venezianischen Königreich</head>
+                  <p>[Der Leiter des Finanzministeriums:] Dieselben Ursachen, die oben ad II. angegeben wurden, machen auch die Einstellung der Silberzahlung für Staats- und Armeebedürfnisse im lombardisch-venezianischen Königreiche demnächst zur unbedingten Notwendigkeit<note type="footnote" n="10">In Lombardo-Venetien war kein Papiergeld im Umlauf, die Armee und die Beamten mußten in Silber bezahlt werden. Die kriegsbedingte Einführung der papiergeldartigen Vaglien war noch 1859 rückgängig gemacht worden, MK. v. <date when="1859-11-26">26. 11. 1859</date>/VI, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z68" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z68.pdf" target="MRP-1-4-01-0-18591126-P-0068.xml">ÖMR. IV/1, Nr. 68</ref>
+                        </bibl>; <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 2, 793 – 799</bibl>; <bibl type="secondary">
+                           <author>Gottsmann</author>, Venetien 1859 – 1866, 356</bibl>; die Maßnahme wurde Mitte Dezember noch einmal beraten und dann umgesetzt, MK. II v. <date when="1860-12-14">14. 12. 1860</date>/I.</note>. Es steht aber auch überhaupt mit den Finanzen so schlimm, daß demnächst </p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_225_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Emission von Schatzscheinen im ganzen Reich</head>
+                  <p>zu einer größeren Finanzoperation wird geschritten [werden] müssen. Die Militärdotation ist gegen den Voranschlag um zwei Millionen pro Monat erhöht; außerdem erhielt das Finanzministerium eine ganz unerwartete Forderung I. per 14 Millionen (darunter per 5,800.000 für Artilleriematerial, drei Millionen für Festungsbauten) und hat vermöge jener Bezeichnung mit „I.“ ohne Zweifel eine Nachtragsforderung „II.“ usw. zu gewärtigen<note type="footnote" n="11">Die Nachtragsforderung war mit den Standeserhöhungen der Truppen wegen der Ereignisse in Italien begründet worden; siehe dazu <bibl type="archival">FA., FM., Präs. 4470/1860</bibl> mit geharnischter ablehnender Antwort Pleners v. <date when="1860-10-31">31. 10. 1860</date> (K.). Die Aufbringung der geforderten Summen sei eine reine Unmöglichkeit.</note>. Hiermit stellt sich das Bedürfnis für den nächsten Monat auf 38 Millionen, wogegen die Einnahmen, nach dem Ergebnisse des Vorjahres mit 22 Millionen angeschlagen, jedoch kaum in diesem Betrage einfließen werden, weil, neuesten Berichten aus Ungern zufolge, die Steuern dort sehr unregelmäßig eingehen, ja hin und wieder wirkliche Steuerverweigerung zu besorgen ist<note type="footnote" n="12">Zur Steuerverweigerungsbewegung in Ungarn siehe MK. v. <date when="1860-09-06">6. 9. 1860</date>/II, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z209" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z209.pdf" target="MRP-1-4-02-0-18600906-P-0209.xml">ÖMR. IV/2, Nr. 209</ref>
+                        </bibl>.</note>. Zur Deckung des Bedürfnisses ein Staatsanleihen zu machen, erscheint unter den gegenwärtigen Verhältnissen, wo unser Kredit so gesunken ist und [wo] von dem im Jahre 1859 aufgelegten Anleihen per 50 Millionen nur ein Betrag von drei Millionen begeben werden konnte, schlechterdings unmöglich. Es erübrigt also nur: Zwangsanleihen, Steuer oder Papiergeld. Beide erstere schaffen nur langsam und allmählich Geld. Papiergeld, ohne Fundierung hinausgegeben, erschüttert den Kredit noch mehr, und es von der Nationalbank entnehmen, vermehrt ihre Noten zu stark und vernichtet alle bisher zur Kräftigung dieses Instituts gemachten Anstrengungen. Unter diesen Umständen wäre der Leiter des Finanzministeriums der Meinung, daß eine Antizipation der Einnahmen durch Emission von Staatspapiergeld etwa mit <pb n="29" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s29.pdf"/>50 Millionen Gulden bewirkt und dessen Tilgung mittelst der Steuern binnen fünf Jahren angeordnet werden dürfte. Das lombardisch-venezianische Königreich wäre mit Rücksicht auf das ad III. Gesagte von dem Papiergelde mit Zwangskurs nicht auszuschließen, nur würde dasselbe in der Landesprache in der Form wie einst die Vaglien hinauszugeben sein<note type="footnote" n="13">Vergleich oben Anm. 10.</note>, damit es dem Lande allein, um dessen willen die bisherigen Silbervorräte erschöpft werden mußten, zur Last falle und nicht in die übrigen Kronländer zurückgeworfen werden könne. Nachdem jedoch zu einer derartigen Finanzoperation die Zustimmung des Reichsrates erforderlich ist und der Leiter des Finanzministeriums die schon in der Konferenz vom 29. v. M. gegen die Kompetenz des eben vertagten verstärkten Reichsrates geäußerten Bedenken teilt, der durch das Ah. Kabinettschreiben vom 20. Oktober konstituierte Reichsrat aber wegen Nichtvorhandensein der Landtage rechtzeitig nicht einberufen werden kann, so wäre mit der Papiergeldemission vorzugehen, der Tilgungsplan auszuarbeiten und mit Berufung auf die Zeitverhältnisse, welche die Anwendung der im Ah. Kabinettschreiben vom 17. Juli enthaltenen Klausel rechtfertigen dürften<note type="footnote" n="14">Vgl. MK. v. <date when="1860-07-17">17. 7. 1860</date>/I, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z192" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z192.pdf" target="MRP-1-4-02-0-18600717-P-0192.xml">ÖMR. IV/2, Nr. 192</ref>
+                        </bibl>; gemeint ist der Fall der Kriegsgefahr.</note>, die nachträgliche Zustimmung des verfassungsmäßig zu berufenden Reichsrates einzuholen.</p>
+                  <p>Mit dem Vorbehalte, die im Detail ausgearbeiteten Vorschläge ad III. und IV. in einer späteren Konferenz zum Vortrage zu bringen, ersuchte der Leiter des Finanzministeriums, sich über diese seine Anträge im Prinzipe auszusprechen. Dieselben würden übrigens nach erfolgter Ah. Genehmigung unter Kontrolle der Staatsschuldenkomission ausgeführt und zugleich mit dem Antrage ad II. nach Vorausschickung eines den Drang der Umstände darstellenden au. Vortrages publiziert werden.</p>
+                  <p>In der Hauptsache, daß zur Papiergeldemission auch im lombardisch-venezianischen Königreiche geschritten werden müsse, war die Konferenz mit dem Antrage des Leiters des Finanzministeriums einverstanden. In welcher Form dasselbe im lombardisch-venezianischen Königreiche ausgegeben werden soll, darüber bleibt zwar bei der späteren Beratung der Detailvorschläge des Leiters des Finanzministeriums die Erörterung noch vorbehalten, indessen sprachen sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> vorläufig dahin aus, daß in dieser Beziehung kein Unterschied zwischen diesem Königreiche und den übrigen Kronländern gemacht werden möge, weil, wie ersterer bemerkte, diese sowie überhaupt jede ausnahmsweise Behandlung dieses Landes die Stellung der Regierung in Italien schwächt, und weil, wie letzterer hinzusetzte, die Hinausgabe eines gesonderten Papiergeldes dort für den Staat alle Nachteile des Papiergeldes hat, ohne den übrigen Provinzen eine Erleichterung in der damit auferlegten Last zu verschaffen.</p>
+                  <p>Belangend den Betrag, bis zu welchem das Papiergeld zu emittieren sei, erklärte sich die Konferenz außerstand, hierüber abzustimmen. Für bedauerlich aber wurde der Vorgang der Militärverwaltung erklärt, welche mit einer alle bisherigen Grundlagen verrückenden Forderung unvermutet aufgetreten ist, und es wurde der Wunsch ausgesprochen, daß wenigstens annäherungsweise die Summen im vorhinein angegeben werden möchten, welche die Militärverwaltung unter allen Eventualitäten benötigen wird. Auch wurde hervorgehoben, daß für Artilleriematerial und Festungsbauten doch nicht auf einmal so <pb n="30" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s30.pdf"/>enorme Summen haben ausgegeben werden können, da Bauten und Nachschaffungen nur sukzessive bewirkt zu werden pflegen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">FML. Ritter v. Schmerling</rs>
+                     </hi>, im Augenblicke hierauf nicht vorbereitet und von der Verhandlung über die Forderung von 14 Millionen nicht in Kenntnis, sicherte die Erstattung der gewünschten Aufklärung sowie die Auskunft über den künftigen Bedarf zu, insoweit sie unter den obwaltenden Verhältnissen überhaupt möglich ist, <ref xml:id="fn_4_3_225_b">und müsse weitere Gegenerklärungen gegen die gemachten Bemerkungen dem Ministerium vorbehalten</ref>
+                     <note type="variant" n="b" target="#fn_4_3_225_b">Einfügung b–b Schmerlings.</note>.<note type="footnote" n="15">Degenfeld wandte sich nun direkt an den Kaiser mit dem Vortrag v. <date when="1860-11-07">7. 11. 1860</date>, Abt. 11, Nr. 5483; er unterbreitete die Nachtragsforderung eines außerordentlichen Zuschusses von 14 Millionen Gulden sowie eventuell eines weiteren monatlichen Zuschusses von 2,9 Millionen Gulden; der Kaiser wies Degenfeld an, diesen Vortrag in der Ministerkonferenz zu beraten, <bibl type="archival">KA., MKSM. 4515/1860</bibl>; dies geschah in der MK. v. <date when="1860-11-19">19. 11. 1860</date>/III.</note>
+                  </p>
+                  <p>Über die Frage, ob die Verhandlung wegen des Papiergeldes mit dem vertagten verstärkten Reichsrate oder mit dem künftig einzuberufenden neu konstituierten zu pflegen sei, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>: Dem verstärkten Reichsrate wurde aus Ah. eigenem Antriebe Sr. Majestät das Zugeständnis gemacht, daß ohne seine Zustimmung eine derlei Kreditoperation nicht werde gemacht werden; das kaiserliche Wort muß gehalten werden. Der verstärkte Reichsrat ist ausdrücklich nur vertagt, nicht aufgelöst worden, er besteht also noch zu Recht und kann, da eine dringende Kriegsgefahr dermal noch nicht vorhanden, unverweilt einberufen werden. Erklärt er sich für die Maßregel, so ist dies eine Stütze mehr für die Regierung; es ist kaum anzunehmen, daß er unter den obwaltenden Verhältnissen nicht seine Zustimmung zu dem einzig möglichen Hilfsmittel geben sollte. Möglich wäre es allerdings, daß einige Reichsräte nicht erschienen oder daß sich die Mehrheit für inkompetent erklärte, allein, dann hätte die Regierung wenigstens die Beruhigung für sich, gesetzmäßig vorgegangen zu sein, und es bleibe dann ihr allein vorbehalten, das zur Erhaltung des Staates Unvermeidliche selbst vorzukehren. <ref xml:id="fn_4_3_225_c">Der Staatsminister war schon im vorigen Jahre der Ansicht, als es sich darum handelte, den Reichsrat ins Leben zu rufen, die Organisierung des Kaiserstaates vor allem mit der größtmöglichsten Beschleunigung durchzuführen und dann erst den beantragten Reichsrat in Wirksamkeit zu setzen, allein es wurde anders beschlossen und man glaubte, die Einberufung des Reichsrates könne nicht eilig genug erfolgen, um die zu jener Zeit beabsichtigten finanziellen Operationen einer gedeihlichen Entwicklung zuzuführen. Den gehegten Erwartungen folgte eine bittere Enttäuschung, weil die Einsetzung und Einberufung des Reichsrates die finanzielle Lage Österreichs nicht konsolidierte. Ohngeachtet dieser Erfahrungen hat sich Se. Majestät der Kaiser bewogen gefunden, der gedachten Körperschaft bei zu schließenden finanziellen Darlehensoperationen und Ausschreibung neuer Steuern die zustimmende Bewilligung, somit eine wesentliche Erweiterung ihres ursprünglichen Wirkungskreises einzuräumen. Da nun dieses geschehen ist, so ist es auch Pflicht der Regierung, ihr gegebenes Wort redlich zu lösen und das beabsichtigte Anlehensgeschäft gemeinschaftlich mit dem sogleich einzuberufenden Reichsrate zu beraten und zum Beschlusse gelangen zu lassen.</ref>
+                     <note type="variant" n="c" target="#fn_4_3_225_c">Einfügung c–c Gołuchowskis.</note></p>
+                  <p>
+                     <pb n="31" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s31.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> hielt dagegen den abgetretenen verstärkten Reichsrat in dieser Frage für nicht mehr kompetent und dessen Einberufung für unmöglich, nachdem mit der Ah. Akte vom 20. Oktober ein neuer, auf 100 Abgeordnete aus den Landtagen bestimmter Reichsrat eingesetzt und diesem die im Art. II des Diploms aufgeführten Befugnisse eingeräumt worden sind. Da nun die Prämissen zur Einberufung des neuen Reichsrates dermal nicht vorhanden sind, die Verhältnisse aber eine Abhilfe unverschieblich machen, so wäre nach offener Darlegung der ersteren mit der angetragenen Maßregel vorzugehen und deren Gutheißung von dem nächsten auf Grundlage der Bestimmungen vom 20. Oktober einzuberufenden Reichsrate zu verlangen. Ganz übereinstimmend hiermit äußerte sich der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>: Die großen Schwierigkeiten unserer Lage nach außen und innen rechtfertigen die Anwendung des Grundsatzes: salus rei publicae suprema lex esto. In der Tat beweisen die Anforderungen des Kriegsministeriums an die Finanzen, die sich im nächsten Augenblicke wiederholen können, daß wir uns in wirklicher Kriegsgefahr befinden, unter welcher außerordentliche Maßregeln ergriffen werden müssen und durch die Dringlichkeit gerechtfertigt werden können. In ähnlicher Weise sprach sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> aus. Der abgetretene Reichsrat wäre nach dem Staatsakte vom 20. Oktober kein verfassungsmäßiger mehr, und was immer er, falls man ihn beriefe, tun möchte, er würde die Regierung nicht aus ihrer Verlegenheit bringen. Die Gefahr ist vorhanden und so evident, daß die notwendige Abhilfe von [der] Regierung allein und ohne vorläufige Vernehmung des abgetretenen oder des neu zu konstituierenden Reichsrates sogleich getroffen werden soll. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> hielt ebenfalls die Berufung des abgetretenen verstärkten Reichsrates, so bequem dieselbe auch der Regierung sein möchte, nicht mehr für möglich, weil demselben durch den 20. Oktober wenigstens die moralische Kompetenz entzogen worden ist. Die Regierung möge also mit den beabsichtigten, durch den Drang der Verhältnisse gebotenen Maßregeln vorgehen und die nachträgliche Verhandlung mit dem verfassungsmäßigen Reichsrate darüber zusichern, zugleich aber diejenigen Verfügungen beschleunigen, welche die Einberufung des letzteren bald ermöglichen, damit man sehe, daß es ihr ernst ist, die am 20. Oktober gegebenen Zusicherungen zu verwirklichen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> endlich hielt zwar den vertagten verstärkten Reichsrat für rechtlich noch bestehend und dessen Berufung zur Mitwirkung bei Lösung der vorliegenden Aufgabe <ref xml:id="fn_4_3_225_d">nach dem Inhalte der positiven Ah. Aussprüche für formell begründet. Die Nichtberufung durch „Kriegsgefahr“ zu motivieren, gehe nicht an. Prinzipiell müsse er also den Standpunkt festhalten, den er (Votant) schon in der früheren Konferenz unter Ah. Vorsitze vertreten habe. Aber einigermaßen habe sich seit damals die Sachlage geändert.</ref>
+                     <note type="variant" n="d" target="#fn_4_3_225_d">Korrektur d–d Lassers aus: <quote>für loyal. Allein</quote>.</note>nach dem Inhalte der positiven Ah. Aussprüche für formell begründet. Die Nichtberufung durch „Kriegsgefahr“ zu motivieren, gehe nicht an. Prinzipiell müsse er also den Standpunkt festhalten, den er (Votant) schon in der früheren Konferenz unter Ah. Vorsitze vertreten habe<note type="footnote" n="16">MK. v. <date when="1860-10-29">29. 10. 1860</date>/III.</note>. Aber einigermaßen habe sich seit damals die Sachlage geändert. Nachdem die Finanzen mit so beträchtlichen und ganz und gar nicht vorhergesehenen Forderungen der Armeeverwaltung überrumpelt worden sind, so ist bei der bekannten Lage der ersteren Gefahr auf dem Verzuge und somit die Berufung des Reichsrates<ref xml:id="fn_4_3_225_e"/>
+                     <note type="variant" n="e" target="#fn_4_3_225_e">Streichung Lassers von: <quote>wie zur Zeit einer Kriegsgefahr nicht wohl tunlich</quote>.</note> nicht wohl tunlich, <pb n="32" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s32.pdf"/>
+                     <ref xml:id="fn_4_3_225_f">weil die Abhilfe höchst dringlich und absolut notwendig sei und man es daher, ohne das Staatswohl auf tiefste zu gefährden, nicht darauf ankommen lassen dürfe, ob der Reichsrat ausreichend beschickt werden und ob er sich, als bloßer Rumpf einer künftighin größeren, anders konstituierten Körperschaft, die Kompetenz und Autorität einer Zustimmung zu dem Abhilfsmittels zutrauen werde. Vor dem schon erwähnten Axiome „salus publica suprema lex“ treten seine (des Votanten) formellen Bedenken gegen die Nichteinberufung mehr in den Hintergrund.</ref>
+                     <note type="variant" n="f" target="#fn_4_3_225_f">Einfügung f–f Lassers.</note> Die Regierung möge dieses aber offen und ehrlich erklären und damit motivieren, daß sie dem formell noch existierenden Reichsrate nunmehr, nachdem eine neue, um das dreifache verstärkte Körperschaft geschaffen worden, nicht mehr das Gewicht zutraue, welches sie für erforderlich hält, um ihr in dieser wichtigen Angelegenheit die nötige Stütze zu gewähren. Diese hoffe sie in dem verfassungsmäßig zu berufenden Reichsrate zu finden. <hi rend="#letterspaced">
+                        <rs type="person">FML. Ritter v. Schmerling</rs>
+                     </hi> erklärte sich ebenfalls im Sinne der Vorstimmen gegen die Vernehmung des abgetretenen Reichsrates in dieser Sache<note type="footnote" n="17">Fortsetzung MK. v. <date when="1860-11-19">19. 11. 1860</date>/III.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_225_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Vorladung des Leiters des Finanzministeriums als Zeuge im Prozeß Richter</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> brachte zur Kenntnis der Konferenz, daß er zur Schlußverhandlung im Prozesse wider den Direktor der Creditanstalt Richter als Leumundszeuge über dessen Vorleben vor dem Wiener Landesgerichte zu erscheinen geladen worden sei und daß er keinen Anstand nehme zu erscheinen<note type="footnote" n="18">Zum Prozeß gegen Richter siehe MK. v. <date when="1860-04-28">28. 4. 1860</date>/V, Anm. 10, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z144" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z144.pdf" target="MRP-1-4-02-0-18600428-P-0144.xml">ÖMR. IV/2, Nr. 144</ref>
+                        </bibl>. Fortsetzung MK. II v. <date when="1860-12-14">14. 12. 1860</date>/IV.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am 1./<date when="1860-11-11">11. November 1860</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1860-11-13">13. November 1860</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="2">Band 2</title>
+            <title level="m" type="sub">Mai 1861–<date when="1861-11-02">2. November 1861</date>
+            </title>
+            <title level="a" type="desc" n="109">Sitzung 109</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1861-08-16"/>
+               <date when="1861-08-17"/>
+               <date when="1861-08-19"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b2-z109.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 2 Mai 1861–2. November 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">903</idno>
+                  <idno type="KZ">2847</idno>
+               </msIdentifier>
+               <p>
+                  <span>Sammelprotokoll, kompiliert aus mehreren Sitzungstagen; </span>
+                  <span ana="non-parsed">Sammelprotokoll; RS.; P. Marherr (16., 19. 8.), Ransonnet (17. 8.); VS. Erzherzog Rainer; BdE. ( Erzherzog Rainer 19. 8.), Rechberg, Mecséry, Schmerling, Degenfeld, Lasser, Plener, Wickenburg, Lichtenfels, Forsách, Esterházy; BdR. Erzherzog Rainer 11. 9. Teildruck: REDLICH, Staats- und Reichsproblem 2, 108—115.</span>
+                  <placeName>Wien</placeName>
+                  <date when="1861-08-19"/>
+               </p>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl>Teildruck: 
+    : REDLICH, Staats- und Reichsproblem 2, 108—115.</bibl>
+               </witness>
+            </listWit>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">Sammelprotokoll; RS.; P. Marherr (16., 19. 8.), Ransonnet (17. 8.); VS. Erzherzog Rainer; BdE. ( Erzherzog Rainer 19. 8.), Rechberg, Mecséry, Schmerling, Degenfeld, Lasser, Plener, Wickenburg, Lichtenfels, Forsách, Esterházy; BdR. Erzherzog Rainer 11. 9.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+                  <note>Protokoll 16., 19. 8.</note>
+               </person>
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+                  <note>Protokoll <date when="1861-08-17">17. 8.</date>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-08-19">1861-08-19</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_2_109_1">Ungarischer Landtag: 1. Auflösung oder Prorogierung; 2. Reskript; 3. Manifest</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_2_109_2">Maßregel gegen einen Dalmatiner Vagabunden</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-02-0-18610819-P-0109" ana="a5-b2-z109">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml#a5-b2_z109.pdf">
+               <title type="num">Nr. 109</title>
+               <title type="descr">Ministerrat, Wien, 16., 17. und <date when="1861-08-19">19. August 1861</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">Sammelprotokoll; <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Marherr (16., 19. 8.), Ransonnet (17. 8.); <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> ( Erzherzog Rainer 19. 8.), Rechberg, Mecséry, Schmerling, Degenfeld, Lasser, Plener, Wickenburg, Lichtenfels, Forsách, Esterházy; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 11. 9.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">903</idno>
+                  <idno type="KZ">2847</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am 16., 17. und <date when="1861-08-19">19. August 1861</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer[Sitzung vom <date when="1861-08-16">16. August 1861</date>][anw. Erzherzog Rainer, Rechberg, Mecséry, Schmerling, Degenfeld, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy; abw. Pratobevera]</head>
+               <div type="agenda_item" xml:id="top_5_2_109_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ungarischer Landtag: 1. Auflösung oder Prorogierung; 2. Reskript; 3. Manifest</head>
+                  <p>Se. k. k. Hoheit bezeichneten als ersten Gegenstand der Beratung die Frage, ob der ungrische Landtag aufzulösen oder vorderhand nur zu prorogieren sei.</p>
+                  <p>Es sind nämlich dem <hi rend="#letterspaced">
+                        <rs type="person">ungrischen Hofkanzler</rs>
+                     </hi> von dem Judex Curiae und [dem] Tavernikus<note type="footnote" n="1">Georg Graf Apponyi und Georg Mailáth.</note> Bedenken gegen die sofortige Auflösung des Landtags vorgetragen worden, welche er, obwohl bereit, die diesfälligen früheren Beschlüsse zu vollziehen und das hierwegen entworfene Reskript zu unterfertigen<note type="footnote" n="2">Forgách bezieht sich auf die Beratungen im <ref type="protocol-link" target="MRP-1-5-02-0-18610811-P-0106.xml#top_5_2_106_1">MR. v. <date when="1861-08-11">11. 8. 1861</date>/I</ref> und im <ref type="protocol-link" target="MRP-1-5-02-0-18610813-P-0107.xml#top_5_2_107_2">MR. v. <date when="1861-08-13">13. 8. 1861</date>/II</ref>.</note>, doch noch der vorläufigen Erwägung des Ministerrates unterziehen zu sollen erachtete<note type="footnote" n="3">Es handelte sich hier offenbar um einen weiteren Versuch der ungarischen altkonservativen Politiker, durch Zeitgewinn den völligen Bruch hinauszuschieben; siehe dazu auch Anm. 18.</note>. Wird der Landtag sogleich aufgelöst, so sind größere Aufregung im Lande, eine lebhaftere Agitation der heimkehrenden Deputierten in den Komitaten und hiermit eine Vermehrung der Schwierigkeiten die unmittelbare Folge; die Regierungsorgane sowohl in den Komitaten als in Wien geraten in eine schiefe und unhaltbare Stellung und werden sich zum großen Teil genötigt sehen, ihre Posten aufzugeben. Diesen Schwierigkeiten würde ausgewichen, wenn man sich vorderhand mit einer Prorogierung des Landtags begnügen und die Auflösung erst in ein bis zwei Monaten darauf eintreten lassen wollte. Sie würde dann ohne Aufsehen und ruhig vor sich gehen, die Obergespäne und sonstigen Regierungsbeamten würden auf ihren Posten bleiben und inzwischen die Maßregeln vorbereiten können, welche die Herstellung geordneter Verwaltungszustände ermöglichen. Es würde ferner derselbe Zweck, nämlich die Auflösung des Landtags, erreicht und noch der Vorteil gewonnen werden, daß die Vertagung mittelst einfachen königlichen Reskripts ausgesprochen werden <pb n="296" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s296.pdf"/>könnte, während das Auflösungsreskript durch einen königlichen Kommissär dem Landtage überbracht werden müßte, zu welcher Mission sich aber nach dem, was Graf Apponyi sagte, kaum irgendeiner aus dem Zivilstande herbeilassen dürfte. Indem daher der ungrische Hofkanzler den Vertagungsantrag zu dem seinigen machte, glaubte er für den Fall, daß derselbe nicht gebilligt und auf der sofortigen Auflösung bestanden werden sollte, weiters beantragen zu sollen, daß zum königlichen Kommissär ein höherer Militär, welcher ungrische Generalsuniform zu tragen befugt ist, bestimmt und dem Auflösungsreskripte die Klausel der Einberufung eines neuen Landtags binnen drei Monaten beigesetzt werden sollte, indem der gegenwärtige Landtag auf Grundlage der Wahlordnung von 1848 einberufen worden und darin die gedachte Frist zur Berufung des neuen (nach den früheren Gesetzen binnen sechs Monaten) festgesetzt ist.</p>
+                  <p>Was die Frage ob Auflösung oder Prorogation betrifft, so erklärten sich alle übrigen Votanten einmütig gegen die letztere. In schwunghafter Rede, von der der arme Protokollist nur ein schwaches Schattenbild wiederzugeben vermag, setzte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> auseinander, wie jetzt, nachdem alle Mittel zur Verständigung erschöpft worden und kein anderes Resultat geliefert haben als das unbedingte Beharren auf verkehrten Ansichten, ja den in der letzten Adresse ausgesprochenen hochverräterischen Ausdruck des Abbrechens aller weiteren Verhandlungen, wie nach allem diesem es um den letzten Rest des königlichen Ansehens geschehen wäre, wenn die Krone nicht den Mut hätte, diese Adresse mit der sofortigen Auflösung des Landtags zu beantworten. Für gewöhnliche Zeiten möchte eine Prorogation ausreichen, aber unter den gegenwärtigen Umständen, wo der Landtag in offenem, das ganze Land in sogenanntem passivem Widerstande begriffen ist, wäre jede weitere Nachsicht nur ein evidenter Beweis der äußersten Schwäche der Regierung. Man sagt, mit der Prorogation werde derselbe Zweck, die Auflösung des Landtags, nur ruhiger und später erreicht, es würde dadurch die Agitation der heimkehrenden Deputierten im Lande gebrochen und es würde nicht nötig sein, einen königlichen Kommissär zur Auflösung zu bestellen, wozu sich niemand hergeben wolle. Allein die nach der Prorogation heimkehrenden Deputierten werden nicht minder als nach der Auflösung agitieren, sie würden es aber auch um so wirksamer und nachhaltiger tun, als ihnen dann auch der Charakter als Landtagsmitglieder anklebt, der ihnen mit der Auflösung genommen ist. Überraschend, ja empörend ist die Mitteilung, daß keiner der Diener des Königs die Mission als königlicher Kommissär zur Auflösung werde übernehmen wollen. Wohin wäre es mit den Baronen gekommen, die, was sie sind, dem Hause Habsburg verdanken, die zum 20. Oktober geraten und mitgewirkt haben und nun, nachdem dessen Geltung vom Landtage offen negiert worden, ihren Herrn im Stiche lassen, um sich einen Schein von Popularität und ihre Posten zu bewahren! Der Staatsminister ist überzeugt, daß der Judex Curiae sich nicht weigern werde, die Mission zu übernehmen, wenn sie ihm von Sr. Majestät übertragen wird, denn noch glaube er, an der Pflichttreue und Ergebenheit desselben oder anderer nicht verzweifeln zu müssen. Sollte dies aber gleichwohl möglich sein, so würde er Se. Majestät bitten, solche pflichtvergessenen Beamten von ihrem Posten zu entheben und sie durch andere, <pb n="297" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s297.pdf"/>nötigenfalls, wie schon einmal angedeutet, selbst nichtungrische Organe zu ersetzen. Der Minister des Äußern wies auf die Beziehungen Österreichs zum Auslande hin. Fände die Regierung die Kraft nicht, einen Landtag aufzulösen, der wie dieser vorzugehen gewagt hat, so hat sie alles Ansehen, alles Vertrauen und allen Kredit im Auslande verloren, und während sie jetzt noch auf die volle Zustimmung Europas zur Auflösung rechnen könnte, würde sie für eine der Prorogation nachschleichende stille Auflösung des Landtags nur ein ihre Schwäche mißbilligendes Urteil erfahren. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> vermöchte — abgesehen von allen bereits vom Staatsminister dargestellten Rücksichten —, bloß vom Standpunkte der Klugheit und Opportunität beurteilt, keinen Grund für die Prorogation zu finden. Denn will man bei einem etwaigen Wiederzusammentritte dieses Landtags nicht dasselbe Schauspiel erneuert sehen, so muß der Prorogation die Auflösung folgen, und die Aufregung wird dann kaum eine geringere sein, als wenn sie gleich jetzt erfolgte, besonders wenn es den Deputierten, die in der Zwischenzeit den Charakter als solche behalten, vergönnt ist, aus allen Kräften dafür in den Komitaten zu wirken. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> konnte sein Erstaunen nicht verhehlen, daß nach solchen Vorgängen des Landtags noch von etwas anderem als von der sofortigen Auflösung des Landtags nur die Rede sein könne, <ref xml:id="fn_5_2_109_a">und stimmt in jeder Beziehung allen Ansichten und Anträgen des Staatsministers bei</ref>
+                     <note type="variant" n="a" target="#fn_5_2_109_a">Signierte a–a Einfügung Degenfelds.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> fand ebenfalls absolut keinen Vorteil für die Regierung aus der Vertagung, besorgte vielmehr, daß die mit ihrem Charakter heimkehrenden Deputierten ein Winkelparlament zu bilden versucht sein würden, und machte aufmerksam, daß das schon in der Presse aufgetauchte Gerücht von einer etwaigen bloßen Vertagung des Landtags den ungünstigsten Eindruck im Publikum gemacht hat. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>
+                     <ref xml:id="fn_5_2_109_b">stimmte für die Auflösung und</ref>
+                     <note type="variant" n="b" target="#fn_5_2_109_b">Einfügung b–b Pleners.</note> bezeichnete die Prorogierung als die unglücklichste Maßregel, die unter den obwaltenden Verhältnissen getroffen werden könnte, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> fügte bei, sie könne nicht mehr Gegenstand der Beratung sein, nachdem in dem unter dem Ah. Vorsitz Sr. Majestät abgehaltenen Ministerrate vom 11. d. M. Allerhöchstdieselben sich schon für die Auflösung des Landtags ausgesprochen haben und nachdem dieser selbst in der Adresse erklärt, daß seine Tätigkeit hiermit abgebrochen sei. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erklärte seine volle Übereinstimmung mit den ihm aus der Seele gesprochenen Worten des Staatsministers, und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi>, welcher nach seiner persönlichen Überzeugung schon früher für die alsogleiche Auflösung gestimmt hatte, folgte auch jetzt diesem seinem Gefühle um so lieber, als die Bedenken, welche dagegen — nicht vom Standpunkte einer zu übenden Nachsicht, sondern aus Gründen der Opportunität und der Vorsicht — erhoben wurden, in den Bemerkungen der Vorstimmen ihre Widerlegung gefunden haben.</p>
+                  <p>Se. k. k. Hoheit geruhten hierauf, die Frage zu stellen, ob und wie, zweitens, das schon in der Konferenz vom 13. d. M. beratene „Reskript“ zu modifizieren <pb n="298" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s298.pdf"/>und ob, drittens, das in der Konferenz vom 11. d. M. beschlossene „Manifest“ zu erlassen sei.</p>
+                  <p>Bezüglich des Manifestes bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>
+                     <note type="footnote" n="4">In folgendem legte Schmerling den Entwurf des Manifestes dem Ministerrat vor; der Entwurf wurde verfaßt von Hans v. Perthaler; vgl. <bibl type="secondary">
+                           <title>Mayr</title>, Hans von Perthaler’s auserlesene Schriften 1, 88.</bibl>
+                     </note>: Eine Landtagsauflösung unter gewöhnlichen Verhältnissen bedarf wohl als ein Internum zwischen König und Landtag einer so feierlichen Kundgebung der Begründung der Maßregel, wie sie der beiliegende Entwurf<ref xml:id="fn_5_2_109_c"/>
+                     <note type="variant" n="c" target="#fn_5_2_109_c">Ein lithographiertes Exemplar liegt dem Originalprotokoll bei.</note> enthält, nicht. Wenn man aber die Verhältnisse ins Auge faßt, welche zu dem jetzigen Stande der Dinge geführt haben, so scheinen die Wichtigkeit der hier obschwebenden staatsrechtlichen Fragen und der Gang der Verhandlungen hierüber etwas mehr als ein bloßes Reskript an den Landtag zu fordern. Hier nun handelt es sich um wahre Lebensfragen: Ob Ungern das anerkennt, was ihm von Sr. Majestät unter gewissen Beschränkungen gewährt worden, ob es mit dem Gesamtstaate durch mehr als eine bloße Personalunion verbunden sein, ob Österreich seine Stellung als Gesamtreich, als Großmacht und konstitutioneller Staat behaupten soll. Nun der Gang, den die Dinge genommen haben: Zuerst hieß es, man werde das Diplom vom 20. Oktober dem ungrischen Landtage einfach zur Registrierung vorlegen, dann, man werde mit ihm unterhandeln, und nun ist’s dahin gekommen, daß der Landtag einfach alles negiert und sich lediglich auf den Boden von 1848 gestellt hat. Solchen Fragen und einem solchen Standpunkte gegenüber hört diese Angelegenheit auf, ein Internum zwischen dem Könige von Ungern und dem Landtage zu sein. Die übrigen Völker Österreichs, die bei jenen Fragen so wesentlich beteiligt sind, haben ein Recht zu wissen, was und aus welchen Gründen die Regierung hierüber verfügt, und nachdem die Revolutionspartei im Auslande die Sache in die Hand genommen, ist auch dem Auslande gegenüber eine Erklärung nötig. Es wird zwar auch das königliche Reskript wegen Auflösung des Landtags durch die Presse zur allgemeinen Kenntnis im In- und Auslande kommen. Allein da es sich, soll es nicht den Charakter einer förmlichen Staatsschrift<ref xml:id="fn_5_2_109_d"/>
+                     <note type="variant" n="d" target="#fn_5_2_109_d">Im Protokoll steht <quote>Satzschrift</quote>.</note> annehmen, nicht so ausführlich über die Verhältnisse und über die Begründung der Maßregel verbreiten kann, so glaubte der Staatsminister mit Berufung auf den Beschluß des Ministerrates vom 11. d. M. und die Ah. Genehmigung Sr. Majestät die Erlassung des Manifestes nach dem obigen Entwurfe um so mehr beantragen zu sollen, als darin erklärt wird, daß Se. Majestät keine der bisher gegebenen Konzessionen zurücknehmen wollen. Auch dürfte zu erwägen sein, daß die Ag. Verfügungen und Erklärungen Sr. Majestät, sie mögen in was immer für einer andern Form zur öffentlichen Kenntnis gebracht werden, bei dem jetzt in Ungern herrschenden Geiste dort übersehen und völlig ignoriert werden würden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> bezweifelte, daß die Erlassung eines solchen Manifestes bereits definitiv beschlossen worden. Er wenigstens glaube, seine Meinung nicht dafür erklärt zu haben. Er widerrate es auch jetzt, weil er die <pb n="299" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s299.pdf"/>Landtagsauflösung als ein Internum zwischen Krone und Land betrachte, in das sich weder die andern Kronländer noch das Ausland zu mischen haben; weil die Erlassung eines Manifestes hierwegen der Sache eine größere Bedeutung geben würde, als sie verdient — denn es stehen wohl noch andere Landtagsauflösungen bevor, die dann auch vielleicht von Manifesten begleitet werden müßten; weil endlich unter dem bestehenden konstitutionellen Systeme auch dessen Formen einzuhalten [sind] und den Ah. Namen des Monarchen immer an die Spitze zu stellen möglichst vermieden werden sollte. Auch dem Wortlaute des Entwurfs des Manifestes könnte der Hofkanzler nicht überall beipflichten, denn viele Stellen sind den ungrischen Anschauungen so entgegen, daß, wenn sie gleich geeignet sind, den Beifall der Bevölkerung anderer Länder zu gewinnen, doch in Ungern das Gegenteil erfahren und eine Beunruhigung und Mißstimmung verursachen würden. Und da es doch wünschenswert erscheint, nicht alle Brücken zu einer Verständigung abzubrechen, so würde, falls doch das Manifest beliebt würde, der Text desselben einer eingehenden Revision unterzogen werden müssen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> sprach seine Bedenken gegen die Erlassung eines Manifestes aus dem gegenwärtigen Anlasse, der ihm nicht wichtig genug dünkt, aus. Wenn im Jahre 1859, nach dem unglücklichen Kriege, im Oktober 1860 bei Änderung des ganzen Regierungssystems Manifeste erschienen, so waren die Anlässe dazu wichtig genug, um eine unmittelbare und feierliche Ansprache des Monarchen an seine Völker zu rechtfertigen. Gleiches gilt nicht von dem gegenwärtigen Anlasse. Es würde meist nur eine Wiederholung dessen im Manifest ausgesprochen werden, was Se. Majestät bereits in der Thronrede und in der Antwort auf die Adresse gesagt haben. Ein zu ofter Gebrauch solcher feierlicher Ansprachen dürfte nur ihren Eindruck abschwächen, was um so mehr zu bedauern wäre, als gerade in bezug auf Ungern vielleicht in nächster Zeit zu diesem außerordentlichen Mittel wird geschritten werden müssen. Ihm scheint der Zweck, den der Staatsminister mit dem Manifest beabsichtigt, ebensogut durch ein Reskript an den Landtag, gleichzeitig durch eine Botschaft an die beiden Häuser des Wiener Reichsrates und Instruktionen an die in- und ausländische Presse sowie an unsere bei den auswärtigen Höfen beglaubigten Gesandten erreichbar zu sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> stimmte im wesentlichen der Meinung des Ministers des Äußern bei, fand es jedoch notwendig, daß auch die Bevölkerung Ungerns — nicht der Landtag, denn der weiß es wohl, warum er aufgelöst wird — über die Ursachen der Auflösung und über die Absichten der Regierung in verständlicher und zuverlässiger Weise aufgeklärt werde. Das Reskript kann alles das nicht enthalten, Zeitungen werden nicht überall gehalten und gelesen. Es müßte also eine Form gefunden werden, eine im Sinne des Manifestentwurfs populär gehaltene Verordnung der ungrischen Hofkanzlei oder Statthalterei im Namen Sr. Majestät in zahlreichen Exemplaren und in allen Sprachen an die einzelnen Gemeinden verteilen zu lassen. Dies in Verbindung mit dem Reskript und der Botschaft an den Reichsrat etc. würde die Form eines allgemeinen Manifestes entbehrlich machen, das Bedenken der zu schnellen Abnützung der letzteren beheben und in der Hauptsache denselben Zweck erreichen, den der Staatsminister anstrebt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> schloß sich dem Antrage <pb n="300" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s300.pdf"/>des Polizeiministers an, glaubte jedoch, daß ein solcher Erlaß hier in Wien redigiert und nicht etwa der Statthalterei überlassen, auch zur Erleichterung seiner allgemeinen Verbreitung unterm Volk nicht nur allen Zivil-, sondern auch allen Militärbehörden zugeschickt werden sollte. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> würde zwar bei der Wichtigkeit des Falles, um den es sich hier handelt, und da das königliche Auflösungsreskript nicht alles, was zu sagen nötig, enthalten kann, der gleichzeitigen Erlassung eines Manifestes nicht entgegen sein. Allein die Erwägung, daß damit dem Auflösungsakte eine Bedeutung gegeben würde, die ihn zu einer europäischen Frage hinaufschraubt, daß es ferner nicht ratsam ist, den Ah. Namen zu oft für öffentliche Kundgebungen in Anspruch zu nehmen und voranzustellen, bestimmte ihn, dem Antrage des Polizeiministers beizutreten, wenn der rechte Modus gefunden wird, eine solche Deklaration durch die Behörden auch<ref xml:id="fn_5_2_109_e"/>
+                     <note type="variant" n="e" target="#fn_5_2_109_e">Einfügung Lassers.</note> an die Gemeinden <ref xml:id="fn_5_2_109_f">in Ungarn</ref>
+                     <note type="variant" n="f" target="#fn_5_2_109_f">Einfügung f–f Lassers.</note> verlässig gelangen zu lassen. Allein alsdann müßte auch diese<ref xml:id="fn_5_2_109_g"/>
+                     <note type="variant" n="g" target="#fn_5_2_109_g">
+                        <quote>Verordnung oder</quote> von Lasser gestrichen.</note> Deklaration in Übereinstimmung mit dem königlichen Reskripte abgefaßt werden, damit nicht etwa in diesem die Anschauungen der ungrischen Mitglieder, in jener die der deutschen des Ministerrates vorwalten und ein Zwiespalt erkennbar wäre. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hielt zwar die Sache an und für sich für wichtig genug, um darüber eine kaiserliche Erklärung mittelst Manifestes zu geben, glaubte jedoch, daß vorerst festgestellt werden sollte, in welches Verhältnis der dermal in Wien tagende Reichsrat bezüglich der nicht vertretenen Länder gesetzt <ref xml:id="fn_5_2_109_h">und in welcher Weise seine Kompetenz zu der im Grundgesetze Art. 10 vorgezeichneten Wirksamkeit erklärt</ref>
+                     <note type="variant" n="h" target="#fn_5_2_109_h">Einfügung h–h Pleners.</note> werden soll. Er würde also beantragen, daß zwar das Reskript über die Landtagsauflösung hinausgegeben, sodann zur Beratung über die Feststellung jenes Kompetenzverhältnisses<ref xml:id="fn_5_2_109_i"/>
+                     <note type="variant" n="i" target="#fn_5_2_109_i">Korrektur Pleners aus <quote>Verhältnisses</quote>.</note> geschritten und, sobald man hierüber im reinen ist, die Botschaft an den Reichsrat über dessen künftige Stellung sowohl als über die Gründe der Auflösung des ungrischen Landtages<ref xml:id="fn_5_2_109_j"/>
+                     <note type="variant" n="j" target="#fn_5_2_109_j">
+                        <quote>endlich das Manifest an die Völker Österreichs zugleich</quote> von Plener gestrichen.</note> erlassen werde. <ref xml:id="fn_5_2_109_k">Eine solche Botschaft an den Reichsrat ist durch die Wichtigkeit der Sache für die Aktivierung der konstitutionellen Einrichtungen Österreichs im Schoße der Reichsvertretung vollkommen motiviert und ersetzt zugleich das Erlassen eines Manifestes an die Völker Österreichs.</ref>
+                     <note type="variant" n="k" target="#fn_5_2_109_k">Einfügung k–k Pleners.</note> Eine besondere Mitteilung an die auswärtigen Höfe hierwegen schien ihm nicht rätlich zu sein, um nicht einen europäischen Areopag über eine innere Angelegenheit des Reiches hervorzurufen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> wäre für das Manifest, als der Wichtigkeit der Angelegenheit und dem demonstrativen Charakter der Adresse angemessen, welche letztere selbst als Manifest hinauszugeben von einigen Parteiführern im ungrischen Landtage beantragt worden war. Stoßt man sich an dem Worte „Manifest“, so möge man, wie es bei der Publikation des Grundgesetzes vom 26. Februar der Fall war, die <pb n="301" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s301.pdf"/>Überschrift weglassen. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> hielt es für wesentlich, daß sich die Regierung dem Publikum gegenüber über die Gründe der Landtagsauflösung klar und umständlich ausspreche, möge dies nun in einem Manifest oder in einer andern geeigneten Form geschehen. Jedenfalls aber hielte er den Inhalt des vorliegenden Entwurfs diesem Zwecke vollkommen entsprechend, bis auf den einzigen Punkt (Seite 13 des Entwurfs), wo gesagt wird, Se. Majestät wollen nicht in Ungern die absolute Herrschaft wiederherstellen. Ein solches Versprechen kann wohl jetzt nicht gegeben, weil nicht gehalten werden. Das Land befindet sich in vollständiger Anarchie. Es ist die wesentliche Bedingung, daß die am 20. Oktober bestandenen Gesetze bis zu deren Änderung im „verfassungsmäßigen Wege“ aufrechtbleiben sollen, nicht erfüllt worden. Es wird also wohl nichts anders übrigbleiben, als bis zur Herstellung eines geordneten Zustandes auf das Regierungssystem vor dem 20. Oktober in Ungern zurückzukommen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> endlich trat der Ansicht des ungrischen Hofkanzlers bei.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> konkludierten hiernach, daß die absolute Mehrheit des Ministerrates sich gegen ein Manifest, die relative für den Antrag des Polizeiministers ausgesprochen habe. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> wird diesem Beschlusse gemäß den Text seines Entwurfs einer an die ungrische Statthalterei sowohl als auch an die übrigen Statthaltereien zu erlassenden Verordnung anpassen, welche in zahlreichen Exemplaren an alle Gemeinden in allen Sprachen verteilt werden soll<note type="footnote" n="5">Von einer solchen vom Polizeiminister beantragten Verordnung wurde später wieder Abstand genommen; vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610902-P-0117.xml#top_5_2_117_2">MR. III v. <date when="1861-09-02">2. 9. 1861</date>/II</ref>.</note>, denselben auch in die Botschaft an beide Häuser des Reichsrates aufnehmen<note type="footnote" n="6">Die zuerst vom Minister des Äußern in dieser Sitzung angeregte Botschaft wurde am 17, und 19. 8. (vgl. die folgenden Teile des vorliegenden Sammelprotokolls) und im <ref type="protocol-link" target="MRP-1-5-02-0-18610822-P-0112.xml">MR. v. <date when="1861-08-22"/>22. 8. 1861</ref> beraten.</note>, denn es scheint ihm, nachdem bereits von dem königlichen Reskripte auf die erste ungrische Adresse aus Courtoisie Mitteilung gemacht worden, auch jetzt kaum vermeidlich zu sein, sie auch von diesem weit wichtigeren Schritte der Regierung in die Kenntnis zu setzen, zumal der Zeitpunkt, wann der Reichsrat als gesamter wird konstituiert werden können, kaum so bald eintreten dürfte. Endlich glaubte er, daß eine Broschüre vorbereitet werden dürfte, die in populärer Sprache dem großen Publikum über die Gründe, welche die Regierung zu ihrem Vorgehen bestimmten, die nötige Aufklärung zu geben geeignet ist. Auf solche Art dürfte der Zweck, den er mit dem Manifeste beabsichtigte, wohl auch erreicht werden können. Er wurde eingeladen, sich hierwegen mit dem ungrischen Hofkanzler ins Einvernehmen zu setzen<note type="footnote" n="7">Ein Schriftwechsel über eine solche Broschüre liegt nicht vor; im Ministerrat war nicht mehr davon die Rede.</note>.</p>
+                  <p>Was endlich das königliche Auflösungsreskript betrifft, so ist dasselbe schon in der Sitzung vom 13. d. M. auch dem Texte nach durch Stimmenmehrheit angenommen worden. Nur <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> hatte sich damals und so auch heute gegen dessen Fassung entschieden erklärt, weil es den 20. Oktober und 26. Februar mit Stillschweigen übergeht und Auslassungen enthält, die zur Anerkennung unstatthafter Zustände Anlaß geben könnten. Auch der <hi rend="#letterspaced">
+                        <rs type="person">Kriegs-, Finanz</rs>
+                     </hi>- und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> sprachen sich wie damals für eine möglichst <pb n="302" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s302.pdf"/>kurze Fassung desselben aus. Heute beanständete <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> bei wiederholter Lesung desselben noch den Eingang desselben, wo von dem Zwecke der Einberufung des Landtags die Rede ist, und wünschte denselben dahin modifiziert zu sehen, daß gesagt werde, der Landtag sei einberufen worden, um die Verfassung Ungerns „den zur Sicherung der Interessen der Monarchie und der Völker derselben festgesetzten Bestimmungen anzupassen“.</p>
+                  <p>Da überdies der Wunsch nach einer kürzeren Fassung des Reskripts noch von mehreren Stimmen geteilt wurde, forderten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> den ungrischen Hofkanzler auf, hierwegen mit dem Polizeiminister sich zu verständigen.</p>
+                  <p>Belangend den oben gestellten Antrag des ungrischen Hofkanzlers, die Wiedereinberufung eines neuen Landtags binnen drei Monaten im Reskripte zuzusichern, so erklärten sich der <hi rend="#letterspaced">
+                        <rs type="person">Polizei-, Staats</rs>
+                     </hi>- und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, dann der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> auf das entschiedenste dagegen, weil dies die Anerkennung des diesfalls erlassenen 1848er Gesetzartikels enthalten würde, auch der gegenwärtige Landtag, wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte, nicht auf Grundlage des 1848er Wahlgesetzes, sondern ausdrücklich auf Grundlage einer demselben analogen provisorischen Wahlordnung berufen worden ist. Es wäre daher auf den in den älteren Gesetzen bestimmten Termin von sechs Monaten zurückzugehen oder die Zusicherung der Wiedereinberufung ganz zu umgehen oder doch nur unbestimmt im allgemeinen auszusprechen.</p>
+                  <p>Über die mit der Vollziehung des Auflösungsreskripts zu betrauende Person wird der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> über Aufforderung Sr. k. k. Hoheit sich vorläufig vertraulich mit dem Judex Curiae ins Einvernehmen setzen, konnte jedoch nicht umhin, abermals auf den Antrag zurückzukommen, daß vorsichtshalber auch der Kommandierende General oder [ein] sonstiger höherer Militär damit betraut und bevollmächtigt werde, weil, wenn man gleich, wie der Staatsminister bemerkte, im Lande auf die Auflösung gefaßt und vorbereitet ist, doch eben diese Vorbereitung nach der Meinung des Ministers Grafen Esterházy zu verdoppelter Vorsicht auffordern dürfte. Wird der Auflösungsorder — entgegnete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> — tätiger Widerstand entgegengesetzt, so versteht sich ja das Einschreiten der Militärgewalt von selbst, und es bedarf dazu keiner besonderen Vollmacht mehr.</p>
+                  <p>Fortsetzung den <date when="1861-08-17">17. August 1861</date>. Vorsitz und Gegenwärtige wie im Ministerrate am <date when="1861-08-16">16. August 1861</date>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">königlich ungarische Hofkanzler</rs>
+                     </hi> las den Entwurf des Auflösungsreskripts, den er gemäß dem gestrigen Beschlusse mit dem Polizeiminister vereinbart hat<note type="footnote" n="8">Druck dieses Entwurfs siehe Beilage zum vorliegenden Sammelprotokoll, Nr. 109 a.</note> und worüber zwischen beiden in Absicht auf die Textierung des Einganges noch eine Meinungsverschiedenheit besteht. Diese Verschiedenheit geht im wesentlichen dahin, daß nach Baron Mecséry gesagt werden sollte, der <pb n="303" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s303.pdf"/>Landtag sei einberufen worden, „um die ungarische Verfassung den zur Sicherung der Interessen der Monarchie und der Völker derselben festgesetzten Bestimmungen anzupassen“, während der Hofkanzler <ref xml:id="fn_5_2_109_l">zu setzen wünscht „den Erfordernissen anpasse, welche sich bei der Wiederherstellung der konstitutionellen Einrichtungen Ungarns in der Gegenwart als notwendig darstellen</ref>
+                     <note type="variant" n="l" target="#fn_5_2_109_l">Einfügung l–l Forgáchs; am Rand steht die Bleistiftnotiz Ransonnets: <quote>Bitte um gnädige Ausfüllung des Textes</quote>.</note>“. Graf Forgách kann sich mit dem Texte des Polizeiministers deswegen nicht vereinigen, weil er ihm als eine Petitio principii erscheint. Am Schlusse des Reskripts wurde noch einverständlich ein gestern nicht besprochenes Argument beigefügt, indem der grelle Widerspruch in den eigenen Aussprüchen des Landtags über seine Kompetenz beleuchtet wird.</p>
+                  <p>Über den vorgelesenen Text des Reskripts entspann sich eine längere Diskussion, im Laufe welcher die Majorität des Ministerrates sich anfänglich mit dem deutlicheren Texte des Polizeiministers vereinigte, aber das neue Argument beseitigen wollte, weil es gegenüber den vielen Argumenten in der Adresse zu sehr vereinzelt erscheint und daher — obgleich an sich vollkommen richtig und schlagend — im Reskripte nicht den gewünschten Eindruck hervorbringen dürfte. Graf Forgách machte aber dagegen geltend, daß gerade dieses einfache und auch dem schlichtesten Verstand einleuchtende Argument den Landtag dem großen Publikum gegenüber ad absurdum führe. Nachdem ferner der ungarische Hofkanzler erklärt hatte, daß er den größten Wert auf die von ihm vorgeschlagene Textierung des Einganges lege und er auf deren Annahme um so mehr bestehen müsse, da das Ah. Reskript von ihm kontrasigniert wird, und nachdem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> dem Antrage des Grafen Forgách vollkommen beipflichtete, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und mit ihm die Majorität, gegen die vom Hofkanzler vorgeschlagene Fassung des ganzen Reskripts keine weitere Erinnerung erheben zu wollen. Andererseits behielt sich Graf Forgách mit Rücksicht auf die vorgebrachten Einwendungen vor, die Opportunität der Aufnahme des neuen Arguments nochmals in reife Erwägung zu ziehen<ref xml:id="fn_5_2_109_m"/>
+                     <note type="variant" n="m" target="#fn_5_2_109_m">Hier folgt die Anmerkung Ransonnets: <quote>Im Lauf des heutigen Ministerrates wurde jedoch über die Fassung des Reskripts noch ein anderer, wesentlich verschiedener Beschluß gefaßt, der weiter unten im Protokoll erscheint</quote>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erinnerte, es sei in der letzten Sitzung beschlossen worden, daß statt eines Ah. Manifestes über die ungarischen Angelegenheiten eine Botschaft ähnlichen Inhaltes an die beiden Häuser des Reichsrates zu richten sei. Nach reiflicher Erwägung über die Textierung einer solchen Botschaft sei Ritter v. Schmerling zur Überzeugung gelangt, daß der Eindruck derselben ein wesentlich größerer sein würde, wenn Se. Majestät der Kaiser darin als in Allerhöchsteigener Person redend angeführt werden. Diese Botschaft würde nur mit einigen Worten des Staatsministers eingeleitet und sodann von ihm vollinhaltlich vorgelesen. Als Text derselben dürfte der Entwurf des kaiserlichen Manifestes mit den nach dem Wunsch des Hofkanzlers bereits getroffenen und den noch weiters zu treffenden Modifikationen angenommen werden, und wäre dazu die Ah. Genehmigung <pb n="304" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s304.pdf"/>mittels au. Vortrages einzuholen<note type="footnote" n="9">Einen diesbezüglichen Vortrag gibt es in der Kabinettskanzlei nicht, doch wurde der Text im <ref type="protocol-link" target="MRP-1-5-02-0-18610822-P-0112.xml">MR. v. <date when="1861-08-22"/>22. 8. 1861</ref> unter dem Vorsitz des Kaisers besprochen und von ihm genehmigt.</note>. Der Staatsminister verlas hierauf den alligierten lithographierten Entwurf [des Manifestes]<ref xml:id="fn_5_2_109_n"/>
+                     <note type="variant" n="n" target="#fn_5_2_109_n">Liegt bei; vgl. Anm. c.</note>, <note type="footnote" n="10">Am Vortag war nur beraten worden, ob ein Manifest erlassen werden sollte oder nicht; hier beginnt die Diskussion über den Inhalt des Manifestentwurfs, der nach dem Antrag des Staatsministers der Botschaft an den Reichsrat zugrunde gelegt werden sollte. Tatsächlich enthält die von Schmerling im Reichsrat verlesene Botschaft (siehe <ref type="protocol-link" target="MRP-1-5-02-0-18610822-P-0112.xml">MR. v. <date when="1861-08-22"/>22. 8. 1861</ref>, Anm. 1) fast wörtlich den Text des Manifestentwurfs, abgesehen von geringfügigen Änderungen und abgesehen davon, daß das Manifest in Ichform, die Botschaft in der dritten Person gehalten ist.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erklärte hierauf mit Bezug auf seine in der letzten Sitzung erhobenen Bedenken, er könne sich weder mit der Form noch mit dem Inhalte dieser Mitteilung an den Reichsrat einverstanden erklären. Es sei überhaupt nicht angezeigt, die Ah. Person ohne vorhandene Notwendigkeit redend anzuführen. Hiezu kommt noch, daß Botschaften eines Souveräns zu den seltenen Formen besonders feierlicher Ah. Erlässe gehören, welche man nur bei den wichtigsten Veranlassungen anwenden sollte, deren sich eine in nicht ferner Zukunft ergeben dürfte. Andererseits scheine es nicht angezeigt, daß in eine so lange Rechtfertigung des königlichen Beschlusses eingegangen werde, zumal der Inhalt derselben den Zweck, in Ungarn die Gemüter zu beruhigen, nicht erreichen werde. Denn durch die Nadelstiche von Rekriminationen und spitzen Deduktionen wird man dort nur die Aufregung nähren. Namentlich scheine es auch unpassend, von einer stattgefundenen Eroberung Ungarns zu sprechen. Se. Majestät haben den Aufstand zu Boden geworfen, Allerhöchstihr Land zur Pflicht zurückgeführt, aber nicht „erobert“. Graf Rechberg stimme daher dafür, daß der Staatsminister, ohne Se. Majestät redend anzuführen, eine minder umfangreiche Mitteilung beruhigender Art an die beiden Häuser mache. Das übrige könne in Zeitungsartikeln gesagt werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> trat dieser Meinung bei und machte insbesondere aufmerksam, daß der Ton des Manifestentwurfes, welcher der Botschaft zum Grunde gelegt werden soll, zu der überaus milden Fassung des Auflösungsreskripts in einem um so grelleren Gegensatz stehe, als die schärfere Sprache gegenüber dem pflichtvergessenen Landtage vorzugsweise am Platz wäre. Diesen Gegensatz erkannte auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> an und fragte, ob es noch an der Zeit sei, die Botschaft zur Behebung desselben neu zu redigieren. Die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Graf Wickenburg</rs>
+                     </hi> stimmten für eine unzweideutige Botschaft an den Reichsrat nomine Majestatis. Das Publikum erwarte einen Ah. Ausspruch über die Sachlage, und derselbe sei zur Ergänzung des nur wenig sagenden Reskripts selbst nötig. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident<ref xml:id="fn_5_2_109_o"/>
+                           <note type="variant" n="o" target="#fn_5_2_109_o">Im Protokoll fälschlich <quote>Reichsratspräsident</quote>.</note>
+                        </rs>
+                     </hi> stimmten — <ref xml:id="fn_5_2_109_p">und zwar der erste stante concluso der gestrigen Sitzung</ref>
+                     <note type="variant" n="p" target="#fn_5_2_109_p">Einfügung p–p Pleners.</note> — für die vom Staatsminister beantragte Botschaft. Doch wäre im Absatz 13 der Passus, daß Se. Majestät die absolute Herrschaft in Ungarn nicht wiederherstellen wollen, etwas zu modifizieren, weil <pb n="305" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s305.pdf"/>die Verhältnisse es immerhin<ref xml:id="fn_5_2_109_q"/>
+                     <note type="variant" n="q" target="#fn_5_2_109_q">Einfügung Pleners.</note> notwendig machen können, daß in Ungarn während der Übergangszeit autokratisch regiert werde. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> stimmten dem Minister des Äußern bei. Die vom Staatsminister vorgelesene Botschaft gehe in Form und Inhalt viel weiter als der gestrige Ratsbeschluß, wie ihn diese Stimmführer aufgefaßt haben. Der Vorwurf wegen des Sr. Majestät verweigerten Titels dürfte besser übergangen werden, nachdem der Landtag sein diesfälliges Unrecht redressiert hat, so wie es auch wohl klüger wäre, die Nationalitätenfrage nicht so sehr in den Vordergrund zu stellen, nachdem die Regierung in dem letzten Dezennium diesfalls auch nicht vorwurfsfrei geblieben ist.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte hierauf, er wolle nicht unabänderlich auf der vorgeschlagenen Form der Botschaft an die Häuser bestehen. Allein die Hauptsache, von der er nicht abgehen könne, sei die Festsetzung des Rechtsstandpunktes Ungarn gegenüber: Man müsse endlich den Mut haben, offen auszusprechen, daß Ungarn seine Verfassung teils verwirkt, teils selbst zerrissen habe. Diese Wahrheit solle man jenseits der Leitha einsehen lernen. Mit ängstlicher Scheu hütete sich die Regierung, bisher ein Wort zu sagen, was in Ungarn verletzen könnte, während in Ungarn fortwährend die verletzendsten Äußerungen gegen Se. Majestät öffentlich ungescheut ausgesprochen werden. Je weicher das Reskript gehalten ist, um so mehr wird man genötigt, sich in der Mitteilung an den Reichsrat nachdrücklich auszusprechen. Man soll es in Ungarn wissen, daß die „deutschen Minister“ nicht selbständig Politik machen, sondern daß sie nur im Sinne der Ah. Befehle handeln. Der angebliche Dualismus zwischen den ungarischen und deutschen Ratgebern Sr. Majestät, von dem der „Sürgöny“ nicht müde wird zu erzählen, muß seine Widerlegung finden. Wenn dagegen das Reskript möglichst lakonisch abgefaßt und demnach die Wirkung und Bedeutung der Auflösung durch den Ton desselben nicht abgeschwächt wird, würde der Staatsminister auch die ministerielle Botschaft modifizieren können. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> erklärte sich hierauf erbötig, dem Reskript eine neue, kurze Fassung zu geben, <ref xml:id="fn_5_2_109_r">und zwar im Sinne des durch den Minister Grafen Esterházy bereits im gestrigen Ministerrate gestellten Antrages</ref>
+                     <note type="variant" n="r" target="#fn_5_2_109_r">Einfügung r–r Esterházys.</note>, wobei nämlich<ref xml:id="fn_5_2_109_s"/>
+                     <note type="variant" n="s" target="#fn_5_2_109_s">Einfügung Esterházps.</note> die Auflösung einfach dadurch motiviert würde, daß der Landtag den an ihn ergangenen Aufforderungen nicht entsprochen und den Faden der Verständigung selbst zerrissen hat<note type="footnote" n="11">Diesen Antrag Esterházys verzeichnet das Protokoll v. 16. 8. nicht ausdrücklich.</note>. Gleichzeitig wäre im Ah. Reskript die Absicht Sr. Majestät auszusprechen, den Landtag sechs Monate später — wenn tunlich — wieder einzuberufen. Die Auflösung des Landtags eines so großen Landes ohne alle Motivierung würde nämlich in Ungarn selbst bei den Gutdenkenden verletzend wirken und auch im Ausland Befremden erregen. Die Aussicht auf Wiedereinberufung des Landtags nach einem fixen Termin werde im Lande beruhigen. <pb n="306" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s306.pdf"/>Diese Zusicherung entspräche auch den ungarischen Gesetzen vor 1848, welche allerdings von den Königen Ungarns gerade in diesem Punkte sehr oft nicht beobachtet wurden. Die beigefügte Klausel „wenn tunlich“ gebe hinreichenden Anhaltspunkt zu weiterer Vertagung. Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und die Majorität sich mit der Neuredigierung des Reskripts in diesem Sinne einverstanden erklärt hatten, kündigte Ritter v. Schmerling an, daß er im Ministerrate am 19. d. M. den Entwurf seiner Mitteilung an die Häuser zur Beratung bringen werde.</p>
+                  <p>Über den Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiministers</rs>
+                     </hi>, daß auch der bereits gestern besprochene Statthaltereierlaß zur Beruhigung <ref xml:id="fn_5_2_109_t">und Belehrung</ref>
+                     <note type="variant" n="t" target="#fn_5_2_109_t">Einfügung t–t Esterházfs.</note> der Bevölkerung Ungarns des innigen Zusammenhangs mit den übrigen Kundgebungen der Regierung wegen im Ministerrat festgestellt werde, äußerte der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi>, daß er diesen kurz und populär zu fassenden Erlaß am selben Tage in Vortrag zu bringen gedenke<note type="footnote" n="12">Forgách tat dies nicht; vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610902-P-0117.xml#top_5_2_117_2">MR. III v. <date when="1861-09-02">2. 9. 1861</date>/II</ref>.</note>.</p>
+                  <p>Se. k. k. Hoheit der durchlauchtigste Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Rainer</rs>
+                     </hi> stellten hierauf die Frage, auf welche Weise das Auflösungsreskript in den beiden Häusern des ungarischen Landtags zu publizieren wäre.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> erwiderte, daß bei der Schwierigkeit, einen passenden königlichen Kommissär ad hoc zu finden, der Judex Curiae Graf Apponyi hiemit durch Ah. Handschreiben in derselben Weise zu betrauen sein dürfte wie bei den jüngsten zwei Anlässen. Graf Apponyi hätte die Publikation im Oberhause selbst vorzunehmen und das Reskript sofort an den Präsidenten des Unterhauses zu gleichem Zwecke zu übersenden. Die im Ministerrat zur Sprache gebrachte Erlassung eines Ah. Handschreibens an den letzteren könnte nämlich, wenn v. Ghyczy etwa das Ah. Handschreiben als nicht kontrasigniert zurücklegen wollte, zu einer Kompromittierung führen. Mit diesen vorgeschlagenen Modalitäten war der Ministerrat einverstanden, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> noch erwähnte, es sei dieses Mal nicht nötig, auf die eventuelle Auflösung des Landtags durch den Kommandierenden General vorzudenken, da Graf Apponyi den Ah. Auftrag ohne Zweifel in Erfüllung bringen wird. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> behielt sich seinerseits vor, an den Kommandierenden General Graf Coronini die nötigen Weisungen wegen der zu treffenden militärischen Vorkehrungen zu erlassen, da letzterer darauf vorbereitet sein muß, den verschiedenen Eventualitäten entgegenzutreten. Der diesfällige Erlaß werde dem ungarischen Hofkanzler mitgeteilt werden<note type="footnote" n="13">Coronini erhielt ein Handschreiben des Kaisers; siehe unten Anm. 19, Abschrift <bibl type="archival">KA., KM., Präs. (CK.) 3704/1861</bibl>.</note>. Der Ministerrat war hiemit einverstanden.</p>
+                  <p>Um die sämtlichen mit der Landtagsauflösung in Zusammenhang stehenden Erlässe und Mitteilungen reiflich überlegen und kombinieren zu können, erkannten es Se. k. k. Hoheit der durchlauchtigsten Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Rainer</rs>
+                     </hi>
+                     <pb n="307" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s307.pdf"/>für notwendig, daß die Publikation der Auflösung statt Mittwoch erst am Donnerstag, den 22., Platz greife<note type="footnote" n="14">Die letzte Sitzung beider Häuser des ungarischen Landtags fand am <date when="1861-08-22">22. 8. 1861</date> statt.</note>.</p>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> zur Kenntnis gebracht hatte, daß Graf Eduard Károlyi statt Treforts mit der Verfassung eines Landtagsmanifestes beauftragt worden sei, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler</rs>
+                     </hi>, daß der Landtag zur Erlassung eines Manifestes gar nicht ermächtigt ist. Sollte er es aber doch versuchen, so könne der Publikation entgegengetreten werden<note type="footnote" n="15">Bei <bibl type="archival">HHSTA., Informationsbüro (BM-Akten)</bibl>, befand sich unter der Zahl <quote>GZ. 40 (5510)/1861</quote> ein Polizeibericht v. <date when="1861-08-15">15. 8. 1861</date>, der laut Protokoll beinhaltete: <quote>Feststellung einer Kommission zur Ausarbeitung eines Manifestes an die Bevölkerung Ungarns; August Trefort und Graf Eduard Károlyi übernehmen die Revision</quote>. Es handelt sich natürlich nicht um einen Landtagsbeschluß.</note>.</p>
+                  <p>Wien, <date when="1861-08-19">19. August 1861</date>.</p>
+                  <p>Fortsetzung am <date when="1861-08-19">19. August 1861</date>. Vorsitz und Gegenwärtige wie am 16. und 17. August.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> las den aus dem Manifeste umgearbeiteten Entwurf einer Botschaft an die beiden Häuser des Reichsrates. Er enthält das königliche Reskript nach seinem Wortlaute und die aus dem Manifestentwurfe fast vollständig — mit einigen wenigen schon in den vorigen Sitzungen besprochenen Modifikationen — entnommenen Ausführungen<note type="footnote" n="16">Dieser Entwurf liegt dem Protokoll nicht bei. Die im Reichsrat am <date when="1861-08-23">23. 8. 1861</date> verlesene Mitteilung (siehe <ref type="protocol-link" target="MRP-1-5-02-0-18610822-P-0112.xml">MR. v. <date when="1861-08-22"/>22. 8. 1861</ref>, Anm. 1) besteht aus drei Teilen, und zwar 1. dem Auflösungsreskript, 2. einer ziemlich langen Rede Schmerlings und 3. der eigentlichen Botschaft des Kaisers, die Schmerling schon am <date when="1861-08-17">17. 8. 1861</date> vorgelegt hatte.</note>. Außerdem beanständete der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> heute noch folgende Stellen in dem Entwurfe: Zu Seite 5, Schlußabsatz, worin gesagt wird, daß Se. Majestät an die ungrische Verfassung nicht gebunden waren, weil sie durch die Revolution gebrochen und die Tatsache derselben infolge des Sieges der k. k. Waffen der Machtvollkommenheit Sr. Majestät Platz gemacht habe. Immer wieder das Land daran zu erinnern, daß es als ein erobertes angesehen werde, scheint dem Hofkanzler nicht angemessen zu sein. Es ist dieses Wort im Munde des Stärkeren nicht edel, in jenem des Schwächeren nicht wirksam. Er beantragte daher die Weglassung dieser Stelle, wogegen nichts erinnert wurde. Zu Seite 10, wo es heißt „eine gemeinsame oberste Reichsregierung“, wünschte er, zur Vermeidung von Mißdeutungen gesetzt zu sehen „eine gemeinsame Regierung“ — was vom Staatsminister angenommen wurde —, und verlangte weiters zu Seite 11, daß der Satz „ohne Zustimmung der letzteren, deren Gut und Blut daran haftet“ weggelassen werde. Die Tatsache, daß diese Länder ihr Gut und Blut für die Pragmatische Sanktion gelassen haben, ist wohl richtig, versetzte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, indessen legte er keinen besonderen Wert auf die Beibehaltung der Phrase und wird sie weglassen oder in der von dem Minister Ritter v. Lasser beantragten Form fassen, daß statt „ohne Zustimmung“ gesagt werde „ohne Rücksicht auf die letzteren“.</p>
+                  <p>
+                     <pb n="308" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s308.pdf"/>Auf Seite 14, erste Zeile, wurde das Wort „gleichmäßige“ vor „Verfassungseinrichtungen“ gestrichen.</p>
+                  <p>Weiters erklärte sich der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> auf dieser Seite gegen den Schlußpassus ad I: „Insofern ein Land gegenwärtig nicht an diesen Gesetzarbeiten (des Reichsrates) teilnimmt, kann dies die verfassungsmäßigen Vertreter der anderen Länder nicht beirren“ etc., etc. Der ungrische Hofkanzler erkannte darin den Ausspruch, daß der gegenwärtig tagende Reichsrat, der bisher nur als der engere gegolten hat, nunmehr als der vollständige mit dem Rechte angesehen werde, auch über Länder zu beschließen, die in ihm nicht vertreten sind. Gegen dieses Prinzip müßte er sich verwahren, weil er zwar zugebe, daß der König von Ungarn aus eigener Macht Steuern ausschreibe und Rekruten im Lande verlange, nicht aber, daß demselben in dieser oder anderer Beziehung Gesetze von einer Körperschaft gegeben werden, zu welcher es keinen seiner Vertreter gesendet hat. Die Frage, ob und wie der gesamte Reichsrat zu konstituieren sei, bedarf vorläufig noch einer genauem und eingehenden Erörterung. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> teilte diese Ansicht vollkommen. Dagegen bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>: Das Prinzip, daß ein Land, welches, zur Teilnahme an der Reichsvertretung berufen und aufgefordert, sich freiwillig derselben enthält, weder den Charakter der Reichsvertretung ändere noch sich den von derselben gefaßten und von Sr. Majestät sanktionierten Beschlüssen entziehen könne, liege im Geiste des Diploms vom 20. Oktober und im Wortlaute der Verfassung vom 26. Februar (§ 14), es sei von dem Gesamtministerium mit Inbegriff der damaligen ungrischen Mitglieder anerkannt und von Sr. Majestät bestätigt worden. Wollte man es bestreiten, so würde die Verfassung selbst unmöglich, denn mit demselben Rechte wie Ungern würde jedes andere Land gegen Beschlüsse in allgemeinen Reichsangelegenheiten (§ 10 des Grundgesetzes) protestieren können, weil sie von einer Versammlung gefaßt wurden, in der nicht alle Länder des Reiches vertreten sind. Und mit eben demselben Rechte würde selbst die Kompetenz des engeren Reichsrates bestritten werden müssen, wenn, wie es eben jetzt der Fall ist, in ihm ein Land — Istrien oder Venetien — nicht vertreten wird, und das ist doch noch nicht behauptet worden. Soll die Verfassung zur Wahrheit werden, so kann die Weigerung einzelner Länder, an der Verhandlung teilzunehmen, dem Rechte der sich daran beteiligenden in seiner Wirksamkeit nichts nehmen. Alle übrigen Stimmführer traten der Ansicht des Staatsministers im Prinzip bei. Nachdem jedoch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> bemerkt hatte, daß die Textierung des besprochenen Satzes durch das Wörtchen „gegenwärtig“ zu der Auffassung Anlaß geben könnte, daß der gegenwärtig versammelte Reichsrat nunmehr schon als der gesamte angesehen werden wolle, ungeachtet bezüglich Siebenbürgens noch nicht einmal die gesetzliche Aufforderung zur Teilnahme daran ergangen ist, so erklärte sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bereit, dem Satze mit Weglassung des Wortes „gegenwärtig“ eine solche Wendung zu geben, wodurch das geäußerte Bedenken des Polizeiministers behoben wird. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> hätte selbst gegen die vorliegende Fassung nichts einzuwenden, weil der Grundsatz den Bestand der Verfassung betrifft, selbst im verstärkten Reichsrate von 1860 zur Geltung gekommen ist und überhaupt in keiner Versammlung <pb n="309" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s309.pdf"/>entbehrt werden kann, die Beschlüsse zu fassen hat, indem dieselben sonst durch die willkürliche Abwesenheit eines oder des anderen Mitgliedes vernichtet werden würden<note type="footnote" n="17">Die Mitteilung an den Reichsrat kam im <ref type="protocol-link" target="MRP-1-5-02-0-18610822-P-0112.xml">MR. v. <date when="1861-08-22"/>22. 8. 1861</ref> unter dem Vorsitz des Kaisers noch einmal zur Sprache.</note>.</p>
+                  <p>Hierauf las der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> den mit dem Polizeiminister vereinbarten, kürzer gefaßten Entwurf des königlichen Auflösungsreskripts mit der Bitte, daß Se. Majestät hierwegen noch die Äußerungen einiger ungrischer Herren einzuholen geruhen mögen, welche Bitte <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> Sr. Majestät vortragen werden<note type="footnote" n="18">Damit war die Diskussion über die Textierung des Auflösungsreskripts zu Ende. Mit Vortrag vom selben Tag, <date when="1861-08-19">19. 8. 1861</date>, legte der ungarische Hofkanzler das Reskript, <quote>wie es in der Ministerkonferenz auf Grundlage des unter Ah. Vorsitze gefaßten Auflösungsbeschlusses entworfen wurde</quote>, dem Kaiser vor, <bibl type="archival">MOL., Ungarische Hofkanzlei, Allgemeine Akten, Fasz. VIII-0-4 (Landtagssachen), Z. 11536/1861 (K.)</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2654/1861</bibl> (hier liegen auch das ungarische Original und eine deutsche Übersetzung der Landtagsadresse v. <date when="1861-08-12">12. 8. 1861</date>) ; bereits am <date when="1861-08-20">20. 8. 1861</date> unterzeichnete der Kaiser das Auflösungsreskript, das jedoch vom <date when="1861-08-21">21. 8. 1861</date> datiert ist; Druck siehe Beilage zum vorliegenden Sammelprotokoll, Nr. 109 b.Gemeinsam mit diesem Vortrag unterbreitete Forgách am <date when="1861-08-19">19. 8. 1861</date> noch ein weiteres Schriftstück, das sich auf die Bitte bezieht, der Kaiser möge noch die Äußerungen einiger ungarischer Herren einzuholen geruhen; der äußeren Form nach ist es ein Vortrag, allerdings trägt es keine Überschrift und auch keine Zahl der ungarischen Hofkanzlei; es lautet: <quote>Eure Majestät! Alle von mir vernommenen, mit den Verhältnissen des Landes genau bekannten Ungarn widerraten einstimmig und ohne Ausnahme die Auflösung des Landtages. Nicht nur die schwierige Durchführung dieser Maßregel macht sie erbeben, aber hauptsächlich der Umstand, daß hiedurch jede Anbahnung zu einer gedeihlichen Verständigung unmöglich wird. Sie meinen, daß durch die sehr leicht durchführbare Maßregel der Prorogation der Zweck, ohne die Erregtheit der Gemüter noch mehr zu potenzieren, vollkommen erreicht werde und die Auflösung später erfolgen könnte. Bei der außerordentlichen Wichtigkeit des Gegenstandes erlaube ich mir die au. Bitte zu stellen, daß Ew. Majestät geruhen mögen, vor Allerhöchstihrer Entscheidung und Schlußfassung einige hier anwesende ungarische Würdenträger Ag. zu vernehmen. Die Auflösung, sollte sie dennoch stattfinden müssen, würde nur den Aufschub eines Tages erleiden. Wien, den <date when="1861-08-19">19. August 1861</date>. Anton Graf Forgách.</quote> In der Kabinettskanzlei wurde dieses Schriftstück wie ein Vortrag behandelt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2655/1861</bibl>; der Kaiser schrieb eigenhändig die Ah. Entschließung: <quote>Erledigt sich durch Meine Entscheidung vom heutigen Tage betreffend die Auflösung des Landtages. Wien, den <date when="1861-08-20">20. August 1861</date>. Franz Joseph</quote>.</note>.</p>
+                  <p>Nachdem Graf Apponyi gebeten hat, mit der Funktion eines königlichen Kommissärs verschont zu werden, so brachte der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> dazu einen der Generale, Graf Haller, Horváth oder Cseh, in Vorschlag. Der Ernannte würde die Präsidenten der beiden Häuser zu sich berufen, jedem von ihnen das königliche Reskript zur Verlesung in dem betreffenden Hause übergeben, und diese würden sohin die Sitzungen schließen<note type="footnote" n="19">Die Wahl fiel auf Haller. Mit Vortrag v. <date when="1861-08-20">20. 8. 1861</date>, <bibl type="archival">MOL., Ungarische Hofkanzlei, Allgemeine Akten, Fasz. VIII-0-4 (Landtagssachen), Z. 11821/1861</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2666/1861</bibl>, legte der ungarische Hofkanzler <quote>mehrere auf die Auflösung des ungarischen Landtags bezügliche Urkunden zur Ah. Fertigung</quote> vor, und zwar das Handschreiben an den GdK. Franz Graf Haller v. Hallerkeö, mit dem er zum königlichen Kommissär ernannt und mit der Landtagsauflösung betraut wurde (auch <quote>ebd., CBProt. 79c/1861</quote>); das Reskript an den Landtag betreffend die Ernennung Hallers, Druck u. a. <bibl type="secondary">
+                           <title>Ungarischer Reichstag</title> 3, 265f</bibl>.; <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> 174</bibl>; und ein Handschreiben an den Kommandierenden General in Ungarn, FZM. Coronini, in dem ihm die Schriftstücke über die Auflösung zur Kenntnis gebracht und Weisungen über sein Verhalten erteilt wurden; alle Stücke sind mit <date when="1861-08-21">21. 8. 1861</date> datiert.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> kam bei diesem Anlasse auf seine in bezug auf den königlichen Kommissär bereits <pb n="310" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s310.pdf"/>oben am 16. gemachten Bemerkungen zurück und wurde dabei von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> und dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> unterstützt, die nicht zugeben können, daß Diener des Königs sich eines Auftrags, der ihnen unangenehm ist, entschlagen. Graf Rechberg bezeichnete es als ein Grundübel in Ungern, daß die Männer der Regierung sich deren Gegnern anschließen, weil sie das Vertrauen in die Kraft der <hi rend="#letterspaced">
+                        <rs type="person">Regierung</rs>
+                     </hi> verloren haben. Beide Stimmführer schlossen sich der Ansicht des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsministers</rs>
+                     </hi> an, daß gerade in einem konstitutionellen Staate die Diener der Regierung nicht auf ihrem Posten bleiben können, wenn sie in den Hauptprinzipien nicht mit ihr übereinstimmen. Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> erklärte, Graf Apponyi werde als Präsident des Magnatenhauses seine Pflicht tun und das ihm übergebene Auflösungsreskript verlesen und das Haus schließen. Wenn er sich aber weigert, das Amt des königlichen Kommissärs zu übernehmen, wozu er nicht verpflichtet sei, so finde dies seine Entschuldigung darin, daß eben er gegen die Auflösung des Landtags gestimmt habe, die er als ein Unglück für das Land betrachte.</p>
+                  <p>Endlich kam noch die Frage zur Sprache, ob nach Verlesung des Reskripts die Versammlungen sofort auseinanderzugehen haben oder ob noch die sonst bei Landtagsschlüssen üblichen Abschiedsreden zu halten gestattet werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> machte auf den Unterschied zwischen Landtagsschluß und Auflösung aufmerksam. Bei letzterer verlieren die Mitglieder sofort ihren bisherigen Charakter als Landesvertreter, haben daher kein Recht mehr, zu sprechen. Er, der <hi rend="#letterspaced">
+                        <rs type="person">Kriegs</rs>
+                     </hi>- und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> waren daher für das sofortige Auseinandergehen der beiden Häuser, [wofür] der königliche Kommissär verantwortlich zu machen wäre<note type="footnote" n="20">Es handelt sich hier wohl nicht um einen eindeutigen Beschluß des Ministerrates, wie <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 2, 146</bibl>, sagt; wie dem auch sei, es wurde nach der Verlesung des Reskripts in den Sitzungen v. <date when="1861-08-22">22. 8. 1861</date> in beiden Häusern des ungarischen Landtags je ein Beschluß gefaßt, die Präsidenten hielten eine kurze Ansprache, worauf der Landtag auseinanderging, <bibl type="secondary">
+                           <title>Ungarischer Reichstag</title> 3, 264—272</bibl>; <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> Nr. XXXIX.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_2_109_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Maßregel gegen einen Dalmatiner Vagabunden</head>
+                  <p>Ein Vagabund und Hofbehelliger aus Dalmatien, Stephan Vegetich, soll nach dem Antrage des Statthalters und des Polizeiministers durch Unterbringung in das Arbeitshaus zu Brünn unschädlich gemacht werden. Der Staatsminister fand es unter den gegenwärtigen Verhältnissen, wo schon wegen der Internierungen soviel Geschrei erhoben worden<note type="footnote" n="21">Vgl. z. B. die im <ref type="protocol-link" target="MRP-1-5-02-0-18610512-P-0065.xml#top_5_2_65_1">MR. v. <date when="1861-05-12">12. 5. 1861</date>/I</ref> besprochene Interpellation über die Konfinierungen.</note>, nicht ratsam, mit einer solchen Maßregel vorzugehen. Andererseits ist der Genannte in seinem Heimatsorte mit nur 20 Häusern nicht hinlänglich überwacht. Der Staatsminister erbat sich also und erhielt die Zustimmung des Ministerrates, denselben etwa nach Zara bringen und dort unter polizeiliche Aufsicht stellen zu lassen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1861-08-19">19. August 1861</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1861-09-08">8. September 1861</date>.</seg>
+                  <seg type="other">Empfangen <date when="1861-09-11">11. September 1861</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+            <div type="appendix">
+               <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-02-0-18610817-P-0109a.xml">Beilage: MRP-1-5-02-0-18610817-P-0109a.xml</tei:ref>
+                    </ab>
+            </div>
+         <div type="appendix">
+                    <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-02-0-18610821-P-0109b.xml">Beilage: MRP-1-5-02-0-18610821-P-0109b.xml</tei:ref>
+                    </ab>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

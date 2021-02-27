@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="2">Abteilung II</title>
+            <title level="s" type="sub">Das Ministerium Schwarzenberg</title>
+            <title level="m" type="main" n="4">Band 4</title>
+            <title level="m" type="sub">Oktober 1850 – <date when="1851-05-30">30. Mai 1851</date>
+            </title>
+            <title level="a" type="desc" n="446">Sitzung 446</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1851-01-24"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a2-b4-z446.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung II Das Ministerium Schwarzenberg, Band 4 Oktober 1850 – 30. Mai 1851</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2011">2011</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MKZ">260</idno>
+                  <idno type="KZ">253</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1851-01-24"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Schwarzenberg; BdE. und anw. (Schwarzenberg 25. 1.), P. Krauß 27. 1., Bach 26. 1., Bruck, K. Krauß, Thinnfeld, Thun, Kulmer 27. 1.; anw. Csorich; abw. Stadion.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8368">
+                     <surname>Csorich</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-25">1851-01-25</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8163">
+                     <surname>P. Krauß</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-27">27. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-26">26. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8295">
+                     <surname>Bruck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6886">
+                     <surname>K. Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8372">
+                     <surname>Thinnfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7419">
+                     <surname>Thun</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8303">
+                     <surname>Kulmer</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-01-27">27. 1.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8275">
+                     <surname>Stadion</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_2_4_446_1">Ausweisung August Zangs</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_2_4_446_2">Aufnahme österreichischer Truppen in Hamburg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_2_4_446_3">Aufnahme der Militärliquidierungskosten in den deutschen Bundesländern</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_2_4_446_4">Budget des Ministeriums des Inneren</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_2_4_446_5">Pester Ehrenbürgerrechtverleihung an den Fürsten Paskiewitsch</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_2_4_446_6">Ergebnisse der Gendarmerietätigkeit im Jahre 1850</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_2_4_446_7">Budget des Ministeriums des Handels etc</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_2_4_446_8">Armeereduktion</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_2_4_446_9">Auflösung der siebenbürgischen Militärgrenze</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_2_4_446_10">Klagen über die hohe Fürstliche Taxische Brieftaxe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_2_4_446_11">Auszeichnung für Buchhaltungsbeamte und Diener</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_2_4_446_12">Personalvermehrung bei der niederösterreichischen Provinzialstaatsbuchhaltung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_2_4_446_13">Einführung der Einkommensteuer in Triest</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-2-04-0-18510124-P-0446" ana="a2-b4-z446">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml#a2-b4_z446.pdf">
+               <title type="num">Nr. 446</title>
+               <title type="descr">Ministerrat, Wien, <date when="1851-01-24">24. Jänner 1851</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Schwarzenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Schwarzenberg 25. 1.), P. Krauß 27. 1., Bach 26. 1., Bruck, K. Krauß, Thinnfeld, Thun, Kulmer 27. 1.; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Csorich; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Stadion.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">253</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der am <date when="1851-01-24">24. Jänner 1851</date> in Wien abgehaltenen Ministerratssitzung unter dem Vorsitze des Ministerpräsidenten, dann Ministers des Äußern und des Hauses Fürsten Felix v. Schwarzenberg.</head>
+               <div type="agenda_item" xml:id="top_2_4_446_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ausweisung August Zangs</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> eröffnete mit Beziehung auf den Ministerratsbeschluß vom 22. d. M., MRZ. 234, dem Militärgouverneur Baron Welden hinsichtlich der von ihm angeordneten Ausweisung des ehemaligen Redakteurs des Zeitungsblattes „Die Presse“ A. Zang aus Wien, geschrieben und von ihm die Antwort erhalten zu haben, daß er seinerseits den gefaßten Beschluß nicht zurücknehmen könne, es jedoch dem Ermessen des Ministeriums anheim stelle, ob Zang als nach Wien zuständig hier belassen werden wolle<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18510122" ana="prot0 top6">MR. v. <date when="1851-01-22">22. 1. 1851</date>/VI</ref>. Schreiben (K.) Weldens an Schwarzenberg (o. D.), <bibl type="archival">HHSTA., Präsidialakten des Militärgouvernements, Karton 2, fol. 554–561</bibl>.</note>.</p>
+                  <p>Hiernach wäre diese Angelegenheit durch die Weisung zu erledigen, daß nach gepflogenem Einvernehmen mit dem Militärgouverneur Baron Welden A. Zang als nach Wien zuständig hier bleiben könne<note type="footnote" n="2">Im Protokollbuch des Militärgouvernements findet sich die Eintragung <quote>Stadthauptmann v. Weiss wird verständigt, daß Zang in Wien verbleiben dürfe. 24. 1.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Aufnahme österreichischer Truppen in Hamburg</head>
+                  <p>Weiter teilte der Ministerpräsident mit, daß erhaltener telegraphischer Nachricht zufolge die Stadt Hamburg sich geweigert habe, österreichische Truppen aufzunehmen<note type="footnote" n="3">Fortsetzung bezüglich der schleswig-holsteinischen Frage des <ref type="protocol-link" target="MRP-1-2-04-0-18510111-P-0441.xml#top_2_4_441_4">MR. v. <date when="1851-01-11">11. 1. 1851</date>/IV</ref>. Schreiben des hamburgischen Senates an den österreichischen Gesandten in Hamburg Franz Graf Lützow v. <date when="1851-01-21">21. 1. 1851</date> sowie Telegramm Lützows an Schwarzenberg v. <date when="1851-01-21">21. 1. 1851</date>, <bibl type="archival">HHSTA., PA. VII, Karton 88, Fasz. Berichte aus Hamburg 1851, Schreiben fol. 28 f., Telegramm fol. 12</bibl>.</note>, daß sie aber, nachdem ihr erwidert wurde, daß diese Truppen Bundestruppen und in Verfolgung von Bundeszwecken begriffen sind, von diesem Vorhaben wohlweislich abgegangen sei<note type="footnote" n="4">Schreiben Lützows an den Hamburger Senat und Antwort des Senates an Lützow, beide v. <date when="1851-01-22">22. 1. 1851</date>, <bibl type="archival">ebd., fol. 30–33</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Aufnahme der Militärliquidierungskosten in den deutschen Bundesländern</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> brachte zur Kenntnis des Ministerrates, daß er es für notwendig halte, behufs der Aufnahme der Militärliquidierungskosten in<pb n="214" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s214.pdf"/> den deutschen Bundesländern einen höheren Finanzbeamten in der Person des Sektionsrates v. Neuwall zur Aufnahme dieser Liquidierungen dahin zu senden<note type="footnote" n="5">Csorich hatte mit Schreiben (K.) v. <date when="1851-01-13">13. 1. 1851</date> Krauß über die Probleme des IV. Armeekorps hinsichtlich der Verpflegung informiert und um geeignete Maßnahmen gebeten, <bibl type="archival">KA., KM., Präs. 231/1851</bibl>.</note>. Der Finanzminister wird demselben eine Instruktion mitgeben und ihn anweisen, sich zu dem Armeekorps des FML. v. Legeditsch zu verfügen und sich mit dem Kommandanten hinsichtlich der gedachten Liquidierungen zu besprechen. Baron Legeditsch dürfte ihm einen Kommissariatsbeamten beigeben, mit welchem einverständlich dann die Liquidierungen vorzunehmen sein werden.</p>
+                  <p>Gegen dieses Vorhaben des Finanzministers wurde von keiner Seite etwas erinnert<note type="footnote" n="6">Der Akt, laut Protokollbuch Sendung ins Hauptquartier des FML. Baron Legeditsch als Kommissär zur Liquidierung und Berichtigung der an das IV. Armeekorps in Deutschland gemachten Lieferungen und Leistungen, dann zur Besorgung der finanziellen Geschäfte bei diesem samt den diesbezüglichen Instruktionen für Neuwall, <bibl type="archival">FA., FM., Präs. 768/1851</bibl>, liegt nicht mehr ein.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Budget des Ministeriums des Inneren</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Dr. Bach</rs>
+                     </hi> bemerkte mit Beziehung auf das in dem Ministerratsprotokolle vom <date>20. Jänner d. J.</date>, MRZ. 222, besprochene Budget für das Verwaltungsjahr 1851 und die dort bezüglich seines Ministeriums gemachten Bemerkungen des Finanzministers, die einzelnen Ansätze seines Präliminars für das gedachte Jahr noch einmal durchgegangen und reiflich erwogen zu haben<note type="footnote" n="7">Bach hatte mit Schreiben v. <date when="1850-11-08">8. 11. 1850</date> Krauß den Budgetvoranschlag seines Ministeriums für 1851 übermittelt, <bibl type="archival">ebd., Präs. 15850/1850</bibl>.</note>. Nach dieser nochmaligen Prüfung sei er nun der Ansicht, daß der in dem Präliminare auf Grundentlastung vorkommende Ansatz (20,691.550 fr.) mit Ausnahme der Regiekosten per 1,100.000 fr. aus dem Budget ganz ausgelassen werden könne. Es werden im Jahre 1851 nur die schon ausgemittelten und die im Laufe des Jahres noch auszumittelnden und zu liquidierenden Renten zur Zahlung gelangen, und die Bedeckung dieser Auslage kann durch Zuschlag auf die direkten oder die indirekten Steuern oder auf beide zugleich hereingebracht werden. Zu diesem Ende wird ein eigenes Präliminare mit Zuziehung der Präsidenten der Grundentlastungskommissionen (mit Ausnahme jenes von Tirol, wo der Betrag nur geringfügig ist) entworfen und festgestellt werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> machte hier die Bemerkung, daß die Post auf Grundentlastung auch künftig aus dem Präliminare auszulassen wäre, weil der Staat darauf nur Vorschüsse leistet.</p>
+                  <p>Was den mit 1,378.000 fr. angenommenen Reservefonds anbelangt, so gedenkt der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Bach</rs>
+                     </hi> denselben um circa eine Million zu vermindern und nur den Rest in dem Präliminare beizubehalten.</p>
+                  <p>Hinsichtlich der Bemerkung, ob zur Verminderung der Auslagen nicht die Kreisregierungen in den einzelnen Kronländern der Zahl nach herabgesetzt werden könnten, äußerte sich der Minister Dr. Bach, daß die Möglichkeit hierzu nur in den Kronländern Steiermark und Böhmen vorhanden wäre, daß er es aber nicht für angemessen hielte, schon in dem Präliminare für das Jahr 1851 darauf irgend eine Rücksicht zu nehmen, teils weil die dadurch zu erzielende Ersparung von keinem Belange wäre, teils weil es einen üblen Eindruck machen würde, wenn die erst unlängst ergriffenen Regierungsmaßregeln<pb n="215" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s215.pdf"/> schon jetzt geändert werden wollten. Wenn nähere Erfahrungen darüber gemacht und festgestellt sein werden, dann könnte nach Vernehmung der Statthalter ein Beschluß gefaßt werden, welcher sich aber nicht bloß auf die Kreisregierungen zu beschränken, sondern auch auf andere Zweige zu erstrecken hätte.</p>
+                  <p>Was die Ansätze auf Baulichkeiten bei den Wohltätigkeits- und anderen Anstalten betrifft, wird sich daran nach der Ansicht des Ministers Dr. Bach nicht wohl etwas ersparen lassen, weil sie dringend, daher unverschieblich und in dem angetragenen Maße notwendig sind.</p>
+                  <p>Bei dem Irrenhause seien circa 450.000 fr. als die letzte Baurate fällig und 200.000 fr. zur Einrichtung erforderlich.</p>
+                  <p>Bei den Strafanstalten, welche infolge der letzten politischen Ereignisse überfüllt sind und auch zu militärischen Zwecken verwendet werden, wird die veranschlagte Summe von 110.818 fr. zu den Bauten in Garsten bei Linz und in Stein notwendig sein; auch werden die verwahrlosten ungarischen Strafhäuser Auslagen erfordern.</p>
+                  <p>Für die Wohltätigkeitsanstalten, für deren Bauten 663.988 fr. veranschlagt sind, stehen bedeutende Auslagen in Aussicht, da in Kroatien und Slawonien fasst noch keine solche Anstalten bestehen und auch in Ungarn in dieser Beziehung noch viel zu tun ist.</p>
+                  <p>Der Ansatz auf Baulichkeiten der Stände in Kärnten (welche so wie die Stände von Krain und Tirol aus dem Staatsschatze dotiert werden) dürfte für jetzt noch im Präliminare belassen werden. Wenn in der Folge die Landesvertretungen aktiviert werden, dann wird es an der Zeit sein, diese Auslagen auf die Landeskonkurrenz zu verweisen und aus dem Staatsvoranschlage auszuscheiden.</p>
+                  <p>Für das Generalgouvernement im lombardisch-venezianischen Königreiche seien 86.000 fr., darunter 18.000 fr. für den Feldmarschall Grafen Radetzky angesetzt. Diese Ziffer dürfte einstweilen belassen werden, bis sich der Stand dieses Gouvernements, was nahe bevorsteht, im ganzen reguliert.</p>
+                  <p>Hiernach würde sich der Bedarf des Ministeriums des Inneren für das Verwaltungsjahr 1851 auf ungefähr 25,000.000 fr. stellen, worunter 16,758.000 fr. auf den kurrenten Verwaltungsdienst begriffen sind.</p>
+                  <p>Der Minister Dr. Bach wird diese Veränderungen im Budget von dem Chef des Departements zusammenstellen lassen und selbe mit einer nachträglichen Note dem Finanzministerium mitteilen<note type="footnote" n="8">Mit Schreiben v. <date when="1851-01-26">26. 1. 1851</date> übermittelte Bach Krauß den nach dem Ministerratsbeschluß modifizierten Budgetvoranschlag, worauf ihm Krauß mit Schreiben (K.) v. <date when="1851-02-24">24. 2. 1851</date> mitteilte, daß eine Summe von 25,263.018 fl. als Budget des Innenministeriums in den Staatsvoranschlag für 1851 aufgenommen worden war, <bibl type="archival">ebd., Präs. 1284/1851</bibl>. Fortsetzung des Gegenstandes über den Staatsvoranschlag 1851 in <ref type="protocol-link" target="MRP-1-2-04-0-18510328-P-0477.xml#top_2_4_477_3">MR. v. <date when="1851-03-28">28. 3. 1851</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Pester Ehrenbürgerrechtverleihung an den Fürsten Paskiewitsch</head>
+                  <p>Der Minister des Inneren referierte weiter, daß die Stadt Pest dem Fürsten Paskiewitsch das Ehrenbürgerrecht verliehen habe, und fand es auffallend, daß sie ihm das Diplom eher überschicke, als das für den Feldmarschall Grafen Radetzky bestimmte diesem übersendet wird. Auch hätte die Stadtgemeinde, da das Bürgerrecht einer inländischen Stadt bisher keinem Ausländer verliehen worden ist, früher um die Bewilligung zu dieser<pb n="216" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s216.pdf"/> Verleihung ansuchen sollen<note type="footnote" n="9">Die Urkunde über die Verleihung des Ehrenbürgerrechts an Paskiewitsch v. <date when="1850-12-31">31. 12. 1850</date> abgedruckt bei <bibl type="secondary">
+                           <author>Andics</author>, A nagybirtokos aristokrácia 3, 450</bibl>. Zur Verleihung des Ehrenbürgerechtes an Radetzky – ebenfalls am <date when="1850-12-31">31. 12. 1850</date> – siehe <bibl type="secondary">
+                           <author>Spira</author>, A pestiek Petőfi és Haynau között 665</bibl>.</note>. Dieser Fall wäre zur Ah. Kenntnis Sr. Majestät mit dem au. Antrage zu bringen, Allerhöchstdieselben geruhen ausnahmsweise die Bewilligung zur Übersendung des Diploms zu erteilen, bis wohin mit der Übersendung zurückzuhalten wäre. Dieser Fall der Stadt Pest hätte jedoch in keiner Beziehung als Norm zu dienen, auch wäre der Stadt auszustellen, daß sie nicht früher um die Bewilligung zu einer solchen neuen Ehrenbürgerrechtsverleihung eingeschritten ist<note type="footnote" n="10">Der entsprechende Vortrag Schwarzenbergs v. <date when="1851-01-24">24. 1. 1851</date> wurde mit Ah. E. v. <date when="1851-01-25">25. 1. 1851</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 241/1851</bibl>. Der Vortrag ist mit der Anmerkung versehen <quote>Noten an Baron Geringer und A. Augusz zu erlassen, muß noch mit morgiger Post abgehen. 25. 1. Bach</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Ergebnisse der Gendarmerietätigkeit im Jahre 1850</head>
+                  <p>Derselbe Minister teilte einen Ausweis der Ergebnisse der Gendarmerietätigkeit im Jahre 1850<note type="footnote" n="11">Der entsprechende Akt, <bibl type="archival">AVA., IM., Präs. 492/1851</bibl>, liegt nicht mehr ein.</note> mit dem Beifügen mit, daß, obgleich die Gendarmerie noch nicht vollständig organisiert ist, zu dem ursprünglich genehmigten Stande derselben noch 2140 Mann und viele Pferde fehlen und ihre Tätigkeit zum Teil erst in den Monaten Mai, Juni, August und September begonnen hat, diese Ergebnisse als sehr erfreulich angesehen werden müssen. Die von der Gendarmerie behandelten Gegenstände erreichen die Zahl 52.024; darunter sind Steueramtshandlungen 6531, zustande gebrachte Straßenräuber 320, Einbrüche 274, Diebe und Hehler 6455, Falschmünzer 121, Schwärzer 343, Aufwiegler 208, Besitzfälle verbotener Waffen 1484, Deserteure 1089, Jagdfrevel 343 etc. etc.</p>
+                  <p>In diesen Amtshandlungen hat sich vorzüglich das böhmische Gendarmerieregiment durch Genauigkeit und Tätigkeit ausgezeichnet.</p>
+                  <p>Der Minister Dr. Bach wird diese Ergebnisse zur Ah. Kenntnis Se. Majestät bringen und hierbei die Ah. Aufmerksamkeit auf den Obersten des erwähnten Regimentes, Kronenberg, au. leiten<note type="footnote" n="12">Mit Vortrag v. <date when="1851-02-22">22. 2. 1851</date> teilte Bach dem Kaiser den Bericht des Generalinspektors der Gendarmerie über deren effektiven Stand, Dislokation und bisherige Wirksamkeit mit, den der Kaiser mit Ah. E. v. <date when="1851-03-03">3. 3. 1851</date> zur Kenntnis nahm, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 588/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Budget des Ministeriums des Handels etc</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister für Handel, Gewerbe und öffentliche Bauten Freiherr v. Bruck</rs>
+                     </hi> brachte hierauf mit Beziehung auf das richtigzustellende Staatsbudget für 1851 jene Verminderungen der Auslagen zur Sprache, welche in seinem Ressort ohne wesentliche Benachteilung des Dienstes statthaben könnten<note type="footnote" n="13">Bruck hatte mit Schreiben v. <date when="1850-12-12">12. 12. 1850</date> Krauß den Budgetvoranschlag seines Ministeriums für 1851 übermittelt, die beiden betreffenden Akten, <bibl type="archival">AVA., HM., Präs. 3088/1850</bibl> und <bibl type="archival">FA., FM., Präs. 17947/1850</bibl> liegen nicht mehr ein.</note>. Nach nochmaliger Prüfung der Ansätze gedenkt er das Präliminare im ganzen um sechs Millionen (<ref xml:id="fn_2_4_446_a">drei Millionen bei dem Eisenbahnbau, eine Million beim Bau und Betrieb und zwei Millionen bei den Straßen- und Wasserbauten</ref>
+                     <note type="variant" n="a" target="#fn_2_4_446_a">Korrektur a–a Brucks aus <quote>3 Millionen bei den Eisenbahn- und 3 Millionen bei den Straßen und Wasserbauten</quote>.</note>) herabzusetzen, wornach sich der Bedarf seines Ministeriums auf ungefähr 32,000.000 fr. stellen würde. Weiter zu gehen, hält er nicht für rätlich, weil<pb n="217" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s217.pdf"/> jetzt alle Kronländer Anforderungen stellen, für die nicht zu beanständenden Straßenbauten in Ungarn bedeutende Auslagen werden gemacht werden müssen und viel daran liegt, die im Bau begriffenen Kommunikationsstrecken ihrem Ziel zuzuführen.</p>
+                  <p>Der Minister Freiherr v. Bruck wird hiernach sein Präliminare richtigstellen lassen und es dem Finanzministerium mitteilen<note type="footnote" n="14">Bruck teilte mit Schreiben v. <date when="1851-02-04">4. 2. 1851</date> Krauß den überarbeiteten Budgetentwurf seines Ministeriums mit, worauf ihm Krauß mit Schreiben (K.) v. <date when="1851-02-24">24. 2. 1851</date> mitteilte, daß eine Summe von 31,373.083 fl. als Budget des Handelsministeriums in den Staatsvoranschlag für 1851 aufgenommen worden war, <bibl type="archival">ebd., Präs. 1764/1851</bibl>. Fortsetzung des Gegenstandes über den Staatsvoranschlag 1851 in <ref type="protocol-link" target="MRP-1-2-04-0-18510328-P-0477.xml#top_2_4_477_3">MR. v. <date when="1851-03-28">28. 3. 1851</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Armeereduktion</head>
+                  <p>Ebenso besprach der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Freiherr v. Csorich</rs>
+                     </hi> die Anträge, welche er an Se. Majestät behufs der Reduktion der Armee und der dadurch zu erzielenden Verminderung der Staatsausgaben au. zu stellen gedenket<note type="footnote" n="15">Fortsetzung des <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18510122" ana="prot0 top2">MR. v. <date when="1851-01-22">22. 1. 1851</date>/II</ref>.</note>.</p>
+                  <p>Nachdem die 4. Bataillons der deutsch-erbländischen Werbbezirke und deren 1. Landwehrbataillons, dann die 3. und 4. Grenzbataillons bereits auf 60 Mann per Kompanie herabgesetzt sind, so wären nach der Ansicht des Kriegsministers noch folgende Anträge Sr. Majestät zu unterbreiten: Die zum 4. Armeekorps in Deutschland gehörigen sowie die zu ihrer Unterstützung bestimmten Truppen, dann die in Ulm, Mainz und Rastatt kommandierten Truppen hätten im vollen Kriegszustande zu bleiben. Dasselbe wäre der Fall bei den zum 2. Armeekorps gehörigen und bei den Truppen im lombardisch-venezianischen Königreiche. Außer den soeben erwähnten Truppen wären alle übrigen Truppenkörper in Böhmen, Mähren, Schlesien, Galizien, Bukowina, Kroatien, Slawonien, Dalmatien, Triest, im Görzer Gebiete etc. etc. auf den Friedensfuß zu setzen. Die Offiziere und Beamte sollen 14 Tage nach dem Einrücken in ihre Stationen oder 14 Tage nach dem erhaltenen Befehle auf den Friedensfuß zurückversetzt werden, jedoch soll den Offizieren vom Hauptmann abwärts, den Oberärzten, Auditoren, welche die Zulage verlieren, eine monatliche Sustentations(Teuerungs-)zulage von 4 fr., den Parteien von 2 fr. auf so lange gewährt werden, bis die Teuerungsverhältnisse sich ändern oder die Gebühren wieder in Konventionsmünze gezahlt werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> meinte hier, daß für diese Begünstigung ein Zeitraum von sechs Monaten, in welchem sich die Verhältnisse wesentlich ändern können, festzusetzen wäre.</p>
+                  <p>Ferner bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, daß bei allen deutschen Regimentern der Stand per Kompanie auf 100 Mann herabzusetzen, bei den ungarischen aber mit 140 Mann per Kompanie beizubehalten wäre. Bei den Jäger- und Grenadierbataillons hätte die Kompanie in 120 Mann zu bestehen. Bei den schweren Kavallerieregimentern wäre die Eskadron um 20 Mann, bei der leichten Kavallerie um 30 Mann, zu vermindern. Bei den 4. Bataillons der ungarischen und italienischen Regimenter hätte wegen der nötigen Abrichtung keine Verminderung einzutreten. Der Kriegsminister zeigte weiter, daß auch bei den Depots, Feldspitälern, den böhmischen und mährischen Festungen, bei der Feldpost etc. etc. Ersparungen beziehungsweise Kostenverminderungen eintreten können, welche er in dem au. Vortrage andeuten werde.<pb n="218" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s218.pdf"/>
+                  </p>
+                  <p>Wenn Se. Majestät diese Verminderungen zu genehmigen geruhen sollten, dann würde der Kriegsminister einen Ausweis über den für das Militär im Jahre 1851 erforderlichen Kostenbetrag verfassen lassen und denselben dem Finanzminister zur Aufnahme in das Staatsbudget zukommen machen<note type="footnote" n="16">Fortsetzung des Gegenstandes über die Armeereduktion in <ref type="protocol-link" target="MRP-1-2-04-0-18510131-P-0449.xml#top_2_4_449_4">MR. v. <date when="1851-01-31">31. 1. 1851</date>/IV</ref>. Fortsetzung des Gegenstandes über den Staatsvoranschlag 1851 in <ref type="protocol-link" target="MRP-1-2-04-0-18510328-P-0477.xml#top_2_4_477_3">MR. v. <date when="1851-03-28">28. 3. 1851</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Auflösung der siebenbürgischen Militärgrenze</head>
+                  <p>Der Kriegsminister brachte hierauf zur Kenntnis des Ministerrates, daß Se. Majestät infolge des gestellten Antrages die Ah. Ermächtigung zur Auflösung der siebenbürgischen Grenze und zur Formierung von siebenbürgischen Infanterie- und Kavallerieregimentern zu erteilen geruhet haben<note type="footnote" n="17">Fortsetzung des <ref type="protocol-link" target="MRP-1-2-03-0-18500904-P-0389.xml#top_2_3_389_15">MR. v. <date when="1850-09-04">4. 9. 1850</date>/XV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b3-z389" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b3/pdf/a2-b3-z389.pdf" target="MRP-1-2-03-0-18500904-P-0389.xml">ÖMR. II/3, Nr. 389</ref>
+                        </bibl>.</note>. Die Modalitäten der Ausführung werden mit den Ministern des Inneren und der Finanzen zu besprechen sein<note type="footnote" n="18">Der entsprechende Vortrag Csorichs v. <date when="1850-12-14">14. 12. 1850</date> mit dem Entwurf der diesbezüglichen kaiserlichen Verordnung wurde mit Ah. E. v. <date when="1851-01-22">22. 1. 1851</date> resolviert, <bibl type="archival">KA., MKSM. 1987/1851</bibl>. Die kaiserliche Verordnung v. <date when="1851-01-22">22. 1. 1851</date> zur Umwandlung der siebenbürgischen Grenz- in Linieninfanterieregimenter publiziert als Armeeverordnungsblatt Nr. 31/1851. Der Akt <bibl type="archival">KA., KM., Präs. 464/1851</bibl>, auf den hier verwiesen wird, liegt nicht mehr ein. Wegen der Modalitäten der Ausführung der Umwandlung der Grenz- in Linieninfanterieregimenter siehe Schreiben Bachs an Csorich v. <date when="1851-02-12">12. 2. 1851</date>, Csorichs Antwort an Bach v. <date when="1851-02-19">19. 2. 1851</date>, beide <bibl type="archival">ebd., KM., Präs. 946/1851</bibl> sowie Schreiben Krauß’ an Csorich v. <date when="1851-02-16">16. 2. 1851</date>, <bibl type="archival">ebd., Präs. 1049/1851</bibl>. Siehe dazu auch <bibl type="secondary">
+                           <author>Gürtler</author>, Auflösung der siebenbürgischen Militärgrenze</bibl>.</note>. Ferner, </p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Klagen über die hohe Fürstliche Taxische Brieftaxe</head>
+                  <p>daß nach einer Anzeige des FML. v. Legeditsch über die hohe Brieftaxe des Fürsten Taxis, wodurch die Mannschaft eine Verkürzung erleide, sehr geklagt werde<note type="footnote" n="19">Der entsprechende Akt, <bibl type="archival">KA., KM., Präs. 875/1851</bibl>, liegt nicht mehr ein.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherr v. Bruck</rs>
+                     </hi> fügte hier zur Aufklärung bei, daß Fürst Taxis und Württemberg dem österreichischen Postverein nicht beigetreten sind<note type="footnote" n="20">Mit Schreiben v. <date when="1851-02-21">21. 2. 1851</date> teilte Bruck Csorich mit, daß er der Bitte um unentgeltliche Postbeförderung für das IV. Armeekorps nicht nachkommen könne, und wies auf die früher abgeschlossenen Abkommen mit den deutschen Staaten hin. Csorich machte mit Erlaß (K.) v. <date when="1851-02-24">24. 2. 1851</date> diese Auskunft publik, alles in <bibl type="archival">ebd., Präs. 1091/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Auszeichnung für Buchhaltungsbeamte und Diener</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> referierte über einige von dem Generalrechnungsdirektorium für Buchhaltungsbeamte und Diener in Antrag gebrachte Auszeichnungen. Diese sind:</p>
+                  <p>a) für den Venediger Staatsbuchhalter Gubernialrat Pioltini, welcher 43 Jahre sehr ausgezeichnet dient, seit zehn Jahren die fragliche Buchhaltung mit der größten Umsicht und Energie leitet und während der Revolutionsepoche sich sehr gut benommen und die Ordnung bei seiner Buchhaltung aufrechterhalten hat, das Ritterkreuz des Franz-Joseph-Ordens;</p>
+                  <p>b) für den Amtsdiener der genannten Buchhaltung Theobald Suchan, welcher 36 Jahre im Militär und Zivile zur besonderen Zufriedenheit gedient hat, keine Gehaltsverbesserung zu erwarten hat und der immer Treue und Anhänglichkeit an den Tag legte, das silberne Verdienstkreuz mit der Krone;</p>
+                  <p>c) für den Vizedirektor der Venediger Staatsbuchhaltung Basil Pasco, der nun nach einer 41 8/12-jährigen, sehr belobten Dienstleistung in den Ruhestand treten will und der sich<pb n="219" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s219.pdf"/> während der Revolutionsperiode durch seine ehrenhafte Haltung hervorgetan, das goldene Verdienstkreuz mit der Krone.</p>
+                  <p>Der Finanzminister erklärte sich zwar mit diesen Anträgen auf eine Auszeichnung für die genannten Individuen einverstanden, glaubte aber, daß, der Analogie in mehreren früheren Fällen mehr entsprechend, dem Pioltini bloß das goldene Verdienstkreuz mit der Krone, dem Suchan das silberne Verdienstkreuz (ohne Krone) und dem Pasco das goldene Verdienstkreuz (ohne Krone) von Sr. Majestät zu erwirken wäre, womit sich der Ministerrat einverstanden erklärte<note type="footnote" n="21">Auf Vortrag des Generalrechnungsdirektoriums v. <date when="1850-12-16">16. 12. 1850</date> erhielt mit Ah. E. v. <date when="1851-01-30">30. 1. 1851</date> Pioltini das goldene Verdienstkreuz mit Krone und Suchan das silberne Verdienstkreuz, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 30/1851</bibl>. Auf einen weiteren Vortrag des Generalrechnungsdirektoriums v. <date when="1850-12-30">30. 12. 1850</date> erhielt mit Ah. E. v. <date when="1851-01-30">30. 1. 1851</date> Pasco das goldene Verdienstkreuz, <bibl type="archival">ebd., MKZ. 31/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Personalvermehrung bei der niederösterreichischen Provinzialstaatsbuchhaltung</head>
+                  <p>Das Generalrechnungsdirektorium hat für die hiesige Provinzialstaatsbuchhaltung wegen der bei derselben außerordentlich vermehrten Geschäfte auf die Vermehrung des Personals um einen Rechnungsrat der mindesten Kategorie mit 1200 fr., dann zehn subalternen Beamten (fünf Rechnungsoffiziale, drei Ingrossisten und zwei Akzessisten), nämlich einen Rechnungsoffizial mit 800 fr., einen mit 700 fr. und drei mit 600 fr.; einen Ingrossisten mit 500 fr. und zwei mit 400 fr., dann einen Akzessisten mit 350 fr. und einen mit 300 fr. angetragen.</p>
+                  <p>Das Finanzministerium erklärte sich wohl mit dieser Personalvermehrung einverstanden, glaubte aber, daß die Gehaltsabstufungen nicht zu bewilligen, sondern diese Stellen alle in die letzte Klasse der betreffenden Kategorie einzureihen wären.</p>
+                  <p>Gegenwärtig schließt sich der Finanzminister dem Antrage des Generalrechnungsdirektoriums aus dem Grunde an, weil die hier besprochene Personalvermehrung wohl als eine bleibende angesehen werden kann und durch die Einreihung der Beamten in die unterste Stufe ihrer Kategorie die ursprünglich genehmigte Gehaltsabstufung bei den Buchhaltungen ganz in Unordnung geriete.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden<note type="footnote" n="22">Der entsprechende Vortrag des Generalrechnungsdirektoriums v. <date when="1850-12-28">28. 12. 1850</date> wurde mit Ah. E. v. <date when="1851-01-30">30. 1. 1851</date> im Sinne des Ministerratsbeschlusses resolviert, <bibl type="archival">ebd., MKZ. 29/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_446_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Einführung der Einkommensteuer in Triest</head>
+                  <p>Schließlich brachte der Finanzminister noch die Einführung der Einkommensteuer für Triest zum Vortrage. Er bemerkte, daß dieser Gegenstand schon einmal im Ministerrate besprochen und bei dieser Gelegenheit erklärt wurde, auch in Triest die Einkommensteuer, jedoch mit Modifikationen, welche die dortigen Steuerverhältnisse notwendig machen, durchzuführen<note type="footnote" n="23">Fortsetzung des <ref type="protocol-link" target="MRP-1-2-02-0-18500424-P-0328.xml#top_2_2_328_4">MR. v. <date when="1850-04-24">24. 4. 1850</date>/IV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b2-z328" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b2/pdf/a2-b2-z328.pdf" target="MRP-1-2-02-0-18500424-P-0328.xml">ÖMR. II/2, Nr. 328</ref>
+                        </bibl>.</note>. Die Einkommensteuer ist nämlich mit der Erwerbsteuer zusammenhängend, und die Erwerbsteuer besteht in Triest nicht in der Form, wie in den übrigen Kronländern, sondern es wird dafür ein Pauschale von 60.000 fr. jährlich entrichtet.</p>
+                  <p>Bei den wegen Einführung der Einkommensteuer gepflogenen Vernehmungen trug der Gemeinderat von Triest an, es bei dem erwähnten Pauschale zu belassen, dasselbe aber zu verdreifachen, nämlich auf 180.000 fr. zu setzen, wovon dann 120.000 fr. als Einkommensteuer anzusehen wären.<pb n="220" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s220.pdf"/>
+                  </p>
+                  <p>Die Mehrheit der Stimmen der Statthalterei, wobei auch Räte der Finanzdirektion waren, erklärte sich für das Jahr 1850 für die angetragenen 180.000 fr<note type="footnote" n="24">Siehe dazu das Schreiben Wimpffens an Krauß v. <date when="1850-09-24">24. 9. 1850</date>, in dem der Statthalter des Küstenlandes, der gleichzeitig auch Präsident der Finanzlandesdirektion in Triest war, genauestens über diese Angelegenheit berichtete, <bibl type="archival">FA., FM., VII. Abt. (direkte Steuern), Karton 563, Zl. 30049/1850</bibl>.</note>.</p>
+                  <p>Da das Verwaltungsjahr 1850 bereits verstrichen ist, erklärte sich der Finanzminister in Ansehung des Jahres 1850 mit dem Antrage der Stimmenmehrheit der Statthalterei einverstanden; für das Jahr 1851 aber und weiterhin hätten die Gewerbetreibenden etc. in Triest ihre Fassionen ebenso einzureichen, wie es in anderen Kronländern geschieht. Diejenigen, welche nach den Vorschriften in die unterste Erwerbsklasse fallen, bleiben mit der Einkommensteuer verschont, die in die höheren Klassen gehören, werden dagegen wie anderwärts besteuert.</p>
+                  <p>Zur Leitung der Einkommensteuerkommission in Triest gedenket der Finanzminister den Bezirkshauptmann von Görz Baron Sterneck zu berufen.</p>
+                  <p>Der Ministerrat erklärte sich mit diesen Anträgen vollkommen einverstanden, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherr v. Bruck</rs>
+                     </hi> nur noch ausdrücklich erklärte, daß gar kein Grund vorhanden ist, Triest bei irgend einer Steuer anders zu behandeln, als die anderen Kronländer. So lange Triest Freihafen bleibt, werde es wohl notwendig sein, in Ansehung der Zölle und <ref xml:id="fn_2_4_446_b">der Verzehrungssteuer die Modalität der Reluition bestehen zu lassen, wofür schon jetzt eine bedeutende Summe jährlich an den Staatsschatz bezahlt werde und deren Richtigstellung auch wieder verfügt werden könnte</ref>
+                     <note type="variant" n="b" target="#fn_2_4_446_b">Korrektur b–b Brucks aus <quote>in anderen Beziehungen Abweichungen daselbst eintreten zu lassen</quote>.</note>, aber in jeder anderen Hinsicht wäre es so wie jedes andere Kronland zu behandeln<note type="footnote" n="25">Mit Schreiben (K.) v. <date when="1851-02-03">3. 2. 1851</date> teilte Krauß Wimpffen den Beschluß des Ministerrates mit und forderte ihn auf, <quote>eine Kommission zur Durchführung dieses Geschäftes einzusetzen</quote>, <bibl type="archival">ebd.</bibl> Die küstenländischdalmatinische Finanzlandesdirektion erließ daraufhin am <date when="1851-02-14">14. 2. 1851</date> eine Kundmachung über die Durchführung des Einkommensteuergesetzes in Triest, publiziert als <bibl type="secondary">
+                           <title>Landesgesetz- und Regierungsblatt für die reichsunmittelbare Stadt Triest und das Küstenland</title> Nr. 1/1851</bibl>. Wimpffen informierte Krauß mit Schreiben v. <date when="1851-02-14">14. 2. 1851</date> von diesem Schritt, und daß er auch die geforderte Kommission einberufen habe; die Leitung wurde Wenzeslaus Graf v. Gleispach übertragen. Krauß gab dazu mit Schreiben (K.) v. <date when="1851-04-12">12. 4. 1851</date> an Wimpffen seine Zustimmung, alles in <bibl type="archival">FA., FM., VII. Abt. (direkte Steuern), Karton 563 Zl. 7409/1851</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-05-0-18511024-P-0574.xml#top_2_5_574_9">MR. v. <date when="1851-10-24">24. 10. 1851</date>/IX</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1851-01-25">25. Jänner 1851</date>. Schwarzenberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolles zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1851-02-01">1. Februar 1851</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

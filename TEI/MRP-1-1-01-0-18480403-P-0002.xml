@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> 
+            <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> 
+            <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title>
+            <title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="002">Sitzung 2</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-03"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z2.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">21 et 22</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-03"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Kolowrat; anw. Ficquelmont, Taaffe, Pillersdorf, Sommaruga; BdE. Kolowrat (4. 4.), Franz Karl (4. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8141">
+                     <surname>Kolowrat</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8141">
+                     <surname>Kolowrat</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-04">4. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-04">4. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_2_1">Rücktritt Erzherzog Ludwigs von den Staatsgeschäften</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_2_2">Auflösung des Staatsrates</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_2_3">Besetzung des niederösterreichischen und des oberösterreichischen Generalkommandos</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_2_4">Kriegsgerichtliche Untersuchung gegen FML. Ferdinand Graf Zichy</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_2_5">Geldmittel für den Hofkommissär Franz Graf v. Hartig</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_2_6">Absendung von 145 Deputierten zur Bundesversammlung nach Frankfurt a. Main</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_2_7">Absendung von außerordentlichen Gesandten an die Seite des Bundestagspräsidenten Grafen Colloredo</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_2_8">Verhandlungen mit dem niederländischen Gesandten Jacob Thierry Baron v. Heeckeren</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_2_9">Veröffentlichung über die Modifizierung des neuen Preßgesetzes</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_2_10">Vertretung des erkrankten provisorischen Ministerpräsidenten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480403-P-0002" ana="a1-1848_z2">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z2.pdf">
+               <title type="num">Nr. 2</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-03">3. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Kolowrat; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Ficquelmont, Taaffe, Pillersdorf, Sommaruga; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Kolowrat (4. 4.), Franz Karl (4. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">21 et 22</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll zu dem am <date when="1848-04-03">3. April 1848</date> abgehaltenen Ministerrate.</head>
+               <div type="agenda_item" xml:id="top_1_1_2_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Rücktritt Erzherzog Ludwigs von den Staatsgeschäften</head>
+                  <p>Der Ministerrat glaubte über die an denselben gelangte Anregung die Form besprechen zu dürfen, in welcher am angemessensten dem Publikum mittels der Zeitung die Mitteilung zu machen sei, daß bei dem Bestande eines verantwortlichen Ministerrates Se. k. k. Hoheit der durchlauchtigste Herr Erzherzog Ludwig Sich entschlossen haben, Sich von den Regierungsgeschäften ganz zurückzuziehen, wobei der huldvolle Dank Ah. Sr. Majestät beizufügen und öffentlich auszusprechen wäre<note type="footnote" n="1">Zu Erzherzog Ludwig, dem Bruder Franz I. und seit 1835 Chef des Staatsrates, siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 6, 447ff.</bibl>; auch <bibl type="secondary">
+                           <author>Hamann</author>, Habsburger 266ff</bibl>. Zu seiner politischen Funktion <bibl type="secondary">
+                           <author>Beidtel</author>, Staatsverwaltung 2, 345</bibl>. Bereits in der Abendausgabe der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-04">4. 4. 1848</date>
+                        </bibl> erschien eine kurze Notiz über den bevorstehenden Rücktritt des Erzherzogs. Am <date when="1818-04-05">5. 4. 1818</date> publizierte dann die <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> die Nachricht über seine Resignation und den Dank Ferdinands für seine <quote>ausgezeichnete Hingebung</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Auflösung des Staatsrates</head>
+                  <p>In einem zweiten, jedoch abgesonderten Zeitungsartikel wäre das Publikum über die Veränderung, die mit dem Staatsrate und dessen Individuen eintreten müsse, etwa in der Art aufzuklären, daß die veränderte Einrichtung der Staatsgeschäfte im obersten Zentrum die Funktionen des Staatsrates nicht gestatte, daß daher diese Institution aufgehoben sei<note type="footnote" n="2">Mit Kabinettschreiben v. <date when="1848-04-04">4. 4. 1848</date> wurde der Staatsrat und die einzelnen Minister von dessen Aufhebung informiert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 21/1848</bibl>. Der Text dieses Schreibens wurde am selben Tag in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> publiziert</bibl>.</note>. Den Mitgliedern desselben werde eine ihren Kenntnissen und Erfahrungen angemessene Stellung gegeben.</p>
+                  <p>Hiernach dürfte folgender Erlaß an den Staatsrat und die einzelnen Minister ergehen<note type="footnote" n="3">Den einzelnen Mitgliedern des Staatsrates wurde mit demselben Kabinettschreiben davon Mitteilung gemacht; bis zur Beendigung der laufenden Geschäfte sollte in den statusmäßigen Bezügen des Personals des Staatsrates keine Änderung eintreten, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 21/1848</bibl>. Auf Vortrag Kolowrats v. <date when="1848-04-14">14. 4. 1848</date> verfugte der Kaiser mit Kabinettschreiben v. <date when="1848-04-17">17. 4. 1848</date>, daß die ehemaligen Staatsratsmitglieder dem Ministerrat beigezogen werden können, um Gutachten abzugeben, <quote>ebd., MRZ. 181/1848</quote>. Ficquelmont wurde mit Handschreiben vom selben Tag zu dieser, Maßnahme ermächtigt, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Besetzung des niederösterreichischen und des oberösterreichischen Generalkommandos</head>
+                  <p>Unter den an den Ministerrat Ag. geleiteten Gegenständen ist der Vortrag des Hofkriegsratspräsidenten vom <date when="1848-03-31">31. März 1848</date>, KZ. 1220, wegen Besetzung des niederösterreichischen Generalkommandos<note type="footnote" n="4">Vortrag Hohenlohes <quote>in Ermangelung eines Hofkriegsrats-Präsidenten</quote> v. <date when="1848-03-31">31. 3. 1848</date>, <bibl type="archival">KA., HKR., MK. Präs. 2/1848 und ebd., CK. Präs. 967/1848</bibl>. Die Besetzung des niederösterreichischen Landeskommandos war durch den Rücktritt des früheren Generalkommandanten, Erzherzog Albrecht, am <date when="1848-03-30">30. 3. 1848</date> notwendig geworden.</note>.</p>
+                  <p>Der Ministerrat kann sich diesfalls nur mit dem Vorschlage des Hofkriegsrates selbst beruhigen. Wenn Baron Prohaska<note type="footnote" n="5">Freiherr v. Prohaska war seit 1840 Chef der Militärsektion im Staatsrat, siehe dazu <bibl type="secondary">
+                           <author>Wurzbach</author> Biographisches Lexikon 23, 326–229</bibl>, und <bibl type="secondary">
+                           <author>Hock</author>, Staatsrath 686</bibl>.</note> dem dienstälteren FML. Welden<note type="footnote" n="6">FML. Welden war seit 1843 zum Militärkommandanten in Tirol berufen worden, siehe dazu <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 54, 214–221</bibl> und <bibl type="secondary">
+                           <title>Allgemeine deutsche Biographie</title> 665f.</bibl>
+                     </note> den Vorzug gibt, so scheint er nicht volle Rücksicht auf die besondere schwierige Aufgabe des Kommandierenden in Wien genommen zu haben. Welden hat in Tirol die Stimmung gegen sich, er dürfte in Wien zu wenig kondeszendente Formen beobachten, welche man dem Grafen Karl Auersperg mit Recht nachrühmen kann, und dessen Name von Ferrara her einen guten Klang behauptet<note type="footnote" n="7">FML. Karl Graf Auersperg, bis dahin Militärkommandant von Ferrara, hatte auf Vortrag des Hofkriegsratspräsidenten v. <date when="1847-12-16">16. 12. 1847</date> mit Ah. E. v. <date when="1848-01-07">7. 1. 1848</date> den erledigten Militärkommandantenposten in Linz erhalten, <bibl type="archival">KA., HKR., CK. Präs. 64/1848</bibl>.</note>. Deshalb und weil zugleich die Besetzung des Linzer Posten durch Graf Wrbna<note type="footnote" n="8">FML. Ladislaus Graf Wrbna und Freudenthal war zu jenem Zeitpunkt Divisionär in Niederösterreich und <quote>Inspektor des Militär-Equitations-Instituts zu Salzburg</quote>.</note> ganz entsprechend erscheint, werden die Anträge des Hofkriegsrates zur Ah. Genehmigung vorgelegt<note type="footnote" n="9">Mit Ah. E. v. <date when="1848-04-04">4. 4. 1848</date> wurde im Sinne des in Anm. 4 zit. Vortrags entschieden und zugleich FML. Auersperg die geheime Ratswürde taxfrei verliehen. <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 21/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Kriegsgerichtliche Untersuchung gegen FML. Ferdinand Graf Zichy</head>
+                  <p>Die soeben telegraphisch eingelangte Nachricht, daß FML. Graf Zichy<note type="footnote" n="10">Zu Ferdinand Graf Zichy siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 60, 21f.</bibl>
+                     </note> in Wien eintreffen werde, bestimmt den Ministerrat vorzuschlagen, daß, um Tumulten und Aufregungen zuvorzukommen, der öffentlichen Meinung und dem allgemeinen Urteile der Armee die gehörige Rücksicht getragen und Graf Zichy wegen seines Verhaltens in Venedig<note type="footnote" n="11">Zichy hatte als Festungskommandant beim Ausbruch von Unruhen in Venedig die Regierungsgewalt vom dortigen Gouverneur Graf Pálffy übertragen bekommen. Zichy verhandelte mit den Aufständischen und nahm weitgehend ihre Forderungen an: Regierungsgewalt ging auf die provisorische Regierung über, nichtitalienische Truppen mußten auf dem Seeweg nach Triest gebracht werden, italienische Truppen, das gesamte Kriegsmaterial und die Kassen blieben in Venedig, <bibl type="secondary">
+                           <author>Kiszling</author>, Revolution 1, 109f.</bibl>
+                     </note>, dessen Verlust für die Monarchie von den größten Nachteilen ist, zur strengen Verantwortung gezogen werde<note type="footnote" n="12">Mit Kabienttschreiben v. <date when="1848-04-04">4. 4. 1848</date> wurde das Hofkriegsratspräsidium angewiesen, Zichy wegen der Vorkommnisse in Venedig vor ein Kriegsgericht zu stellen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 21/1848</bibl>. Darüber informierte Zanini in einem Schreiben (K.) v. <date when="1848-04-05">5. 4. 1848</date> den Kommandanten in Brünn, weiters, daß Zichy unter Aufsicht nach Olmütz zu bringen sei, <bibl type="archival">KA., HKR., KM. Präs. 7/1848</bibl>. Zichy wurde schließlich zu zehn fahren Festungshaß verurteilt, 1851 allerdings vom Kaiser begnadigt, <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 60, 21f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Geldmittel für den Hofkommissär Franz Graf v. Hartig</head>
+                  <p>Mit dem beiliegenden Schreiben<note type="footnote" n="13">Das Schreiben liegt dem Originalprotokoll in handschriftlicher Fassung bei. Hartig stellte als Bedingung für die Annahme der Mission in Lombardo-Venetien, daß ihm sein ehemaliger Präsidialsekretär Hofrat Czoernig zugeteilt werde und er ausreichende finanzielle Mittel zur Verfügung habe. Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480401-P-0001.xml#top_1_1_1_4">MR. v. <date when="1848-04-01">1. 4. 1848</date>/IV</ref>.</note> hat sich der zum außerordentlich bevollmächtigten Hofkommissär ernannte Staats- und Konferenzminister Graf Hartig<note type="footnote" n="14">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480401-P-0001.xml#top_1_1_1_4">MR. v. <date when="1848-04-01">1. 4. 1848</date>/IV</ref>, Anm. 28. Zu Franz Graf v. Hartig siehe <bibl type="secondary">
+                           <title>Allgemeine deutsche Biographie</title> 10, 654–657</bibl>.</note> um einige Verfügungen beworben, deren Erlassung einhellig für angemessen erkannt worden ist und in folgender Art in Vorschlag gebracht wird<note type="footnote" n="15">Mit Kabinettschreiben v. <date when="1848-04-04">4. 4. 1848</date> bewilligte der Kaiser die Forderungen Hartigs, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 21/1848</bibl>; davon wurden am gleichen Tag der Innen- und der Finanzminister verständigt, <quote>ebd</quote>.</note>.</p>
+                  <p>Außerdem kamen im tg. gefertigten Ministerrate noch folgenden Gegenstände zur Beratung und Beschlußnahme, die hiermit zur Ah. Kenntnis gebracht werden:</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Absendung von 145 Deputierten zur Bundesversammlung nach Frankfurt a. Main</head>
+                  <p>a) Der Bundestagsgesandte Graf Colloredo<note type="footnote" n="16">Zu Franz de Paula Reichsgraf Colloredo-Wallsee siehe <bibl type="secondary">
+                           <title>Allgemeine deutsche Biographie</title> 4, 415f.</bibl>; er war erst am <date when="1848-03-12">12. 3. 1848</date> zum österreichischen Präsidialgesandten beim Bundestag ernannt worden.</note> bedarf einer dringenden Instruktion und Weisung, was Österreich, dem er die Stimme offen vorbehalten habe, in Absicht auf die Beschickung der faktisch bereits eingeführten Bundes(volks)versammlung für einen Vorgang beobachten wolle<note type="footnote" n="17">In der ersten gemeinsamen Sitzung des 17er-Ausschusses und des Revisionsausschusses am <date when="1848-03-30">30. 3. 1848</date> – beide Gremien des Bundestages – wurde die Empfehlung zur Anberaumung von Volkswahlen in den einzelnen Staaten des Bundes für eine deutsche verfassunggebende Versammlung ausgesprochen, die der Bundestag noch am selben Tag annahm. Parallel dazu trat am <date when="1848-03-31">31. 3. 1848</date> das Frankfurter Vorparlament zusammen, dazu und zur Vorgeschichte siehe <bibl type="secondary">
+                           <author>Huber</author>, Verfassungsgeschichte 2, 587–599</bibl>, mit ausführlicher weiterführender Literatur.</note>. Da für Österreich jetzt nur im Anschlusse an Deutschland eine Rettung gegen die Separationsideen der Provinzen liege, so sei die Absendung der 145 Deputierten nach Frankfurt nicht zu hindern<note type="footnote" n="18">In dem in Anm. 17 erwähnten Bundestagsbeschluß zur Einberufung einer deutschen verfassunggebenden Versammlung war eine Quote von je 70.000 Einwohnern auf einen Abgeordneten festgelegt worden, Text des Beschlusses in <bibl type="secondary">
+                           <author>Huber</author>, Dokumente 1, Nr. 79, 274</bibl>, zur weiteren Entwicklung siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_6">MR. v. <date when="1848-04-07">7. 4. 1848</date>/VI</ref>.</note>. Die Form zu deren Wahl müsse den Provinzständen überlassen werden, nur dadurch würde man sich an das Bestehende anschließen und der Gefahr entgehen, in Frankfurt den Einfluß zu verlieren<note type="footnote" n="19">Zur Durchführung der Wahlen in Österreich siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_6">MR. v. <date when="1848-04-07">7. 4. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Absendung von außerordentlichen Gesandten an die Seite des Bundestagspräsidenten Grafen Colloredo</head>
+                  <p>b) Was die Absendung der außerordentlichen Gesandten an die Seite Graf Colloredos betrifft, so wurden Hye<note type="footnote" n="20">Zu Anton Hye (seit 1853 Ritter v. Glunek) siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 9, 458–461</bibl>.</note>, Sommaruga<note type="footnote" n="21">Zu Franz Freiherr v. Sommaruga siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 35, 284ff.</bibl>
+                     </note>, Schmerling<note type="footnote" n="22">Zu Anton Ritter v. Schmerling siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 30, 172–186</bibl>.</note> und Mitis<note type="footnote" n="23">Zu Georg Freiherr v. Mitis siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 18, 366f.</bibl>
+                     </note> genannt, deren definitive Wahl noch von dem Umstande abhängt, ob Pr[ofessor] Hye dieser Bestimmung zu folgen bereit sei<note type="footnote" n="24">Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_5">MR. v. <date when="1848-04-05">5. 4. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Verhandlungen mit dem niederländischen Gesandten Jacob Thierry Baron v. Heeckeren</head>
+                  <p>c) <hi rend="#letterspaced">
+                        <rs type="person">Baron Pillersdorf</rs>
+                     </hi> erwähnt einer Zuschrift des Bankdirektors Baron Erggelet<note type="footnote" n="25">Diese Zuschrift Rudolf Freiherrn v. Erggelets, Direktor der Oesterreichischen Nationalbank und auch mit dem Bankhaus Henikstein eng verbunden, konnte weder in den Beständen des <quote>AVA. IM. Präs.</quote> noch des <quote>FA. FM. Präs.</quote> gefunden werden.</note> und erhält vom Ministerrate die Zustimmung, daß die angebotene finanzielle Verhandlung mittels des niederländischen a.o. Gesandten Baron v. Heeckeren nicht fallengelassen, sondern vorsichtig angeknüpft werde<note type="footnote" n="26">Holland war im Vormärz ein traditioneller Markt für österreichische Papiere, siehe dazu <bibl type="secondary">
+                           <author>Brandt</author>, Neoabsolutismus 1, 121</bibl>. Diese Angelegenheit kam in den nachfolgenden Ministerberatungen nicht mehr zur Sprache. Zu Verhandlungen der Regierung mit der Nationalbank über eine Anleihe und zur Stabilisierung der Silberbedeckung der Nationalbank siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_2">MR. v. <date when="1848-04-07">7. 4. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Veröffentlichung über die Modifizierung des neuen Preßgesetzes</head>
+                  <p>d) Der Minister Baron Pillersdorf teilt den Entwurf eines berichtigenden Zeitungsartikels über die Verbesserung des neuen Preßgesetzes mit<note type="footnote" n="27">Bereits mit der kaiserlichen Erklärung v. 14. 3. und dem kaiserlichen Patent v. <date when="1848-03-15">15. 3. 1848</date> war die Zensur aufgehoben und die <quote>alsbaldige Veröffentlichung eines Preßgesetzes</quote> angekündigt worden, siehe dazu <bibl type="secondary">
+                           <author>Helfert</author>, Wiener Journalistik 45f.</bibl>, und <bibl type="secondary">
+                           <author>Lienbacher</author>, Österreichisches Preßgesetz 13</bibl>. Schon zwei Tage später, mit Kabinettschreiben v. <date when="1848-03-17">17. 3. 1848</date>, hatte Ferdinand den Auftrag erlassen, ein Zirkular, das die <quote>Bestrafung der Verbrechen und Vergehen durch die Presse</quote> regelte, zu publizieren. Den damit beauftragten Hofkanzler Pillersdorf kamen aber wegen der herrschenden Stimmung und der zu erwartenden Reaktion Bedenken und er bat mit Vortrag v. <date when="1848-03-20">20. 3. 1848</date> den Kaiser, diese Anordnung zurückzunehmen und auf die Veröffentlichung des provisorischen Pressegesetzes zu warten; der Kaiser genehmigte das mit Ah. E. v. <date when="1848-03-25">25. 3. 1848</date>, <bibl type="archival">AVA., IM., Präs. 102/1848</bibl>. Noch bevor diese Ah. Entschließung herabgelangt war, hatte Pillersdorf seine Arbeiten an dem provisorischen Pressegesetz abgeschlossen und es mit Vortrag v. <date when="1848-03-22">22. 3. 1848</date> dem Kaiser zur Sanktion vorgelegt. Mit Ah. E. v. <date when="1848-03-29">29. 3. 1848</date> genehmigte Ferdinand das Gesetz, nachdem er allerdings einige Änderungen angeordnet hatte, <quote>ebd Präs. 303/1848</quote>, anbei das Protokoll des Komitees zur Erarbeitung des provisorischen Pressegesetzes v. <date when="1848-03-21">21. 3. 1848</date> und das Protokoll des Staatsratskomitees v. <date when="1848-03-26">26. 3. 1848</date> mit den später vom Kaiser urgierten Änderungsvorschlägen. Ausführliche Analyse des Gesetzes in <bibl type="secondary">
+                           <author>Lienbacher</author>, Österreichisches Preßgesetz 14–17</bibl>. Mit Verordnung des Ministers des Inneren v. <date when="1848-03-31">31. 3. 1848</date> wurde es offiziell bekanntgemacht und in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.)</bibl> v. <date when="1848-04-01">1. 4. 1848</date> publiziert. Die Verordnung rief heftige Diskussionen hervor und wurde vehement abgelehnt; Studenten verbrannten am <date when="1848-04-01">1. 4. 1848</date> sogar einige Exemplare des neuen Gesetzes in der Universität, <bibl type="secondary">
+                           <author>Helfert</author>, Wiener Journalistik 47</bibl>; <bibl type="secondary">
+                           <author>Winckler</author>, Periodische Presse 77</bibl>. Vgl. dazu auch die verdammenden Artikel in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480403">Constitution</ref>
+                           </title> v. <date when="1848-04-03">3. 4. 1848</date>
+                        </bibl> und der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480404">Constitutionellen Donau-Zeitung</ref>
+                           </title> v. <date when="1848-04-04">4. 4. 1848</date>
+                        </bibl> und den Bericht des Polizeidirektors von Wien v. <date when="1848-04-02">2. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 348/1848</bibl>.</note>, gegen dessen Veröffentlichung von keiner Seite etwas erinnert wurde<note type="footnote" n="28">Am <date when="1848-04-04">4. 4. 1848</date> erschien in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> der Zeitungsartikel, in dem auf den provisorischen Charakter des Gesetzes hingewiesen wurde. Die definitive Form sollte erst nach dem Zusammentritt der Reichsstände ausgearbeitet werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_2_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Vertretung des erkrankten provisorischen Ministerpräsidenten</head>
+                  <p>e) Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident</rs>
+                     </hi> ersucht den Minister des Äußern, für einige Tage des Unwohlseins das Präsidium des Ministerrates gefälligst übernehmen zu wollen<note type="footnote" n="29">Kolowrat trat seinen Posten nicht mehr an. Zu seinem Rücktritt siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_5">MR. v. <date when="1848-04-19">19. 4. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-04-04">4. April 1848</date>. F. Kolowrat.</seg>
+                  <seg type="other">Ges. 4. April. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

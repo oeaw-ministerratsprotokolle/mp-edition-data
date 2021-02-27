@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="120">Sitzung 120</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-09-15"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z120.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">2145 et 2146</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-09-15"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Wessenberg; BdE. 17. 9. und anw. Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; BdE. Franz Karl (20. 9.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-09-20">20. 9.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_120_1">Militärische Beförderungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_120_2">Ernennung des Festungskommandanten in Ferrara</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_120_3">Militärische Beförderung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_120_4">Wiederanstellung des pensionierten August v. Sourdeau</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_120_5">Nachlaß der Taxen bei der Verleihung des St. Stephans-Kommandeurkreuzes an Franz Graf Gyulai</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_120_6">Keine nachträgliche Bewilligung der normalmäßigen Oberstpension für Joseph v. Werklein</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_7">Konzessionen für die französische Vermittlung in der italienischen Angelegenheit</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_8">Kaiserliches Manifest für das lombardisch-venezianische Königreich; Amnestie für die Venezianer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_120_9">Beschränkung der Untersuchungen über den Prager Pfingstaufstand auf die Rädelsführer; Versetzung der Grenadiere der Prager Garnison</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_120_10">Vorsorge für aus Italien geflüchtete Justizbeamte</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_120_11">Zuschuß für Gerichtsanwärter in Krakau</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_12">Fortführung der Rechtspflege durch die Patrimonialgerichte nach Annahme der Hans Kudlichschen Anträge</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_13">Strafrestnachsicht für Franz Kratschmer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_1_1_120_14">Begnadigung Joseph Bocheneks</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_1_1_120_15">Neue Ausbildungsstätten für deutsche Bergbaueleven</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="16">XVI.</num>
+                  </label>
+                  <ref target="#top_1_1_120_16">Reaktion des Ministeriums auf die ungarischen Zustände</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="17">XVII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_17">Keine staatliche Unterstützung für Abgeordnete zum Studentenparlament in Eisenach</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="18">XVIII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_18">Bericht zur Lage in Pest</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="19">XIX.</num>
+                  </label>
+                  <ref target="#top_1_1_120_19">Unhaltbarkeit der Minuendo-Lizitationen bei Übernahme öffentlicher Arbeiten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="20">XX.</num>
+                  </label>
+                  <ref target="#top_1_1_120_20">Ernteberichte aus den Provinzen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="21">XXI.</num>
+                  </label>
+                  <ref target="#top_1_1_120_21">Maßnahmen bei der Liquidierung des von August Swoboda gegründeten Aktienvereins</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="22">XXII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_22">Schuldentilgungs- und Versorgungsgesellschaft Leopold Engländers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="23">XXIII.</num>
+                  </label>
+                  <ref target="#top_1_1_120_23">Verleihung des Charakters eines Ministerialrates an den Generalsekretär des Handelsministeriums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="24">XXIV.</num>
+                  </label>
+                  <ref target="#top_1_1_120_24">Entwurf des Nationalgardegesetzes</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480915-P-0120" ana="a1-1848_z120">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z120.pdf">
+               <title type="num">Nr. 120</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-09-15">15. September 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> 17. 9. und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (20. 9.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">2145 et 2146</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des Ministerrates vom <date when="1848-09-15">15. September 1848</date> unter dem Vorsitze des Conseilspräsidenten etc. Freiherrn v. Wessenberg. Vorträge des Kriegsministers</head>
+               <div type="agenda_item" xml:id="top_1_1_120_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Militärische Beförderungen</head>
+                  <p>Vom <date when="1848-09-13">13. September 1848</date>, KZ. 2943, wegen Ernennung zweier Obersten im überzähligen Stande des Ingenieurskorps<note type="footnote" n="1">Mit Ah. E. v. <date when="1848-09-21">21. 9. 1848</date> wurden die beiden Oberstleutnants Gustav Adolph Greisinger und Lazarus Mamula zu Obersten ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2043/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 5252/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Ernennung des Festungskommandanten in Ferrara</head>
+                  <p>Vom <date when="1848-09-12">12. September 1848</date>, KZ. 2940, wegen definitiver Ernennung des Obersten Poschacher zum Festungskommandanten in Ferrara<note type="footnote" n="2">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480906-P-0117.xml#top_1_1_117_5">MR. v. <date when="1848-09-06">6. 9. 1848</date>/V</ref>.</note> und Besetzung der hierdurch erledigten Oberstenstelle in der 4. Jägerabteilung<note type="footnote" n="3">Mit Ah. E. v. <date when="1848-09-21">21. 9. 1848</date> wurde Poschacher definitiv zum Festungskommandanten in Ferrara ernannt. Seine Oberstenstelle erhielt der Oberstleutnant Martin Signorini, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2041/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 5259/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Militärische Beförderung</head>
+                  <p>Vom 14. September [1848], KZ. 2939, wegen Beförderung des Hauptmanns Kunich bei Sivkovich-Infanterie zum Major<note type="footnote" n="4">Mit Ah. E. v. <date when="1848-09-21">21. 9. 1848</date> wurde Franz Kunich v. Sonnenburg zum Major ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2040/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 5251/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Wiederanstellung des pensionierten August v. Sourdeau</head>
+                  <p>Vom <date when="1848-09-14">14. September 1848</date>, KZ. 2944, wegen Wiederanstellung des pensionierten Generalmajors Sourdeau<note type="footnote" n="5">Der Linienschiffkapitän August v. Sourdeau war mit Ah. E. v. <date when="1843-09-11">11. 9. 1843</date> mit Generalmajorscharakter und 1500 fl. per anno in den Ruhestand versetzt worden, siehe dazu <bibl type="archival">HHSTA., ÄStR. 3276/1843</bibl>.</note> in der k. k. Marine<note type="footnote" n="6">Mit Ah. E. v. <date when="1848-09-21">21. 9. 1848</date> wurde Sourdeau im Range eines Generalmajors und als Vizeadmiral wieder eingestellt, <quote>ebd., Kab. Kanzlei, MRZ. 2042/1848</quote>, und <bibl type="archival">KA., HKR., KM., Präs. 5258/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Nachlaß der Taxen bei der Verleihung des St. Stephans-Kommandeurkreuzes an Franz Graf Gyulai</head>
+                  <p>Vom <date when="1848-09-13">13. September 1848</date>, KZ. 2942, wegen Enthebung des FML. Grafen Gyulai von der Taxentrichtung für das ihm verliehene St. Stephansordens-Kommandeurkreuz<note type="footnote" n="7">Mit Ah. E. v. <date when="1848-09-25">25. 9. 1848</date> wurde Gyulai die Taxentrichtung nachgesehen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2044/1848</bibl>, und <bibl type="archival">KA., HKR, KM., Präs. 5380/1848</bibl>. Zur Kommandeurskreuzverleihung des St. Stephanordens an ihn siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480530-P-0056.xml#top_1_1_56_6">MR. v. <date when="1848-05-30">30. 5. 1848</date>/VI</ref>.</note>. Gegen die darin enthaltenen Anträge wurde von keiner Seite etwas erinnert.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Keine nachträgliche Bewilligung der normalmäßigen Oberstpension für Joseph v. Werklein</head>
+                  <p>Dagegen nahm er einen weitern Antrag wegen nachträglicher Bewilligung der normalmäßigen Oberstenpension für den Obersten Baron Werklein<note type="footnote" n="8">Zu Werklein siehe bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_15">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XV</ref>.</note> zur abweislichen Bescheidung des Bittstellers, nach dem auch von den übrigen Ministern geteilten Einraten des Finanzministers, zurück, weil sich herausgestellt hatte, daß Baron Werklein als Oberstleutnant normalmäßig pensioniert, nebstbei aber mit einer Zulage von 800 fr. begnadigt, sohin später zwar als Oberst, jedoch mit Belassung der Oberstleutnantspension, wiederangestellt worden ist, mithin schon darum sowohl als auch mit Rücksicht auf seine gegenwärtigen, die Oberstenpension um 600 fr. übersteigenden Gesamtgenüsse keinen Anspruch auf eine Vermehrung derselben hat<note type="footnote" n="9">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-01-0-18481224-P-0006.xml#top_2_1_6_13">MR. v. <date when="1848-12-24">24. 12. 1848</date>/XIII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Konzessionen für die französische Vermittlung in der italienischen Angelegenheit</head>
+                  <p>Der unterzeichnete <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident und Minister</rs>
+                     </hi> des Äußern teilte mit, daß die französische Regierung bei der angetragenen Vermittlung in der italienischen Angelegenheit<note type="footnote" n="10">Der französische Geschäftsträger in Wien hatte mit Schreiben v. <date when="1848-09-01">1. 9. 1848</date> im Namen seiner und der großbritannischen Regierung ein solches Angebot unterbreitet, <bibl type="archival">HHSTA., StK., Frankreich Notenwechsel 37</bibl>; vgl. dazu auch sein Schreiben an Wessenberg zum gleichen Thema v. <date when="1848-09-04">4. 9. 1848</date> und v. <date when="1848-09-13">13. 9. 1848</date>, <quote>ebd</quote>.</note> von der österreichischen Regierung zwei Konzessionen zu erlangen beabsichtigte, nämlich a) die Erklärung Venedigs zum Freihafen, b) die Verzichtleistung Österreichs auf das Besatzungsrecht in Ferrara.</p>
+                  <p>Gegen das Ansinnen ad a), insofern damit eine Garantie für den immerwährenden traktatenmäßigen Fortbestand des ohnehin schon früher eingeführten Freihafens gegeben würde, erklärten sich sämtliche Minister, ja der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> drückte sogar den Wunsch aus, daß die der Stadt Venedig erteilte Hafenfreiheit wieder auf die ursprüngliche Einschränkung auf die Insel San Giorgio zurückgeführt werden möchte. Die Errichtung von Freihäfen ist eine administrative Maßregel, welche durch besondere Verhältnisse bedingt ist und mit deren Änderung ebenfalls einer Änderung unterliegt. Würde nun der Fortbestand des Venediger Freihafens traktatenmäßig zugesichert, so wären nicht nur der österreichischen Regierung für immer die Hände gebunden, sondern auch den fremden Mächten Gelegenheit zur Einmengung in unsre Angelegenheiten in dieser Beziehung gegeben. Daher wäre dieses Begehren mit Hindeutung auf den faktischen Bestand des Freihafens von Venedig und, um der künftigen Gesetzgebung und Administration des Königreichs nicht vorzugreifen, abzulehnen.</p>
+                  <p>
+                     <pb n="628" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s628.pdf"/>Eher könnte ad 2. auf das Besatzungsrecht in Ferrara – vorausgesetzt, daß es auf keine fremde Macht übergeht – verzichtet werden, weil es unter den gegenwärtigen Verhältnissen nicht mehr jenes Gewicht wie früher hat (der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> hielt es indessen mit Rücksicht auf die ganz unbeschützte Grenze des Venezianischen noch immer für wichtig) – weil es ferner immer etwas Gehässiges an sich hat und weil dessen Aufgeben die vermittelnden Mächte verbinden würde<note type="footnote" n="11">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480917-P-0121.xml#top_1_1_121_1">MR. v. <date when="1848-09-17">17. 9. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Kaiserliches Manifest für das lombardisch-venezianische Königreich; Amnestie für die Venezianer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> brachte ferner die Notwendigkeit der Erlassung eines kaiserlichen Manifests im lombardisch-venezianischen Königreiche zur Beruhigung der Gemüter über die Absichten der Regierung zur Sprache.</p>
+                  <p>Mit voller Zustimmung zu diesem Antrage vereinigte sich der Ministerrat bezüglich der in dem Manifeste auszusprechenden Grundidee dahin: Es sei der Ah. Wille Sr. Majestät, dem Königreiche gleiche Freiheiten und eine Verfassung auf derselben Grundlage, wie solche für die übrigen Provinzen bestehen, zu bewilligen und über deren Ausführung nach Herstellung des Friedens mit den selbstgewählten Vertretern der Nation unter Beachtung der speziellen Wünsche des Landes zu beraten.</p>
+                  <p>Der Finanzminister übernahm die Redaktion des Manifestes<note type="footnote" n="12">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480917-P-0121.xml#top_1_1_121_2">MR. v. <date when="1848-09-17">17. 9. 1848</date>/II</ref>.</note>.</p>
+                  <p>Bei diesem Anlasse drückte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> den Wunsch aus, daß seinerzeit den Venezianern volle Amnestie bewilligt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> glaubte dabei bemerken zu müssen, daß unter der Amnestie wohl Verzeihung, aber nicht Wiederanstellung der Verräter, wenigstens in der Armee nicht, begriffen werden sollte.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Beschränkung der Untersuchungen über den Prager Pfingstaufstand auf die Rädelsführer; Versetzung der Grenadiere der Prager Garnison</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, welcher mittelst Telegraphen die Beschränkung der Untersuchung der Prager Juni-Kompromittierten auf die Rädelsführer angeordnet hat<note type="footnote" n="13">Abschrift des Telegramms des Justizministers v. <date when="1848-09-14">14. 9. 1848</date> an Mittrowsky in <bibl type="archival">KA., AFA. 1848, Karton 1809, Fasz. IX–XI, 9/5</bibl>. Mittrwosky benachrichtigte mit Schreiben v. <date when="1848-09-15">15. 9. 1848</date> Windischgrätz von dieser Anordnung, <quote>ebd</quote>.</note>, sah sich zu dem Ersuchen an den Kriegsminister veranlaßt, daß die Grenadiere der Prager Garnison versetzt werden mögen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> versicherte, hierwegen bereits an den Kommandierenden Fürsten Windischgrätz geschrieben zu haben<note type="footnote" n="14">Ein derartiges Schreiben konnte unter den Beständen des KA., HKR., KM., Präs., nicht gefunden werden. Auch <bibl type="secondary">
+                           <author>Kazbunda</author>, České hnutí 345, Anm. 1</bibl>, weist darauf hin, daß er ein entsprechendes amtliches Dokument nicht finden konnte. Die Grenadiere zogen erst eine Woche später ab, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Vorsorge für aus Italien geflüchtete Justizbeamte</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> wünschte ferner eine Vorsorge für die aus Italien geflüchteten Justizbeamten<note type="footnote" n="15">Zur Behandlung der aus dem lombardisch-venezianischen Königreiche geflüchteten Beamten siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480401-P-0001.xml#top_1_1_1_8">MR. v. <date when="1848-04-01">1. 4. 1848</date>/VIII</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_14">MR. v. <date when="1848-05-07">7. 5. 1848</date>/XIV</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480820-P-0108.xml#top_1_1_108_14">MR. v. <date when="1848-08-20">20. 8. 1848</date>/XIV</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480822-P-0109.xml#top_1_1_109_5">MR. v. <date when="1848-08-22">22. 8. 1848</date>/V</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, hierwegen im allgemeinen den Antrag bei Sr. Majestät machen zu wollen, daß denselben das sogenannte Begünstigungsjahr zugestanden werde<note type="footnote" n="16">Auf Vortrag von Krauß und Hornbostel im Namen des <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18481008" ana="prot0 top0">MR. v. <date when="1848-10-08"/>8. 10. 1848</ref> gewährte der Kaiser mit Ah. E. v. <date when="1848-10-20">20. 10. 1848</date> den aus dem lombardisch-venezianischen Königreich geflüchteten Beamten und Dienern, <quote>soweit sie nicht etwa den Anspruch auf Begnadigung wegen vorgekommener dienstlicher</quote>
+                     </note>. Auch ist er</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Zuschuß für Gerichtsanwärter in Krakau</head>
+                  <p>nicht entgegen, daß, nach dem Wunsche des Justizministers, für die Gerichtsapplikanten (Auskultanten) in Krakau Adjuten (5 à 300f., 4 à 200f.) bewilligt werden<note type="footnote" n="17">Der Akt <bibl type="archival">AVA., JM. 1356/1848</bibl>, in dem das galizische Appellationsgericht um die Bewilligung von Taggeldern für die Applikanten des Krakauer Gerichtes eingeschritten ist, ist nicht mehr vorhanden.</note>, nachdem die Notwendigkeit derselben durch das Interesse des Dienstes begründet ist und die Ablehnung eines frühern diesfälligen Einschreitens<note type="footnote" n="18">Aus Anlaß des in Anm. 17 erwähnten Einschreitens wandte sich Sommaruga mit einem entsprechenden Ansuchen v. <date when="1848-07-05">5. 7. 1848</date> an das Finanzministerium, <bibl type="archival">FA., FM., I. Abt. (Kamerale), Nr. 25561/675 ex 1848, Fasz. 72/1</bibl>. Dieses Ansuchen wurde mit Schreiben (K.) v. <date when="1848-07-15">15. 7. 1848</date> an das Ministerium des Inneren abschlägig entschieden, <quote>ebd., Nr. 23763/505 ex 1848, Fasz. 72/1</quote>.</note> nur in der Rücksicht erfolgte, daß die Administration in Krakau noch nicht organisiert ist<note type="footnote" n="19">Auf das folgende Schreiben Bachs v. <date when="1848-09-16">16. 9. 1848</date>, in dem auch er erneut um die Bewilligung der Taggelder ansuchte, erwiderte Krauß mit Schreiben (K.) v. <date when="1848-09-25">25. 9. 1848</date>, daß er nunmehr gegen die provisorische Bewilligung nichts mehr einzuwenden habe, <quote>ebd., Z. 32325/1324 ex 1848, Fasz. 72/1</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Fortführung der Rechtspflege durch die Patrimonialgerichte nach Annahme der Hans Kudlichschen Anträge</head>
+                  <p>In Ansehung der reichstäglich und Ah. sanktionierten Kudlichschen Anträge<note type="footnote" n="20">Der Kudlichsche Antrag auf Aufhebung des Untertänigkeitsverhältnisses wurde in der 14. Sitzung des Reichstages am <date when="1848-08-05">5. 8. 1848</date> zum erstenmal verhandelt; die letzte Abstimmung und Annahme war nach langen Beratungen in der 37. Sitzung des Reichstages am <date when="1848-09-05">5. 9. 1848</date> erfolgt, <bibl type="secondary">
+                           <author>Verhandlungen des Österreichischen Reichstages</author> 2, 221–249</bibl>. Auf Vortrag des <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480907" ana="prot0 top0">MR. v. <date when="1848-09-07"/>7. 9. 1848</ref> wurden die Beschlüsse des Reichstages mit Ah. E. v. <date when="1848-09-09">9. 9. 1848</date> sanktioniert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1979/1848</bibl>; anbei das gedruckte Patent, datiert mit <date when="1848-09-07">7. 9. 1848</date>, abgedruckt in der <bibl type="secondary">
+                           <title>Österreichische Zeitschrift für Rechts- und Staatswissenschaft</title> 1848/3, Nr. 264, 243f.</bibl>
+                     </note> ersuchte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> behufs der Verständigung der Patrimonialgerichte wegen provisorischer Fortführung der Rechtspflege auf Staatskosten den Minister des Inneren um die Mitteilung der erforderlichen Anzahl von Exemplaren der gedruckten diesfälligen Kundmachung, und den Finanzminister um eine Weisung an die Kameralgefällenverwaltungen, daß sie bei den zur Ausmittlung der Entschädigung für die aufgehobenen Urbarialrechte zusammenzusetzenden Kommissionen auf Aufforderung derselben mitwirken mögen.</p>
+                  <p>Die beiden Minister erteilten hierzu ihre Zustimmung<note type="footnote" n="21">Der entsprechende Akt <bibl type="archival">AVA., JM. 3264/1848</bibl>, der die Ministerialverfügung wegen Erlassung von Kundmachungen an die Patrimonialgerichtsbehörden, die Beamten und das Landvolk beinhaltete, ist nicht mehr vorhanden. Die Kundmachung an die Patrimonialbehörden und Beamten v. <date when="1848-09-15">15. 9. 1848</date>, abgedruckt in <bibl type="secondary">
+                           <title>Österreichische Zeitschrift für Rechts- und Staatswissenschaft</title> 1848/3, Nr. 298, 268–271.</bibl> Zur Geschichte der Patrimonialgerichte siehe <bibl type="secondary">
+                           <author>Mischler-Ulbrich</author>, Staatswörterbuch 1, 38 ff</bibl>., mit weiterführender Literatur. Vollständig aufgehoben wurde die Patrimonialgerichtsbarkeit mit Patent v. <date when="1849-03-04">4. 3. 1849</date>, d. h. durch den § 100 der oktroyierten Verfassung, <bibl type="archival">RGBL. Nr. 150/1849</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Strafrestnachsicht für Franz Kratschmer</head>
+                  <p>Der Justizminister übergab seinen Vortrag vom <date when="1848-09-08">8. September 1848</date>, KZ. 2944, wegen Strafrestnachsicht für Franz Kratschmer<note type="footnote" n="22">Auf diesen Vortrag Bachs wurde dem wegen Banknotenfälschung am <date when="1846-10-20">20. 10. 1846</date> zu drei Jahren schweren Kerkers verurteilten Kratschmer mit Ah. E. v. <date when="1848-09-20">20. 9. 1848</date> der Rest der Strafe erlassen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 2045/1848</bibl>.</note> und jenen</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Begnadigung Joseph Bocheneks</head>
+                  <p>vom nämlichen Tag, KZ. 2945, wegen Begnadigung des zum Tode verurteilten Brandlegers Joseph Bochenek<note type="footnote" n="23">Mit Ah. E. v. <date when="1848-09-20">20. 9. 1848</date> wurde Bochenek die Todesstrafe erlassen und der Oberste Gerichtshof angewiesen, eine entsprechende Haftstrafe zu verhängen, <quote>ebd., MRZ. 2046/1848</quote>.</note>, wogegen nichts erinnert wurde.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Neue Ausbildungsstätten für deutsche Bergbaueleven</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> bemerkte, die Bergakademie in Schemnitz ist den deutschen Eleven nicht mehr zugänglich<note type="footnote" n="24">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480615-P-0073.xml#top_1_1_73_10">MR. v. <date when="1848-06-15">15. 6. 1848</date>/X</ref>, insbesondere Anm. 30.</note>, es muß also für ihre Ausbildung in den deutschen Provinzen gesorgt werden. Hierzu bietet sich dermalen das in Vordernberg bestehende ständische Institut<note type="footnote" n="25">Zu den Verhandlungen zwischen dem Ministerium und den steiermärkischen Ständen wegen Erweiterung der Vordernberger montanistischen Lehranstalt vgl. das Ministerialschreiben (K.) an die Stände v. <date when="1848-06-15">15. 6. 1848</date>, <bibl type="archival">FA., Montan-Präsidial-Acten (AM. Präs.) 121/1848</bibl>, und das Schreiben der Stände an das Ministerium v. <date when="1848-06-16">16. 6. 1848</date>, <quote>ebd., 136/1848</quote>.</note> dar, welchem aber dermal eine wichtige Professur der Markscheidekunst<ref xml:id="fn_1_1_120_a"/>
+                     <note type="variant" n="a" target="#fn_1_1_120_a">Vermessungskunst.</note> fehlt. Es soll daher der Professor dieses Fachs Müller von Schemnitz mit seinem dermaligen Gehalte von 1200 fr. dahin übersetzt<note type="footnote" n="26">Albert v. Müller wurde mit Schreiben (K.) v. <date when="1848-09-21">21. 9. 1848</date> von Schwarzer angewiesen, sich nach Vordernberg zu begeben, <quote>ebd., 254/1848</quote>.</note>, für die Zukunft aber eine eigene Anstalt in Leoben, wozu die dortige Bürgerschaft ein eigenes Haus unentgeltlich angeboten hat<note type="footnote" n="27">Auf dieses Angebot antwortete das Ministerium mit Schreiben (K.) v. <date when="1848-09-21">21. 9. 1848</date>, daß die erforderlichen Verhandlungen eingeleitet würden, <quote>ebd., 393/1848</quote>.</note>, eingerichtet, endlich denjenigen Bergeleven, welche eine höhere Ausbildung zu erlangen wünschen, der Besuch der königlich sächsischen Bergakademie zu Freiberg mit Belassung ihrer Stipendien und Staatsgültigkeit der dort erlangten Zeugnisse gestattet werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hat gegen diese Anträge nichts zu erinnern, insofern bei der neuen Organisierung dieser Anstalt der Grundsatz festgehalten wird, daß derselben nur die eigentlich praktischen Bergbaufächer, welche ohne Anschauung nicht erlernt werden können, zugewiesen, alle übrigen aber den allgemeinen technischen Lehranstalten überlassen bleiben<note type="footnote" n="28">Mit Schreiben (K.) v. <date when="1848-09-21">21. 9. 1848</date> wurden die steiermärkischen Stände und alle Zentral- und Verwaltungsstellen, die mit dieser Materie befaßt waren, über den Beschluß des Ministerrates informiert, <quote>ebd., 254/1848</quote>; anbei Konzept der entsprechenden Kundmachung. Gedruckte Kundmachung v. <date when="1848-09-23">23. 9. 1848</date> in <quote>ebd., 655/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_16" n="16">
+                  <head type="regest">
+                     <label>
+                        <num>XVI. </num>
+                     </label>Reaktion des Ministeriums auf die ungarischen Zustände</head>
+                  <p>Der Finanzminister brachte in Anregung, daß unter den dermaligen Verhältnissen Ungerns, wo der Bürgerkrieg ausgebrochen, das Ministerium verändert worden<note type="footnote" n="29">Am <date when="1848-09-11">11. 9. 1848</date> war die ungarische Regierung zurückgetreten; am selben Tag hatte Jellačić mit seinen Truppen die Grenze zu Ungarn überschritten, siehe dazu <bibl type="secondary">
+                           <author>Niederhauser</author>, Sturm 123f.</bibl>
+                     </note> und zwei den übrigen österreichischen Staaten feindliche Maßregeln, die Aushebung von 200.000 Mann und die Emission ungrischer Banknoten vom Reichstage beschlossen worden sind<note type="footnote" n="30">Das ungarische Ministerium hatte um die Bewilligung eines neuen Rekrutierungsgesetzes und die Emittierung von 61 Millionen Banknoten angesucht. Mit Vortrag v. <date when="1848-09-02">2. 9. 1848</date> sprach sich Wessenberg gegen eine Bewilligung aus, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1926/1848</bibl>; anbei die deutsche Übersetzung der beiden Gesetzentwürfe. Mit Ah. Handschreiben an Esterházy v. <date when="1848-09-06">6. 9. 1848</date> verlangte der Kaiser eine nähere schriftliche Erklärung dieser Gesetzentwürfe, <quote>ebd</quote>. Dazu kam es nicht mehr; nach dem Regierungswechsel in Budapest nahm das ungarische Parlament – ohne königliche Sanktion – die beiden Gesetze an, siehe dazu <bibl type="secondary">
+                           <author>Niederhauser</author>, Sturm 123</bibl>, und <bibl type="secondary">
+                           <title>Magyarország Törtnete</title> 6/1, 246</bibl>.</note>, es in der Pflicht des diesseitigen Ministeriums liege, Se. Majestät auf diese Verhältnisse aufmerksam zu machen und im Interesse der Gesamtmonarchie in einem eigenen Vortrage (mit dessen Redaktion der Konferenzrat Pipitz betraut wurde) <pb n="631" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s631.pdf"/>zu bitten, Se. Majestät mögen geruhen, 1. die zwei Gesetze wegen der ungrischen Rekrutenaushebung und Banknotenemission nicht zu sanktionieren, 2. nur einem solchen Ministerium die Ah. Genehmigung zu erteilen, welches geeignet ist, den Frieden und die Pragmatische Sanktion aufrechzuerhalten, 3. das österreichische Ministerium von allen auf die übrigen Staaten Einfluß nehmenden ungrischen Beschlüssen zu verständigen und in Fällen, wo das Interesse der Gesamtmonarchie oder einzelner österreichischer Provinzen beteiligt ist, dessen Gutachten zu vernehmen.</p>
+                  <p>Im allgemeinen mit diesem Antrage einverstanden, glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> nur gegen 3. sich erklären zu sollen, weil sonst das ungrische Ministerium die Reziprozität ansprechen könnte. Dagegen sollte, seines Erachtens (womit auch der Justizminister [ein]verstanden war) der Zustand der gegenwärtigen Trennung angefochten, auf die Errichtung eines Gesamtministeriums gedrungen und nur in Ermanglung einer solchen Konzentrierung für itzt die obigen Anträge gemacht werden<note type="footnote" n="31">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480917-P-0121.xml#top_1_1_121_4">MR. v. <date when="1848-09-17">17. 9. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_17" n="17">
+                  <head type="regest">
+                     <label>
+                        <num>XVII. </num>
+                     </label>Keine staatliche Unterstützung für Abgeordnete zum Studentenparlament in Eisenach</head>
+                  <p>Der Minister des Inneren teilte mit ein Gesuch der hiesigen Studenten<note type="footnote" n="32">Dieses Gesuch konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>, worin sie bitten, daß ihren zum Studentenparlamente in Eisenach gewählten Abgeordneten<note type="footnote" n="33">Bereits zu Pfingsten 1848 waren deutsche Studenten auf der Wartburg zusammengekommen und hatten in einer Adresse an die Nationalversammlung in Frankfurt eine republikanische Form für den Gesamtstaat Deutschland gefordert, <bibl type="secondary">
+                           <title>Adresse</title>
+                        </bibl>. Für den <date when="1848-09-25">25. 9. 1848</date> wurde eine Zusammenkunft des Gesamtausschusses der deutschen Studentenschaft anberaumt, die dann bis zum <date when="1848-10-03">3. 10. 1848</date> stattfand, <bibl type="secondary">
+                           <author>Doblinger</author>, Burschenschaftlicher Gedanke 116</bibl>.</note> (36 an der Zahl) eine Reiseunterstützung mit 150 fr. per Kopf (gleichwie dies von anderen Regierungen geschehen) bewilligt werden möge.</p>
+                  <p>Da der Zweck dieses Parlaments, angeblich Gründung einer demokratischen Universität, die Belastung des Ärars schlechterdings nicht rechtfertigen könnte, und auch eine Nachweisung darüber, daß andre Regierungen ihre Studenten zu gleichem Zwecke wirklich unterstützt hätten, nicht beigebracht worden ist, so wurde beschlossen, dieses Einschreiten abzuweisen<note type="footnote" n="34">Das Ansuchen der Studenten wurde aber doch bewilligt und sie erhielten 2000 fl. zur Bestreitung der Reisekosten, siehe dazu das Schreiben der niederösterreichischen Landesregierung an das Wiener Universitätskonsistorium v. <date when="1848-09-23">23. 9. 1848</date>, <bibl type="archival">UNIV. ARCHIV, Konsistorial-Akten, Z. 607/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_18" n="18">
+                  <head type="regest">
+                     <label>
+                        <num>XVIII. </num>
+                     </label>Bericht zur Lage in Pest</head>
+                  <p>Derselbe Minister verlas einen Brief aus Pest über die dortigen Ereignisse vom 12. und 13. d.<note type="footnote" n="35">Dieses Schreiben konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>, woraus hervorzuheben: häufiger Abfall der Soldaten der Ofener Besatzung, welche zugweise mit ihren Unteroffizieren sich in die ungrische Legion einreihen lassen; Widerwillen des Publikums gegen die ungrischen Zweiguldenbanknoten<note type="footnote" n="36">Siehe dazu Anm. 30.</note>, weshalb sich der ungrische Minister des Inneren bewogen gefunden hat, mittelst eigener Kundmachung diejenigen mit dem Standrechte zu bedrohen, welche gegen die Annahme dieser Banknoten aufreizen; Aufregung wegen des Ministerwechsels<note type="footnote" n="37">
+                        <quote>Ebd</quote>.</note>; Deák<note type="footnote" n="38">Zu Franz Deák, dem Innenminister im ersten ungarischen Ministerium Batthánys, siehe <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 1, 172</bibl>.</note>
+                     <pb n="632" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s632.pdf"/>und Nyáry<note type="footnote" n="39">Zu Pál Freiherr v. Nyáry v. Nyárnagyháza, dem späteren Kommissär für Landesverteidigung, siehe <quote>ebd., 180f</quote>.</note> als Mitglieder des neuen Ministeriums bezeichnet; Furcht vor den Fortschritten des Banus, der schon in Kanisza eingerückt ist<note type="footnote" n="40">Siehe dazu Anm. 29.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_19" n="19">
+                  <head type="regest">
+                     <label>
+                        <num>XIX. </num>
+                     </label>Unhaltbarkeit der Minuendo-Lizitationen bei Übernahme öffentlicher Arbeiten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Handels</rs>
+                     </hi> stellte bei dem itzigen Notstande und der Stockung aller Gewerbe die Unhaltbarkeit des bisherigen Systems der Minuendo-Lizitationen<note type="footnote" n="41">Das bedeutete den Verkauf an den Mindestfordernden.</note> bei Übernahme öffentlicher Arbeiten vor und ersuchte den Minister der öffentlichen Arbeiten, hierwegen das Geeignete zu veranlassen, was derselbe sofort auch zusagte<note type="footnote" n="42">Das geschah mit Kundmachung v. <date when="1848-09-29">29. 9. 1848</date>, der entsprechende Akt <bibl type="archival">FA., Montan-Präsidial-Acten (AM. Präs.) 721/1848</bibl>, ist nicht mehr vorhanden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_20" n="20">
+                  <head type="regest">
+                     <label>
+                        <num>XX. </num>
+                     </label>Ernteberichte aus den Provinzen</head>
+                  <p>Der Handelsminister teilte mit, daß aus allen Provinzen (die ungrischen ausgenommen) günstige Ernteberichte eingelaufen seien<note type="footnote" n="43">Im AVA., HM., Präs., sind keine diesbezüglichen Akten vorhanden. Auch der Akt <bibl type="archival">NÖLA., Nö. Reg. Präs. 2421/1848</bibl>, in dem sich ein entsprechender Bericht aus Niederösterreich an das Ministerium v. <date when="1848-09-09">9. 9. 1848</date> befand, ist nicht mehr auffindbar.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_21" n="21">
+                  <head type="regest">
+                     <label>
+                        <num>XXI. </num>
+                     </label>Maßnahmen bei der Liquidierung des von August Swoboda gegründeten Aktienvereins</head>
+                  <p>Ebenderselbe stellte bezüglich der Teilnahme an dem Swobodaschen Privatanleiheverein<note type="footnote" n="44">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480912-P-0119.xml#top_1_1_119_1">MR. v. <date when="1848-09-12">12. 9. 1848</date>/I</ref>.</note> die Anfrage: 1. was in Ansehung derjenigen Besitzer von Aktien des Vereins zu veranlassen sei, welche ihre Aktien aus der zweiten oder dritten Hand haben; 2. was mit den dem Vereine von Sr. Majestät angewiesenen 10.000 fr.<note type="footnote" n="45">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480822-P-0109.xml#top_1_1_109_1">MR. v. <date when="1848-08-22">22. 8. 1848</date>/I</ref>.</note> und jenen 5000 fr. zu geschehen habe, welche von Sr. k.k. Hoheit dem Herrn Erzherzog Franz Karl bewilligt, aber wegen der mittlerweil stattgehabten Tumulte noch nicht ausgefolgt worden sind<note type="footnote" n="46">Zu dieser Spende des Erzherzogs findet sich im Akt <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1803/1848</bibl>, folgende Notiz von Pipitz: <quote>Von der später angeregten Beihülfe Sr. k. k. Hoch. des Erzherz. Franz an diesen Verein ist es wegen veränderter Umstände ganz abgekommen, wie diesfalls der h. Befehl vom <date when="1848-11-22">22. 11. 1848</date> lautete</quote>.</note>.</p>
+                  <p>Ad 1. erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, daß solchen Besitzern streng genommen nichts gebühre, daß man ihnen jedoch, wenn sie erhobenermaßen bona fide übernommen und etwas dafür gegeben haben, diesen Betrag – jedoch in keinem Falle mehr als ein Fünftel des Nominalbetrags der Aktie – vergüten könne. Zum Behufe der diesfälligen Erhebung und Ausgleichung wird der Justizminister der für die Swobodasche Angelegenheit bestellten Kommission<note type="footnote" n="47">
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480912-P-0119.xml#top_1_1_119_1">MR. v. <date when="1848-09-12">12. 9. 1848</date>/I</ref>, Anm. 4.</note> ein rechtskundiges Individuum beigeben.</p>
+                  <p>Ad 2. dürften die höchsten Geber bestimmt werden, die in Rede stehenden Beträge zur Unterstützung der Gewerbtreibenden in Wien und der zum Polizeibezirke gehörigen Orte zu widmen.</p>
+                  <p>Rücksichtlich der von Sr. Majestät bewilligten 10.000 fr., welche bei der Nationalbank deponiert sind, behielt sich der Minister vor, zuerst die Nachfrage, ob und was davon <pb n="633" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s633.pdf"/>etwa verwendet worden ist, zu pflegen und sodann, nach näherer Einsicht des die Bestimmung der Summe enthaltenden Ah. Kabinettschreibens den Antrag zu machen<note type="footnote" n="48">Das kaiserliche Geschenk von 10.000 fl. wurde dem Liquidierungsvermögen des Vereines einverleibt, siehe dazu den Bericht des Handelsministeriums an das Finanzministerium v. <date when="1849-02-06">6. 2. 1849</date> über diesen Betrag, <bibl type="archival">FA., FM., Präs. 1850/1849</bibl>. Die zur Liquidierung des Swobodaschen Vereins eingesetzte Kommission erhielt die beschlagnahmten Aktenbücher des Vereines, siehe dazu die Akten in <quote>ebd., Präs. 4883/1848, Präs. 4916/1848 und Präs. 4985/1848</quote>, klärte einige juridische Fragen, siehe dazu <quote>ebd., Präs. 5066/1848</quote>, und begann mit der Einlösung der Aktien, wobei sie Vorschüsse aus dem Tilgungsfonds erhielt, siehe dazu <quote>ebd., Präs. 5066/1848, Präs. 5410/1848 und Präs. 6086/1848</quote>. Die Geltendmachung von Ansprüchen war mit <date when="1849-02-07">7. 2. 1849</date> begrenzt. Der Schaden, für den der Staat die Haftung übernommen hatte, belief sich nach Abrechnung der Aktiva gegenüber den Forderungen auf 40.913 fl. und 27 Kreuzer; siehe dazu <quote>ebd., Präs. 2032/1849, Präs. 2901/1849 und Präs. 3458/1849</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_22" n="22">
+                  <head type="regest">
+                     <label>
+                        <num>XXII. </num>
+                     </label>Schuldentilgungs- und Versorgungsgesellschaft Leopold Engländers</head>
+                  <p>Da in Ansehung der Leopold-Engländerschen allgemeinen Schuldentilgungs- und Versorgungs­gesellschaft<note type="footnote" n="49">Leopold Engländer, Gastwirt in der Alservorstadt, hatte einen Verein für <quote>Freunde der Arbeit und der Steuerbar-Unbemittelten</quote> im August ins Leben gerufen. Dieser Verein sollte die Auswüchse des Kapitalismus beseitigen helfen und so die Not der armen Volksklassen aus der Welt schaffen; Analyse und weiterführende Literatur dazu bei <bibl type="secondary">
+                           <author>Häusler</author>, Massenarmut 351 ff.</bibl>
+                     </note> ähnliche Auftritte von Seite des getäuschten Publikums wie beim Swobodaschen Vereine<note type="footnote" n="50">Siehe dazu vorhergehenden Tagesordungspunkt.</note> zu besorgen sind, so scheint auch wegen dieser Gesellschaft eine Vorsorge nötig. Indessen behält sich der Minister vor, das Resultat der heutigen Generalversammlung dieser Gesellschaft abzuwarten und sodann die Sache weiters in Vortrag zu bringen<note type="footnote" n="51">Diese Angelegenheit kam 1848 im Ministerrat nicht mehr zur Sprache. Der Verein wurde, allerdings erst im Sommer 1849, aufgelöst; siehe dazu die Notiz in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1849-07-18">18. 7. 1849</date>
+                        </bibl> über die <quote>Liquidierung des von Engländer gegründeten Wiener Schuldentilgungs-, Hilfs- und Versorgungsvereines</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_23" n="23">
+                  <head type="regest">
+                     <label>
+                        <num>XXIII. </num>
+                     </label>Verleihung des Charakters eines Ministerialrates an den Generalsekretär des Handelsministeriums</head>
+                  <p>Der Handelsminister erbat sich ferner – die auch gegebene – Zustimmung des Ministerrates zu der von ihm anzutragenden Verleihung des Charakters eines Ministerialrates an den Generalsekretär seines Ministeriums<note type="footnote" n="52">Das war Siegfried Becker, der mit Ah. E. v. <date when="1848-07-17">17. 7. 1848</date> auf Vortrag Doblhoffs v. <date when="1848-07-07">7. 7. 1848</date> die Generalsekretärstelle verliehen bekommen hatte, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1844/1848</bibl>.</note>, da derselbe bestimmt ist, den Minister selbst zu vertreten<note type="footnote" n="53">Auf Vortrag Hornbostels v. <date when="1848-08-15">15. 8. 1848</date> wurde Becker mit Ah. E. v. <date when="1848-09-25">25. 9. 1848</date> der Ministerialratstitel mit den entsprechenden Bezügen verliehen, <quote>ebd., MRZ. 2070/1848</quote>.</note>. Endlich</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_120_24" n="24">
+                  <head type="regest">
+                     <label>
+                        <num>XXIV. </num>
+                     </label>Entwurf des Nationalgardegesetzes</head>
+                  <p>kündigte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> an, daß er den Entwurf des Nationalgardegesetzes<note type="footnote" n="54">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480725-P-0099.xml#top_1_1_99_4">MR. v. <date when="1848-07-25">25. 7. 1848</date>/IV</ref>.</note> vom Verwaltungsrate zurückerhalten habe und denselben sofort bei den Ministern werde zirkulieren lassen<note type="footnote" n="55">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-01-0-18481227-P-0009.xml#top_2_1_9_11">MR. v. <date when="1848-12-27">27. 12. 1848</date>/XI</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-09-16">16. September 1848</date>.</dateline>
+                  <seg type="other">Anhergelangt den <date when="1848-09-19">19. September 1848</date>.</seg>
+                  <seg type="other">Ges. 20. September. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

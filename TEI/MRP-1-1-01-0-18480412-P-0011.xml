@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="011">Sitzung 11</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-12"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z11.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">163</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-12"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (13. 4.), Franz Karl (14. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-13">13. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-14">14. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_11_1">Ungarische Sympathien für die polnische und italienische Sache</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_11_2">Lage in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_11_3">Absendung von Militärärzten zur Armee in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_11_4">Lage in Lombardo-Venetien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_11_5">Belobigung der Preßburger Garnison</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_11_6">Silber für die Nationalbank; Emittierung von Zentralkassascheinen; freiwillige Anleihe zur Bedeckung der laufenden Staatsausgaben; Darlehensverhandlungen mit der Nationalbank</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480412-P-0011" ana="a1-1848_z11">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z11.pdf">
+               <title type="num">Nr. 11</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-12">12. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (13. 4.), Franz Karl (14. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">163</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-04-12">12. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_11_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ungarische Sympathien für die polnische und italienische Sache</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> brachte zur Kenntnis des Ministerrates, daß nach einer von dem Großhandlungshause Sina ihm mitgeteilten brieflichen Nachricht<note type="footnote" n="1">Dieses Schreiben konnte unter den Beständen des Präsidiums des Finanzministeriums im FA. nicht gefunden werden.</note> aus Pest daselbst aus Anlaß des Erscheinens von sogenannten polnischen Abgeordneten, welche um Beistand für ihre Nationalsache baten, eine Volksversammlung stattfand, bei welcher beschlossen wurde einzuschreiten, daß die ungarischen Truppen aus Italien und Galizien etc. zurückgezogen werden, daß die Unterdrückung der italienischen Brüder gemißbilligt und den Wienern wegen Anwerbung von Freischaren gegen die Italiener das Mißfallen zu erkennen gegeben werden soll.</p>
+                  <p>Es wurde dieser brieflichen Nachricht lediglich in der Absicht erwähnt, um daraus das Wesen des politischen Geistes zu ersehen<note type="footnote" n="2">Zur sympathisierenden Haltung der ungarischen Öffentlichkeit gegenüber polnischen Anliegen siehe <bibl type="secondary">
+                           <author>Janotychk</author>, Chronologisches Tagebuch II, 148 und 152</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_11_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Lage in Italien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> legt mit dem vorliegenden Vortrage vom 12. d.M., Z. 1389<note type="footnote" n="3">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 150/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 303/1848</bibl>.</note>, einen Bericht des Feldmarschalls Grafen Radetzky aus Verona vom 7. d. M<note type="footnote" n="4">
+                        <quote>Ebd</quote>.</note>. zur Ah. Kenntnis vor, worin der letztere anzeigt, daß von Mantua aus unter Oberst Benedek eine Rekognoszierung gegen die in Meccaria vorgedrungene Vorhut der Piemonteser gemacht wurde, bei welcher 10 Dragoner und 13 Pferde gefangen wurden und der Feind über den Oglio gejagt wurde.</p>
+                  <p>König Karl Albert scheint nicht rasch vorgehen zu wollen und zwischen ihm und den Lombarden eben keine große Sympathie mehr zu herrschen, sei es, daß die Erklärung der provisorischen Regierung in Mailand, erst das Ende des Krieges abwarten zu wollen, ehe sie sich über die Form der künftigen Regierung ausspricht, dann aber die Wahl dem Volke zu überlassen, seine Wärme für die Lombarden abgekühlt hat, sei es, daß er noch Verstärkungen abwartet oder sich mit den Insurgenten des Römischen und Toskanischen verbinden will. Es scheint nicht, daß man in Mailand seine Herrschaft wünscht, wenigstens war der Ruf: „non vogliamo gli Albertini“ allgemein.</p>
+                  <p>Den nächsten Tag wollte der Feldmarschall eine ähnliche Rekognoszierung nach Revere, wo römische Insurgenten angesagt sind, machen.</p>
+                  <p>
+                     <pb n="60" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s60.pdf"/>Dem Feldmarschall ist es gelungen, Mantua in einen ziemlich haltbaren Stand zu setzen und mit den dort bei Privaten vorgefundenen Vorräten auch für Peschiera und Verona Approviantierung auf einige Zeit sicherzustellen<note type="footnote" n="5">Der in Anm. 3 zit. Vertrag wurde mit Ah. E. v. <date when="1848-04-14">14. 4. 1848</date> zur Kenntnis genommen, <quote>ebd.</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 163/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_11_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Absendung von Militärärzten zur Armee in Italien</head>
+                  <p>Die Bitte des Feldmarschalls Grafen Radetzky um Zusendung ärztlichen Personales, woran er großen Mangel leide<note type="footnote" n="6">Am <date when="1848-04-07">7. 4. 1848</date> hatte Radetzky in seinem Bericht an das Hofkriegsratspräsidium auf diesen Umstand hingewiesen, <bibl type="archival">KA, HKR., KM., Präs. 212/1848</bibl>.</note>, wird dadurch entsprochen, daß schon morgen den 13. April 20 Ärzte dahin abgehen<note type="footnote" n="7">Mit Befehlen (K.) v. <date when="1848-04-12">12. 4. 1848</date> an die oberstfeldärztliche Direktion und das niederösterreichische Generalkommando hatte Zanini die nötigen Schritte eingeleitet, <quote>ebd.</quote> Siehe dazu das Verzeichnis der 20 abkommandierten Feldärzte, <quote>ebd., Präs. 252/1848</quote>.</note>.</p>
+                  <p>Der Ministerrat war erfreut, den Feldmarschall nun in einer günstigeren Lage zu sehen. Ew. Majestät dürften diese Nachricht zur beruhigenden Wissenschaft zu nehmen geruhen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_11_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Lage in Lombardo-Venetien</head>
+                  <p>Dieser Anzeige reiht sich ein eben eingelangter Vortrag Sr. kaiserlichen Hoheit des Herrn Erzherzoges Vizekönig vom 8. d. M., Z. 1385<note type="footnote" n="8">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ., 118/1848</bibl>.</note>, an, worin gemeldet wird, daß sich Trient gut hält und daß durch die Judikarien<note type="footnote" n="9">Landschaft im Trentino – Tiroler Etschland, italienisch Valli Giudicarie.</note>, was man besorgte, bis dahin nichts Gefährliches gekommen ist. Übrigens bringen Se. kaiserlichen Hoheit abermals die nötigen Erleichterungen für das Volk durch Ermäßigung der Salzpreise, des Stempels etc. in Erinnerung<note type="footnote" n="10">Der in Anm. 8 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-16">16. 4. 1848</date> zur weiteren Verfügung an den Innenminister weitergeleitet. Zur Herabsetzung des Salzpreises siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480409-P-0008.xml#top_1_1_8_10">MR. v. <date when="1848-04-09">9. 4. 1848</date>/X</ref>. Auch Bier wurde, wie z. B. in Wien, durch Verminderung der Biereinfuhrgebühr verbilligt. Der entsprechende Akt, <bibl type="archival">FA., PP. 2962/1848</bibl>, ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_11_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Belobigung der Preßburger Garnison</head>
+                  <p>Der Kriegsminister holte bei dem Ministerrate die Beistimmung ein, ein gnädiges Wort an die Garnison in Preßburg, bevor sie nach dem nun beendigten Landtage<note type="footnote" n="11">Der – letzte – ständische ungarische Landtag dauerte vom <date when="1847-11-12">12. 11. 1847</date> bis <date when="1848-04-11">11. 4. 1848</date>, siehe dazu <bibl type="secondary">
+                           <title>Barta</title> u. a., Geschichte Ungarns 297–305</bibl>.</note> auseinandergeht, richten zu dürfen.</p>
+                  <p>Der General Graf Lamberg schilderte die gute Haltung, den guten Geist und die beschwerliche Dienstleistung der Garnison während des ungarischen Landtages<note type="footnote" n="12">Ein diesbezüglicher schriftlicher Bericht Lambergs konnte unter den Beständen des <bibl type="archival">KA., HKR., KM., Präs.</bibl>, nicht gefunden werden.</note>.</p>
+                  <p>Der Ministerrat kann gegen eine verdiente Anerkennung nichts zu erinnern haben, deren Bezeigung dem Kriegsminister überlassen ist<note type="footnote" n="13">Mit Schreiben (K.) v. <date when="1848-04-12">12. 4. 1848</date> wies Zanini FML. Lamberg an, den Truppen die kaiserliche Anerkennung kundzutun, <bibl type="archival">KA. HKR., KM., Präs. 203/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_11_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Silber für die Nationalbank; Emittierung von Zentralkassascheinen; freiwillige Anleihe zur Bedeckung der laufenden Staatsausgaben; Darlehensverhandlungen mit der Nationalbank</head>
+                  <p>Mit dem vorliegenden Vortrage vom 12. d. M., Z. 1390<note type="footnote" n="14">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 149/1848</bibl>, und <bibl type="archival">FA., PP. 3565/1848</bibl>.</note>, stellt der Finanzminister die dringende Notwendigkeit dar, Silber für die Nationalbank zu verschaffen. <pb n="61" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s61.pdf"/>Er bemerkt, zwei Aufgaben seien es, deren Lösung für die Finanzverwaltung von der höchsten Dringlichkeit ist: a) Die Bedeckung des kurrenten Staatsaufwandes für die nächste Zukunft und b) die Verwahrung der Bank gegen die Gefahren des Unterganges, von welchen sie durch das allgemeine verbreitete Mißtrauen gegen ihre Noten nahe bedroht ist.</p>
+                  <p>Ad a) wird der Finanzminister seine Anträge erst dann erstatten, bis er die dazu erforderlichen Materialien gesammelt und geprüft haben wird. Er glaubte aber schon vorläufig einige Mittel andeuten zu sollen, um sich für den kurrenten Bedarf Geld zu beschaffen. Diese sind: Emittierung von Zentralkasseanweisungen. Bei diesen Anweisungen müßte jedoch eine andere Grundlage angenommen werden als in ruhigen Zeiten, wo sie die Bank zu 3% eskomptiert hat, es müßten dabei Vorteile angeboten werden, die früher nicht in dem Maße oder gar nicht vorhanden waren, und es müßten große Kapitalisten gewonnen werden, welche diese Papiere eskomptieren. Diese Papiere wären vor drei Monaten nicht rückzahlbar und während der ersten drei Monate mit 4%, während der weiteren drei Monate mit 4,5% und später mit 5% und selbst noch höher steigend zu verzinsen. Ob diese Verzinsung sich auf die ganze Zeit zu erstrecken hätte, wäre Gegenstand einer Unterhandlung. Die Bankiers werden diese Papiere ohne Deckung nicht annehmen wollen. Diese Deckung wäre ihnen durch die Staatseisenbahnen oder sonst in einer Art zu geben und sie hätten nicht für den ganzen Deckungsbetrag, sondern nur für 2/3 desselben Zentralkasseanweisungen zu übernehmen. Die Papiere erhalten dadurch eine ganz andere Wendung als die früheren Zentralkasseanweisungen, sind hypotheziert und könnten nach drei Monaten als Steuer angenommen werden.</p>
+                  <p>Ein anderes Mittel zu dem erwähnten Zwecke ist ein freiwilliges Anlehen. Bei den gegenwärtigen Verhältnissen dürfte zwar nicht viel davon zu erwarten sein, indessen ein Versuch könnte damit doch gemacht werden, um wenigstens vor dem versammelten Reichstage sagen zu können, daß man alles getan und alles versucht hat, um sich die nötigen Mittel zu verschaffen. Darüber wird jedoch der Finanzminister, wie oben erwähnt wurde, seine Anträge später einbringen.</p>
+                  <p>Ad b) bemerkt der Finanzminister, daß das Mißtrauen in die Noten der Bank größtenteils dadurch herbeigeführt wurde, daß die Staatsverwaltung den Kredit der Bank in zu ausgedehntem Maße in Anspruch genommen hat, wodurch die in Umlauf gesetzten Noten sehr vermehrt wurden. Der wegen jenes Mißtrauens täglich zunehmende Abfluß des Silbers aus dem Bankschatze lasse nun besorgen, daß die Bank in nicht gar ferner Zeit außerstande sein werde, die ihr präsentierten Noten gegen Silber einzuwechseln, was, wenn es einträte, unberechenbare Erschütterungen nach sich ziehen würde.</p>
+                  <p>Um diesem zu begegnen, bleibe nichts übrig, als für die Vermehrung des Bankschatzes zu sorgen.</p>
+                  <p>Der Finanzminister hat von diesem Gesichtspunkte ausgehend der Bankdirektion vorgeschlagen, den Versuch zu unternehmen, mittelst Anerbietung von Realhypotheken im Auslande Silber in Barren oder Münzen zu erlangen. Zu diesem Behufe sollte die Staatsverwaltung im Einvernehmen mit der Bank zwei Abgeordnete (einen von der Finanzverwaltung und einen von der Bank) nach den auswärtigen Handelsplätzen (Amsterdam, Hamburg, London) absenden, deren Aufgabe darin bestünde, sich mit den größeren Geldmächten jener Handelsplätze in Unterhandlung einzulassen und <pb n="62" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s62.pdf"/>aufgrund der von der österreichischen Regierung angetragenen Hypotheken (teils Domänen, teils Staatseisenbahnen) in der Summe von 60 Millionen einen Betrag von 30 bis 40 Millionen Silber zu erhalten.</p>
+                  <p>Da die Bankdirektion geneigt zu sein scheint, diesem Vorschlage beizutreten, so erbittet sich der Finanzminister die Ermächtigung, mit der Nationalbank diesfalls ein Übereinkommen zu schließen und die zur Ausführung erforderlichen Maßregeln treffen zu dürfen.</p>
+                  <p>Der Finanzminister erwähnte hierbei einer mit der Bank in der Richtung gepflogenen Unterhandlung, um von ihr ein Darlehen von 30 Millionen Gulden für den kurrenten Bedarf der Finanzen zu erhalten<note type="footnote" n="15">Siehe dazu bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_2">MR. v. <date when="1848-04-07">7. 4. 1848</date>/II</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480410-P-0009.xml#top_1_1_9_1">MR. v. <date when="1848-04-09">9. 4. 1848</date>/I</ref>.</note>.</p>
+                  <p>Die Bank forderte für dieses Darlehen und gleichzeitig für die frühere Schuld im Betrage von beiläufig 60 Millionen Gulden an Hypotheken und Effekten eine Deckung von 105 Millionen, und im Falle der Mäßigung des Anspruches auf nur 15 Millionen eine Deckung mit Einschluß der früheren Schuld von 80 Millionen.</p>
+                  <p>Die Bank hat, wie der Finanzminister bemerkt, allerdings recht, wenn sie sich so viel möglich gegen die Vermehrung der Banknoten verwahrt, allein die oberwähnte Modalität schien demselben nicht annehmbar, weil es sich zunächst und dringend darum handelt, der Bank Barschaft zu verschaffen, um ihre Noten fortan einlösen zu können. Wenn ihr noch so große Sekuritäten an Hypotheken und Effekten gegeben werden, so sind sie alle zusammengenommen noch kein bares Geld, und würde es der Bank nicht gelingen, sich ein namhaftes Anlehen zu verschaffen, so würde der erwähnte besorgliche Fall dennoch eintreten und die Finanzverwaltung hätte dann keine Mittel in Händen, um sich in diesem äußersten Falle Geldmittel zu verschaffen.</p>
+                  <p>Der Ministerrat findet die oberwähnte Bitte des Finanzministers zur Ah. Gewährung geeignet<note type="footnote" n="16">Der in Anm. 14 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-14">14. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 163/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_11">MR. v. <date when="1848-04-14">14. 4. 1848</date>/XI</ref>.</note>.</p>
+                  <p>Den vorstehenden Erörterungen und Anträge dürften die nebenstehenden Resolutionsentwürfe entsprechen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-12">12. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 14. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-14">14. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

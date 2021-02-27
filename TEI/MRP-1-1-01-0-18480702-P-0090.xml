@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="090">Sitzung 90</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-02"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z90.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1354 et 1355</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-02"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; abw. Wessenberg; BdE. Pillersdorf (2. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-02">2. 7.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_90_1">Situation in Böhmen; Aufhebung des Belagerungszustandes; gerichtliche Untersuchung des Pfingstaufstandes; Entsendung der Kommission des Sicherheitsausschusses nach Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_90_2">Ministerieller Zeitungsartikel bezüglich Deputationen und Petitionen an Erzherzog Johann</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_90_3">Tragen der deutschen Farben In der k. k. Armee</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_90_4">Übernahme der Oberaufsicht über die Donaudampfschiffahrtsgesellschaft durch das Handelsministerium; Abänderung des § 9 der Gesellschaftsstatuten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480702-P-0090" ana="a1-1848_z90">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z90.pdf">
+               <title type="num">Nr. 90</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-02">2. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (2. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1354 et 1355</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom 2. Julius 1848 unter dem Vorsitze des mit dem Präsidio des Ministerrates beauftragten Ministers des Inneren Baron v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_90_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Situation in Böhmen; Aufhebung des Belagerungszustandes; gerichtliche Untersuchung des Pfingstaufstandes; Entsendung der Kommission des Sicherheitsausschusses nach Prag</head>
+                  <p>Mit Rücksicht auf den in der gestrigen Sitzung gefaßten Beschluß in betreff der Fortdauer oder Aufhebung des Belagerungszustands der Stadt Prag<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_1">MR. v. <date when="1848-07-01">1. 7. 1848</date>/I</ref>.</note> kamen heute die Modalitäten zur Sprache, sich über die Tatsachen Gewißheit zu verschaffen, welche das eine oder das andere rechtfertigen, und darnach zu verfügen. Die in Vorschlag gebrachte Absendung des Hofkanzlers Baron Weingarten zu diesem Zwecke scheiterte an dessen Bitte um Enthebung von diesem Geschäfte, begründet durch das Bekenntnis, daß er wegen seiner Unbekanntschaft mit den Verhältnissen der Stadt der ihm zugedachten Aufgabe sich nicht gewachsen fühle<note type="footnote" n="2">Schreiben Weingartens an Pillersdorf v. <date when="1848-07-02">2. 7. 1848</date>, <bibl type="archival">AVA., IM., Präs. 2144/1848</bibl>.</note>.</p>
+                  <p>Gegen die sofort proponierte alleinige Absendung des Hofrats Komers<note type="footnote" n="3">Zu Karl Eduard Freiherr Komers v. Lindenbach, Vorstand des Departements W der Justizabteilung im Kriegsministerium, siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 4, 101 f.</bibl>
+                     </note> von der hofkriegsrätlichen Justizabteilung aber ward das Bedenken erhoben, daß seine Stellung gegenüber der Persönlichkeit des Fürsten Windischgrätz zu untergeordnet sei, um von einer demselben diesfalls einzuräumenden diskretionären Gewalt sich einen sicheren unbeanständeten Erfolg versprechen zu können.</p>
+                  <p>In dieser Verlegenheit schlug der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Doblhoff</rs>
+                     </hi> folgenden Ausweg vor: Der Ministerrat möge sofort die Aufhebung des Belagerungszustandes in Prag beschließen, nachdem durch die bisherigen Vorlagen des Grafen Thun und Fürsten Windischgrätz dessen Fortdauer nicht als gerechtfertigt erscheine<note type="footnote" n="4">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_1">MR. v. <date when="1848-07-01">1. 7. 1848</date>/I</ref>, insbesondere Anm. 1 und 10.</note>. Dieser Beschluß, schriftlich abgefaßt, wäre dem Hofrat Komers zur Überbringung an Grafen Thun und Fürsten Windischgrätz mit der Instruktion mitzugeben, daß er denselben nachdrücklich die Gründe vorstelle, welche den Ministerrat zu diesem Beschlusse bestimmten, namentlich die mit dem Belagerungszustande verbundene Beängstigung der Bevölkerung und die Hemmung des Verkehrs, dann die seit fast 14 Tagen nicht mehr gestörte Ruhe, endlich die Unmöglichkeit der Vornahme der Wahlen zu dem – nicht länger mehr zu verschiebenden – Reichstage unter dem Einflusse der militärischen Autoritäten. Erheben der kommandierende und der politische Landeschef keine Einwendung dagegen, <pb n="512" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s512.pdf"/>so wäre mit Publikation des Ministerratsbeschlusses also mit Aufhebung des Belagerungszustandes vorzugehen. Vermöchten dieselben jedoch solche Tatsachen an die Hand zu geben, welche die Aufhebung des Belagerungszustandes bedenklich macheten, so wäre Komers zu ermächtigen, die Publikation des Ministerratsbeschlusses zu sistieren, und hätte diese Tatsachen sowie seine eigenen Wahrnehmungen hierüber mit seinem Gutachten dem Ministerrate zur weitern Entscheidung unverweilt mitzuteilen. Durch diese Maßregel würde einerseits den allgemein laut werdenden Wünschen nach Aufhebung des Belagerungszustands und andrerseits den Rücksichten für die von dem Kommandierenden für nötig gehaltene Vorsicht dabei entsprochen werden können, der Abgesandte selbst aber in eine solche Stellung gegenüber den Landesautoritäten kommen, die ihm, als bloßen Träger der Befehle des Ministerrates ohne Vollmacht zur Entscheidung, alles Verletzende benehmen würde.</p>
+                  <p>Der Ministerrat war mit diesem Vorschlage vollkommen einverstanden und beschloß, den Hofrat Komers noch heute – mit den entsprechenden Ausfertigungen und der Instruktion versehen – und mit der Weisung nach Prag abgehen zu machen, von dem Resultate seiner Sendung sogleich, noch vor der schriftlichen Relation die telegraphische Meldung an den Ministerrat zu erstatten<note type="footnote" n="5">Der Akt betreffend die Bekanntgabe dieses Ministerialbeschlusses an Windischgrätz, <bibl type="archival">KA., HKR., KM., Präs. 3022/1848</bibl>, ist nicht auffindbar. Komers wurde mit Schreiben (K.) v. <date when="1848-07-02">2. 7. 1848</date> angewiesen, sich nach Prag zu begeben, und genauestens über die im Ministerrate beschlossene Vorgangsweise instruiert, <quote>ebd., Präs. 3023/1848</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_5">MR. v. <date when="1848-07-03">3. 7. 1848</date>/V</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, bereits gestern über die Zulässigkeit des zur Untersuchung der an dem Prager Aufstande Beteiligten niedergesetzten Spezial- respektive Ausnahmegerichts um sein Gutachten angegangen<note type="footnote" n="6">Mit Schreiben (K.) v. <date when="1848-07-02">2. 7. 1848</date> hatte Pillersdorf Sommaruga um dieses Gutachten ersucht, <bibl type="archival">AVA., IM., Präs. 2144/1848</bibl>.</note>, gab dasselbe dahin: daß, obwohl zwar keine gesetzliche Norm über die Versetzung in den Belagerungsstand bestehe, es doch aus der Natur der Sache fließe, daß während der Dauer desselben die Wirksamkeit der ordentlichen Gerichte aufhöre, und daher gegen die Bestellung des Spezialgerichts zur Untersuchung und Aburteilung der an dem Prager Aufstande Beteiligten unter der Voraussetzung nichts zu erinnern sei, wenn die Urteile desselben nach Vorschrift der Gesetze vor dem Vollzuge der höhern Instanz vorgelegt werden, indem die Bestellung eines Gerichts cum derogatione omnium instantiorum nur in der Befugnis des Landesfürsten liegt. – In diesem Sinne würde der Justizminister auch das Erforderliche erlassen<note type="footnote" n="7">Der entsprechende Akt <quote>ebd., JM., Z. 1497/1848</quote>, ist nicht mehr vorhanden.</note>.</p>
+                  <p>Ein am Schlusse der Sitzung von einer Deputation des Wiener Sicherheitsausschusses überbrachtes Einschreiten, denselben durch drei Mitglieder an der nach Prag wegen des Belagerungsstandes abzusendenden Kommission teilnehmen zu lassen<note type="footnote" n="8">Die Eingabe liegt in <quote>ebd., IM., Präs. 2152/1848</quote>.</note>, ward, obwohl an und für sich schon ganz außer den Befugnissen des Ausschusses gelegen, doch einer besondern Beratung für morgen vorbehalten<note type="footnote" n="9">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_4">MR. v. <date when="1848-07-03">3. 7. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_90_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Ministerieller Zeitungsartikel bezüglich Deputationen und Petitionen an Erzherzog Johann</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> verlas den – für die Wiener Zeitung bestimmten – Aufsatz wegen Entfernung und Abhaltung von Deputationen und Petitionen von der höchsten Person des Stellvertreters Ew. Majestät, welcher Aufsatz sofort zum Drucke befördert wurde<note type="footnote" n="10">Erschien in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-07-03">3. 7. 1848</date>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_90_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Tragen der deutschen Farben In der k. k. Armee</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> zeigte an ein Einschreiten des Wiener Sicherheitsausschusses um die Verfügung, daß die aus den zum Deutschen Bunde gehörigen Staaten rekrutierten Teile der k. k. Armee verhalten werden, die deutschen Abzeichen zu tragen<note type="footnote" n="11">Eine schriftliche Fixierung dieses Einschreitens ist in den Beständen des KA., nicht vorhanden.</note>. Dieses ebenfalls außer der Kompetenz des Ausschusses gelegene Begehren erscheint zu keiner Berücksichtigung geeignet, bloß ad acta zu legen, und nur um etwaigen Betreibungen zuvorzukommen, wird der Kriegsminister dem Ausschusse durch den Platzmajor Grulich, der mit selbem immer verkehrt, bedeuten lassen, der Ministerrat habe die Gewährung jenes Einschreitens nicht angemessen gefunden<note type="footnote" n="12">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_2">MR. v. <date when="1848-07-03">3. 7. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_90_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Übernahme der Oberaufsicht über die Donaudampfschiffahrtsgesellschaft durch das Handelsministerium; Abänderung des § 9 der Gesellschaftsstatuten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handels- etc. Minister</rs>
+                     </hi> stellte die Frage, ob die Donaudampfschiffahrtsgesellschaft, die früher unter der Oberaufsicht des Hofkammerpräsidii stand, nunmehr ausschließlich unter das Handelsministerium zu unterordnen, dann ob nicht bei den gegenwärtigen, durch das freie Assoziationsrecht wesentlich geänderten Verhältnissen eine Änderung des § 9 ihrer Statuten<note type="footnote" n="13">Die gedruckten Statuten der Donaudampfschiffahrtsgesellschaft aus dem Jahr 1846 <quote>in FA., PP. 9462/1845</quote>. Die Oberaufsicht des Hofkammerpräsidiums über die Gesellschaft war im selben § 9 festgelegt.</note> angezeigt sei, welcher dem lf. Kommissär allzu ausgedehnte Vollmachten in bezug auf die Gestion der Gesellschaft, namentlich das Veto gegen Beschlüsse, welche vermeintlich dem eigenen Interesse der Gesellschaft widerstreiten, einräumt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, nicht nur mit der ausschließlichen Zuweisung der Dampfschiffahrtsangelegenheiten in den Wirkungskreis des Handelsministeriums einverstanden, sondern auch im Begriffe zu sein, demselben eine Anfrage des dermaligen lf. Kommissärs der Gesellschaft<note type="footnote" n="14">Schreiben Schwinds v. <date when="1848-06-10">10. 6. 1848</date> an Krauß in <quote>ebd., FM., Präs. 2082/1848</quote>.</note> in Ansehung des § 9 mit dem Antrage abzutreten, daß die Wirksamkeit dieses lf. Kommissärs sich auf die für die lf. Kommissäre andrer Vereine vorgeschriebene Aufgabe, gesetz- oder statutenwidrige Beschlüsse zu sistieren, zu beschränken habe, und daß es der Gesellschaft bevorstehe, wegen zeitgemäßer Abänderung des § 9 ihrer Statuten bei der nächsten Generalversammlung die entsprechenden Anträge zu machen<note type="footnote" n="15">Mit Schreiben v. <date when="1848-07-14">14. 7. 1848</date> an das Handelsministerium stellte Krauß die Kompetenzen eines lf. Kommissärs überhaupt in Frage, <bibl type="archival">AVA., HM., Allg. 568/15 ex 1848</bibl>; darauf teilte Hornbostel mit Schreiben (K.) v. <date when="1848-07-27">27. 7. 1848</date> der Administration der Donaudampfschiffahrtsgesellschaft mit, daß <quote>die Intervenierung eines k. k. Hofkommissärs ebenfalls aufzuhören</quote> habe, <quote>ebd</quote>. Schwind wurde mit Schreiben (K.) Krauß’ v. <date when="1848-08-03">3. 8. 1848</date> von der Stelle eines lf. Hofkommissärs enthoben, <bibl type="archival">FA., FM., Präs. 3516/1848</bibl>. Eine weitere Behandlung des Gegenstandes ist unter den Beständen des Präsidiums und der Allgemeinen Reihe des Handelsministeriums der Jahre 1848 und 1849 nicht nachweisbar.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-07-02">2. Juli 1848</date>. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolls zur Wissenschaft. Erzherzog Johann. Wien, den <date when="1848-07-03">3. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

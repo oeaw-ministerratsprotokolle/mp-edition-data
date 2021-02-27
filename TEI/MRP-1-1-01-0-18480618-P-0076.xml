@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="076">Sitzung 76</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-18"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z76.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1155 et 1156</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-18"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner; BdE. Pillersdorf (18. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-18">18. 6.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_76_1">Wünsche der Prager Deputation</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_76_2">Bericht Doblhoffs über den Verbleib des Kaisers in Innsbruck</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_76_3">Ausfolgung von Artillerie an die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_76_4">Verlängerung des Münzausfuhrverbotes</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480618-P-0076" ana="a1-1848_z76">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z76.pdf">
+               <title type="num">Nr. 76</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-18">18. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (18 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1155 et 1156</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-06-18">18. Juni 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_76_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Wünsche der Prager Deputation</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> eröffnete dem Ministerrate, daß er gestern abends eine längere Unterredung mit einer von Prag angelangten, aus acht Individuen bestehenden Deputation die letzten Prager Ereignisse betreffend gehabt habe<note type="footnote" n="1">Zum Prager Pfingstaufstand siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480617-P-0075.xml#top_1_1_75_2">MR. v. <date when="1848-06-17">17. 6. 1848</date>/II</ref>.</note>.</p>
+                  <p>Es freute ihn wahrzunehmen, daß die Deputation in ihren Äußerungen und Ansichten gemäßiget war und daß sich bei ihr keine Gehässigkeit zwischen Deutschen und Tschechen, aus denen sie bestand, kundgab. Es ist dem Minister übrigens nicht gelungen, über die eigentlichen und wahren Ursachen der letzten Katastrophe in Prag vollkommene Aufschlüsse zu erhalten, was wohl auch nicht möglich sei, weil, wie überall bei solchen Anlässen so auch in Prag, die Ursachen in Dunkel gehüllt sind, längere Zeit im Stillen vorbereitet werden, und dann der Sturm beim geringsten Anlasse losbricht. So viel sei indessen gewiß, daß nicht Gehässigkeiten zwischen den Parteien als vielmehr Abneigung gegen den Kommandierenden Fürsten Windischgrätz und das Benehmen der Soldaten Grund der letzten Ereignisse in Prag war. Schon vor den Feiertagen seien Demonstrationen gegen den Kommandierenden vorgenommen worden, ohne jedoch einen Erfolg gehabt zu haben; erst die vom Fürsten Windischgrätz abgehaltene Revue, Aufstellung von Kanonen u. dgl. haben die große Aufregung hervorgebracht.</p>
+                  <p>Am Montage sind zahlreiche Gruppen durch die Stadt singend gezogen, wobei auch aufreizende Anspielungen an Fürsten Windischgrätz gehört worden sein sollen. Diesen begegnete eine Militärtruppe, welche den singenden Zug durchbrochen hat. Hierbei ist ein Offizier und ein Zivilist verwundet worden. Wer von beiden zuerst beleidiget hat, ist unbekannt. Die Zivilisten sind auseinandergestoben, haben sich bewaffnet, und sogleich fingen an, zahlreiche Barrikaden errichtet zu werden. Es sind Schüsse gefallen, und so entspann sich dann das Straßengefecht. Der Verlust an Menschenleben scheint jedoch nicht so groß gewesen zu sein, als man anfangs geglaubt hat. Die Deputierten sprachen von 15 Toten und 20 Verwundeten.</p>
+                  <p>Außer dem Fürsten Windischgrätz wird von den Autoritäten niemand als handelnd angeführt. Der Gubernialpräsident Graf Thun wurde von den Studierenden ohne Verhaftsbefehl im Clementinum gefangen gesetzt, nach dagegen gemachten Vorstellungen aber bald wieder in Freiheit gesetzt; es wurden ihm übrigens während der <pb n="444" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s444.pdf"/>Gefangenschaft keine Konzessionen abgedrungen, auch hat er in diesem Zustande überhaupt nichts vorgenommen.</p>
+                  <p>Der Minister des Inneren hat die Deputation aufgefordert, nachdem sie über den faktischen Zustand der Stadt Prag die ihr bekannten mündlichen Aufklärungen gegeben, übrigens nichts Schriftliches bei sich hatte, ihre Petita niederzuschreiben, damit diese zur Grundlage einer Verhandlung dienen könne.</p>
+                  <p>Diesem Ansinnen hat die Deputation heute früh entsprochen. Ihre Bitten zur Herstellung der Ordnung und des Friedens in Prag erstrecken sich auf folgende 7 Punkte<note type="footnote" n="2">Die – stark angesengten – schriftlich fixierten Forderungen der Prager Deputation, datiert Wien, am <date when="1848-06-17">17. Juni 1848</date>, in <bibl type="archival">AVA., IM., Präs. 2060/1848</bibl>.</note>:</p>
+                  <p>1. Ew. Majestät möchten das Generalkommando in Böhmen dem Generalen der Kavallerie Freiherrn v. Mensdorff zu übertragen geruhen;</p>
+                  <p>2. daß alle Feindseligkeiten von Seite des Militärs gegen das Zivile eingestellt werden und so lange eingestellt bleiben, als das Militär von dem Zivile nicht angegriffen wird;</p>
+                  <p>3. daß wegen alles Vorgefallenen gegen niemanden eine gerichtliche Verfolgung angestellt werde, ausgenommen jene strafbaren Handlungen, welche mit der politischen Aufregung nicht in unmittelbarem Zusammenhange stehen;</p>
+                  <p>4. daß jene Grenadierbataillons und das Regiment Hoheneck, welche bei den gedachten Vorfällen beteiligt waren, wegkommen und andere Militärmannschaft nach Prag verlegt werde;</p>
+                  <p>5. daß sämtliche Gefangenen beiderseits in Freiheit gesetzt werden;</p>
+                  <p>6. daß sämtliche Wachposten vom Militär, der Nationalgarde und den Studenten gemeinschaftlich besetzt werden, und</p>
+                  <p>7. daß, was eine Garantie für die Regierung ist, die verschiedenen Abteilungen der Nationalgarde in ein Korps verschmolzen werden, und die Nationalgarde eine bessere Organisierung erhalte.</p>
+                  <p>Der Ministerrat hat beschlossen, über diese Eingabe, nach dem Antrage des Ministers des Inneren, in Form eines Schreibens an die bevollmächtigten Hofkommissäre in Prag – im Namen Ew. Majestät und mit Vorbehalt der Ah. Genehmigung – folgendes zu erlassen:</p>
+                  <p>1. Da Fürst Windischgrätz aus eigenem Antriebe seinen Posten niedergelegt hat, so werde diese Niederlegung angenommen und der General der Kavallerie Graf v. Mensdorff einstweilen mit der Leitung des Generalkommandos betraut.</p>
+                  <p>2. Alle Feindseligkeiten werden eingestellt und das Militär verhält sich so lange ruhig, als es nicht angegriffen wird.</p>
+                  <p>3. Keine Untersuchung gegen die im Laufe der letzten Woche verübten Handlungen soll vorgenommen werden, mit Ausnahme solcher Verbrechen, welche mit der politischen Aufregung in keinem Zusammenhange stehen.</p>
+                  <p>4. Der mit der Bevölkerung Prags in Kollision geratene Teil der Garnison wird durch Truppen abgelöst, welche zur Verstärkung der Garnison in Prag bestimmt worden sind.</p>
+                  <p>5. Die bei den Ereignissen der letzten Woche verhafteten Personen werden in Freiheit gesetzt, mit Vorbehalt der im dritten Absatze erwähnten Ausnahmen.</p>
+                  <p>
+                     <pb n="445" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s445.pdf"/>6. Der Kommandierende wird einverständlich mit dem Landeschef wegen gemeinschaftlicher Besetzung der Posten in der Stadt das Nötige einleiten.</p>
+                  <p>7. Die Verschmelzung der verschiedenen Teile der Nationalgarde ist sogleich in Ausführung zu bringen.</p>
+                  <p>Diesem findet das Ministerium noch beizufügen, daß diese Zugeständnisse unter den Bedingungen erteilt und bei Ew. Majestät vertreten werden, daß</p>
+                  <p>1. von den Hofkommissären die Zustimmung hierzu gegeben werde,</p>
+                  <p>2. daß die Stadt ihre Unterwerfung erkläre und die Handhabung der öffentlichen Ruhe und Ordnung und der persönlichen Freiheit zusichere,</p>
+                  <p>3. daß die Deputierten an den Gubernialpräsidenten Grafen Leo Thun das Bedauern über die eingetretene Verletzung seiner persönlichen Freiheit und über die der Regierung dadurch widerfahrene Beleidigung ausdrücken, und</p>
+                  <p>4. daß im Namen der Stadt Friede und Eintracht gelobt und von jedem Teile der Bevölkerung Achtung vor dem Gesetze eingehalten werde, wogegen jeder Teil der Bevölkerung auch Anspruch auf einen gleichen Schutz der Regierung erhält.</p>
+                  <p>Nur unter diesen Bedingungen könne das Ministerium sich eine vollständige Pazifizierung Prags und die Wiederkehr der Ordnung und Ruhe versprechen.</p>
+                  <p>Von diesem Erlasse an die Hofkommissäre wird gleichzeitig eine Abschrift den Deputierten mitgeteilt und die Einleitung getroffen, daß dieser Erlaß auch hier durch die Zeitung öffentlich bekannt gemacht werde<note type="footnote" n="3">Abschrift des Schreibens, datiert <date when="1848-06-18">18. 6. 1848</date>, an die beiden Hofkommissäre in <quote>ebd., Präs. 2030/1848</quote>. Auf dem Schriftstück ist vermerkt: <quote>Diese Expedition wurde nach Befehl des Herrn Ministers sistiert und erhielt unter derselben Zahl eine andere Erledigung</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480619-P-0077.xml#top_1_1_77_5">MR. v. <date when="1848-06-19">19. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_76_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bericht Doblhoffs über den Verbleib des Kaisers in Innsbruck</head>
+                  <p>Der Minister des Inneren teilte dem Ministerrate einen soeben eingelangten Bericht des Handelsministers Baron Doblhoff de dato Innsbruck 15. Juni d. J.<note type="footnote" n="4">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1144/1848</bibl>.</note> mit, worin derselbe meldet, daß Ew. Majestät wegen des Allerhöchstdemselben zugestoßenen Unwohlseins Innsbruck noch nicht verlassen können.</p>
+                  <p>Hinsichtlich der Hierherreise Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzogs Franz Karl als Stellvertreter Ew. Majestät wird dem Baron Doblhoff auf seinen Bericht erwidert, daß man dieses wichtige Datum durch Plakate und durch die Wiener Zeitung bereits zur allgemeinen Kenntnis gebracht<note type="footnote" n="5">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480617-P-0075.xml#top_1_1_75_1">MR. v. <date when="1848-06-17">17. 6. 1848</date>/I</ref>.</note> und mit großem Bedauern die neuen Schwierigkeiten vernommen habe, welcher dieser Reise Sr. kaiserlichen Hoheit neuerdings in den Weg gelegt werden wollen. Um diese folgenreichen Schwierigkeiten zu beseitigen, habe der Ministerrat sich bestimmt gefunden, dringende Vorstellung diesfalls unter einem an Se. kaiserliche Hoheit abgehen zu machen, daß nämlich Höchstdieselben die gemachten Zusagen in Erfüllung bringen mögen.</p>
+                  <p>Gleichzeitig wurde dem Baron Doblhoff in Ansehung der übrigen Punkte seines Berichtes, soweit sie nicht lediglich zur Wissenschaft dienen, das Nötige erwidert und demselben auch einige neueste Notizen über Prag und von dem Kriegsschauplatze mitgeteilt<note type="footnote" n="6">Ein ensprechendes Schreiben an Doblhoff konnte unter den Beständen des HHSTA., Kab. Kanzlei, nicht gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_76_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Ausfolgung von Artillerie an die Nationalgarde</head>
+                  <p>Nachdem das Ministerratsprotokoll, worin das Ministerium Ew. Majestät zur Ah. Kenntnis gebracht hat, daß es sich bestimmt gefunden habe, in der Hoffnung der Ah. Genehmigung der hiesigen Nationalgarde zwei Batterien Kanonen auszufolgen, und die weitere Bitte stellte, dieser Garde weitere drei Batterien (18 Kanonen) zukommen zu lassen, mit Ah. Genehmigung zurückgelangt ist<note type="footnote" n="7">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480529-P-0055.xml#top_1_1_55_2">MR. v. <date when="1848-05-29">29. 5. 1848</date>/II</ref>.</note>, so glaubt das tg. Ministerium diese 18 Kanonen der Nationalgarde ausfolgen lassen zu sollen, ohne erst auf ein neuerliches Ansuchen dieser Garde darum zu warten<note type="footnote" n="8">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480621-P-0079.xml#top_1_1_79_8">MR. v. <date when="1848-06-21">21. 6. 1848</date>/VIII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_76_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Verlängerung des Münzausfuhrverbotes</head>
+                  <p>Schließlich wurde über den Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers Freiherrn v. Krauß</rs>
+                     </hi>, welcher mit dem Gemeindeausschusse, den Handelsständen und anderen Männern vom Fache sich über die Frage ins Einvernehmen setzte, ob von dem erlassenen Münzausfuhrverbote<note type="footnote" n="9">Bereits mit Zirkular der niederösterreichischen Landesregierung v. <date when="1848-04-02">2. 4. 1848</date> war ein Silbermünzenausfuhrverbot verfügt worden, abgedruckt in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-04">4. 4. 1848</date>
+                        </bibl> und als Beilage 1 im <bibl type="archival">RGBI. Nr. 32/1849</bibl>. Ein weiteres Zirkular der niederösterreichischen Landesregierung v. <date when="1848-04-04">4. 4. 1848</date> dehnte dieses Verbot auch auf Goldmünzen aus, abgedruckt in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-05">5. 4. 1848</date>
+                        </bibl>, und als Beilage 2 im <bibl type="archival">RGBL. Nr. 32/1849</bibl>. Siehe dazu auch <bibl type="archival">FA., PP. 3008/1848 und PP. 3071/1848</bibl>.</note> nicht stillschweigend abzugehen wäre, diese sich aber für den längeren Bestand dieses Verbotes darum erklärten, weil die Aufhebung desselben auf die Verhältnisse der Bank übel einwirken könnte, von dem Ministerrate beschlossen, dieses Verbot auf einen Monat weiter zu verlängern<note type="footnote" n="10">Mit Zirkular (K.) v. <date when="1848-06-19">19. 6. 1848</date> wurden alle Landespräsidien und die damit befaßten Zentral- und Verwaltungsstellen von diesem Schritt unterrichtet, <quote>ebd., FM., Präs. 2152/1848</quote>. Anbei das entsprechende gedruckte Zirkular der niederösterreichischen Landesregierung v. <date when="1848-06-20">20. 6. 1848</date>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-06-18">18. Juni 1848</date>. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolles, die darin erwähnten Verfügungen genehmigend zur Wissenschaft. Erzherzog Johann. Wien, den <date when="1848-06-26">26. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

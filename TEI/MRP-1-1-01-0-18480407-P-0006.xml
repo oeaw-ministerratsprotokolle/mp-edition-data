@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="006">Sitzung 6</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-07"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z6.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">100</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-07"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Sommaruga, Zanini, außerdem anw. Mayer-Gravenegg; BdE. Ficquelmont (8. 4.), Franz Karl (9. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8254">
+                     <surname>Mayer-Gravenegg</surname>
+                  </persName>
+                  <note>außerdem anw. Mayer-Gravenegg</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-08">8. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-09">9. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_6_1">Lebens- und Transportmittel für die Armee in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_6_2">Anleiheverhandlungen mit der Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_6_3">Gefangenenaustausch</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_6_4">Kriegsgerichtliche Untersuchungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_6_5">Medaillenverleihungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_6_6">Österreichische Vertreter zum deutschen Parlament in Frankfurt a. Main</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item><date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item>
+            <item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480407-P-0006" ana="a1-1848_z6">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z6.pdf">
+               <title type="num">Nr. 6</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-07">7. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Sommaruga, Zanini, außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Mayer-Gravenegg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (8. 4.), Franz Karl (9. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">100</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des Ministerrates am <date when="1848-04-07">7. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_6_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Lebens- und Transportmittel für die Armee in Italien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> eröffnete, daß Feldmarschall Graf Radetzky dringend angesucht habe, seine Armee mit den ihr fehlenden Lebens- und Transportmitteln zu versehen<note type="footnote" n="1">Vgl. dazu <bibl type="archival">KA., HKR., CK., Präs. 280/1848, Präs. 573/1848</bibl> und <quote>Präs. 1014/1848</quote>.</note>. Hierüber gab der Kriegsminister die beruhigende Versicherung, daß wegen Deckung des diesfälligen Bedarfes für die nächste Zukunft bereits das Nötige vorgekehrt sei<note type="footnote" n="2">Siehe dazu die Schreiben (K.) Zaninis v. <date when="1848-04-07">7. 4. 1848</date> an den Stellvertreter des Kommandierenden in Verona und an den Militärkommandanten in Tirol, <bibl type="archival">KA., HKR., KM., Präs. 56/1848</bibl>.</note>.</p>
+                  <p>Ebenso sei auch bereits den Wünschen, welche Se. kaiserliche Hoheit der Erzherzog Johann zum Behufe der Landesbewaffnung in Tirol ausgesprochen habe<note type="footnote" n="3">Erzherzog Johann war auf Vortrag Ficquelmonts v. <date when="1848-04-01">1. 4. 1848</date> mit Ah. E. v. <date when="1848-04-03">3. 4. 1848</date> zum außerordentlichen Hofkommissär für Tirol und Vorarlberg ernannt worden, <bibl type="archival">HHSTA., StK., Vorträge 296, Fasz. I–IV, fol. 216–223</bibl>; anbei Abschrift des Kabinettschreibens an Erzhezrog Johann vom selben Tag; siehe dazu <bibl type="secondary">
+                           <author>Helfert</author>, Tyroler Landesverteidigung 39</bibl>; zu Erzherzog Johanns Urgenzen siehe seinen Vortrag v. <date when="1848-04-06">6. 4. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 77/1848</bibl>.</note>, durch die am heutigen Tage zwischen den Ministerien des Inneren und des Krieges verabredeten und unmittelbar getroffenen Verfügungen entsprochen worden<note type="footnote" n="4">Fortsetzung des Gegenstandes von <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_5">MR. v. <date when="1848-04-05">5. 4. 1848</date>/V</ref>. Siehe dazu die Punktationen über die Ergebnisse der Beratungen zwischen den Vertretern des Kriegs-, Innen- und Finanzministeriums v. <date when="1848-04-07">7. 4. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 99/1848</bibl>. Zum weiteren Fortgang <quote>ebd., Präs. 228/1848, Präs. 396/1848</quote> und <quote>Präs. 1140/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_6_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Anleiheverhandlungen mit der Nationalbank</head>
+                  <p>Der Vizepräsident Mayer v. Gravenegg erstattete Bericht über die bisherigen Ergebnisse der ihm aufgetragenen Verhandlung mit der Oesterreichischen Nationalbank wegen Abschluß eines Anlehens bei derselben<note type="footnote" n="5">Mit den österreichischen Finanzen stand es schon vor Ausbruch der Revolution nicht zum besten, siehe dazu <bibl type="secondary">
+                           <author>Brandt</author>, Neoabsolutismus 1, 144–151</bibl>. Kübeck hatte in zwei Vorträgen auf die bedrohliche Situation aufmerksam gemacht, <bibl type="archival">FA., FM., GP. 3301 und 3328, beide ex 1848</bibl>. Nach dem Ausfall der Steuerleistung der reichsten österreichischen Provinz, Lombardo-Venetiens, und der kostspieligen Aufrüstung wurde dringendst Geld für die Aufrechthaltung der Funktion des Staates gebraucht. Auf den Vortrag v. <date when="1848-03-10">10. 3. 1848</date> wurde Kübeck mit Ah. E. v. <date when="1848-03-28">28. 3. 1848</date> aufgetragen, <quote>Vorschläge über dasjenige vorzulegen, was noch vor der Einberufung der Abgeordneten der Provinzialstände behufs der Bedeckung der Staatsbedürfnisse verfügt oder eingeleitet werden müsse, ebd., GP. 3328/1848</quote>. – Bei den Verhandlungen Mayers mit der Nationalbank ging es eigentlich nicht um eine Anleihe des Staates bei der Bank, sondern um einen Vorschuß auf die vom Staat geplante Anleihe, die ja erst emittiert und vom Publikum gezeichnet werden mußte.</note>. Der Betrag des Darlehens könne seines <pb n="36" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s36.pdf"/>Erachtens nicht niedriger als 30 Millionen Gulden angesetzt werden, wenn der Dienst für die nächsten Monate völlig sichergestellt werden soll.</p>
+                  <p>Die Nationalbank wolle nun diesen Betrag nur gegen dem darleihen, daß a) der Bank für das neue Anlehen sowohl als für die früheren, noch nicht durch Pfänder sichergestellten Staatsanlehen gegenwärtig von der Regierung bestimmte Hypotheken an Staatsund Fondsgütern, an Eisenbahnaktien und Ärarialquecksilbervorräten auf die Anlehensdauer von zwei Jahren eingeräumt werden<note type="footnote" n="6">Zu früheren Anleihen des Staates bei der Bank vgl. <ref type="protocol-link" target="MRP-1-1-01-0-18480404-P-0003.xml#top_1_1_3_9">MR. v. <date when="1848-04-04">4. 4. 1848</date>/IX</ref>, Anm. 30.</note>.</p>
+                  <p>b) Daß die Bank nicht gehalten sein solle, mehr als vier Millionen des Darleihens in barem Gelde, d. i. in klingender Münze, zu bezahlen.</p>
+                  <p>c) Bevor die Nationalbank dieses Anlehen abschließt, behält sie sich vor, über die ganze Maßregel mit den niederösterreichischen Ständen und mit dem Wiener Bürgerausschusse Rücksprache zu pflegen, da die Bankdirektion und der Bankausschuß bei der Verwaltung dieses hochwichtigen Nationalinstituts eine ungeheuere Verantwortung der ganzen Monarchie gegenüber auf sich haben, und sie daher bei Beschlüssen über Lebensfragen wie die vorliegende nicht ohne den Beirat und Zustimmung der erwähnten, das öffentliche Vertrauen genießenden Korporationen vorgehen wollen.</p>
+                  <p>d) Schließlich bedingt sich die Nationalbank, daß ihr Barschatz durch Ankauf von Silbermünzen im Auslande unter Haftung der österreichischen Regierung vermehrt werde<note type="footnote" n="7">Die Finanzkrise war nicht zuletzt wegen des Mißtrauens in die Stabilität der österreichischen Währung – die sich u. a. aus dem Maß der Deckung der Noten durch Silber ergab – einstanden. Zwar hatte die Regierung versucht, dem durch ein Silberausfuhrverbot administrativ Rechnung zu tragen, was aber allein nicht viel fruchtete und schließlich zu außenpolitischen Komplikationen führte, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480428-P-0021.xml#top_1_1_21_6">MR. v. <date when="1848-04-28">28. 4. 1848</date>/VI</ref>.</note>.</p>
+                  <p>Der Ministerrat fand, daß unter den dermaligen politischen und finanziellen Konjunkturen gegen die gestellten Bedingungen im allgemeinen nicht wohl eine Einwendung erhoben werden könne, und daß es selbst im Interesse der Regierung liege, das Institut der Nationalbank vor gefährlichen Krisen durch alle zu Gebote stehenden Mittel zu schützen, den Kredit desselben durch Anweisung guter, ja selbst überreichlicher Hypotheken vollkommen sicherzustellen und die Barvorräte mit der Notenemission in einem richtigen Verhältnisse zu erhalten.</p>
+                  <p>Der Ministerrat erkannte es im gegenwärtigen Augenblicke für die Hauptsache, daß die Nationalbank und der auf dieselbe gestützte Staatskredit aufrechterhalten werde. Habe die Regierung die jetzt vorhandenen Schwierigkeiten überwunden und den Frieden nach außen sowie nach innen wiederhergestellt, so werde sich mit Hilfe der Reichsstände der finanzielle Zustand der Monarchie schon wieder regeln und konsolidieren lassen.</p>
+                  <p>Vizepräsident v. Mayer wurde daher vom Ministerrate ermächtigt, auf obiger Grundlage die weiteren Unterhandlungen mit der Nationalbank zu pflegen<note type="footnote" n="8">Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480410-P-0009.xml#top_1_1_9_1">MR. v. <date when="1848-04-09">9. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_6_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gefangenenaustausch</head>
+                  <p>Der Kriegsminister teilte mit, er beabsichtige den Marineoberkommandanten v. Martini gegen drei rebellische Offiziers der venezianischen Marine auswechseln zu lassen<note type="footnote" n="9">Im Verlauf der Revolution in Venedig war der Marinekommandant Vizeadmiral Anton Stephan Ritter v. Martini am <date when="1848-03-22">22. 3. 1848</date> mit anderen österreichischen Offizieren gefangengenommen worden, <bibl type="secondary">
+                           <author>Benko</author>, Geschichte der k. k. Kriegs-Marine 78 und 103ff.</bibl>; zu Martini <quote>ebd., 59ff.</quote> und <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 17, 26ff</bibl>. Er wurde erst am <date when="1848-07-25">25. 7. 1848</date> mit den anderen Gefangenen ausgetauscht, <bibl type="secondary">
+                           <author>Benko</author>, Kriegsmarine 109</bibl>. Vgl. dazu <bibl type="archival">KA., HKR., KM., Präs. 57, 60, 117, 313, 594 und 598, alle ex 1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_6_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Kriegsgerichtliche Untersuchungen</head>
+                  <p>Der Kriegsminister brachte in Antrag, den Leutnant von Herrn Erzherzog Ferdinand Maximilian Chevauxlegers, Julius Schill, welcher wegen seines Benehmens bei dem Volkstumulte gegen die Redemptoristen am <date when="1848-03-13">13. März 1848</date> vor ein Kriegsgericht gestellt worden ist<note type="footnote" n="10">Schill hatte während der Tumulte am <date when="1848-03-13">13. 3. 1848</date> zusammen mit einigen Bürgern die Sturmglocke der Kirche zu Maria Stiegen geläutet, worauf FML. Fürst Windischgrätz befahl, eine kriegsgerichtliche Verhandlung gegen ihn einzuleiten.</note>, unter Aufhebung der Untersuchung und Abnahme des Offizierscharakters zu entlassen, da einerseits diese sehr weitwendige Untersuchung schwerlich zu einem erklecklichen Resultate führen dürfte, andererseits aber zu besorgen ist, daß die längere Dauer seines Untersuchungsarrestes sowie auch seine künftige Abstrafung mehrere unliebsame Demonstrationen und Petitionen hervorrufen würde, welchen dergestalt vorgebeugt wäre.</p>
+                  <p>Diesem Antrage wurde allseitig beigestimmt<note type="footnote" n="11">Auf Vortrag Zaninis v. <date when="1848-04-07">7. 4. 1848</date> entschied der Kaiser mit Ah. E. v. <date when="1848-04-09">9. 4. 1848</date> folgendermaßen: <quote>Ich finden den Julius Schill unter Aufhebung der gegen ihn anhängigen kriegsrechtlichen Untersuchung Meines Dienstes zu entlassen</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 59/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 137/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_6_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Medaillenverleihungen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> legte einen Bericht des küstenländischen Gouverneurs<note type="footnote" n="12">Schreiben Salms an Pillersdorf v. <date when="1848-04-03">3. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 413/1848</bibl>.</note> vor, wonach der pensionierte Leutnant Anton Frank und der Finanzwachrespizient Johann Juresich mit Hilfe von Landleuten aus Fasana in Istrien ein mit zwölf bewaffneten venezianischen Matrosen bemanntes Boot, welches an der dortigen Küste ausspähen und einen Aufstand hervorrufen sollte, überwältigt und die Mannschaft gefangengenommen haben.</p>
+                  <p>Baron Pillersdorf und die übrigen anwesenden Minister glaubten, daß diese mit Kühnheit und Glück vollbrachte patriotische Handlung sobald als möglich durch Ag. Verleihung der mittleren goldenen Zivilehrenmedaille an Frank und Juresich gelohnt werden dürfte, um dadurch in weiteren Kreisen aufmunternd zu wirken<note type="footnote" n="13">Mit Kabinettschreiben v. <date when="1848-04-09">9. 4. 1848</date> wurde Frank und Juresich die mittlere goldene Ehrenmedaille mit dem Band verliehen und zugleich Pillersdorf angewiesen, die nötigen Schritte zu veranlassen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 100/1848</bibl>. Dem kam der Innenminister mit dem Schreiben (K.) v. <date when="1848-04-10">10. 4. 1848</date> an den Gouverneur des Küstenlandes Salm, den Oberstkämmerer Dietrichstein und Finanzminister Krauß nach, <bibl type="archival">AVA., IM., Präs. 616/1848</bibl>. Dietrichstein leitete die Angelegenheit mit Dekret v. <date when="1848-04-12">12. 4. 1848</date> an die Schatzkammer weiter, <bibl type="archival">HHSTA., OKäA., Karton 405 B, r. 65/1</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_6_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Österreichische Vertreter zum deutschen Parlament in Frankfurt a. Main</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erinnerte (mit Beziehung auf seinen unter KZ. 1314/1848 erstatteten au. Vortrag<note type="footnote" n="14">Vortrag Ficquelmonts v. <date when="1848-04-07">7. 4. 1848</date>. <quote>ebd., Kab. Kanzlei, MRZ. 57/1848</quote>.</note>), daß, nachdem der König von Preußen bereits die Einleitung getroffen habe, das deutsche Parlament in Frankfurt durch Abgeordnete der preußischen Stände beschicken zu lassen<note type="footnote" n="15">Zur diesbezüglichen Etnwicklung in Preußen vgl. <bibl type="secondary">
+                           <author>Huber</author>, Verfassungsgeshcichte 2, 572–585, und 606ff.</bibl> Am <date when="1848-04-03">3. 4. 1848</date> hatte Friedrich Wilhelm IV. verfügt, daß der preußische Vereinigte Landtag Abgeordnete für Frankfurt wählen sollte, <bibl type="secondary">
+                           <author>Rachfahl</author>, Deutschland. König Friedrich Wilhelm IV. und die Berliner Märzrevolution 291</bibl>; nach der Wahlmodifikation v. <date when="1848-04-07">7. 4. 1848</date> durch den Bundestag wurden in Preußen allgemeine Neuwahlen ausgeschrieben, siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_5">MR. v. <date when="1848-04-14">14. 4. 1848</date>/V</ref>, Anm. 11.</note>, Österreich sich allein von der Teilnahme an diesen Verhandlungen nicht ausschließen könne und daher die Stände der zum deutschen Bund gehörigen Provinzen sobald als möglich mittelst Patent aufzufordern wären, die auf jede einzelne entfallende Zahl von Abgeordneten zu wählen und ohne Verzug abzusenden. (Nach dem Maßstabe von einem Abgeordneten auf 70.000 Einwohner fallen auf Österreich 135 Vertreter<note type="footnote" n="16">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480403-P-0002.xml#top_1_1_2_6">MR. v. <date when="1848-04-03">3. 4. 1848</date>/VI</ref>, Anm. 18.</note>.) Diesem Antrage wurde einstimmig beigepflichtet.</p>
+                  <p>Die gemäß der gefaßten Beschlüsse des Ministerrates entworfenen Erlässe werden hiermit ehrerbietigst der Ah. Sanktion unterzogen<note type="footnote" n="17">Der in Anm. 14 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-09">9. 4. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 100/1848</bibl>. Die weiteren entsprechenden Schritte sollten im Einvernehmen mit Pillersdorf unternommen werden.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-04-08">8. April 1848</date>. Ficquelmont.</seg>
+                  <seg type="other">Ges. 9. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-09">9. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

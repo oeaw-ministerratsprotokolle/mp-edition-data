@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="026">Sitzung 26</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-03"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z26.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">611</idno>
+               </msIdentifier>
+               <p>
+                  <span>Abschrift</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-03"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>Abschrift; P. fehlt; VS. Ficquelmont; anw. Pillersdorf, Sommaruga, Krauß, Latour; BdE. fehlt.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_26_1">Abberufung Erherzog Rainers als Vizekönig von Lombardo-Venetien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_26_2">Behandlung der Beamten und Diener der aufgelösten geheimen Ziffernkanzlei</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_26_3">Pensionierung des Freiherrn Johann Talatzko v. Gestietitz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_26_4">Krawalle beim fürsterzbischöflichen Palais</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_26_5">Beruhigung der akademischen Jugend; Agitation des polnischen Komitees in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_26_6">Lage in Krakau</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_26_7">Rücktrittsgesuch Grödels</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480503-P-0026" ana="a1-1848_z26">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z26.pdf">
+               <title type="num">Nr. 26</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-03">3. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>Abschrift; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Sommaruga, Krauß, Latour; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> fehlt.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">611</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-05-03">3. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten Grafen v. Ficquelmont.</head>
+               <div type="agenda_item" xml:id="top_1_1_26_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Abberufung Erherzog Rainers als Vizekönig von Lombardo-Venetien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident</rs>
+                     </hi> übergab mit Beziehung auf den unterm <date when="1848-04-30">30. April 1848</date> gefaßten vorläufigen Beschluß zur Abberufung Sr. k. k. Hoheit des Herrn Erzherzog Vizekönigs des lombardisch-venezianischen Königreiches<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_10">MR. v. <date when="1848-04-30">30. 4. 1848</date>/X</ref>.</note> den hierauf bezüglichen Vortrag vom <date when="1848-05-03">3. Mai 1848</date>, KZ. 1607<note type="footnote" n="2">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 493/1848</bibl>.</note>, wogegen nichts zu erinnern und nur die Bemerkung anzufügen gefunden wurde, daß in Ansehung der sonach aufzulösenden vizeköniglichen Kanzlei dem mit dem Pazifikationsakte des Königreiches beauftragten Grafen v. Hartig überlassen werden dürfte, eines oder das andere Individuum dieser Kanzlei zur Verwendung für die Zwecke seiner Mission in Anspruch zu nehmen<note type="footnote" n="3">Ficquelmonts Vortrag datierte ursprünglich vom <date when="1848-05-02">2. 5. 1848</date>. Der vom Ministerrat beschlossene Zusatz ist am <date when="1848-05-04">4. 5. 1848</date> hinzugefügt worden. Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> auf den in Anm. 2 zit. Vortrag wurde dann Erzherzog Rainers Abberufugn endgültig beschlossen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Behandlung der Beamten und Diener der aufgelösten geheimen Ziffernkanzlei</head>
+                  <p>Der Ministerpräsident erstattete weiters seinen Vortrag vom heutigen Tage, KZ. 282<note type="footnote" n="4">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 492/1848</bibl>, ist nicht mehr vorhanden. Konzept in <quote>ebd., StK., Vorträge 296, Fasz. V–XII, fol. 22–31</quote>.</note>, über die Behandlung der Beamten und Diener der aufgelösten Geheimen Zifferkanzlei<note type="footnote" n="5">Die geheime Zifferkanzlei, ein Instrument der vormärzlichen Überwachungspolitik, hatte die Aufgabe. Briefe zu öffnen, deren Inhalt zu registrieren, Schriftstücke zu dechiffrieren und Chiffreschlüssel herzustellen. Die Kanzlei war am <date when="1848-04-04">4. 4. 1848</date> aufgelöst worden, siehe dazu <bibl type="secondary">
+                           <author>Stix</author>, Wiener Geheime Ziffernkanzlei, insbesondere 137</bibl>.</note>.</p>
+                  <p>Hierbei ergab sich das Bedenken, ob die Verhältnisse des Geheimen Kabinetts Ew. Majestät es gestatten, mehrere der noch dienstfähigen Beamten dieser Zifferkanzlei aufzunehmen, dann aber wurde vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherrn v. Krauß</rs>
+                     </hi> bemerkt, daß der Antrag, sämtliche Beamte und Diener dieser Kanzlei ohne Rücksicht auf Dienstjahre mit dem ganzen Gehalte in Disponibilitätsstand zu setzen, eine zu bedeutende Ausnahme von den bestehenden Direktiven in Anspruch nehme, welche er, Finanzminister, aus demselben Grunde nicht geraten fände, aus welchem sich schon im Vortrage gegen die allsogleiche Aufnahme einiger dieser Individuen in die Staatskanzlei ausgesprochen worden ist.</p>
+                  <p>
+                     <pb n="147" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s147.pdf"/>In den bisher besonders in der Finanzbranche vorgekommenen Fällen, wo Beamte durch Auflösung ihrer Stellen im administrativen Wege dienstlos geworden sind, hat die Ah. Gnade Ew. Majestät denselben ein sogenanntes Begünstigungsjahr zuzugestehen geruht<note type="footnote" n="6">Beamten, die wegen Änderungen in der Organisationsstruktur keine Dienststelle erhielten, wurde ein sogenanntes Begünstigungsjahr zugestanden, in dem sie als disponible Beamte in Verwendung blieben und ihre früheren Bezüge erhielten, siehe dazu <bibl type="secondary">
+                           <title>Mayerhofer – Pace</title>, Politischer Verwaltungsdienst 1, 199</bibl>.</note>, währenddessen die in Reduktion verfallenen Beamten ihre Bezüge behielten, und, wenn sie im Laufe dieses Jahres irgendeine Wiederanstellung erhielten, diese Bezüge auf neuen, wenn auch geringer dotierten Posten übertrugen. War das Jahr abgelaufen, ohne daß der Beamte eine Wiederanstellung erhalten hätte, dann trat dessen normalmäßige Behandlung, nämlich dessen Versetzung in den Quieszentenstand mit der ihm nach seinen Dienstjahren gebührenden Quote seines Aktivitätsgehaltes ein.</p>
+                  <p>Diese Behandlung hat die doppelte Rücksicht für sich, einmal, daß der Beamte für die erste Zeit seiner Dienstlosigkeit der Sorge um seine Existenz überhoben ist, dann aber, daß die nach einem Jahre bevorstehende normalmäßige Behandlung ihn anspornt, sich nur umso eifriger um Wiederanstellung selbst zu bewerben, wogegen in dem Falle, wenn den reduzierten Beamten der Genuß des ganzen Gehaltes ohne Einschränkung für die Dauer der Disponibilität zugesichert werden wollte, kaum zu erwarten sein dürfte, daß einer sich um eine Wiederanstellung ernstlich bewerben würde. Nach diesem Grundsatze dürften daher auch die Beamten der Zifferkanzlei, die weder sogleich in Ruhestand versetzt, noch anderwärts untergebracht werden können, zu behandeln sein, das ihnen zu gewährende Begünstigungsjahr aber aus Rücksichten der Billigkeit statt vom Zeitpunkte der Auflösung des Amtes von einem späteren Termine, allenfalls vom <date when="1848-06-01">1. Juni 1848</date> an, zu laufen habe.</p>
+                  <p>Mit diesem Antrage haben sich nicht nur die übrigen Minister, sondern auch der Ministerpräsident umso mehr einverstanden erklärt, als es nach der Versicherung des Freiherrn v. Krauß der Ah. Gnade, gleichwie in früheren Fällen so auch hier, vorbehalten bleibt, die im Laufe des ersten Jahres nicht untergebrachten Beamten durch Verlängerung des Begünstigungsjahres zu berücksichtigen<note type="footnote" n="7">Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> hat der Kaiser die Vorschläge des Ministerrates in dieser Frage angenommen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 611/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pensionierung des Freiherrn Johann Talatzko v. Gestietitz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> übergab den beiliegenden Vortrag vom <date when="1848-05-03">3. Mai 1848</date>, KZ. 1608<note type="footnote" n="8">
+                        <quote>Ebd., MRZ. 494/1848</quote>.</note>, wegen Versetzung des nö. Regierungspräsidenten Baron Talatzko in den Ruhestand. Die schon längere Zeit, besonders seit den letzten Ereignissen bemerkte Abnahme der Tatkraft dieses Präsidenten (wovon auch ein mitgeteiltes Schreiben eines Schätzungskommissärs aus Niederösterreich einen weiteren Beleg liefert, welcher versichert, daß im ganzen Lande keine Spur eines Einschreitens der Kreisämter und der Regierung wahrzunehmen sei) – verbunden mit der Schwäche, die der Präsident bei dem im Vortrage dargestellten Vorfalle an den Tag gelegt hat<note type="footnote" n="9">Aktenstücke, welche die bei der Bevölkerung diskreditierten Ligurianer betrafen, waren auch an die Öffentlichkeit gelangt und hatten hier für Aufregung gesorgt, ohne daß Talatzko in das Geschehen eingegriffen hätte. Zu diesen Vorfällen siehe <bibl type="secondary">
+                           <author>Reschauer – Smets</author>, Revolution 1, 69 f</bibl>.</note>, lassen sämtliche Glieder die unbedingte Notwendigkeit der Enthebung desselben vom Amte erkennen.</p>
+                  <p>
+                     <pb n="148" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s148.pdf"/>Der Minister des Inneren setzte noch hinzu, daß auch die am Schlusse seines Vortrages eingelangte, in einer Note von ihm nur kurz berührte Rechtfertigungsschrift des Präsidenten über den Vorfall vom 2. dieses<note type="footnote" n="10">Dieses Schriftstück ist unter den Beständen des HHSTA., Kab. Kanzlei, und AVA., IM., Präs., nicht vorhanden.</note>, nicht geeignet sei, das Benehmen des Präsidenten bei diesem Vorfalle in einem milderen Lichte erscheinen zu lassen. Denn hätte derselbe, wie er sollte, die zu ihm eingedrungenen Menschen gehörig aufzuklären versucht, oder nötigenfalls dieselben in das Kloster der Redemptoristen geleiten lassen, so würden sie sich überzeugt haben, daß dasselbe bereits zu Büros eingerichtet und von allen Geistlichen verlassen sei. Statt dessen wies er sie an ihn, den Minister, dem es nur nach vielem Zureden gelungen, die Leute mit der Versicherung zu beruhigen, daß ihm von dem Wiederauftreten der Redemptoristen nichts bekannt sei.</p>
+                  <p>Was insbesondere die in den Händen dieser Leute befindlich gewesenen, die Redemptoristen betreffenden Aktenstücke anbelangt, so sichert zwar der Präsident die Anzeige des Resultates der Untersuchung zu, welche er über die Erfolgung derselben aus der Registratur eingeleitet zu haben berichtet. Allein, es war jedenfalls gefehlt, die Leute mit denselben abgehen zu lassen, und er, der Minister, habe sich nicht berufen gefühlt, diese Akten zu übernehmen, sondern nur für seine Pflicht gehalten, die Vorzeiger derselben mit Ernst aufzufordern, selbe dorthin wieder abzuliefern, woher sie sie erhalten.</p>
+                  <p>Wenn endlich der Regierungspräsident versichert, seinen Präsidialsekretär mit den eingedrungenen Personen zum Minister abgeordnet zu haben, so muß dieser die Angabe dahin berichtigen, daß der Präsidialsekretär zwar im Büro des Ministers sich gezeigt haben, und als er diesen nicht daselbst traf, sogleich wieder verschwunden sein soll, ihm, Minister, aber selbst gar nicht zu Gesichte gekommen ist<note type="footnote" n="11">Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> wurde Talatzko in den Ruhestand versetzt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 611/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Krawalle beim fürsterzbischöflichen Palais</head>
+                  <p>Die in der Nacht vom 2. auf den 3. dieses stattgehabten Tumulte und Charivaris beim fürsterzbischöflichen Palais und anderen Orten waren die Folgen jener Vorgänge<note type="footnote" n="12">Vgl. dazu Anm. 9.</note>. Hierüber teilte der Minister einen Bericht des hiesigen Polizeioberdirektors mit<note type="footnote" n="13">Dieser Bericht ist in den Wiener Archiven nicht mehr erhalten.</note>, aus welchem zu ersehen, daß zwar die Nationalgarde gegen die Tumultuanten aufgeboten, an einem wirksamen Einschreiten aber teils durch die verhältnismäßig große Zahl der versammelten Volksmenge, teils durch den Umstand gehindert worden ist, daß unter der Volksmasse selbst viele Nationalgarden sich befanden und gröbere Exzesse nicht vorfielen. Militärgewalt anzuwenden, schien dem Polizeidirektor nicht ratsam.</p>
+                  <p>Da auf heute Nacht ähnlicher Unfug besorgt wird, so ist bereits die Einleitung getroffen worden, daß durch Bereithaltung größerer Abteilungen der Nationalgarde und zahlreicherer Patrouillen für Aufrechthaltung der Ordnung gesorgt werde.</p>
+                  <p>Während des Vortrages erhielt der Minister ein Schreiben von Dr. Lerch, Dekan der medizinischen Fakultät<note type="footnote" n="14">Dieses Schreiben ist weder im Bestand des Universtitäts Archivs, Consistorial-Akten, noch in jenen des AVA., IM., Präs., zu finden.</note>, worin ersterer dringend aufgefordert wird, den Ministerrat <pb n="149" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s149.pdf"/>zur sogleichen Veranlassung einer Kundmachung wegen gänzlicher Abschaffung der Redemptoristen zu vermögen, indem sonst bei der noch fortwährenden Aufregung für den morgigen Tag ernstliche Exzesse zu besorgen seien.</p>
+                  <p>Nicht sowohl diese Drohung (da Spuren einer besonderen Aufregung nicht bemerkbar waren) als vielmehr die Überzeugung von der Unhaltbarkeit der in den letzten Dezenien der Monarchie aufgedrungenen geistlichen Orden, welche, weit entfernt, den Zwecken, die man mit ihrer Einführung erreichen wollte, zu entsprechen, nur Uneinigkeit gestiftet, Erbitterung erzeugt und selbst nach dem Urteile der Verständigeren unter dem Volke den Keim zu den jetzigen Übeln gelegt haben, bestimmte den Ministerrat zu der Ansicht, daß es wünschenswert und dringend sei, in einem Zeitungsartikel erklären zu lassen, der Ministerrat habe beschlossen, nicht nur den Orden der Redemptoristen, sondern auch jenen der Jesuiten im Umfange der ganzen Monarchie aufzuheben.</p>
+                  <p>Baron Krauß machte zwar bemerklich, daß die Jesuiten doch mehr Sympathien im Volke haben dürften, und namentlich in Galizien, wo sie die nationale Partei ergriffen haben. Aber dies letztere, bemerkte Baron Pillersdorf, wäre gerade ein Motiv mehr, sie aufzuheben, und da sie in den anderen Provinzen gewiß nicht beliebt, in Gratz sogar tatsächlich vertrieben<note type="footnote" n="15">Am <date when="1848-03-15">15. 3. 1848</date> war das dortige Jesuitenkloster von der aufgebrachten Menge gestürmt worden, siehe dazu <bibl type="secondary">
+                           <author>Tomek</author>, Kirchengeschichte Östereichs 3, 712 f.</bibl>
+                     </note>, und selbst in Rom vom Oberhaupte der Kirche aufgehoben worden sind<note type="footnote" n="16">Das war im März 1848 geschehen, siehe dazu <bibl type="secondary">
+                           <author>Stepischnegg</author>, Papst Pius IX. 1, 355</bibl>.</note>, so ist es besser, die Aufhebung ihres Ordens, die denn doch früher oder später unausbleiblich erfolgen müßte, gleich jetzt bei diesem Anlasse und mit einem Male auszusprechen.</p>
+                  <p>Der Ministerrat, dem ohnehin in den Tagesblättern unaufhörlich der Vorwurf der Langsamkeit und Unentschlossenheit gemacht wird, würde durch eine solche gewiß willkommene Erklärung wenigstens diesen einen so oft ausgebeuteten Vorwand zur Unzufriedenheit beseitigen<note type="footnote" n="17">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480505-P-0028.xml#top_1_1_28_2">MR. v. <date when="1848-05-05">5. 5. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Beruhigung der akademischen Jugend; Agitation des polnischen Komitees in Wien</head>
+                  <p>Es ist ferner gewiß, daß in der zahlreichen akademischen Jugend, die von aufreizenden Einwirkungen Fremder und Einheimischer so leicht entflammt wird, ein bedeutendes Element der Gärung vorhanden ist. Es kann nur wünschenswert sein, sie sobald als möglich zu zerstreuen, weshalb der Minister des Inneren den provisorischen Unterrichtsminister auffordern zu müssen erachtete, die Einleitung treffen zu wollen, daß den Studierenden bei den Prüfungen alle möglichen Erleichterungen verschafft und sie sodann bestimmt werden mögen, von dem bedeutend früheren Eintritte der Ferien zur Entfernung von Wien Gebrauch zu machen. Reisen gleich nicht alle und bleiben auch die Hauptagitatoren, als welche die Doktoren bezeichnet werden, zurück, so wird doch wenigstens die Masse des zündbaren Stoffes verringert und ist dann in ihrem Wirken nach außen leichter zu beschränken<note type="footnote" n="18">Fortsetzung des des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480504-P-0027.xml#top_1_1_27_1">MR. v. <date when="1848-05-04">4. 5. 1848</date>/I</ref>, besonders Anm. 10.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> hielt wohl noch ernstere Maßregeln zur Unterdrückung des überhandnehmenden Unfuges der Straßentumulte, der steten Aufwiegelung durch <pb n="150" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s150.pdf"/>Fremde und Einheimische mittelst öffentlicher Reden, Maueranschlägen, Versammlungen etc. für notwendig (in welcher Beziehung auch Baron Krauß auf Wegweisung der polnischen Deputierten<note type="footnote" n="19">Zur galizischen Deputation siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_4">MR. v. <date when="1848-04-05">5. 4. 1848</date>/IV</ref>, Anm. 10.</note> hindeutete). Graf Ficquelmont meinte, daß solche Exzesse nach den noch immer geltenden Gesetzen geahndet, und daß, falls dieselben unzureichend wären, neue gegeben werden sollten, um dem bisherigen gesetzlosen Treiben mit allem Nachdrucke zu begegnen. Insbesondere wird er durch die wiederholten Berichte des Gouverneurs von Galizien an den Minister des Inneren auf die Schädlichkeit des Treibens des in Wien befindlichen geheimen Polenkomitees<note type="footnote" n="20">Zu diesem Komitee siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_8">MR. v. <date when="1848-04-29">29. 4. 1848</date>/VIII</ref>.</note> aufmerksam gemacht, von dessen Bekämpfung nicht bloß die Ruhe der Residenz, sondern auch die Kraft der Regierung in Galizien gewinnen könnte.</p>
+                  <p>Baron Pillersdorf erklärte aber, daß er bei der Behutsamkeit und Klugheit, mit welcher die Agitatoren ihr Werk betreiben, bei der Unzulänglichkeit der in ihrem Wirken gelähmten Polizeiorgane und bei dem Widerstreben der Nationalgarde, sich an deren Stelle gebrauchen zu lassen, nicht imstande sei, in dieser Beziehung präventiv mit Erfolg einzuschreiten, daß er insbesondere die Abschaffung der mit regelmäßigen Pässen versehenen Mitglieder der polnischen Deputation nicht veranlassen könne, und bezüglich der Erledigung ihrer Petition (wie er schon im Ministerrate vom 26. April bemerkte<note type="footnote" n="21">
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480426-P-0020.xml#top_1_1_20_6">MR. v. <date when="1848-04-26">26. 4. 1848</date>/VI</ref>.</note>) die noch immer aushaftende Äußerung des Grafen Stadion abwarten müsse<note type="footnote" n="22">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_2">MR. v. <date when="1848-05-07">7. 5. 1848</date>/II</ref>.</note>.</p>
+                  <p>Noch eines Umstandes ward erwähnt, der fortan eine Bewegung erhält. Es ist das Gerücht, als würde ein Teil der öffentlichen Geschäfte noch immer in der früheren Art mit Intervenierung des aus dem Ministerrate getretenen Grafen Kolowrat besorgt, was zu verschiedenen Deutungen und Übertreibungen Anlaß gibt.</p>
+                  <p>Es wäre sonach, wie Baron Sommaruga vermeinte, vielleicht vom guten Erfolge, wenn jene hohen Personen, welche mit dem erwähnten Gerüchte in Verbindung stehen, durch Änderung ihres Aufenthaltsortes jeden Vorwand zu unbegründeten Gerüchten beseitigen wollten.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Lage in Krakau</head>
+                  <p>Baron Pillersdorf teilte einen Bericht des GM. Baron Moltke aus Krakau vom 29. April mit, wonach daselbst Ruhe, wenngleich große Spannung der Gemüter herrscht<note type="footnote" n="23">Dieser Bericht an den Innenminister ist nicht mehr erhalten. Vgl. dazu ein ähnliches Schreiben Moltkes an Zanini v. <date when="1848-04-30">30. 4. 1848</date>, wornach es in Krakau am 29. und <date when="1848-04-30">30. 4. 1848</date> keine Ruhestörung gegeben hatte, <bibl type="archival">HHSTA., StK., Noten von dem Hofkriegsrat 282</bibl>. Der entsprechende Akt <bibl type="archival">KA., HKR., KM., Präs. 974/1848</bibl> ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_26_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Rücktrittsgesuch Grödels</head>
+                  <p>Von ebenda kam ein Bericht des Polizeikommissärs Grödl vor, welcher bittet, von dem Amte als provisorischer Polizeidirektor, dem er sich nicht gewachsen fühle, enthoben zu werden. Er empfiehlt zu seinem Nachfolger den Syndikus von Podgorze Seemann<note type="footnote" n="24">Weder unter den Beständen des AVA. IM., Präs., noch unter jenen des Staatsaechivs in Krakau konnte dieser Bericht gefunden werden. Vgl. dazu aber das Schreiben Moltkes v. <date when="1848-05-01">1. 5. 1848</date>, in dem er Seemann als geeigneten Mann empfiehlt, <bibl type="archival">AVA., IM., Präs. 1481/1848</bibl>.</note>. Allein dieser soll keinen guten Ruf haben, auch der galizische Landesreferent <pb n="151" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s151.pdf"/>bei der vereinigten Hofkanzlei wußte außer dem Senator Kopp, der zur Zeit des Freistaates die Polizei leitete und noch am meisten Gewicht haben dürfte, niemand zu bezeichnen.</p>
+                  <p>Baron Krauß deutete auf den sehr tüchtigen Hofsekretär Baron Päumann, der lange in Galizien diente.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> wird aber vorläufig hierwegen von dem, nun schon in Krakau angekommenen FML. Grafen Schlik<note type="footnote" n="25">Zur Absendung Schliks nach Krakau siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_2">MR. v. <date when="1848-04-29">29. 4. 1848</date>/II</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_11">MR. v. <date when="1848-04-30">30. 4. 1848</date>/XI</ref>.</note> eine bestimmte Auskunft abverlangen und bis dahin keine entscheidende Verfügung treffen<note type="footnote" n="26">Mit Schreiben (K.) v. <date when="1848-05-05">5. 5. 1848</date> an Schlik lehnte Pillersdorf Seemann ab und empfahl, die Sicherheit Krakaus einem Ausschuß von ortsansässigen Bürgern zu übertragen, <bibl type="archival">AVA., IM., Präs. 1488/1848</bibl>.</note>.</p>
+                  <p>Die Erledigungsentwürfe ad I. wegen Abberufung Sr. kaiserlichen Hoheit des Herrn Erzherzog Vizekönigs befinden sich auf dem diesfälligen Votantenbogen zur KZ. 1607, MR. 493/1848.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-05-03">3. Mai 1848</date>.</dateline>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-05-06">6. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

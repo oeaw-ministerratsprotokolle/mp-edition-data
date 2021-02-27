@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="035">Sitzung 35</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-12"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z35.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">655 et 656</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-12"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner, Lebzeltern; BdE. Pillersdorf (13. 5.), Franz Karl (14. 5.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-13">13. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-14">14. 5.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_35_1">Prager Slawenkongreß</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_35_2">Verbot des politischen Zentralkomitees der Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_35_3">Polnisches Komitee in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_35_4">Aufnahme des Wahlgesetzes</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_35_5">Steierisches Freikorps für Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_35_6">Entsendung Carl v. Hummelauers nach England</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_35_7">Verleihung des Ratstitels an Anton Nachich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_35_8">Wahlen zur Frankfurter Bundesversammlung in Auschwitz und Zator</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_35_9">Bericht Radetzkys</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_35_10">Vertretung des Kriegsministers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_35_11">Adjustierungsänderungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_35_12">Versammlung der deutschen Eisenbahner in Wien</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480512-P-0035" ana="a1-1848_z35">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z35.pdf">
+               <title type="num">Nr. 35</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-12">12. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner, Lebzeltern; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (13. 5.), Franz Karl (14. 5.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">655 et 656</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-05-12">12. Mai 1848</date> unter dem Vorsitze des interimistisch mit dem Präsidium des Ministerrates beauftragten Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_35_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Prager Slawenkongreß</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> bemerkte, er habe aus öffentlichen Blättern ersehen, daß von einem zu Prag bestehenden Vereine von Slawen auf den 31. Mai eine allgemeine Versammlung von Slawen aller Stämme in Prag ausgeschrieben worden sei, um sich über die Interessen der slawischen Nationen und über die zur Sicherung derselben zu ergreifenden Maßregeln zu beraten<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480510-P-0033.xml#top_1_1_33_5">MR. v. <date when="1848-05-10">10. 5. 1848</date>/V</ref>.</note>.</p>
+                  <p>Da eine solche Versammlung illegal und nur geeignet wäre, neue Aufregung sowohl in den deutschen Provinzen als auch bei der deutschen Bevölkerung der slawischen Provinzen hervorzurufen, übrigens auch der Zweck der Versammlung nicht klar ausgesprochen ist, so gedenkt der Minister, welchem von der Existenz und dem Vorhaben dieses Vereins im ämtlichen Wege nichts bekannt geworden ist, den böhmischen Gubernialpräsidenten um nähere Aufschlüsse hierüber anzugehen und ihn aufzufordern, darüber zu wachen, daß [sich] nicht etwa eine Art slawischen Parlaments aus Abgeordneten aller slawischen Nationen bilde<note type="footnote" n="2">Siehe dazu ebd., Anm 14</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verbot des politischen Zentralkomitees der Nationalgarde</head>
+                  <p>Dem Minister des Inneren wurde von einer mährischen Deputation eine Vorstellung wegen baldiger Erlassung des Wahlgesetzes, welches bereits kundgemacht worden<note type="footnote" n="3">Zum provisorischen Wahlgesetz für den Reichstag siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_13">MR. v. <date when="1848-05-06">6. 5. 1848</date>/XIII</ref>; zu dessen Publizierung <ref type="protocol-link" target="MRP-1-1-01-0-18480610-P-0067.xml#top_1_1_67_1">MR. v. <date when="1848-06-10">10. 6. 1848</date>/I</ref>.</note>, dann wegen kräftigerer Maßregeln gegen die wahrgenommene Anarchie in Wien übergeben<note type="footnote" n="4">Diese Eingabe der mährischen Deputation konnte in den Wiener Archiven nicht gefunden werden.</note>. In dieser letzteren Beziehung muß er die Aufmerksamkeit des Ministerrates auf einen Vorgang in der Nationalgarde allhier lenken, welcher geeignet ist, dieselbe ihrer Bestimmung zu entfremden und zu einem gefährlichen Werkzeuge für Parteiungen zu machen.</p>
+                  <p>Schon unterm 8. d. [M.] wurde dem Minister von dem Kommandanten der 3. Bezirks-Abteilung der Nationalgarde in einer sehr loyalen Adresse<note type="footnote" n="5">Diese Adresse konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHStA., RTA., gefunden werden.</note> mitgeteilt, daß sich <pb n="208" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s208.pdf"/>ein politisches Zentralkomitee der Nationalgarde gebildet und sich die Aufgabe gesetzt habe, über Verwaltungs- und Gesetzgebungsgegenstände zu beraten<note type="footnote" n="6">Zur Entstehung dieses <quote>politischen Zentralkomitees der gesamten Nationalgarde Wiens</quote> zwischen dem 6. und <date when="1848-05-10">10. 5. 1848</date> siehe <bibl type="secondary">
+                           <title>Reschauer - Smets</title>, Revolution 2, 151–156</bibl>, und <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 2, 43 f</bibl>.</note>. Der Minister hat dem Kommandanten in einem konfidentiellen Schreiben für diese Mitteilung gedankt und erinnert, daß diese Aufgabe der Bestimmung der Nationalgarde fremd sei. Hiervon wurde auch dem Oberkommando der Nationalgarde eine Abschrift mitgeteilt<note type="footnote" n="7">Das Original der Antwort Pillersdorfs an das Kommando des 3. Stadtbezirkes der Nationalgarde ist nicht mehr auffindbar. Die erwähnte Abschrift v. <date when="1848-05-08">8. 5. 1848</date> in <bibl type="archival">ÖNB., Flugschriftensammlung, Wien 1848/75/9</bibl>.</note>. Indessen fährt das genannte Zentralkomitee in seiner Tätigkeit fort; die Bemühungen einzelner, der selben Einhalt zu tun, hatten keinen Erfolg, die Bessergesinnten erwarten ein kräftigeres Auftreten der Regierung dagegen und die Beteiligten selbst sind, nach einem Berichte des hiesigen Polizeidirektors vom heutigen Tage<note type="footnote" n="8">Dieser Bericht ist weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHStA. zu finden.</note> über die erwartete Aufhebung des politischen Komitees von Seite der Regierung beunruhigt.</p>
+                  <p>Da die Nationalgarde als bewaffnete Macht keine andere Bestimmung hat, als die öffentliche Sicherheit, Ordnung und Ruhe zu schützen, die Aufrechthaltung der Verfassung und des Staatsverbandes zu garantieren, so kann sie, ein bloß vollziehendes Organ, nicht beratend und gesetzgebend sein. Sie entfernt sich von ihrer Bestimmung, wenn sie sich zum politischen Körper gestaltet, der Parteiungen und Gärungen zu veranlassen geeignet ist. Für ihre eigenen inneren Angelegenheiten findet sie ihre gesetzliche Vertretung in ihrem Verwaltungsrate<note type="footnote" n="9">Die Errichtung dieses Verwaltungsrates war aufgrund der am <date when="1848-04-10">10. 4. 1848</date> erlassenen politischen Grundzüge der Organisation der Nationalgarden erfolgt. Der § 9 lautet: <quote>Der Nationalgarde-Verwaltungsrath hat sich in allen Angelegenheiten, welche seinen Wirkungskreis überschreiten, unmittelbar an den Landes-Chef, jener in Wien an den Minister des Inneren zu wenden</quote>. Abgedruckt bei <bibl type="secondary">
+                           <title>Reschauer - Smets</title>, Revolution 2, 71</bibl>.</note>.</p>
+                  <p>Der Minister des Inneren gedächte daher, in diesem Sinne eine Zuschrift an den Oberkommandierenden der Nationalgarde zu erlassen und ihn zu ersuchen, den Mitgliedern derselben die Teilnahme an Vereinigungen zu politischen Zwecken im Dienstwege mittelst Tagesbefehls zu untersagen.</p>
+                  <p>Unter einem solchen Verbotserlasse würde zwar auch die Studentenlegion als ein Teil der Nationalgarde getroffen sein<note type="footnote" n="10">Gemeint ist die Akademische Legion, die nominell zwar ein Teil der Nationalgarde war, sich aber als ein abgesondertes Corps verstand; zu ihrer Entstehung siehe das Hofkanzleipräsidialdekret v. <date when="1848-03-14">14. 3. 1848</date>, Z. 574, über die Bewaffnung der Studierenden, abgedruckt bei <bibl type="secondary">
+                           <author>Heintl</author>, Universitäts-Acten Nr. 3</bibl>, und die Kundmachung des Wiener Universitätsrektors v. <date when="1848-03-20">20. 3. 1848</date> über die Grundlinien zur Organisierung der Akademischen Legion, <quote>ebd., Nr. 9.</quote>
+                     </note>; da aber die akademische Jugend gerade in dieser Beziehung sich besonders tätig erweiset, sich zur Vertreterin aller Klassen der Bevölkerung aufwirft, wovon dem Minister selbst Proben vorgekommen, und nach dem schon erwähnten Polizeiberichte vom heutigen Tage über das Wahlgesetz seit gestern Komiteeberatungen angestellt hat, welche nur durch die heute morgens in der Leopoldstadt ausgebrochene Feuersbrunst, an deren Stätte die beratende Jugend eilte, unterbrochen <pb n="209" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s209.pdf"/>wurden, so hält der Minister des Inneren eine besondere Verfügung, etwa durch gütliche Überredung und Einwirkung auf die Studierenden, für umso dringender, als sonst zu besorgen sein dürfte, daß das in der Nationalgarde bekämpfte Element nur noch tiefere Wurzeln auf der Universität schlagen werde. Er glaubte daher den Minister des öffentlichen Unterrichts sowohl hierwegen als auch wegen möglichster Beschleunigung des Schlusses des heurigen Schuljahres um seine Mitwirkung angehen zu sollen.</p>
+                  <p>In letzterer Beziehung bemerkte Freiherr v. Sommaruga, daß der Schluß des Schuljahres auf Ende Mai festgesetzt worden sei<note type="footnote" n="11">Diese Angabe Sommarugas ist ungenau. Mit Erlaß v. <date when="1848-05-08">8. 5. 1848</date>, Z. 3037/280, hatte das Unterrichtsministerium verfügt, daß jeder Professor der juridisch-politischen Studien an der Wiener Universität dann das Semester schließen könne, wenn er mit seinem Lehrstoff fertig sei; die erste Hälfte Juni sollte nicht überschritten werden, <bibl type="secondary">
+                           <author>Heintl</author>, Universitäts-Acten Nr. 52</bibl>. Erst mit Erlaß v. <date when="1848-05-14">14. 5. 1848</date>, Z. 3198, wurde der Schulschluß für das Wiener Polytechnische Institut mit Ende Mai bestimmt, <quote>ebd</quote>.</note>. In der erstem Beziehung erklärte er sich bereit, das Geeignete verfügen zu wollen, mit dem Beifügen jedoch, daß bereits früher schon von seiner und einiger Professoren Seite den Studierenden die Teilnahme an politischen Umtrieben ernstlich abgeraten und von ihnen das Versprechen gegeben worden sei, sich solcher Demonstrationen zu enthalten, wie denn auch wirklich seither der Zugang zur Aula für Fremde gesperrt und bewacht wird<note type="footnote" n="12">Zur Beschränkung der politischen Aktivitäten in der Aula vgl. <ref type="protocol-link" target="MRP-1-1-01-0-18480504-P-0027.xml#top_1_1_27_1">MR. v. <date when="1848-05-04">4. 5. 1848</date>/I</ref>, Anm. 10.</note>.</p>
+                  <p>Bei der Umfrage über diesen Gegenstand hatte sich dem Handelsminister Baron Doblhoff das Bedenken aufgedrungen, ob einerseits ein bloßer Tagesbefehl des Nationalgardeoberkommandos für einen so wichtigen Zweck hinreichen und nicht vielmehr ein förmliches Gesetz gegen solche politische Beratungen der Nationalgarde Ew. Majestät vorzuschlagen sein werde, dann, ob andererseits schon gegenwärtig ein genügender Anlaß zu einem Einschreiten der Regierung vorhanden sei, nachdem die Beratungen des Nationalgardekomitees noch zu keinem in die Öffentlichkeit getretenen Resultate gekommen sind, nicht einmal eine aus solchen Komiteeberatungen hervorgegangene Petition von ihr vorliegt, welche doch vor allem abgewartet werden dürfte, bevor, bei dem Bestande des freien Petitions- und Assoziationsrechts, von Seite der Regierung gegen diese Vereinigung der Mitglieder der Nationalgarde eingeschritten werden kann.</p>
+                  <p>Hierauf erwiderte aber der Minister des Inneren, daß ein solcher Tagesbefehl seiner Ansicht nach den vollen Inhalt der Ministerialzuschrift wiedergeben, daher nicht als eine bloß vom Oberkommando der Nationalgarde ausgegangene Verfügung, sondern als eine Regierungsanordnung angesehen werden müßte, und daß ein in der Natur und Bestimmung der Nationalgarde gegründetes Verbot, sich zu einer politischen Körperschaft zu gestalten, als erster Schritt der Regierung in dieser Beziehung wohl genügen, ein förmliches Gesetz aber erst dann notwendig werden dürfte, wenn dieses Verbot erfolglos bliebe.</p>
+                  <p>Was die zweite Einwendung betrifft, daß, vorerst eine aus einer Komiteeberatung der Nationalgarde hervorgegangene Petition abzuwarten sei, so entgegnete Baron Pillersdorf, daß eine solche Petition nur die Folge der Beratung wäre, daß daher, wenn schon die Ursache, die Beratung nämlich, als ungesetzlich angesehen werden muß, nicht erst ihre Wirkung abgewartet zu werden brauche, um das Einschreiten der Regierung zu <pb n="210" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s210.pdf"/>rechtfertigen, sonst müßte man auch ruhig zusehen, wenn die Nationalgarde es sich einfallen ließe, die Beschlüsse des Reichstags nach jeder Sitzung in ihrem Komitee einer Beratung zu unterziehen und dadurch in Frage zu stellen; daß endlich von den Bessergesinnten in der Nationalgarde selbst ein entschiedenes Auftreten der Regierung gewünscht und von demselben mit Grund erwartet wird, daß dadurch die noch Schwankenden sich an die Gutgesinnten fester anschließen und so die überwiegende Mehrzahl bilden würden.</p>
+                  <p>Infolge dieser Erörterungen erklärte Baron Doblhoff, im Grundsatze ohnehin mit dem Minister des Inneren einverstanden, auch in der Form dem angetragenen Erlasse an das Nationalgardeoberkommando nicht entgegentreten zu wollen, welcher sofort auch von allen übrigen Stimmen mit einer kleinen, im Texte sogleich vorgenommenen Modifikation angenommen wurde, nachdem der Minister der öffentlichen Arbeiten in dieser Beziehung bemerkt hatte, daß es bei dem Umstande, wo ein großer Teil der Nationalgarde die Ungesetzlichkeit der Teilnahme an solchen Beratungen nicht einsehen dürfte, es angemessen erscheine, vorerst die gehörige Belehrung darüber und eine Ermahnung, dann aber erst das ernstliche und direkte Verbot eintreten zu lassen<note type="footnote" n="13">Laut <quote>Pillersdorf, Nachlaß 119</quote>, wurde am nächsten Tag der Oberkommandant der Wiener Nationalgarde Hoyos aufgefordert, das Verbot auszusprechen. Diese Weisung an Hoyos konnte in den Wiener Archiven nicht gefunden werden. Hoyos entsprach dieser Weisung und erließ am <date when="1848-05-13">13. 5. 1848</date> einen entprechenden Tagesbefehl an die Nationalgarde, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref>, Anm. 2. Siehe dazu auch <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 2, 211 f.</bibl>, und <bibl type="secondary">
+                           <title>Violand</title>, Sozialgeschichte 108 f.</bibl> Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480515-P-0038.xml#top_1_1_38_1">MR. v. <date when="1848-05-15">15. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Polnisches Komitee in Wien</head>
+                  <p>Der schon erwähnte Polizeirapport vom heutigen Tage<note type="footnote" n="14">Siehe dazu Anm. 8.</note> erwähnt auch des ungestörten Agitierens des polnischen Komitees oder Clubs in Wien<note type="footnote" n="15">Zum polnischen Komitee in Wien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_8">MR. v. <date when="1848-04-29">29. 4. 1848</date>/VIII</ref>, Anm. 27.</note>.</p>
+                  <p>Der Kriegsminister gab diesfalls einige, ihm von einem Oberstleutnant mitgeteilte Daten an die Hand, nach welchen in diesem, in jeder Beziehung überaus tätigen Club förmlich konspiriert wird, um das hier in Garnison befindliche galizische Regiment Grafen Nugent zu verführen. Die Fürstin Sapieha<note type="footnote" n="16">Gemeint ist Hedwig, die Ehefrau des Leo Fürsten Sapieha-Kadenski.</note> soll dabei persönlich tätig und der expolnische General Dwernicki<note type="footnote" n="17">Josef Dwernicki hatte am polnischen Aufstand von 1830/31 teilgenommen und spielte eine führende Rolle im Polnischen Emigrantenkomitee in Frankreich, zu ihm siehe <bibl type="secondary">
+                           <title>Polski Słownik Biograficzny</title> S, 19–22.</bibl>
+                     </note> in Wien anwesend sein. Das Regiment würde zwar gehörig überwacht und dürfte schon zur Erleichterung dieser Bewachung hier behalten werden, aber das Wirken des Clubs selbst ist so gefährlich, daß Graf Latour sich verpflichtet findet, zu den ernstesten Maßregeln gegen denselben aufzufordern. Er sowie der Finanzminister deuteten auf Untersuchung der Pässe der hier anwesenden Polen und auf Hinwegweisung derjenigen, deren Pässe erloschen sind, auf die etwaige Erlassung eines Fremdengesetzes nach dem Muster des englischen, auf die Beobachtung, Überraschung und Auflösung der Clubs, die Gesetzwidriges betreiben, hin, in welcher Beziehung der Finanzminister beisetzte, daß gegen solche Clubs noch immer die Bestimmungen des II. Teils des Strafgesetzbuches über geheime Gesellschaften<note type="footnote" n="18">Krauß bezieht sich auf das Gesetzbuch über <quote>Verbrechen und schwere Polizei-Übertretungen</quote> aus dem Jahr 1803; das Verfahren gegen Bildung und Teilnahme an geheimen – den Staat gefährdenden – Gesellschaften regelten hauptsächlich die §§ 37–50 des II. Teils.</note> in Kraft <pb n="211" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s211.pdf"/>sein dürften und daß selbst in England und Frankreich der Regierung das Recht zusteht, gesetzwidrige Versammlungen zu verbieten und zu hindern.</p>
+                  <p>Nach der Versicherung des Ministers des Inneren ist der Polizeioberdirektor wiederholt zur strengsten Handhabung der Vorschriften über die Fremdenpolizei sowie zur Überwachung der Clubs durch alle zu Gebote stehenden Mittel angewiesen<note type="footnote" n="19">Unter den Beständen des AVA., IM., Präs., konnten keine entsprechenden Weisungen gefunden werden.</note>. Indes läßt sich bei dem Bestande des freien Assoziationsrechtes und bei der Vorsicht, mit welcher die Clubs in ihren Agitationen zu Werke gehen, wenn nicht bestimmte Indizien eines Verbrechens oder Vergehens gegen einzelne Individuen vorkommen, dermalen ein strengeres Einschreiten nicht rechtfertigen. Es ist auch, wie der Justizminister hinzusetzte, selbst in Fällen, wo derlei Anzeigungen wirklich vorliegen, nicht immer von Erfolg, wie dies das Beispiel mit dem Schauspieler Theodor Wagner, dessen im Ministerratsprotokolle vom 7. d. M. gedacht ist<note type="footnote" n="20">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_1">MR. v. <date when="1848-05-07">7. 5. 1848</date>/I</ref>.</note>, der Fall war. Da übrigens dieser der Aufwiegelung auf das stärkste beinzichtigte Mensch nur durch das Übergewicht einer Stimme (7 gegen 6) der Kriminaluntersuchung entging, so hat sich der Justizminister veranlaßt gefunden, das Kriminalgericht zur gewissenhaftesten und rücksichtslosen Erfüllung seiner Amtspflicht auffordern zu lassen<note type="footnote" n="21">Im Einlaufprotokoll des Justizministeriums konnte keine derartige Weisung gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Aufnahme des Wahlgesetzes</head>
+                  <p>Weitere Notizen des erwähnten Polizeiberichts<note type="footnote" n="22">Siehe dazu Tagesordnungspunkt II, Anm. 8.</note> sind noch: die im allgemeinen (Universität ausgenommen) günstige Aufnahme des Wahlgesetzes<note type="footnote" n="23">Zum Reichstagswahlgesetz siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_13">MR. v. <date when="1848-05-06">6. 5. 1848</date>/XIII</ref>.</note>, wo nur die Bestimmung, daß die Wähler in die erste Kammer nur aus den Höchstbesteuerten des Landes genommen werden dürfen, keine Billigung findet; ferner Exzesse in Prag am 9. und 10. aus Anlaß der Arretierung eines Volksredners, dessen Befreiung von der Volksmasse wieder erzwungen wurde<note type="footnote" n="24">Es dürfte sich um die von der Volksmenge erzwungene Freilassung des Franz Groll handeln, der wegen eines <quote>aufrührerischen</quote> Flugblattes inhaftiert worden war. Siehe dazu <bibl type="secondary">
+                           <author>Kazbunda</author>, České hnutí 173 ff.</bibl>
+                     </note>, endlich über Besorgnisse aus Brünn von Seite der Proletarier.</p>
+                  <p>Bei diesem Anlasse kam auch der Fall zur Sprache, daß in Kremsier von zwei hiesigen Studenten wegen Befreiung eines dort verhafteten Kollegen derselben bedeutende Exzesse begangen worden seien.</p>
+                  <p>Da sie sich bei ihrer Anhaltung auf eine Erlaubnis des Unterrichtsministers beriefen, so fand sich derselbe zu der Aufklärung veranlaßt, daß er ihnen auf ihr Begehren die schriftliche Bewilligung zur Reise nach Kremsier, ihrer Heimat, auf die Dauer der Osterferien (aber durchaus keine andere Erlaubnis) und bloß in der Rücksicht schriftlich erteilt habe<note type="footnote" n="25">Unter den Beständen des AVA., UM., Präs., konnte diese schriftliche Erlaubnis nicht gefunden werden.</note>, um, wie sie angaben, ihnen dadurch Freiplätze auf der Nordbahn zu verschaffen.</p>
+                  <p>Die Pflicht der Behörde wäre es gewesen, den Exzedenten jene mißbrauchte Erlaubnis abzufordern und die Täter zur Verantwortung und Strafe zu ziehen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Steierisches Freikorps für Italien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> teilte mit ein Anerbieten des Gouverneurs von Steiermark, Graf Wickenburg, zu Errichtung eines Freikorps nach Italien<note type="footnote" n="26">Das Schreiben Wickenburgs v. <date when="1848-05-11">11. 5. 1848</date>, <bibl type="archival">AVA., IM., Präs. 1810/1848</bibl>, ist nicht mehr vorhanden.</note>.</p>
+                  <p>Da der Kriegsminister einen solchen Zuwachs zur Armee nur als wünschenswert erkennen kann, so gedenkt der Minister des Inneren, dem Grafen Wickenburg die Ermächtigung zur Errichtung dieses Korps zu erteilen und ihn wegen dessen Organisierung zum Einvernehmen mit dem FML. Graf Spannocchi anzuweisen<note type="footnote" n="27">Mit Schreiben (K.) v. <date when="1848-05-18">18. 5. 1848</date> an Wickenburg erklärte Latour, daß er die Aufstellung eines steiermärkischen Freikorps für Italien begrüße, dieses allerdings ohne die Hilfe des Militärs ausgerüstet und bewaffnet werden müßte, <bibl type="archival">KA., HKR., KM., Präs. 1366/1848</bibl>. Zum Einvernehmen mit Spanocchi siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480522-P-0048.xml#top_1_1_48_12">MR. v. <date when="1848-05-22">22. 5. 1848</date>/XII</ref>. bes. Anm. 31.</note>.</p>
+                  <p>Bei diesem Anlasse brachte Baron Pillersdorf in Anregung, wie wünschenswert es wäre, auch in Wien solche Freikorps, und zwar aus Studierenden und aus der Arbeiterbevölkerung, zu bilden, und letztere insbesondere durch das Anbot eines größeren Handgeldes, welches etwa durch Herabsetzung der Supplentengebühr bei der itzig starken Rekrutierung bedeckt werden könnte, anzulocken<note type="footnote" n="28">Weiters siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480519-P-0044.xml#top_1_1_44_7">MR. II v. <date when="1848-05-19">19. 5. 1848</date>/VII</ref>.</note>.</p>
+                  <p>Da sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> hierüber eine schriftliche Mitteilung zur genaueren Prüfung der Sache erbat, so sicherte Baron Pillersdorf dieselbe zu<note type="footnote" n="29">Noch am selben Tag schickte Pillersdorf Latour seine diesbezüglichen schriftlichen Vorschläge und legte die Abschrift seines Briefes, auch den v. <date when="1848-05-12">12. 5. 1848</date>, an Wickenburg bei, <bibl type="archival">KA., HKR., KM., Präs. 1366/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480522-P-0048.xml#top_1_1_48_12">MR. v. <date when="1848-05-22">22. 5. 1848</date>/XII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Entsendung Carl v. Hummelauers nach England</head>
+                  <p>Zu der im Ministerratsprotokoll vom 11. d. [M.] beschlossenen Sendung nach England in bezug auf die Pazifikation Italiens<note type="footnote" n="30">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480511-P-0034.xml#top_1_1_34_10">MR. v. <date when="1848-05-11">11. 5. 1848</date>/X</ref>.</note> ist nach Äußerung des Baron Lebzeltern statt des Grafen Colloredo, welche zu großes Aufsehen erregen würde, der Hofrat v. Hummelauer gewählt und hiernach auch die in jenem Protokoll erwähnte diesfällige Verfügung unter einem berichtigt worden. Da v. Hummelauer angewiesen ist, sich von England nach Ausrichtung seines Geschäfts daselbst unmittelbar zum Grafen Hartig zu verfügen, so wird letztrer bezüglich seiner Eingabe auf die ihm [vom] Ministerio des Äußern zukommenden Aufträge zu weisen sein<note type="footnote" n="31">Zu den an Hummelauer ergangenen Instruktionen siehe das Schreiben Lebzelterns an Hummelauer v. <date when="1848-05-14">14. 5. 1848</date>, <bibl type="archival">HHSTA., StK., England 253, Fasz. Weisungen 1848, fol. 46–56 und 58–68</bibl>. Zur Mission Hummelauers im ganzen siehe <bibl type="secondary">
+                           <author>Birnbacher</author>, Pazifikationsmission 195–253</bibl>. Hartig wurde mit Schreiben v. <date when="1848-05-20">20. 5. 1848</date> von der Mission Hummelauers benachrichtigt, <bibl type="archival">HHSTA., StK., Provinzen, Lombardo-Venetien 19</bibl>, <quote>Fasz. Korrespondenz mit den Pazifizierungs Hofkommissären Gf. Hartig und Gf. Montecuccoli 1848, fol. 45 f.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Verleihung des Ratstitels an Anton Nachich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> übergab das Konzept eines Vortrags der Hofkanzlei vom 12. d. [M.], worin einvernehmlich mit dem Zivil- und Militärgouverneur von Dalmatien auf die Ah. taxfreie Verleihung des k. k. Ratstitels an den sehr verdienten und besonders bei den letzten Ereignissen durch Treue und Anhänglichkeit an Ew. Majestät ausgezeichneten Podestà von Zara, Nachich, angetragen wird<note type="footnote" n="32">Dieses Konzept konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden; vgl. dazu das Schreiben (K.) Pillersdorfs an den Gouverneur von Dalmatien Turszky v. <date when="1848-05-15">15. 5. 1848</date>, in dem auf einen entsprechenden Antrag Bezug genommen wird, <bibl type="archival">AVA., IM., Präs. 1875/1848</bibl>.</note>.</p>
+                  <p>
+                     <pb n="213" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s213.pdf"/>Diesem Antrage ward allseitig beigestimmt<note type="footnote" n="33">Mit Kabinettschreiben v. <date when="1848-04-14">14. 4. 1848</date> wurde Nachich der Ratstitel taxfrei verliehen, <quote>ebd.</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei. MRZ. 655/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Wahlen zur Frankfurter Bundesversammlung in Auschwitz und Zator</head>
+                  <p>Der Minister des Inneren teilte endlich einen Bericht über das Resultat der Wahlen zur Frankfurter Bundesversammlung in den Herzogtümern Auschwitz und Zator<note type="footnote" n="34">Schreiben des Wadowitzer Kreishauptmannes v. <date when="1848-05-10">10. 5. 1848</date>, <bibl type="archival">AVA., IM., Präs. 1839/1848.</bibl>
+                     </note> mit, welche sich darum zerschlugen, weil der Mittelstand und der Adel dem polnischen Elemente huldigte, die Bauern (Nationalpolen) aber ihre unverbrüchliche Anhänglichkeit an Österreich mit der vor dem Bildnisse Ew. Majestät ausgesprochenen Erklärung: „Mit unserem Kaiser wollen wir leben und sterben“ auf die rührendste Weise an den Tag legten<note type="footnote" n="35">Ans den Herzogtümern Auschwitz und Zator wurden keine Delegierten nach Frankfurt entsandt. Zur Inkorporierung der beiden Herzogtümer siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_5">MR. v. <date when="1848-04-14">14. 4. 1848</date>/V</ref>, Anm. 16.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Bericht Radetzkys</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> teilte mit einen Bericht des Feldmarschalls Grafen Radetzky über den letzten von unsern Truppen erfochtenen Sieg, der nur wegen Mangel an Verstärkung nicht benützt werden konnte; über die böse Gesinnung der Veroneser und derselben Einverständnis mit dem Feinde, weshalb er der Stadt mit dem Bombardement gedroht habe; dann über Peschiera, daß diese Festung bis 14. d. [M.] mit Brot approvisioniert, an einen Entsatz derselben aber vor Vereinigung der beiden Armeekorps (Radetzky und Nugent) nicht zu denken sei<note type="footnote" n="36">Bericht aus Verona v. <date when="1848-05-08">8. 5. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 1278/1848.</bibl> Es handelt sich hier um das Gefecht von Santa Lucia, siehe dazu <bibl type="secondary">
+                           <author>Rüstow</author>, Italienischer Krieg 106–122</bibl>; <bibl type="secondary">
+                           <author>Grüll</author>, Feldzug der k. k. österreichischen Armee 177–202</bibl>, und <bibl type="secondary">
+                           <author>Kiszling</author>, Revolution 116–122.</bibl>
+                     </note>.</p>
+                  <p>Derselbe übergab die beiliegenden zwei Vorträge vom 12. und 7. d. [M.]<note type="footnote" n="37">
+                        <bibl type="archival">KA., HKR., KM., Präs. 1276/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 638/1848</bibl>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Vertretung des Kriegsministers</head>
+                  <p>über die Notwendigkeit, die Vertretung seiner in Verhinderungsfällen einem der Generale bei der politischen Abteilung des Hofkriegsrates anzuvertrauen, da FML. Zanini erklärt hat, in keinem Falle die Supplierung des Kriegsministers übernehmen zu können<note type="footnote" n="38">Der vor kurzem vom Posten des Kriegsministers zurückgetretene Zanini war als Vorsitzender der Justizabteilung vorgesehen; mit dieser Funktion fiel aber auch die etwaige Vertretung des Kriegsministers zusammen, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480509-P-0032.xml#top_1_1_32_9">MR. v. <date when="1848-05-09">9. 5. 1848</date>/IX</ref>. Latour brachte daher GM. Baltheser als seinen Vertreter in Vorschlag, was mit Ah. E. v. <date when="1848-05-14">14. 5. 1848</date> auch genehmigt wurde, <bibl type="archival">KA., HKR., KM., Präs. 1276/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 655/1848</bibl>.</note> – und</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Adjustierungsänderungen</head>
+                  <p>über einige Adjustierungsänderungen in der Armee zur leichtern Unterscheidung der Rangstufen der Generalität, der Stabs-, Ober- und Unteroffiziere, wogegen sich keine Erinnerung ergab<note type="footnote" n="39">Der entsprechende Vortrag Latours v. <date when="1848-05-07">7. 5. 1848</date> wurde mit Ah. E. v. <date when="1848-05-14">14. 5. 1848</date> resolviert, <quote>ebd., MRZ. 637/1848</quote>, und <bibl type="archival">KA. HKR., KM., Präs. 1402/1848</bibl>, und durch die Zirkulare v. <date when="1848-05-22">22. 5. 1848</date> und <date when="1848-06-01">1. 6. 1848</date> publik gemacht, <quote>ebd.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_35_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Versammlung der deutschen Eisenbahner in Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> endlich bemerkte: Auf ein mit Vortrag des Hofkammerpräsidenten vom <date when="1848-03-07">7. März 1848</date>
+                     <note type="footnote" n="40">Der Akt <bibl type="archival">HHStA., Kab. Archiv, Conferenz Akten a, 313/1848</bibl> ist nicht mehr vorbanden.</note> vorgelegtes Einschreiten mehrerer ausländischer Eisenbahndirektionen um Genehmigung einer allgemeinen <pb n="214" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s214.pdf"/>Versammlung von Abgeordneten aller deutschen Eisenbahnen in Wien im Juli 1848 (wie solche auf jener in Hamburg von 1847 beschlossen worden<note type="footnote" n="41">Im November 1846 war der <quote>Verein preußischer Eisenbahn Directionen</quote> gegründet worden, der sich bei seiner Generalversammlung im November 1847 in Hamburg in <quote>Verein deutscher Eisenbahn-Verwaltungen</quote> umbenannt hatte, siehe dazu <bibl type="secondary">
+                           <author>Schmeidler</author>, Deutsche Eisenbahnen 68 ff.</bibl>
+                     </note>) erfolgte die Ah. Entschließung unterm <date when="1848-04-03">3. April 1848</date> dahin, daß hierauf entweder ausweichend oder gar nicht geantwortet werden solle<note type="footnote" n="42">Diese Ah. E. war auf Vortrag Ficquelmonts v. <date when="1848-03-30">30. 3. 1848</date> erfolgt, <bibl type="archival">HHStA., Kab. Archiv, Conferenz Akten a, 425/1848.</bibl>
+                     </note>. Letzteres sei bisher geschehen. Allein, die Anfragen und Erneuerungen des Einschreitens häufen sich, und es wird nun wohl nicht mehr möglich sein, einer Beantwortung auszuweichen. Unter den dermaligen, gegen früher wesentlich geänderten Verhältnissen und bei dem Umstande, wo der Zweck der Versammlung ein ganz unverfänglicher ist, nämlich über allgemeine Eisenbahnbetriebs­bestimmungen zu verhandeln, und da auch für die österreichischen Staatseisenbahnen kein Nachteil aus diesen Verhandlungen erwachsen kann, indem sie bekanntermaßen unter den Forderungen stehen, die auf andere Bahnen gestellt werden, würde der Minister, wenn ihm die Ermächtigung erteilt wird, von der Ah. Entschließung vom 3. April abzugehen, keinen Anstand nehmen, die Erledigung des Einschreitens dahin zu erteilen, daß es den Teilnehmern unter den gegenwärtigen Verhältnissen freistehe, die beabsichtigte Versammlung in Wien abzuhalten.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lebzeltern</rs>
+                     </hi> machte darauf aufmerksam, daß die sächsische Regierung den Wunsch geäußert habe, die betreffenden Regierungen möchten sich vorher in Ansehung ihrer Staatsbahnen untereinander verständigen<note type="footnote" n="43">Unter den Beständen des HHStA., StK., konnte kein entsprechendes Aktenstück gefunden werden.</note>. Insofern indessen nach der Versicherung des Ministers der öffentlichen Arbeiten für die Staatsbahnen kein Nachteil aus den Verhandlungen jener Versammlung zu besorgen ist, begnügt sich Baron Lebzeltern mit der vom Minister zugesicherten diesfälligen Mitteilung an das Ministerium des Äußern, um hiernach das weiters Erforderliche veranlassen zu können.</p>
+                  <p>Sämtliche Stimmführer erklärten sich mit dem Antrage des Ministers einverstanden<note type="footnote" n="44">Nachdem die Versammlung in Wien mit Erlaß v. <date when="1848-05-14">14. 5. 1848</date> prinzipiell genehmigt worden war, erteilte Schwarzer mit Schreiben (K.) v. <date when="1848-08-05">5. 8. 1848</date> an die Direktionen der Kaiser Ferdinand Nordbahn und der Staatseisenbahnen detaillierte Anweisungen für die Abhaltung der Versammlung, die ab dem <date when="1848-08-21">21. 8. 1848</date> stattfinden sollte, <bibl type="archival">AVA., VA., AM. III A, 3336/583 ex 1848</bibl>; aus dem Akt <quote>ebd., 8891/1514 ex 1848</quote> geht allerdings hervor, daß die Generalversammlung des Vereins deutscher Eisenbahnverwaltungen vom 11. – <date when="1848-09-13">13. 9. 1848</date> in Dresden durchgeführt wurde.</note>. Folgen die Entwürfe zu den Ah. Erledigungen.</p>
+               </div>
+               <closer>
+                  <seg type="other">Pillersdorf, am <date when="1848-05-13">13. Mai 1848</date>.</seg>
+                  <seg type="other">Ges. 14. Mai. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-05-14">14. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

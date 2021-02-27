@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="287">Sitzung 287</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-11-24"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z287.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1091</idno>
+                  <idno type="KZ">3654</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-11-24"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Kaiser; BdE. und anw. (Erzherzog Rainer 26. 11.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger; abw. Pratobevera; BdR. Erzherzog Rainer 1. 12.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-11-26">1862-11-26</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_287_1">Landesgesetze über die Gemeindeordnung und Gemeindewahlordnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_287_2">Höhe des Beitrags für die modenesischen Truppen im Jahre 1863</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621124-P-0287" ana="a5-b5-z287">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z287.pdf">
+               <title type="num">Nr. 287</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-11-24">24. November 1862</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Kaiser; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 26. 11.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Pratobevera; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 1. 12.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1091</idno>
+                  <idno type="KZ">3654</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1862-11-24">24. November 1862</date> abgehaltenen Ministerrates unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_5_5_287_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Landesgesetze über die Gemeindeordnung und Gemeindewahlordnung</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten über die zur Ah. Resolution vorliegenden Entwürfe von Landesgesetzen über die Gemeindeordnung und Gemeindewahlordnung in den Kronländern Aufklärungen und nähere Motivierungen einzelner Bestimmungen Allerhöchstsich erstatten zu lassen<note type="footnote" n="1">In Ausführung des Reichsgemeindegesetzes v. <date when="1862-03-15">15. 3. 1862</date>, <bibl type="archival">RGBL. Nr. 18/1862</bibl>, beabsichtigte die Regierung, allen Landtagen Entwürfe zu Gemeindeordnungen und Gemeindewahlordnungen, auch Landesgemeindegesetze genannt, vorzulegen. Die Diskussion im Ministerrat begann mit dem Entwurf für Niederösterreich, siehe MR. v. 18. 9. und <date when="1862-10-01">1. 10. 1862</date>/III, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z263" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z263.pdf" target="MRP-1-5-04-0-18621001-P-0263.xml">ÖMR. V/4, Nr. 263</ref>
+                        </bibl>, und wurde im <ref type="protocol-link" target="MRP-1-5-04-0-18621031-P-0276.xml#top_5_4_276_3">MR. v. <date when="1862-10-31">31. 10. 1862</date>/III</ref>, <quote>ebd., Nr. 276</quote>, für einige andere Kronländer fortgesetzt; weitere Besprechungen zu einzelnen Kronländem: <ref type="protocol-link" target="MRP-1-5-05-0-18621125-P-0289xml#top_5_5_289_2">MR. v. <date when="1862-11-25">25. 11. 1862</date>/II</ref> (Dalmatien), <ref type="protocol-link" target="MRP-1-5-05-0-18621217-P-0302.xml#top_5_5_302_2">MR. v. <date when="1862-12-17">17. 12. 1862</date>/II</ref> (Böhmen, Mähren und Schlesien), <ref type="protocol-link" target="MRP-1-5-05-0-18630102-P-0306.xml#top_5_5_306_5">MR. v. <date when="1863-01-02">2. 1. 1863</date>/V</ref> (Galizien und Bukowina) und <ref type="protocol-link" target="MRP-1-5-05-0-18630105-P-0307.xml#top_5_5_307_3">MR. I v. <date when="1863-01-05">5. 1. 1863</date>/III</ref> (Böhmen); zu Tirol und Vorarlberg siehe MR. v. 15. und <date when="1862-12-17">17. 12. 1862</date>/I, Anm. 1 (= Sammelprotokoll Nr. 301); am ausführlichsten zu dieser Materie <bibl type="secondary">
+                           <author>Klabouch</author>, Die Gemeindeselbstverwaltung in Österreich</bibl>.</note>.</p>
+                  <p>Aus diesem Anlasse brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> unter anderm auch zur Ah. Kenntnis, daß nebst dem böhmischen auch der mährische, schlesische, tirolische und dalmatinische Landesausschuß die Organisierung einer Bezirksvertretung gewünscht habe, das Ministerium aber für Dalmatien deswegen keinen Gesetzentwurf ausgearbeitet habe, weil dieses arme Land kaum die Mittel haben wird, die Kosten <pb n="60" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s60.pdf"/>der Landesvertretung zu bestreiten, und der Statthalter sich gegen die Bildung eines weiteren, kostspieligen Zwischengliedes ausgesprochen hat<note type="footnote" n="2">Zu den Gemeinden höherer Ordnung wie Bezirks- oder Kreisvertretungen siehe MR. v. 15. und <date when="1862-12-17">17. 12. 1862</date>/I (Tirol) und <ref type="protocol-link" target="MRP-1-5-05-0-18621217-P-0302.xml#top_5_5_302_2">MR. v. <date when="1862-12-17">17. 12. 1862</date>/II</ref>c (Böhmen, Mähren und Schlesien).</note>.</p>
+                  <p>Die unterlassene Spezifikation der Gegenstände des übertragenen Wirkungskreises (§ 28 [Gemeindeordnung]) motivierte der Staatsminister durch die allgemein anerkannte Unmöglichkeit einer vollständigen Aufzählung, zumal diese Gegenstände nach Zeit und Ort wechselnder Natur sind und bleiben müssen.</p>
+                  <p>Die Amtsdauer der Gemeindeausschüsse konnte, wie der Staatsminister weiters bemerkte, im § 20 unbedenklich bloß auf drei Jahre beschränkt werden, weil ja die Wiederwahl gestattet ist und selbst bei einer vollständigen Erneuerung des Ausschusses auf dem flachen Lande kaum große administrative Schwierigkeiten sich ergeben dürften, nachdem die dortigen Geschäfte einfacher Art sind.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten, die Bestimmungen über das Wahlrecht der Militärs und deren Eintritt in die Gemeindevertretung, welche Punkte bereits auch den Gegenstand einer Meinungsverschiedenheit im Schoße des Ministerrates gebildet haben<note type="footnote" n="3">Sitzung v. <date when="1862-10-01">1. 10. 1862</date>, Sammelprotokoll v. 18. 9. und <date when="1862-10-01">1. 10. 1862</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z263" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z263.pdf" target="MRP-1-5-04-0-18621001-P-0263.xml">ÖMR. V/4, Nr. 263</ref>
+                        </bibl>.</note>, einer eindringlichen Beratung Ah. zu unterziehen, und zwar nach den diesfälligen drei Hauptkategorien der Militärpersonen, nämlich a) diejenigen, welche nach § 16 der Gemeindeordnung wegen der Höhe ihres Steuerzensus in der Gemeinde das Recht haben, auch ohne Wahl in den Gemeindeausschuß als Mitglieder einzutreten, b) die Militärpersonen, welche nach §1.1 der Wahlordnung als steuerpflichtig von ihrem Realbesitze, Gewerbe oder Einkommen wahlberechtigt wären, und jene, c) die laut § 1.2.c, als zur sogenannten Intelligenz gehörig, ohne Rücksicht auf eine Steuerzahlung wahlberechtigt sein würden.</p>
+                  <p>Im Verlauf der über die Kategorie a) gepflogenen Beratung glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> beantragen zu sollen, daß den Militärpersonen die Teilnahme an der Gemeindevertretung durch einen Bevollmächtigten zu gestatten wäre, weil sie bloß dadurch in der Lage sind, ihre wichtigsten materiellen Interessen als große Grundbesitzer zu wahren und sich vor nachteiligen Beschlüssen der Gemeindevorstände zu schützen. Kann ein Militär, der großen Grundbesitz hat, von seiner Virilstimme gar keinen Gebrauch machen, so wäre derselbe wegen seines Standes offenbar im Nachteil: er wäre in Gemeindeangelegenheiten gewissermaßen kontumaziert. Wesentliche Nachteile oder Konflikte dürften dagegen nicht zu besorgen sein, wenn ein Militär sich durch einen mit der nötigen Umsicht gewählten Bevollmächtigten im Ausschuß vertreten läßt und demselben geeignete Instruktionen erteilt. Zudem sollen ja in den Gemeindeausschüssen keine politischen, sondern Verwaltungsangelegenheiten verhandelt werden. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten, die Bestimmungen des § 16 der Gemeindeordnung im Interesse des großen Grundbesitzes Ah. zu genehmigen.</p>
+                  <p>Bezüglich der Kategorien b) und c) erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, sich gegen die Zuerkennung eines aktiven oder passiven Wahlrechtes verwahren zu müssen. Das Hineinziehen von Offiziers, Militärbeamten und Parteien, ja selbst der Mannschaft mit Einschluß der Urlauber und Reservemänner, in politische Wahlkörper oder in Gemeindeausschüsse <pb n="61" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s61.pdf"/>bringe Kollisionen mit der Dienstpflicht, Kompromittierungen des Militärcharakters und mancherlei andere Übelstände hervor, denen man vorbeugen sollte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> glaubte zwar, daß für die Kategorie b) ähnliche Verhältnisse wie für die Kategorie a) sprächen. Indessen könne wohl die Ausnahme bei der letzeren durch die Rücksicht auf das sonst preisgegebene Interesse des großen Grundbesitzers plausibel motiviert werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> schloß sich bezüglich der Inkompatibilität des Wahlrechtes mit dem Offizierscharakter ganz der Meinung des Kriegsministers an, wobei er sich auf die in Kroatien gemachten Erfahrungen berief<note type="footnote" n="4">Vgl. etwa <ref type="protocol-link" target="MRP-1-5-02-0-18610720-P-0097.xml#top_5_2_97_3">MR. v. <date when="1861-07-20">20. 7. 1861</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z97" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z97.pdf" target="MRP-1-5-02-0-18610720-P-0097.xml">ÖMR. V/2, Nr. 97</ref>
+                        </bibl>, oder die Affäre Jellačić, MR. v. 14., 19. 10. und <date when="1861-11-02">2. 11. 1861</date>, Anm. 7, <quote>ebd., Nr. 145</quote>; beide Fälle betrafen den kroatischen Landtag.</note>.</p>
+                  <p>Nachdem <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> Allerhöchstsich dafür auszusprechen geruht hatten, daß alle im aktiven Dienste befindlichen Militärpersonen mit Einschluß der Mannschaft (selbst der beurlaubten) vom aktiven und passiven Wahlrecht nach den Kategorien b) und c) ausdrücklich im Gesetze auszuschließen seien, entspann sich noch eine Diskussion, ob und inwiefern die Reservemänner zu dem Aktivstande zu rechnen seien oder nicht. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> glaubte, diese Frage unbedingt bejahend beantworten zu müssen, während der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> zwischen den zur Fahne einberufenen und den zu Hause befindlichen Reservemännern unterscheiden zu sollen glaubte, indem die letzteren nicht als aktive Militärs gelten könnten. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten Allerhöchstsich für diese letztere Ansicht zu entscheiden, und dabei darauf hinzuweisen, daß der Reservemann daheim der Ziviljurisdiktion untersteht, ohne Regimentsbewilligung heiraten kann etc. und daß Allerhöchstdieselben in der prinzipiell freieren Stellung des Reservisten keine unnötige Beschränkung eintreten zu lassen beabsichtigen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> brachte hierüber sofort in Antrag, daß dann wenigstens im Gesetze ausgesprochen werde, daß das Wahlrecht eines zur Fahne einberufenen Reservemannes ebenso als ruhend zu betrachten sei, wie das der aktiven Militärs überhaupt<note type="footnote" n="5">Dies wurde ins Gesetz in folgender Form aufgenommen: § 2 der Gemeindewahlordnung setzte fest, daß aktive Militärpersonen keine Wahlberechtigung hatten <quote>ausschließlich der nicht einberufenen Reservemänner</quote>, <bibl type="secondary">
+                           <author>Mayrhofer – Pace</author>, Politischer Verwaltungsdienst 2, 734</bibl>.</note>.</p>
+                  <p>Der Staatsminister erhielt schließlich den Ah. Auftrag, sämtliche hier einschlägigen Paragraphen der Gemeindeordnung und -wahlordnung einer genauen Revision zu unterziehen, damit selbe mit den von Sr. Majestät zu a, b und c Ah. genehmigten Bestimmungen genau in Einklang gebracht werden.</p>
+                  <p>Die Bestimmung des § 38, wonach der Ausschuß über Beschwerden gegen Verfügungen des Gemeindevorstandes in Angelegenheiten des selbständigen Wirkungskreises zu entscheiden hat, wurde von <hi rend="#letterspaced">
+                        <rs type="person">Sr. Majestät</rs>
+                     </hi> einer besonderen Erwägung aus dem Gesichtspunkte unterzogen, ob diese Überordnung des Ausschusses nicht der Stellung des Vorstandes sowohl als der wünschenswerten Behandlung der Geschäfte abträglich sei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hält diese Überordnung deswegen für nötig, weil ja die Gemeinde als solche verantwortlich ist und ihr daher die entsprechende Macht über ihre exekutiven Organe – wozu auch der Gemeindevorstand gehört – nicht verweigert werden kann. Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> bemerkt, <pb n="62" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s62.pdf"/>das Korrektiv gegen allfällige Mißbräuche liege im 2. Absatz des § 38, worin der § 93 berufen wird. Dieser letztere bestimmt nämlich, wann die politischen Behörden und wann der Landesausschuß über Beschwerden gegen Verfügungen des Gemeindeausschusses zu entscheiden hat. Insbesondere gehören zur Kompetenz der Bezirksbehörde alle Berufungen in Fällen, wo der Ausschuß oder der Gemeindevorstand bestehende Gesetze verletzt oder fehlerhaft angewendet hat. In ähnlicher Weise sprach sich <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> aus, welcher erinnerte, daß die Bestimmung des § 38 schon im Gemeindegesetze vom Jahre 1849<note type="footnote" n="6">
+                        <bibl type="archival">RGBL. Nr. 170/1849.</bibl>
+                     </note> erscheint und zu keinen Anständen geführt hat. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> bestätigte dies, mit dem Beifügen, daß man sich im Schoße des Ausschusses über die Amtsgestion gütlich zu verständigen pflegt.</p>
+                  <p>Die Bestimmung des § 76, wonach bei gewissen Einkäufen, Umlagen etc. die Zustimmung von wenigstens 3/4 der Wahlberechtigten einzuholen ist, wurde infolge Ah. Aufforderung von den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministern Ritter v. Schmerling</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> dadurch motiviert, daß sich diese schon 1849 getroffene Anordnung bewährt hat und selbe bei wichtigeren Angelegenheiten, wie die fraglichen, angezeigt erscheint. Übrigens pflegt man diese Zustimmung häufig nicht durch Versammlung der Wahlberechtigten, sondern durch Kurrende einzuholen.</p>
+                  <p>Im 1. Absatz des § 81 wäre infolge einer Ah. Bemerkung der größeren Deutlichkeit wegen zu setzen: „Beschlüsse des Gemeindeausschusses“.</p>
+                  <p>Über eine Allerhöchstenortes gestellte Frage äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, die mündliche Abgabe der Wahlstimmen sei deswegen angeordnet worden, weil man sich im Jahre 1848 von den vielen Mißbräuchen überzeugt hat, wozu die Abgabe von Wahlzetteln führt.</p>
+                  <p>Der Grund, warum die Steuerquote, welche nach § 16 Anspruch auf eine Virilstimme im Gemeindeausschuß gibt, zwischen ¼ und 1/10 nach Ländern variiert, liegt nach der vom Staatsminister gegebenen Aufklärung in dem verschiedenen Ausmaße des ehemals dominikalen Grundbesitzes, welches in einigen Kronländern durchschnittlich so gering ist, daß die großen Grundbesitzer hie und da des Vorteils einer Virilstimme gar nicht teilhaftig geworden wären, wenn man allgemein eine höhere Steuerquote als 1/10 dazu gefordert hätte.</p>
+                  <p>Nachdem in Görz und Istrien auch Juden ansässig sind, geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> auf die Notwendigkeit aufmerksam zu machen, im § 19.1 zu setzen „Geistliche aller Konfessionen“<note type="footnote" n="7">Es ging um das Recht, die Wahl zum Mitglied des Gemeindeausschusses oder -vorstandes abzulehnen. Weitere Beratungen im Ministerrat zu den Landesgemeindegesetzen (einzelne Kronländer) siehe Anm. 1; ihre Einbringung in den Landtagen wurde vom Kaiser genehmigt, doch kamen nicht alle Gesetze in der Landtagssession 1863 zustande; die folgenden Zahlen bezeichnen Nummer und Jahrgang der Landesgesetzblätter: Böhmen 7/1864, Bukowina 9/1863, Dalmatien 1/1865, Galizien 19/1866, Görz und Gradiska 8/1864, Istrien 13/1863, Kämten 5/1864, Krain 2/1866, Mähren 4/1864, Niederösterreich 5/1864, Oberösterreich 6/1864, Salzburg 7/1864, Schlesien 17/1863, Steiermark 5/1864, Tirol 1/1866 und Vorarlberg 22/1864; Texte auch bei <bibl type="secondary">
+                           <author>Mayrhofer – Pace</author>, Politischer Verwaltungsdienst 2, 455–833</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_287_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Höhe des Beitrags für die modenesischen Truppen im Jahre 1863</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> referierte, er habe die von Sr. k. k. apost. Majestät im Ministerrate am 17. d. M.<note type="footnote" n="8">Tagesordnungspunkt III.</note> gutgeheißene Erklärung wegen des Beitrags für die modenesischen Truppen im Jahre 1863 im Finanzausschusse des Abgeordnetenhauses abgegeben<note type="footnote" n="9">Das Budget des Kriegsministeriums wurde im Finanzausschuß am 18. und <date when="1862-11-19">19. 11. 1862</date> behandelt, <bibl type="secondary">
+                           <title>Prot. Finanzausschuss</title> 79–82 (34. und 35. Plenarsitzung)</bibl>; über die modenesischen Truppen enthält das Protokoll nichts.</note>. Da jedoch gemäß dieser Erklärung noch im Lauf der gegenwärtigen Session eine diesfällige nachträgliche Vorlage beim Abgeordnetenhause eingebracht werden soll, sei es an der Zeit, über die Summe, welche als Dotation für 1863 in Anspruch genommen werden soll, einen Beschluß zu fassen. Graf Degenfeld wisse nicht, ob bei den Unterhandlungen mit dem Herzoge etwas darüber festgesetzt worden ist.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> erwiderte, daß eine Summe nicht festgesetzt wurde und Se. kaiserliche Hoheit vielmehr erwarten, daß der zu gebende Beitrag österreichischerseits einfach bekanntgegeben werde, wonach der Herzog seine weiteren Einrichtungen zu treffen gedenkt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> stimmt in Absicht auf die Dringlichkeit vollkommen dem Kriegsminister bei. Das Abgeordnetenhaus wartet auf die Vorlage, welche gleich nach Beendigung der Butgetdebatten, die etwa zwei Tage dauern werden, einzubringen wäre. Bezüglich des Betrages schlägt der Minister eine halbe Million Gulden für das ganze Jahr vor, nachdem das Votum des Hauses nur für einen bedeutend ermäßigten Betrag zu gewinnen sein wird und von Seite des Herzogs keine Einsprüche zu erwarten sind. Mit dem Anspruch auf eine gegen 1862 verminderte Dotation erklärten sich alle Stimmführer einverstanden, und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> bevorwortete wie der Finanzminister die Bechränkung auf 500.000 fl., während der Marineminister glaubte, daß man <ref xml:id="fn_5_5_287_a">die Anmeldung dieser Nachtragspost einstweilen auch nur approximativ auf den obigen Betrag stellen und</ref>
+                     <note type="variant" n="a" target="#fn_5_5_287_a">Einfügung a–a Burgers.</note> sich unter Berufung auf die noch schwebenden Verhandlungen jetzt noch jeden ziffernmäßigen Anspruchs enthalten könnte. Allein der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> besorgte, aus einem solchen Vorgang ähnliche Rügen entstehen zu sehen, wie sie jüngst auf die Marinedotationsgebarung geworfen wurden<note type="footnote" n="10">Vgl. <ref type="protocol-link" target="MRP-1-5-05-0-18621103-P-0277.xml#top_5_5_277_1">MR. I v. <date when="1862-11-03">3. 11. 1862</date>/I</ref>.</note>. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Majestät</rs>
+                     </hi> geruhten zu bemerken, daß 500.000 fl. genügen dürften, doch wären allenfalls 600.000 fl. zu begehren, wenn man voraussieht, daß der Reichsrat unter allen Umständen einen Abstrich zu machen gedenkt. Der Kriegsminister, der Minister des Äußern und der ungarische Hofkanzler stimmten in dieser Voraussicht für die höhere Summe von 600.000 fl.<note type="footnote" n="11">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621201-P-0290.xml#top_5_5_290_2">MR. v. <date when="1862-12-01">1. 12. 1862</date>/II</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1862-11-26">26. November 1862</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1862-12-01">1. Dezember 1862</date>.</seg>
+                  <seg type="other">Empfangen <date when="1862-12-01">1. Dezember 1862</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

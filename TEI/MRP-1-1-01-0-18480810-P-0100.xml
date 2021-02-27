@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="100">Sitzung 100</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-08-10"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z100.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1989</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-08-10"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. fehlt; BdE. 11. 8. und anw. Latour, Krauß, Bach, Schwarzer, Doblhoff; abw. Wessenberg, Hornbostel; BdE. Franz Karl (15. 8.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-15">15. 8.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8225">
+                     <surname>Hornbostel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_100_1">Entsiegelung der kaiserlichen Gemächer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_100_2">Reorganisierung des Justizwesens im lombardisch-venezianischen Königreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_100_3">Verhaltensempfehlungen an Windischgrätz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_100_4">Entsendung Armand Marrasts als französischen Gesandten nach Wien; Einrücken Radetzkys in Mailand; Vertretung des Außenministeriums im Ministerrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_100_5">Aufstellung eines Freikorps für Schleswig-Holstein</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_100_6">Zentralisierung der Unternehmungen zur Unterstützung der Notleidenden</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_100_7">Subventionierung des Theaters an der Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_100_8">Ansuchen der Akademischen Legion um Eisenbahnfreikarten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480810-P-0100" ana="a1-1848_z100">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z100.pdf">
+               <title type="num">Nr. 100</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-08-10">10. August 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> 11. 8. und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Latour, Krauß, Bach, Schwarzer, Doblhoff; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg, Hornbostel; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (15. 8.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1989</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-08-10">10. August 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_100_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Entsiegelung der kaiserlichen Gemächer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> teilt mit, daß er am <date when="1848-08-09">9. August 1848</date> zur Entsiegelung der Gemächer Sr. Majestät des Kaisers geschritten sei<note type="footnote" n="1">Diese Gemächer waren seit der Flucht des Kaisers und des kaiserlichen Hofes im Mai versiegelt gewesen. Der Akt <bibl type="archival">AVA., JM. 2262/1848</bibl>, mit einem Bericht über die Abnahme der Siegel ist nicht mehr vorhanden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Reorganisierung des Justizwesens im lombardisch-venezianischen Königreich</head>
+                  <p>Derselbe verlas die entworfene Instruktion für den zur Reorganisierung des Justizwesens im lombardisch-venezianischen Königreiche abzuordnenden und zum Einvernehmen mit dem Ministerialkommissär Grafen Montecuccoli<note type="footnote" n="2">Zur Bestellung Montecuccolis als Nachfolger Hartigs siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480623-P-0081.xml#top_1_1_81_4">MR. v. <date when="1848-06-23">23. 6. 1848</date>/IV</ref>.</note> anzuweisenden Hofrat Pederzani. Die Hauptgrundsätze derselben sind: Belassung der dermalen Angestellten auf ihren Posten mit der vom Finanzminister gewünschten Einschränkung, insofern nicht wesentliche Bedenken gegen dieselben vorkommen; Aufrechthaltung der von der Zwischenregierung getroffenen Anordnungen insofern sie mit unsern Einrichtungen nicht im Widerspruche stehen; Besetzung der erledigten Stellen in der Regel mit Eingebornen; Einleitung zur Ausführung der Justizreformen im Geiste der den k. k. Staaten zugestandenen Freiheiten<note type="footnote" n="3">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480813-P-0102.xml#top_1_1_102_1">MR. v. <date when="1848-08-13">13. 8. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Verhaltensempfehlungen an Windischgrätz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> verlas ein an den Kommandierenden in Böhmen Fürsten Windischgrätz zu erlassendes Schreiben, worin demselben mit Beziehung auf einige in der Reichsversammlung vorgebrachte Interpellationen<note type="footnote" n="4">Klaudi hatte am selben Tag (10. 8.) den Kriegsminister interpelliert, ob angesichts der Siege in Italien die Truppen in den anderen Provinzen reduziert würden, <quote>welche Maßregeln er eingeleitet hat, …, um sich von allen militärischen Commandanten in allen Provinzen den unbedingten Gehorsam in der Ausführung der Ministerial-Befehle und jedes Mäkelns an diesen unmöglich zu machen</quote>, und ob bereits – wie versprochen – Befehle wegen der Aufhebung des Belagerungszustandes in Prag erteilt worden sind, <bibl type="secondary">
+                           <title>Verhandlungen des Österreichischen Reichstages</title> 1, 18. Sitzung v. <date when="1848-08-10">10. 8. 1848</date>, 462</bibl>.</note> empfohlen wird, zur Vermeidung jedes Vorwands zur Aufregung alle in die Augen fallenden militärischen Maßregeln auf das allernotwendigste zu beschränken und wegen Dislokation der Prager Truppen die geeigneten Anträge zu erstatten<note type="footnote" n="5">Der diese Weisungen betreffende Akt <bibl type="archival">KA., HKR., KM., Präs. 4063/1848</bibl>, ist skartiert worden. Windischgrätz antwortete mit Schreiben v. <date when="1848-08-12">12. 8. 1848</date>, daß er die verfügte Dislokation der Truppen ohnedies beibehalten wolle, <quote>ebd., Präs. 4188/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Entsendung Armand Marrasts als französischen Gesandten nach Wien; Einrücken Radetzkys in Mailand; Vertretung des Außenministeriums im Ministerrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> verlas zwei Schreiben des Ministers des Äußern, Baron Wessenberg, vom 6. August<note type="footnote" n="6">Abschriften beider an den Ministerrat gerichteter Schreiben in <bibl type="archival">HHSTA., StK., Interiora, Korr. Memoires 81, Fasz. alt 101, fol. 153–158</bibl>.</note>, worin dieser 1. anzeigt, daß die französische Regierung A[rmand] Marrast als Gesandten nach Wien zu senden beliebt habe, und 2. bedauert, daß der Feldmarschall Graf Radetzky die ihm gemachten Waffenstillstandsanträge nicht angenommen habe<note type="footnote" n="7">Zum Widerstand Radetzkys, einen Waffenstillstand zu schließen, siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480623-P-0081.xml#top_1_1_81_5">MR. v. <date when="1848-06-23">23. 6. 1848</date>/V</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480624-P-0082.xml#top_1_1_82_8">MR. v. <date when="1848-06-24">24. 6. 1848</date>/VIII</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480630-P-0088.xml#top_1_1_88_8">MR. v. <date when="1848-06-30">30. 6. 1848</date>/VIII</ref>; vgl. dazu auch <bibl type="secondary">
+                           <author>Regele</author>, Radetzky 281–285</bibl>, und <bibl type="secondary">
+                           <author>Bibl</author>, Radetzky 293–296</bibl>.</note>, und in der Besorgnis einer französischen Intervention bei etwaigem weitern Vordringen unsrer Truppen gegen Mailand den Grafen Montecuccoli wegen Beschleunigung der italienischen Pazifikationsangelegenheit angegangen zu haben versichert.</p>
+                  <p>Gegen 1. ist nichts zu erinnern, nachdem – wie der Minister des Inneren auf Anfrage des Justizministers versicherte – auch wegen Anerkennung der französischen Republik unsererseits die erforderlichen Einleitungen getroffen worden sind<note type="footnote" n="8">Nach Ausrufung der französischen Republik im Februar 1848 wurde der österreichische Gesandte Apponyi aus Paris abberufen; die Geschäfte führte provisorisch Thom weiter, siehe dazu die Weisungen (K.) Metternichs an Apponyi v. 5. und <date when="1848-03-07">7. 3. 1848</date>, <bibl type="archival">HHSTA., StK., Frankreich, Weisungen 338, Fasz. 1848, fol. 73 und 74</bibl>. Mit Schreiben (K.) v. <date when="1848-08-24">24. 8. 1848</date> wurde Thom vom Außenministerium informiert, daß Österreich bereit sei, die französische Republik formell anzuerkennen und wieder diplomatische Beziehungen aufzunehmen, <quote>ebd., fol. 425f</quote>.</note>.</p>
+                  <p>Die Mitteilung ad 2. behebt sich durch die inzwischen eingetroffenen Nachrichten über das Einrücken des Feldmarschalls in Mailand, macht aber zugleich den Abgang des Ministers der auswärtigen Angelegenheiten im Sitze der Regierung sehr fühlbar<note type="footnote" n="9">Wessenberg war mit Erzherzog Johann nach dessen Bestellung zum Reichsverweser nach Frankfurt gereist, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480707-P-0094.xml#top_1_1_94_1">MR. v. <date when="1848-07-07">7. 7. 1848</date>/I</ref>.</note>, so daß wegen Bestellung eines Vertreters dieses Ministeriums (wozu der Finanzminister den ungrischen Minister Fürsten Esterházy vorschlug, von dem jedoch, nach der Meinung des Grafen Latour, nicht vorauszusetzen wäre, daß er einen diesfälligen Antrag annehmen dürfte) beschlossen wurde, sich durch den Minister des Inneren an den ehemaligen Bundestagsgesandten Grafen Colloredo zu wenden<note type="footnote" n="10">Da Wessenberg ankündigte, bald nach Wien zurückzukehren, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480811-P-0101.xml#top_1_1_101_3">MR. v. <date when="1848-08-11">11. 8. 1848</date>/III</ref>, kam es von dieser Bestellung ab.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Aufstellung eines Freikorps für Schleswig-Holstein</head>
+                  <p>Der Minister des Inneren eröffnete die Bedingungen, unter welchen die in Wien beabsichtigte Bildung eines Freikorps nach Schleswig-Holstein sich realisieren würde<note type="footnote" n="11">Der deutsche Reichskriegsminister Peucker hatte mit Schreiben an Latour v. <date when="1848-07-30">30. 7. 1848</date> um die möglichst rasche Aufstellung eines österreichischen Hilfskorps für die deutsche Operationsarmee in Schleswig-Holstein ersucht. <bibl type="archival">KA., HKR., KM., Präs. 3884/1848</bibl>. Am <date when="1848-05-03">3. 5. 1848</date> hatten deutsche Bundestruppen unter Führung Preußens die Grenze der Elbherzogtümer überschritten; dazu und zur Genesis des Konfliktes siehe <bibl type="secondary">
+                           <author>Wollstein</author>, Großdeutschland 23–97</bibl>. Zum Krieg in Schleswig-Holstein siehe auch <bibl type="secondary">
+                           <author>Alten</author>, Krieg in Schleswig</bibl>; <bibl type="secondary">
+                           <author>Baudissin</author>, Geschichte des schleswig-holsteinischen Krieges</bibl>.</note>.</p>
+                  <p>Da in dieser Angelegenheit bereits eine Anfrage an Se. k. k. Hoheit den deutschen Reichsverweser ergangen und von Höchstdemselben die Hoffnung ausgesprochen worden ist, daß zur Beendigung des Krieges in Schleswig etc. eine Verstärkung der Bundestruppen <pb n="555" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s555.pdf"/>nicht werde benötigt werden<note type="footnote" n="12">Latour hatte ohnedies in seinem Schreiben (K.) v. <date when="1848-08-04">4. 8. 1848</date> an Erzherzog Johann eine österreichische Truppenentsendung zum Deutschen Bundesheer wegen der eigenen angespannten Lage kategorisch abgelehnt, <bibl type="archival">KA., HKR., KM., Präs. 3884/1848</bibl>. Siehe dazu auch den Brief Wessenbergs v. <date when="1848-08-07">7. 8. 1848</date> aus Frankfurt, in dem er eine friedliche, diplomatische Lösung des schleswig-holsteinischen Konfliktes proponiert, und die Antwort (K.) Latours v. <date when="1848-08-13">13. 8. 1848</date>, in der er seine Absicht, keine Truppen zu entsenden, wiederholt, <quote>ebd., Präs. 4120/1848</quote>.</note>, so wurde beschlossen, vor Erteilung der Genehmigung zur Bildung jenes Freikorps vorerst die Antwort Sr. k. k. Hoheit abzuwarten, inzwischen aber sowohl hievon die Beteiligten zu verständigen, als auch dem deutschen Reichsministerium die vorläufige Mitteilung über die Bedingungen zu machen, unter welchen die Aufstellung jenes Freikorps angeboten worden ist<note type="footnote" n="13">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480811-P-0101.xml#top_1_1_101_4">MR. v. <date when="1848-08-11">11. 8. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Zentralisierung der Unternehmungen zur Unterstützung der Notleidenden</head>
+                  <p>Der Minister des Inneren referierte über eine Zusammentretung mit dem Gemeinde- und Sicherheitsausschusse der Stadt Wien wegen Zentralisierung der Unternehmungen zur Unterstützung der Notleidenden<note type="footnote" n="14">Schwarzer hatte mit Schreiben (K.) v. <date when="1848-07-30">30. 7. 1848</date> dem Wiener Gemeindeausschuß und dem Sicherheitsausschuß seine Absicht angekündigt, ein provisorisches Zentralkomitee für die Arbeiterangelegenheiten ins Leben zu rufen und die Ausschüsse ersucht, Vertreter dahin zu nominieren, <bibl type="archival">FA., Montan-Präsidial-Acten (AM. Präs.) 241/1848</bibl>. Die erste – konstituierende – Sitzung des Zentralkomitees, an der auch Vertreter der beiden genannten Ausschüsse teilnahmen, fand am <date when="1848-08-01">1. 8. 1848</date> statt; siehe dazu das entsprechende Protokoll in <quote>ebd., 325/1848</quote>.</note>.</p>
+                  <p>Der wegen Beiziehung der Finanzquellen zu diesem Ende angegangene <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> sagte deren Benützung mittelst der Nationalbank unter der Bedingung zu, wenn die Wiener Vorstadtgemeinden oder Innungen die Haftung für die Verteilung der Unterstützungsgelder übernehmen<note type="footnote" n="15">Fortsetzung des Gegenstandes über die Arbeiterbeschäftigung in <ref type="protocol-link" target="MRP-1-1-01-0-18480818-P-0107.xml#top_1_1_107_1">MR. v. <date when="1848-08-18">18. 8. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Subventionierung des Theaters an der Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> ersuchte bei dem Umstande, wo die Sperrung des Theaters an der Wien wegen Zahlungsunfähigkeit des Unternehmers bevorsteht, den Finanzminister wegen einer Subvention zur Erhaltung dieses Theaters die geeigneten Verfügungen in Erwägung zu ziehen<note type="footnote" n="16">Der Akt, in dem das Innenministerium das Gesuch des Direktors des Theaters an der Wien Franz Pokorny um Unterstützung oder Vorschuß übermittelte, <bibl type="archival">FA., FM., Präs. 4426/1848</bibl>, ist nicht mehr auffindbar.</note>, was derselbe – unter Beobachtung der gehörigen Vorsicht – mittelst Beiziehung eines aus dem Theaterpersonale selbst zu bildenden Komitees tun zu wollen zusicherte<note type="footnote" n="17">Die Akten <quote>ebd., Präs. 5436/1848</quote>, in dem der Innenminister über seine Ansicht zur Unterstützung des Theaters an der Wien äußert, und <quote>ebd., Präs. 7561/1848</quote>, in dem der Innenminister über die Sicherstellung eines Vorschusses von 600 fl. an das Theater berichtet, sind ebenfalls nicht mehr auffindbar.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_100_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Ansuchen der Akademischen Legion um Eisenbahnfreikarten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> zeigte an, er sei von der Akademischen Legion um Eisenbahnfreikarten für 1800 angeblich zur Sicherung des Reichstags einzuberufende Urlauber dieser Legion angegangen worden.</p>
+                  <p>Da die Sicherheit des Reichstags in keiner Weise bedroht und jedenfalls die bereits vorhandene bewaffnete Macht dazu hinreichend ist, so wurde beschlossen, diesem Begehren keine Folge zu geben<note type="footnote" n="18">Der diesbezügliche Akt <bibl type="archival">ebd., Montan-Präsidial-Acten (AM. Präs.) 324/1848</bibl> ist nicht mehr auffindbar.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-08-10">10. August 1848</date>.</dateline>
+                  <seg type="other">Ges. 15. August. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

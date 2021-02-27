@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="502">Sitzung 502</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-10-24"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z502.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1306</idno>
+                  <idno type="KZ">3391</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-10-24"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 27. 10.), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Hein, Zichy, Mažuranić, Kalchberg, Schiller; außerdem anw. Mercandin, Reichenstein (nur bei I – III anw.); abw. Rechberg, Esterházy, Burger, Franck; BdR. Erzherzog Rainer 14. 11.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-10-27">1864-10-27</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8963">
+                     <surname>Schiller</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8788">
+                     <surname>Mercandin</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I – III anw.)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_502_1">Journalpolemik über die Einberufung des Reichsrates als „allgemeinen“</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_502_2">Staatsrechnungsabschluß für 1862</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_502_3">Staatsvoranschlag und Finanzgesetz für 1865; Staatsgüterverkauf</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_502_4">Bau der kroatisch-slawonischen Eisenbahn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_502_5">Herabsetzung der Verzehrungssteuer von gebrannten geistigen Getränken</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18641024-P-0502" ana="a5-b8-z502">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z502.pdf">
+               <title type="num">Nr. 502</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-10-24">24. Oktober 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Erzherzog Rainer; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Erzherzog Rainer 27. 10.), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Hein, Zichy, Mažuranić, Kalchberg, Schiller; außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Mercandin, Reichenstein (nur bei I – III <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice>); <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Rechberg, Esterházy, Burger, Franck; <choice>
+                                    <abbr>BdR.</abbr>
+                                    <expan>Bestätigung des Rückempfangs</expan>
+                                </choice> Erzherzog Rainer 14. 11.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1306</idno>
+                  <idno type="KZ">3391</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-10-24">24. Oktober 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_8_502_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Journalpolemik über die Einberufung des Reichsrates als „allgemeinen“</head>
+                  <p>Nachdem die Ah. Einberufung des Reichsrates für den 12. November d. J. ausschließend als allgemeiner Reichsrat<note type="footnote" n="1">Vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18641010-P-0497.xml#top_5_8_497_2">MR. v. <date when="1864-10-10">10. 10. 1864</date>/II</ref> a und <ref type="protocol-link" target="MRP-1-5-08-0-18641013-P-0498.xml#top_5_8_498_2">MR. v. <date when="1864-10-13">13. 10. 1864</date>/II</ref> a und b.</note> von den oppositionellen Journalen ungünstig beurteilt wird und selbst schon Zweifel über die Verfassungsmäßigkeit dieses Vorganges anzuregen versucht werden<note type="footnote" n="2">Z. B. <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18641023">Die Presse</ref>
+                           </title> v. <date when="1864-10-23">23. 10. 1864</date>
+                        </bibl>; <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18641023">Ostdeutsche Post</ref>
+                           </title> v. <date when="1864-10-23">23. 10. 1864</date>
+                        </bibl>.</note>, forderten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit, der den Vorsitz führende durchlauchtigste Herr Erzherzog</rs>
+                     </hi> den Staatsminister auf, dafür zu sorgen, daß der diesfällige Vorgang der Regierung in Journalartikeln gegen derlei Angriffe angemessen verteidigt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, er habe dieser Sache bereits seine Aufmerksamkeit zugewendet, man sei mit der Ausarbeitung von Entgegnungen beschäftigt, und dieselben würden demnächst erscheinen<note type="footnote" n="3">Siehe z. B. die Serie von Leitartikeln in <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=">Der Botschafter</ref>
+                           </title> v. 25. – <date when="1864-10-30">30. 10. 1864</date>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_502_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Staatsrechnungsabschluß für 1862</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den Vortrag des Finanzministers vom <date when="1864-10-05">5. Oktober 1864</date> mit dem vom Präsidenten der Obersten Rechnungskontrollbehörde vorgelegten Zentralrechnungsabschlusse für 1862, wobei der Minister sich die Ah. Ermächtigung erbittet, diesen Abschluß dem Reichsrate in der bevorstehenden Session vorzulegen<note type="footnote" n="4">Fortsetzung von <ref type="protocol-link" target="MRP-1-5-08-0-18640916-P-0490.xml#top_5_8_490_3">MR. v. <date when="1864-09-16">16. 9. 1864</date>/III</ref>.</note>. Der Staatsrat fand gegen die vorliegenden Anträge, welche den früheren Ministerratsbeschlüssen über diesen Gegenstand ganz konform sind, nichts zu erinnern<note type="footnote" n="5">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 875/1864</bibl>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, der Minister des Äußern habe sich darüber beschwert, daß es nach diesem Rechnungsabschlusse den Anschein hat, als ob bei dem Dienste der auswärtigen Angelegenheiten im Jahre 1862 eine Dotationsüberschreitung stattgefunden habe, während vielmehr eine Ersparung eingetreten ist und die Mehrauslage lediglich daher rühre, daß im Jahre 1862 mehrere Dienstesauslagen aus früheren Jahren zur Zahlung und Verrechnung gelangten. Obgleich dieser Umstand ganz richtig ist, konnte doch darum keine Änderung am Rechnungsabschlusse vorgenommen werden, da die erwähnte Verrechnungsweise grundsätzlich für alle Diensteszweige besteht. Doch bleibe es dem Minister Grafen Rechberg unbenommen, dem Reichsrat seinerzeit das Verhältnis aufzuklären<note type="footnote" n="6">Dazu <bibl type="archival">FA., FM., Präs. 5036/1864</bibl>.</note>.</p>
+                  <p>
+                     <pb n="209" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s209.pdf"/>Gegen die Anträge des Finanzministers ergab sich von keiner Seite eine Erinnerung<note type="footnote" n="7">Mit Ah. E. v. <date when="1864-10-27">27. 10. 1864</date> genehmigte der Kaiser die Vorlage im Reichsrat, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3221/1864</bibl>; diese erfolgte durch den Finanzminister am <date when="1864-11-17">17. 11. 1864</date>, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 23 ff. (3. Sitzung)</bibl>; der Zentralrechnungsabschluß wurde vom Finanzausschuß des Abgeordnetenhauses geprüft, <quote>ebd., 48 ff. (6/<date when="1864-11-24">24. 11. 1864</date>);</quote>
+                        <ref type="protocol-link" target="MRP-1-5-09-0-18641221-P-0521.xml#top_5_9_521_1">MR. v. <date when="1864-12-19">19. 12. 1864</date>/I</ref>. Im Plenum des Abgeordnetenhauses kam er nicht mehr zur Sprache.</note>, <ref xml:id="fn_5_8_502_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_502_a">Randvermerk Ransonnets: <quote>Nach erfolgter Abstimmung über Punkt II verließ der Präsident Graf Mercandin den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_502_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Staatsvoranschlag und Finanzgesetz für 1865; Staatsgüterverkauf</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag des Finanzministers vom <date when="1864-10-06">6. Oktober 1864</date> mit dem Staatsvoranschlage für das Jahr 1865<ref xml:id="fn_5_8_502_b"/>
+                     <note type="variant" n="b" target="#fn_5_8_502_b">Der Staatsvoranschlag und das Finanzgesetz für 1865 liegen dem Originalprotokoll in Druck bei.</note> und dem Entwurfe des diesfalls in der nächsten Session des Reichsrates einzubringenden Finanzgesetzes<note type="footnote" n="8">
+                        <bibl type="archival">FA., FM., Präs. 4952/1864 (K.) und Präs. 5489/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 874/1864</bibl>; zum Budget für 1865 siehe bereits <ref type="protocol-link" target="MRP-1-5-08-0-18641003-P-0494.xml#top_5_8_494_1">MR. v. <date when="1864-10-03">3. 10. 1864</date>/I</ref>.</note>.</p>
+                  <p>Der Staatsrat fand gegen die Positionen des Staatsvoranschlages und gegen den ministeriellen Gesetzesentwurf nichts zu erinnern, sprach jedoch sein Bedauern über den beantragten Verkauf der sich gut rentierenden Staatsgüter aus, zu dem man durch zwingende Umstände gedrängt wird. Der Präsident des Staatsrates fand sich zu folgenden Bemerkungen veranlaßt: a) Unter dem Ministerium der Justiz, Kapitel 40, Titel 5, kommt ein Betrag von 58.400 fl. zur Beteilung eines jeden Gerichtsadjunkten, der nicht bereits 840 fl. Gehalt bezieht, mit einer Funktionszulage von 100 fl. vor, wie ein solcher mit dem Gesamtbetrage von 57.900 fl. für 1864 bewilligt war. Nun ist, zufolge Ministerratsbeschlusses, die Verfassung eines beim Reichsrate einzubringenden Gesetzentwurfs im Werke, durch welchen für sämtliche minderdotierte Konzeptsbeamte, einschließlich jener der Justizbranche, eine Gehaltsaufbesserung mittels Teuerungszulagen zugewendet und hiefür ein spezieller Kredit im verfassungsmäßigen Wege gewährt werden soll<note type="footnote" n="9">Siehe dazu die Debatten in <ref type="protocol-link" target="MRP-1-5-08-0-18640916-P-0490.xml#top_5_8_490_4">MR. v. <date when="1864-09-16">16. 9. 1864</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-5-08-0-18641003-P-0494.xml#top_5_8_494_1">MR. v. <date when="1864-10-03">3. 10. 1864</date>/I</ref>; zum Gesetzentwurf <ref type="protocol-link" target="MRP-1-5-09-0-18641217-P-0520.xml#top_5_9_520_7">MR. v. <date when="1864-12-17">17. 12. 1864</date>/VII</ref>.</note>. Es dürfte daher zu überlegen sein, ob mit Hinblick auf diesen allgemeinen Antrag jene spezielle Anforderung für die Gerichtsadjunkten nicht zu entfallen hätte. b) Für das Ordinarium des Etats der kroatischen Hofkanzlei werden namhaft höhere als die für 1864 bewilligten Ziffern eingestellt. Weil sich daraus ergibt, daß von den durch den Reichsrat gewünschten Reduktionen, in welche die Regierung bereits eingewilligt hat, bisher gar nichts durchgeführt ist, so wird dies im Reichsrat zu sehr heftigen Kollisionen Anlaß geben, wobei die Regierung in eine mißliche Stellung gerät<note type="footnote" n="10">Zum Aufwand für das kroatische Justizwesen siehe bereits <ref type="protocol-link" target="MRP-1-5-08-0-18641010-P-0497.xml#top_5_8_497_3">MR. v. <date when="1864-10-10">10. 10. 1864</date>/III</ref>.</note>. c) Im Entwurfe des Finanzgesetzes, Art. I, kommt der Ausdruck „für den laufenden Dienst“ vor, welchen der Reichsrat aus dem ministeriellen Entwurf des Finanzgesetzes für 1864 eliminiert hat. d) Die vier Bände Beilagen zum Staatsvoranschlage sind dem Staatsrate mit dem Operate nicht zugekommen, man habe jedoch geglaubt, bei der Dringlichkeit der Sache die Beratung nicht länger aufschieben zu sollen. e) Im Finanzgesetze soll auch die Veräußerung von Domänen und Montangütern im Werte von 15 Millionen Gulden bewilligt werden. Da jedoch von einer Prüfung, ob die <pb n="210" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s210.pdf"/>Veräußerung eines jeden derselben rätlich und der dafür angesetzte Preis angemessen sei, auf Grundlage eines bloßen Verzeichnisses und im Verlaufe weniger Tage keine Rede sein könne, müsse Freiherr v. Lichtenfels den Staatsrat in dieser Beziehung vor jeder Verantwortung verwahren.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte vorerst zu d), er bedaure, daß der Staatsrat seine Beratung über den Staatsvoranschlag vor Überkommung der Beilagen desselben vorgenommen habe – welch letztere vollständig<ref xml:id="fn_5_8_502_c"/>
+                     <note type="variant" n="c" target="#fn_5_8_502_c">Einfügung Pleners.</note> erst gestern nach beendigter Drucklegung versendet werden konnten. <ref xml:id="fn_5_8_502_d">Die wiederholten Abänderungen im Militär- und Marinebudget, dann in jenem der siebenbürgischen Hofkanzlei (Grundentlastung) verursacht in diesen Partien den Aufschub</ref>
+                     <note type="variant" n="d" target="#fn_5_8_502_d">Einfügung d–d Pleners.</note>.</p>
+                  <p>Zu c) motivierte der Finanzminister den Ausdruck „für den laufenden Dienst“ durch den Wunsch, auszusprechen, daß die Voranschlagsziffern bloß die kurrenten Einnahmen und Ausgaben, mit Ausscheidung der Rückstände, enthalten. Die Prinzipienfrage, ob und wie lange die Ausgabsrückstände früherer Jahre noch als bewilligt gelten, sei nämlich noch nicht entschieden. Übrigens lege der Minister keinen besonderen Wert auf die Beibehaltung dieses Ausdrucks, worauf der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erwiderte, daß er dagegen einen großen Wert darauf lege, daß man sich möglichst an den Text des Finanzgesetzes für 1864 halte, worin dieser Zwischensatz nicht erscheint. Der Ministerrat entschied sich sofort für die Weglassung der Worte „für den laufenden Dienst“.</p>
+                  <p>Zu a) Die Position von 58.400 fl. auf Funktionszulagen für die Gerichtsadjunkten würde allerdings ihre besondere Bedeckung finden, wenn der noch in Bearbeitung stehende Gesetzvorschlag wegen Gehaltserhöhung für die unteren Beamten sanktioniert wird, indem die Zulagen sich bis zu den Beamten mit 1000 fl. Gehalt erstrecken sollen. Allein nachdem für diese Position das Präzedens des Jahres 1864 spricht, so sah der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> keinen Grund, dieselbe auf dem gegenwärtigen Standpunkt und solange das Schicksal jenes Gesetzentwurfs noch nicht entschieden ist, zu streichen. Der Ministerrat fand gegen diese Meinung des Finanzministers nichts zu erinnern.</p>
+                  <p>Zu b) äußerte der <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonische Hofkanzler,</rs>
+                     </hi> er verhehle sich ebenfalls nicht, daß die unverminderte Anforderung für die kroatisch-slawonischen Gerichtsbehörden im Jahre 1865 lebhaften Angriffen im Reichsrate werde ausgesetzt sein. Indes glaube er doch die Belassung des vollen Betrages im Voranschlage bevorworten zu sollen. Allerdings habe der Reichsrat im verflossenen Jahre sich für die Reduktion ausgesprochen, aber, wie der Hofkanzler glaubt, ohne hinlänglichen Grund, so daß er sich berechtigt halte, von dem schlecht informierten Reichsrate an den besser informierten in der nächsten Session appellieren zu dürfen. Es ist zu hoffen, der Reichsrat werde sich der Erwägung nicht verschließen, daß, so wie der Reichsrat die Geldmittel für die unter seiner verfassungsmäßigen Dazwischenkunft eingeführten Organisationen etc. bewilligt, er konsequenterweise die Mittel zu den für Kroatien auf dem verfassungsmäßigen Wege eingeführten Justizorganisationen nicht verweigern könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> stimmte für die Anforderung des fraglichen Betrags, jedoch als Extraordinarium, nach dem Vorgange im Budget für 1864, <pb n="211" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s211.pdf"/>zumal die Frage über den ungeschmälerten Fortbestand der kroatischen Gerichtsbehörden noch offen ist. Die Minister Graf Nádasdy und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> traten dieser Meinung bei, letzterer mit dem Beisatze, daß, wenn überhaupt diese Post noch zu retten sei, dies nur als Extraordinarium tunlich wäre. Der Finanzminister und überhaupt die Stimmenmehrheit vereinigte sich mit dem vom Polizeiminister vorgeschlagenen Modus. Der ungarische Hofkanzler trat dem kroatischen Hofkanzler vollkommen bei.</p>
+                  <p>Zu e) fand eine längere Erörterung statt, im Laufe welcher der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> die Veräußerung einer Partie Domänen- und Montanentitäten im beiläufigen Wert von 19 Millionen Gulden (wovon aber nur 15 Millionen im nächsten Jahre eingehen dürften) als ein unabwendbares Gebot der Notwendigkeit bezeichnete. Die Lage des Geldmarktes, auf welchem Sardinien, Rußland und selbst Frankreich vergebens Abnehmer ihrer Papiere suchen (beiläufig gesagt eine Satisfaktion für den österreichischen Finanzminister), diese Lage ist eine solche, daß wir möglichst einer Kreditoperation ausweichen müssen. Da wir aber andererseits den Verpflichtungen der Nationalbank gegenüber nicht untreu werden können<note type="footnote" n="11">Rückzahlung der Schuld gemäß der Bankakte von 1862/63, <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/3, XXIX–XXXVIII</bibl>, und <bibl type="secondary">
+                           <author>Ders.</author>, Einleitung ÖMR. V/5, XVI–XIX</bibl>.</note>, so bleibt nichts übrig, als das dazu nötige Geld durch Veräußerung von Staatseigentum aufzubringen. Das letztere sei auch zu einem so wichtigen Zweck zu dienen wohl vollkommen berufen, und werde sich diese Verwendung reichlich lohnen. Es ist zu hoffen, daß der Reichsrat sich diesen Gründen nicht verschließen wird, und es dürfte durch die Aufnahme der Ermächtigung zum Verkaufe in das Finanzgesetz die Notwendigkeit zur Einbringung einer eigenen Gesetzvorlage entfallen. Über die Zulässigkeit des Verkaufes der bezeichneten Güter geben die Erhebungen der Landesbehörden sowohl als die Zustimmung des ungarischen Hofkanzlers volle Beruhigung. Edler v. Plener habe namentlich das große Staatsgut Likawa nach reifer Erwägung vom Verkaufe ausgeschlossen, weil sich zeigte, daß wichtige nationalökonomische Rücksichten dafür streiten, diesen großartigen Waldbesitz nicht in Privathände übergehen zu lassen. Was die Preisansätze im vorliegenden Verzeichnisse<note type="footnote" n="12">Beilagen 184 bis 187 des Staatsvoranschlags. Ein Exemplar im Konvolut <bibl type="archival">HHSTA., JStr., Beilagen zu 874/1864, Karton 51</bibl>; siehe auch <bibl type="archival">FA., FM., Präs. 4952/1864</bibl>.</note> betrifft, so seien sie noch nicht als definitive Ausrufspreise zu betrachten, und hoffe der Minister, seinerzeit mit diesen Gütern relativ ebenso günstige Preise zu erzielen wie bisher. Eine Fixierung der Verkaufssumme der einzelnen Realitäten durch den Reichsrat würde nicht am Platze sein. Der Finanzminister erkenne seine Verpflichtung, nichts zu verschleudern, und werde daher unter seiner Verantwortlichkeit die besten Preise zu erzielen suchen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> ist im Prinzip nicht für massenhaften Verkauf von Staatsgütern, deren Erlös wohl nicht bloß dazu dienen sollte, um „Löcher zu stopfen“. <ref xml:id="fn_5_8_502_e">Er wünschte, daß bei dem Verkaufe von Staatsgütern nicht der augenblickliche Bedarf einiger Millionen Gulden, sondern in erster Linie auch das volkswirtschaftliche Interesse, namentlich die Möglichkeit erfolgreicher Kolonisierung in den östlichen Teilen der Monarchie im Auge behalten werde. Durch systemlosen Verkauf von Gütern, die zu solchem Zwecke gewiß auch im wohlverstandenen nachhaltigen finanziellen Interesse verwendbar erscheinen, an Spekulanten, namentlich an sogenannte „Güterschlächter“, beraubt sich die Regierung der Möglichkeit, ein gesundes Kolonisierungssystem schon durch ihren eigenen Bodenbesitz ins Leben zu rufen. Wenn Langrand-Dumonceau binnen Jahresfrist Gelegenheit fand, große Güter zu zerschlagen, so könne keine unüberwindliche Schwierigkeit zu parzellenweisem rationellem Verkaufe für die Regierung im Wege stehen, </ref>
+                     <note type="variant" n="e" target="#fn_5_8_502_e">Einfügung e–e Heins statt: <quote>Auch nimmt sich die Regierung bei dem Verkauf ungarischer Güter die Mittel, die Kolonisation derselben durchzuführen.</quote>
+                     </note>Er wünschte, daß bei dem Verkaufe von Staatsgütern nicht der augenblickliche Bedarf einiger Millionen Gulden, sondern in erster Linie auch das volkswirtschaftliche Interesse, namentlich die Möglichkeit erfolgreicher Kolonisierung in den östlichen Teilen der Monarchie im Auge behalten werde. <pb n="212" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s212.pdf"/>Durch systemlosen Verkauf von Gütern, die zu solchem Zwecke gewiß auch im wohlverstandenen nachhaltigen finanziellen Interesse verwendbar erscheinen, an Spekulanten, namentlich an sogenannte „Güterschlächter“, beraubt sich die Regierung der Möglichkeit, ein gesundes Kolonisierungssystem schon durch ihren eigenen Bodenbesitz ins Leben zu rufen. Wenn Langrand-Dumonceau binnen Jahresfrist Gelegenheit fand, große Güter zu zerschlagen, so könne keine unüberwindliche Schwierigkeit zu parzellenweisem rationellem Verkaufe für die Regierung im Wege stehen<note type="footnote" n="13">Zu Langrand-Dumonceau siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640915-P-0489.xml#top_5_8_489_2">MR. v. <date when="1864-09-15">15. 9. 1864</date>/II</ref>.</note>, . Schließlich sprach Votant den Wunsch aus, daß durch Parzellierung der Güter auch dem kleinen Kapitale die Möglichkeit gegeben werde, sich zu beteiligen, wobei die größere Konkurrenz dem Ärar sehr zustatten käme. In ähnlicher Weise sprach sich der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> aus, welcher meinte, daß die Regierung lieber die Parzellierung der Güter selbst in die Hand nehmen, als selbe exklusiv großen Gesellschaften des Auslandes überlassen sollte. Dies veranlaßte den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> zur Erwiderung, daß der parzellenweise Verkauf großer Güter eine eigene Art von Spekulation sei, mit deren komplizierten Details sich die Regierung nicht befassen könne; auch setze dies viele weitwendige und zeitraubende Vorarbeiten voraus, während das Bedürfnis, sich Geld zu verschaffen, und zwar sehr bald zu verschaffen, für den Staatsschatz leider gebieterisch geworden ist. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> sah es auch als wünschenswert an, daß der Finanzminister die gewünschte allgemeine Verkaufsermächtigung erhalte und sich der Reichsrat jeder Einmischung in die Administration durch Taxierungen und Prüfung der Details enthalte. Ob dies jedoch gelingen werde, sei zweifelhaft. Durch die vom Staatsratspräsidenten und vom Polizeiminister gemachten Bemerkungen über die Prüfung der Opportunität des Verkaufs jedes einzelnen dazu bezeichneten Staatsguts fand sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> veranlaßt, die Vorlesung einer Denkschrift zu beginnen, welche zur Begründung der bezüglichen Staatsvoranschlagsrubrik dienen soll<note type="footnote" n="14">
+                        <quote>Nachweisung über die in den Staatsvoranschlag für das Jahr 1865 aufgenommenen Verkäufe an größeren Objekten des ärarischen Forst- und Domänenbesitzes,</quote>
+                        <bibl type="archival">FA., FM., Präs. 4952/1864</bibl>.</note>. Allein, da einerseits diese Begründung nur eine summarische ist und die Erledigung des Staatsvoranschlages im Ministerrate doch nicht bis zu jenem Zeitpunkte aufgeschoben werden kann, wo man über jedes einzelne Staatsoder Montangut einen Beschluß gefaßt haben wird, schlug der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> vor, daß der Finanzminister sich zwar auf das Ansuchen einer im Finanzgesetz zu erteilenden allgemeinen, summarisch zu begründenden Ermächtigung zum Verkaufe zu beschränken hätte, die Opportunität der Veräußerung jedes einzelnen Gutes im Ministerrate jedoch im Verlauf der Zeit bis zur Eröffnung der Debatten des Reichsrates zu prüfen sei. Das Beispiel mit Agordo<note type="footnote" n="15">
+                        <ref type="protocol-link" target="MRP-1-5-08-0-18640804-P-0484.xml#top_5_8_484_2">MR. v. <date when="1864-08-04">4. 8. 1864</date>/II</ref>.</note> zeige, wie manchen Rücksichten dabei Rechnung getragen werden muß und wie sehr man sich vor einseitiger Beurteilung der Frage hüten müsse. Diese Beratungen würden auch zur Information der übrigen Minister dienen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte sich mit Vergnügen bereit, die gewünschten eingehenden Referate in den nächsten Sitzungen nach und nach zu erstatten, und würde dann über jeden einzelnen Veräußerungsakt die Ah. <pb n="213" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s213.pdf"/>Entscheidung einzuholen sein, <ref xml:id="fn_5_8_502_f">welche übrigens in betreff des Kupferwerkes Agordo bereits erflossen ist, daher diesfalls jede weitere Begründung entbehrlich sein wird</ref>
+                     <note type="variant" n="f" target="#fn_5_8_502_f">Einfügung f–f Pleners.</note>. Die Stimmenmehrheit war hiemit einverstanden. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> äußerte jedoch, er sehe voraus, daß der Reichsrat sich mit einer bloß allgemeinen Spezifikation und summarischen Begründung nicht begnügen werde. Auch bedürfe die Lösung der Fragen, ob und wie teuer ein Gut zu verkaufen sei, sehr tief eingehender Verhandlungen, worüber sich nicht leichthin entscheiden läßt<note type="footnote" n="16">In den folgenden Monaten wurde im Ministerrat nicht über die Veräußerung einzelner Staatsgüter geredet, wohl aber über den Verkauf insgesamt, vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18641126-P-0516.xml#top_5_8_516_4">MR. v. <date when="1864-11-26">26. 11. 1864</date>/IV</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> ergriff das Wort, um eine Differenz zwischen der siebenbürgischen Hofkanzlei und dem Finanzministerium zur Entscheidung zu bringen. Das Ministerium hat nämlich im Staatsvoranschlage eine Vorschußsumme von einer Million an den siebenbürgischen Grundentlastungsfonds unter dem Erfordernis und die 5% Zinsen dieses Ärarialvorschusses unter der Bedeckung präliminiert. Baron Reichenstein ist weit entfernt, gegen die Anweisung eines Vorschusses auf Grundentlastungsauslagen in Siebenbürgen Einsprüche zu erheben, sondern er hält denselben vielmehr für ganz unentbehrlich, weil das Land durch einen Zuschlag auf Grundentlastung per 1 fl. 50 (!) vom Steuergulden erdrückt werden würde. Allein es scheint ihm angezeigt, daß die Regierung damit noch nicht die Initiative im Voranschlag ergreife und vielmehr abwarte, bis der Landtag sein diesfälliges Begehren vorgebracht hat. Im gegenwärtigen Augenblick schwebt noch die bezügliche Verhandlung, und es dürfte daher deren Ergebnis abgewartet, sohin die fragliche Million aus dem Voranschlage gestrichen werden. Eine notwendige Konsequenz der Streichung des Ärarialvorschusses ist aber auch die Streichung der eingestellten Einnahmen an Vorschußinteressen, welche daher aus der Bedeckung ebenfalls wegzulassen wären; auch müsse der Hofvizekanzler schon jetzt bemerken, daß es sehr hart wäre, wenn Siebenbürgen die zu erhaltenden Vorschüsse dieser Art verzinsen müßte, während die Vorschüsse an die galizischen und kroatischen Grundentlastungsfonds unverzinslich erfolgt werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er nehme keinen Anstand, die erwähnten zwei Posten aus dem Erfordernis und der Bedeckung für 1865 wegzulassen, und der Ministerrat fand dagegen nichts zu erinnern.</p>
+                  <p>Schließlich reassumierte <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit der durchlauchtigste Herr Erzherzog Rainer</rs>
+                     </hi> die vom Ministerrat bezüglich des Staatsvoranschlags für 1865 gefaßten Beschlüsse, wonach der Finanzminister seinen au. Vortrag modifizieren und demnächst unterbreiten wird<note type="footnote" n="17">Am <date when="1864-10-31">31. 10. 1864</date> legte Plener den endgültigen Staatsvoranschlag vor, der Kaiser erteilte am <date when="1864-11-06">6. 11. 1864</date> die Ermächtigung zur Einbringung im Reichsrat, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3322/1864,</bibl> die im Rahmen der Budgetrede des Finanzministers am <date when="1864-11-17">17. 11. 1864</date> erfolgte, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 23–29 (3. Sitzung)</bibl>. Das von der Regierung erstellte Budget für 1865 stieß im Parlament auf großen Widerstand, siehe dazu die betreffenden Ministerratsprotokolle der folgenden Monate; <bibl type="secondary">
+                           <author>Kolmer</author>, Parlament und Verfassung 1, 187–190;</bibl>
+                        <bibl type="secondary">
+                           <author>Wolf</author>, Ignaz von Plener 65 f.</bibl>; <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, Index Stichwort Staatsvoranschlag 1865</bibl>; es wurde vom Abgeordnetenhaus erst in der vorletzten Sitzung der Session am <date when="1865-07-21">21. 7. 1865</date> in dritter Lesung verabschiedet, <quote>ebd., 2727 (90. Sitzung/<date when="1865-07-21">21. 7. 1865</date>),</quote> wobei die Ausgaben um 26 Millionen Gulden (von 548 auf 522), die Einnahmen um vier Millionen (von 518 auf 514) und somit das Defizit um 22 Millionen (von 30 auf 8) reduziert wurden; Ah. Sanktion <date when="1865-07-26">26. 7. 1865</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2098/1865</bibl>; Publikation <bibl type="archival">RGBL. Nr. 54/1865</bibl>.</note>,<ref xml:id="fn_5_8_502_g"/>
+                     <note type="variant" n="g" target="#fn_5_8_502_g">Randvermerk Ransonnets: <quote>Nach Beendigung der Beratung über den Punkt III verließ der siebenbürgische Hofvizekanzler den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_502_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bau der kroatisch-slawonischen Eisenbahn</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte a) über den Vortrag des Handelsministeriums vom <date when="1864-08-03">3. August 1864</date> betreffend das Majestätsgesuch des Munizipalrates von Fiume um Einbeziehung dieser Stadt in das Eisenbahnnetz, und b) über den Vortrag des kroatisch-slawonischen Hofkanzlers vom <date when="1864-09-07">7. September 1864</date> über die gleiche Bitte der Stadt Fiume und den Stand der Semlin-Fiumaner- sowie der St. Peter-Fiumaner-Eisenbahnfrage<note type="footnote" n="18">Der Vortrag des Handelsministers Präs. 1245/1864 ist in <quote>AVA., MHVw</quote>. und <quote>VA.</quote> nicht mehr vorhanden. Gutachten des Staatsrates zum Vortrag des Handelsministers <bibl type="archival">HHSTA., JStr. 702/1864</bibl>, zum Vortrag des kroatisch-salwonischen Hofkanzlers <quote>ebd., JStr. 808/1864.</quote> Zur kroatischen Eisenbahn siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630331-P-0336.xml">MR. I v. <date when="1863-03-31"/>31. 3.1863</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z336" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z336.pdf" target="MRP-1-5-05-0-18630331-P-0336.xml">ÖMR. V/5, Nr. 336</ref>
+                        </bibl>.</note>.</p>
+                  <p>Das Handelsministerium hat unterm <date when="1864-08-03">3. August 1864</date> zur Ah. Kenntnis gebracht, daß die Verhandlungen wegen der Bahn Semlin-Sissek-Fiume noch nicht zu einer Ah. Entscheidung reif seien, weil a) das diesfällige Bauprojekt der belgischen Gesellschaft (Graf Villermont und Konsorten) noch sehr unvollkommen ist; weil b) die von ihr angesprochene Staatsgarantie eines Bruttoertrags von 120.000 fl. per Meile viel zu hoch gegriffen ist; weil c) die südliche Staatsbahn, nach der Meinung der Finanzprokuratur, ein Vorrecht auf die Semlin-Sissek-Karlstadt-Fiumaner-Bahn besitzt (welches sie aber bis jetzt noch nicht geltend gemacht hat) und weil endlich d) die Fusion der Fiume-Semliner-Bahn mit der Alfölder Eisenbahn, wodurch der Anschluß an die ungarischen Bahnen bewirkt würde, für das Ärar sowie für die beteiligten Länder weit vorteilhafter wäre als die isolierte kroatisch-slawonische Bahn. (Bezüglich auf diese Fusion liegen jetzt Anträge einer ungarischen Gesellschaft vor.) Im übrigen betrachtet das Handelsministerium die Verhandlung nicht als besonders dringlich, zumal eine Vorlage wegen Subvention der fraglichen Eisenbahn in der nächsten (diesjährigen) Reichsratssession wohl nicht würde eingebracht werden können. Der kroatische Hofkanzler findet dagegen diese Angelegenheit aus nationalökonomischen und politischen Rücksichten sehr dringend und betrachtet den Eisenbahnbau als durch die Ah. Entschließung vom <date when="1863-04-13">13. April 1863</date>
+                     <note type="footnote" n="19">Zit. <quote>ebd., Anm. 6.</quote>
+                     </note> im Grundsatze entschieden, so daß ein Ah. Impuls zur Beschleunigung der Verhandlung mit der belgischen Gesellschaft gegeben werden sollte. Die Fusionsvorschläge seien nur geeignet, die Verwirklichung des Baues in weite Fernen zu rücken. Das Vorrecht der Südbahn erscheint dem Hofkanzler nicht als begründet, und es wäre der Beratung im Ministerrate zu unterziehen. Der Staatsrat hat die vorliegenden Verhandlungen zu einer Ah. Entscheidung noch nicht reif gefunden, zumal bei denselben nach neuen Prinzipien und ohne das nötige Einvernehmen der Zentralstellen vorgegangen worden ist. Die Stimmenmehrheit beantragte daher folgende, an den Leiter des Handelsministeriums zu richtende Ah. Resolution: „Ich habe den Inhalt dieses Vortrages zur Kenntnis genommen und erwarte, daß Sie bemüht sein werden, die hier angedeuteten Vorverhandlungen nach Maßgabe der bei Eisenbahnkonzessionen bisher befolgten Grundsätze und im Einvernehmen <pb n="215" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s215.pdf"/>mit Meinem kroatisch-slawonischen Hofkanzler in nächster Zeit zum Abschlusse zu bringen und Mir sonach einverständlich mit demselben die definitiven Anträge zur Schlußfassung baldigst vorzulegen“.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> äußerte, er sei mit dem au. Antrage auf eine in diesem Sinne zu erlassende Ah. Entschließung einverstanden. Der Fusionsantrag der ungarisch-englischen, durch Graf Edmund Zichy repräsentierten Gesellschaft, welche um 30% billigere Anträge als die belgische Gesellschaft macht, sei dem Freiherrn v. Kalchberg als so wichtig erschienen, daß er ihn einer näheren Erörterung würdig befunden habe, ohne jedoch darum schon die belgischen Proponenten zurückzuweisen. Morgen (d. i. den 25. Oktober) solle eine kommissionelle Verhandlung stattfinden, wobei sich das Verhältnis der beiderseitigen Anbote klarstellen werde; dieses maßgebende Ergebnis dürfte vor allem abgewartet werden. Im übrigen habe sich das Handelsministerium bei den bisherigen Verhandlungen in dem bei Eisenbahnkonzessions­angelegenheiten vorgeschriebenen Geleise bewegt und werde dasselbe auch ferner einhalten. Der <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonische Hofkanzler</rs>
+                     </hi> ging in seiner hierauf folgenden, längeren Erwiderung von der Ansicht aus, daß Se. Majestät der Kaiser mit der Ah. Entschließung vom 13. April über den Bau und die Trasse der Fiume-Semliner-Bahn bereits zu beschließen geruht haben. Das kaiserliche Wort solle nunmehr und zwar bald zur Tat werden, und es liege ein sehr plausibler Antrag der belgischen Gesellschaft vor, durch dessen Annahme die Wünsche Kroatiens erfüllt werden würden. Einen Wert würde Votant darauf legen, daß die Frage über das behauptete Vorrecht der Südbahn von der Regierung bald definitiv erledigt werde, zur Richtschnur für die weiteren Verhandlungen des Handelsministeriums. Es liegt in diesem sogenannten Vorrecht eine Art Damoklesschwert, welches die Verhandlungen lähmt. Bevor man mit Graf Zichy unterhandelt, wäre aber zu entscheiden, ob der Vollzug des Ah. Willens ins Ungewisse hinaus verzögert werden dürfe. Im übrigen findet der kroatisch-slawonische Hofkanzler gegen die vom Staatsrate beantragte Erledigung nichts zu erinnern. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> bat dringend, daß der Fortsetzung der Verhandlungen mit der ungarisch-englischen Gesellschaft kein Hindernis gesetzt werde, da der von ihr beabsichtige Eisenbahnbau für die materielle Wohlfahrt Ungarns von ungeheuerer Wichtigkeit sei.</p>
+                  <p>Nachdem sich in der heute zur Beratung vorliegenden Angelegenheit von entgegengesetzten Seiten auf die Ah. Entschließung vom <date when="1863-04-13">13. April 1863</date> berufen wird, so glaubte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> durch Vorlesung derselben konstatieren zu sollen, es sei durch dieselbe lediglich ausgesprochen, daß das Zustandekommen der fraglichen Bahn in der Ah. Absicht liege und daß zu diesem Ende die erforderlichen Vorarbeiten vorzunehmen seien, ohne daß jedoch hiezu ein Vorschuß aus dem Staatsschatz erteilt werde. Eine wirkliche Ah. Bewilligung des Baues und die Genehmigung einer Zinsengarantie sei jedoch keineswegs darin gelegen. Was das Vorrecht der Staatsbahn betrifft, so scheint dem Freiherrn v. Lichtenfels, <ref xml:id="fn_5_8_502_h">soweit eine Beurteilung gegenwärtig möglich ist*</ref>
+                     <note type="variant" n="h" target="#fn_5_8_502_h">Einfügung h–h Lichtenfels’.</note>, dasselbe rechtlich nicht begründet, doch werde dies seinerzeit den Gegenstand einer besonderen, reifen Erwägung bilden. Vorderhand dürfte zu überlegen sein, <pb n="216" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s216.pdf"/>ob die Regierung an die Südbahngesellschaft eine Frage über die Geltendmachung eines solchen Vorrechtes richten solle. Unter diesen Umständen vermöge der Präsident nur den vom Staatsrate vorgeschlagenen, die Verhandlungen beschleunigenden Resolutionsentwurf an den Handelsminister zu bevorworten, mit dem Bemerken, daß der kroatisch-slawonische Hofkanzler davon durch Ag. Mitteilung einer Abschrift in Kenntnis zu setzen sein dürfte.</p>
+                  <p>Der Ministerrat war hiemit einverstanden<note type="footnote" n="20">Die Vorträge des Handelsministers und des kroatisch-slawonischen Hofkanzlers wurden nach dem oben zit. Antrag des Staatsrates resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3388/1864, und KZ. 3389/1864</bibl>. Die Akten des Handelsministeriums zur kroatischen Eisenbahn sind in <quote>AVA., MHVw</quote>., und <quote>VA.</quote>, nicht mehr vorhanden. Fortsetzung <ref type="protocol-link" target="MRP-1-5-09-0-18650112-P-0529.xml#top_5_9_529_6">MR. v. <date when="1865-01-12">12. 1. 1865</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_502_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Herabsetzung der Verzehrungssteuer von gebrannten geistigen Getränken</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den Vortrag des Finanzministers wegen Einbringung eines Gesetzentwurfes, wodurch den Erzeugern gebrannter geistiger Getränke ein zehnperzentiger Nachlaß von der nach Verhältnis des gewonnenen Produktes entfallenden Verzehrungssteuer unter gewissen Modalitäten bewilligt werden soll. Weder vom Staatsrate noch vom Ministerrate wurde gegen die Einbringung dieses Gesetzes beim Reichsrate eine Erinnerung erhoben<note type="footnote" n="21">Vortrag v. <date when="1864-10-13">13. 10. 1864</date>, Z. 44412/1837; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 891/1864</bibl>. Die Verzehrungssteuer auf Branntwein war mit Gesetz v. <date when="1862-07-09">9. 7. 1862</date> neu geregelt worden, <bibl type="archival">RGBL. Nr. 45/1862</bibl>; <ref type="protocol-link" target="MRP-1-5-02-0-18610905-P-0118.xml#top_5_2_118_6">MR. I v. <date when="1861-09-05">5. 9. 1861</date>/VI</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z118" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z118.pdf" target="MRP-1-5-02-0-18610905-P-0118.xml">ÖMR. V/2, Nr. 118</ref>
+                        </bibl>. Mit Ah. E. v. <date when="1864-10-31">31. 10. 1864</date> genehmigte der Kaiser die Einbringung der Novelle, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3223/1864</bibl>; sie wurde im Reichsrat sehr lange diskutiert, dazu <ref type="protocol-link" target="MRP-1-5-09-0-18641209-P-0517.xml#top_5_9_517_6">MR. v. <date when="1864-12-09">9. 12. 1864</date>/VI</ref> und <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, Index,Stichwort Branntweinsteuer</bibl>. Das schließlich verabschiedete Gesetz wurde von Plener nicht zur Ah. Sanktion empfohlen. Fortsetzung <ref type="protocol-link" target="MRP-1-6-01-0-18651013-P-0015.xml#top_6_1_15_1">MR. v. <date when="1865-10-13">13. 10. 1865</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b1-z15" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b1/pdf/a6-b1-z15.pdf" target="MRP-1-6-01-0-18651013-P-0015.xml">ÖMR. VI/1, Nr. 15</ref>
+                        </bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-10-27">27. Oktober 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="other">[Ah. E.] Ich habe den Inhalt dieses Protokolles zur Kenntnis genommen. Franz Joseph. Schönbrunn, den <date when="1864-11-12">12. November 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-11-14">14. November 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

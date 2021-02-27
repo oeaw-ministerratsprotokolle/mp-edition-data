@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="4">Abteilung IV</title>
+            <title level="s" type="sub">Das Ministerium Rechberg</title>
+            <title level="m" type="main" n="3">Band 3</title>
+            <title level="m" type="sub">Oktober 1860–<date when="1861-02-02">2. Februar 1861</date>
+            </title>
+            <title level="a" type="desc" n="222">Sitzung 222</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1860-10-27"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a4-b3-z222.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung IV Das Ministerium Rechberg, Band 3 Oktober 1860–2. Februar 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2009">2009</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">611</idno>
+                  <idno type="KZ">3665</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1860-10-27"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Rechberg; BdE. und anw. (Rechberg 27. 10./ 11. 11.), Gołuchowski 31. 10., Vay 3. 11., Lasser 4. 11., Szécsen 4. 11., Plener 5. 11.; abw. Mecséry, Degenfeld.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. 27. 10./<date when="1860-11-11">1860-11-11</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8584">
+                     <surname>Gołuchowski</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-10-31">31. 10.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8679">
+                     <surname>Vay</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-03">3. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-04">4. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8078">
+                     <surname>Szécsen</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-04">4. 11.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-11-05">5. 11.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_4_3_222_1">Organisches Reichsratsstatut</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_4_3_222_2">Übereinstimmung der Landesstatute mit dem Diplom vom 20. Oktober</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_4_3_222_3">Exzeß an der Wiener Universität</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_4_3_222_4">Landesstatut für das lombardisch-venezianische Königreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_4_3_222_5">Die 17 Internierten in Josefstadt betreffend</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_4_3_222_6">Revision der wegen Majestätsbeleidigung etc. anhängigen Prozesse</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_4_3_222_7">Einkauf der zum Freihandel erzeugten Tabakblätter für die Regie</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_4_3_222_8">Erhöhung des Zinsfußes für die Salinenscheine</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-4-03-0-18601027-P-0222" ana="a4-b3-z222">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml#a4-b3_z222.pdf">
+               <title type="num">Nr. 222</title>
+               <title type="descr">Ministerkonferenz, Wien, <date when="1860-10-27">27. Oktober 1860</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Rechberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Rechberg 27. 10./ 11. 11.), Gołuchowski 31. 10., Vay 3. 11., Lasser 4. 11., Szécsen 4. 11., Plener 5. 11.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Mecséry, Degenfeld.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">3665</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der zu Wien am <date when="1860-10-27">27. Oktober 1860</date> abgehaltenen Ministerkonferenz unter dem Vorsitze des Ministerpräsidenten, Ministers des kaiserlichen Hauses etc. Grafen v. Rechberg.</head>
+               <div type="agenda_item" xml:id="top_4_3_222_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Organisches Reichsratsstatut</head>
+                  <p>Im Ah. Auftrage Sr. Majestät lud der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> die beiden Minister Ritter v. Lasser und Graf Szécsen ein, den Entwurf des organischen Reichsratsstatuts zu verfassen, dessen in dem Ah. Kabinettschreiben an Grafen Rechberg vom <date when="1860-10-20">20. Oktober 1860</date> erwähnt wird<note type="footnote" n="1">Siehe dazu MK. v. <date when="1860-10-16">16. 10. 1860</date>, Anm. 34 und 35.</note>, damit dasselbe nach vorläufiger Beratung in der Konferenz der Ah. Genehmigung Sr. Majestät unterbreitet werden könne.</p>
+                  <p>Auf die Frage, ob das Staut bloß für den verstärkten Reichsrat oder auch für den ständigen zu gelten habe, bemerkten die beiden <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi>, daß, nachdem im Eingange des belobten Ah. Kabinettschreibens nur die Rede von den aus den Landtagen zu entsendenden Reichsräten ist, die Aufgabe sich auch zunächst nur auf ein Statut für den verstärkten Reichsrat zu beschränken hätte. Jedoch gedächte Graf Szécsen seine Ausarbeitung auch auf den ständigen Reichsrat auszudehnen und dieselbe als seinen besonderen Antrag der Konferenzberatung zu unterziehen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> war der Meinung, daß das neue Statut den ganzen Reichsrat zu umfassen hätte, weil der Ah. Befehl vom 20. Oktober dahin lautet, nicht nur alle Bestimmungen bezüglich der von den Landtagen zu entsendenden Reichsräte, sondern auch alle Veränderungen und Modifikationen, welche in den früheren den Reichsrat betreffenden Patenten und Erlässen eingetreten sind, in einem Statute zusammenzufassen. Übrigens wird diese Frage ohnehin bei der Beratung über das Elaborat der beiden Minister in der Konferenz nochmals erörtert werden können<note type="footnote" n="2">Fortsetzung MK. v. 29. 10.1860/I, Punkt 1.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Übereinstimmung der Landesstatute mit dem Diplom vom 20. Oktober</head>
+                  <p>Da in dem mittelst der Wiener Zeitung vom 27. [10.] veröffentlichten Landesstatute für Kärnten<note type="footnote" n="3">Zum Landesstatut für Kärnten siehe MK. v. 16. 6. und <date when="1860-07-03">3. 7. 1860</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z184" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z184.pdf" target="MRP-1-4-02-0-18600703-P-0184.xml">ÖMR. IV/2, Nr. 184</ref>
+                        </bibl>.</note> im § 20 vorkommt: „Der Landtag ist berufen, bei den in Absicht auf die besonderen Landes­verhältnisse zu erlassenden Gesetzen den Beirat zu üben“, während im Statute für Steiermark<note type="footnote" n="4">Dazu siehe MK. v. 19. u. <date when="1860-05-22">22. 5. 1860</date>, ebd. Nr. 160); das Statut war in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18601024">Wiener Zeitung</ref>
+                           </title> v. <date when="1860-10-24">24. 10. 1860</date>
+                        </bibl> publiziert worden.</note> der Ausdruck „mitzuwirken“ gebraucht ist, <pb n="9" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s9.pdf"/>so geruhten Se. Majestät dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsidenten</rs>
+                     </hi> zu befehlen zu veranlassen, daß obige Bestimmung im Statute für Kärnten mit dem für Steiermark in Einklang gebracht werde<note type="footnote" n="5">Dieser Befehl war mündlich erteilt worden, vgl. <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3497/1860</bibl>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hat die diesfällige Berichtigung in der Wiener Zeitung, die morgen erscheinen wird, bereits angeordnet<note type="footnote" n="6">Wiener Zeitung v. <date when="1860-10-28">28. 10. 1860</date>; die Berichtigung wurde auch, ohne Nummer, ins Reichsgesetzblatt eingerückt, <bibl type="archival">RGBL. LIX. Stück aus 1860</bibl>; zur Berichtigung des Originals Vortrag Gołuchowskis v . <date when="1860-10-27">27. 10. 1860</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3497/1860</bibl>.</note>.</p>
+                  <p>Bei diesem Anlasse äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> das Bedauern, daß bei diesen unter demselben Datum wie das kaiserliche Diplom erlassenen Landesstatuten die Bestimmung I. des Diploms nicht wörtlich beibehalten wurde, in der es heißt: „Das Recht, Gesetze zu geben, abzuändern und aufzuheben, wird von Uns etc. nur unter Mitwirkung der gesetzlich versammelten Landtage ausgeübt werden.“ Er stellte daher den Antrag, nicht nur in den künftig erscheinenden Landesordnungen einen in diesem Sinne abgefaßten Paragraphen aufzunehmen, sondern auch, damit nicht Ursache zu Bedenken gegen die Gleichberechtigung der Kronländer gegeben werde (welche Bedenken bereits aus Anlaß der gerügten Bestimmung für Kärnten laut geworden sein sollen), mittelst einer von Sr. Majestät zu erbittenden Ah. Verfügung auch die bereits publizierten zwei Landesstatute durch einen im Sinne des Absatz I. des Ah. Diploms abgefaßten Artikel nachträglich zu ergänzen.</p>
+                  <p>Bei den von Sr. Majestät noch nicht sanktionierten Landesstatuten, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, wäre wohl die Einschaltung eines derartigen Paragraphes noch tunlich. Was jedoch die bereits Ah. sanktionierten Statute betrifft, so wäre es bedenklich und der kaiserlichen Autorität abträglich, wenige Tage nach ihrem Erscheinen mit einer Ergänzung aufzutreten, die nach der Ansicht des Staatsministers nicht einmal notwendig erscheint, weil der dort gebrauchte Ausdruck der „Mitwirkung“ im wesentlichen dasselbe sagt, was das kaiserliche Diplom statuiert.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> bemerkte in dieser Beziehung, es lasse sich diese Auslegung zwar auch aus den Worten des veröffentlichten Ah. Kabinettschreibens an Graf Gołuchowski über die Aktivierung der Landtage folgern<note type="footnote" n="7">
+                        <bibl type="archival">HHSTA., CBProt. 173c/1860</bibl>; <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 59</bibl>; <bibl type="secondary">
+                           <author>Reiter</author>, Texte Nr. 29</bibl>.</note>; wenn man es indes zur Beseitigung jeder irrigen Auffassung nötig findet, hierwegen etwas zu verfügen, so fände er dagegen nichts einzuwenden. Auch der ungrische Hofkanzler erklärte sich in thesi für eine solche Verfügung, besonders mit Rücksicht auf Ungarn, wo man gegenwärtig mit Aufmerksamkeit verfolgt, was in andern Kronländern geschieht.</p>
+                  <p>Nachdem sich sofort die Mehrheit der Konferenz für den Antrag des Grafen Szécsen in thesi erklärt hatte, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> bezüglich der Form der zu erlassenden Verfügung, daß dieselbe lediglich als Erläuterung, etwa mittelst eines in der Wiener Zeitung und [im] Reichsgesetzblatt zu veröffentlichenden Ah. Kabinettschreibens an den Staatsminister zu erlassen wäre. <ref xml:id="fn_4_3_222_a">Der Staatsminister erklärte, nachdem die Majorität der Konferenzmitglieder sich für eine öffentlich hinauszugebende Erläuterung ausgesprochen haben, er den Herrn Vorsitzenden ersuche, die Weise anzugeben, in welcher der diesfällig auszusprechende Wille des Kaisers dem Publikum bekannt gegeben werden soll, um hernach den au. Antrag zu stellen, worauf über Einladung des Ministerpräsidenten der Minister v. Lasser beiläufig die Ansicht der Majorität dahin formulierte: Se. Majestät erklären mittelst eines zu publizierenden Handschreibens</ref>
+                     <note type="variant" n="a" target="#fn_4_3_222_a">Korrektur a–a Gołuchowskis aus: <quote>welches Minister v. Lasser auf den Wunsch des Staatsministers beiläufig dahin formulierte: Se. Majestät erklären</quote>.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte, nachdem die Majorität der Konferenzmitglieder sich für eine öffentlich hinauszugebende Erläuterung <pb n="10" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s10.pdf"/>ausgesprochen haben, er den Herrn Vorsitzenden ersuche, die Weise anzugeben, in welcher der diesfällig auszusprechende Wille des Kaisers dem Publikum bekannt gegeben werden soll, um hernach den au. Antrag zu stellen, worauf über Einladung des Ministerpräsidenten der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> beiläufig die Ansicht der Majorität dahin formulierte: Se. Majestät erklären mittelst eines zu publizierenden Handschreibens im Nachhange zu Ihren Patenten über die Landesstatute für Steier[mark] und Kärnten zur Beseitigung allfälliger Zweifel über die Bedeutung der Wirksamkeit der Landtage, daß dieselbe nur im Sinne des Art. I des kaiserlichen Diploms vom 20. Oktober aufzufassen und daß hiernach auch bei Vorlegung der übrigen Statute sich zu richten sei<note type="footnote" n="8">Ein solches Handschreiben wurde nicht erlassen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Exzeß an der Wiener Universität</head>
+                  <p>Weiters eröffnete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> den Ah. Befehl, die Frage zu besprechen, ob wegen des am 26. d. [M.] abends an der Wiener Universität vorgefallenen Exzesses eine Untersuchung einzuleiten sei<note type="footnote" n="9">Vgl. den folgenden Bericht Gołuchowskis.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte sich unter Zustimmung aller übrigen Votanten dafür, die Sache auf sich beruhen zu lassen, nachdem dabei auch von Seite der Behörden gefehlt worden. Es habe nämlich der Polizeiminister Baron Thierry ohne vorläufige Rücksprache mit ihm das Anerbieten eines angeblichen Komitees der Studierenden, Sr. Majestät einen Fackelzug bringen zu dürfen, telegrafisch zur Kenntnis Sr. Majestät gebracht und auf die Ah. Bewilligung angetragen. Nachdem diese erteilt worden, hätten sich Remonstrationen gegen die Befugnis des angeblichen Komitees, zur Beteiligung an dem Fackelzuge aufzufordern, erhoben, welche der Rektor oder Professor Grassl dadurch zu beheben vermeinte, daß er die Studenten auf den Abend bestellte, um über die Beteiligung an dem Fackelzuge abzustimmen. So sei der unangenehme Zusammenlauf veranlaßt worden, dessen Folgen der durch das Vorausgegangene gereizten Jugend wohl nicht gar zu hoch anzurechnen sein dürften<note type="footnote" n="10">Ignaz Grassl, Professor für österreichisches bürgerliches Recht, Rektor 1859/60, <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 2, 49</bibl>; Korrespondenz zwischen Thierry und Rechberg in Warschau zum Fackelzug der Studenten <bibl type="archival">HHSTA., PA. XL 106, Varia 1860, Z. 3663/1860</bibl>.</note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> meinte, es wäre dem Rektor zu bedeuten, daß er den Studenten jede öffentliche Demonstration künftig zu untersagen habe.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Landesstatut für das lombardisch-venezianische Königreich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die Anfrage des Statthalters im lombardischvenzianischen Königreiche, ob er seine Anträge wegen eines Landesstatuts für dieses Königreich vorzulegen habe, nachdem es in dem kaiserlichen Diplom vom 20. Oktober nicht ausgenommen worden, man also für das Land ein Landesstatut zu erwarten berechtigt und die bisherige Wirksamkeit der Kongregationen eine bloß administrative, keine legislative sei<note type="footnote" n="11">Die Nennung Lombardo-Venetiens war auf Anweisung des Kaisers aus dem Diplom entfernt worden, vgl. MK. v. <date when="1860-10-16">16. 10. 1860</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z219" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z219.pdf" target="MRP-1-4-02-0-18601016-P-0219.xml">ÖMR. IV/2, Nr. 219</ref>
+                        </bibl>, bei Anm. 18. Die Anfrage Toggenburgs ist in <quote>AVA., MI.</quote>, nicht erhalten. Zu den Kongregationen siehe MK. v. <date when="1860-04-28">28. 4. 1860</date>/IV, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z144" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z144.pdf" target="MRP-1-4-02-0-18600428-P-0144.xml">ÖMR. IV/2, Nr. 144</ref>
+                        </bibl>.</note>.</p>
+                  <p>Der Staatsminister glaubte, daß unter den dermaligen politischen Verhältnissen die Konstituierung und Abhaltung eines Landtags im lombardisch-venezianischen Königreiche unstatthaft sei. Er gedächte daher, dem Statthalter zu bedeuten, daß vorderhand von <pb n="11" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s11.pdf"/>einem Landesstatute keine Rede sein könne, daß es ihm aber unbenommen bleibe, seine Ansichten hierwegen vorzubereiten, wobei, wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> bemerkte, an das Bestehende anzuknüpfen und, nach der weiteren Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers v. Lasser</rs>
+                     </hi>, dasjenige Elaborat zu berücksichtigen wäre, welches diesfalls schon im Jahre 1850 dem Ministerium des Inneren vorgelegt worden ist<note type="footnote" n="12">Zu den Gesprächen über eine Landesverfassung für Lombardo-Venetien 1850 siehe die Protokolle in <quote>ÖMR. II/2</quote>, vor allem <ref type="protocol-link" target="MRP-1-2-02-0-18500427-P-0331.xml#top_2_2_331_4">MR. v. <date when="1850-04-27">27. 4. 1850</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-2-03-0-18500608-P-0348.xml#top_2_3_348_7">MR. v. <date when="1850-06-08">8. 6. 1850</date>/VII</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b2-z331" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b2/pdf/a2-b2-z331.pdf" target="MRP-1-2-02-0-18500427-P-0331.xml">ÖMR. II/2, Nr. 331</ref>
+                        </bibl> und <quote>Nr. 348.</quote>
+                     </note>.</p>
+                  <p>Die Konferenz fand gegen den Antrag des Staatsministers nichts zu erinnern, indem, wie <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> bemerkten, das Königreich zwar prinzipiell gleichen Anspruch auf eine Landesvertretung wie die übrigen Kronländer hat, die Aktivierung derselben aber bei dem Umstande, wo die einzelnen Statute nur nach und nach erscheinen, allerdings einem geeigneteren Zeitpunkte vorbehalten bleiben kann<note type="footnote" n="13">Fortsetzung MK. v. <date when="1860-12-06">6. 12. 1860</date>/I (Bemerkung Szécsens), dann MK. II v. <date when="1861-01-19">19. 1. 1861</date>/IV.</note>.</p>
+                  <p/>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Die 17 Internierten in Josefstadt betreffend</head>
+                  <p>Auf die Anfrage des <hi rend="#letterspaced">
+                        <rs type="person">Grafen Szécsen</rs>
+                     </hi>, welchen Erfolg die in der Konferenz vom 24. d. M. (Absatz I) beschlossene Verwendung zugunsten der 17 in Josefstadt Internierten gehabt habe, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi>, Se. Majestät hätten Sich die Ah. Schlußfassung bis zur Ah. Zurückkunft von Warschau<note type="footnote" n="14">Zur Fürstenzusammenkunft in Warschau siehe MK. v. <date when="1860-10-21">21. 10. 1860</date>, Anm. 1.</note> vorzubehalten geruht, wornach dann die Angelegenheit in einer unter dem Ah. Vorsitze stattfindenden Konferenz zur Sprache gebracht werden könnte, wenn nicht etwa vorläufig doch die Gründe erhoben werden sollten, welche die Internierung dieser Individuen veranlaßt habe, indem ja doch vielleicht bei einzelnen solche Umstände eintreten könnten, welche ihre sofortige Freilassung bedenklich machen könnten.</p>
+                  <p>In dieser Beziehung bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>, daß er für die unverzügliche Freilassung stimme, weil nach der Äußerung des Festungskommandanten gar nichts gegen diese Personen vorliege, sie vielmehr, wie es heißt, nur darum interniert worden, weil sie unter den vor dem 20. Oktober bestandenen Verhältnissen hätten gefährlich werden können, endlich weil die Regierung sich bald derselben im eigenen Interesse werde bedienen müssen<note type="footnote" n="15">Noch am selben Tag, dem <date when="1860-10-27">27. 10. 1860</date>, befahl der Kaiser, daß die aus Ungarn, Siebenbürgen, der serbischen Woiwodschaft und dem Banat in die Festung Josefstadt Konfinierten sofort zu entlassen seien, Telegramm des Generaladjutanten Crenneville an Polizeiminister Thierry, <bibl type="archival">HHSTA., Gendarmeriedepart­ement II, Z. 668/1860</bibl>; Vollzugsmeldung vom selben Tag, <bibl type="archival">ebd., Z. 676/1860</bibl>; weitere Korrespondenz <bibl type="archival">ebd., PA. XL, Interna, Varia 1860, Z. 3681/1860</bibl>, und <bibl type="archival">ebd., Informationsbüro (BM-Akten), GZ. 5498/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Revision der wegen Majestätsbeleidigung etc. anhängigen Prozesse</head>
+                  <p>Durch einen ungrischen Staatsanwalt aufmerksam gemacht, daß mehrere wegen Majestätsbeleidigung etc. anhängige Untersuchungen sich auf Bestrebungen beziehen dürften, welche gegenwärtig nach dem Erscheinen der Ah. Erlässe vom 20. Oktober einer anderen Beurteilung unterliegen als vor demselben, hat der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> die Oberlandesgerichts­präsidien im engsten Dienstvertrauen angewiesen, Verzeichnisse solcher anhängiger Prozesse mit kurzer Angabe des Tatbestandes vorzulegen, um nach Einsicht desselben diejenigen auszuscheiden, welche mit Rücksicht auf den bemerkten Umstand sich zur Auflassung eignen.</p>
+                  <p>
+                     <pb n="12" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s12.pdf"/>Es könnte überdies auch geschehen, daß inzwischen, bis die Verzeichnisse vorliegen und gesichtet sein werden, Prozesse dieser Art zur Schlußverhandlung gedeihen und öffentlich verhandelt werden. Um nun zu verhindern, daß in einem dieser Absicht entgegengesetzten Sinne abgeurteilt werde, erbat sich und erhielt sofort der Minister v. Lasser die Zustimmung der Konferenz zu der Verfügung an die Präsidien, daß die Schlußverhandlung über solche Prozesse einstweilen sistiert werde<note type="footnote" n="16">Eine ähnliche Bitte hatte Benedek am <date when="1860-10-22">22. 10. 1860</date> gestellt, <bibl type="archival">HHSTA., Gendarmeriedepartement II, Z. 667/1860</bibl>. Nach Erhalt der Verzeichnisse trat Lasser an Vay mit der Anregung heran, den Grundsatz auszusprechen, daß jene Inkriminierten, deren Tendenz nur auf eine Änderung des bestandenen Regierungssystems in der nun erfolgten Weise gerichtet war, amnestiert werden sollten; Vay trat der Meinung Lassers bei, Vortrag v. <date when="1860-12-22">22. 12. 1860</date>, Präs. 1821, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 4194/1860</bibl>. Auf Anweisung des Kaisers unterbreitete Lasser mit Vortrag v. <date when="1861-01-05">5. 1. 1861</date>, <bibl type="archival">JM. Präs. 995</bibl>, ein Handschreiben über die Amnestie von politischen Vergehen für Kroatien-Slawonien, Siebenbürgen und die serbische Woiwodschaft, die noch dem Justizministerium zugewiesen waren. Mit Ah. E. v. <date when="1861-01-07">7. 1. 1861</date> wurde dieses Handschreiben an Lasser für die genannten Länder und an Vay für das Königreich Ungarn erlassen und damit auch der Vortrag Vays v. <date when="1860-12-22">22. 12. 1860</date> erledigt; Publikation <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=1861010918610110">Wiener Zeitung</ref>
+                           </title> v. <date when="1861-01-09">9. 1. 1861</date> und v. <date when="1861-01-10">10. 1. 1861</date>
+                        </bibl>. Siehe dazu die Debatte in MK. v. <date when="1861-01-11">11. 1. 1861</date>/II, Punkt 4.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Einkauf der zum Freihandel erzeugten Tabakblätter für die Regie</head>
+                  <p>Die ungrischen Tabakpflanzer, welche von der mit Verordnung vom <date when="1860-03-27">27. März 1860</date> erteilten Bewilligung zum Tabakbau<note type="footnote" n="17">Siehe MK. v. <date when="1860-03-20">20. 3. 1860</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b2-z128" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2/pdf/a4-b2-z128.pdf" target="MRP-1-4-02-0-18600320-P-0128.xml">ÖMR. IV/2, Nr. 128</ref>
+                        </bibl>.</note> für den Handel Gebrauch gemacht haben, sind in ihrer Erwartung getäuscht worden, indem sie für ihr Erzeugnis keine Abnehmer gefunden haben. Sie haben daher gebeten, daß man ihr Produkt für die Ärarialregie einlösen möge. Andererseits hat die Regie von zwei ausländischen Häusern Anbote auf Abnahme von 150.000 bzw. 40.000 Zentner Ärarialblättern mit der Erklärung erhalten, daß sie mit den Pflanzern selbst nichts zu tun haben wollen, weil sie von diesen nur unsortierte Ware etc. erhalten. Obwohl nun der Grundsatz besteht, daß die Regie nur zum eigenen Bedarf, nicht aber zum Handel einlöst, so glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministeriumsleiter</rs>
+                     </hi> dennoch, für heuer eine Ausnahme davon beantragen zu sollen, um einerseits den Pflanzern aus ihrer Bedrängnis zu helfen, andererseits die Anbote ausländischer Käufer, die in Silber zahlen, befriedigen und hiermit bei der Beliebtheit, welche das ungrische Tabaksblatt gegenwärtig auch im Auslande zu gewinnen scheint, einem vorteilhaften Exporthandel damit die Bahn eröffnen zu können<note type="footnote" n="18">Das Finanzministerium hatte die fünf ungarischen Finanzlandesdirektionen angewiesen, Anträge für eine Vollzugsvorschrift der Verordnung v. <date when="1860-03-27">27. 3. 1860</date> zu stellen. Die Antworten enthielten eine recht scharfe Kritik der Verordnung. Benedek faßte die Meinungen im Bericht v. <date when="1860-07-30">30. 7. 1860</date> so zusammen: <quote>Im allgemeinen verspricht man sich von der […] Verordnung keine wesentliche Hebung der hierländ­ischen Tabakkultur, weil […] der Absatz des Tabaks im Auslande […] erst nach Verlauf mancher Jahre sicherzustellen ist […]</quote>; Benedek sprach von überaus geringer Wirkung der Verordnung, <bibl type="archival">FA., FM., II. Abt. (Bankale), Nr. 69239/1860, Faszikulatur 9.3</bibl>; zur Vollzugsvorschrift siehe auch <bibl type="archival">ebd., Nr. 57849/1860</bibl>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte dagegen, von dem Grundsatze nicht abgehen zu können, daß die Ärarialregie nur den eigenen Bedarf zu decken und sich in kein Handelsgeschäft einzulassen habe. Erstere sei, da für die Fabrikation ein dreijähriger Vorrat genügt, durch den vorhandenen fünfjährigen Vorrat mehr als gedeckt; bei letzerem sei aber für das Ärar kein wesentlicher Vorteil erzielt, weil die Ärarialregie <ref xml:id="fn_4_3_222_b">notorisch ein sehr</ref>
+                     <note type="variant" n="b" target="#fn_4_3_222_b">Korrektur b–b Gołuchowskis aus: <quote>in der Regel ein</quote>.</note> schlechter <pb n="13" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s13.pdf"/>Handelsmann ist und der von ihr bei vergrößertem Geschäfte gemachte Gewinn meist wieder durch die Auslagen für Vermehrung des Personals verzehrt wird, <ref xml:id="fn_4_3_222_c">zumal hierzu die zuständigen Organe der Staatsverwaltung leider noch immer eine große Geneigtheit an den Tag legen, weil die absolute Notwendigkeit, ohne die Existenz des Staates auf das Spiel zu setzen, in allen Rubriken des Haushaltes Ersparnisse eintreten zu lassen, in der Überzeugung unseres Staatslebens noch keine tiefen Wurzeln gefaßt hat, daher mit Grund zu besorgen ist, daß bei Eröffnung einer Unternehmung, wie solche beantragt wird, verschwenderisch gewirtschaftet werden wird.</ref>
+                     <note type="variant" n="c" target="#fn_4_3_222_c">Einfügung c–c Gołuchowskis.</note> Endlich werden die Pflanzer irregeführt, wenn die Regierung selbst von ihrem Grundsatze abgeht und die zum Handel bestimmten Produkte für sich einlöst; sie verlassen sich dann auf die Ärarialhilfe, statt sich zu bemühen, durch Pflege und gehörige Sortierung ihrer Blätter dieselben bei ausländischen Käufern annehmbar und beliebt zu machen. Der Staatsminister war daher gegen die beantragte Einlösung der für den Handel erzeugten Blätter.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>, Minister Graf Szécsen und der Ministerpräsident traten dem Antrage des Leiters des Finanzministeriums bei. Ersterer bemerkte, es erwachse durch die Ablehnung der Bitte ein doppelter Nachteil, für sie selbst, indem sie die Früchte ihres Fleißes verlieren, wenn sie ihr Erzeugnis nicht verwerten können, für den Staat, weil ihm die Gelegenheit entgeht, ein vorteilhaftes Exportgeschäft zu machen, wogegen im Gewährungsfalle der doppelte Vorteil erreicht wird; und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> setzte hinzu, die Regierung möge sich die günstige Gelegenheit nicht entgehen lassen, einerseits für die Hebung der Urproduktion und sohin für Erhöhung des Grundwertes, anderseits für die Anknüpfung eines gewinnbringenden Exporthandels zu wirken. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> stimmte aus letzerer Rücksicht dem Antrage des Leiters des Finanzministeriums zwar ebenfalls bei, jedoch mit der Beschränkung auf ein gewisses festzusetzendes Quantum der heurigen Ernte und auf die vorzüglicheren Qualitäten. <ref xml:id="fn_4_3_222_d">Die Abnahme der ganzen Ernte würde ein Präjudiz aufstellen und den Tabakpflanzer nicht daran gewöhnen, auf eigenen Füßen zu stehen; was heuer geschehe, würde er im folgenden Jahre wieder erwarten usf. Das Ende vom Liede wäre dann, daß</ref>
+                     <note type="variant" n="d" target="#fn_4_3_222_d">Korrektur d–d Lassers aus: <quote>indem</quote>.</note> bei Abnahme des ganzen Erzeugnisses die Regie überfüllt und genötigt sein würde, zur Einstellung der Baulizenzen zu schreiten, <ref xml:id="fn_4_3_222_e">wie dies in sehr mißliebiger Weise schon einmal geschah. Eine Überfüllung sei nicht zu fürchten, wenn man gute Sorten genommen, die schlechten aber durch Nichtabnahme für die Regie nach und nach aus der Produktion verdrängt werden.</ref>
+                     <note type="variant" n="e" target="#fn_4_3_222_e">Einfügung e-e Lassers.</note> Auch möge die Regie bei dem Kauf- und Verkaufsgeschäfte ihren Vorteil wohl berechnen<note type="footnote" n="19">Mit Erlaß v. <date when="1860-12-11">11. 12. 1860</date> ordnete Plener die ausnahmsweise Gestattung der Übernahme des Tabaks an, <bibl type="archival">ebd., Nr. 69239/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_3_222_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Erhöhung des Zinsfußes für die Salinenscheine</head>
+                  <p>Die Erhöhung des Platzdiskonto in Wien und die Wahrnehmung, daß die Hypothekar­anweisungen gegenwärtig nicht nur nicht so gesucht sind wie früher, <pb n="14" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b3-pdf.xml%23a4-b3_einzelseiten/a4-b3_s14.pdf"/>vielmehr häufig zur Einlösung präsentiert werden, weil sie nur 5 % abwerfen<note type="footnote" n="20">Die 1848 neu geschaffenen, auf die Saline Gmunden versicherten Partialhypothekaranweisungen, die sog. Salinenscheine, waren mit unterschiedlichen Zinssätzen und Laufzeiten ausgegeben worden. Im Oktober 1860 waren nur mehr sechsmonatliche, mit 5 % verzinste in Umlauf, Finanzministerialerlaß v. <date when="1853-10-13">13. 10. 1853</date>, <bibl type="archival">RGBL. Nr. 202/1853</bibl>; allgemein <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 129 ff</bibl>; <bibl type="secondary">
+                           <author>Mischler – Ulbrich</author>, Staatswörterbuch 4, 152 – 155</bibl>.</note>, während das Publikum mehrfache Gelegenheit hat, Gelder unter vorteilhafteren Bedingungen unterzubringen, endlich die dringende Notwendigkeit, den fast erschöpften Barvorräten der Staatskassen so bald als möglich einige Zuflüsse zu verschaffen, bestimmen den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi>, um von dem Mittel der Vermehrung der schwebenden Schuld innerhalb der von Sr. Majestät festgestellten Grenze (80 Millionen Gulden)<note type="footnote" n="21">Zur Ausweitung des Maximums von 60 auf 80 Millionen Gulden im November 1859 siehe <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 2, 869</bibl>; beiläufige Mitteilung durch Bruck MK. v. <date when="1860-01-23">23. 1. 1860</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z97" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z97.pdf" target="MRP-1-4-01-0-18600123-P-0097.xml">ÖMR. IV/1, Nr. 97</ref>
+                        </bibl>.</note> Gebrauch machen zu können, zu dem Antrage, den Zinsfuß der Hypothekaranweisungen bei dreimonatlicher Rückzahlung auf 5, bei sechsmonatlicher Rückzahlung auf 5 ½ und bei neun­monatlicher Rückzahlung auf 6 % zu erhöhen, damit bei der Richtung, welche die allgemeinen Geldverkehrsverhältnisse genommen haben, die Lust zur Abnahme der gedachten Papiere geweckt werde. Dieselben sind bis auf 68 Millionen Gulden eingelöst; es können also noch 12 Millionen Gulden bis zu dem von Sr. Majestät festgesetzten Maximum hinausgegeben werden. Der Mehraufwand für die erhöhten Zinsen wird bei 80 Millionen auf jährlich circa 400.000 f. angeschlagen. Es ist aber das verhältnismäßig wohlfeilste Mittel, Geld zu beschaffen. Weitere Finanzoperationen vorzuschlagen, behielt sich der Finanzministeriumsleiter für die nächsten Konferenzen vor<note type="footnote" n="22">Siehe MK. v. <date when="1860-11-01">1. 11. 1860</date>/I-IV.</note>.</p>
+                  <p>Die Konferenz war mit der angetragenen Zinsenerhöhung einverstanden<note type="footnote" n="23">Plener kam von den unterschiedlichen Laufzeiten und Zinssätzen ab, es blieb bei der alleinigen Laufzeit von sechs Monaten zum erhöhten Zinsfuß von 5 ½ %, Vortrag v. <date when="1860-11-18">18. 11. 1860</date>, Präs. 4847; zustimmendes Gutachten des ständigen Reichsrates <bibl type="archival">HHSTA., RR., GA. 772/1860 und GA. 781/1860</bibl>; Ah. E. v. <date when="1860-11-23">23. 11. 1860</date>
+                        <bibl type="archival">ebd., Kab. Kanzlei, KZ. 3742/1860</bibl>; Erlaß des Finanzministeriums v. <date when="1860-11-23">23. 11. 1860</date>, <bibl type="archival">RGBL. Nr. 260/1860</bibl>. Fortsetzung <ref type="protocol-link" target="MRP-1-5-02-0-18610826-P-0114.xml#top_5_2_114_6">MR. v. <date when="1861-08-26">26. 8. 1861</date>/VI</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z114" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z114.pdf" target="MRP-1-5-02-0-18610826-P-0114.xml">ÖMR. V/2, Nr. 114</ref>
+                        </bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am 27. Oktober/<date when="1860-11-11">11. November 1860</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1860-11-13">13. November 1860</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="012">Sitzung 12</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-14"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z12.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">292 – 294</idno>
+               </msIdentifier>
+               <p>
+                  <span>Abschrift</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-14"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>Abschrift; P. fehlt; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; BdE. fehlt.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_12_1">Eingangsformel für Erlässe an das Ministerium</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_12_2">Veröffentlichung über die Tätigkeit des Ministeriums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_12_3">Wiederverwendung Joseph Ritter v. Müllers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_12_4">Die „Constitutionelle Donau-Zeitung“ als Regierungsorgan</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_12_5">Wahlmodus für die österreichischen Deputierten zur Frankfurter Versammlung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_12_6">Eintritt von Offizieren in die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_12_7">Gewehrübergabe an die Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_12_8">Militärverstärkung für Dalmatien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_12_9">Aufnahme der Zöglinge der Josephsakademie in das Studentenkorps der Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_12_10">Auszeichnung des Kapitäns Josef Maffei</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_12_11">Geldvorratsvermehrung der Nationalbank; Darlehensverhandlungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_12_12">Zuschuß für Uniformierung von Beamten in der Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_1_1_12_13">Gerüchte über Beschlagnahme italienischer Seidenwaren</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_1_1_12_14">Herabsetzung der Stempelgebühr für Intabulierungen in Tirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_1_1_12_15">Amnestierung von Militärpersonen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="16">XVI.</num>
+                  </label>
+                  <ref target="#top_1_1_12_16">Veröffentlichung des Kabinettschreiben an den Palatin von Ungarn wegen Übernahme eines Teils der österreichischen Staatsschuld durch Ungarn</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480414-P-0012" ana="a1-1848_z12">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z12.pdf">
+               <title type="num">Nr. 12</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-14">14. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>Abschrift; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> fehlt.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">292 – 294</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-04-14">14. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_12_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Eingangsformel für Erlässe an das Ministerium</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> brachte vor allem in Anregung, daß bei der gegenwärtigen Einrichtung alles, was vom Ministerrate ausgeht, eine andere Form haben sollte als früher, wo der Ministerrat nicht bestand, und daß alle Erlässe an denselben oder Bekanntmachungen von Ah. Ernennungen durch die Zeitung die Formel enthalten sollten: „nach Anhörung des Ministerrates“, oder „über den Antrag des Justiz- oder eines andern Ministers oder des Ministeriums.“<note type="footnote" n="1">Der Vorschlag Taaffes ist in der Folge tatsächlich in die Tat umgesetzt worden. Erstmals ab <date when="1848-04-18">18. 4. 1848</date> wurden in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> bei Ernennungen Formulierungen wie <quote>über das von dem Ministerrate unterstützte Einschreiten</quote> oder <quote>über Antrag des Ministerrates</quote> verwendet, während es früher hieß <quote>Se. Majestät geruhten</quote>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Veröffentlichung über die Tätigkeit des Ministeriums</head>
+                  <p>Ferner wurde bemerkt, daß es einen guten Einfluß auf die öffentliche Meinung haben würde, wenn über die Tätigkeit des Ministeriums seit seinem kurzen Bestande im allgemeinen etwas zur Kenntnis des Publikums gebracht würde, wozu die Protokolle der Ministerratsversammlungen einen ausgiebigen Stoff liefern<note type="footnote" n="2">In dem Artikel wurde neben der Pazifizierung der italienischen Provinzen, der Sicherstellung der Finanzen und der Aufhebung der Naturalleistung die Erarbeitung einer Konstitution als die wichtigste Aufgabe des Ministerrates bezeichnet, <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-16">16. 4. 1848</date>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Wiederverwendung Joseph Ritter v. Müllers</head>
+                  <p>Der Justizminister brachte zur Kenntnis des Ministerrates, daß der gewesene Prager Bürgermeister, Appellationsrat Müller, welcher durch die letzten Ereignisse in Prag Quieszent geworden<note type="footnote" n="3">Zu Joseph Rtter v. Müller, seit 1839 Bürgermeister von Prag, siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 19, 387f.</bibl> Zu den Ereignissen, die zu seinem Rücktritt führten, <bibl type="secondary">
+                           <title>Pech</title>, Czech Revolution 64</bibl>.</note> und Vater mehrerer Kinder ist, sich gegenwärtig hier befindet und um Wiederanstellung sollizitiert.</p>
+                  <p>
+                     <pb n="64" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s64.pdf"/>Da Ew. Majestät dessen baldige Unterbringung durch ein Ah. Kabinettschreiben<note type="footnote" n="4">Auf Vortrag Pillersdorfs v. <date when="1848-03-26">26. 3. 1848</date> nahm der Kaiser mit Ah. E. v. <date when="1848-04-01">1. 4. 1848</date> die Dienstresignation des Prager Bürgermeisters Joseph Ritter v. Müller an, <bibl type="archival">HHSTA., MKA., MZ. 851/1848</bibl>. Mit Schreiben vom selben Tag an Taaffe verfügte Ferdinand, daß Müller <quote>bald bei einem Appellationsgerichte unterzubringen</quote> sei, <quote>ebd</quote>.</note> anzuordnen geruht haben, wozu sich jetzt Gelegenheit ergäbe, wenn der mährische Appellationsrat Audritzky nach Prag übersetzt und an seine Stelle der Appellationsrat Müller nach Brünn kommen würde, so erbittet sich der Justizminister, da er zu dieser Übersetzung für sich nicht berechtigt zu sein glaubt, die Zustimmung das Ministerrates hierzu, welcher dieser zu geben keinen Anstand nahm<note type="footnote" n="5">Auf Vortrag Taaffes v. <date when="1848-04-12">12. 4. 1848</date> wurde diese Angelegenheit im Sinne des Ministerratsbeschlusses mit Ah. E. v. <date when="1848-04-15">15. 4. 1848</date> resolviert, <quote>ebd., Kab. Kanzlei, MRZ. 179/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Die „Constitutionelle Donau-Zeitung“ als Regierungsorgan</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> zeigte dem Ministerrate an, daß er mit dem Redakteur der Constitutionellen Donau-Zeitung das in einem früheren Ministerratsprotokolle erwähnte Geschäft<note type="footnote" n="6">Siehe dazu <ref type="protocol-link" target="toc.html?collection=editions#myTable=f19490411" ana="prot0 top6">MR. v. <date when="1949-04-11">11. 4. 1949</date>/VI</ref>.</note> (diese Zeitung als ministerielles Organ zur Einwirkung auf die öffentliche Meinung zu benützen) abgeschlossen habe, und daß der Redakteur nur die Bitte um Materialien zu diesem Zwecke stellt, welche ihm die Ministerien zu liefern sich vorbehielten<note type="footnote" n="7">Im <bibl type="archival">AVA., IM., Präs. 1766/1848</bibl>, befinden sich die halbverbrannten Überreste der Korrespondenz zwischen dem Innenministerium und Ignaz Klang, dem Herausgeber der <bibl type="secondary">
+                           <title>Constitutionellen Donau-Zeitung</title>
+                        </bibl>. Mit Ministerialerlaß v. <date when="1848-05-02">2. 5. 1848</date> waren Klang jährlich 5000f. an Unterstützung zugesichert worden; die erste Rate, 1250f., erhielt er bereits am <date when="1848-05-05">5. 5. 1848</date>, siehe dazu <quote>ebd., Präs. 2090/1848</quote>. Zu den Verhandlungen Pillersdorfs mit Hock siehe <bibl type="secondary">
+                           <author>Helfert</author>, Wiener Journalistik 42</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_5">MR. v. <date when="1848-05-17">17. 5. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Wahlmodus für die österreichischen Deputierten zur Frankfurter Versammlung</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">interimistische Leiter des Ministerrates Graf</rs>
+                     </hi> v. Ficquelmont, brachte einen höchst dringenden und wichtigen Gegenstand zur Sprache, nämlich den Wahlmodus für die Deputierten zu der Frankfurter Versammlung<note type="footnote" n="8">Zur Beschickung des Frankfurter Parlaments durch österreichische Delegierte siehe bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_6">MR. v. <date when="1848-04-07">7. 4. 1848</date>/VI</ref>.</note>.</p>
+                  <p>Der Bundestag hatte am letzten März beschlossen, daß die Abgeordneten nach der Provinzialverfassung gewählt werden sollen<note type="footnote" n="9">Bundestagsbeschluß v. <date when="1848-03-30">30. 3. 1848</date>, <bibl type="archival">PDB., 26. Sitzung, 317</bibl>; darin heißt es, daß in <quote>sämtlichen, dem deutschen Staatensystem angehörigen Provinzen auf verfassungsmäßig bestehendem oder sofort einzuführendem Wege Wahlen von Nationalvertretern anzuordnen</quote> seien.</note>, und schon am 3. und 7. d. M. wurde dieser Beschluß auf Andringen des Vorparlamentes abgeändert und angeordnet, a) daß je auf 50.000 Seelen ein Abgeordneter gewählt werden soll; b) daß keine Beschränkung der Eigenschaften durch Wahlzensus, Religion etc. stattzufinden habe und nicht nach Ständen zu wählen sei, und c) daß die Wähler und die Wahlbaren volljährig sein sollen<note type="footnote" n="10">Die Beschlüsse des Vorparlaments abgedruckt in <bibl type="secondary">
+                           <title>Verhandlungen des deutschen Parlaments</title> 1, 172f.</bibl> Auf Antrag des Revisionsausschusses des Bundestags, der diese Beschlüsse als notwendig und vernünftig ansah, nahm der Bundestag am <date when="1848-04-07">7. 4. 1848</date> diese Wahlmodifikation an, <bibl type="archival">PDB., 29. Sitzung, 350–353</bibl>.</note>.</p>
+                  <p>Preußen und die andern deutschen Staaten werden sich diesem Beschlusse konformieren, ja Preußen hat bereits für seine Länder so ein Wahlgesetz erlassen<note type="footnote" n="11">War am <date when="1848-04-11">11. 4. 1848</date> erlassen worden, siehe dazu <bibl type="secondary">
+                           <author>Huber</author>, Verfassungsgeschichte 2, 607, bes. Anm. 7</bibl>. Siehe dazu bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_6">MR. v. <date when="1848-04-07">7. 4. 1848</date>/VI</ref>, Anm. 15.</note>. Österreich kann nun <pb n="65" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s65.pdf"/>nicht wohl anders verfahren und wird nach derselben Art wählen lassen müssen, sonst könnte es geschehen, daß seine Deputierten nicht zugelassen werden, was nicht nur für diese kränkend, sondern auch politisch für Österreich sehr nachteilig wäre.</p>
+                  <p>Nach der öffentlichen Meinung hier ist es nicht möglich, uns von der Beschickung des Frankfurter Landtages auszuschließen<note type="footnote" n="12">Siehe dazu <bibl type="secondary">
+                           <author>Ibler</author>, Wahlen zur Frankfurter Nationalversammlung 103f.</bibl>
+                     </note>, auch hat der Bundestagspräsident Graf Colloredo, welcher sich anfangs das Protokoll offen behielt<note type="footnote" n="13">Vgl. dazu das Schreiben Ficquelmonts an Pillersdorf v. <date when="1848-04-12">12. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 638/1848</bibl>.</note>, später der erwähnten Wahlform beigestimmt<note type="footnote" n="14">
+                        <bibl type="archival">PDB., 29. Sitzung, 353</bibl>.</note>.</p>
+                  <p>Die Rückwirkung dieser Wahlform auf unsere Wahlen der Reichsstände ist nicht zu vermeiden. Frankfurt ist viel weiter gegangen, als wir die Absicht hatten zu gehen.</p>
+                  <p>Nach der Ansicht des Ministerrates dürften sich Ew. Majestät zwar bestimmt finden lassen, die Deputierten für die Frankfurter Versammlung nach dem vom Bundestage bestimmten Wahlmodus wählen zu lassen, gleichzeitig aber den Vorbehalt auszusprechen, daß dieser Wahlmodus nicht bindend sei für die österreichischen Provinzen in Ansehung der Wahlen zu ihrem eigenen Reichstage<note type="footnote" n="15">Zum österreichischen Reichstagswahlgesetz siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_13">MR. v. <date when="1848-05-06">6. 5. 1848</date>/XIII</ref>.</note>. (Für den Reichstag in Frankfurt kommen von Österreich nach der Bundesmatrikel und dem obigen Wahlmodus 240 Abgeordnete zu wählen.)</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erörterte hierauf, wie der Wahlmodus für den deutschen Reichstag eingeleitet werden sollte.</p>
+                  <p>Nach seinem Antrage wären (ein Deputierter auf 50.000 Seelen gerechnet) 240 auf die zum Deutschen Bunde gehörigen Provinzen nach der Bevölkerung zu repartieren und in den Provinzen weiter nach Bezirken zu verteilen. Man hätte von den Pfarrbezirken auszugehen. In jedem Pfarrbezirke wird eine Wahl vorgenommen, von diesem Wahlbezirke geht es an die Steuerbezirksobrigkeiten, Kreisämter und das Gubernium, welches das Totale macht. Auf diese Art wird jede Provinz ihre Deputierten erhalten. In jedem Arrondissement zählt man, wer die meisten Stimmen hat, oder man zählt die Arrondissements, wo dann die Wahlresultate auch unmittelbar an die Kreisämter angezeigt werden könnten, ohne erst an die Steuerbezirksobrigkeiten gelangen zu müssen.</p>
+                  <p>Der Kreishauptmann würde, nachdem er untersucht, wer die meisten Stimmen nach Arrondissements hat, aussprechen, wer der Gewählte sei.</p>
+                  <p>Zu bemerken ist auch, daß die zwei ehemals schlesischen Fürstentümer Auschwitz und Zator, welche beiläufig die Hälfte des Wadowizer Kreises ausmachen, gleichfalls zum Deutschen Bunde gehören, daß folglich auch von ihnen Abgeordnete (etwa zwei Männer) zum Reichstage nach Frankfurt gesendet werden sollten<note type="footnote" n="16">Die beiden Fürstentümer waren 1818 in das Gebiet des Deutschen Bundes inkorporiert worden, <bibl type="secondary">
+                           <title>Brockhaus-Conversations-Lexikon</title> 2, 524</bibl>.</note>.</p>
+                  <p>Der Minister des Inneren wird zu diesem Ende das Nötige veranlassen und wegen Gewinnung der Zeit den entsprechenden Auftrag gleich unmittelbar dem Wadowizer Kreishauptmanne erteilen<note type="footnote" n="17">Mit Schreiben v. <date when="1848-04-09">9. 4. 1848</date> hatte Ficquelmont Pillersdorf von der prinzipiellen Entscheidung, die Wahlen durchzuführen, benachrichtigt und ihn gleichzeitig ersucht, das Entsprechende zu veranlassen, <bibl type="archival">AVA., IM., Präs. 637/1848</bibl>. Zur Zusammenarbeit zwischen dem Innen- und dem Außenministerium siehe <quote>ebd.</quote>, und <quote>ebd., Präs. 638/1848</quote>. Mit Schreiben v. <date when="1848-04-15">15. 4. 1848</date> an die Länderchefs der deutschen und slawischen Provinzen erließ schließlich Pillersdorf die konkreten Richtlinien – die seinen Erklärungen im Ministerrat entsprachen – für die Wahlen, <quote>ebd., Präs. 785/1848</quote>. Der entsprechende Akt ist verbrannt. Vgl. dazu Pillersdorfs Schreiben an dieselben Länderchefs v. <date when="1848-04-16">16. 4. 1848</date>, <quote>ebd., Präs. 806/1848</quote>. – Die Weisung an den Wadowizer Kreishauptmann konnte unter den Beständen des <bibl type="archival">AVA., IM., Präs</bibl>., nicht gefunden werden. – Bereits am <date when="1848-04-18">18. 4. 1848</date> erließ der niederösterreichische Regierungspräsident Johann Talatzko Freiherr v. Gestietitz eine Verordnung, in der die Wahlen für Niederösterreich genau geregelt wurden, <bibl type="secondary">
+                           <author>Kundmachungen</author> 2, Nr. 32</bibl>; auch in Tirol wurde mit Kundmachung vom selben Tag das Wahlprocedere bestimmt, <bibl type="secondary">
+                           <author>Kundmachungen</author> 1848–1850, März–Juni 1848, Fasz. April, Nr. 18</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Eintritt von Offizieren in die Nationalgarde</head>
+                  <p>Derselbe Minister sprach hierauf über ein dringendes, ihm persönlich empfohlenes Einschreiten des Kommandanten der hiesigen Nationalgarde, Grafen Hoyos<note type="footnote" n="18">Johann Ernst Graf v. Hoyos-Sprinzenstein war mit Kabinettschreiben v. <date when="1848-03-14">14. 3. 1848</date> zum Oberkommandanten der Wiener Nationalgarde ernannt worden, <bibl type="archival">HHSTA., MKA., MZ. 705/1848</bibl>. Zu ihm siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 9, 346ff</bibl>.</note>, daß es den mit Charakter vom Militär ausgetretenen Offizieren und Offizieren, die sich in Pension befinden, gestattet werden möge, bei der Nationalgarde als solche einzutreten. Dieser Eintritt wird als sehr wünschenswert, ja als notwendig erklärt, um die Nationalgarde moralisch zu heben und in ihre Reihen ein Element der strengeren und genaueren militärischen Ordnung zu verpflanzen, auch sind die gegenwärtigen Offiziere der Nationalgarde bei weitem nicht hinreichend dienstgeübt.</p>
+                  <p>Dem Eintritte der genannten Militäroffiziere in die Nationalgarde steht jedoch der doppelte Umstand entgegen, daß, einem Ah. Befehle zufolge, die mit Charakter ausgetretenen Offiziere, wenn sie in die Nationalgarde eintreten, ihren Militärcharakter ablegen sollen und daß die Disponibilität der in Pension befindlichen zu allenfalls nötigen weiteren Militärdiensten nicht aufgegeben werden darf<note type="footnote" n="19">Ah. E. v. 26 3. 1848 auf Vortrag Hohenlohes v. <date when="1848-03-22">22. 3. 1848</date>, <bibl type="archival">KA., HKR., CK., Präs. 840/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Archiv, Conferenz Acten a 384/1848</bibl>, mit dem Vermerk im Protokollbuch: <quote>Abgegeben an die Ministerkonferenz</quote>; unter den Beständen der Kabinettskanzlei ist dieser Akt allerdings nicht zu finden.</note>.</p>
+                  <p>Eigentlich sind es die Jurisdiktionsverhältnisse der Militärindividuen, welche dem Eintritte bei der Nationalgarde im Wege stehen, da diese den Zivilgerichten, jene den Militärgerichten unterstehen.</p>
+                  <p>Der Ministerrat findet sich bestimmt, die wichtige Rücksicht der festen Organisierung der Nationalgarde sich gegenwärtig haltend, Ew. Majestät ehrfurchtsvoll zu bitten, es von jener beschränkenden Ah. Vorschrift wieder abkommen zu lassen; so lange der mit Charakter ausgetretene Offizier bei der Nationalgarde Dienste leistet, wäre sein Militärcharakter gleichsam suspendiert, und die Disponibilität der pensionierten Offiziere wäre dadurch nicht beirrt, weil, wenn ihrer das Militär bedürfen sollte, sie augenblicklich aus der Nationalgarde austreten können<note type="footnote" n="20">Mit Ah. E. v. <date when="1848-04-16">16. 4. 1848</date> genehmigte Ferdinand den diesbezüglichen Beschluß des Ministerrates, <quote>ebd., Kab. Kanzlei, MRZ. 292-294/1848</quote>. Mit Schreiben v. <date when="1848-04-17">17. 4. 1848</date> wies Pillersdorf Zanini an, alles im Sinne dieser Ah. Entschließung in die Wege zu leiten, <bibl type="archival">KA., HKR., KM., Präs. 402/1848</bibl>; Zanini gab diese Weisung (K.) am <date when="1848-04-18">18. 4. 1848</date> an sämtliche Generalkommandopräsidien weiter, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Gewehrübergabe an die Nationalgarde</head>
+                  <p>Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers des Inneren</rs>
+                     </hi>, daß die Nationalgarde Gewehre brauche, und die Anfrage, wie viele Gewehre etwa das Militär an sie abgeben <pb n="67" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s67.pdf"/>könnte, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Kriegswesens</rs>
+                     </hi>, daß man noch 2000 für das Militär minder verwendbare Gewehre verabfolgen könnte. Hierbei wurde erwähnt, daß in den Märztagen 30.000 Gewehre ausgefolgt wurden<note type="footnote" n="21">Im Präsidialindex von 1848 des Kriegsministeriums befindet sich unter der Rubrik <quote>Nationalgarde. Gewehrabgabe. Bewaffnung</quote> ein Verzeichnis sämtlicher Orte der Monarchie, in denen Nationalgarden aus den Armeebeständen bewaffnet wurden. Es wurden allerdings nur solche Steinschloßgewehre ausgefolgt, <quote>welche weder die Tauglichkeit zur Umstaltung in Perkussionsgewehre noch überhaupt zum aktiven Armeedienste haben</quote>, <bibl type="archival">KA., HKR., KM., Präs. 207/1848</bibl>.</note> und daß sich deren gegenwärtig nur noch 7000 in den Händen der Nationalgarde befinden<note type="footnote" n="22">Mit Schreiben (K.) v. <date when="1848-04-16">16. 4. 1848</date> informierte Zanini Hoyos, daß die Armee der Nationalgarde 2000 Stück Steinschloßgewehre zur Verfügung stellt, <quote>ebd., Präs. 350/1848</quote>; zugleich wurde auch das Artilleriehauptzeugamt von dieser Entscheidung informiert, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Militärverstärkung für Dalmatien</head>
+                  <p>Zur Beschwichtigung der im Verlaufe der Sitzung erwähnten beunruhigenden Berichte über Dalmatien, wo sich in den Städten das italienische Element rege und die kleinen Besatzungen unzureichend seien<note type="footnote" n="23">Siehe dazu die Berichte des Militär- und Zivilgouverneurs von Dalmatien FML. v. Turszky v. <date when="1848-03-28">28. 3. 1848</date> (Abschrift), <quote>ebd., Präs. 21/1848</quote>, und v. <date when="1848-04-02">2. 4. 1848</date>, <quote>ebd., Präs. 43/1848</quote>.</note>, wurde vom Kriegsminister angeführt, daß das Land im ganzen ruhig sei, daß eben jetzt vier Kompanien Leopold von Fiume nach Dalmatien beordert werden, und daß er in dem Augenblicke keine anderen Mittel zur Verfügung habe<note type="footnote" n="24">Siehe dazu die entsprechenden Befehle (K.) v. <date when="1848-04-14">14. 4. 1848</date> an die jeweiligen Generalkommandos, <quote>ebd., Präs. 216/1848</quote> und Präs. <quote>250/1848</quote>. Zu den Schwierigkeiten beim Truppentransport <quote>ebd. Präs. 597/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Aufnahme der Zöglinge der Josephsakademie in das Studentenkorps der Nationalgarde</head>
+                  <p>Mit dem hier vorliegenden au. Vortrag vom <date when="1848-04-12">12. April 1848</date>, KZ. 1400 (MR 166)<note type="footnote" n="25">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 166/1848</bibl>.</note>, unterstützt der Minister des Inneren einverständlich mit dem Minister des öffentlichen Unterrichts das von der Direktion der Josephsakademie bevorwortete Ansuchen der Zöglinge<note type="footnote" n="26">Mit Schreiben v. <date when="1848-04-01">1. 4. 1848</date> ersuchte Pillersdorf Sommaruga um eine Stellungnahme in dieser Angelegenheit, worauf der Unterrichtsminister mit Schreiben (K.) v. <date when="1848-04-03">3. 4. 1848</date> seine Einwilligung gab, <bibl type="archival">AVA., UM., Präs. 9/1848</bibl>.</note> dieser Akademie um ihre Einverleibung zu dem Wiener Studentenkorps zur Ah. Willfahrung, weil eine gehörige Regelung des Dienstes bei der komplettierten akademischen Legion die Hindernisse in Fortsetzung der Studien der Einverleibten bedeutend vermindern dürfte.</p>
+                  <p>Der Ministerrat findet diesen Antrag zur Ah. Genehmigung Ew. Majestät geeignet<note type="footnote" n="27">Mit Ah. E. v. <date when="1848-04-16">16. 4. 1848</date> wurde der in Anm. <quote>25</quote> zit. Vortrag resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 292-294/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Auszeichnung des Kapitäns Josef Maffei</head>
+                  <p>Die vorliegenden beiden Aktenstücke (Schreiben des Gouverneurs von Triest an den Minister des Inneren vom 9. April<note type="footnote" n="28">
+                        <bibl type="archival">AVA., IM., Präs. 868/1848</bibl>.</note> und Note des Finanzministeriums vom 10. April d. J.<note type="footnote" n="29">
+                        <quote>Ebd., Präs. 869/1848</quote>.</note> an denselben Minister) besprechen den Antrag, auf welche Art der Schiffskapitän des Lloyd Josef Maffei für den dem Staate geleisteten wichtigen Dienst am angemessensten belohnt werden könnte<note type="footnote" n="30">Maffei war mit Depeschen der aufständischen Regierung von Venedig nach Pola entstandt worden, ging aber statt dessen nach Triest, wo er die Depeschen den k. k. Behörden auslieferte. Salm glaubte, daß dadurch das österreichische Geschwader in Pola für die k. k. Regierung gerettet wurde, siehe dazu den Vortrag der Polizeihofstelle v. <date when="1848-03-27">27. 3. 1848</date>, <bibl type="archival">HHSTA., MKA., MZ. 864/1848</bibl>.</note>.</p>
+                  <p>
+                     <pb n="68" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s68.pdf"/>Ew. Majestät geruhten diesem Kapitän den kaiserlich-österreichischen Leopoldsorden bereits, jedoch bedingt zu verleihen, wenn nämlich nach den noch durch den Gouverneur zu pflegenden Erhebungen in den persönlichen Verhältnissen dieses Kapitäns kein Bedenken gegen diese Auszeichnung obwaltet<note type="footnote" n="31">Das war mit Ah. E. v. <date when="1848-04-04">4. 4. 1848</date> auf Vortrag Pillersdorfs v. <date when="1848-03-30">30. 3. 1848</date> geschehen, <quote>ebd., MRZ. 932/1848</quote>, und <bibl type="archival">AVA., IM., Präs. 428/1848</bibl>.</note>.</p>
+                  <p>Der Gouverneur findet die Ordensverleihung in Hinblick auf die Verhältnisse des Maffei nicht angedeutet und glaubt, daß demselben nebst einer Annuität von 300f. aus der Staatskasse noch die große goldene Medaille verliehen werden dürfte.</p>
+                  <p>Der Ministerrat erlaubt sich statt der Annuität von 300f. auf eine Geldbelohnung von 2000f. und mit Rücksicht auf das ausgezeichnete Verdienst des Maffei auf die Ag. Verleihung der großen goldenen Medaille an denselben den ehrfurchtsvollen Antrag zu stellen<note type="footnote" n="32">Mit Kabinettschreiben v. <date when="1848-04-16">16. 4. 1848</date> an Pillersdorf schloß sich der Kaiser der Empfehlung des Ministerrates an und machte gleichzeitig die Verleihung des Leopoldordens rückgängig, <quote>ebd., Präs. 835/1848</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 292-294/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Geldvorratsvermehrung der Nationalbank; Darlehensverhandlungen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> brachte nun mit Beziehung auf die im Ministerratsprotokolle vom 12. d. M.<note type="footnote" n="33">
+                        <ref type="protocol-link" target="MRP-1-1-01-0-18480412-P-0011.xml#top_1_1_11_6">MR. v. <date when="1848-04-12">12. 4. 1848</date>/VI</ref>.</note> enthaltene Auseinandersetzung der Modalitäten, a) wie der Nationalbank zu einem namhaften baren Geldvorrate und b) der Finanzverwaltung zu Mitteln verholfen werden könne, ihre kurrenten Auslagen zu bestreiten, den Erfolg der diesfälligen Verhandlungen zur Kenntnis des Ministerrates.</p>
+                  <p>Ad a) bemerkte derselbe, über diesen Punkt mit der Bank ganz einig geworden zu sein. Es werden Werte im Betrage von 60 Millionen disponibel gemacht, um Silber für die Bank herbeizuschaffen. Jetzt werden die diesfalls nötigen Instruktionen ausgefertigt, von der Finanzverwaltung der Hofrat Radda zu dieser Sendung bestimmt und demselben mit Zustimmung des Ministers der auswärtigen Angelegenheiten der jetzt in Disponibilität stehende und gegenwärtig sich hier befindende Legationssekretär Baron Kübeck seiner Sprachfertigkeit, insbesondere seiner Kenntnis der englischen Sprache wegen, beigegeben<note type="footnote" n="34">Nachdem Kübeck wegen mangelnder sprach- und finanztechnischer Kenntnisse diesen Ruf abgelehnt hatte, wurde der an der österreichischen Gesandtschaft in Dresden tätige Legations-Commis v. Reyer als Ersatzmann gestellt, siehe dazu <bibl type="archival">FA., FM., Präs. 422/1848</bibl>. Von Seite der Finanzverwaltung wurde nicht Radda, sondern auf Vortrag Krauß’ v. <date when="1848-04-27">27. 4. 1848</date> mit Ah. E. v. <date when="1848-04-29">29. 4. 1848</date> Hofrat Schmid mit dieser Mission betraut, siehe dazu <quote>ebd., Präs. 302/1848</quote>.</note>.</p>
+                  <p>Ad b) brachte der Finanzminister die bereits vorgestern besprochene Emittierung von Zentralkasseanweisungen mit höherem Zinsfuß, steigenden Zinsen und Annehmbarkeit derselben bei den Kassen an Zahlungs Statt in Anregung. Er hat diesfalls mit den Häusern Sina, Rothschild und anderen Besprechungen gepflogen. Baron Sina machte insbesondere aufmerksam, daß bei der jetzigen Klemme es vorzüglich darauf ankomme, die Kapitalisten für dieses Geschäft zu interessieren und anzulocken. Zu diesem Ende wäre bei der Einzahlung auf die Zentralkasseanweisungen ein Teil der jetzigen Papiere auf Abschlag anzunehmen, nach Sina bei 500f. Zentralkasseanweisung 400f. bar und 100f. in Métalliquesobligationen.</p>
+                  <p>
+                     <pb n="69" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s69.pdf"/>Der Antrag des Baron Rothschild unterscheidet sich von jenem des Baron Sina nur dadurch, daß der erstere ein Viertel der Summe in den jetzigen Obligationen zu zahlen wünscht, was einen Unterschied von 2 oder 3% ausmacht. Beide erklären diese Modalität unter den gegenwärtigen außergewöhnlichen Umständen für unbedingt notwendig, damit man nicht nur vom Inlande, sondern auch vom Auslande Geld erhalte; Papiere, welche hypotheziert sind, dürften nicht nur im In-, sondern auch im Auslande Anwert finden.</p>
+                  <p>Der Finanzminister wird über diesen Gegenstand auch mit der Bank und andern Handlungshäusern (Stamitz, Mayer, Stifft etc.) Besprechungen vornehmen. Er findet die erwähnte Idee sinnreich, weil sie nach zwei Seiten vorteilhaft wirkt, nämlich den Finanzen Geld zu verschaffen und die Métalliques zu heben. Der Staat wird auch von der Zahlung der Zinsen für die an Zahlungs Statt erhaltenen Métalliques (welche vertilgt werden sollen) befreit. Der Finanzminister erbat sich die Zustimmung des Ministerrates, ob er in dieser Richtung vorgehen darf. Er beabsichtigt etwa 50 Millionen Zentralkasseanweisungen zu emittieren, jedoch nicht auf einmal, sondern nur nach und nach und nach Bedarf, anfangs nur 10 Millionen. Bessern sich die Umstände, so wird er nicht gebunden sein, sie weiter zu emittieren. Er bemerkte, daß Preußen eine ähnliche Operation vorgenommen habe, und zwar zu 6% Zinsen und gegen Erlag zur Hälfte in Papieren. Nach Vorausschickung einiger Bemerkungen, ob es nicht zweckmäßiger wäre, für die Anweisungen lieber höhere Zinsen, 6 oder 7%, aber diese allein festzusetzen, als sich bei genauerer Berechnung die viel höheren der angetragenen Modalität gefallen zu lassen, und ob nicht in diesem letzteren Falle die Presse und die Verantwortlichkeit vor den künftigen Reichsständen zu fürchten sei, hat der Ministerrat seine Zustimmung gegeben, daß der Finanzminister in der angedeuteten Art vorgehen könne, weil, wie er bemerkte, die größeren Geldmächte in eine andere Modalität nicht eingehen wollen und das Bedürfnis, sich Geld zu verschaffen, dringend ist<note type="footnote" n="35">Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480416-P-0013.xml#top_1_1_13_1">MR. v. <date when="1848-04-16">16. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Zuschuß für Uniformierung von Beamten in der Nationalgarde</head>
+                  <p>Der Finanzminister trug hierauf dem Ministerrate ein Einschreiten der Kanzleibeamten der Hofpostverwaltung vor, welche um eine Unterstützung von Seite des Ärars zur Uniformierung bei der Nationalgarde bitten<note type="footnote" n="36">Siehe dazu <bibl type="archival">FA., PP. 3405/1848</bibl>.</note>.</p>
+                  <p>Da diese Beamten wegen einer diesfälligen Unterstützung nicht wohl an die Kommune wie die übrigen mittellosen Garden gewiesen werden können, da es andererseits offenbar ist, daß sie bei ihren geringen Besoldungen einer Unterstützung zu dem gedachten Zwecke benötigen, und es wünschenswert ist, daß dieses gute Element nicht aus der Nationalgarde ausscheide, welche Ausscheidung auch einen üblen Eindruck auf die öffentliche Meinung ausüben würde, so hat der Ministerrat beschlossen, daß vom Ärar ein Unterstützungsfonds für Beamte im allgemeinen (nicht mit der ausdrücklichen Widmung zur Uniformierung) zur Disposition des Ministers des Inneren gestellt werde (wie es im verflossenen Jahre mit dem Unterstützungsfonds aus Anlaß der Teuerung geschehen ist)<note type="footnote" n="37">Zur Errichtung dieses Unterstützungsfonds siehe <quote>ebd., PP. 1942/1847</quote>; der Akt, <quote>ebd., PP. 2370/1847</quote>, mit der endgültigen Entscheidung ist nicht mehr auffindbar.</note>, an welchen solche mindere Beamte der gedachten Unterstützung wegen zu weisen wären.</p>
+                  <p>
+                     <pb n="70" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s70.pdf"/>Das vorliegende Gesuch wäre der wichtigen Folgerung wegen dahin zu erledigen, daß der Staat nicht in der Lage sei, für diesen Zweck Unterstützungen zu geben; mündlich wären aber die Bittsteller anzuweisen, sich wegen einer solchen Unterstützung an den Minister des Inneren zu wenden<note type="footnote" n="38">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_14">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XIV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Gerüchte über Beschlagnahme italienischer Seidenwaren</head>
+                  <p>Ferner erwähnte der Finanzminister eines Börsegerüchtes, demzufolge sich eine Verlegenheit unter den Seidenhändlern kundgebe. Es wird bemerkt, daß die Italiener gerne wieder ihre Seide hieher senden möchten, wenn sie nicht befürchteten, daß darauf hier Beschlag gelegt werde<note type="footnote" n="39">Zur Bedeutung der italienischen – vor allem der lombardischen – Seidenerzeugung und des Handels siehe <bibl type="secondary">
+                           <author>Greenfield</author>, Economics 43, 38ff., 52ff. und 84</bibl>.</note>.</p>
+                  <p>Um diese Besorgnisse zu beheben und zu zeigen, daß der Staat unter allen Umständen das Privateigentum achte, wäre durch die öffentlichen Blätter, allenfalls auch durch ein Zirkulare, zur allgemeinen Kenntnis zu bringen, daß diese Besorgnisse ungegründet seien<note type="footnote" n="40">
+                        <quote>In den der Regierung nahestehenden Zeitungen ist ein entsprechender Artikel innerhalb der nächsten zwei Wochen nicht erschienen; ein in diesem Sinne verfaßtes Zirkular konnte in den Wiener Archiven und Flugschriftensammlungen ebenfalls nicht gefunden werden</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Herabsetzung der Stempelgebühr für Intabulierungen in Tirol</head>
+                  <p>Der Gouverneur von Tirol zeigte dem Finanzminister an, daß eine Bestimmung des Tax- und Stempelgesetzes sehr nachteilig wirke und Unzufriedenheit errege. Diese Bestimmung ist, daß für jede Intabulierung ohne Rücksicht auf den Wert und Betrag des Gutes 1f. entrichtet werden muß<note type="footnote" n="41">Schreiben Brandis’ v. <date when="1848-04-07">7. 4. 1848</date>, <bibl type="archival">FA., PP. 3432/1848</bibl>. Diese Bestimmung war im § 50 Z. 4 des Stempelund Taxgesetzes enthalten.</note>.</p>
+                  <p>Der Finanzminister erklärte diese Bestimmung als ein Gebrechen des Tax- und Stempelgesetzes und meinte, daß bei Intabulierungen bis 500f. nur 15 Kreuzer und bei jenen, welche 500f. übersteigen, 30 Kreuzer gefordert werden sollten. Er erachtet diese Abänderung als notwendig; in der Ungewißheit jedoch, ob er dazu berechtigt sei, erbat er sich die Ansicht des Ministerrates, welcher keinen Anstand nahm, dem Finanzminister zu diesem notwendigen Vorgange seine Zustimmung zu geben und dieses im gegenwärtigen Protokolle ersichtlich zu machen<note type="footnote" n="42">Mit Schreiben (K.) v. <date when="1848-04-14">14. 4. 1848</date> ermächtigte Krauß Brandis, die erwähnten Abänderungen <quote>einstweilen, bis eine Änderung des Stempel- und Taxgesetzes vom <date when="1840-01-27">27. Jänner 1840</date> auf gesetzlichem Wege erfolgt sein wird</quote>, in Tirol einzuführen, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Amnestierung von Militärpersonen</head>
+                  <p>Mit dem hier angeschlossenen au. Vortrage vom 13./14. April d. J., KZ. 1408<note type="footnote" n="43">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 298/1848</bibl> und <bibl type="archival">KA., HKR., KM., Präs. 368/1848</bibl>.</note>, bringt der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Kriegswesens</rs>
+                     </hi> die mit dem Ah. Patente vom 20. März d. J.<note type="footnote" n="44">Zur Amnestie v. <date when="1848-03-20">20. 3. 1848</date> siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_1">MR. v. <date when="1848-04-08">8. 4. 1848</date>/I</ref>, Anm. 1.</note> nur auf Individuen vom Zivilstande Bezug habende Amnestie auch auf die wegen politischer Verbrechen teils abgeurteilten, teils noch in Untersuchung stehenden Militärindividuen in Antrag.</p>
+                  <p>Die Gründe, welche er für diesen Antrag geltend macht, und die Ausnahmen, welche dabei einzutreten hätten, geruhen Ew. Majestät aus dem beiliegenden Extrakte, KZ. 1408, Ag. zu entnehmen. Nach der Ansicht des Ministerrates dürften sich Ew. Majestät <pb n="71" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s71.pdf"/>Ag. bestimmt finden, mit den dort bezeichneten Ausnahmen, nämlich des Thomas Dmitrassinovich und Joseph Weinberger<note type="footnote" n="45">Beide waren wegen Hochverrats zu 20 Jahren Festungsarrest verurteilt worden. Erst auf Vortrag Latours v. <date when="1848-06-05">5. 6. 1848</date> wurde Weinberger mit Ah. E. v. <date when="1848-06-13">13. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1008/1848</bibl>, begnadigt, Dmitrassinovich aber nur die Strafverschärfung – einmaliges Fasten in der Woche – nachgelassen.</note>, welche sich auch anderer Verbrechen schuldig machten, die Begnadigung der wegen politischer Verbrechen teils verurteilten, teils noch in Untersuchung stehenden Militärindividuen, wie auch die angetragene Entlassung des Zarzicki aus der Armee zu bewilligen.</p>
+                  <p>Ebenso dürften Ew. Majestät den Antrag des Kriegsministers, es bei der schon ausgesprochenen Degradierung der Unteroffiziere bewenden zu lassen, zu genehmigen, und dem Kriegsminister die angesuchte Ermächtigung zur Verteilung der amnestierten Mannschaft in der Armee mit Beobachtung der angedeuteten Rücksichten, oder ihrer gänzlichen Entlassung zu erteilen geruhen<note type="footnote" n="46">Der in Anm. 41 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-16">16. 4. 1848</date> resolviert; auch die zusätzlichen Anträge wurden bewilligt, der bereits zu zehnjährigem Festungsarrest verurteilte Zarzicki aus der Armee entlassen, <quote>ebd., MRZ. 292/1848</quote> und <bibl type="archival">KA., HKR., KM., Präs. 368/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_12_16" n="16">
+                  <head type="regest">
+                     <label>
+                        <num>XVI. </num>
+                     </label>Veröffentlichung des Kabinettschreiben an den Palatin von Ungarn wegen Übernahme eines Teils der österreichischen Staatsschuld durch Ungarn</head>
+                  <p>Ew. Majestät geruhten über Einraten des tg. Ministerrates an Se. kaiserliche Hoheit, den Herrn Erzherzog Palatin das Kabinettschreiben vom 7. April d. J. zu erlassen<note type="footnote" n="47">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480405-P-0004.xml#top_1_1_4_8">MR. v. <date when="1848-04-05">5. 4. 1848</date>/VIII</ref>, bes. Anm. 22.</note>, mit welchem Se. kaiserliche Hoheit beauftragt wurden, die förmliche Übernahme eines Teiles der Zentralstaatsschuld auf die nunmehr abgesondert zu verwaltenden ungarischen Finanzen noch vor dem Schlusse des Landtages den Ständen in angemessener Art in Erinnerung zu bringen.</p>
+                  <p>Das Ergebnis dieses Schrittes ist zwar offiziell dem Ministerrate nicht bekannt; er hält es jedoch seiner eigenen Verantwortung vor den deutschen Reichsständen wegen für angemessen, diesfalls mittelst der Presse bekannt werden zu lassen, daß die Angelegenheit nicht versäumt wurde, die Ansprüche des deutschen Länderkomplexes dem Königreiche Ungarn gegenüber geltend zu machen.</p>
+                  <p>Über die Form der Bekanntmachung äußerte zwar der Finanzminister Freiherr v. Krauß das Bedenken, daß durch die Kundgebung der die Stelle einer Instruktion vertretenden Daten von 10 Millionen Renten in quanto den möglichen Ansprüchen der deutschen Staaten etwas vergeben zu sein scheint; da jedoch dieses Bedenken von den übrigen Stimmen des Ministerrates nicht geteilt wurde, so beschloß man die Einschaltung des berufenen Kabinettschreibens in die Zeitung unter Beifügung einer kurzen Einleitung zu veranlassen<note type="footnote" n="48">Der Wortlaut des Ah. Handschreibens an den Palatin v. <date when="1848-04-07">7. 4. 1848</date> wurde in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-16">16. 4. 1848</date>
+                        </bibl> abgedruckt.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-04-15">15. April 1848</date>.</dateline>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-16">16. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

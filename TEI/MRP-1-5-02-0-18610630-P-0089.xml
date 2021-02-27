@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="2">Band 2</title>
+            <title level="m" type="sub">Mai 1861–<date when="1861-11-02">2. November 1861</date>
+            </title>
+            <title level="a" type="desc" n="089">Sitzung 89</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1861-06-27"/>
+               <date when="1861-06-28"/>
+               <date when="1861-06-30"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b2-z89.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 2 Mai 1861–2. November 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1981">1981</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">877</idno>
+                  <idno type="KZ">2379</idno>
+               </msIdentifier>
+               <p>
+                  <span>Sammelprotokoll, kompiliert aus mehreren Sitzungstagen; </span>
+                  <span ana="non-parsed">Sammelprotokoll; RS.; P. Ransonnet (27., 30. 6.), Marherr (28. 6.); VS. Kaiser (27., 30. 6.), Erzherzog Rainer (28. 6.); BdE. (Erzherzog Rainer 2. 7.), Rechberg 23. 7., Mecséry, Vay, Degenfeld, Schmerling, Lasser, Szécsen 24. 7., Plener 4. 7., Wickenburg, Pratobevera 4. 7., Lichtenfels; BdR. Rechberg 28. 7. Teildruck: REDLICH, Staats- und Reichsproblem 2, 83—96.</span>
+                  <placeName>Wien</placeName>
+                  <date when="1861-06-30"/>
+               </p>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl>Teildruck: 
+    : REDLICH, Staats- und Reichsproblem 2, 83—96.</bibl>
+               </witness>
+            </listWit>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">Sammelprotokoll; RS.; P. Ransonnet (27., 30. 6.), Marherr (28. 6.); VS. Kaiser (27., 30. 6.), Erzherzog Rainer (28. 6.); BdE. (Erzherzog Rainer 2. 7.), Rechberg 23. 7., Mecséry, Vay, Degenfeld, Schmerling, Lasser, Szécsen 24. 7<orig>., </orig>Plener 4. 7<orig>., </orig>Wickenburg, Pratobevera 4. 7., Lichtenfels; BdR. Rechberg 28. 7.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">Ransonnet</persName>
+                  <note>Protokoll 27., 30. 6. </note>
+               </person>
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+                  <note>Protokoll <date when="1861-06-28">28. 6.</date>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">Kaiser</persName>
+                  <note>Vorsitz 27., 30. 6.</note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>Vorsitz <date when="1861-06-28">28. 6.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-07-02">1861-07-02</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-07-23">23. 7.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8679">
+                     <surname>Vay</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8078">
+                     <surname>Szécsen</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-07-24">24. 7.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-07-04">4. 7.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-07-04">4. 7.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_2_89_1">Annahme oder Ablehnung der Adresse des ungarischen Landtags und eventuelle Auflösung desselben</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-02-0-18610630-P-0089" ana="a5-b2-z89">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml#a5-b2_z89.pdf">
+               <title type="num">Nr. 89</title>
+               <title type="descr">Ministerrat, Wien, 27., 28. und <date when="1861-06-30">30. Juni 1861</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">Sammelprotokoll; <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet (27., 30. 6.), Marherr (28. 6.); <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Kaiser (27., 30. 6.), Erzherzog Rainer (28. 6.); <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> (Erzherzog Rainer 2. 7.), Rechberg 23. 7., Mecséry, Vay, Degenfeld, Schmerling, Lasser, Szécsen 24. 7<orig>., </orig>Plener 4. 7<orig>., </orig>Wickenburg, Pratobevera 4. 7., Lichtenfels; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Rechberg 28. 7.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">877</idno>
+                  <idno type="KZ">2379</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am 27., 28. und <date when="1861-06-30">30. Juni 1861</date> abgehaltenen Ministerrates unter dem Ah. Vorsitze Sr. Majestät des Kaisers [und Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer]. [Sitzung vom 27. Juni unter dem Vorsitz Sr. Majestät des Kaisers] [anw. Erzherzog Rainer, Rechberg, Mecséry, Vay, Degenfeld, Schmerling, Lasser, Szécsen, Plener, Wickenburg, Pratobevera, Lichtenfels, Szőgyény, Apponyi, Mailáth, Sennyey]</head>
+               <div type="agenda_item" xml:id="top_5_2_89_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Annahme oder Ablehnung der Adresse des ungarischen Landtags und eventuelle Auflösung desselben</head>
+                  <p>Vor Beginn der Beratungen geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">Majestät der Kaiser</rs>
+                     </hi>, das bestimmteste Ah. Verbot auszusprechen, daß irgend etwas von den heutigen Beratungen über die Mauern des Konferenzsaales hinausdringe. Allerhöchstdieselben finden sich zu dieser Erinnerung dadurch veranlaßt, daß schon gestern Berichte über die vor wenig Stunden erst gepflogenen Ah. Besprechungen ins Publikum drangen. Die Mitglieder der Konferenz mögen bedenken, daß eine vorzeitige Verlautbarung der Ah. Beschlüsse zur Organisierung des bewaffneten Widerstands in Ungarn und somit zum Blutvergießen führen würde, wofür der Betreffende <pb n="163" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s163.pdf"/>verantwortlich wäre. Se. Majestät fordern daher die Anwesenden bei ihrem Eide zur Wahrung des Geheimnisses auf<note type="footnote" n="1">Vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610701-P-0090.xml#top_5_2_90_4">MR. v. <date when="1861-07-01">1. 7. 1861</date>/IV</ref>, Anm. 14.</note>.</p>
+                  <p>Nachdem die Deputation des ungarischen Landtages mit der Adresse an Se. Majestät bereits hier eingetroffen ist, handelt es sich um einen Beschluß, was diesfalls zu geschehen hat<note type="footnote" n="2">Adresse beider Häuser des ungarischen Landtags v. <date when="1861-06-24">24. 6. 1861</date>. Zu den Ereignissen bei der beabsichtigten Übergabe bzw. bei der Nichtannahme der Adresse siehe den Bericht des Präsidenten Koloman v. Ghyczy an das Repräsentantenhaus in der Sitzung v. <date when="1861-07-01">1. 7. 1861</date>, <bibl type="secondary">
+                           <title>Ungarischer Reichstag</title> 3, 159 ff.</bibl>; <bibl type="secondary">
+                           <title>Ungarischer Verfassungsstreit</title> 94 f.</bibl> Zu den Ministerratssitzungen des vorliegenden Sammelprotokolls siehe auch die Tagebucheintragungen Szögyénys v. 29. und <date when="1861-06-30">30. 6. 1861</date>, <bibl type="secondary">
+                           <author>Szőgyény</author>, Emlékiratai 3, 108—112</bibl>.</note>. Allerhöchstdieselben wünschen darüber vor allem die Ansichten Allerhöchstihrer ungarischen Räte zu vernehmen und wünschen, daß wegen der hohen Wichtigkeit des Beschlusses und der Tragweite seiner Folgen das Detail des von der Regierung weiters unter den verschiedenen Eventualitäten zu beobachtenden Ganges von den Stimmführern genau erörtert und eine Art von Operationsplan, unter freier Meinungsäußerung, beraten werde.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Kanzler v. Szőgyény</rs>
+                     </hi> äußerte sich über die Hauptfrage — Annahme oder Nichtannahme der Adresse — dahin, daß die Ablehnung der Adresse sich bloß dann als angezeigt darstellen würde, wenn dieselbe nach Inhalt oder Form oder den sie begleitenden Nebenumständen durchaus nicht Allerhöchstenorts angenommen werden könnte. Dies scheine dem Sprecher aber nicht der Fall zu sein, denn wenn auch die Adresse sehr viel ganz Unrichtiges, Unpassendes und Sophistisches und Forderungen enthält, welche durchaus zurückgewiesen werden müssen, so biete sie doch noch eine brauchbare Basis zur weiteren landtäglichen Verhandlung. Die Form der Adresse könne der Kanzler nur bedauern. Indes erlaube er sich zu bemerken, daß die Aufschrift „Felséges Ur“ und der Titel „Eure Majestät“ im Kontexte an sich nichts Unehrerbietiges enthalten und daß in Ungarn stets bezüglich der Titulaturien zwischen einem gekrönten und einem nichtgekrönten Könige ein Unterschied gemacht wurde. Die Absendung der Adresse ohne Kuvert und äußere Aufschrift dürfte sich durch deren persönliche Überreichung motivieren lassen. Was drittens die Nebenumstände betrifft, so ist nicht zu leugnen, daß manche der die Adreßdebatten begleitenden Landtagsbeschlüsse und Reden sehr verwerflich waren. Allein sie sind nicht in die Adresse übergegangen und beinahe spurlos verhallt. Daß auf dem ersten Landtage nach zwölfjähriger Unterbrechung tadelnswerte Beschlüsse würden gefaßt werden, wurde vor dem 20. Oktober vorausgesehen. Die lange Sistierung des öffentlichen Lebens hat die Leidenschaften aufgestachelt, der Landtag befindet sich in einer exzeptionellen Stellung, und er ist noch nicht — wie jener von 1790 — in alle verfassungsmäßigen Rechte wiedereingesetzt. Dies dürfte manche verwerflichen Schritte in einem milderen Lichte erscheinen lassen. Die beiden Hofkanzler müßten daher au. die Ah. Annahme der Adresse beantragen, zumal man in Ungarn der ewigen Rekriminationen und Reden müde wird, eine Spaltung bereits eingetreten ist und der beginnende günstige Umschwung durch die Nichtannahme der Adresse nicht nur gehemmt, sondern das ganze Land zu einem kompakten Widerstand getrieben werden würde. Die ungarische Hofkanzlei hat <pb n="164" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s164.pdf"/>daher beschlossen, Sr. Majestät ferner die Ah. Erlassung eines Reskripts an den Landtag als Antwort auf die Adresse au. vorzuschlagen. Da jedoch die aus Pest soeben heraufgelangten Würdenträger von dem Inhalte desselben keine Kenntnis haben, dürften Se. k. k. apost. Majestät Ah. sich bewogen finden, ein Respirium von 24 Stunden Ag. zu bewilligen, um während dieser Zeit den Entwurf einer vereinten Schlußberatung unterziehen zu können. Der <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler Baron Vay</rs>
+                     </hi>, mit der Vorstimme in allen Punkten einverstanden, fügte noch bei, daß er, obgleich nicht zu sanguinischen Hoffnungen geneigt, gegenwärtig einen günstigen Umschwung voraussehe, den man im wohlverstandenen Interesse der Regierung benützen solle. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> äußerte, daß sein Gefühl — mit Hinblick auf die letzten landtäglichen Diskussionen — der Annahme der Adresse widerstrebe. Allein andererseits könne er nicht verkennen, daß die Zurückweisung derselben im Lande allgemein ganz anders gedeutet werden wird, als sie wirklich Ah. gemeint ist, zumal man sich an die Zurückweisung der Adresse im Jahre 1857<ref xml:id="fn_5_2_89_a"/>
+                     <note type="variant" n="a" target="#fn_5_2_89_a">Korrektur Ransonnets aus <quote>1856</quote>.</note> erinnern wird<note type="footnote" n="3">Gemeint ist jene von 131 Altkonservativen unterzeichnete Eingabe v. <date when="1857-05-09">9. 5. 1857</date>, die der Fürstprimas Scitovszky dem Kaiser bei einer Audienz hätte übergeben sollen, die dieser aber nicht angenommen hatte, <bibl type="secondary">
+                           <author>Berzeviczy</author>, Az absolutismus 117 f.</bibl>; <bibl type="secondary">
+                           <title>Drei Jahre Verfassungsstreit</title> 26—30</bibl>; <bibl type="secondary">
+                           <author>Mayr</author>, Tagebuch Kempens 430 f. und 453</bibl>; <bibl type="secondary">
+                           <author>Rogge</author>, Österreich von Világos bis zur Gegenwart 2, 489</bibl>.</note>. Deswegen und aus den übrigen von den Vorstimmen angeführten Gründen stimme der Minister daher für die Ag. Annahme, <ref xml:id="fn_5_2_89_b">unter Erlassung eines königlichen Reskripts, dessen Inhalt noch einer genauen Vorberatung der ungarischen Räte zu unterziehen wäre</ref>
+                     <note type="variant" n="b" target="#fn_5_2_89_b">Einfügung b–b Ransonnets.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> erkennt die ganze Genesis der Adresse als sehr bedauerlich<note type="footnote" n="4">Über den Gang der Abstimmung siehe <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> 95, Anm. 1</bibl>.</note>. Indessen sei deren Ag. Annahme doch das geringere Übel in Vergleich mit den Kalamitäten, welche nach der Zurückweisung über Ungarn und die übrige Monarchie einbrechen würden. Ein solcher Schritt, er mag wie immer motiviert werden, müsse eine Kluft zwischen dem Land und der Regierung reißen, die vor einem Menschenalter nicht auszufüllen wäre. Graf Apponyi, obgleich im großen mit den Anträgen der Hofkanzler einverstanden, fände es doch unumgänglich nötig, daß man sich über die Formulierung des königlichen Reskripts eingehend verständige.</p>
+                  <p>Über die hierauf erfolgte Ah. Aufforderung, den Entwurf des Reskripts sogleich vorzulesen, äußerte der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi>, es liege davon nur eine mangelhafte, beinahe lächerlich stilisierte deutsche Übersetzung vor und er werde daher mit Ah. Erlaubnis den bezüglichen au. Vortrag der ungarischen Hofkanzlei vorlesen, aus welchem sowohl die Anträge als auch deren Motive zu entnehmen seien<note type="footnote" n="5">Dieser Vortrag war noch nicht übergeben worden und wurde auch später nicht übergeben, da sich der Kaiser für die Nichtannahme entschied; er findet sich zusammen mit dem ungarischen und dem deutschen Reskriptentwurf in <bibl type="archival">MOL., Ungarische Hofkanzlei, Allgemeine Akten, Fasz. VIII-0-4 (Landtagssachen), Fol. 383—392 (= Z. 9204/1861)</bibl>; er trägt einen Vermerk Forgáchs <quote>Vortrag wurde nie resolviert</quote>.</note>. Der hierauf seinem ganzen Inhalt nach verlesene au. Vortrag enthält zuerst eine Analyse der Adresse, dann die bereits im Lauf der mündlichen Beratung <pb n="165" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s165.pdf"/>großenteils zur Sprache gebrachten Motive, warum die Adresse Ag. entgegenzunehmen wäre. Es wird ferner darauf hingewiesen, daß die Zurückweisung der Adresse und die Auflösung des Landtages, woran sich notwendig der Belagerungszustand schließen muß, doch nicht direkte Wahlen in den Reichsrat zur Folge haben und somit Österreichs Stellung im In- und Ausland nicht stärken, sondern vielmehr schwächen würden. Durch Zwang lasse sich in Ungarn nicht zu einer befriedigenden Lösung kommen, und daher werde die Erlassung eines die milden Gesinnungen Sr. k. k. apost. Majestät aussprechenden Reskripts beantragt, welches gewissermaßen den Schlußstein der von Sr. Majestät seit dem 20. Oktober in Ungarn befolgten „Geduldpolitik“ bilden würde. Bliebe auch dieser erfolglos, so müßte dann allerdings zur Auflösung des Landtages geschritten werden. Nach dem Antrage der Hofkanzlei würde eine Verständigung durch eine ungarische Regnikolardeputation an den Reichsrat anzubahnen sein. Es wären ferner eventuell alle ungarischen Gesetze mit Einschluß jener des Jahres 1848 wiederherzustellen, eine unabhängige ungarische Regierung mit dem Sitz im Land zu bewilligen, die Ah. Geneigtheit zur Union mit Siebenbürgen und Kroatien auszusprechen, allenfalls die Ausstellung einer dem ungarischen Recht formal entsprechenden Abdikationsurkunde von Sr. Majestät Kaiser Ferdinand zuzusichern, die Fortentrichtung der bestehenden Steuern bis zur verfassungsmäßigen Bewilligung neuer zu bedingen und endlich ein großer, bloß offene Feinde ausschließender königlicher Gnadenakt in Aussicht zu stellen. Der <hi rend="#letterspaced">
+                        <rs type="person">Statthaltereivizepräsident Baron Sennyey</rs>
+                     </hi> bemerkte, daß er mit den ihm soeben zum ersten Male bekannt gewordenen Anträgen der ungarischen Hofkanzlei im allgemeinen einverstanden sei und jedenfalls die Beseitigung der dikasterialen Administrationsformen und die Bildung ungarischer Ministerien für das Land vorteilhaft, für die Gesamtmonarchie aber unbedenklich halte. Die öffentliche Meinung in Ungarn ist krank, daher es rätlich wäre, dort nichts zu überstürzen und die völlige Durchführung der Prinzipien vom 20. Oktober noch ruhen zu lassen, bis die dermalige Opposition zur Einsicht gelangt, daß ihre Ideen nicht durchzuführen sind. Übrigens müsse Baron Sennyey bitten, daß gestattet werde, die einzelnen Anträge des Barons Vay mit dem letzteren reiflich zu beraten. Der <hi rend="#letterspaced">
+                        <rs type="person">Tavernikus</rs>
+                     </hi> bittet gleichfalls um Frist zur Beratung des königlichen Reskripts im Detail. Was die brennendste Frage — annehmen oder ablehnen — betrifft, so würde v. Mailáth die Ablehnung als einen politischen Mißgriff betrachten, der alle besseren Elemente in das Lager der Opposition treiben würde. Bei der Ag. Annahme könnte vorangestellt werden, daß dieselbe bloß aus Rücksicht für das Wohl des Landes stattfindet. Wenn aber das königliche Reskript dennoch keine gute Aufnahme findet, wäre zu erwägen, was aus den vorhandenen Opportunitätsrücksichten zu tun sei. Der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> findet sich durch die Lesung des Vortrags um so mehr bestimmt, eine Detailberatung des Reskripts zu bevorworten, wobei eine Formulierung vereinbart werden könnte, um sie au. zu überreichen. Es scheine ihm übrigens schon jetzt nicht rätlich, im Reskripte in irgendeine Polemik mit der Adresse einzugehen. Ferner müßten schon im königlichen Reskripte die nötigen Änderungen der 1848er Gesetze ausgedrückt werden. Allerdings bleibe bei den jetzt in Ungarn tiefgewurzelten <pb n="166" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s166.pdf"/>Ideen nichts anderes übrig, als auf dem Weg von 1848 zum 20. Oktober zu gelangen.</p>
+                  <p>Über eine Ah. Anfrage, ob nach den vorliegenden Anträgen der ungarische Landtag nicht etwa schließlich selbst ein Recht zur Bewilligung von Steuern und Rekruten erhalten würde, äußerte der <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler v. Szőgyény</rs>
+                     </hi>, daß eine gewisse Ingerenz darauf dem Landtage allerdings nicht entzogen werden könnte, allein ein förmliches Steuerverweigerungsrecht habe dem Landtage auch früher nicht zugestanden und könne davon nie die Rede sein.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> glaubt, Sr. Majestät pflichtgemäß nicht raten zu dürfen, eine Adresse anzunehmen, worin das Souveränitätsrecht Allerhöchstderselben mit Vorbedacht geleugnet wird. <ref xml:id="fn_5_2_89_c">Als Minister des Äußern müsse er sich entschieden gegen Annahme einer Adresse aussprechen, in welcher die Rechte Sr. Majestät des Kaisers nicht anerkannt und Allerhöchstdieselben nur als faktischer Regent bezeichnet werden. Bisher habe noch keine auswärtige Regierung es gewagt, die Rechte Sr. Majestät auf Ungarn in Frage zu stellen. Durch Annahme der Adresse werde dem ungarischen Landtage gestattet, dieses Rechtsverhältnis zu leugnen, und es wäre nach einem solchen Vorgang zu erwarten, daß auch fremde Regierungen sich auf das vom ungarischen Landtage eingenommene Feld stellen würden. Er bitte die Folgen, die dies nach sich ziehen dürfte, wohl zu erwägen.</ref>
+                     <note type="variant" n="c" target="#fn_5_2_89_c">Einfügung c–c Rechbergs statt des Satzes <quote>Was kein auswärtiges Kabinett je gewagt hat in Frage zu stellen, das wird nun von den eigenen Untertanen Sr. Majestät negiert</quote>.</note>Als Minister des Äußern müsse er sich entschieden gegen Annahme einer Adresse aussprechen, in welcher die Rechte Sr. Majestät des Kaisers <ref xml:id="fn_5_2_89_d">nicht anerkannt</ref>
+                     <note type="variant" n="d" target="#fn_5_2_89_d">Von Rechberg eingesetzt statt <quote>mit Vorbedacht bestritten</quote>.</note> und Allerhöchstdieselben nur als faktischer Regent bezeichnet werden. Bisher habe noch keine auswärtige Regierung es gewagt, die Rechte Sr. Majestät auf Ungarn in Frage zu stellen. Durch Annahme der Adresse werde dem ungarischen Landtage gestattet, dieses Rechtsverhältnis zu leugnen, und es wäre nach einem solchen Vorgang zu erwarten, daß auch fremde Regierungen sich auf das vom ungarischen Landtage eingenommene Feld stellen würden. Er bitte die Folgen, die dies nach sich ziehen dürfte, wohl zu erwägen. Eine zu weit getriebene Ah. Geduld und Nachgiebigkeit in dieser Richtung würden im Auslande mißbilligt werden und im Inland nur schlimme Folgen nach sich ziehen. Wenn, wie man versichert, ein günstiger Umschwung beginnt, wenn sich die Vernünftigen von der extremen Partei abwenden, so kann es nur zu ihrer Kräftigung dienen, daß Se. Majestät die Adresse mit dem Bedeuten ablehnen, sie sei in Form und Inhalt so abgefaßt, daß Allerhöchstdieselben sie nicht annehmen können. Beharrt der Landtag dann noch auf seinen früheren Beschlüssen, so ist er reif zur Auflösung. Graf Rechberg würde daher glauben, daß einige deutsche Minister mit den ungarischen Räten den Entwurf des kaiserlichen Erlasses und die Mittel zur Erhaltung rücksichtlich Wiederherstellung der Ordnung beraten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärt sich gegen die Annahme der nach Form und Inhalt durchaus nicht annehmbaren Adresse. Der Minister zeigt, daß durch den Debrecziner Beschluß vom <date when="1849-04-14">14. April 1849</date> die früheren staatsrechtlichen Verhältnisse umgestürzt worden seien und man sich daher jetzt nicht mehr darauf berufen könne. Übrigens wäre jeder Versuch einer Belehrung über die jetzige Rechtslage vergeblich und bei der gegenwärtigen Zusammensetzung des Landtages nicht die entfernteste Aussicht vorhanden, selbst durch Annahme der Adresse und durch neue Konzessionen zu einem Ziele zu gelangen. Andererseits sind die Verhältnisse der übrigen Kronländer von der Art, daß ein weiteres Temporisieren in Ungarn unmöglich ist. Die Finanzen gestatten nicht die längere Fortdauer des gegenwärtigen Zustands der Anarchie in Ungarn, der zugleich ein gefährliches Beispiel gibt. In Ungarn <pb n="167" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s167.pdf"/>ist bereits eine tiefe, klaffende Wunde, welche vom revolutionären Auslande sorgfältigst unterhalten wird <ref xml:id="fn_5_2_89_e">zur Anfachung einer rebellischen Diversion während des Krieges</ref>
+                     <note type="variant" n="e" target="#fn_5_2_89_e">
+                        <quote>Einfügung e–e Ransonnets.</quote>
+                     </note>. Der gegenwärtige Zeitpunkt, wo Österreich vom Auslande keinen offenen Angriff zu fürchten hat, wäre der geeignetste, sich im Innern zu stärken und zu ordnen. Darum sei eine Entscheidung dringend. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, daß nur die Aussicht auf einen gewissen und nachhaltigen Erfolg den Antrag auf Ah. Annahme der Adresse rechtfertigen könnte. Diese Aussicht sei aber keineswegs, sondern vielmehr das Gegenteil vorhanden. Dieselbe Meinung sprach auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister aus. Der Minister Ritter v. Lasser</rs>
+                     </hi>, ebenfalls dem Staatsminister beitretend, führte noch an, die Lösung der ungarischen Frage werde auch dadurch dringend, weil das Land Ungarn durch seine Hartnäckigkeit die übrigen Länder hindert, sich in ihrem staatsrechtlichen Verband zu konsolidieren. Se. Majestät der Kaiser könnten auch die bisher mit bewundernswerter Selbstbeherrschung geübte Geduld nicht wohl länger fortsetzen, ohne der Würde des Ah. Thrones Eintrag zu tun. Die Ablehnung der Adresse könnte mittels eines Reskripts an den Landtag erfolgen, dessen Textierung von den ungarischen Würdenträgern mit Zuziehung einiger deutscher Minister zu beraten wäre. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> würde glauben, daß von einer trockenen Abweisung der Adresse Umgang zu nehmen und die Deputation des Landtages von Sr. Majestät wenigstens zu empfangen und derselben ein sorgfältig textiertes Ultimatum zu geben wäre, um auch den letzten Versuch der Verständigung noch zu machen. Hiebei <ref xml:id="fn_5_2_89_f">wäre mit Bestimmtheit in der Sache selbst zu erklären, was gewährt und was abgewiesen wird, es wären die einzelnen Punkte der Adresse durchzugehen und über jeden sich mit aller Entschiedenheit auszusprechen. Was namentlich die 1848er Gesetze betrifft, so wären nach der bereits bestehenden Trennung auf Grund des Ah. Oktoberdiploms für die Gegenstände, welche nicht der Reichsvertretung angehören, nämlich für innere politische Verwaltung, Justiz und Kultus und Unterricht, selbst die verantwortlichen Ministerien zu bewilligen, ebenso könnte in das Begehren in betreff der Abdikationsurkunde, der Konfiskationsauflassung und Amnestie eingegangen werden</ref>
+                     <note type="variant" n="f" target="#fn_5_2_89_f">Korrektur f–f Pleners aus <quote>könnten noch einige Zugeständnisse in bezug auf gewisse ungarische Ministerien, die Abdikationsurkunde und die Amnestie gewährt werden</quote>.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Pratobevera</rs>
+                     </hi> glaubt, daß die Hauptfrage bloß vom Standpunkt der Opportunität zu beurteilen sei. Ist es noch möglich, zu einem Ausgleich zu kommen, so solle man ihn anbahnen, zumal ein „ungarischer Justiz- und Staatsminister“ wohl unbedenklich bewilligt werden könnte <ref xml:id="fn_5_2_89_g">ad instar der gleichen Funktionäre für die deutsch-slawischen Länder</ref>
+                     <note type="variant" n="g" target="#fn_5_2_89_g">Einfügung g–g Ransonnets.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> erkennt es als ein hochverräterisches Beginnen, das Erbrecht Sr. Majestät als König von Ungarn anzutasten. Eine hochverräterische Adresse sei unannehmbar, und es wäre daher ein k[aiserliches] Manifest zu erlassen, worin unter anderm auch auf die Folgen des Debrecziner Beschlusses hinzuweisen wäre. Gegen Konzessionen, welche mit dem 20. Oktober oder 26. Februar nicht vereinbarlich <pb n="168" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s168.pdf"/>sind, müsse sich Graf Wickenburg entschieden erklären. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erinnerte an eine im Jahre 1848 erschienene Staatsschrift, worin die Unhaltbarkeit der behaupteten Personalunion nachgewiesen und das Vorhandensein einer Realunion der ganzen Monarchie gezeigt wurde. In Absicht auf die staatsrechtlichen Folgen der ungarischen Rebellion und des Debrecziner Beschlusses teilt er die Meinung des Staatsministers und glaubt selbst, daß Se. Majestät Kaiser Ferdinand I. nicht berechtigt gewesen seien, die ungarische Konstitution vom Jahre 1848 ohne Zustimmung der übrigen Länder zu sanktionieren. Man verspreche sich viel vom Paktieren, doch könne er diese Hoffnungen ebensowenig teilen, als er jene geteilt habe, welche 1860 im verstärkten Reichsrat ausgesprochen wurden und die sich auch nicht verwirklicht haben. Die beantragte Berufung einer Regnikolardeputation nach Wien könnte leicht wie ein Feuerbrand wirken. <ref xml:id="fn_5_2_89_h">Viele der übrigen Anträge seien sehr unklar oder ganz unstatthaft.</ref>
+                     <note type="variant" n="h" target="#fn_5_2_89_h">Einfügung h–h Ransonnets.</note> Freiherr v. Lichtenfels sehe überhaupt nicht recht ein, welche Konzessionen jetzt noch mit dem kaiserlichen Ausspruche vom 1. Mai über das Festhalten an dem Gegebenen vereinbarlich wären. Die Adresse dürfte daher Allerhöchstenorts unter Aufhebung des Landtages zurückgewiesen werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> bemerkte, man wiederhole stets, das ganze Land sei am Jahre 1848 schuld. Die Geschichte werde das Gegenteil sagen, und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> fügte bei, er selbst sei vom Fürsten Schwarzenberg zur Gesandtschaft nach London gesendet worden, um dort zu beweisen, daß nicht alle Ungarn abgefallen sind. <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler v. Szőgyény</rs>
+                     </hi> äußerte, daß die ungarischen Räte der Krone jetzt durchaus keine glänzenden Hoffnungen des Gelingens geben können, aber doch lieber an den schwächsten Faden zur gütlichen Beilegung anknüpfen, als einen unheilbaren Riß herbeiführen wollen. Man habe von der in Ungarn herrschenden Anarchie gesprochen: Daß ein solcher Zustand des Nichtgehorchens von oben bis unten in Ungarn bestehe, müsse er in Abrede stellen. Es bestehe allerdings keine formelle Ordnung, aber doch Ruhe und Folgsamkeit gegen die Magistrate. Nur in Absicht auf die Steuer ist infolge falscher Anschauungen ein anarchischer Zustand eingetreten. Der <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler Baron Vay</rs>
+                     </hi> bemerkt, es handle sich um eine Ah. Entscheidung über die letzte Adresse des letzten ungarischen Landtages. Der <hi rend="#letterspaced">
+                        <rs type="person">Tavernikus</rs>
+                     </hi> erinnert, daß er vor dem 20. Oktober das Vorhandensein großer Schwierigkeiten nicht verhehlt habe; allerdings hätten <ref xml:id="fn_5_2_89_i">die seitdem eingetretenen bedauerlichen Ereignisse</ref>
+                     <note type="variant" n="i" target="#fn_5_2_89_i">Einfügung i–i Ransonnets.</note> seine Erwartungen überstiegen. Auch der jetzt ungarischerseits au. vorgeschlagene Weg werde vielleicht nicht zum gewünschten Ziele führen; aber gewiß ist, daß die Zurückweisung der Adresse nicht im wahren Interesse der Monarchie liegt. Wenn man die Gültigkeit der Konstitution von 1848 wegen der späteren Rebellion bestreitet, so dürfte diese Argumentation auch von der extremen Partei in Pest gutgeheißen werden. Das formelle Recht sei allerdings für die 1848er Gesetze, dagegen fordere — nach der Überzeugung des Tavernikus — das höhere Gesetz der Selbsterhaltung der Monarchie deren Aufhebung, und eben deswegen muß <pb n="169" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s169.pdf"/>in dieser Angelegenheit eine Ausgleichung zwischen Recht und Macht gefunden werden.</p>
+                  <p>Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. apost. Majestät</rs>
+                     </hi> geruhten zu äußern, Allerhöchstdieselben hätten die Frage über die Annahme der Adresse in die reifste Erwägung gezogen, und wenn Se. Majestät Allerhöchstsich für die Nichtannahme entscheiden, so geschieht dies nur in Erwägung ihrer Pflichten gegen die Monarchie und selbst gegen Ungarn, nicht aber aus Empfindlichkeit: Se. Majestät können nicht! Die Debatten im Oberhaus haben gezeigt, daß von diesem Landtage nichts zu erwarten ist. Hat doch nicht einer der Magnaten den Mut gehabt, sich offen auszusprechen!</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> glaubte, hierüber die Aufklärung geben zu sollen, das Oberhaus habe sich bloß deswegen enthalten, die Adresse an das Unterhaus zurückzusenden, damit die Diskussion sich nicht maßlos verlängere, und in der wohlüberlegten Absicht, je eher, je lieber durch die Ah. Gnade aus einer unhaltbaren Lage herauszukommen. Der <hi rend="#letterspaced">
+                        <rs type="person">erste Hofkanzler</rs>
+                     </hi> äußerte, daß, wenn Se. Majestät die Adresse nicht entgegenzunehmen geruhen, Baron Vay und die übrigen ungarischen Räte nicht die Verantwortung für die Folgen davon übernehmen können. Dieselbe falle auf jene, die dazu eingeraten haben. Infolge des Ah. Beschlusses müßte wohl der Landtag schleunigst aufgelöst werden; allein dies würde dann nicht mehr von den ungarischen Räten ausgeführt werden können.</p>
+                  <p>Se. <hi rend="#letterspaced">
+                        <rs type="person">Majestät der Kaiser</rs>
+                     </hi> geruhten sofort zu erklären, daß Allerhöchstdieselben ihren ungarischen Räten, welche an den Ah. Beschlüssen vom 20. Oktober teilgenommen haben, nicht das Recht zuerkennen, in diesem Augenblicke zurückzutreten, wo es sich um die Ausführung dieser Beschlüsse handelt. Die heutigen Vorschläge der ungarischen Hofkanzlei verlassen den Standpunkt vom 20. Oktober und springen auf die Gesetze vom Jahre 1848 über. Damit wird die bisher eingenommene, einzig haltbare Basis aufgegeben. Allerhöchstdieselben können nicht ein Haarbreit von den Grundsätzen des 20. Oktober abweichen. Se. k. k. apost. Majestät geruhten hierauf zu bemerken, es sei im Interesse Ungarns sehr wünschenswert, daß die Justizorganisation noch vor dem eventuellen Schluß des Landtages angenommen werde, wogegen die ungarischen Räte auf die Kürze der Zeit und die Anwesenheit des Präsidenten Ghyczy in Wien als unübersteigliche Schwierigkeiten hindeuteten<note type="footnote" n="6">Zur Justizorganisation siehe <ref type="protocol-link" target="MRP-1-5-02-0-18610704-P-0091.xml#top_5_2_91_1">MR. v. <date when="1861-07-04">4. 7. 1861</date>/I</ref>, Anm. 1; das Unterhaus hatte schon am <date when="1861-06-22">22. 6. 1861</date> seine Zustimmung gegeben, das Oberhaus folgte am <date when="1861-07-01">1. 7. 1861</date>.</note>.</p>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person">Tavernikus, Baron Vay</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> nochmals die Gefahren einer Nichtannahme der Adresse geltend gemacht hatten, erklärte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi>, er habe früher allerdings geglaubt, daß die Adresse, unter gleichzeitiger Erlassung eines Reskripts an den Landtag, abgelehnt werden könne — da jedoch die übrigen ungarischen Räte dies als nicht tunlich bezeichnen, so müsse er in ihre auf genauere Kenntnis der Verhältnisse gegründete Überzeugung kompromittieren, beantrage daher eine neuerliche Ag. Erwägung.</p>
+                  <p>
+                     <pb n="170" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s170.pdf"/>Schließlich geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. apost. Majestät</rs>
+                     </hi> zu befehlen, daß am 29. d. M. eine engere Beratung zwischen den ungarischen Räten und mehreren Ministern über die weiteren Schritte der Regierung stattfinde, deren Ergebnis zu unterbreiten sein wird<note type="footnote" n="7">Diese Beratung fand unter dem Vorsitz Erzherzog Rainers bereits am <date when="1861-06-28">28. 6. 1861</date> statt; vgl. den folgenden Teil des vorliegenden Sammelprotokolls.</note>. Die Ah. Entscheidung über die vom Landtage selbst monatelang maßlos verzögerte Adresse, welche jetzt urplötzlich mit absichtlichem Drängen in größter Eile vorgelegt wurde, sei nicht so dringend, als man sie schildert. Präsident Ghyczy werde einfach zur Geduld zu bescheiden sein, „nachdem Se. Majestät Allerhöchstihren Beschluß den ungarischen Räten noch nicht zu eröffnen geruht haben“.</p>
+                  <p>Nach einer neuerlichen Erinnerung wegen Wahrung des Dienstgeheimnisses wurde die Beratung von Sr. <hi rend="#letterspaced">
+                        <rs type="person">k. k. apost</rs>
+                     </hi>. Majestät geschlossen.</p>
+                  <p>Am <date when="1861-06-29">29. Juni 1861</date>.</p>
+                  <p>Fortsetzung am <date when="1861-06-28">28. Juni 1861</date> unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer. Gegenwärtige wie in der vorigen Sitzung mit Ausnahme der Minister v. Lasser, Graf Wickenburg und Baron Pratobevera, dann des Staatsratspräsidenten Baron Lichtenfels.</p>
+                  <p>Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. Hoheit</rs>
+                     </hi> eröffneten, daß, nachdem Se. Majestät die Adresse in ihrer dermaligen Form und Fassung nicht annehmen, auf Ah. Befehl zu erörtern sei, ob sofort mit der Auflösung des Landtags vorzugehen oder welche andere Maßregel zu ergreifen wäre.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> bemerkte, er könne die Folgen einer gänzlichen Zurückweisung der Adresse weder berechnen noch auf sich nehmen. Auch sei er in dem Augenblicke auf die Beantwortung der Ah. gestellten Frage nicht vorbereitet, indem seiner Überzeugung nach nur in Annahme seines Antrags die Möglichkeit eines Ausgleiches liege. <hi rend="#letterspaced">
+                        <rs type="person">Graf Rechberg</rs>
+                     </hi> stimmte für die sofortige Auflösung des Landtags. Sie wird selbst von den ungrischen Stimmführern für den Fall in Aussicht gestellt, daß die königliche Antwort auf die Adresse zu keinem günstigen Ergebnis führt. Da dieser Fall nach der bisherigen Haltung des Landtags der wahrscheinlichere ist, so gewinnt die Regierung mit dem Zuwarten nicht nur nichts, sondern verliert vielmehr den unter den gegenwärtigen politischen Konjukturen günstigen Moment und zeigt eine Schwäche, die ihr im In- wie im Auslande den größten Nachteil bringt. Dagegen bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi>, daß die sofortige Auflösung des Landtags ein Unglück für das Land wäre, denn mit ihm würde auch die ganze Verwaltung des Landes aufgelöst, weil kein Beamter mehr bleiben würde. Wartet man dagegen den Erfolg der Antwort auf die Adresse ab, so ist im ungünstigsten Falle, wenn zur Auflösung des Landtags geschritten werden müßte, zu erwarten, daß wenigstens derjenige Teil der Beamten im Amte bleibt, der bis jetzt mit der Regierung hält. Auch scheint die Adresse weder in der Form noch im Inhalte so verletzend, um <pb n="171" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s171.pdf"/>eine so schwere Maßregel, wie die Auflösung des Landtags wäre, notwendig zu machen. Der Titel „Allergnädigster Herr“ kann für den noch nicht gekrönten König nicht verletzend sein — und auch der Inhalt der Adresse, setzte der Tavernikus hinzu, enthält keine Verletzung der königlichen Rechte.</p>
+                  <p>Über Andeutung Sr. k. k. Hoheit machte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> einen Vermittlungsantrag, eine Form zu finden, in welcher ohne persönliche Entgegennahme der die Ah. Würde verletzenden Adresse durch Se. Majestät der Inhalt derselben erledigt werden könnte. Es wäre daher 1. entweder die Adresse an die ungrische Hofkanzlei abzugeben und von ihr im eigenen Wirkungskreise zu erledigen oder nur deren Inhalt im Dienstwege zur Ah. Kenntnis und Resolution zu bringen oder 2. der Landtag aufzufordern, eine gebührend abgefaßte Adresse an der Stelle der vorliegenden einzubringen.</p>
+                  <p>Gegen 1. bemerkte der zweite <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler</rs>
+                     </hi>, daß die ungrische Hofkanzlei keinen solchen Wirkungskreis habe, ihre Erledigung also, sei es mittelst Reskripts oder Dekrets, nur über vorläufig eingeholte Ah. Entscheidung Sr. Majestät und in Höchstihrem Namen hinausgegeben werden müßte, daher ein solcher Vorgang ein Spiel mit der Form sein würde. Dann aber hält sich auch der Judex Curiae mit seinen Kollegen, denen die Adresse vom Landtag mit dem Auftrage übergeben wurde, sie Sr. Majestät selbst zu Füßen zu legen, nicht für berechtigt, von diesem Auftrage abzugehen, noch verspricht er sich von einer etwaigen Rückfrage hierwegen an den Landtag irgendeinen Erfolg. Und die Aufforderung des Landtags (ad 2.) zur Abänderung der Adresse würde seiner Überzeugung nach bei dem bekannten Stimmenverhältnisse in der Versammlung zu keinem andern Resultate führen als zur Annahme des „Beschlusses“ statt der „Adresse“.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> glaubte unter diesen Umständen, daß man sich vielleicht über die anstößige Form hinwegsetzen könnte, wenn der Inhalt der vorgeschlagenen Antwort darauf Aussicht auf ein baldiges und entscheidendes Resultat gewährte. Er beantragte daher die Vorlesung des Entwurfs der Antwort<note type="footnote" n="8">Vgl. Anm. 5.</note> und bemerkte nach deren Vorlesung, daß darin der Standpunkt des 20. Oktober und 26. Februar, den Se. Majestät unter allen Umständen aufrechterhalten wissen wollen, verlassen worden sei. Das Diplom vom 20. Oktober stellte gewisse allgemeine Reichsangelegenheiten fest, welche der Beratung und Mitwirkung einer aus allen Teilen der Monarchie zu berufenden Vertretung durch 100 Reichsräte zugewiesen werden sollten. Das Grundgesetz vom 26. Februar hat in der Wesenheit daran nichts geändert, nur die Zahl der Vertreter vermehrt, so daß Ungern, das nach dem Diplom etwa 25 Vertreter zu schicken gehabt hätte, nach dem Grundgesetze deren 85 schicken soll. Gleichzeitig mit dem Grundgesetze und später noch einmal bei Eröffnung des Reichsrates in Wien erging an den ungrischen Hofkanzler der Befehl, Vorschläge zu erstatten, in welcher Weise der ungrische Landtag zur Wahl seiner Vertreter aufzufordern wäre<note type="footnote" n="9">Vgl. das Handschreiben an Vay v. <date when="1861-02-26">26. 2. 1861</date> (dazu <ref type="protocol-link" target="MRP-1-5-01-0-18610226-P-0017.xml#top_5_1_17_1">MR. v. <date when="1861-02-26">26. 2. 1861</date>/I</ref>, Anm. 1, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z17" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z17.pdf" target="MRP-1-5-01-0-18610226-P-0017.xml">ÖMR. V/1, Nr. 17</ref>
+                        </bibl>) und die Thronrede bei der feierlichen Eröffnung des Reichsrates am <date when="1861-05-01">1. 5. 1861</date>, beide gedruckt u. a. <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> 75 f. und 84—87</bibl>.</note>.</p>
+                  <p>
+                     <pb n="172" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s172.pdf"/>Bisher ist hierwegen — mit alleiniger Ausnahme der verblümten Andeutung in der Eröffnungsrede des Judex Curiae — nichts geschehen. Es scheint also, daß man von dieser Seite den Standpunkt des 20. Oktober und 26. Februar aufgeben und statt dessen nur erst eine Verhandlung zwischen einer Deputation des ungrischen Landtags mit dem Wiener Reichsrate, was ganz unzulässig wäre, oder mit Kommissären der Regierung anbahnen will. Aber die Zeit drängt. Wichtige Finanzmaßregeln stehen bevor, die nicht vom engeren Reichsrate allein, sondern von der Gesamtvertretung des Reichs verhandelt werden müssen. Es ist daher notwendig, daß in dieser Beziehung etwas Entscheidendes geschehe und zur Befriedigung der Völker diesseits der Leitha auch etwas getan werde, damit der als gesamter berufene Reichsrat sich in der Tat als solcher gerieren könne. <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> erwiderte, man habe die Idee, den Landtag direkt zur Beteiligung an der Wahl für die Reichsvertretung aufzufordern, fallenlassen, weil jeder Versuch, die positiven Formen der Vertretung nach dem Grundgesetze durch ihn durchführen zu wollen, vergeblich wäre, denn niemand läßt sich zwingen, an solchen Formen, die seiner Auffassung widerstreben, sich zu beteiligen. Darum ward hier der Weg einer Verständigung hierüber mittelst einer Deputation vorgeschlagen — allerdings nicht an den Wiener Reichsrat, sondern zur Unterhandlung mit königlichen Regierungskommissären, was auch der ungrische Hofkanzler zugestand. Allein damit ist der Standpunkt des 20. Oktober nicht aufgegeben. Denn dort ward nicht bestimmt, daß so und so viele Vertreter aus diesem oder jenem Lande kommen müssen, sondern nur, daß gewisse Reichsangelegenheiten der Mitwirkung der Gesamtvertretung des Reichs vorbehalten bleiben. Wenn nun Se. Majestät erklären, diese Gegenstände der Gemeinsamkeit bezüglich jener Länder, wo die Beteiligung an der Reichsvertretung noch nicht geregelt ist, so lange in eigener Hand zu behalten, bis dies geschehen, so ist hiermit der Standpunkt des 20. Oktober gewahrt. Auch die Versammlung des Wiener Reichsrates kann sich damit beruhigen: Sie kann die ihr von der Regierung zu machenden Vorlagen über Gegenstände der Reichsgemeinsamkeit für die durch sie repräsentierten Länder rechtsgültig verhandeln, indem die Regierung Sr. Majestät die Sorge auf sich nimmt, dieselben Gegenstände auch in den zur Zeit im Reichsrate noch nicht vertretenen Ländern aus eigener Macht zur Durchführung zu bringen. Wie bei der früheren Beratung so auch jetzt war der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> aus Opportunitätsrücksichten für die <ref xml:id="fn_5_2_89_j">formale Entgegennahme</ref>
+                     <note type="variant" n="j" target="#fn_5_2_89_j">Korrektur j–j Pleners aus <quote>Annahme</quote>.</note> der Adresse und deren Erledigung nach dem vorgetragenen Entwurfe, jedoch unter der Bedingung, daß das Verletzende der Form ernstlich gerügt und daß die Punkte, auf welchen die Regierung unter allen Umständen beharren muß, also namentlich die Aufforderung zur Entsendung einer Deputation des Landtags zur Verhandlung über die Teilnahme an der Reichsvertretung mit Regierungskommissären, <ref xml:id="fn_5_2_89_k">dann Herstellung der Ordnung im Steuerwesen</ref>
+                     <note type="variant" n="k" target="#fn_5_2_89_k">Einfügung k–k Marherrs.</note>, genau und scharf präzisiert und als eine Art Ultimatum mit Festsetzung eines Termins zur Verhandlung hinausgegeben werden.<pb n="173" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s173.pdf"/>
+                  </p>
+                  <p>Die übrigen deutschen Stimmführer erklärten, sich diesem Antrage nur dann anschließen zu können, wenn von der persönlichen Entgegennahme der Adresse durch Se. Majestät Umgang genommen wird. <ref xml:id="fn_5_2_89_l">Der Kriegsminister hat sich gegen die Annahme der Adresse auf das feierlichste verwahrt und seine Ansicht ausgesprochen, daß dem Landtage selbe zur Anfertigung einer anderen geeigneten zurückzustellen und letzterer sofort aufzulösen sei, wenn diese Bedingung nicht erfüllt werde.</ref>
+                     <note type="variant" n="l" target="#fn_5_2_89_l">Einfügung l–l Degenfelds.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> hat sich gegen die Annahme der Adresse auf das feierlichste verwahrt und seine Ansicht ausgesprochen, daß dem Landtage selbe zur Anfertigung einer anderen geeigneten zurückzustellen und letzterer sofort aufzulösen sei, wenn diese Bedingung nicht erfüllt werde.</p>
+                  <p>Aus Anlaß der Erwähnung der Steuern stellte <hi rend="#letterspaced">
+                        <rs type="person">Baron Sennyey</rs>
+                     </hi> die dringende Notwendigkeit vor, die dermalige Steuereintreibung mit Militärexekution — sollen nicht arge Konflikte entstehen — wenigstens jetzt vor der Ernte, wo der Bauer kein Geld hat, einzustellen, wogegen jedoch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> bemerkten, daß die Schuld auf die Behörden und auf diejenigen fällt, welche neun Monate, wo sie Geld hatten, nicht zahlten, und daß, so wünschenswert die Einstellung dieser Zwangsmaßregeln auch sei, sie doch so lange in Anwendung bleiben müssen, bis nicht die Landesbehörden ihre Untätigkeit oder ihren Widerstand in diesem Zweige der Verwaltung aufgeben und zur Herstellung eines geordneten Zustands im Steuerwesen pflichtmäßig nach den Bestimmungen vom 20. Oktober die Hand bieten. Die süße Gewohnheit des Nichtsteuerzahlens könnte sonst auch für andere Länder ansteckend werden<note type="footnote" n="10">Siehe dazu MR. v. 2. und <date when="1861-08-03">3. 8. 1861</date> (= Sammelprotokoll Nr. 102).</note>.</p>
+                  <p>Wien, am <date when="1861-06-28">28. Juni 1861</date>.</p>
+                  <p>Fortsetzung: Protokoll der Ministerkonferenz<ref xml:id="fn_5_2_89_m"/>
+                     <note type="variant" n="m" target="#fn_5_2_89_m">Für diese Sitzung wurde der bis zum <date when="1861-03-22">22. 3. 1861</date> verwendete Vordruck <quote>Protokoll der Ministerkonferenz</quote> verwendet; siehe <ref type="protocol-link" target="MRP-1-5-01-0-18610207-P-0001.xml#top_5_1_1_1">MR. I v. <date when="1861-02-07">7. 2. 1861</date>/I</ref>, Anm. 2, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b1-z1" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1/pdf/a5-b1-z1.pdf" target="MRP-1-5-01-0-18610207-P-0001.xml">ÖMR. V/1, Nr. 1</ref>
+                        </bibl>. Auf dem Mantelbogen steht <quote>Ministerrat</quote>.</note> am <date when="1861-06-30">30. Juni 1861</date> um 12 Uhr mittags unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</p>
+                  <p>
+                     <hi rend="italic">[anw. Erzherzog Rainer, Rechberg, Mecséry, Vay, Degenfeld, Schmerling, Szőgyény]</hi>
+                  </p>
+                  <p>Als Gegenstand der heutigen Beratung geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. apost. Majestät</rs>
+                     </hi> zu bezeichnen: die Ah. Erlässe, wodurch ausgesprochen wird, daß Se. Majestät die Adresse des Landtages nicht anzunehmen finden, sondern statt derselben die Erstattung einer nach Inhalt und Form annehmbaren Adresse Ah. gewärtigen. Ein neuer Grund für die beschleunigte k[önigliche] Erledigung dieser Sache liege in einer dem Polizeiminister soeben zugekommenen Anzeige, daß man zu Pest beabsichtigt, in einer schon morgen (1. Julius) abzuhaltenden Landtagssitzung die augenblickliche Zurückberufung der mit der Übergabe der Adresse beauftragten Deputation zu beschließen. Diesem Schritte muß die Ah. Ablehnung zuvorkommen. Als hierauf der zweite <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler</rs>
+                     </hi> auf die Mißlichkeit hindeutete, <pb n="174" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s174.pdf"/>einen Akt zu erledigen, der eigentlich noch nicht tatsächlich in Ah. Händen befindlich ist, und bat zu gestatten, daß die Textierung der hochwichtigen königlichen Erlässe noch einer Vorberatung unterzogen werden dürfe, geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">k. k. apost. Majestät</rs>
+                     </hi> zu erklären, daß hiezu keine Zeit mehr erübrige und daher jetzt ohneweiters der Text sowohl dieser Erlässe als der sich daran eventuell anknüpfenden königlichen Erlässe über die Auflösung des Landtages zu beraten sei.</p>
+                  <p>Es wurden sofort von der Konferenz die verschiedenen Formen in Erwägung gezogen, unter denen man die Wahl hätte, nämlich: 1. die Erlassung eines Ah. Handschreibens an den ungarischen Hofkanzler über die Zurückweisung der Adresse und mit der eventuellen Ermächtigung zur Auflösung des Landtages, wenn er hochverräterische Beschlüsse fassen sollte, oder die Erlassung von zwei Ah. Handschreiben a) über die Zurückweisung, b) über die Auflösung; 2. die Erlassung von zwei königlichen Reskripten a) über die Zurückweisung, b) über die Auflösung, beide an den Judex Curiae gerichtet, der sich mit diesen Reskripten noch heute abends nach Pest zu begeben und das Reskript a morgen sogleich, das Reskript b aber im eintretenden Falle eines hochverräterischen Beschlusses zu publizieren haben würde.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi> würde den Modus 1 wegen eines analogen Präzedens während des Landtages 1790 vorziehen, während der erste <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler</rs>
+                     </hi> den Modus 2 wegen der größeren Feierlichkeit königlicher Reskripte beantragen zu sollen glaubt.</p>
+                  <p>Se. Majestät geruhten, sich für die Erlassung von Reskripten zu entscheiden mit dem Ah. Beisatze, es werde noch ein drittes Reskript an den Kommandierenden General zu erlassen sein, um ihn, für den Fall der Judex Curiae etwa aus irgendeinem Grunde mit der durch die eintretenden Umstände gebotenen Auflösung des Landtages nicht vorgehen könnte oder wollte, zum königlichen Kommissär für die Auflösung des Landtages zu bestellen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi> versicherte, er zweifle nicht, daß, wenn Se. k. k. apost. Majestät dem Grafen Apponyi den Ah. Befehl zur Auflösung zu erteilen geruhen, er denselben auch pflichtgemäß vollziehen werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> glaubte, ohne jemand zu nahe treten zu wollen, daß die eventuelle Bestellung des Kommandierenden Generals zum königlichen Kommissär für die Auflösung des Landtages notwendig und außerdem auch erforderlich wäre, dem Judex Curiae sowohl als dem Kommandierenden genaue Instruktionen darüber zu geben wären, welche Beschlüsse des Landtages dessen Auflösung nach sich zu ziehen haben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> hielt dafür, daß nebst den hochverräterischen Beschlüssen auch schon der Beschluß, auf das Ah. Reskript a nicht einzugehen, ein hinreichender Grund wäre, die Auflösung des Landtages durch Vorlesung des Reskripts b zu proklamieren.</p>
+                  <p>Nachdem die Konferenz hiemit einverstanden war, geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">Majestät</rs>
+                     </hi>, diesen Antrag zu genehmigen mit dem Ah. Beisatze, daß schon der so geartete Beschluß eines der beiden Häuser genügen würde, die Auflösung auszusprechen. Der Kommandierende General wird sich mit dem Judex Curiae wegen des Gebrauchs der Truppen ins Einvernehmen setzen, aber auch von dem Gange der <pb n="175" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s175.pdf"/>Landtagsdebatten in unmittelbarer und fortgesetzter Kenntnis zu erhalten haben, um eventuell das Einschreiten des Judex Curiae zur Auflösung supplieren zu können.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> las hierauf den Entwurf eines königlichen Erlasses über die Nichtannahme der Adresse, und, da in merito dagegen keine Erinnerung erhoben wurde, geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">Majestät</rs>
+                     </hi>, den zweiten Hofkanzler zu beauftragen, diesen Erlaß in der Form eines königlichen Reskripts an den Landtag in ungarischer Sprache und das Konzept davon samt dem Entwurf des Auflösungsreskripts <ref xml:id="fn_5_2_89_n">und des Handschreibens an den Judex Curiae wie auch der Bestellung des Kommandierenden zum königlichen Kommissär</ref>
+                     <note type="variant" n="n" target="#fn_5_2_89_n">Einfügung n–n Ransonnets.</note> in einer heute um drei Uhr nachmittags abzuhaltenden Konferenz zu unterbreiten.</p>
+                  <p>
+                     <ref xml:id="fn_5_2_89_o">Schließlich bemerkte der Staatsminister, es schiene ihm sehr angemessen, dem Herrenhause in der morgigen Sitzung den Ah. Beschluß wegen Nichtannahme der Adresse mitzuteilen — allein es wurde dagegen von dem ersten und dem zweiten Hofkanzler eingewendet, daß man jedenfalls die Nachricht abwarten sollte, daß die Reskripte im ungarischen Landtag wirklich vorgelesen worden seien</ref>
+                     <note type="variant" n="o" target="#fn_5_2_89_o">Einfügung o–o Ransonnets.</note>Schließlich bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, es schiene ihm sehr angemessen, dem Herrenhause in der morgigen Sitzung den Ah. Beschluß wegen Nichtannahme der Adresse mitzuteilen — allein es wurde dagegen von dem ersten und dem <hi rend="#letterspaced">
+                        <rs type="person">zweiten Hofkanzler</rs>
+                     </hi> eingewendet, daß man jedenfalls die Nachricht abwarten sollte, daß die Reskripte im ungarischen Landtag wirklich vorgelesen worden seien, <note type="footnote" n="11">Die Mitteilung über die Nichtannahme der Adresse wurde in beiden Häusern des Reichsrates am <date when="1861-07-02">2. 7. 1861</date> verlesen; dazu <ref type="protocol-link" target="MRP-1-5-02-0-18610701-P-0090.xml#top_5_2_90_6">MR. v. <date when="1861-07-01">1. 7. 1861</date>/VI</ref>, Anm. 17.</note>.</p>
+                  <p>Fortsetzung am 30. Junius um 3 Uhr nachmittags. Gegenwärtige wie bei der um 12 Uhr abgehaltenen Konferenz, dann der Judex Curiae und Minister Graf Szécsen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi> las den Entwurf des Ah. Handschreibens an den Judex Curiae, dann die deutsche Übersetzung der königlichen Reskripte sowohl wegen der Zurückweisung der Adresse als wegen Auflösung des Landtages. Diese Entwürfe wurden schließlich von Sr. <hi rend="#letterspaced">
+                        <rs type="person">Majestät</rs>
+                     </hi> Ah. genehmigt, wonach die bezüglichen Reinschriften ohne Verzug zu besorgen und Sr. Majestät zur Ah. Unterschrift vorzulegen sind. Das Auflösungsreskript wird <ref xml:id="fn_5_2_89_p">über Antrag des zweiten Hofkanzlers</ref>
+                     <note type="variant" n="p" target="#fn_5_2_89_p">Einfügung p–p Ransonnets.</note> vorläufig nicht datiert, sondern die Ausfüllung des Datums dem Judex Curiae Ah. übertragen<note type="footnote" n="12">Das somit beschlossene Reskript v. <date when="1861-06-30">30. 6. 1861</date> betreffend die Nichtannahme der Adresse beider Häuser des ungarischen Landtags v. <date when="1861-06-24">24. 6. 1861</date> wurde in beiden Häusern am <date when="1861-07-01">1. 7. 1861</date> verlesen; nach kurzer Debatte beschloß der Landtag am 5. und <date when="1861-07-06">6. 7. 1861</date>, die Adresse zu ändern und in solcher Form, daß sie vom Kaiser angenommen werden könne, noch einmal zu unterbreiten, <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> 102 f.</bibl>; dadurch wurde die Auflösung zunächst hinfällig. Fortsetzung der Debatte über den Inhalt der Adresse siehe MR. v. 8. und <date when="1861-07-14">14. 7. 1861</date>/I. Zum genannten Reskript und zu den Handschreiben im einzelnen siehe das kurze Handschreiben v. <date when="1861-06-30">30. 6. 1861</date> an Apponyi, <bibl type="archival">HHSTA., CBProt. 64c/1861</bibl>; <bibl type="secondary">
+                           <title>Ungarischer Reichstag</title> 3, 160</bibl>; <bibl type="secondary">
+                           <title>Ungarischer Verfassungsstreit</title> 94</bibl>; das Reskript v. <date when="1861-06-30">30. 6. 1861</date> an den Landtag <bibl type="secondary">
+                           <title>Ungarischer Reichstag</title> 3, 160 f.</bibl>; <bibl type="secondary">
+                           <author>Ungarischer Verfassungsstreit</author> 94 f.</bibl>; <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 2, 97 f.</bibl>; das undatierte Reskript wegen Auflösung des Landtags <bibl type="archival">MOL., Ungarische Hofkanzlei, Allgemeine Akten, Fasz. VIII-0-4 (Landtagssachen), Fol. 410 f.</bibl>Am <date when="1861-07-01">1. 7. 1861</date> sandte Degenfeld mittels Kurier dem Kommandierenden General FZM. Coronini alle bisher genannten Schriftstücke, ferner noch ein zweites Handschreiben an Apponyi, worin diesem aufgetragen wurde, das Auflösungsreskript <quote>im bezeichneten Falle alsogleich zu veröffentlichen und nach Umständen im Einvernehmen mit Meinem Kommandierenden Generalen in Ungarn ohne Verzug zu vollziehen</quote>, und als Gegenstück ein Handschreiben an Coronini selbst; alle Stücke liegen dem Akt <bibl type="archival">KA., KM., Präs. (CK.) 3012/1861</bibl>, in Abschrift bei. Coronini erhielt aber noch ein zweites Schreiben von Degenfeld v. <date when="1861-06-30">30. 6. 1861</date>, das auf die ganze Situation, vor allem auch auf das herrschende Mißtrauen ein helles Licht wirft: <quote>Euer Exzellenz werden aus den gleichzeitig erhaltenden Ah. Erlässen an Hochdieselben und an den Judex Curiae Grafen Apponyi ersehen, daß letzterer den bestimmten Auftrag erhalten habe, den ungarischen Landtag, insoferne er sich nach Entgegennahme des erflossenen Ah. königlichen Reskriptes mit irgendeinem dem Zwecke dieses Reskriptes nicht entsprechenden oder gar in Opposition mit demselben stehenden Gegenstande beschäftigen sollte, sofort aufzulösen und keine sonstige Beschlußnahme zu gestatten. Euer Exzellenz werden hievon in Kenntnis gesetzt und im Ah. Auftrage angewiesen, sich persönlich in den Versammlungsort der Abgeordneten zu begeben, deren Sitzung beizuwohnen, und wenn der oben angezeigte Fall eintreten sollte, sofort im Einvernehmen mit dem Judex Curiae die Auflösung bewirken zu lassen. Sollte wider besseres Erwarten Euer Exzellenz bei dem Judex Curiae entweder eine aus verkehrten patriotischen oder legalen Ansichten hervorgehende Tendenz, die Auflösung des Landtags in die Länge zu ziehen oder zu umgehen, bemerken, so werden Hochdieselben im Ah. Auftrage angewiesen, nach geschöpfter bestimmter Überzeugung und reiflicher Erwägung der Verhältnisse den Landtag durch Anwendung der Gewalt auf ihre eigene Verantwortung aufzulösen und unschädlich zu machen. Es versteht sich, daß, wenn eine Auflösung des Landtags entweder im Einvernehmen mit dem Grafen Apponyi oder ohne dasselbe für nötig erachtet würde, die militärischen Dispositionen hiezu unauffällig, jedoch derart zu treffen seien, daß sowohl die öffentliche Ruhe in den Städten Pest und Ofen im allgemeinen aufrechterhalten als auch jeder Tumult und jede Demonstration im Innern des Versammlungsortes kräftig unterdrückt zu werden haben</quote>, <bibl type="archival">ebd., Präs. (CK.) 3011/1861</bibl>; da jedoch der Landtag seine Adresse an den Kaiser änderte, wurden alle diese Maßnahmen hinfällig, vgl. die Tel. Coroninis, <bibl type="archival">ebd., Präs. (CK.) 3030/1861 und Präs. (CK.) 3049/1861</bibl>.</note>.</p>
+                  <p>
+                     <pb n="176" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s176.pdf"/>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> bemerkt hatte, daß gleich ihm selbst auch der Präsident des Abgeordnetenhauses Ghyczy von Sr. Majestät für die Mitteilung des Reskripts an das Haus persönlich verantwortlich zu erklären wäre, damit er dieser Pflicht auch sicher nachkomme, geruhten Se<hi rend="#letterspaced">
+                        <rs type="person">. k. k. Majestät,</rs>
+                     </hi> die Erlassung eines Ah. Auftrages in diesem Sinne zu beschließen, und der diesfalls vom Minister Grafen Szécsen in der Konferenz verfaßte Entwurf erhielt sofort die Ah. Genehmigung<note type="footnote" n="13">Es handelt sich um jene Stelle in den beiden Handschreiben an Apponyi, wonach er dem Präsidenten Ghyczy dessen persönliche Verantwortung für die Veröffentlichung der Reskripte mitzuteilen hatte.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> bat hierauf um die Ah. Ermächtigung, vor der Publizierung des Reskripts einige Landtagsmitglieder von dem Inhalte desselben vertraulich unterrichten zu dürfen, um womöglich einen günstigen Umschwung herbeizuführen, was nur in vorläufigen Besprechungen erzielt werden könnte. Se. Majestät geruhten, diese Ermächtigung Ah. zu erteilen, jedoch mit dem Beisatze, daß der Aufschub nur kurz dauere und die Publikation jedenfalls in der nächsten ordentlichen Sitzung des Landtages stattfinde. Über die Anfrage von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiministers</rs>
+                     </hi>, was zu geschehen habe, wenn der Landtag infolge der Nichtannahme der Adresse sich selbst ruhig auflösen sollte, äußerten der <hi rend="#letterspaced">
+                        <rs type="person">Judex Curiae</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person">zweite Hofkanzler</rs>
+                     </hi>, daß die Auflösung nur Folge eines Sitzungsbeschlusses sein könnte und daß, sobald sich Indizien eines solchen Beschlusses ergäben, der Fall eintreten würde, <pb n="177" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2-pdf.xml%23a5-b2_einzelseiten/a5-b2_s177.pdf"/>wo der Judex Curiae von der Ermächtigung zur Publikation des Auflösungsreskripts Gebrauch machen müßte<ref xml:id="fn_5_2_89_q"/>
+                     <note type="variant" n="q" target="#fn_5_2_89_q">Dem Protokoll ist ein Ausschnitt aus <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18610702">Die Presse</ref>
+                           </title> v. <date when="1861-07-02">2. 7. 1861</date> (A.)</bibl> über die Unterhaussitzung des ungarischen Landtags v. <date when="1861-07-01">1. 7. 1861</date> beigelegt.</note>, <note type="footnote" n="14">Fortsetzung über den ungarischen Landtag im MR. v. 8. und <date when="1861-07-14">14. 7. 1861</date>/I (= Sammelprotokoll Nr. 94).</note>.</p>
+                  <p>Schließlich geruhten Se. <hi rend="#letterspaced">
+                        <rs type="person">Majestät</rs>
+                     </hi> noch zu erinnern, es sei dahin zu trachten, daß die Justizorganisation auch noch die Zustimmung des Oberhauses erhalte<note type="footnote" n="15">In der 13. Sitzung am <date when="1861-07-01">1. 7. 1861</date> gab das Oberhaus seine Zustimmung zu den Judexkurialkonferenzbeschlüssen, <bibl type="secondary">
+                           <author>Ungarischer Reichstag</author> 3, 162 f.</bibl>; vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610704-P-0091.xml">MR. v. <date when="1861-07-04"/>4. 7. 1861</ref>, Anm. 1.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, 2. Julius 1861. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1861-07-26">26. Juli 1861</date>.</seg>
+                  <seg type="other">Empfangen <date when="1861-07-28">28. Juli 1861</date>. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

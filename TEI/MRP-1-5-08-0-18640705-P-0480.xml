@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="480">Sitzung 480</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-07-05"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z480.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1284</idno>
+                  <idno type="KZ">2162</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-07-05"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Hueber; VS. Rechberg; BdE. und anw. (Rechberg 5. 7.), Schmerling, Lasser, Plener, Lichtenfels (BdE. fehlt), Esterházy, Burger, Hein, Zichy, FML. Schiller, Reichenstein 16. 7.; außerdem anw. Bils, Geringer; abw. Mecséry, Nádasdy, Franck; BdR. Rechberg 21. 7.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr7490">
+                     <surname>Hueber</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-07-05">1864-07-05</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+                  <note>keine BdE.</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr">
+                     <surname>FML. Schiller</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-07-16">16. 7.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr9004">
+                     <surname>Bils</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_480_1">Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_480_2">Errichtung einer Hypothekenbank in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_480_3">Voranschlag des Landesfonds in Siebenbürgen für 1865</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_480_4">Verbesserungen in den Militärbildungsanstalten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640705-P-0480" ana="a5-b8-z480">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z480.pdf">
+               <title type="num">Nr. 480</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-07-05">5. Juli 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Hueber; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Rechberg; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Rechberg 5. 7.), Schmerling, Lasser, Plener, Lichtenfels (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> fehlt), Esterházy, Burger, Hein, Zichy, FML. Schiller, Reichenstein 16. 7.; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Bils, Geringer; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Mecséry, Nádasdy, Franck; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Rechberg 21. 7.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1284</idno>
+                  <idno type="KZ">2162</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-07-05">5. Juli 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. Exzellenz des Herrn Ministers des Äußern Grafen Rechberg.</head>
+               <div type="agenda_item" xml:id="top_5_8_480_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz in Siebenbürgen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler Freiherr v. Reichenstein</rs>
+                     </hi> referierte, es sei der von der siebenbürgischen Hofkanzlei Sr. Majestät vorgelegte Gesetzentwurf über die Organisierung der Gerichtsbehörden erster Instanz in Siebenbürgen mit Ah. Entschließung vom 14. v. M. und in modifizierter Form derart Ag. genehmigt worden, daß statt den beantragten §§ 9 und 10 die Anordnung aufgenommen wurde, daß die Bestimmungen über die Zahl der Gerichte, über die Gerichtssprengel und Gerichtssitze mit Berücksichtigung der Grenzen der Munizipien und Kreise im Verordnungswege getroffen werden<note type="footnote" n="1">Siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640604-P-0477.xml#top_5_8_477_5">MR. v. <date when="1864-06-04">4. 6. 1864</date>/V</ref>.</note>.</p>
+                  <p>Referent werde pflichtgemäß bestrebt sein, alles aufzubieten, um den siebenbürgischen Landtag zur Annahme und Anerkennung des im § 9 des Gesetzentwurfes enthaltenen Grundsatzes zu bestimmen. Zu diesem Behufe würde es aber wesentlich förderlich sein, wenn mindestens dem zur Beratung dieses Gesetzentwurfes niedergesetzten Landtagsausschusse eventuell vertrauliche Andeutungen über die Absichten der Regierung gemacht oder gestellte Anfragen von den Organen der Regierung im Sinne der in den §§ 9 und 10 des von der Hofkanzlei beantragten Gesetzentwurfes enthaltenen Bestimmungen beantwortet werden könnten. Referent habe sich demgemäß erlaubt, mit au. Vortrage vom <date when="1864-07-03">3. l. M.</date>, Z. 493/Pr., Se. Majestät au. zu bitten, Ag. zu genehmigen, daß die vertraulichen Mitteilungen im Sinne der in den §§ 9 und 10 des von der Hofkanzlei beantragten Gesetzentwurfes enthaltenen Bestimmungen gemacht oder gestellte Anfragen und verlangte Aufklärungen in gleicher Weise beantwortet und gegeben werden dürfen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, daß über die Hauptfrage, ob die Gerichtssitze in den Gesetzentwurf aufzunehmen seien, heute nicht mehr debattiert werden könne, da hierüber mit Ah. Entschließung vom 14. v. M. die Ah. Bestimmung bereits getroffen sei. Der vorliegende au. Vortrag sei daher überflüssig, oder wenn, wie es den Anschein gewinne, hiemit auf [einem] Umwege das in den Gesetzentwurf hineingebracht werden wolle, was durch Ah. Anordnung aus demselben eliminiert worden sei, geradezu unzulässig. Wenn im Landtagsausschusse eine Anfrage gestellt würde, was die Hofkanzlei in dieser Beziehung bei Sr. Majestät anzutragen gedenke, könne die Auskunft ohne <pb n="43" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s43.pdf"/>Anstand in der beantragten Weise erteilt werden, Se. Majestät müssen aber für jeden Fall freie Hand behalten. Votant stimmte daher dafür, daß der au. Vortrag zu entfallen hätte und es der Hofkanzlei zu überlassen wäre, bei dem allfälligen Eintritte der vorgesehenen Fälle die Erklärungen in angemessener Weise abgeben zu lassen. <hi rend="#letterspaced">
+                        <rs type="person">Baron Reichenstein</rs>
+                     </hi> erwiderte, niemals beabsichtigt zu haben, diesfalls auf eine Ah. Entschließung Sr. Majestät sich zu berufen, sondern durch Erstattung des au. Vortrages sich nur die beruhigende Sicherheit habe verschaffen wollen, daß für den Fall, als vertrauliche Mitteilungen im erwähnten Sinne gemacht werden müßten, er hinter dem, was er habe andeuten lassen, nicht zurückbleiben müsse.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erwähnte, daß die Minister in früheren solchen Fällen, wo vertrauliche Mitteilungen zu machen oder Interpellationen zu beantworten waren, sich stets so benommen haben, daß sie die Mitteilungen oder Antworten auf Interpellationen zur Kenntnis der Ministerkonferenz gebracht haben. Eine Ah. Ermächtigung hiezu sei durchaus nicht notwendig, ja ein solcher Ah. Ausspruch könne, da eintretende Umstände die Sache ändern können, ohne Gefahr im vorhinein gar nicht hervorgerufen werden. Votant stimmte daher dem Antrage des Staatsratspräsidenten bei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> teilte die Ansicht des Staatsministers, daß man Se. Majestät durch die Resolvierung eines solchen Antrages nicht binden könne. Er glaubte übrigens, da der au. Vortrag schon erstattet sei, daß der Absicht des siebenbürgischen Hofvizekanzlers damit entsprochen werden könnte, wenn Se. Majestät den Inhalt des au. Vortrags einfach zur Ah. Kenntnis zu nehmen geruhen würden. Der Minister Ritter v. Hein schloß sich dem eben erwähnten Antrage an. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> stimmte für den Antrag des siebenbürgischen Hofvizekanzlers, weil nach seiner Meinung die Anschauungen der Vorstimmen dem Zwecke des Baron Reichenstein nicht entsprechen würden, dem es begreiflicherweise darum zu tun sein müsse, eine Sicherstellung zu erlangen, daß seine Erklärungen später von der Regierung nicht desavouiert werden. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> fügte seiner früheren Äußerung noch bei, daß der vorliegende au. Vortrag, wenn er überhaupt einen Zweck haben soll, nur den haben könnte, Se. Majestät zu binden. Darauf könne man aber nicht antragen. Der Chef eines Departements müsse darauf vorbereitet sein, so viel auf sich nehmen zu können, um im Reichsrate oder Landtage erklären zu können: dies oder jenes ist meine Ansicht in der Sache. Die Ah. Willensmeinung Sr. Majestät müsse hiebei aber immer außer Frage gehalten werden. Deshalb könne Votant auch nicht dem Antrage des Ministers Ritter v. Lasser beistimmen, weil durch selben Se. Majestät ebenfalls gebunden wären. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> erwähnte, daß es nicht im System liege, sich im vorhinein die kaiserliche Genehmigung für solche Fälle zu erbitten. Der siebenbürgische Hofvizekanzler könne durch die ihm gewordene Zustimmung der Ministerkonferenz eine hinlängliche Beruhigung und Garantie für seinen beabsichtigten Vorgang gefunden haben.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Baron Reichenstein</rs>
+                     </hi> erklärte sich hiermit für den Fall vollkommen befriedigt, wenn sein Vorgang im Sinne des gestellten Antrages in einer späteren Ministerkonferenz unterstützt werden würde. Der Finanzminister, der ungarische Hofkanzler und der Kriegsministerstellvertreter stimmten für den Antrag des Staatsratspräsidenten, der sonach zum Beschlusse erwuchs<note type="footnote" n="2">Der Vortrag wurde nicht resolviert. Zum Gesetzentwurf siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640604-P-0477.xml#top_5_8_477_5">MR. v. <date when="1864-06-04">4. 6. 1864</date>/V</ref>, Anm. 16.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_480_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Errichtung einer Hypothekenbank in Siebenbürgen</head>
+                  <p>
+                     <pb n="44" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s44.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> wollte mit dem Referate über den au. Vortrag der siebenbürgischen Hofkanzlei vom 17. Mai l. J., Z. 470, betreffend den beim Landtage einzubringenden Gesetzentwurf über die Errichtung einer Hypothekenbank für Siebenbürgen und die Aufnahme eines Landesanlehens vom 3 Millionen Gulden für den Garantie- und Operationsfonds dieser Bank beginnen<note type="footnote" n="3">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f.; <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 470/1864</bibl>. enthält neben vielen Entwürfen auch einen Motivenbericht zu diesem Gesetzentwurf; ein Statutenentwurf <bibl type="archival">HHSTA., Kabinettsarchiv, Nachlaß Reichenstein, Karton 2. Mappe A V</bibl>.</note>, wurde jedoch von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> mit der Bemerkung unterbrochen, daß es, bevor der Ministerrat sich in eine meritorische Beratung dieses Gegenstandes einlasse, notwendig sein dürfte, ein Bedenken, welches sich ihm in formeller Beziehung ergeben habe, zu begleichen. Der Gesetzentwurf sei ihm nämlich vor der heutigen Konferenz im kurzen Wege durch die siebenbürgische Hofkanzlei ohne Motivenbericht mitgeteilt worden. Er habe es jedoch für notwendig erachtet, in einer Note an den Hofvizekanzler das Ersuchen auszusprechen, daß der Entwurf vorerst der üblichen und gesetzlichen Beratung in <ref xml:id="fn_5_8_480_a">einer die betreffenden Fachministerien vertretenden Kommission</ref>
+                     <note type="variant" n="a" target="#fn_5_8_480_a">Korrektur a–a Pleners aus <quote>der Vereinskommission.</quote>
+                     </note> unterzogen werde, da der Entwurf so viele Detailbestimmungen enthalte, deren gründliche Erwägung und Beurteilung nur unter Beteiligung der Fachministerien stattfinden könne, und da der angedeutete Vorgang auch bei der Verhandlung der Statuten der ungarischen Boden-Credit-Anstalt beobachtet worden sei<note type="footnote" n="4">Siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630602-P-0358.xml">MR. v. <date when="1863-06-02"/>2. 6. 1863</ref>. Anw. 2, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z358" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z358.pdf" target="MRP-1-5-06-0-18630602-P-0358.xml">ÖMR. V/6, Nr. 358</ref>
+                        </bibl>.</note>. Im vorliegenden Falle sei jedoch keine solche nähere Besprechung in gleicher Art, wie sie bei allen anderen Statuten von Kreditanstalten gehalten worden sei, vorgenommen worden, und wenngleich Votant die größte Verehrung vor den Arbeiten des Staatsrates, der auch diese Vorlage begutachtet habe<note type="footnote" n="5">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 461/1864</bibl>.</note>, hege, so seien doch begreiflicherweise die Anstände, die eine Begleichung erheischen, den Fachministerien <ref xml:id="fn_5_8_480_b">zunächst liegend und die Geltendmachung denselben zuständig</ref>
+                     <note type="variant" n="b" target="#fn_5_8_480_b">Korrektur b–b Pleners aus <quote>geläufiger</quote>.</note>. Votant glaubte daher den Antrag stellen zu sollen, daß ihm der in Rede stehende Entwurf samt allen Verhandlungsakten mitgeteilt werde und daß derselbe sohin einer ähnlichen kommissionellen Beratung zu unterziehen wäre, wie es bei den Statuten der anderen Kreditanstalten geschehen sei. Hiedurch würde auch in geschäftlicher Beziehung der Vorteil erreicht, daß die Beratung im Ministerrate wesentlich vereinfacht würde, weil dann nur die Differenzpunkte zur Sprache gebracht zu werden brauchten. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erklärte sich mit diesem Antrage umso mehr einverstanden, als sich dem Staatsrate bei der Beratung der Vorlage auch prinzipielle Anstände ergeben haben. Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> glaubte aufklären zu sollen, daß die Beteilung der Konferenzmitglieder mit gedruckten Exemplaren des Gesetzentwurfs nicht von ihm, sondern von der Ministerratspräsidialkanzlei veranlaßt worden sei. Er bemerkte weiters, daß die vom Staatsrate erhobenen Bedenken, deren der Staatsratspräsident erwähnte, nicht administrativer, sondern legislativer Natur seien. In legislativer Beziehung habe jedoch die Hofkanzlei keine Verpflichtung, ihre Anträge der Begutachtung <pb n="45" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s45.pdf"/>der Vereinskommission unterziehen zu lassen. Strenge genommen hätte sie diese Verpflichtung bei Gegenständen solcher Art nicht einmal in administrativer Beziehung, obgleich sie hiebei, der Zusammengehörigkeit wegen, die Ingerenznahme der Vereinskommission nie umgangen habe. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entgegnete, daß <ref xml:id="fn_5_8_480_c">von ihm eine Beratung in der Vereinskommission bei dem Staatsministerium gar nicht bezielt war, sondern vielmehr eine ähnliche von den Fachministerien ausgegangene kommissionelle Beratung, wie eine solche in betreff der Statuten der ungarischen Boden-Credit-Anstalt stattfand. Die legislative Natur des Objekts könne dagegen kein Hindernis oder Bedenken bilden</ref>
+                     <note type="variant" n="c" target="#fn_5_8_480_c">Korrektur c–c Pleners aus <quote>die vorläufig in der Vereinskommission beratenen Statuten der ungarischen Boden-Credit-Anstalt teilweise allerdings auch legislativer Natur gewesen seien und daß.</quote>
+                     </note>. Er auch seinerseits, wenn er ein Finanzgesetz einzubringen hätte, welches auch für Siebenbürgen Geltung zu haben bestimmt wäre, würde<ref xml:id="fn_5_8_480_d"/>
+                     <note type="variant" n="d" target="#fn_5_8_480_d">Einfügung Pleners.</note> gewiß ohne Bedenken ein vorläufiges Vernehmen der siebenbürgischen Hofkanzlei eintreten lassen<ref xml:id="fn_5_8_480_e"/>
+                     <note type="variant" n="e" target="#fn_5_8_480_e">
+                        <quote>würde</quote> von Plener gestrichen.</note>. Er sei eben daran, ein Gesetz, wodurch die Härte der Personalsteuer in Siebenbürgen gemildert werden soll, in Verhandlung zu bringen <ref xml:id="fn_5_8_480_f">und habe zur kommissionellen Beratung die siebenbürgische Hofkanzlei eingeladen. Er finde darin keine Verletzung des Standpunktes der dem Reiche angehörigen Legislative, so wie auch im vorliegenden Falle das Bedenken einer Verletzung der siebenbürgischen Landeslegislative durchaus nicht bestehe. Er werde sich daher in diesen Gesetzsachen nicht reserviert halten, sondern gemeinschaftlich vorgehen</ref>
+                     <note type="variant" n="f" target="#fn_5_8_480_f">Korrektur und Einfügung f–f Pleners aus <quote>und könnte sich dabei auch sehr reserviert zeigen, werde es aber nicht tun.</quote>
+                     </note>, weil er überzeugt sei, daß kein so gedeihliches Elaborat zustande kommen könnte, wenn der Hofkanzlei nicht Gelegenheit geboten würde, schon im stadio der Verhandlung ihren Einfluß auszuüben. Der Standpunkt der legislativen Kompetenz werde durch seinen Antrag nicht berührt, zumal die kommissionelle Besprechung bei der Hofkanzlei selbst unter Beiziehung von Vertretern der beteiligten Fachministerien stattfinden könnte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte, daß die eigentliche Geschäftsbehandlung zum Nutzen des Geschäftes immer so gewesen sei, wie der Finanzminister vorschlage, daher er dessen Antrage auch beistimme. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, mit diesem Antrage gleichfalls einverstanden, bemerkte, daß dadurch kein Eingriff in die Autonomie Siebenbürgens begangen werde, wenn die Hofkanzlei die Initiative behalte und die beiden anderen Reichsministerien zu den vorläufigen Beratungen beiziehe. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> hielt es für sehr wünschenswert, daß dieser Vorberatung auch ein Vertreter des Staatsministeriums beigezogen werde. Der Marineminister, der Minister Ritter v. Hein und der Kriegsministerstellvertreter stimmten gleichfalls für die Vorberatung des Gesetzentwurfes unter Beiziehung von Vertretern der beteiligten Fachministerien.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> erklärte hierauf, geglaubt zu haben, daß die Konferenzmitglieder durch Mitteilung des Gesetzentwurfes längere Zeit vor der heutigen Sitzung schon in der Lage wären, in eine meritorische Beratung einzugehen, übrigens seinerseits keinen Anstand zu nehmen, die gewünschte Vorberatung unter Beiziehung von Vertretern der beteiligten Ministerien eintreten zu lassen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister</rs>
+                     </hi>
+                     <pb n="46" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s46.pdf"/>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Graf Esterházy</rs>
+                     </hi> bemerkte, daß bei dem Umstande, als Baron Reichenstein nur einer Beratung dieses Gegenstandes in der Vereinskommission entgegen, mit der Vorberatung unter Beiziehung von Vertretern der Fachministerien aber einverstanden sei, im Ministerrate eine Meinungsverschiedenheit eigentlich gar nicht mehr bestehe, was auch der vorsitzende Minister des Äußern konstatierte<note type="footnote" n="6">Zur Fortsetzung siehe den folgenden Tagesordnungspunkt III und <ref type="protocol-link" target="MRP-1-5-08-0-18641020-P-0501.xml">MR. v. <date when="1864-10-20">20. 10. 1864</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_480_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Voranschlag des Landesfonds in Siebenbürgen für 1865</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> referierte über den au. Vortrag der siebenbürgischen Hofkanzlei vom <date when="1864-06-03">3. Juni 1864</date>, Z. 1810, betreffend den dem siebenbürgischen Landtage vorzulegenden Voranschlag des Landesfonds pro 1865 samt dem bezüglichen Gesetzartikel<note type="footnote" n="7">Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f.; Vortrag v. <date when="1864-06-03">3. 6. 1864</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Z. 1810/1864 (K.) und Z. 3288/1864 (RS.)</bibl>.</note> und führte an, daß sich in der staatsrätlichen Beratung dieses Gegenstandes<note type="footnote" n="8">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 517/1864</bibl>.</note> die Bemerkung ergeben habe, daß in diesem Voranschlage für die in Aussicht gestellte siebenbürgische Hypothekenbank<note type="footnote" n="9">Siehe oben Tagesordnungspunkt II.</note> kein Bedacht genommen worden sei, während zufolge des in Verhandlung stehenden Gesetzentwurfes für diese Landesanstalt der Landesfonds mehrseitig in das Mitleid gezogen werden soll; ferner, daß eine allmählige Reduktion wo nicht gänzliche Beseitigung des nicht unerheblichen Aufwandes für die Landesbuchhaltung per 29.450 fr. zu wünschen wäre, weil die Notwendigkeit und Nützlichkeit dieser Rechnungsbehörde, welche im Jahre 1861 ohne Rücksicht auf das gänzlich geänderte Steuer- und Verwaltungssystem des Landes wieder in das Leben gerufen wurde, eine mehr als zweifelhafte sei. Der Staatsrat habe daher geglaubt, daß in dem Resolutionsentwurfe eine Andeutung hierüber etwa in folgender Fassung Platz finden dürfte: „Dieser Voranschlag ist jedoch vorerst durch Einbeziehung des eventuellen Erfordernisses für die Landeshypothekenbank zu vervollständigen; auch ist der Aufwand für die Landesbuchhaltung nur mit jenem Geldbetrage einzustellen, welcher sich nach reiflicher Erwägung über die Notwendigkeit des Fortbestandes dieser Rechnungsbehörde überhaupt oder doch ihres dermaligen Personalstandes als erforderlich darstellt.“</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> bemerkte, daß in dem Voranschlage auf das Erfordernis für die siebenbürgische Hypothekenbank aus dem Grunde kein Bedacht genommen worden sei, weil für diese Hypothekenbank bzw. für den Garantie- und Operationsfonds derselben antragsmäßig die Aufnahme eines Landesanlehens von 3 Millionen Gulden stattfinden soll und weil die Hofkanzlei die Überzeugung hatte, daß der Vorschuß von 500.000 fr., welcher nach § 4 des Gesetzentwurfes für die Hypothekenbank dieser Anstalt bei ihrer Errichtung aus siebenbürgischen Landesmitteln in Barem gewährt werden soll <ref xml:id="fn_5_8_480_g">und welches eben der Operationsfonds der Landeshypothekenbank ist</ref>
+                     <note type="variant" n="g" target="#fn_5_8_480_g">Einfügung g–g Reichensteins.</note>, ohne Schwierigkeit aus dem Landesanlehen von 3 Millionen Gulden werde beschafft werden können. Was die Landesbuchhaltung anbelange, sei diese Rechnungsbehörde über Ermächtigung Sr. Majestät mit dem ganzen Personalstande, den sie vor dem Jahre 1848 hatte, wo noch <pb n="47" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s47.pdf"/>das alte Steuersystem bestand, wiederhergestellt worden. Der Leiter der siebenbürgischen Hofkanzlei Graf Nádasdy habe jedoch bald erkannt, daß das ganze Personale dieser Rechnungsbehörde unter den wesentlich geänderten Verhältnissen nicht mehr notwendig sei, und habe es durch Nichtbesetzung von in Erledigung gekommenen Stellen bereits dahin gebracht, daß der frühere Personalstand von 50 Individuen auf 28 reduziert wurde, wodurch sich der Aufwand bereits bedeutend vermindert habe. Eine Reorganisierung dieser Buchhaltung sei eben im Zuge, und nach seiner Ansicht werde es keinem Anstande unterliegen, alle Agenden derselben wieder an die Staatsbuchhaltung zu übergeben, dann aber werde der Staat die Kosten zu bezahlen haben. Bis es jedoch dahin kommen könne, müsse aber der dermalige Erfordernissatz im Voranschlage des siebenbürgischen Landesfonds belassen werden. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, daß die von dem Staatsrate vorgeschlagene Form der Ah. Entschließung so gehalten sei, daß sie nicht zwinge, die Position zu ändern oder eine Posten im Erfordernisse ganz auszulassen. Es werde damit nur darauf aufmerksam gemacht, daß eine Ergänzung bzw. Reduzierung eventuell vorgenommen werden soll, was jedenfalls vorsichtig, keineswegs aber präjudiziell sei. Was den ersten Punkt betreffe, so sei in der Verhandlung über die Hypothekenbank nicht gesagt worden, daß der Vorschuß von 500.000 fr. aus dem Darlehen von 3 Millionen Gulden wolle beschafft werden, es sei daher begreiflich, daß man hierüber habe fragen müssen. Wenn jedoch die Hofkanzlei glaube, den erwähnten Vorschuß aus dem Landesanlehen von 3 Millionen beistellen lassen zu können, habe Votant nichts entgegen, daß der erste Punkt des von dem Staatsrate vorgeschlagenen Zusatzes zu der Ah. Entschließung weggelassen werde. Die Andeutung hinsichtlich der Landesbuchhaltung soll jedoch nach dem Dafürhalten des Votanten als zweckmäßig und durchaus nicht bedenklich in den Resolutionsentwurf aufgenommen werden.</p>
+                  <p>Der siebenbürgische Hofvizekanzler sowie alle übrigen Stimmführer erklärten sich mit dem Antrage des Staatsratspräsidenten einverstanden<note type="footnote" n="10">Mit Ah. E. v. <date when="1864-07-11">11. 7. 1864</date> genehmigte Franz Joseph den Voranschlag des Landesbudgets für Siebenbürgen und dessen Vorlage im Landtag, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2087/1864</bibl>. Nach der Beschlußfassung durch den Landtag sanktionierte Franz Joseph das Gesetz mit Ah. E. v. <date when="1865-01-15">15. 1. 1865</date>, <quote>ebd., KZ. 132/1865</quote>, auf den Vortrag der siebenbürgischen Hofkanzlei v. <date when="1864-12-23">23. 12. 1864</date>, Z. 5712/1864.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_480_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Verbesserungen in den Militärbildungsanstalten</head>
+                  <p>
+                     <ref xml:id="fn_5_8_480_h"/>
+                     <note type="variant" n="h" target="#fn_5_8_480_h">Randvermerk Huebers: <quote>Der Staatsrat Baron Geringer entfernte sich. Der GM. Baron Bils wohnte der Beratung des nebenstehenden Gegenstandes bei.</quote>
+                     </note> Den letzten Gegenstand der Beratung bildeten die über Anregung von Seite des mit der Überwachung und Inspizierung der Militärbildungsanstalten im Kriegsministerium betrauten GM. Freiherrn v. Bils von dem Kriegsminister mit dem au. Vortrage vom 4. v. M., Z. 2946, gestellten Anträge über Verbesserungen in den Militärbildungsanstalten<note type="footnote" n="11">GM. Anton Freiherr v. Bils hatte auf Ah. Befehl zwischen Oktober und Dezember 1863 die Militärbildungsanstalten inspiziert; im Frühjahr 1864 hatte eine Kommission im Kriegsministerium Verbesserungen in der Organisation dieser Schulen ausgearbeitet; der ausführliche Inspektionsbericht, das Kommissionsprotokoll und der Vortrag des Kriegsministers v. <date when="1864-06-04">4. 6. 1864</date>
+                        <bibl type="archival">KA., KM., Präs. (CK.) 31–2/2/1864</bibl>. Zur Reorganisation im Militärbildungswesen siehe <bibl type="secondary">
+                           <author>Wagner</author>, Die k. (u.) k. Armee – Gliederung und Aufgabenstellung.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Habsburgermonarchie 5, 260 f.</bibl>
+                     </note>.</p>
+                  <p>
+                     <pb n="48" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s48.pdf"/>Der Staatsratspräsident referierte, daß bei der Beratung dieses Gegenstandes im Staatsrate die im au. Vortrage angeführten Anträge a bis f gutgeheißen worden seien, die Beratung in der Ministerkonferenz sich daher auf die im au. Vortrage unter 1 bis 3 angeführten, mit Geldauslagen verbundenen Anträge, bei welchen sich Meinungsverschiedenheiten ergeben haben, beschränken könnte<note type="footnote" n="12">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 521/1864</bibl>. Die Anträge a – f bezogen sich auf die Unterrichtsfächer sowie auf die Auswahl der Lehrkräfte und der Zöglinge.</note>. Referent habe schon bei der staatsrätlichen Beratung darauf aufmerksam gemacht, daß es wünschenswert wäre, wenn der Finanzminister noch vor der Beratung im Ministerrate über diese Anträge um seine Meinung befragt werden würde. Dieses vorläufige Einvernehmen sei von dem Ministerratspräsidium inzwischen gepflogen worden<note type="footnote" n="13">
+                        <bibl type="archival">FA., FM., Präs. 3318/1864</bibl>.</note>. Die bezüglichen Anträge bezwecken: 1. Die Aufhebung der Verschiedenheit der Fouragegebühren der in den Militärbildungsanstalten in Verwendung stehenden aktiven Stabsoffiziere; 2. die Bewilligung einer monatlichen Zulage von 10 fr. für jeden der hier in der Kriegsschule befindlichen Offiziers zur besseren Subsistenz, dann zur Anschaffung von Büchern, Karten, Instrumenten und Reitrequisiten; endlich 3. die fernere Beibehaltung des Untererziehungshauses zu Weißkirchen im Banate wenigstens noch für einige Jahre und in demselben die Aufstellung von vier Jahrgängen statt dem jetzigen Stande von zwei.</p>
+                  <p>Bezüglich des Antrages ad 3., welchen der Staatsratspräsident zuerst zur Sprache brachte, einigte sich der Ministerrat – mit Hinblick auf die im au. Vortrage enthaltenen Motive und mit Rücksicht auf die Befürwortung des Staatsrates sowie auf die nachträgliche Zustimmung des Finanzministers – in dem Einraten auf Ah. Genehmigung des Antrages<note type="footnote" n="14">Zu den Untererziehungshäusern siehe <bibl type="secondary">
+                           <author>Wagner</author>, (zit. Anm. 11) 252</bibl>.</note>.</p>
+                  <p>Hinsichtlich des Antrages ad 1. sei der Staatsrat, wie Referent fortfuhr, der Ansicht gewesen, daß diese Fourageportionen der Stabsoffiziere den Funktionszulagen beim Zivile analog seien. Sobald nämlich ein Beamter von einer Stelle, mit welcher Funktionszulagen verbunden sind, an eine andere, wo dies nicht der Fall ist, versetzt werde, entfallen die Funktionszulagen von selbst. Ebenso müsse es auch mit den Fourageportionen der Stabsoffiziere gehalten werden, sobald letztere in eine Anstellung kommen, wo das Halten von Pferden nicht mehr nötig sei. In Würdigung übrigens der von dem Kriegsminister angeführten Motive, und da es sich tatsächlich nicht um eine Zulage für diese Stabsoffiziere handle, sondern lediglich um die Möglichkeit, sich auch während der Dienstzeit in der Akademie beritten zu erhalten, habe der Staatsrat erachtet, auf die Ah. Genehmigung des ministeriellen Antrages mit der Modifikation einraten zu sollen, daß nur für die wirklich auf Streu befindlichen Pferde der Stabsoffiziere der Infanterie, Kavallerie, Artillerie und des Pionierskorps täglich zwei Pferdportionen in natura verabfolgt, der Bezug des Relutums in Gelde dafür aber gänzlich ausgeschlossen werde, daß aber dann eine gleichmäßige Behandlung aller in der Militärakademien und der Kriegsschule angestellten Stabsoffiziere einzutreten hätte und der vorgeschlagene Modus daher auch auf jene in den Militärbildungsanstalten angestellten Stabsoffiziere Anwendung haben müßte, die jetzt schon mit Pferdeportionen beteilt sind. Der <pb n="49" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s49.pdf"/>Finanzminister habe sich in der Note an das Ministerratspräsidium entschieden gegen diesen durch ein Gebot der dringenden Notwendigkeit nicht gerechtfertigten Antrag ausgesprochen und habe auch der vom Staatsrate vorgeschlagenen Modalität aus dem Grunde nicht beigestimmt, weil wohl jedermann wisse, daß eine solche Vorschrift des Bezuges der Portionen in natura gar nicht oder nur durch ganz unstatthafte Mittel zu kontrollieren sei, und weil durch eine solche Ah. Anordnung nur selbst zu Fiktionen Anlaß gegeben werden würde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsministerstellvertreter</rs>
+                     </hi> bemerkte, daß es sich bei diesem Antrage nur um fünf Stabsoffiziere, nämlich zwei in der Neustädter, zwei in der Artillerieakademie und einer in der Kriegsschule und im ganzen um den unerheblichen jährlichen Betrag von 2000 fr. handle, daß es übrigens notwendig sei, daß diese Stabsoffiziere im Zustande des Berittenseins bleiben, weil eine zweite, nochmalige Auslage, um sich ganz neu beritten zu machen, für Stabsoffiziere, die bloß auf ihre Gage angewiesen seien, als unerschwinglich bezeichnet werden müsse und daher die meisten solcher Stabsoffiziere, wenn sie die Anstellung in der Akademie verlassen, um sich nicht ganz zu verschulden, es vorziehen werden, eine Friedensanstellung oder die vorzeitige Pensionierung anzustreben. Der <hi rend="#letterspaced">
+                        <rs type="person">GM. Baron Bils</rs>
+                     </hi> unterstützte diesen Antrag aus dem weiteren Grunde, weil es ja doch nur als billig und gerecht angesehen werden könne, wenn die Stabsoffiziere in allen Militärbildungsanstalten in dieser Beziehung gleich gehalten würden. Während nämlich die Stabsoffiziere des Generalstabs, des Genie- und Pionierskorps in der Kriegsschule und Genieakademie ihre chargemäßige Fouragegebühr behalten, haben jene der Artillerie- und Neustädter Akademie, mit Ausnahme der Exerzier- und Reitlehrer, während ihrer Verwendung in der Akademie keinen Anspruch hierauf. In der Kriegsschule und Genieakademie sei der Wechsel ein sehr häufiger, deshalb sei auch die Beibehaltung der Fouragegebühren für die dort angestellten Stabsoffiziere durchgesetzt worden. Bei den Stabsoffizieren der Infanterie in der Neustädter Akademie trete ein solcher Wechsel viel seltener ein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, daß er dem Antrage nicht wegen der nicht besonders beträchtlichen finanziellen Ausgabe, sondern aus dem Grunde entgegentreten zu müssen glaube, weil nach den gemachten Erfahrungen bei der Debatte der vorjährigen Militärbudgets mit Zuverläßlichkeit vorauszusehen sei, daß man, ohne daß gerade ein besonderes Bedürfnis dies notwendig mache, einen Streit im Abgeordnetenhause hervorrufen werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hob hervor, daß es dem Kriegsminister zukommen werde, diese Post im Reichsrate zu vertreten. Da nun der Finanzminister erkläre, vom Standpunkte der Kostenfrage den Antrag nicht zu bekämpfen, habe er für den Fall, als der Kriegsminister bereit sei, diese Vertretung zu übernehmen, gegen den Antrag nichts zu erinnern. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> trat der Vorstimme bei, sprach sich jedoch gegen die vom Staatsrate vorgeschlagene Modifikation aus, er hielt es aber für zweckmäßig, wenn der Kriegsminister die Sache einfach abtue, und für billig, daß die bezeichneten fünf Stabsoffiziere in dieser Beziehung gerade so behandelt werden, wie ihre Kameraden in den anderen Militärakademien. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> sah voraus, daß diese Sache im Abgeordnetenhaus viel Verdruß machen und daß die bezügliche Post positiv werde verworfen werden, da die dafür geltend gemachten Gründe im Abgeordnetenhause nicht ausreichen werden. Er wollte übrigens auf diesen Umstand nur aufmerksam machen und erklärte übrigens, in merito gegen den Antrag keine Einwendung zu haben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> war dafür, daß man dem Kriegsminister diesfalls freie <pb n="50" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s50.pdf"/>Hand lassen solle, der Minister Graf Esterházy und der ungarische Hofkanzler stimmten der Ansicht des Ministers Ritter v. Lasser bei.</p>
+                  <p>Der vorsitzende <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> faßte das Ergebnis der Abstimmung derart zusammen, daß sich die Majorität dafür ausgesprochen habe, es sei diesbezüglich dem Kriegsminister freie Hand zu lassen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte endlich über den Antrag ad 2 wegen Beteilung der die Kriegsschule frequentierenden Offiziere mit einer monatlichen Zulage von 10 fr. und bemerkte, daß der diesfällige Aufwand 7200 fr. betragen würde. Er erwähnte, daß die Frequentanten der Kriegsschule früher eine Zulage monatlicher 20 fr. bezogen, daß dieselbe jedoch im Jahre 1858 aus Ersparungsrücksichten wieder abgestellt worden sei<note type="footnote" n="15">Ah. E. v. <date when="1858-04-07">7. 4. 1858</date> über die in Hinkunft gebührenden Funktions- und Diensteszulagen, <bibl type="archival">KA., MKSM. 1065/1858</bibl>.</note>. Der Staatsrat sei der Ansicht gewesen, daß dieser Antrag vorläufig auf sich zu beruhen habe, und es habe sich auch der Finanzminister in der Note an das Ministerratspräsidium für die Ablehnung dieses Antrages ausgesprochen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, sich dem Antrage des Staatsrates anzuschließen, weil es gegen allen Gebrauch sei, daß jemand für den Vorteil des Unterrichtes noch eine Zulage erhalten soll. Es bestehe gar keine Möglichkeit, diesen Antrag im Reichsrate zu vertreten, man solle daher lieber auf denselben gar nicht eingehen, da die offenbare Niederlage vorauszusehen sei. Die Erfahrung habe gelehrt, daß es zu den größten Unannehmlichkeiten führe, wenn die Regierung mit neuen Gebühren hervorkomme. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriesgsministerstellvertreter</rs>
+                     </hi> betonte, daß die Offiziere in der Kriegsschule dieser Aufbesserung wirklich bedürfen, da sie hier in Wien jedenfalls teurer leben als in auswärtigen Garnisonen, aus ihren Truppenkörpern herausgerissen, die Vorteile einer billigeren Uniformierung und einer gemeinschaftlichen Offiziersmenage entbehren, endlich jeden Tag bis 4 Uhr beschäftigt, ihre Kost in teureren Gasthäusern nehmen müssen, da die wohlfeileren in den Vorstädten um so späte Nachmittagsstunde keine Mittagskost verabreichen. Der GM. Baron Bils bemerkte, daß der Betrag von 10 fr. als Zulage nicht hoch sei, daß die Offiziere der Kriegsschule denselben dringend benötigen, da die von dem Kriegsministerstellverteter angeführten Verhältnisse zur Folge haben, daß diese Offiziere verschuldet sind. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß, wenn auch der Betrag der Zulage an und für sich nicht hoch sei, doch durch Genehmigung des Antrages das Kriegsbudget höher werden würde, was man aus dem von ihm früher angeführten Grunde jedenfalls zu vermeiden trachten müsse. Zudem könne es dem Kriegsminister bei dem ihm überlassenen Revirement mit einer Summe von 120 Millionen Gulden doch nicht schwer fallen, den in Rede stehenden Offizieren diese Begünstigung, falls sie unvermeidlich notwendig sein sollte, zuteil werden zulassen, ohne daß es notwendig wäre, durch Einstellung dieser Post im Voranschlage das Gesamterfordernis des Kriegsministeriums zu erhöhen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> bemerkte, Se. Majestät hätten im Jahre 1858 Ah. resolviert, daß die früher bestandene Zulage für die Offiziere in der Kriegsschule zu entfallen habe, und dabei solle es belassen werden. Über Einwendung von Seite des <hi rend="#letterspaced">
+                        <rs type="person">GM. Baron Bils</rs>
+                     </hi>, daß Se. Majestät aber gerade jetzt die Ah. Geneigtheit, diesen Offizieren wieder eine Zulage zukommen zu lassen, ausdrücklich <pb n="51" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s51.pdf"/>zu erklären geruht haben, und über dessen Bemerkung, daß auch die in der Zentralequitation<note type="footnote" n="16">Zum Zentral-Equitations-Institut in Salzburg, später Zentral-Kavallerieschule, siehe <bibl type="secondary">
+                           <author>Wagner</author>, (zit. Anm. 11) 247–259.</bibl>
+                     </note> befindlichen Offiziere, die doch in der Regel Rittmeister zweiter Klasse seien, die Zulage monatlicher 10 fr. behalten haben, äußerte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi>, daß der maßgebende Grund diesfalls darin liegen dürfte, daß die Offiziere in die Zentralequitation kommandiert werden, während die Aufnahme der Offiziere in die Kriegsschule nur über deren eigenes Ansuchen erfolge. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> war dafür, daß die beantragte Zulage den Offizieren in der Kriegsschule zuteil werde, weil sie derselben nach der Versicherung des Kriegsministers wirklich bedürfen und weil es bei einem Revirement von 120 Millionen Gulden dem Kriegsminister doch nicht schwer fallen könne, den bezüglichen Aufwand aus seinem Gesamtbudget zu bestreiten. Votant erklärte übrigens gegen die Bewilligung dieser Zulage für den Fall zu stimmen, wenn dadurch das Budget des Kriegsministeriums erhöht werden wollte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> trat dem Antrage des Finanzministers bei, weil die Gründe, aus welchen im Jahre 1858 diese Zulage eingestellt wurde, heute gleichmäßig fortbestehen. Der Minister Graf Esterházy, der Marineminister und der ungarische Hofkanzler stimmten für den Antrag des Staatsministers.</p>
+                  <p>Der Majoritätsbeschluß ergab sich daher, wie der vorsitzende <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> konstatierte, dahin, daß es dem Kriegsminister zu überlassen wäre, die Offiziere in der Kriegsschule einer monatlichen Zulage von 10 fr. aus dem Gesamtbudget des Kriegsministeriums ohne eine besondere Präliminierung der diesfälligen Post im Erfordernisse des Voranschlages teilhaftig machen zu lassen<note type="footnote" n="17">Mit Ah. E. v. <date when="1864-07-15">15. 7. 1864</date> auf den in Anm. 11 zit. Vortrag genehmigte der Kaiser die Anträge a–f und 3; in bezug auf die Anträge 1 und 2 erhielt der Kriegsminister freie Hand, diese Maßnahmen aus der laufenden Dotation ohne Erhöhung des Voranschlages durchzuführen, <bibl type="archival">KA., MKSM. 14–15/1/1864</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1864-07-05">5. Juli 1864</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolles zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1864-07-20">20. Juli 1864</date>.</seg>
+                  <seg type="other">Praes[entatum]. <date when="1864-07-21">21. Juli 1864</date>. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

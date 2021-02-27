@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="299">Sitzung 299</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-12-15"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z299.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1102</idno>
+                  <idno type="KZ">4011</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-12-15"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 17. 12.), Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Mažuranić; abw. Rechberg, Pratobevera, Burger; BdR. Erzherzog Rainer <date when="1863-01-02">2. 1. 1863</date>.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-12-17">1862-12-17</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_299_1">Gesetzentwurf über die Gutsgebiete in Galizien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_299_2">Maßnahmen gegen das Räuberunwesen in Kroatien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_299_3">Feierlicher Gottesdienst anläßlich der Schließung der Reichsratssession</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621215-P-0299" ana="a5-b5-z299">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z299.pdf">
+               <title type="num">Nr. 299</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-12-15">15. Dezember 1862</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 17. 12.), Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Mažuranić; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Rechberg, Pratobevera, Burger; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer <date when="1863-01-02">2. 1. 1863</date>.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1102</idno>
+                  <idno type="KZ">4011</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1862-12-15">15. Dezember 1862</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_299_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Gesetzentwurf über die Gutsgebiete in Galizien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die bei den Landtagen in Galizien, Böhmen, Mähren und Schlesien einzubringenden Entwürfe von Gesetzen über die Gutsgebiete und verlas den anverwahrten Entwurf des Gesetzes für Galizien, Lodomerien und Krakau<ref xml:id="fn_5_5_299_a"/>
+                     <note type="variant" n="a" target="#fn_5_5_299_a">Der Entwurf liegt dem Originalprotokoll im Druck bei.</note>, <note type="footnote" n="1">Mit Vortrag v. <date when="1862-11-16">16. 11. 1862</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 4017</bibl>, hatte Schmerling mehrere Entwürfe für Landesgesetze vorgelegt, nämlich die Gemeindeordnung, die Gemeindewahlordnung und das Gesetz über die Gutsgebiete für Galizien und für die Bukowina; die Gemeindeordnungen gaben zu einer Diskussion im Ministerrat keinen Anlaß, siehe jedoch <ref type="protocol-link" target="MRP-1-5-05-0-18630102-P-0306.xml#top_5_5_306_5">MR. v. <date when="1863-01-02">2. 1. 1863</date>/V</ref> und <ref type="protocol-link" target="MRP-1-5-06-0-18630612-P-0364.xml#top_5_6_364_2">MR. II v. <date when="1863-06-12">12. 6. 1863</date>/II</ref>; allgemein zur Gemeindeordnung <ref type="protocol-link" target="MRP-1-5-05-0-18621124-P-0287.xml#top_5_5_287_1">MR. v. <date when="1862-11-24">24. 11. 1862</date>/I</ref>. Die Gesetze über die Gutsgebiete in Böhmen, Mähren und Schlesien wurden im <ref type="protocol-link" target="MRP-1-5-05-0-18621217-P-0302.xml#top_5_5_302_2">MR. v. <date when="1862-12-17">17. 12. 1862</date>/II</ref> besprochen. Im folgenden geht es um Galizien.Die Forderung des großgrundbesitzenden Adels nach Ausscheidung der Gutsgebiete aus dem Gemeindeverband war fakultativ in das Reichsgemeindegesetz v. <date when="1862-03-15">15. 3. 1862</date>, <bibl type="archival">RGBL. Nr. 18/1862,</bibl> aufgenommen worden (Art. I), siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18620524" ana="prot0 top0">MR. v. <date when="1862-05-24"/>24. 5. 1862</ref> (Diskussion zum Amendement c), <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z71" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z71.pdf" target="MRP-1-5-02-0-18610524-P-0071.xml">ÖMR. V/2, Nr. 71</ref>
+                        </bibl>. Zu diesem Gegenstand siehe Einleitung XXV f.; <bibl type="secondary">
+                           <author>Klabouch</author>, Die Gemeindeselbstverwaltung in Österreich 77 f</bibl>., und <bibl type="secondary">
+                           <author>Ders.</author>, Die Lokalverwaltung in Cisleithanien</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka – Urbanitsch</author>, Habsburgermonarchie 2, 281</bibl>.</note>. Hierauf wurde der Auszug der staatsrätlichen Beratung<note type="footnote" n="2">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 969/1862</bibl> (Galizien und Bukowina).</note> des Gegenstandes <pb n="112" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s112.pdf"/>verlesen, und der Staatsminister wendete sich sofort zur Erörterung der Differenzpunkte zwischen den beiderseitigen Anträgen, und zwar:</p>
+                  <p>1. der prinzipiellen Frage über die Zulässigkeit von Gutsgebieten in Galizien. Es handelt sich aber nicht mehr darum, ob die Absonderung der Gutsgebiete dort einzuführen, sondern ob die bereits vorhandene Absonderung aufrechtzuhalten sei. Nun stimmen alle, welche eine genaue Kenntnis der galizischen Verhältnisse mit einer konservativen Gesinnung verbinden, in der Beziehung vollkommen überein, daß es dringend notwendig ist, die schlechten politischen Elemente von dem Bauernstande möglichst fernzuhalten. Daraus ergebe sich von selbst die Beantwortung der obigen Frage, weil durch den Eintritt des großen Grundbesitzers in die Gemeinde der erstere mit den Bauern in vielfache Berührung geraten und dadurch einen großen Einfluß gewinnen würde zum Nachteil der Regierung. Staatsrat Baron Halbhuber selbst habe in seinem Votum anerkannt, daß diesfalls den speziellen Verhältnissen Galiziens Rechnung getragen werden müsse. Hiernach glaube der Staatsminister, seinen au. Antrag festhalten zu sollen. Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> verkannte nicht die Schwierigkeiten, welche sich aus dem Bestande der Gutsgebiete ergeben werden. Allein, wenn man die galizischen Verhältnisse erwägt, gelangt man zur Überzeugung, daß diese Einrichtung dort mehr angezeigt ist als in allen übrigen Kronländern, und daher finde Votant gegen den Antrag des Staatsministers im Prinzip nichts zu erinnern. Von den übrigen Stimmführern wurde diesfalls auch keine Erinnerung erhoben.</p>
+                  <p>2. In bezug auf die Normierung der Zuständigkeit zu den Gutsgebieten teile <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Schmerling</rs>
+                     </hi> die Meinung des Staatsratspräsidenten, daß diese einen Gegenstand des Heimatsgesetzes bildet, welches zur reichsrätlichen, und nicht zur landtäglichen Verhandlung gehört<note type="footnote" n="3">Das Reichsgesetz über das Heimatrecht v. <date when="1863-12-03">3. 12. 1863</date>, <bibl type="archival">RGBL. Nr. 105/1863</bibl>, befand sich in Vorbereitung; dazu <ref type="protocol-link" target="MRP-1-5-06-0-18630601-P-0357.xml#top_5_6_357_6">MR. v. <date when="1863-06-01">1. 6. 1863</date>/VI</ref>. Nach § 45 dieses Gesetzes hatten die Gutsgebiete keine Angehörigen; dazu <bibl type="secondary">
+                           <author>Klabouch</author>, Die Gemeindeselbstverwaltung in Österreich</bibl> 77.</note>. Es dürfte daher die vom Staatsrate vorgeschlagene Hinweisung auf diese Zuständigkeitsnormen aus dem Entwurf der Ah. Resolution zu entfallen haben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> bedauerte, nicht darüber im klaren zu sein, ob es in Galizien bereits Angehörige der Gutsgebiete gibt. Jedenfalls wird hierüber und über die Zuständigkeit zu diesen Gebieten eine allgemeine Norm zu erlassen sein. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, daß, nachdem bis zur Zustandebringung eines Reichsgesetzes über diesen Gegenstand längere Zeit noch vergehen dürfte, die Regierung in den Fall kommen wird, nach § 13 hierüber provisorische Normen zu erlassen<note type="footnote" n="4">Dies geschah nicht.</note>.</p>
+                  <p>Der Ministerrat trat dem Antrage des Staatsministers bei.</p>
+                  <p>3. Der Staatsrat hat ferner beantragt, daß die bisherigen Gesetze über die Einpfarrung und Einschulung ausdrücklich aufrechterhalten werden sollen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> betrachet dies als selbstverständlich, somit die ausdrückliche Erwähnung als überflüssig, und die Stimmenmehrheit teilte diese Meinung, während der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> glaubte, daß ein Zusatz dieses Inhaltes der Deutlichkeit förderlich sein würde.</p>
+                  <p>
+                     <pb n="113" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s113.pdf"/>Im Lauf der hierauf eröffneten Beratung über die speziellen Bestimmungen der einzelnen Gesetzartikel bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi>, daß im § 1, Absatz 1, der Text durch Einschaltung der zufällig weggebliebenen Worte „und angrenzenden“ nach „gleichgearteten“ zu ergänzen wäre, was der Staatsminister bestätigte. Auf die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> zum § 4 gestellte Frage, ob die ehmals rustikalen Enklaven der Gutsgebiete zu den letzteren gehören, antwortete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> verneinend, und gab ferner zu § 8 die Auskunft, daß die Gutsgebiete keiner Gemeinde höherer Ordnung, als [d. h. außer] dem Landtage, unterstehen<note type="footnote" n="5">D. h. sie unterstehen keiner Bezirksgemeinde; dazu die folgenden Bemerkungen Schmerlings.</note>. Es sollen aber auch überhaupt in Galizien keine Bezirksgemeinden gebildet werden, wozu kein Bedürfnis vorhanden ist und welche leicht zu einem gefährlichen Agitationsinstrumente mißbraucht werden könnten. Vorerst handelt es sich darum, dortlandes das Gemeindeleben der untersten Sphäre zur Entwicklung zu bringen, was immerhin Zeit fordern wird<note type="footnote" n="6">Zur Bildung von Bezirksgemeinden siehe MR. v. 15. und <date when="1862-12-17">17. 12. 1862</date>/I. In Galizien kam es 1866 unter Staatsminister Belcredi doch zur Bildung von Bezirksgemeinden mit dem Landesgesetz Nr. 21/1866; dazu <ref type="protocol-link" target="MRP-1-6-01-0-18651110-P-0024.xml#top_6_1_24_3">MR. v. <date when="1865-11-10">10. 11. 1865</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b1-z24" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b1/pdf/a6-b1-z24.pdf" target="MRP-1-6-01-0-18651110-P-0024.xml">ÖMR. VI/1, Nr. 24</ref>
+                        </bibl>. Der Gesetzentwurf über die Gutsgebiete in Galizien wurde nach einer weiteren Besprechung im <ref type="protocol-link" target="MRP-1-5-05-0-18630102-P-0306.xml#top_5_5_306_4">MR. v. <date when="1863-01-02">2. 1. 1863</date>/IV</ref> mit Ah. E. v. <date when="1863-01-04">4. 1. 1863</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 4017/1862</bibl>, doch kam das Gesetz – so wie auch die Landesgemeindegesetze für Galizien – erst 1866 zustande als Landesgesetz Nr. 20/1866; zur Vertagung des galizischen Landtags von 1862 siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630207-P-0319.xml#top_5_5_319_1">MR. v. <date when="1863-02-07">7. 2. 1863</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_299_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Maßnahmen gegen das Räuberunwesen in Kroatien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler für Dalmatien, Kroatien</rs>
+                     </hi> etc. referierte über die in Kroatien sich in sehr bedenklicher und allgemein beunruhigender Weise vermehrenden Raubanfälle [sic!]. Ein Teil derselben scheint durch Individuen aus den angrenzenden ungarischen Komitaten verübt worden zu sein, welche zur Begehung dieser Verbrechen über die Drau setzen und später wieder zurückkehren<note type="footnote" n="7">Zum Räuberunwesen in den angrenzenden ungarischen Komitaten siehe <ref type="protocol-link" target="MRP-1-5-05-0-18621211-P-0296.xml#top_5_5_296_1">MR. v. <date when="1862-12-11">11. 12. 1862</date>/I</ref> und II. Auf Antrag des Statthalters Graf Pálffy waren die Grenztruppen bereits am <date when="1862-11-18">18. 11. 1862</date> angewiesen worden, die Räuber beiderseits der Drau, sowohl im kroatisch-slawonischen Grenzgebiet als auch erforderlichenfalls und im Einvernehmen mit der ungarischen Gendarmerie auf ungarischem Gebiet weiter zu verfolgen, <bibl type="archival">KA., KM., 10. Abt. 91/7 ex 1862</bibl>.</note>. Abhilfe tue da dringend not. Der Ban verspricht sich dieselbe vorzugsweise von der Verlegung eines Bataillons Jäger in die am meisten bedrohten kroatisch-slawonischen Landesteile, und Referent habe diese Bitte zur Ah. Kenntnis gebracht<note type="footnote" n="8">Dies war offenbar im kurzen Wege geschehen, einen Vortrag dazu gibt es nicht.</note>. Allein Se. Majestät der Kaiser geruhten hierüber die Frage zu stellen, ob diese kostspielige Maßregel von sehr zweifelhaftem Erfolge nicht weit entsprechender durch Anwendung des in Ungarn neuestens eingeführten militärstandrechtlichen Verfahrens und der damit verbundenen Verschärfungen gegen Hehler und passiv sich verhaltende Gemeinden ersetzt werden könnte. Ah. beauftragt, den Gegenstand im Ministerrate zur Sprache zu bringen, müsse der Hofkanzler hiebei seine Meinung dahin aussprechen, daß die Anwendung der obgedachten, in Ungarn zweckmäßig befundenen Maßregeln unter den wesentlich verschiedenen Verhältnissen Kroatiens nicht angezeigt sein dürfte. Während man in Ungarn auf die älteren Strafgesetze zurückgegangen ist, besteht in <pb n="114" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s114.pdf"/>Kroatien das österreichische Strafrecht noch in voller Rechtskraft<note type="footnote" n="9">Strafgesetz v. <date when="1852-05-27">27. 5. 1852</date>, <bibl type="archival">RGBL. Nr. 117/1852</bibl>, und Strafprozeßordnung v. <date when="1853-07-29">29. 7. 1853</date>, <bibl type="archival">RGBL. Nr. 151/1853</bibl>.</note>, und man weiß daselbst auch nichts von jener Terrorisierung der Gerichte, welche in Ungarn die Bestellung von Militärstandgerichten nötig machte. Die Anwendung des standrechtlichen Verfahrens auf Hehler, Teilnehmer und Vorschubleister sei dem österreichischen Strafgesetze fremd, könne daher den Zivilgerichten nicht aufgetragen werden, die Bestellung von Militärgerichten statt der Zivilrichter würde aber eine unverdiente Kränkung der letzteren sein. Endlich haben sich die kroatisch-slawonischen Gemeinden bis jetzt den Raubanfällen gegenüber noch nicht so passiv verhalten, daß die Verfügung so strenger Strafen erforderlich erscheine. Es fehle überhaupt in Kroatien nicht an pflichtgetreuen Zivilstandgerichten, noch an Gesetzen zur Bestrafung der Verbrecher, wohl aber daran, daß die Räuber nicht entdeckt und vor die Gerichte gestellt werden können, und in diesem Punkte tue Abhilfe not.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> äußerte, daß er eben wegen der juridischen Bedenken gegen die fraglichen exzeptionellen Maßregeln der Strenge drei Monate lang den diesfälligen Anträgen der ungarischen Landesbehörden widerstanden habe, hoffend, dem Räuberunwesen durch die gesetzlichen Mittel steuern zu können. Allein die während dieser Zeit stattgefundene erschreckende Vermehrung von Raubund Mordfällen habe ihn genötigt, zu jenen wirksameren Mitteln seine Zuflucht zu nehmen. Die Angst vor den Kriegsgerichten sei tatsächlich ein mächtiger Hebel zur Verhütung solcher Verbrechen, und die Raubzüge aus Ungarn nach Kroatien dürften schon eine Wirkung des Schreckens sein, welchen die ungarischen Kriegsgerichte einflößen; die Räuber suchen ein anderes Gebiet auf. Graf Forgách las hierauf die mehrerwähnte, in Ungarn erlassene Verordnung<note type="footnote" n="10">Es ist nicht klar, worauf sich Forgách hier bezieht. Die schon vor Jahresfrist eingeführten Maßnahmen des Provisoriums hatten offenbar die Zunahme des Räuberunwesens nicht verhindert, die gerade erst beschlossenen schärferen Maßnahmen – siehe <ref type="protocol-link" target="MRP-1-5-05-0-18621211-P-0296.xml">MR. v. <date when="1862-12-11"/>11. 12. 1862</ref> – konnten unmöglich schon eine Wirkung haben; die ebd. zit. Hofkanzleiakten enthalten keinen Hinweis.</note> und beantragte, daß eine gleiche auch für die an Ungarn grenzenden kroatisch-slawonischen Komitate erlassen werde, da er nicht glaube, daß man ohne solche Maßnahmen in diesen Komitaten die öffentliche Sicherheit werde wiederherstellen können.</p>
+                  <p>Im Laufe der hierüber gepflogenen längeren Erörterung erklärten sich der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> und die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi>, <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Schmerling</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Baron Mecséry</rs>
+                     </hi> dagegen, daß so weitgehende Ausnahmen von der bestehenden Strafgesetzgebung, welche der zunächst kompetente kroatisch-slawonische Hofkanzler nicht notwendig findet, statuiert würden. Auf die Andeutung des Grafen Nádasdy, daß vielmehr eine Verstärkung der Militärmacht angezeigt wäre, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, daß von einer solchen Verstärkung – wenn man nicht das ganze Land mit Truppen besetzen will – fast gar kein Erfolg zu erwarten sei. Wenn der Ban die Absendung eines Bataillons beantragt, so sei dieses nur konsequent mit seinem Streben, überhaupt den Truppenstand in Kroatien zu erhöhen. FZM. Graf Degenfeld müsse daher sich mit dem Antrage des ungarischen <pb n="115" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s115.pdf"/>Hofkanzlers vereinigen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> erblickt gleichfalls in den vom letzteren vorgeschlagenen Maßregeln ein Mittel zur Übung eines heilsamen Terrorismus, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> beruft sich in derselben Richtung auf seine eigenen in Oberösterreich gesammelten Erfahrungen<note type="footnote" n="11">Wickenburg hatte in Oberösterreich nie eine politische Funktion bekleidet, war jedoch 1825 in außerordentlicher Mission zur Untersuchung von Untertansbeschwerden in den Mühlkreis entsandt worden, vgl. <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 55, 228</bibl>.</note>. Mit den gewöhnlichen Gesetzen langt man nicht mehr aus, wenn einmal das Übel solche Dimensionen angenommen hat wie in Ungarn und Kroatien. In der Veszprimer Diözese sind bereits an elf Pfarrern räuberische Attentate vorgenommen worden. Die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Edler v. Plener</rs>
+                     </hi> traten dem kroatischen Hofkanzler bei und empfehlen insbesondere Verstärkung der Detektivmittel. Es entschied sich daher die Stimmenmehrheit der Minister fünf gegen vier dafür, daß in Kroatien gegen die Räuber die Zivilstandgerichte nach den bestehenden Gesetzen ihr Amt zu handeln hätten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonische Hofkanzler</rs>
+                     </hi> sprach ferner seine Meinung dahin aus, daß, wenn in Kroatien eine solche Passivität der Gemeinden räuberischen Attentaten gegenüber wie in Ungarn Platz greifen sollte, die Verhängung von Geldstrafen eine geeignete Maßregel sein würde. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> sprachen sich gegen die Anwendung dieser exzeptionellen strengen Maßregel aus, während <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> erklärte, er müsse, was die Anwendung von Sicherheitsmaßregeln betrifft, in die Lokalkenntnis des für diese Maßregeln verantwortlichen politischen Chefs kompromittieren. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> erinnerte, daß derlei außerordentliche Geldstrafen in Kroatien nicht ohne besondere Ermächtigung von Sr. Majestät verhängt werden konnten.</p>
+                  <p>Schließlich erwähnte <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler Mažuranić</rs>
+                     </hi> eines wirksamen Detektivmittels, welches in der Erhöhung der Taglien für die Einbringung von gefährlichen Räubern besteht, ein Mittel, das sich wiederholt bewährt hat. Doch dürfte bei Einbringung von ungarischen Räubern auf kroatischem Boden die Taglia aus dem ungarischen Fonds bestritten werden und vice versa. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> geruhten zu bemerken, daß diese letztere Frage von den beteiligten Hofkanzlern im Wege des direkten Einvernehmens zu lösen sein werde. Übrigens behielten Höchstdieselben sich vor, das Ergebnis der heutigen Beratung zur Ah. Kenntnis zu bringen<note type="footnote" n="12">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621216-P-0300.xml#top_5_5_300_2">MR. v. <date when="1862-12-16">16. 12. 1862</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_299_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Feierlicher Gottesdienst anläßlich der Schließung der Reichsratssession</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> teilte mit, daß der Kardinalerzbischof von Wien sämtliche Minister zu einer Donnerstag 9 Uhr früh stattfindenden kirchlichen Feier im Sankt Stephansdome eingeladen hat<note type="footnote" n="13">Anlaß war der Schluß der ersten Reichsratssession; allgemeine Ankündigung der kirchlichen Feier <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18621216">Wiener Zeitung</ref>
+                           </title> v. <date when="1862-12-16">16. 12. 1862</date>
+                        </bibl>. Am <date when="1862-12-17">17. 12. 1862</date> abends fand ein Empfang der Reichsratsmitglieder in den Appartements des Kaisers statt, am Donnerstag, dem <date when="1862-12-18">18. 12. 1862</date>, um 11 Uhr der feierliche Schluß der Session im Zeremoniensaal der Hofburg mit der Verlesung der Thronrede, <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=1862121818621219">Wiener Zeitung</ref>
+                           </title> v. <date when="1862-12-18">18. 12. 1862</date> (A.) und v. <date when="1862-12-19">19. 12. 1862</date>
+                        </bibl>.</note>.</p>
+                  <p>
+                     <pb n="116" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s116.pdf"/>Die Beratung über den Entwurf eines Landesgesetzes die Kreisvertretung in Tirol betreffend erscheint in einem besonderen Protokolle<note type="footnote" n="14">MR. v. 15. und <date when="1862-12-17">17. 12. 1862</date>/I ( = Sammelprotokoll Nr. 301).</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1862-12-17">17. Dezember 1862</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, <date when="1863-01-01">1. Jänner 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-01-02">2. Jänner 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

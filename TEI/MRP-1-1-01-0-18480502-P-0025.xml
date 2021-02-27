@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="025">Sitzung 25</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-02"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z25.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">608</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-02"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Ficquelmont; anw. Pillersdorf, Sommaruga, Latour, Krauß; BdE. Ficquelmont, Franz Karl (5. 5.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-05">5. 5.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_25_1">Verlegung italienischer Geiseln aus Kufstein</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_25_2">Zusammenlegung der Zivil- und Militärgewalt in Krakau</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_25_3">Pensionierung des Kreishauptmannes v. Seydel</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_25_4">Anrechnung früherer Dienstzeiten von Praktikanten beim Wiedereintritt in den Zivildienst</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_25_5">Pferdeankauf für das Armeekorps in Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_25_6">Beförderungen durch Radetzky</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_25_7">Belassung FML. Ignaz Ritter v. Legeditschs in Galizien; Entsendung FML. Joseph v. Gedeons nach Hermannstadt</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_25_8">Auszeichnung für Lorenz Laurenti</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_25_9">Ernennung Joseph Fontanas zum Präses des Kollegialgerichtes in Zara</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_25_10">Begnadigung für Franz Salat</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480502-P-0025" ana="a1-1848_z25">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z25.pdf">
+               <title type="num">Nr. 25</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-02">2. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Sommaruga, Latour, Krauß; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont, Franz Karl (5. 5.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">608</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung am <date when="1848-05-02">2. Mai 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, zugleich Ministers des Äußern Grafen Ficquelmont.</head>
+               <div type="agenda_item" xml:id="top_1_1_25_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Verlegung italienischer Geiseln aus Kufstein</head>
+                  <p>Im Nachhange zu dem Ministerratsbeschlusse vom 30. April l. J., wonach den in Kufstein gefangenen Geiseln aus der Lombardei die Freiheit des Aufenthalts im Inneren der Monarchie Ag. eingeräumt wurde<note type="footnote" n="1">Die Angabe des Protokollführers ist unrichtig; es handelt sich um den Ministerratsbeschluß in <ref type="protocol-link" target="MRP-1-1-01-0-18480501-P-0024.xml#top_1_1_24_2">MR. v. <date when="1848-05-01">1. 5. 1848</date>/II</ref>.</note>, las der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> den Entwurf eines für die Wiener Zeitung bestimmten Artikels über diesen Ah. Gnadenakt vor, worin auch die Bereitwilligkeit der österreichischen Regierung ausgesprochen wird, den lombardisch-venezianischen Provinzen die Segnungen unserer freien Verfassung unter einer nationalen Regierung und des Anschlusses an einen mächtigen Staat zuteil werden zu lassen. Baron Pillersdorf glaubte nämlich, daß dieser Anlaß zu ergreifen wäre, um das Pazifikationswerk im Süden durch ein solches Entgegenkommen zu fördern, besonders da die Verhältnisse im Norden der Monarchie sich immer bedenklicher gestalten.</p>
+                  <p>Sämtliche Minister waren mit der Tendenz dieses Entwurfes im wesentlichen einverstanden; doch glaubten der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß die Zusicherung einer „völlig nationalen Regierung“ darin nicht auszusprechen wäre, aus dem doppelten Grunde: a) weil es bei Unterhandlungen durch die Klugheit geboten ist, nicht gleich anfangs alle Zugeständnisse auszusprechen, zu denen man bereit ist, und b) weil die Zusicherung einer völlig nationalen Regierung im lombardisch-venezianischen Königreiche den Forderungen der polnischen exaltierten Partei in Galizien neue Stützpunkte gewähren würde, und die Konstitution den Völkern Österreichs nur „Unverletzlichkeit der Nationalität und Sprache“ gewährleistet, nicht aber eine „nationale Regierung“ verspricht<note type="footnote" n="2">Der Passus <quote>völlig nationale Regierung</quote> wurde in dem in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-05-03">3. 5. 1848</date>
+                        </bibl> veröffentlichten Artikel beibehalten.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Zusammenlegung der Zivil- und Militärgewalt in Krakau</head>
+                  <p>Der vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> vorgelesene neueste polizeiliche Bericht aus Krakau über die Bedenklichkeit der dortigen Lage und Stimmung<note type="footnote" n="3">Dieser Bericht konnte unter des Beständen des AVA., IM., Präs. nicht gefunden werden.</note> führte den Ministerrat zu einer längeren Erörterung, infolge welcher anerkannt wurde, daß es für jetzt <pb n="143" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s143.pdf"/>das Zweckmäßigste sei, die ganze Zivil- und Militärgewalt daselbst in einer Hand vereinigt zu lassen, und daß erst in der Folge die Abordnung eines höheren Zivilbeamten (Hofrat Zaleski) an der Zeit sein dürfte<note type="footnote" n="4">Zu der Zusammenlegung der Zivil- und der Militärgewalt siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_2">MR. v. <date when="1848-04-29">29. 4. 1848</date>/II</ref>. Auf Vortrag Doblhoffs v. <date when="1848-07-27">27. 7. 1848</date> wurde Ritter Wenzel Zaleski mit Ah. E. v. <date when="1848-07-30">30. 7. 1848</date> zum Gouverneur von Galizien – und für den Fall einer Teilung dieser Provinz in zwei Gubernialgebiete – auch von Krakau ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1875/1848</bibl>. Latour zeigte unterdessen mit Vortrag v. <date when="1848-05-04">4. 5. 1848</date> die Absendung Schliks nach Krakau und seine Übernahme sowohl der Militär- als auch der Zivilgewalt an, was der Kaiser mit Ah. E. v. <date when="1848-05-12">12. 5. 1848</date> zur Kenntnis nahm, <bibl type="archival">KA., HKR., KM., Präs. 1315/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 523/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480503-P-0026.xml#top_1_1_26_5">MR. v. <date when="1848-05-03">3. 5. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pensionierung des Kreishauptmannes v. Seydel</head>
+                  <p>Der Minister des Inneren überreichte seinen Vortrag vom <date when="1848-05-02">2. l. M.</date>
+                     <note type="footnote" n="5">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 481/1848</bibl>.</note> wegen Versetzung des Kreishauptmannes im Viertel unter dem Wiener-Wald Edler v. Seydel in den Ruhestand unter Ag. Verleihung des Leopoldordens – eine Auszeichnung, welcher Seydel durch sein 48jähriges, höchstverdienstliches Wirken im hohen Grade würdig sei, was auch von der allgemeinen Stimme ohne jeden Zweifel wird anerkannt werden. Der Ministerrat schloß sich diesem au. Antrage an<note type="footnote" n="6">Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> wurde Seydel in den Ruhestand versetzt und zugleich mit dem Ritterkreuz des Leopoldordens ausgezeichnet, <quote>ebd., MRZ. 608/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Anrechnung früherer Dienstzeiten von Praktikanten beim Wiedereintritt in den Zivildienst</head>
+                  <p>Nachdem jetzt öfter Fälle vorkommen, daß Praktikanten aus dem Zivil- in den Militärdienst temporär, mit Vorbehalt des Rücktritts überzugehen wünschen, so wurde beschlossen, derlei Individuen den Wiedereintritt mit Anrechnung ihrer früheren Dienstzeit vorzubehalten<note type="footnote" n="7">Weder unter den Beständen des AVA., IM., Präs. noch unter denen des KA., HKR., Präs. konnte eine entsprechende Verfügung gefunden werden</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Pferdeankauf für das Armeekorps in Böhmen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> überreichte einen Vortrag vom 30. April l. J.<note type="footnote" n="8">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 479/1848</bibl>; die beiden entsprechenden Akten <bibl type="archival">KA, HKR., KM., Präs. 843 und 1088, beide ex 1848</bibl>, sind skartiert worden.</note>, worin er den Bedarf zum Ankauf von Reit-, Zug- und Packpferden für das in Böhmen aufzustellende mobile Armeekorps nachweist, und um Bedeckung desselben aus den Finanzen mittelst einer außerordentlichen Dotation von 335.702 fl. bittet.</p>
+                  <p>Da die Aufstellung eines mobilen Armeekorps in Böhmen eine Bundespflicht Österreichs ist und die Zahl der Bespannungspferde ohnehin auf den strengsten Bedarf beschränkt wurde, so vereinigte sich der Ministerrat mit dem vorliegenden Antrage.</p>
+                  <p>Nachdem bei diesem Anlasse auf die Möglichkeit des durch einen europäischen Krieg herbeigeführten Bedarfs einer noch größeren Truppenaufstellung besprochen und vom Grafen Latour bemerkt worden war, daß zur Vorbereitung auf einen solchen Fall nichts anderes erübrige, als die 2. Landwehrbataillons zu errichten, entgegnete der Finanzminister, daß diese Maßregel eine allzu empfindliche Last für den Staatsschatz bilden würde, und glaubte darauf hindeuten zu sollen, daß durch sukzessive Konzentrierung und Abrichtung von Abteilungen der Nationalgarde mit geringen Kosten eine sehr brauchbare Reserve gebildet werden könne<note type="footnote" n="9">Der in Anm. 8 zit. Vortrag wurde mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> resolviert und der Kriegsminister angewiesen, sich wegen der Bedeckung des diesfälligen Geldbedarfs mittels einer extraordinären Dotation an den Finanzminister zu wenden, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 608/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Beförderungen durch Radetzky</head>
+                  <p>Der Ministerrat stimmte dem Antrage des Grafen Latour wegen Ag. Genehmigung der vom Feldmarschalle Grafen Radetzky bereits verfügten Ernennung des Hauptmannes Stephan Seyffert von Graf Gyulai Infanterie zum Major und des Grenadierbataillonskommandanten von Erzherzog Albrecht Infanterie Majors Franz Plietz zum Oberstleutnant<note type="footnote" n="10">Siehe dazu die beiden Berichte Radetzkys v. <date when="1848-04-24">24. 4. 1848</date>, <bibl type="archival">KA, HKR., KM., Präs. 1089/1848</bibl>.</note>, nachdem diese Ernennungen in dem Ministerialvortrage vom <date when="1848-05-02">2. Mai 1848</date>
+                     <note type="footnote" n="11">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei. MRZ. 478/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 1089/1848</bibl>.</note> befriedigend motiviert erscheinen<note type="footnote" n="12">Der in Anm. 11 zit. Vortrag wurde mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> resolviert, <quote>ebd.</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 608/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Belassung FML. Ignaz Ritter v. Legeditschs in Galizien; Entsendung FML. Joseph v. Gedeons nach Hermannstadt</head>
+                  <p>Der Kriegsminister glaubte sich unter Zustimmung des Ministerrates die Ah. Genehmigung der wegen dringender Dienstesrücksichten bereits verfügten Belassung des FML. Legeditsch als Divisonär in Galizien<note type="footnote" n="13">Nach der Pensionierung des Divisionärs in Hermannstadt (FML. v. Wissiak) wurde der GM. Legeditsch auf Vortrag des Hofkriegsratspräsidiums v. <date when="1848-04-03">3. 4. 1848</date> mit Ah. E. v. <date when="1848-04-19">19. 4. 1848</date> zum Divisionär in Siebenbürgen ernannt und gleichzeitig zum Feldmarschalleutnant befördert, <bibl type="archival">KA., HKR., KM., Präs. 491/1848</bibl>.</note> und die Sendung des FML. Gedeon statt des Ersteren nach Herrmannstadt erbitten zu sollen<note type="footnote" n="14">GM. Gedeon war nach der Pensionierung des Divisionärs in Lemberg (FML. Madlener) auf Vortrag Zaninis v. <date when="1848-04-24">24. 4. 1848</date> mit Ah. E. v. <date when="1848-04-29">29. 4. 1848</date> an dessen Stelle berufen und zugleich zum Feldmarschalleutnant ernannt worden, <quote>ebd., Präs. 864/1848</quote>. Der diesbezügliche Vortrag Zaninis v. <date when="1848-05-01">1. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei. MRZ. 477/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 1086/1848</bibl>, wurde mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> resolviert, <quote>ebd.</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 608/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Auszeichnung für Lorenz Laurenti</head>
+                  <p>Ebenso wird einstimmig über den Vortrag des Kriegsministers vom <date when="1848-05-02">2. l. M.</date>
+                     <note type="footnote" n="15">
+                        <quote>Ebd., MRZ. 476/1848</quote>; der entsprechende Akt <bibl type="archival">KA., HKR., KM., Präs. 917/1848</bibl>, ist skartiert worden.</note> darauf angetragen, daß dem Bauunternehmer Lorenz Laurenti zu Codroipo, welcher sich um die schleunigste Herstellung der Brücke über den Tagliamento durch löblichen Eifer und zweckmäßige Anstalten großes Verdienst erworben und dadurch die kriegerischen Operationen wesentlich gefördert hat, die kleine goldene Ehrenmedaille verliehen werde<note type="footnote" n="16">Auf den in Anm. 15 zit. Vortrag wurde Laurenti mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> die kleine goldene Zivilmedaille am Band verliehen, <bibl type="archival">HHSTA., Kab. Kanzlei. MRZ. 608/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Ernennung Joseph Fontanas zum Präses des Kollegialgerichtes in Zara</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> trug unter Vorlegung seines Vortrages vom l. Mai 1848<note type="footnote" n="17">
+                        <quote>Ebd., MRZ. 480/1848</quote>.</note> darauf an, daß die eben erledigte Präsesstelle des Kollegialgerichtes zu Zara dem quieszierten venezianischen Appellationsgerichtsrate Fontana Ag. verliehen werde, der durch Talent, Rechtlichkeit und Treue an Ew. Majestät dieses Postens vollkommen würdig erscheine, und wobei auch sein Quieszentengehalt in Ersparung komme<note type="footnote" n="18">Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> wurde Fontana die Präsesstelle verliehen, <quote>ebd., MRZ. 608/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_25_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Begnadigung für Franz Salat</head>
+                  <p>Mit dem Vortrage des Justizministeriums vom <date when="1848-05-02">2. Mai 1848</date>
+                     <note type="footnote" n="19">
+                        <quote>Ebd., MRZ. 475/1848</quote>.</note> wird das gegen Franz Salat wegen Raubmord geschöpfte Todesurteil vorgelegt und auf Ag. Nachsicht der Todesstrafe angetragen, nicht wegen persönlicher Rücksichten oder eigentümlicher Milderungsumständen, sondern bloß deswegen, weil die Todesstrafe überhaupt von der <pb n="145" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s145.pdf"/>neueren Kriminalrechtslehre angefochten wird, dieselbe vielleicht auch schon bei der nächsten reichsständischen Versammlung in die Frage gestellt werden dürfte, und es mithin geraten ist, die Anwendung einer Strafart von zweifelhaftem Erfolge, wie die Todesstrafe, dermal lieber durch Anwendung des Ah. Begnadigungsrechtes zu umgehen<note type="footnote" n="20">Mit Ah. E. v. <date when="1848-05-06">6. 5. 1848</date> wurde das Todesurteil gegen Salat aufgehoben und die Oberste Justizstelle angewiesen, eine <quote>angemessene zeitliche Strafe</quote> zu bestimmen, <quote>ebd., MRZ. 608/1848</quote>.</note>.</p>
+                  <p>Den au. Anträgen unter 9 und 10 wurde einstimmig beigepflichtet, und es werden somit die den Beschlüssen des tg. Ministerrates entsprechenden Resolutionsentwürfe der Ah. Sanktion ehrerbietigst unterzogen.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am .. Mai 1848. Ficquelmont.</seg>
+                  <seg type="other">Ges. 5. Mai. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, <date when="1848-05-06">6. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

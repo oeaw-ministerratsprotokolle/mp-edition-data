@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="304">Sitzung 304</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-12-26"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z304.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1108</idno>
+                  <idno type="KZ">4033</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-12-26"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 28. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Lasser, Plener (bei II abw.), Wickenburg, Lichtenfels, Forgách, Esterházy; abw. Schmerling, Burger, Hein; BdR. Erzherzog Rainer <date when="1863-01-07">7. 1. 1863</date>.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-12-28">1862-12-28</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei II abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_304_1">Ah. Sanktion des Gesetzes betreffend das Übereinkommen mit der Nationalbank; Alternativen als Auskunftsmittel zur Zustandebringung des Übereinkommens</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_304_2">Auflösung der Handelskammer in Rovereto</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621226-P-0304" ana="a5-b5-z304">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z304.pdf">
+               <title type="num">Nr. 304</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-12-26">26. Dezember 1862</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 28. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Lasser, Plener (bei II <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Wickenburg, Lichtenfels, Forgách, Esterházy; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Schmerling, Burger, Hein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer <date when="1863-01-07">7. 1. 1863</date>.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1108</idno>
+                  <idno type="KZ">4033</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1862-12-26">26. Dezember 1862</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_304_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ah. Sanktion des Gesetzes betreffend das Übereinkommen mit der Nationalbank; Alternativen als Auskunftsmittel zur Zustandebringung des Übereinkommens</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über den Stand seiner Verhandlungen mit der Direktion der österreichischen Nationalbank in betreff der Abschließung eines Übereinkommens der Staatsverwaltung und der Nationalbank<note type="footnote" n="1">Zur Bankakte siehe zuletzt <ref type="protocol-link" target="MRP-1-5-05-0-18621112-P-0282.xml#top_5_5_282_1">MR. v. <date when="1862-11-12">12. 11. 1862</date>/I</ref>. Plener hatte die Beschlüsse des Reichsrates mit Note v. <date when="1862-12-21">21. 12. 1862</date> dem Bankgouverneur mitgeteilt, <bibl type="archival">FA., FM., Präs. 5148/1862</bibl>. Die Bankdirektion hatte am 23. 12. beschlossen, dem Bankausschuß die Annahme der Bankakte <quote>mit alleiniger Ausnahme des Punktes der bedingten Zinsengarantie</quote> (§ 4 des Übereinkommens) zu empfehlen, was einer Ablehnung gleichkam, Note des Gouverneurs an Plener v. <date when="1862-12-24">24. 12. 1862</date>, <quote>ebd., Präs. 5223/1862</quote>. Plener bat sofort die Bankdirektoren zu einer Besprechung am 25. 12. ins Finanzministerium, <quote>ebd., Präs. 5209/1862</quote>, bei der offenbar die Möglichkeiten für einen Kompromiß erwogen wurden, vgl. den folgenden Bericht Pleners. Zu den Verhandlungen siehe auch <bibl type="secondary">
+                           <author>Pressburger</author>, Das Österreichische Noteninstitut 1/2, 691–695</bibl>.</note>.</p>
+                  <p>Der Minister schickte voraus, er habe die Ah. Sanktion des diesfälligen, von den beiden Häusern des Reichsrates vereinbarten Gesetzes noch nicht angesucht und gedächte es erst dann zu tun, wenn gegründete Aussicht auf die Zustandebringung des Übereinkommens vorhanden ist. Es scheine ihm nämlich der Würde Sr. Majestät nicht ganz angemessen, wenn ein Allerhöchstenortes sanktioniertes und publiziertes Reichsgesetz durch das Nichtzustandekommen des Übereinkommens ganz ohne praktische Folge bliebe.</p>
+                  <p>Der Finanzminister habe bei einer, den 25. d. M. <ref xml:id="fn_5_5_304_a">im Finanzministerium</ref>
+                     <note type="variant" n="a" target="#fn_5_5_304_a">Einfügung a–a Pleners.</note> abgehaltenen <ref xml:id="fn_5_5_304_b">Versammlung der Bankdirektion</ref>
+                     <note type="variant" n="b" target="#fn_5_5_304_b">Korrektur b–b Pleners aus <quote>Bankdirektionssitzung</quote>.</note> auf das nachdrücklichste für die unbedingte Annahme des Übereinkommens plädiert und gezeigt, daß eine bloß bedingte Annahme in ihrer Wirkung der Ablehnung vollkommen gleichkommen würde. Aus einer soeben erhaltenen Zuschrift des Bankgouverneurs, welche im Ministerrate vorgelesen wurde<note type="footnote" n="2">Es handelt sich nicht um eine neue Note der Bank, sondern eben um jene vom 24. 12. mit dem ablehnenden Beschluß, <bibl type="archival">FA., FM., Präs. 5223/1862</bibl>, <bibl type="secondary">
+                           <author>Pressburger</author>, Das Österreichische Noteninstitut 1/2, 693</bibl>.</note>, ergebe sich jedoch, daß die Direktion beschlossen habe, dem Bankausschusse <pb n="135" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s135.pdf"/>die unbedingte Annahme nicht zu empfehlen, weil, wenn auch von allen anderen Bedenken abgesehen wird, der § 4 des Übereinkommens durch die Bedingung der Pauschalverzinsung des Darlehens der Regierung einen im Interesse der Nationalbank und ihrer Aktionäre nicht zulässigen Einfluß auf die Gebarung der Bank einräumt, der selbst durch den über Antrag des Abgeordneten Taschek angenommenen Zusatz zu diesem Paragraph nicht beseitigt erscheint, weil der Regierungskommissär, gestützt auf den Statutenparagraph 58, die Direktion im Gebaren wesentlich genieren könnte. Die Direktion verkenne nicht das Gewicht ihrer Verantwortlichkeit dem Staate gegenüber in dem gegenwärtigen entscheidenden Moment. Sie dürfe aber auch nicht ihre Pflicht den Aktionären gegenüber aus dem Auge lassen, und sie müsse sich daher dem Ausschusse gegenüber mit aller Offenheit aussprechen, könne somit die unbedingte Annahme nicht bevorworten. Der Finanzminister zeigte hierauf umständlich, daß die freie Gebarung der Nationalbank durch das Übereinkommen keineswegs in einer irgend bedenklichen Weise beschränkt werden und die Ingerenz der Staatsverwaltung sich überhaupt nicht weiter erstrecken könne, als die Beobachtung der Statuten zu überwachen und zu sichern. Eine volle Unabhängigkeit des Institutes auch in dieser Beziehung sei niemals, auch nicht in der Thronrede vom 1. Mai v. J., versprochen worden und könne nicht zugestanden, ja von der Bank selbst vernünftigerweise nicht gefordert werden. Die Besorgnisse, welche die Bankdirektion hegt und die sie in die Scheu vor der Einflußnahme der Regierung auf ihre Gebarung kleidet, sind vielmehr im wesentlichen folgende: Laut §§ 10 und 11 der Statuten gebühren den Aktionären aus dem Jahreserträgnisse nach Abzug aller Auslagen zunächst 5% des Bankfonds. Von dem Reste wird ¼ in den Reservefonds gelegt, die anderen ¾ sind zur Superdividende bestimmt, welche aus der jährlichen Pauschalsumme von einer Million bis auf 7% im ganzen ergänzt werden soll. Je größer das Reinerträgnis, je geringer die Aufzahlung des Staates. Die Bankdirektoren scheinen nun zu fürchten, daß der Staat seinen Einfluß dahin benützen würde, <ref xml:id="fn_5_5_304_c">daß die Verluste aus Anlaß der Kursdifferenzen bei den Effektenverkäufen</ref>
+                     <note type="variant" n="c" target="#fn_5_5_304_c">Korrektur c–c Pleners aus <quote>um gewisse große Verlustposten</quote>.</note> nicht aus dem Jahreserträgnisse, sondern aus dem Reservefonds zu bestreiten und dadurch den Reinertrag dergestalt zu erhöhen, daß die Aufzahlung ganz oder zum Teile entbehrlich würde. Diese Posten sind eben die abzuschreibenden Kursdifferenzen bei dem Verkauf der Effekten aus dem Bankvermögen, und wohl auch die Kosten für Anschaffung von Silber. Nun ist allerdings der Reservefonds nach § 11 zur Deckung von Verlusten und Abschreibungen was immer für einer Art bestimmt. Allein diese statutarische Bestimmung ist offenbar nur auf den normalen Zustand der Bank berechnet, und der Finanzminister teilt selbst die Meinung, daß jene zwei außerordentlichen Posten, welche während der Periode des Überganges zur Barzahlung vorfallen, nicht nach § 11 behandelt werden können, wobei der Reservefonds übermäßig geschwächt werden müßte. Eine solche Gebarung würde vielmehr dem Sinne der Statuten zuwiderlaufen und die Solidität der Bank gefährden. Um nun diese mit Rücksicht auf den Wortlaut der Statuten wohl nicht ganz ungegründeten Bedenken in der Art zu beheben, daß die Direktion dem Ausschuß die unbedingte Genehmigung des Übereinkommens vorschlagen könnte, gebe es zwei <pb n="136" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s136.pdf"/>Wege: 1. Die Nationalbank gäbe bei Abschluß des Übereinkommens die Bitte ad protocollum, daß die Klarstellung des Statutenparagraphs 11 beim Reichsrate im obigen Sinne erwirkt werden wolle. Das Ministerium könnte seinerseits die Einbringung der diesfälligen Vorlage beim Reichsrate zusichern, ohne jedoch für den Erfolg eine Bürgschaft zu übernehmen, oder 2. die Nationalbank bittet, den § 4 des Übereinkommens dahin zu modifizieren, daß ihr statt einer Million jährlich eine geringere Summe, jedoch unveränderlich und ohne Rücksicht auf das höhere oder geringere Jahreseinkommen, zugesichert werde, wodurch für die Regierung jeder eigennützige Grund, die Gebarung der Bank zu influenzieren, wegfiele. Die Regierung ihrerseits würde sich erbötig erklären, in der nächsten Reichsratssession eine Vorlage zur Erwirkung dieser Modifikation, jedoch ohne jede Haftung für den Erfolg, einzubringen. In der gestrigen Zusammentretung mit der Bankdirektion hat der Finanzminister erklärt, Se. Majestät der Kaiser hätten ihn bereits vor Unterzeichnung des Gesetzes zum Abschluß des Übereinkommens Ah. ermächtigt und es sei der entschiedene Wille Sr. Majestät, daß dieses Übereinkommen jetzt zustande komme. Nebst dem Appell an den Patriotismus habe Edler v. Plener auch die Nachteile geltend gemacht, welche für die Bank selbst aus dem jetzt unterlassenen Abschlusse erwachsen würden. Alleine die größte Wirkung verspreche sich der Finanzminister von einer an den Bankgouverneur zu erlassenden Note – welche sofort vorgelesen wurde<note type="footnote" n="3">Konzept <bibl type="archival">FA., FM., Präs. 5223/1862</bibl>; der Entwurf stammte von Ministerialrat Brentano. Der endgültige Text dieser Note v. <date when="1862-12-26">26. 12. 1862</date>
+                        <bibl type="secondary">
+                           <author>Pressburger</author>, Das Österreichische Noteninstitut 1/2, 700 f.</bibl>
+                     </note> –, in der die oben erwähnten zwei Alternativen als Auskunftsmittel geboten werden mit dem Ersuchen, sich darüber noch vor dem 29. d. M. (Tag der Ausschußsitzung) zu äußern. Gelänge es dadurch, die Direktion zur Stellung des Antrags auf unbedingte Annahme zu stimmen, so sei zu erwarten, daß auch der Bankausschuß, dessen Miglieder gleichfalls auf anderen Wegen vom Minister bearbeitet werden, darauf eingehen, während ein Ablehnungsantrag der Direktion mit dem k. k. Bankgouverneur an der Spitze die Ausschußmänner so irre machen dürfte, daß sich die Mehrheit gegen das Übereinkommen erklären wird.</p>
+                  <p>Im Laufe der über diesen Antrag gepflogenen längeren Beratung erhob der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> das Bedenken, daß es nicht wohl angehe, die Ah. Sanktion des Gesetzes über das mit der Nationalbank zu schließende Übereinkommen länger auf sich beruhen zu lassen. Nach dem Wortlaut des Artikels I werde ja der Finanzminister erst durch dieses Gesetz zum Abschluß ermächtigt. Solang die Ah. Sanktion nicht erfolgte, besteht aber dieses Gesetz noch nicht, und es könnte daher dem Minister ganz konsequent jede Ermächtigung zum Abschlusse dermal noch abgesprochen werden. Es dürften demnach Se. Majestät au. gebeten werden, dem fraglichen Gesetze baldmöglichst die Ah. Sanktion erteilen zu wollen. Sämtliche Stimmführer erklärten sich mit diesem wohlbegründeten Antrage einverstanden, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> behielt sich nur vor, die Publikation desselben bis nach dem Abschluß des Übereinkommens zu verschieben und selbe im Fall des Nichtzustandekommens ganz zu unterlassen, wodurch einer allfälligen Kompromittierung vorgebeugt würde. Gegen diesen Vorbehalt wurde von keiner Seite etwas erinnert<note type="footnote" n="4">Noch am selben Tag legte Plener das Gesetz dem Kaiser vor, der es am <date when="1862-12-27">27. 12. 1862</date> sanktionierte, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3952/1862</bibl>.</note>.</p>
+                  <p>
+                     <pb n="137" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s137.pdf"/>Was die der Bankdirektion vorzuschlagenden Alternativen betrifft, so glaubte bezüglich der ersten – Erwirkung einer Interpretation durch den Reichsrat in dem Sinne der Bankdirektion und des Ministeriums – <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi>, dem der Minister des Äußern beitrat, daß er den Reichsrat nicht als kompetent zur Interpretation des Übereinkommens und der damit untrennbar verbundenen Statuten betrachten könne. Einer der Vertrag schließenden Teile kann nicht Richter sein! <ref xml:id="fn_5_5_304_d">Immerhin möge der Reichsrat erklärende Zusätze zu den Statuten beschließen. Diese nachträglichen Zusätze können aber keine Änderungen in den vertragsmäßigen Rechten der Bank hervorbringen. Diese können nur nach dem ursprünglichen Texte der Statuten beurteilt werden, auf deren Grundlage der Vertrag geschlossen wurde, und hierüber können auch nur die Gerichte entscheiden</ref>
+                     <note type="variant" n="d" target="#fn_5_5_304_d">Einfügung d–d Lichtenfels’.</note>. <ref xml:id="fn_5_5_304_e">Der Finanzminister gab hierauf nur zu, daß das Übereinkommen als ein Vertrag allerdings kein Gegenstand der einseitigen Interpretation des einen Teils, nämlich der Regierung oder der Legislative sein könne, sondern daß bei einem diesfalls dem Reichsrat sich erhebenden Zweifel oder Streite die Zivilrichter zu entscheiden haben. Dagegen stehe es anders mit den Statuten, welche als ein Gesetz erscheinen, dessen Anwendung der Exekutive, dessen authentische Interpretation oder Ergänzung aber nur wieder der Legislative zustehen könne. Hierauf</ref>
+                     <note type="variant" n="e" target="#fn_5_5_304_e">Korrektur e–e Pleners aus <quote>Als der Finanzminister dies zugebend äußerte, ihm habe nicht sowohl eine authentische Interpretation als die Ergänzung einer Lücke durch den Reichsrat vorgeschwebt</quote>.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> gab hierauf nur zu, daß das Übereinkommen als ein Vertrag allerdings kein Gegenstand der einseitigen Interpretation des einen Teils, nämlich der Regierung oder der Legislative sein könne, sondern daß bei einem diesfalls dem Reichsrat sich erhebenden Zweifel oder Streite die Zivilrichter zu entscheiden haben. Dagegen stehe es anders mit den Statuten, welche als ein Gesetz erscheinen, dessen Anwendung der Exekutive, dessen authentische Interpretation oder Ergänzung aber nur wieder der Legislative zustehen könne. Hierauf bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, daß es sich eigentlich um das Zustandebringen einer Additionalakte zum Übereinkommen handeln würde, worin stipuliert wurde, daß die Abschreibungen für Kursverlust der Effekten und die Kosten der Silberanschaffung vom Jahreserträgnis abzuziehen seien.</p>
+                  <p>Auf die Andeutung, es werde sich jede reichsrätliche Ingerenz dadurch beseitigen lassen, daß der Finanzminister einfach den Regierungskommissär instruiert, bezüglich der obigen, von der Bank beabsichtigten Verrechnung jener Verluste und Kosten keine Schwierigkeiten zu erheben, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß <ref xml:id="fn_5_5_304_f">die Frage wegen Behandlung der Effektenverkaufsverluste und Silberankäufe keine Frage des Übereinkommens, sondern eine Frage der Statuten sei, indem nur diese von der Bestimmung über den Reservefonds, aus welchem eben die Verluste getragen werden sollen, handelt. Im Übereinkommen ist diesfalls gar nichts enthalten. Wenn auch die Regierung dem lf. Kommissär bei seiner statutenmäßigen Überwachung der Bank auftragen würde, eine gewisse Art der Behandlung jener Verluste nicht zu beanstanden, so wäre damit der Bank für die Dauer keine Sicherheit gegen das Hervorkommen anderer Ansichten von Seite des Reichsrates gewährleistet, welcher dadurch veranlaßt werden könnte, das Bezahlen der nach einer bestimmten Behandlungsweise der Verluste sich ergebenden höheren Subvention bei der Prüfung des Budgets zu beanstanden</ref>
+                     <note type="variant" n="f" target="#fn_5_5_304_f">Korrektur f–f Pleners aus <quote>die diesfällige Zusicherung der Bank noch keineswegs volle Sicherheit gewähren könnte, weil es dem Abgeordnetenhause, wofern es einer anderen Meinung wäre, noch immer möglich bleibt, das Bezahlen der nach dieser Verechnungsweise ausgemittelten Subvention aus dem Budget zu eliminieren</quote>.</note>. Unter diesen Umständen ist es geraten, die Zustimmung des Reichsrates zu der ersten Alternative zu erwirken. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf <pb n="138" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s138.pdf"/>Nádasdy</rs>
+                     </hi> ist der Meinung, daß der Staat allerdings kein Recht hat, die von der Bank besorgte weitergehende Ingerenz zu üben, aber in eine Interpretation des Gesetzes <ref xml:id="fn_5_5_304_g">sollte die Regierung nach Ansicht dieses Stimmführers</ref>
+                     <note type="variant" n="g" target="#fn_5_5_304_g">Korrektur g–g Nádasdys aus <quote>würde dieser Stimmführer</quote>.</note> der Bank gegenüber ebensowenig eingehen, als die Einbringung <ref xml:id="fn_5_5_304_h">und Unterstützung</ref>
+                     <note type="variant" n="h" target="#fn_5_5_304_h">Einfügung h–h Nádasdys.</note> einer Vorlage an den Reichsrat zusichern, denn man muß <ref xml:id="fn_5_5_304_i">im Namen der Regierung nichts versprechen, wovon man nicht gewiß ist, daß es unter vielleicht geänderten Umständen und Personen auch gehalten werden könne</ref>
+                     <note type="variant" n="i" target="#fn_5_5_304_i">Korrektur i–i Nádasdys aus <quote>nie mehr versprechen, als man gewiß ist, unter allen Umständen halten zu können</quote>.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, die Meinung des Finanzministers im wesentlichen teilend und durchdrungen von der Notwendigkeit, die im Schoße der Bankdirektion erhobenen Schwierigkeiten zu beseitigen, schlug eine veränderte Fassung des Passus in der Note an den Bankgouverneur vor, wonach man beiläufig sagen würde, daß dem Minister eine Auslegung der beregten Bestimmungen der Statuten nicht notwendig scheine und er auch gemäß der übereinstimmenden Auffassung vorgehen werde, daß aber die Regierung, wenn die Bankdirektion darauf einen großen Wert legt, bereit ist, bei dem Reichsrat in der nächsten Session eine Vorlage behufs der Erwirkung der gewünschten ergänzenden Bestimmungen zu machen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte sich mit dieser Modalität vollkommen einverstanden, so auch der Kriegsminister und Minister Ritter v. Lasser. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> bemerkte, die Bankdirektion habe durch die Ablehnung, welche sie vorschnell ins große Publikum transpirieren ließ, einen übereilten Schritt getan. Um des wichtigen Zweckes wegen müsse man ihr einen Ausweg zum Einlenken eröffnen. Als ein solcher erscheine die milde Form der ersten Alternative. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> findet es sehr begreiflich, daß die Bank bei den bekannten Präzedentien Zweifel hegt über die Liberalität, mit der der Staat bei Zahlung seiner Subvention zu Werk gehen wird. Das Zustandekommen des Übereinkommens ist jetzt in vielfacher Beziehung, namentlich auch in politischer, so wichtig, daß man sich diesfalls nicht bloß quid juris, sondern auch quid consilii zu Gemüte führen müsse. Die Regierung könne ja unbedenklich sagen, wie sie die Statuten verstehe, und daß sie zu einem Additionalakte die Hand bieten wolle. Graf Forgách stimme daher mit den Ministern der Finanzen und der Polizei. Minister Graf Esterházy sprach sich in gleicher Weise aus.</p>
+                  <p>Gegen die zweite Alternative machte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> das Bedenken geltend, daß es nicht wohl angehe, von Regierungs wegen auf eine Modifikation des kaum erst sanktionierten Gesetzes, und zwar in dem wichtigen § 4, die Verzinsung der 80 Millionen betreffend, anzutragen. Votant verkenne nicht, daß unter den zwei Wegen diese Alternative der Direktion am meisten zusage und daher alle Chancen haben wird, vom Bankausschusse angenommen zu werden. Allein bei alledem bleibe es unzukömmlich, daß die Regierung damit die Initiative ergreife, und sie könne sich höchstens dazu von der Nationalbank drängen lassen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, dem sich auch der Kriegsminister anschloß, fände keine Inkonsequenz darin, wenn die Regierung zuerst ein billiges Auskunftsmittel zur Sprache bringt, <pb n="139" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s139.pdf"/>welches ihren eigenen, bis zum letzten Augenblicke verteidigten Anträgen näher liegt als die Bestimmung des Gesetzes. <ref xml:id="fn_5_5_304_j">Übrigens werden die meisten vom ursprünglichen Regierungsentwurfe abweichenden Bestimmungen der Bankakte in kurzer Zeit wieder aufgegeben und die ursprünglichen Bestimmungen aufgenommen werden müssen, wozu beispielsweise in der Notenbedeckung im Gesetze selbst die Umkehr bereits angebahnt ist</ref>
+                     <note type="variant" n="j" target="#fn_5_5_304_j">Einfügung j–j Pleners.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> pflichtete der Meinung des Ministers v. Lasser bei, indem die wesentliche Änderung eines Gesetzes viel weiter gehe als die bloße Interpretation oder Ergänzung desselben. Auch sei wohl weniger Aussicht vorhanden, das Abgeordnetenhaus für eine Änderung zu gewinnen. Auf den letzteren Einwand erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß dieses lediglich Sache der Nationalbank sei, indem die Regierung keinerlei Garantie übernehme und das Übereinkommen unbedingt angenommen werden müsse. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> kann die Bedenken des Ritters v. Lasser gegen eine direkte Initiative der Regierung nur teilen und wünscht, es möge eine andere Form gefunden werden. Der Handelsminister trat dem Finanzminister bei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">ungarische Hofkanzler und Minister Graf Esterházy</rs>
+                     </hi> glauben, daß die zweite Alternative, welche dem Wunsche der Bankdirektion und selbst den Regierungsintentionen mehr entspricht, in der Rücknote leniter<note type="footnote" n="5">milde, ruhig, wohl im Sinne von abgeschwächt.</note> berührt werden dürfte<note type="footnote" n="6">In der in Anm. 3 zit. Note v. 26. 12. gab Plener die ausdrückliche Versicherung ab, daß sich die Überwachung der Bank durch die Staatsverwaltung nur auf die allgemeine Kontrolle nach Maßgabe der Statuten beschränke, und erklärte namens der Regierung die Bereitschaft, ein Ansuchen der Nationalbank auf eine geringere, aber feste Verzinsung entgegenzunehmen und dem Reichsrat in der nächsten Session vorzulegen; siehe dazu <ref type="protocol-link" target="MRP-1-5-06-0-18630727-P-0378.xml#top_5_6_378_3">MR. v. <date when="1863-07-27">27. 7. 1863</date>/III</ref>. Daraufhin empfahl die Bankdirektion die Annahme der Bankakte, die durch den Bankausschuß am 29. 12. erfolgte. Am <date when="1863-01-03">3. 1. 1863</date> wurde das Übereinkommen unterzeichnet. Mit Vortrag v. <date when="1863-01-04">4. 1. 1863</date> legte Plener Übereinkommen, Statut und Reglement dem Kaiser vor, der sie mit Ah. E. v. <date when="1863-01-06">6. 1. 1863</date> genehmigte, <bibl type="archival">FA., FM., Präs. 5301/1862 (K.) und Präs. 93/1863 (RS.)</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 31/1863</bibl>. Publikation <date when="1863-01-14">14. 1. 1863</date>, <bibl type="archival">RGBL. Nr. 2/1863</bibl>. Druck u. a. <bibl type="secondary">
+                           <author>Pressburger</author>, Das Österreichische Noteninstitut 1/2, 719–744</bibl>.Mit der Verabschiedung und Annahme der Bankakte war ein wichtiger Schritt zur Konsolidierung der Währung und des Staatshaushaltes getan, vgl. Einleitung XIX und <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/3, XXIX–XXXVIII</bibl>; Literatur <quote>ebd., Anm. 102</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_304_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Auflösung der Handelskammer in Rovereto</head>
+                  <p>
+                     <ref xml:id="fn_5_5_304_k"/>
+                     <note type="variant" n="k" target="#fn_5_5_304_k">Randvermerk Ransonnets: <quote>Der Finanzminister nahm an der Beratung des Punktes II keinen Anteil</quote>.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> referierte, der Staatsminister habe sich an ihn mit dem Ersuchen gewendet, die Handelskammer zu Rovereto nach dem Antrage des Kreischefs und des Statthalters aufzulösen. Diese von revolutionären Prinzipien durchdrungene Kammer habe sich nämlich geweigert, eine Wahl in den Landtag vorzunehmen und in wiederholten Eingaben an das Staatsministerium gehässige Beschwerden in ganz unzukömmlicher Sprache geführt. Zum Überfluß habe sie ihre beiden Beschwerdeschriften sofort durch den „Messaggiere Tirolese“ veröffentlicht, da es ihr augenscheinlich um Demonstrationen zu tun sei. Graf Wickenburg würde keinen Anstand nehmen, von seinem Auflösungsrechte Gebrauch zu machen, und es frage sich nur, ob, dann wie diese Verfügung im diesfälligen Erlaß zu motivieren wäre. Bei der Möglichkeit, daß die Auflösung der Handelskammer der Gegenstand <pb n="140" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s140.pdf"/>einer Interpellation werden könnte, gedächte Referent, dieselbe durch die Überschreitung des Wirkungskreises und die Renitenz dieses Körpers zu begründen.</p>
+                  <p>Der Ministerrat vereinigte sich mit dem Antrage des <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsidenten</rs>
+                     </hi>, die Auflösung ganz ohne Motive auszusprechen, indem die Ausschreitungen der Handelskammer ohnehin den Gegenstand einer Amtshandlung des Staatsanwaltes bilden werden, dieselben übrigens in Tirol notorisch sind und die ganz einfache Auflösung als die würdigste Antwort der Regierung solchen Behelligungen gegenüber erscheint<note type="footnote" n="7">Wickenburg verfügte sofort die Auflösung gemäß § 12 des Gesetzes v. <date when="1850-03-26">26. 3. 1850</date>, <bibl type="archival">RGBL. Nr. 122/1850</bibl>. Sie wurde mit Dekret der Statthalterei in Innsbruck v. <date when="1863-01-03">3. 1. 1863</date> publiziert, z. B. in <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=imt&amp;datum=18630110">Il Messaggiere Tirolese</ref>
+                           </title> v. <date when="1863-01-10">10. 1. 1863</date>
+                        </bibl>. Zum Konflikt siehe auch <quote>ebd. v. <date when="1863-01-09">9. 1. 1863</date>
+                        </quote>. Die betreffenden Akten des MHVw. im <quote>AVA.</quote> sind skartiert.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1862-12-28">28. Dezember 1862</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. [Wien, <date when="1863-01-07">7. 1. 1863</date>
+                     <ref xml:id="fn_5_5_304_l"/>
+                     <note type="variant" n="l" target="#fn_5_5_304_l">Ort und Datum der Ah. Entschließung fehlen auf dem Originalprotokoll, sie sind jedoch in <bibl type="archival">HHSTA., Kab. Kanzlei, Protokoll 1862</bibl>, verzeichnet.</note>.]</seg>
+                  <seg type="other">Empfangen <date when="1863-01-07">7. Jänner 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

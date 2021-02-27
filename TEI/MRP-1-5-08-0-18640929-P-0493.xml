@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="493">Sitzung 493</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-09-29"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z493.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1297</idno>
+                  <idno type="KZ">3112</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-09-29"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 3. 10.), Rechberg (bei IV und V abw.), Mecséry, Nádasdy, Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg; außerdem anw. Biegeleben (nur bei I–III), Friedenfels (nur bei I); abw. Schmerling, Esterházy; BdR. Erzherzog Rainer 21. 10.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-10-03">1864-10-03</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei IV und V abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8998">
+                     <surname>Biegeleben</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I–III)</note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr9020">
+                     <surname>Friedenfels</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_493_1">Sanktion des Gesetzartikels über die Wahl der siebenbürgischen Reichsratsabgeordneten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_493_2">Errichtung von Ackerbaukammern in den Kronländern</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_493_3">Belehnung des Fürsten Richard Metternich mit der Domäne Johannisberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_493_4">Schutz des Fiskus vor nachteiligen Entscheidungen der ungarischen Gerichte</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_493_5">Erhöhung der Steuerrückvergütung für den aus Österreich ausgeführten Rübenzucker</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640929-P-0493" ana="a5-b8-z493">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z493.pdf">
+               <title type="num">Nr. 493</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-09-29">29. September 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 3. 10.), Rechberg (bei IV und V <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Mecséry, Nádasdy, Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Biegeleben (nur bei I–III), Friedenfels (nur bei I); <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Schmerling, Esterházy; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 21. 10.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1297</idno>
+                  <idno type="KZ">3112</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-09-29">29. September 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_8_493_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Sanktion des Gesetzartikels über die Wahl der siebenbürgischen Reichsratsabgeordneten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag der siebenbürgischen Hofkanzlei vom <date when="1864-09-28">28. September 1864</date> wegen Ah. Sanktionierung des Gesetzartikels über die Wahl der siebenbürgischen Abgeordneten für den Reichsrat<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-5-08-0-18640728-P-0482.xml#top_5_8_482_1">MR. v. <date when="1864-07-28">28. 7. 1864</date>/I</ref>. Zur zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f.</note>.</p>
+                  <p>Der Staatsrat hat die Anträge der Hofkanzlei zur Ah. Genehmigung geeignet gefunden, zumal die einzige am Regierungsentwurf vom Landtage vorgenommene Modifikation des § 3, wonach das Gesetz vom Tage der Kundmachung im Landtage, statt vom Tage der allgemeinen Kundmachung wirksam wird, im Interesse der höchst wünschenswerten Beschleunigung plausibel erscheint.</p>
+                  <p>Der Ministerrat schloß sich den Anträgen auf die Ah. Sanktion an<note type="footnote" n="2">Mit Ah. E. v. <date when="1864-10-02">2. 10. 1864</date> sanktionierte Franz Joseph den Gesetzartikel und unterfertigte gleichzeitig das entsprechende Reskript an den Landtag, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2941/1864</bibl>; <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 4542/1864 (K.) und 4625/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 857/1864</bibl>.</note>, <ref xml:id="fn_5_8_493_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_493_a">Randvermerk Ransonnets: <quote>Nach erfolgter Abstimmung über diesen Gegenstand verließ Hofrat Baron Friedenfels den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_493_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Errichtung von Ackerbaukammern in den Kronländern</head>
+                  <p>Der Präsident des Staatsrates referierte über das vom Handelsministerium unterstützte wiederholte Gesuch der Wiener Landwirtschaftsgesellschaft um Errichtung von Ackerbaukammern in den verschiedenen Kronländer<note type="footnote" n="3">Die Eingabe des Zentralausschusses der k. k. Landwirtschaftsgesellschaft in Wien an die Ministerkonferenz v. <date when="1864-05-28">28. 5. 1864</date> wurde dem Handelsminister zur Stellungnahme übergeben; diese erfolgte mit den Noten v. <date when="1864-07-17">17. 7. 1864</date> und v. <date when="1864-08-18">18. 8. 1864</date>, beide <bibl type="archival">AVA., MHVW., Präs. 864/1864</bibl>; die Eingabe selbst liegt dem Akt nicht bei; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 669/1864 und 746/1864</bibl>.</note>.</p>
+                  <p>Der Referent gab einen historischen Überblick der Vorverhandlungen, beginnend mit dem Antrage des Ministers Baron Bach de dato <date when="1858-03-20">20. März 1858</date> auf Gründung eines Zentralrates für Landeskultur, welcher Antrag mit Ah. Entschließung vom <date when="1858-06-17">17. Juni 1858</date> abgelehnt worden ist<note type="footnote" n="4">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MCZ. 1219/1858</bibl>; siehe auch MK. v. <date when="1858-04-10">10. 4. 1858</date> und <bibl type="archival">HHSTA., RR., GA. 731/1858</bibl>.</note>. Hierauf wurden die vom Handelsministerium zur Unterstützung des Gesuches <pb n="139" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s139.pdf"/>geltend gemachten Gründe vorgelesen und beigefügt, daß Freiherr v. Kalchberg den vom Grafen Wickenburg seinerzeit verfaßten Entwurf eines Reichsgesetzes über diesen Gegenstand zurückgezogen habe, weil er glaube, daß die Ackerbaukammern, da sie nach seiner Meinung keine Vertretungskörper, sondern bloß Beiräte der Regierung werden sollen, einfach im Verordnungswege eingeführt werden können<note type="footnote" n="5">In der oben zit. Note v. <date when="1864-07-17">17. 7. 1864</date> hatte Kalchberg die Notwendigkeit von Ackerbaukammern oder Landeskulturräten betont. Er habe es als bloß provisorischer Leiter des Handelsministeriums nicht passend gefunden, in dieser Sache intitiativ zu werden, doch sollte man nun nicht mehr zögern. In der Nachtragsnote v. <date when="1864-08-18">18. 8. 1864</date> hatte er einen noch von Wickenburg vorgelegten Gesetzentwurf zurückgezogen und die Ansicht vertreten, daß die in Rede stehenden Institutionen im Verordnungsweg einzuführen seien. Anträge darüber behielt er sich für einen späteren Zeitpunkt vor.</note>. Der Staatsrat und dessen Präsident sind übereinstimmend mit dem vom Staats- und Polizeiministerium im Jahre 1862 bezüglich der „Landeskulturräte“ abgegebenen Gutachten<note type="footnote" n="6">Zu dem von Wickenburg im Jahre 1862 vorbereiteten Gesetzentwurf siehe <bibl type="archival">AVA., MHVw., Präs. 145/1862 und Präs. 864/1864</bibl> mit Aktenstücken aus 1861/62 und einem Verzeichnis der Vorakten; Gutachten des Staats- und des Polizeiministeriums <quote>ebd., Präs. 227/1862</quote>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 378/1861 und JStr. 963/1862</bibl>.</note> der Meinung, daß die von der Wiener Landwirtschaftsgesellschaft neu beregte Angelegenheit auf sich zu beruhen habe. Denn insofern es sich bei der fraglichen Institution darum handelt, den Ausdruck der Wünsche der Bevölkerung in Beziehung auf landwirtschaftliche Interessen zu hören, so sei diese bereits durch die Orts- und Bezirksgemeinde, durch die Landtage und den Reichsrat so vielfach vertreten, daß ein Mangel an Initiative nicht vorhanden sein kann und die Vermehrung der bestehenden Repräsentationen nur als ein Übel angesehen werden müßte. Insoferne es sich aber um technische Ratschläge zum eigenen Gebrauche der Regierung handelt, werde diese sicher besser tun, die Individuen, welche hiebei vorzugsweise Vertrauen verdienen, selbst auszuwählen, als sich auf Wahlen zu verlassen, die bei jeder Art des Organismus von einer Menge unberechenbarer Zufälle abhängen. Zudem wird heutzutage bei uns bereits zu oft und viel gewählt!</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> glaubte sich darauf beschränken zu sollen, seine Meinung über die Nützlichkeit der proponierten Ackerbaukammern den gemachten Einwendungen gegenüber weiters zu begründen. Man weise auf die vielen Vertretungskörper hin, welche bereits für die landwirtschaftlichen Interessen das Wort führen können. Aber wie sind diese Körper zusammengesetzt? Neben Vertretern aus dem Schoße der „Intelligenz“, der Industrie, des Handels und der Kapitalisten sitzen dort allerdings auch große und kleinere Grundbesitzer, welche aber nur selten landwirtschaftliche Kapazitäten sind, und selbst diese haben meistens eine sehr einseitige Anschauung. Jene Körper können daher durchaus keinen Ersatz bieten für die „Ackerbaukammern“, in welche die Regierung möglichst unbefangene theoretisch und praktisch gebildete Ökonomen berufen würde, die sich die Aufgabe machen müßten, die Fortschritte der rationellen Landwirtschaft einerseits und andererseits den faktischen Zustand von Ackerbau und Viehzucht im betreffenden Kronlande unausgesetzt zu beobachten, entsprechende Vorschläge zu erstatten und der Regierung die begehrten Gutachten mit aller Unbefangenheit abzugeben. Die Zusammensetzung von landwirtschaftlichen Beratungskommissionen von Fall zu Fall<note type="footnote" n="7">Dies hatte die oben zit. Ah. E. v. <date when="1858-06-17">17. 6. 1858</date> angeordnet.</note> werde die Tätigkeit stabiler Körper <pb n="140" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s140.pdf"/>nicht ersetzen, da eben eine fortgesetzte Tätigkeit desselben Gremiums erforderlich erscheint. Die Landwirtschaftsgesellschaften, wie sie jetzt sind, aber können dem Handelsministerium sowie den Landesstellen die benötigten Dienste nicht leisten, da in diesen Vereinen meist nur ein paar Mitglieder das Wort führen, von denen nicht stets gründliche und unbefangene Äußerungen zu erwarten sind. Freiherr v. Kalchberg glaube daher, daß für die beregte Einrichtung ein wirkliches Bedürfnis streite, und er wolle noch auf das Beispiel von Preußen, Sachsen und Bayern hinweisen, wo dieselbe Institution mit Nutzen in Tätigkeit ist. In letzterer Beziehung glaubte <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> berichtigen zu müssen, daß die Wirksamkeit der preußischen Ackerbaukammern sich beinahe auf nichts reduziere. Ferner könne er nicht unterlassen zu bemerken, daß das Handelsministerium den Gesetzentwurf des Grafen Wickenburg zurückgezogen habe, ohne seine dermaligen Anträge mit Bestimmtheit darzulegen<note type="footnote" n="8">Vgl. Anm. 5.</note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> erklärt, er sei mit der Bildung von solchen durch die Regierung zusammengesetzten Kammern durchaus nicht einverstanden. Dieselben werden im Publikum kein Vertrauen genießen, und die Landtage, die sich verfassungsmäßig als Vertreter der agrikolen Interessen gerieren, werden sie scheel ansehen. Der <hi rend="#letterspaced">
+                        <rs type="person">Finanzministe</rs>
+                     </hi>r ist zwar prinzipiell kein Gegner der fraglichen Einrichtung, hält jedoch das Projekt noch nicht für dergestalt gereift, daß er sich heute schon für dessen Ausführung entscheiden könne. <ref xml:id="fn_5_8_493_b">Für heute dürfte, ohne vorgreifend in der Hauptsache zu entscheiden, dem Herrn Leiter des Handelsministeriums die weitere Erwägung und Ergänzung des Gegenstandes zu überlassen und sich auf die ablehnende Erledigung der zugrunde liegenden Privateingabe zu beschränken sein</ref>
+                     <note type="variant" n="b" target="#fn_5_8_493_b">Einfügung b–b Pleners.</note>. Minister Ritter v. Hein teilte diese Anschauung. Die Minister Baron Mecséry, Graf Nádasdy und Freiherr v. Burger, dann der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> schlossen sich dem Antrage des Staatsrates an, letzterer mit dem Bemerken, daß der Ackerbau allerdings für die Monarchie von höchster Wichtigkeit sei, aber die Vereine, welche sich zu dessen Förderung namentlich in Ungarn gebildet haben, insgemein ganz andere Interessen verfolgen als die agrikolen<note type="footnote" n="9">Zu Konflikten zwischen der Regierung und einzelnen Landwirtschaftsgesellschaften siehe <ref type="protocol-link" target="MRP-1-5-03-0-18611227-P-0173.xml#top_5_3_173_4">MR. v. <date when="1861-12-27">27. 12. 1861</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-5-03-0-18620116-P-0184.xml#top_5_3_184_2">MR. I v. <date when="1862-01-16">16. 1. 1862</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z172" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z172.pdf">ÖMR. V/2, Nr. 172</ref>
+                        </bibl> und <quote>Nr. 184</quote> (Galizien); <ref type="protocol-link" target="MRP-1-5-04-0-18620610-P-0237.xml#top_5_4_237_5">MR. v. <date when="1862-06-10">10. 6. 1862</date>/V</ref> und <ref type="protocol-link" target="MRP-1-5-04-0-18621001-P-0264.xml#top_5_4_264_2">MR. v. <date when="1862-10-01">1. 10. 1862</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z237" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z237.pdf" target="MRP-1-5-04-0-18620610-P-0237.xml">ÖMR. V/4, Nr. 237</ref>
+                        </bibl> und <quote>Nr. 264</quote> (Böhmen); <ref type="protocol-link" target="MRP-1-5-05-0-18630209-P-0320.xml#top_5_5_320_1">MR. I v. <date when="1863-02-09">9. 2. 1863</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-05-0-18630213-P-0323.xml">MR. v. <date when="1863-02-13"/>13. 2. 1863</ref> II, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z320" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z320.pdf" target="MRP-1-5-05-0-18630209-P-0320.xml">ÖMR. V/5, Nr. 320</ref>
+                        </bibl> und <quote>Nr. 323</quote> (Siebenbürgen).</note>.</p>
+                  <p>Nachdem sich sohin die Stimmenmehrheit gegen den Antrag des Leiters des Handelsministeriums ausgesprochen hatte, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, daß sich die der Wiener Landwirtschaftsgesellschaft zu gebende Erledigung selbstverständlich auf ihr Petitum, die Gründung von agrikolen Vertretungskörpern nach dem Beispiel der aus Wahl hervorgehenden Handelskammern, zu beschränken haben werde<note type="footnote" n="10">Schreiben des Leiters des Handelsministeriums an die Landwirtschaftsgesellschaft <bibl type="archival">AVA., MHVw., Präs. 1578 bei ebd. 864/1864</bibl>. Zur Geschichte der staatlichen und der privaten Institutionen zur Förderung der Landwirtschaft siehe <bibl type="secondary">
+                           <author>Bruckmüller</author>, Landwirtschaftliche Organisationen</bibl>; <bibl type="secondary">
+                           <author>Dinklage</author>, Die landwirtschaftliche Entwicklung.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Habsburgermonarchie 1, 451–461</bibl>; <bibl type="secondary">
+                           <author>Goldinger</author>, Die Zentralverwaltung in Cisleithanien</bibl>. In: <quote>ebd. 2, 119–125</quote>; <bibl type="secondary">
+                           <author>Malfèr</author>, Landwirtschaftliche Interessenvertretung</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_493_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Belehnung des Fürsten Richard Metternich mit der Domäne Johannisberg</head>
+                  <p>Der Präsident des Staatsrates referierte über den Vortrag des Ministers des kaiserlichen Hauses und des Äußern vom <date when="1864-05-19">19. Mai 1864</date> wegen Belehnung des Fürsten Richard Metternich mit der Domäne Johannisberg im Rheingau<note type="footnote" n="11">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3010/1864</bibl>; Gutachten des Staatsrates ebd., <quote>JStr. 463/1864</quote>. Die früher dem Bistum Fulda gehörende Domäne (Schloß und Weingut) Johannisberg im Rheingau ging 1815 aufgrund Art. 51 der Wiener Kongreßakte ins Eigentum des Kaisers von Österreich über, der 1816 den Staatskanzler Metternich damit belehnte. Nach dem Tod des Fürsten Clemens Metternich im Jahre 1859 erbte sein Sohn Fürst Richard Metternich die Domäne und suchte um die kaiserliche Bestätigung an.</note> und erwähnte, daß das darüber vernommene Staatsministerium sich gegen die lehnbare Eigenschaft der Domäne, der Finanzminister aber dahin ausgesprochen habe, daß er von seinem Standpunkt gegen die angesuchte Belehnung keine Erinnerung erhebe. Beim Staatsrate habe sich die relative Majorität aus den im Beratungsprotokolle niedergelegten Gründen gegen das Vorhandensein der Eigenschaft eines Lehens, der Staatsratspräsident aber mit der Minorität dem Antrage des Ministers Grafen Rechberg angeschlossen, der im nachfolgenden Resolutionsentwurfe seinen Ausdruck findet: „Ich nehme die von Seite des Fürsten Richard Metternich erfolgte Anzeige über seinen Besitzantritt der zur österreichischen Krone im Lehensverhältnisse stehenden Domäne Johannisberg im Rheingau zur Kenntnis und erteile hiezu Meine lehensherrliche Sanktion, wovon Sie den Fürsten Metternich zu verständigen haben. Auch beauftrage Ich Sie, sich wegen Ausfertigung des Lehenbriefes und der noch weiters erforderlichen Urkunden mit Meinem Staats- und Finanzminister ins Einvernehmen zu setzen. Die betreffenden Entwürfe sind Mir seinerzeit zur Genehmigung vorzulegen.“</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> äußerte, bei Beurteilung der vorliegenden Angelegenheit hänge das Ergebnis lediglich davon ab, ob man sich auf den juridischen oder den politischen Standpunkt stelle. Das Staatsministerium, vom ersteren ausgehend <ref xml:id="fn_5_8_493_c">und als oberster Lehenhof bloß die Frage, ob nach striktem Lehengesetze die Domäne Johannisberg ein österreichisches Lehen sei, beurteilend</ref>
+                     <note type="variant" n="c" target="#fn_5_8_493_c">Einfügung c–c Lassers.</note>, konnte dem Johannisberg die Eigenschaft eines Lehens nicht zuerkennen, nachdem im der Verleihung zum Grunde liegenden kaiserlichen Handschreiben vom Jahre 1816<note type="footnote" n="12">Abschrift des Handschreibens v. <date when="1816-07-01">1. 7. 1816</date>, <bibl type="archival">HHSTA., Staatskanzlei, Dipomatische Korrespondenz: Kleinere Betreffe/Domäne Johanniberg 6b (Karton 8)</bibl>.</note> eines Lehens gar keine Erwähnung geschah, die <ref xml:id="fn_5_8_493_d">Domäne dem Fürsten Metternich in das volle Eigentum übergeben ward</ref>
+                     <note type="variant" n="d" target="#fn_5_8_493_d">Einfügung d–d Lassers.</note>, die Verleihung ohne Dazwischenkunft der vereinigten Hofkanzlei – der Obersten Lehenbehörde – stattfand, eine Investitur nicht erteilt und keine Lehentreue bedungen wurde, somit die Kriterien eines Lehens fehlen. Im Staatsvertrage vom <date when="1850-12-20">20. Dezember 1850</date>, § 1, erscheint zum ersten Male dem Kaiser von Österreich das „lehensherrliche Obereigentum“ vorbehalten!<note type="footnote" n="13">Gemeint ist der Ausgleichsvertrag zwischen dem Kaiser von Österreich und dem Herzog von Nassau v. <date when="1850-12-20">20. 12. 1850</date>, in dem österreichischerseits auf die Souveränitätsrechte verzichtet wurde, Abschrift <quote>ebd., 6d (Karton 9).</quote>
+                     </note> Stellt man sich jedoch auf die durch diesen Staatsvertrag erst geschaffene Rechtsbasis, wodurch die früher sehr unbestimmten und daher streitigen Rechte der Interessenten namentlich bezüglich der Steuerpflicht <pb n="142" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s142.pdf"/>geregelt wurden, so erscheine der Antrag des Ministers des Äußern plausibel und geeignet, die Verhältnisse der Domäne in dem mühsam errungenen Geleise zu erhalten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> vereinigte sich mit dem Antrage des Staatsratspräsidenten. Wenn es gleich zweifelhaft erscheint, ob man 1816 schon ein förmliches Lehensverhältnis im Auge hatte, so wurde doch schon damals der Heimfall der Domäne und die Entrichtung eines jährlichen Kanons vorbehalten. Die darin enthaltene Andeutung wurde im Staatsvertrage vom <date when="1850-12-20">20. Dezember 1850</date>, explizit und vertragsmäßig, mit Zustimmung des Fürsten [Clemens] Metternich festgesetzt.</p>
+                  <p>Die übrigen Stimmführer traten ebenfalls dem Antrag des Grafen Rechberg bei<note type="footnote" n="14">Am <date when="1864-10-08">8. 10. 1864</date> unterzeichnete Franz Joseph die von Rechberg beantragte Resolution. 1880 ersuchte Fürst Richard Metternich um Aufhebung des Lehenbandes. Durch Schenkung v. <date when="1880-11-04">4. 11. 1880</date> ging Johannisberg ins Eigentum der Familie Metternich über; Abschrift der Schenkungsurkunde <bibl type="archival">HHSTA., Admin. Reg., F 53, Karton 8 (Errichtung des Familienfiedeikommisses Johannisberg)</bibl>.</note>, <ref xml:id="fn_5_8_493_e"/>
+                     <note type="variant" n="e" target="#fn_5_8_493_e">Randvermerk Ransonnets: <quote>Nach erfolgter Abstimmung über den Punkt III verließen Graf Rechberg und Hofrat v. Biegeleben den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_493_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Schutz des Fiskus vor nachteiligen Entscheidungen der ungarischen Gerichte</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag des Finanzministers vom <date when="1864-08-29">29. August 1864</date> in betreff der Gefahren, welchen das Ärar durch die Entscheidungen der dermaligen ungarischen Gerichte ausgesetzt ist, und um Ah. Erlassung eines k[aiserlichen] Handschreibens an den ungarischen Hofkanzler, um diesfalls abzuhelfen und noch vor der Reform der ungarischen Gerichtspflege Garantien zum Schutze des Fiskus zu schaffen<note type="footnote" n="15">Vortrag des Finanzministers v. <date when="1864-08-29">29. 8. 1864</date>, <bibl type="archival">FA., FM., III. Abt. (Kredit), Nr. 40933/1864</bibl> (K.) und <quote>Nr. 19445/1864</quote> (zurückgstellte. RS.), <quote>Faszikulatur 14.B.9</quote>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 786/1864</bibl>. Zur Reform der ungarischen Gerichtspflege siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640531-P-0476.xml#top_5_8_476_1">MR. v. <date when="1864-05-31">31. 5. 1864</date>/I</ref>.</note>.</p>
+                  <p>Von den zwei Fällen, worüber sich der Finanzminister Allerhöchstenortes wegen Verkürzung des Fiskus durch die Gerichte beschwert<note type="footnote" n="16">Es handelte sich um die Haftung des Fiskus für Gelder und Depositen, die durch Diebstahl oder Veruntreuung in Verlust geraten waren.</note>, sei der eine wegen Mangels der Akten zur Prüfung nicht geeignet, der andere aber so geartet, daß Referent mit den ungarischen Gerichten über die Zahlungspflicht des Ärars einverstanden sein müsse. Mögen daher immerhin Fälle nicht selten vorkommen, wo die ungarischen Gerichte den Fiskus zu streng behandeln, die zwei in Rede stehenden können nicht als Anlaß zu einer den Gerichten zu erteilenden Rüge oder Erinnerung dienen. Andererseits sei nicht abzusehen, welche Garantien der ungarische Hofkanzler für den Schutz des Fiskus dermal zu geben vermöchte. Habe doch der Finanzminister selbst die Verweisung der ungarischen Fiskalprozesse vor die Militärgerichte als ein extremes Mittel bezeichnet, und die Alternative der Verweisung dieser Prozesse vor die Gerichtsbehörden in Wien müsse bei unbefangener Beurteilung nicht minder extrem und untunlich erscheinen. Unter diesen Umständen könne Referent nur dem einstimmigen Antrage des Staatsrates beitreten, „daß dieser Antrag des Finanzministers auf sich zu beruhen habe“.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß er bei den gewünschten „Garantien“ nicht an die eben berührten, allerdings extremen Maßregeln gedacht habe. Seine Absicht sei nur dahin gerichtet, daß der ungarische Hofkanzler Allerhöchstenortes aufgefordert werde, <pb n="143" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s143.pdf"/>in geeigneter Weise bei dem Septemvirate dahin zu wirken, daß das Interesse des Fiskus von den Gerichtsbehörden nicht jederzeit geopfert werde. Denn tatsächlich würden in Ungarn alle Parteien besser behandelt als der Fiskus! Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> äußerte hierauf, er lasse eben ein Gesetz über die Syndikatsbeschwerden bearbeiten, wodurch den Beschwerden wegen ungebührlich ausgesprochener Haftung des Ärars für Defraudationen etc. gesteuert werden soll, aber dermal wisse er weder Garantien zu bieten noch sonst wirksam Abhilfe zu schaffen, es wäre denn vielleicht eine ganz allgemein lautende Erinnerung an die Septemviraltafel, in den Prozessen, wo der Fiskus beteiligt ist, streng nach dem Recht und mit Beschleunigung vorzugehen. Bei der voraussichtlichen Erfolglosigkeit dieses Schrittes könne demnach Graf Zichy nur dem Antrage des Staatsrates zustimmen. <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> fügte bei, daß ein für die Ehre seines Gremiums empfindlicher Präsident eine solche Erinnerung wegen des darin enthaltenen indirekten Tadels nicht stillschweigend hinnehmen könne, sondern den Nachweis spezieller Fälle fordern werde, der hier nicht so leicht würde geliefert werden, was wieder dann sehr unangenehme Konsequenzen hätte. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> hielt es gleichfalls für rätlich, vor allem prägnante Fälle von <ref xml:id="fn_5_8_493_f">offenbar ungerechten</ref>
+                     <note type="variant" n="f" target="#fn_5_8_493_f">Korrektur f–f Nádasdys aus <quote>gesetzwidrigen.</quote>
+                     </note> Urteilen abzuwarten, bevor man zu solchen Erinnerungen schreitet. Übrigens müsse er bemerken, daß das Sachfälligwerden des Fiskus<note type="footnote" n="17">sachfällig werden = einen Prozeß verlieren.</note> in Ungarn und Siebenbürgen keineswegs eine neue Erscheinung sei, sondern auch in vormärzlicher Zeit beinahe die Regel war und <ref xml:id="fn_5_8_493_g">damals auch bei Ah. Entscheidungen stattfand</ref>
+                     <note type="variant" n="g" target="#fn_5_8_493_g">Korrektur g–g Nádasdys aus <quote>von Ah. Stelle im Berufungswege nicht redressiert wurde.</quote>
+                     </note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi>, dem Staatsratspräsidenten beitretend, erklärte sich gegen jede Influenzierung des Septemvirats durch den Hofkanzler. Die übrigen Stimmen traten ebenfalls der Meinung des Staatsrates bei.</p>
+                  <p>Infolge dieses vom Ministerrate gefaßten Beschlusses erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, seinen Vortrag zurückzuziehen, und ersuchte um Rückstellung der Akten, erneuerte jedoch zugleich die Bitte, der ungarische Hofkanzler wolle, bei schicklicher Gelegenheit, auf das Präsidium des Septemvirats im Interesse des Fiskus <ref xml:id="fn_5_8_493_h">in geeigneter Weise</ref>
+                     <note type="variant" n="h" target="#fn_5_8_493_h">Einfügung h–h Pleners.</note> wirken.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_493_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Erhöhung der Steuerrückvergütung für den aus Österreich ausgeführten Rübenzucker</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> referierte über das Gesuch des österreichischen Vereins für Rübenzuckerindustrie um Erhöhung der Steuerrückvergütung für exportierten raffinierten Zucker von 4 fl. 30 Kreuzer per Zentner auf 5 fl. 30 Kreuzer und für Rohzucker von 3 fl. 50 Kreuzer auf 4 fl. 50 Kreuzer nebst dem 30perzentigen Kriegszuschlage für die Dauer der diesjährigen Kampagne (<date when="1864-10-01">1. Oktober 1864</date> – <date when="1865-10-01">1. Oktober 1865</date>)<note type="footnote" n="18">Das Gesuch liegt bei <bibl type="archival">FA., FM., II. Abt. (Bankale), Nr. 44248/1864, Faszikulatur 8.1</bibl>. Zur Zuckersteuer siehe <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 1, 573–582</bibl>; <bibl type="secondary">
+                           <author>Matis–Bachinger</author>, Österreichs industrielle Entwicklung.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Habsburgermonarchie 1, 205 ff.</bibl>; <bibl type="secondary">
+                           <author>Mischler–Ulbrich</author>, Staatswörterbuch 4, 1022–1039.</bibl>
+                     </note>.</p>
+                  <p>Dieses Gesuch war der Gegenstand einer Rücksprache zwischen den Ministerien des Handels und der Finanzen, wobei sich das erstere dafür aussprach, daß unter Wahrung <pb n="144" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s144.pdf"/>des Prinzips, daß vorübergehende Kalamitäten eines Industriezweiges keinen Anspruch auf Staatssubventionen gewähren, der obigen Bitte des Vereines willfahrt werden möge, während das Finanzministerium sich gegen die Bitte erklärte, weil deren Gewährung weder aus dem Gesichtspunkte der stattgefundenen höheren Steuerperzeption, noch aus dem einer Subvention für die einheimische Zuckerindustrie gerechtfertigt werden könne<note type="footnote" n="19">Der Notenwechsel <bibl type="archival">FA., FM., II. Abt. (Bankale), Nr. 35892/1864 und Nr. 44248/1864, Faszikulatur 8.1.</bibl>, und <bibl type="archival">AVA., MHVw., Allgemein 11076 und 12594 ad 4/1864</bibl>.</note>. Mittlerweilen hat die schlesische Handelskammer in einem an das Handelsministerium gerichteten Gesuche ein ähnliches Petitum dahin formuliert, es wolle die Steuerrückvergütung nicht auf die dermalige ämtliche Basis, daß aus elf Zentnern Rüben ein Zentner Rohzucker gewonnen wird, sondern auf das tatsächliche Verhältnis gegründet werden, daß zur Erzeugung eines Zentners Rohzucker 14 Zentner Rüben erfordert werden<note type="footnote" n="20">Das Gesuch liegt bei <bibl type="archival">FA., FM., II. Abt. (Bankale) Nr. 60831/1864, Faszikulatur 8.1</bibl>.</note>. Endlich hat die österreichische Credit-Anstalt in einer unterm <date when="1864-09-07">7. September 1864</date> an Baron Kalchberg gerichteten Eingabe<note type="footnote" n="21">Diese Eingabe liegt weder den Akten im <quote>FA.</quote> noch dem Sammelakt <quote>AVA., MHVW., Allgemein 4/1864</quote>, bei.</note> versichert, daß der Absatz unseres Rohzuckers in England nur durch eine namhafte Preisherabsetzung ermöglicht werden kann, welche wieder durch die höhere Steuerrückvergütung bedingt ist. Wenn aber letztere von Nutzen sein soll, müsse sie wegen der jetzigen Zuckerhandelsverhältnisse baldigst bewilligt werden, indem sich die Preisverhältnisse von Monat zu Monat ungünstiger gestalten werden. Die Gründe, welche zugunsten der Zuckerfabriken sprechen, sind im wesentlichen folgende: Es ist bereits Überproduktion vorhanden, welche im laufenden Jahre wegen der sehr reichlichen Rübenernte eine bedenkliche Höhe erreichen und im Inlande keinen Absatz finden wird, sodaß ca. 500.000 Zentner Zucker zum Export disponibel bleiben. Dieser Export ist jedoch nur möglich, wenn den Fabrikanten die reellen Steuerlasten, d. i. 4 fl. 50 Kreuzer per Zuckerzentner samt Kriegszuschlag, vergütet werden. Denn sonst könne sie die ausländische Konkurrenz auf dem englischen Markte nicht überwinden. Gelingt dies nicht, so ist eine gefährliche Krisis und der Ruin vieler einheimischer Fabriken, namentlich jener, die mit wenig eigenem Kapital arbeiten, unvermeidlich. Die Zuckerindustrie, einstens sehr blühend, ist in stetem Rückschritt begriffen, und da die Konsumption von Zucker seit ein paar Jahren von dreieinhalb auf drei Pfunde per Kopf der einheimischen Bevölkerung herabgegangen ist, so wäre der Export der einzige Notanker, durch den nicht bloß die Fabrikanten, sondern auch der Grundbesitz vor schweren Verlusten bewahrt werden könnten und der Wert von 500.000 Zentner, d. i. 12,000.000 fl., aus dem Auslande einfließen würde. Diese wichtigen Vorteile würden bloß durch die angesprochene Mehrvergütung von 1 fl. c.s.c.<note type="footnote" n="22">cum sua causa = mit Nebengebühren</note> per Zentner erreicht. Diese Mehrvergütung wäre überdies keine reelle Ausgabe, sondern nur der Ausgleich für eine Überbürdung, denn wenn überhaupt das Verhältnis von elfeinhalb Zentner Rüben zu einem Zentner Rohzucker ein unrichtiges ist, so werde das Mißverhältnis bei der laufenden Kampagne um so schreiender und für die Fabriken drückender, weil <pb n="145" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s145.pdf"/>die Rüben der diesjährigen Ernte besonders wasserhältig sind und daher ihr Zuckergehalt, verhältnismäßig zum Gewicht, ein ungewöhnlich geringer ist.</p>
+                  <p>Freiherr v. Kalchberg kann nicht leugnen, daß in den vorstehenden Ausführungen viel Wahres enthalten ist. Allerdings ist die Überproduktion zum großen Teil durch die Fabrikanten selbst verschuldet. Allein sie ist einmal vorhanden und, ohne zum Prämiensystem zurückgehen zu wollen, erscheine es doch angezeigt, bei wichtigen Vorfällen, wie die in einem so großartigen Produktionszweige eintretende Krisis, durch exzeptionelle Maßregeln zu Hilfe zu kommen. Referent beantrage daher, die Steuerrückvergütung für den Zentner Rohzucker auf ein Jahr um 1 fl. (oder doch 75 Kreuzer) zu erhöhen und zwar sofort, mit Anwendung des § 13<note type="footnote" n="23">Grundgesetz über die Reichsvertretung, Beilage zum Februarpatent.</note>, damit nicht durch einen Aufschub dieser anerkannt dringenden Maßregel die gegenwärtigen günstigen Handelskonjunkturen unbenützt bleiben und ein großer Teil des davon erwarteten Vorteiles verloren geht. Wenn der Ministerrat sich mit diesem Antrage zu vereinigen fände, dürfte derselbe der Ah. Genehmigung zu unterziehen sein. Will man aber auf eine Anwendung des § 13 nicht eingehen, so wäre das in Rede stehende Zugeständnis zum Gegenstand einer Vorlage an den Reichsrat zu machen. Die weiteren Verfügungen in der einen oder anderen Richtung wären, nach Maßgabe des Ministerratsbeschlusses, dem Finanzminister anheimzustellen, in dessen Ressort diese Angelegenheit gehört. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, die angesprochene Erhöhung werde aus zwei verschiedenen Titeln begehrt: 1. weil der Maßstab der Steuerbemessung nach dem Gewicht der Rübe ein unrichtiger sei, und 2. weil der Zuckerindustrie aus der vorhandenen Überproduktion große Gefahren drohen, dem sich nur durch Begünstigung der Ausfuhr begegnen läßt. Zu 1. müsse der Minister erinnern, daß die Evaluierung des <ref xml:id="fn_5_8_493_i">derzeit bestehenden</ref>
+                     <note type="variant" n="i" target="#fn_5_8_493_i">Einfügung i–i Pleners.</note> durchschnittlichen Zuckergehalts der Rüben nach dem Verhältnis von <ref xml:id="fn_5_8_493_j">12½ Zentner Rüben zu einem Zentner Rohzucker oder 8% Zuckergehait</ref>
+                     <note type="variant" n="j" target="#fn_5_8_493_j">Korrektur j–j Pleners aus <quote>12½ zu 1</quote>.</note> das Ergebnis der sorgfältigsten kommissionellen Erhebungen war, die von einem Fachmann wie Baron Baumgartner geleitet wurden und an welchen Zuckerfabrikanten wie Robert teilgenommen haben<note type="footnote" n="24">Gemeint ist die Zuckerenquete von 1859, siehe <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 1, 573–582.</bibl>
+                     </note>. Daß die dergestalt ermittelte Basis keine für die Fabriken allzu drückende war, ergebe sich schon aus dem Umstand, daß in Preußen das Verhältnis amtlich mit 11 : 1 ermittelt wurde und die österreichischen Fabriken also noch mit 1½ Zentner Rüben dagegen im Vorteil sind, sodaß sie wenigstens aus diesem Grunde keine Ursache haben, die preußische Konkurrenz zu fürchten. Man behauptet wohl die Überbürdung des Zuckers in Österreich, aber den ziffernmäßigen Beweis, und zwar nicht etwa bei einer einzelnen, unter ungünstigen Umständen arbeitenden Fabrik, sondern im ganzen, ist man schuldig geblieben! Mag sein, daß die ungewöhnlich wasserreichen Rüben heuer relativ weniger Zucker geben, allein die reiche Ernte muß dagegen den Preis des Naturprodukts <ref xml:id="fn_5_8_493_k">im Interesse und zum Nutzen der Zuckerfabriken</ref>
+                     <note type="variant" n="k" target="#fn_5_8_493_k">Einfügung k–k Pleners.</note> bedeutend drücken, und jedenfalls sind die Ergebnisse einer einzelnen <pb n="146" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s146.pdf"/>reichen Ernte wie auch die zufällig bessere oder schlechtere Qualität des Produkts durchaus kein Grund, den Maßstab der Besteuerung zu ändern, welcher auf dem Durchschnitte mehrerer Jahre beruht und eben darum den Fabrikanten in trockenen Jahren kompensierende Vorteile gewährt. Zu 2. Was aber die angeblichen nationalökonomischen Vorteile der Erhöhung <ref xml:id="fn_5_8_493_l">der Exportbonifikation</ref>
+                     <note type="variant" n="l" target="#fn_5_8_493_l">Einfügung l–l Pleners.</note> aus dem Gesichtspunkt einer Ausfuhrsprämie betrifft, so ist das Prämiensystem bereits gerichtet, sodaß der Finanzminister sich einer Bekämpfung desselben füglich enthalten kann. Wenn man heuer der selbstverschuldeten Krisis im Zuckergeschäfte durch Begünstigung der Ausfuhr abhilft, so wird man der Spekulation nur neue Nahrung geben, und die Überproduktion wird von Jahr zu Jahr im Vertrauen auf die Staatshilfe zunehmen. Warum aber soll der Staat in der Zuckerkrisis helfend einschreiten, da er es in den ungleich schwereren Baumwoll- und Eisenkrisen<note type="footnote" n="25">Zu der durch den amerikanischen Sezessionskrieg ausgelösten Baumwollkrise der 1860er Jahre siehe <bibl type="secondary">
+                           <author>Matis–Bachinger</author>, Österreichs industrielle Entwicklung.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Habsburgermonarchie 1, 201 f.</bibl>; <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 213 ff.</bibl>; zur Krise der Eisenindustrie <quote>ebd., 216 ff.</quote>
+                     </note> nicht getan. Unter diesen Umständen wüßte der Finanzminister nicht, wie er die vom Leiter des Handelsministeriums beantragte Gesetzvorlage an den Reichsrat standhältig motivieren könnte. Am allerwenigsten aber könnte er raten, die Erhöhung der auf einem Gesetz beruhenden Steuervergütung, womit auch eine Modifikation des Einnahmenbudgets verbunden wäre, ohne Dazwischenkunft des Reichsrates nach § 13 eintreten zu lassen. Beiläufig wolle der Minister noch bemerken, daß nach der Versicherung des Baron Hock die Bewilligung einer Zuckerausfuhrprämie auf die deutschen Zollverhandlungen einen ungünstigen Einfluß äußern dürfte<note type="footnote" n="26">Zu den Zollverhandlungen siehe <ref type="protocol-link" target="MRP-1-5-08-0-18640802-P-0483.xml#top_5_8_483_2">MR. v. <date when="1864-08-02">2. 8. 1864</date>/II</ref>.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> bemerkte, daß, wenn der Finanzminister die Verantwortung für ein unmittelbares Vorgehen nach § 13 nicht übernehmen will, nur die Einbringung einer Vorlage an den Reichsrat wegen Abhilfe für die behauptete Steuerüberbürdung in Frage kommen könne. Allein dieser Schritt sei vor allem dadurch bedingt, daß diese Behauptung technischer Natur durch sorgfältige Erhebungen ziffermäßig bewiesen werde. <ref xml:id="fn_5_8_493_m">Entweder – könnte behauptet werden – sei die Besteuerung des Rübenzuckers an und für sich so hoch, daß er [sic!] von dieser Produktion nicht ertragen werden könnte, oder es sei nur das Verhältnis zwischen der Steuerzahlung und der Rückvergütung im Falle des Exportes unrichtig. Die erstere Alternative sei heute nicht in Frage; bei der letzteren aber handle es sich darum, ob nicht die Annahme, daß ein gewisses Quantum Zentner Rüben ein Zentner Zucker gäbe, unrichtig und namentlich im Jahre 1864, wo das feuchte Wetter dem Zuckergehalt der Rübe nachteilig gewesen sei, faktisch irrig wäre; denn die Steuer wird auf das Rübenquantum gelegt, und die Rückvergütung wird nach dem Zuckergewichte geleistet. Ob nun ein solches Mißverhältnis vorhanden sei, scheine dem Votanten problematisch, die Zukkerexporteurs haben aber ein gesetzliches Recht, die wirklich bezahlte Steuer, welche eine Konsumsteuer ist, zurückzubekommen. Diese Frage müsse gründlich geprüft werden</ref>
+                     <note type="variant" n="m" target="#fn_5_8_493_m">Einfügung m–m Lassers.</note>. In dieser Richtung wären also Erhebungen angezeigt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>
+                     <pb n="147" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s147.pdf"/>teilte diese Meinung und bemerkte, daß er sich für die Bewilligung der Rückvergütungserhöhung als Prämie nicht aussprechen könne und davon keine bleibende Abhilfe für das Übel der Überproduktion erwarte. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> will nicht auf die Prüfung der theoretischen Bedenken gegen die Bewilligung von Ausfuhrprämien eingehen. Hier handelt es sich nämlich um etwas anderes: Ist die Zuckererzeugung durch die Steuer überbürdet oder nicht, und ist die dermalige Steuervergütung bei der Zuckerausfuhr ein Äquivalent der für die dazu verwendeten Rüben bezahlten Steuer? Votant ist überzeugt, daß man bei der Ausfuhr dermal nicht die bezahlte ganze Steuer rückvergütet und der Fabrikant daher die Differenz tragen muß, wodurch dann sein billiger Gewinn aufgezehrt, wo nicht sein Kapital angegriffen wird! Dies widerspricht nun den rationellen Grundsätzen einer Verzehrungssteuer. Man beruft sich auf die Infallibilität der unter Baron Baumgartner gepflogenen Enquete. Dieselbe wird aber schon lange und von vielen Seiten bestritten, auch flößt der Umstand kein Vertrauen zu derselben ein, daß in der bezüglichen Kommission nur wenige, und zwar von der Regierung gewählte Zuckerfabrikanten sich einer kompakten Majorität von Regierungsmännern, <ref xml:id="fn_5_8_493_n">namentlich auch von Schiffsreedern, die prinzipiell Gegner der einheimischen Zuckerindustrie sind</ref>
+                     <note type="variant" n="n" target="#fn_5_8_493_n">Einfügung n–n Heins.</note>, gegenüber befanden<note type="footnote" n="27">Zur Zusammensetzung der Enquetekommission siehe <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 1, 577, Anm. 134.</bibl>
+                     </note>. Man muß eine Industrie wie diese nicht an den Bettelstab herabkommen lassen, sie nicht zwingen, bloß für die Steuer zu arbeiten, und bedenken, daß man den Fabrikanten zu Fortschritten aufmuntern, aber nicht, wie neulich ein Freihändler trocken heraussagte, „mit der Hetzpeitsche antreiben soll“. <ref xml:id="fn_5_8_493_o">Wenn man für die Vergütung der Steuer beim Exporte eine sehr geringe Menge von Rüben als hinreichend zur Erzeugung eines Zentners Zucker annimmt und danach die Steuer vergüten will, so soll man nicht, wie es tatsächlich von den Finanzorganen geschieht, diese Industrie in der Fabrikation so hetzen, daß es ihr tatsächlich nicht möglich ist, das Rohmaterial so auszunützen, um dessen so wenig, als das Steuervergütungsregulativ präsumiert, zur Erzeugung des Fabrikates zu bedürfen. Mit einem Worte, die Steuervergütung an sich ist zu niedrig bemessen (Preußen kann hier nicht maßgebend sein, da notorisch dort die Rüben zuckerhältiger sind), und die Finanzverwaltung hindert überdies durch ihre Maßnahmen die ruhige und komplette Ausbeutung des Rohstoffes, daher der Fabrikant doppelt benachteiligt erscheint</ref>
+                     <note type="variant" n="o" target="#fn_5_8_493_o">Einfügung o–o Heins.</note>. Ritter v. Hein stimme daher vollkommen dem Referenten bei.</p>
+                  <p>Die übrigen Stimmen des Ministerrates traten der Meinung des Ministers Ritter v. Lasser wegen Vornahme einer neuerlichen Enquete bei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte hierauf, daß die Vornahme einer Enquete und die eventuelle Zustandebringung einer gesetzlichen Änderung des Steuersatzes geraume Zeit in Anspruch nehmen und die österreichische Zuckerindustrie mittlerweile die dermaligen Handelskonjunkturen, somit auch die Gelegenheit versäumen würde, die gefährliche Krisis abzuwenden. Um nun diesem Übel nach Möglichkeit abzuhelfen, ohne die Verantwortung eines vorgreifenden Schritts auf sich zu laden, würde der Minister folgendes Auskunftsmittel <pb n="148" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s148.pdf"/>vorschlagen: Die Regierung bringt beim Reichsrate, gleich bei seinem Zusammentreten, eine Gesetzesvorlage wegen Erhöhung der Steuervergütung um 50 Kreuzer je Zentner Rohzucker (statt 1 fl.) auf die diesjährige Kampagne, und zwar mit rückwirkender Kraft auf alle seit <date when="1864-10-01">1. Oktober 1864</date> zu machenden Zuckerexporte ein. Auf diese Weise würden die Fabrikanten, wenn das Gesetz zustande kommt, nachträglich die Mehrvergütung für die auszuführenden Zuckerquantitäten erhalten, deren Größe aus den Zollregistern unschwer zu konstatieren sein würde. Von dieser Absicht der Regierung wären die Fabrikanten sogleich, zu ihrer Richtschnur, in Kenntnis zu setzen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> entgegnete hierauf, daß diese Maßregel, obgleich gut gemeint, im Grunde eine Aufforderung an die Fabrikanten sei, auf die ungewisse Chance der Majoritäten im Reichsrate das Risiko der Ausfuhr zu übernehmen, d. i. zu spielen, was nicht ohne Bedenken ist! Wenn aber der Finanzminister sich getraut, vor dem Reichsrate die rückwirkende Kraft des Gesetzes bis zum 1. Oktober durch die vorhandenen außerordentlichen Umstände zu rechtfertigen, so dürfte er wohl nicht auch vor der Verantwortung erschrecken, die höhere Steuervergütung vom selben Termine an nach § 13 sofort eintreten zu lassen und dadurch das Risiko beim Ausfuhrgeschäfte zu beseitigen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß <ref xml:id="fn_5_8_493_p">das unmittelbare Vorgehen nach Art. 13, wodurch ein gesetzlich bestehender Gebührensatz eigenmächtig geändert wird, doch davon weit verschieden sei, wenn eine Gesetzesvorlage auf Abänderung im verfassungsmäßigen Wege eingebracht werde. Eine künftige Abänderung motivieren ist doch gewiß leichter, als eine geschehene rechtfertigen und die Anwendung des Art. 13 klaglos zu stellen. Der Finanzminister habe in betreff der Branntweinsteuer allerdings eine Gebührenerleichterung mittels Einbringung einer Gesetzesvorlage bei dem nächsten Reichsrate in Absicht, zu einem Vorgange nach Art. 13 könne er sich aber sowenig in der Branntweinsteuer wie bei der Zuckersteuer herbeilassen</ref>
+                     <note type="variant" n="p" target="#fn_5_8_493_p">Korrektur p–p Pleners aus: <quote>diese letztere Verantwortung etwas anderes sei, und die Frage der Zuckersteuer noch keineswegs so evident gelöst sei wie bei der Branntweinsteuer, deren sofortige Herabsetzung nach § 13 sich standhältig werde rechtfertigen lassen.</quote>
+                     </note>das unmittelbare Vorgehen nach Art. 13, wodurch ein gesetzlich bestehender Gebührensatz eigenmächtig geändert wird, doch davon weit verschieden sei, wenn eine Gesetzesvorlage auf Abänderung im verfassungsmäßigen Wege eingebracht werde. Eine künftige Abänderung motivieren ist doch gewiß leichter, als eine geschehene rechtfertigen und die Anwendung des Art. 13 klaglos zu stellen. Der Finanzminister habe in betreff der Branntweinsteuer allerdings eine Gebührenerleichterung mittels Einbringung einer Gesetzesvorlage bei dem nächsten Reichsrate in Absicht<note type="footnote" n="28">Siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_5">MR. v. <date when="1864-10-24">24. 10. 1864</date>/V</ref>.</note>, zu einem Vorgange nach Art. 13 könne er sich aber sowenig in der Branntweinsteuer wie bei der Zuckersteuer herbeilassen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, daß er sich mit dem vorgeschlagenen Auskunftsmittel bloß zur Abhilfe der momentanen Kalamität nicht einverstanden erklären könne. Die Regierung ist nicht berufen, bei derlei vorübergehenden Verlegenheiten helfend einzugreifen, und hat sie bei einem Industriezweige angefangen, wo will sie dann aufhören? Ganz etwas anderes ist es dann, wenn durch die vom Ministerrate beschlossene neuerliche Enquete außer Zweifel gesetzt sein wird, daß die bisherige Steuerrückvergütung zu niedrig ist. Die mehreren Stimmen vereinigten sich mit der Meinung des Polizeiministers<note type="footnote" n="29">Fortsetzung <ref type="protocol-link" target="MRP-1-5-08-0-18641126-P-0516.xml#top_5_8_516_5">MR. v. <date when="1864-11-26">26. 11. 1864</date>/V</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-10-03">3. Oktober 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1864-10-20">20. Oktober 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-10-21">21. Oktober 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

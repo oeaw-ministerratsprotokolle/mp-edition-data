@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="068">Sitzung 68</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-11"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z68.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">977</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-11"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner; abw. Doblhoff, Wessenberg; BdE. Pillersdorf (12. 6.), Franz Karl (16. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-12">12. 6.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-16">16. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_68_1">Schreiben Doblhoffs vom <date when="1848-06-07">7. 6. 1848</date>
+                  </ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_68_2">Beschäftigung von Arbeitern</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_68_3">Kommunikation zwischen Ministerrat und den österreichischen Vertretern im Frankfurter Parlament</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_68_4">Verstärkung der Armee in Italien durch die Hälfte des für Deutschland aufgestellten Bundeskontingents</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_68_5">Scheitern der Mission Eugen Freiherr v. Philippsbergs</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_68_6">Wahl des Hugo Fürsten Salm-Reifferscheidt zum mährischen Landtagspräsidenten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_68_7">Ernennung des griechischkatholischen Erzbischofs von Lemberg zum Primas der Königreiche Galizien und Lodomerien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_68_8">Administrative Teilung Galiziens</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480611-P-0068" ana="a1-1848_z68">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z68.pdf">
+               <title type="num">Nr. 68</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-11">11. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Doblhoff, Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (12. 6.), Franz Karl (16. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">977</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-06-11">11. Juni 1848</date> unter dem Vorsitze des interimistisch mit dem Präsidio des Ministerrates beauftragten Ministers des Inneren Baron Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_68_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Schreiben Doblhoffs vom <date when="1848-06-07">7. 6. 1848</date>
+                  </head>
+                  <p>Das Schreiben des am Ah. Hoflager verweilenden Ministers Baron Doblhoff de dato Innsbruck vom 7. Juni hat keinen Anlaß zu einer Erinnerung dargeboten<note type="footnote" n="1">Doblhoff berichtet darin über die am <date when="1848-06-07">7. 6. 1848</date> stattgefundene Audienz der Deputation des Wiener Bürgerausschusses und übermittelt einen Bericht der Innsbrucker Polizeidirektion v. <date when="1848-06-06">6. 6. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1054/1848.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Beschäftigung von Arbeitern</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> kündigte an, daß er aus Anlaß einer ihm soeben zugekommenen Eingabe des Wiener Sicherheitsausschusses, worin wegen bevorstehender neuerlicher Entlassung zahlreicher Arbeiter aus vielen Fabriken um baldigste Aktivierung mehrerer öffentlicher Arbeiten, namentlich der Bauten über den Semmering, gebeten wird<note type="footnote" n="2">Dieses Schreiben konnte unter den auf verschiedene Archive verteilten Beständen des Ministeriums für öffentliche Arbeiten nicht gefunden werden. Zum Bemühen der Abteilung für öffentliche Arbeiten des Sicherheitsausschusses, Beschäftigung für Arbeitslose zu schaffen, vgl. die Akten <bibl type="archival">FA., Montan-Präsidial-Acten (AM. Präs.) 93/1848 und 102/1848.</bibl>
+                     </note>, auf die Modalitäten der Beschäftigung für diese Leute vordenken müsse und seine Anträge in der nächsten Ministerratssitzung erstatten werde<note type="footnote" n="3">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480612-P-0069.xml#top_1_1_69_10">MR. v. <date when="1848-06-12">12. 6. 1848</date>/X</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Kommunikation zwischen Ministerrat und den österreichischen Vertretern im Frankfurter Parlament</head>
+                  <p>Derselbe fand sich auch zu der Bemerkung veranlaßt, daß es sehr wünschenswert wäre, wenn der Ministerrat von den Vorgängen auf dem Frankfurter Parlamente, worüber derselbe bisher immer in offizieller Unkenntnis sich befunden hat, durch ein verläßliches Organ in die Kenntnis und mittelst desselben in die Lage gesetzt würde, den österreichischen Vertretern zu Frankfurt etwa erforderliche Andeutungen und Weisungen über die Richtung, die sie verfolgen möchten, erteilen zu können.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erinnerte hierauf, er habe bereits früher im Ministerratsprotokolle vom <date when="1848-05-13">13. Mai 1848</date>, Z. 775<note type="footnote" n="4">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480513-P-0036.xml#top_1_1_36_6">MR. v. <date when="1848-05-13">13. 5. 1848</date>/VI</ref>.</note>, in gleicher Tendenz den Antrag auf Bestellung eines eigenen Komitees für die Frankfurter Parlamentsangelegenheiten gestellt, dem jedoch keine weitere Folge gegeben wurde; und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> setzte <pb n="407" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s407.pdf"/>hinzu, daß derlei Kommunikationen zwischen dem Ministerrate und den Frankfurter Abgeordneten wohl nur durch den Minister des Äußern vermittelt werden können, und zwar sowohl der Natur der Angelegenheit nach, als auch, um Kreuzungen zu vermeiden, die sehr leicht eintreten könnten, wenn solche Kommunikationen sowohl von Seite des für den Ministerrat bestellten Organs als auch, und zwar getrennt, von Seite des Ministeriums des Äußern stattfänden<note type="footnote" n="5">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480630-P-0088.xml#top_1_1_88_4">MR. v. <date when="1848-06-30">30. 6. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Verstärkung der Armee in Italien durch die Hälfte des für Deutschland aufgestellten Bundeskontingents</head>
+                  <p>Der ungünstige Ausgang der vom Feldmarschall Grafen Radetzky versuchten Unternehmung gegen das piemontesische Heer und der Fall von Peschiera<note type="footnote" n="6">Vgl. dazu den Bericht Radetzkys v. <date when="1848-06-05">5. 6. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 2399/1848.</bibl>
+                     </note> machen nach der Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsministers</rs>
+                     </hi> eine abermalige Verstärkung des Feldmarschalls dringend nötig. Die Aufstellung der 35 Reservebataillons geht sehr langsam vor sich<note type="footnote" n="7">Zur Aufstellung einer Reserve im Isonzogebiet siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480410" ana="prot0 top6">MR. v. <date when="1848-04-10">10. 4. 1848</date>/VI</ref>.</note>. Glücklicherweise machen die fortwährend friedlichen Versicherungen Frankreichs gegenüber von Deutschland für den gegenwärtigen Augenblick eine Verminderung des Bundeskontingents per 20.000 Mann<note type="footnote" n="8">Zur Aufstellung österreichischer Truppen für die deutsche Bundesarmee siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480511-P-0034.xml#top_1_1_34_9">MR. v. <date when="1848-05-11">11. 5. 1848</date>/IX</ref>.</note> um die Hälfte möglich, so daß der Kriegsminister unter Zustimmung der übrigen Minister aus den Truppen in Böhmen und Mähren 10.000 Mann samt Geschütz (mit Vorbehalt ihres Ersatzes aus den in der Aufstellung begriffenen Reservebataillons) schleunigst unter einem nach Italien beordert und sich hierzu in dem beiliegenden Vortrage vom <date when="1848-06-11">11. Juni 1848</date> die Ah. Ermächtigung dazu erbittet<note type="footnote" n="9">Der Vortrag Latours, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1052/1848</bibl>, wurde mit Ah. E. v. <date when="1848-06-17">17. 6. 1848</date> zur Kenntnis genommen, <quote>ebd., MRZ. 977/1848</quote>. Die Verfügungen wurden mit Befehl (K.) an die entsprechenden Stellen in die Tat umgesetzt, <bibl type="archival">KA., HKR., KM., Präs. 2399/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480617-P-0075.xml#top_1_1_75_2">MR. v. <date when="1848-06-17">17. 6. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Scheitern der Mission Eugen Freiherr v. Philippsbergs</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> verlas eine Zuschrift des Konferenzrates Baron Lebzeltern<note type="footnote" n="10">Dieses Schreiben konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., StK., gefunden werden.</note> mit einem Schreiben des in einer vertraulichen Mission nach Mailand abgesandten v. Philippsberg<note type="footnote" n="11">Zur Mission Philippsbergs siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480524-P-0050.xml#top_1_1_50_4">MR. v. <date when="1848-05-24">24. 5. 1848</date>/IV</ref>. Das Schreiben Philippsbergs v. <date when="1848-06-03">3. 6. 1848</date> liegt dem Originalprotokoll als Abschrift in handschriftlicher Fassung bei; abgedruckt bei <bibl type="secondary">
+                           <author>Filipuzzi</author> Relazioni 135.</bibl>
+                     </note>, worin derselbe das gänzliche Mißlingen seiner Sendung und seine wegen Mangels an gehöriger ämtlicher Beglaubigung als Parlamentär erfolgte Verhaftung anzeigt.</p>
+                  <p>Es scheint, daß v. Philippsberg seinen Charakter, der bloß jener eines Privatagenten war, verkannt und nicht mit der gehörigen Vorsicht gehandelt habe. So wünschenswert es übrigens ist, ihn aus seiner dermaligen Verlegenheit zu befreien, so befindet sich doch der Ministerrat nicht in der Lage, für ihn etwas zu tun, sondern muß dessen Berücksichtigung lediglich dem Minister der auswärtigen Angelegenheiten anheimstellen, nachdem dieser bereits durch Baron Lebzeltern unter Mitteilung einer Abschrift des Schreibens Philippsbergs von dieser Angelegenheit in die Kenntnis gesetzt worden ist<note type="footnote" n="12">Dieses Schreiben konnte unter den Beständen des HHSTA., StK., nicht mehr gefunden werden. Wessenberg bestätigte aber in einem Schreiben v. <date when="1848-06-08">8. 6. 1848</date> an Lebzeltern den Erhalt der entsprechenden Nachricht, <bibl type="archival">HHSTA., StK., Interiora 81, Fasz. alt 101, fol. 35f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Wahl des Hugo Fürsten Salm-Reifferscheidt zum mährischen Landtagspräsidenten</head>
+                  <p>Der Minister des Inneren übergab seinen Vortrag vom <date when="1848-06-09">9. Juni 1848</date>, KZ. 1890, wegen Bestätigung der auf den Fürsten Salm gefallenen Wahl zum mährischen Landtagspräsidenten<note type="footnote" n="13">
+                        <quote>Ebd., Kab. Kanzlei, MRZ. 1051/1848</quote>. Da die beiden mährischen Landesoffiziere krank waren, mußte ein mährischer Landtagspräsident gewählt werden.</note>.</p>
+                  <p>Dagegen ist nichts zu erinnern, bemerkenswert aber – bei den itzt überall vorherrschenden demokratischen Tendenzen – die Tatsache, daß der Fürst unter 216 Stimmen 210 erhalten hat<note type="footnote" n="14">Der in Anm. 13 zit. Vortrag wurde mit Ah. E. v. <date when="1848-06-17">17. 6. 1848</date> resolviert, <quote>ebd., MRZ. 977/1848.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Ernennung des griechischkatholischen Erzbischofs von Lemberg zum Primas der Königreiche Galizien und Lodomerien</head>
+                  <p>Ebenso wurde der Antrag des Ministers des Inneren vom <date when="1848-06-06">6. Juni 1848</date>, KZ. 2185<note type="footnote" n="15">
+                        <quote>Ebd., MRZ. 1036/1848.</quote>
+                     </note>, wegen Ernennung des griechisch-katholischen Erzbischofs von Lemberg, Michael Lewicki, zum Primas des Königreichs als zur Ah. Genehmigung geeignet erkannt<note type="footnote" n="16">Der in Anm. 15. zit. Vortrag wurde mit Ah. v. <date when="1848-06-17">17. 6. 1848</date> resolviert, <quote>ebd., MRZ. 977/1848.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_68_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Administrative Teilung Galiziens</head>
+                  <p>Die Abreise des Gouverneurs von Galizien, Grafen v. Stadion, zur Erfüllung einer höheren Mission<note type="footnote" n="17">Anfang Juni überbrachte der Polizeibeamte Hosp, Sohn einer Kammerfrau der Erzherzogin Sophie, Stadion einen Geheimbrief, in dem der galizische Gouverneur nach Innsbruck berufen wurde; Stadion verließ am <date when="1848-06-03">3. 6. 1848</date> Lemberg, siehe dazu <bibl type="secondary">
+                           <author>Starkel</author>, Rok 1848, 205.</bibl>
+                     </note> haben den Minister des Inneren bestimmt, die schon früher gepflogenen Verhandlungen über eine organische Änderung in diesem Lande, namentlich über dessen Teilung in zwei Gouvernementsgebiete<note type="footnote" n="18">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480511-P-0034.xml#top_1_1_34_4">MR. v. <date when="1848-05-11">11. 5. 1848</date>/IV</ref>.</note>, wieder aufzunehmen. Im Grundsatze bereits Ah. genehmigt<note type="footnote" n="19">Mit Ah. E. v. <date when="1847-02-27">27. 2. 1847</date>, <bibl type="archival">HHSTA., MKA., MZ. 1985/1846.</bibl>
+                     </note>, ist diese Maßregel nunmehr, da Graf Stadion, dessen außerordentlicher Tatkraft bisher die Leitung der ganzen Provinz gelingen konnte, abgetreten, zur dringenden Notwendigkeit geworden. Zwar hat sich der hierüber vernommene Hofrat Zaleski gegen die Teilung des Landes ausgesprochen und erklärt, daß sie eine ungünstige Stimmung erzeugen würde, indem die Regierung durch die Spaltung der Kräfte der Nation Mißtrauen gegen dieselbe an den Tag lege. Allein die Kraft des Landes, die bisher der Regierung feindlich war, zu brechen, ist hier wohl die entscheidendere Rücksicht, und der Minister des Inneren gedenkt daher, die Trennung des Landes in zwei Gubernialgebiete, Lemberger und Krakauer mit je zwölf und acht Kreisen, jedoch vorderhand nur in der inneren Verwaltung, also mit Ausschluß der ständischen Kredits-, Kameral- und Gerichtsinstitutionen, zur allsogleichen Ausführung bei Ew. Majestät in Antrag zu bringen.</p>
+                  <p>Der hierüber um seine Wohlmeinung befragte Finanzminister Baron Krauß erklärte sich hiermit vollkommen einverstanden. Die vom Hofrate Zaleski aus dem politischen Standpunkte erhobene Einwendung gegen die Teilung verliert ihr Gewicht durch die bekannte Tatsache, daß die Polen selbst sehr gut wissen, daß keine Teilung ihr Nationalgefühl geschwächt hat. Überwiegend aber sind hier die administrativen Rücksichten. Der Umfang des Landes, die Masse der Geschäfte beim Gubernium, dessen Geschäftszahlen auf 120.000 Nummern jährlich sich belaufen, ist so groß, daß sie ein Mensch zu übersehen schlechterdings nicht imstande ist. Alle westlichen Kreise des <pb n="409" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s409.pdf"/>Landes stehen zu der östlichen Hauptstadt in dem Nachteile, daß Verfügungen der Zentralgewalt sie auf ordnungsmäßige Weise nur mittelst eines weiten Umwegs erreichen können, oder es steht umgekehrt der Sitz der Landesregierung zu jenen Kreisen dadurch im Nachteile, daß dieselben früher von Vorgängen Kenntnis erhalten, als das Gubernium. Die Teilung des Landes und die Aufstellung eines zweiten Guberniums würde auch Krakau für die Regierung gewinnen oder wenigstens es mit ihr aussöhnen, vorausgesetzt, daß in der Gestaltung der Administration eine nationale Richtung beobachtet wird. Endlich spricht noch die persönliche Rücksicht für die Trennung, indem der dermalige Vizepräsident des Lemberger Guberniums, dem nun die Leitung der politischen Geschäfte des Landes anvertraut ist<note type="footnote" n="20">Das war Graf Agenor Gołuchowski. Zur Übergabe der Leitung des Guberniums siehe <bibl type="archival">ZDIAUL., StH., Präs. 7363/1848</bibl>.</note>, zwar ein fähiger Mann, aber von Seite seiner politischen Zuverlässigkeit nicht so erprobt ist, um sie ihm fortan im ganzen Umfange zu belassen.</p>
+                  <p>Nach diesen allgemeinen Erörterungen vereinigte man sich bezüglich der Ausführung der Trennung in folgendem: Dieselbe habe sich vorderhand nur auf die Verwaltung des Inneren (mit Ausschluß der geistlichen Diözesen) zu beschränken und sei mit <date when="1848-08-01">1. August 1848</date> in Wirksamkeit zu setzen, das in Krakau aufzustellende Gubernium mit diesem Zeitpunkte zu aktivieren und mit den nötigen Hilfsämtern zu dotieren<note type="footnote" n="21">Im Sinne dieses Ministerratsbeschlusses stellte Pillersdorf mit Vortrag v. <date when="1848-06-12">12. 6. 1848</date> den Antrag, Galizien zu teilen, der mit Ah. E. v. <date when="1848-06-19">19. 6. 1848</date> resolviert wurde, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1079/1848.</bibl>
+                     </note>.</p>
+                  <p>Hieran knüpft sich auch die Personenfrage. Die Oberleitung in beiden Provinzen bliebe den Generalen Graf Hammerstein<note type="footnote" n="22">Zur Berufung Hammersteins als Vertreter Stadions siehe <bibl type="archival">ZDIAUL., StH., Präs. 7363/1848.</bibl>
+                     </note> und Schlick<note type="footnote" n="23">Zur Übernahme der Militär- und Zivilgewalt in Krakau durch Schlick siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480502-P-0025.xml#top_1_1_25_2">MR. v. <date when="1848-05-02">2. 5. 1848</date>/II</ref>, Anm. 4.</note>, die politische Administration hätte in Lemberg Gołuchowski, in Krakau der Hofrat v. Zaleski zu erhalten, da einstimmig erkannt wurde, daß Nationale an die Spitze der inneren Verwaltung zu stellen, unerläßlich sei und außer diesen beiden kein verläßliches Individuum bekannt ist.</p>
+                  <p>Was ihre Stellung anbelangt, so erklärte sich der Minister des Inneren anfangs für deren Ernennung zu Gubernialpräsidenten, nachdem früher ein Gouverneur und ein Gubernialpräsident bestand, nächstens auch ein Landtag wird abgehalten werden müssen, wo dann für den Chef der politischen Administration ein höherer Charakter erforderlich sein würde.</p>
+                  <p>Allein der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, daß sich vorderhand mit Vizepräsidenten à 6000 fr. begnügt werden dürfte, weil Graf Hammerstein in Lemberg Gouverneursstellvertreter, in Krakau Graf Schlick Hofkommissär bliebe, weil es insonderheit rücksichtlich des Vizepräsidenten Gołuchowski, dessen Geschäfte sich durch die Teilung ohnehin verringern, immer wünschenswert ist, daß er nicht alles auf einmal erreiche, vielmehr noch etwas zu hoffen habe, er auch, gegenüber v. Zaleski, durch Verleihung der geheimen Ratswürde ausgezeichnet werden könnte.</p>
+                  <p>
+                     <pb n="410" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s410.pdf"/>Nach diesen Bemerkungen glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> auf dem diesfälligen Antrage nicht bestehen zu sollen und behielt sich vor, Ew. Majestät, den gefaßten Beschlüssen gemäß, hierwegen einen besonderen au. Vortrag zu erstatten<note type="footnote" n="24">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480614-P-0072.xml#top_1_1_72_3">MR. v. <date when="1848-06-14">14. 6. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, 12. Junius 1848. Pillersdorf. </dateline>
+                  <seg type="other">Ges. 16. Juni. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Ich nehme den Inhalt dieses Protokolls zur Wissenschaft. Ferdinand. Innsbruck, am <date when="1848-06-17">17. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

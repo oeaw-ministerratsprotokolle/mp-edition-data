@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="095">Sitzung 95</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-08"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z95.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1412</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-08"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; abw. Wessenberg; BdE. Doblhoff (8. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-08">8. 7.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_95_1">Kroatische und ungarische Bedingungen für die Vermittlung Erzherzog Johanns</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_95_2">Finanzielle Unterstützung für Emanuel Freiherr Dietrich v. Hermannsberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_95_3">Antwort an Windischgrätz bezüglich des Belagerungszustandes in Böhmen und der Entsendung Karl Komers' nach Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_95_4">Zeitungsartikel über Truppenbewegungen durch Wien</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480708-P-0095" ana="a1-1848_z95">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z95.pdf">
+               <title type="num">Nr. 95</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-08">8. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Doblhoff (8. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1412</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-07-08">8. Juli 1848</date> unter dem Vorsitze des mit dem Präsidium des Ministerrates beauftragten Ministers des Inneren Baron v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_95_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Kroatische und ungarische Bedingungen für die Vermittlung Erzherzog Johanns</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Doblhoff</rs>
+                     </hi> trug vor, in der ungrisch-kroatischen Vermittlungsangelegenheit die an Se. k. k. Hoheit den Herrn Erzherzog Johann als Allerhöchstverordneten Leiter dieser Angelegenheit<note type="footnote" n="1">Erzherzog Johann war mit Handschreiben v. <date when="1848-06-19">19. 6. 1848</date> mit dieser Vermittlungsmission beauftragt worden; Abschrift des Handschreibens in <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1274/1848</bibl>.</note> gelangten Eingaben der kroatischen Bevollmächtigten und des ungrischen Ministeriums, welche die Bedingnisse enthalten, unter denen beiderseits die Vermittlung angenommen werden will<note type="footnote" n="2">Die Eingabe der Kroaten abgedruckt bei <bibl type="secondary">
+                           <author>Pfjaković</author>:, Aktenstücke 101</bibl>. Die ungarische Eingabe konnte weder unter den Beständen der Wiener Archive noch unter jenen des MOL., H 2 und H 6, gefunden werden. Zur Behandlung der kroatischen Angelegenheiten durch die ungarische Regierung vgl. den ungarischen Ministerrat v. <date when="1848-07-09">9. 7. 1848</date>, <bibl type="secondary">
+                           <author>Kiss</author>, Miniszrertanácsi 62</bibl>.</note>.</p>
+                  <p>Kroatischerseits werden folgende Bedingnisse gesetzt:</p>
+                  <p>1. Widerruf des Ah. Manifests vom <date when="1848-06-10">10. Juni 1848</date>
+                     <note type="footnote" n="3">Zu diesem Manifest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480625-P-0083.xml#top_1_1_83_3">MR. v. <date when="1848-06-25">25. 6. 1848</date>/III</ref>, Anm. 7.</note> und aller Erlässe des ungrischen Ministeriums gegen den Ban Baron Jellačić.</p>
+                  <p>2. Beiziehung – nebst den kroatischen – auch der Vertreter der serbischen Nation zu den Unterhandlungen.</p>
+                  <p>3. Anerkennung der Gesetzmäßigkeit des kroatisch-slawonischen Reichstags (Landeskongregation) nach dem Ah. Reskripte vom <date when="1848-04-02">2. April 1848</date>
+                     <note type="footnote" n="4">Der Akt <bibl type="archival">HHSTA., Kab. Archiv, Conferenz-Acren a 432/1848</bibl>, in dem die Einwohner von Kroatien, Dalmatien und Slawonien <quote>ihre Wünsche vortragen und um deren baldige Gewährung zur Erhaltung der Ruhe und Erlangung ihres Heils bitten</quote>, der mit Handschreiben v. <date when="1848-04-02">2. 4. 1848</date> resolviert worden ist, ist nicht mehr vorhanden.</note>.</p>
+                  <p>4. Erteilung der k[öniglichen] Resolutionen über frühere Petita.</p>
+                  <p>5. Auftrag an das ungrische Generalkommando zur Einstellung aller Feindseligkeiten gegen Kroatien und Slawonien, Entfernung des ungrischen Militärs aus diesen Ländern und Einberufung des vaterländischen Regiments Erzherzog Leopold aus Ungern (welches dermal, nach des Kriegsministers Bemerkung, auf dem Marsche zur italienischen Armee ist).</p>
+                  <p>6. Unterordnung der kroatisch-slawonischen Militärangelegenheiten unter das österreichische Kriegsministerium, jedoch vermittelst des Banus.</p>
+                  <p>
+                     <pb n="532" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s532.pdf"/>7. Erteilung aller k[öniglichen] Resolutionen in Landesangelegenheiten unmittelbar an den Ban selbst.</p>
+                  <p>8. Errichtung einer eigenen kroatisch-slawonischen Landesstelle für die Angelegenheiten des Inneren.</p>
+                  <p>9. Beiziehung der Vertreter Dalmatiens als eines integrierenden Bestandteils dieser Königreiche zu den Verhandlungen.</p>
+                  <p>10. Erklärung des ungrischen Landtags, sich der Vermittlung unterwerfen zu wollen, und sofort Absendung der aus seiner Mitte gewählten Vertreter zur Unterhandlung auf neutralen Boden.</p>
+                  <p>11. Zurateziehung der vom Banus zu ernennenden Männer bei allen auf das Vermittlungsgeschäft bezüglichen Erörterungen von Seite Sr. k. k. Hoheit des Herrn Erzherzog Johann.</p>
+                  <p>12. Anweisung der magyarischen Partei, daß sie von aller Verfolgung der Slawen in Ungern selbst ablasse.</p>
+                  <p>Die ungrische Repräsentation enthält – unter Versicherung der Aufrechthaltung der kroatisch slawonischen Nationalität – folgende Begehren: Der Ah. ernannte Vermittler geruhe, sich persönlich nach Agram zu begeben, um dort die Ruhe herzustellen, die Deputierten und die Militärgrenzer darüber aufzuklären, daß Ew. Majestät die kroatische Empörung mißbilligen und die Bande, so die Länder an Ungern ketten, aufrechterhalten wissen wollen, die Rückkehr zum Gehorsam und die Unterordnung unter das ungrische Ministerium herzustellen und dann die billigen Wünsche des Landes zu vernehmen, welche sodann den Gegenstand der Ah. angeordneten Vermittlung und Unterhandlung ausmachen würden. Bei dieser Unterhandlung könnte Baron Jellačić, als ein Rebell, nicht zugezogen werden; ebenso unzulässig wären die kroatischen Ablegaten, da der kroatische Landtag nicht zu Recht bestehe, nur von Gnade und Vergessen des Geschehenen, nicht aber von Bedingungen könne rücksichtlich ihrer die Rede sein. Endlich wären die Kroaten aufzufordern, auf den gesetzlichen Landeskongregationen die Ablegaten zum ungrischen Reichstage als dem gesetzlichen Vereinigungspunkte der inkorporierten Länder des Königreichs in gesetzmäßiger Weise zu wählen und dahin abzusenden.</p>
+                  <p>Insofern das deutsch-österreichische Ministerium berufen sein kann, in dieser Sache eine Meinung abzugeben, muß es sich dahin aussprechen, daß es auf diesen Grundlagen eine Vermittlung nicht für möglich hält. Namentlich könnte es nie dafür stimmen, daß Se. k. k. Hoheit im Sinne der ungrischen Repräsentation sich nach Agram begeben; es müßte vielmehr dahin einraten, daß das Vermittlungsgeschäft jedenfalls auf neutralem, also außerungrischem Boden, ausgetragen werde.</p>
+                  <p>Vielleicht läßt die Anwesenheit des ungrischen Ministerpräsidenten Graf Ludwig Batthyány eine nähere Bestimmung oder Modifikation dieser Proposition zu<note type="footnote" n="5">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480711-P-0096.xml#top_1_1_96_9">MR. v. <date when="1848-07-11">11. 7. 1848</date>/IX</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_95_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Finanzielle Unterstützung für Emanuel Freiherr Dietrich v. Hermannsberg</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> äußerte sich über einen ihm brevi manu zugekommenen Vortrag Sr. k. k. Hoheit des Herrn Erzherzog Stephan<note type="footnote" n="6">Der Akt mit dem Ansuchen Erzherzog Stephans v. <date when="1848-06-18">18. 6. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 2966/1848</bibl>, ist skartiert worden.</note> wegen Unterstützung des <pb n="533" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s533.pdf"/>Artilleriegenerals Baron Dietrich<note type="footnote" n="7">Zu Emanuel Freiherr Dietrich v. Hermannsberg siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 3, 294 f.</bibl>
+                     </note> in Pest mit einer Summe von 5000 fr. (als Beitrag zur Tilgung seiner Schulden) dahin, daß er bei der Lage der Finanzen, insbesondere der Militärdotation, und der Folgerungen wegen seines Orts diesen Antrag nicht unterstützen könne.</p>
+                  <p>Da hiermit die übrigen Stimmen einverstanden waren, so behält er sich vor, hiernach einen eigenen Vortrag an Ew. Majestät zu erstatten<note type="footnote" n="8">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480711-P-0096.xml#top_1_1_96_3">MR. v. <date when="1848-07-11">11. 7. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_95_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Antwort an Windischgrätz bezüglich des Belagerungszustandes in Böhmen und der Entsendung Karl Komers' nach Prag</head>
+                  <p>Derselbe las ferner die – infolge gestern gefaßten Ministerratsbeschlusses<note type="footnote" n="9">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480707-P-0094.xml#top_1_1_94_6">MR. v. <date when="1848-07-07">7. 7. 1848</date>/VI</ref>.</note> – ausgefertigte Antwort an den Fürsten Windischgrätz auf dessen Vorstellung in Ansehung der Absendung des Hofrates Komers nach Prag, worin, unter Ausdrücken der vollsten Anerkennung der bisherigen Leistungen des Fürsten es ihm überlassen wird, den Zeitpunkt zu bestimmen, wann der Belagerungszustand aufzuhören habe, der Wunsch ausgedrückt wird, daß dies baldmöglichst geschehe und der Fürst über Komers’ Absendung damit beruhigt wird, daß derselbe nicht zur Kontrolle des Fürsten, sondern zur Information des Ministerrates über mit den Tatsachen nicht übereinstimmende Angaben der Behörden abgesandt worden sei<note type="footnote" n="10">Ebd., Anm. 25.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_95_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Zeitungsartikel über Truppenbewegungen durch Wien</head>
+                  <p>Ebendieser Minister las endlich einen für die Wiener Zeitung bestimmten Artikel, worin, zur Beseitigung der unaufhörlichen Verdächtigungen des Ministeriums wegen der steten Truppendurchmärsche durch Wien und der hierwegen an den hiesigen Sicherheitsausschuß fortan ergehenden Anfragen ein für allemal bemerkt wird, daß alle diese Truppenbewegungen nichts als die Verwirklichung der der k. k. Armee in Italien zugedachten Verstärkungen aus Mähren und Galizien seien<note type="footnote" n="11">Zur Verstärkung der Armee in Italien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480623-P-0081.xml#top_1_1_81_5">MR. v. <date when="1848-06-23">23. 6. 1848</date>/V</ref>, Anm. 24.</note>, daß es aber jedem Einsichtigen einleuchten müsse, daß man die Benennung und den Stand dieser Truppenergänzungen nicht durch die Zeitungen veröffentlichen könne, weil dies nichts anderes hieße, als dem Feinde die eigene Stärke verraten.</p>
+                  <p>Mit Ausnahme des Finanzministers, dem diese Abfassung bezüglich des Ausschusses zu einer Mißdeutung Anlaß zu geben schien, fand niemand etwas dagegen zu erinnern<note type="footnote" n="12">Der vom Ministerrat genehmigte Artikel erschien in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (A.) v. <date when="1848-07-08">8. 7. 1848</date>
+                        </bibl> und <quote>ebd. (M.) v. <date when="1848-07-09">9. 7. 1848</date>
+                        </quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-07-08">8. Juli 1848</date>. Doblhoff.</dateline>
+                  <seg type="emperors_approval">Ah. E. Der Inhalt dieses Protokolls dient zur Wissenschaft. Erzherzog Johann. Wien, den <date when="1848-07-19">19. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

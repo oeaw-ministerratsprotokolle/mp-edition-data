@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="113">Sitzung 113</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-08-27"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z113.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">2062</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-08-27"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Wessenberg; BdE. und anw. Doblhoff (keine BdE.), Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; außerdem anw. Pipitz (nur bei VI); BdE. Franz Karl (31. 8.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+                  <note>keine BdE.</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8225">
+                     <surname>Hornbostel</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8222">
+                     <surname>Schwarzer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-31">31. 8.</date>
+                  </note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8323">
+                     <surname>Pipitz</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei VI)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_113_1">Militärische Beförderungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_113_2">Dotierung der Agramer Kriegskasse</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_113_3">Neue provisorische Wahlordnung für den Wiener Gemeindeausschuß</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_113_4">Wiedereinstellung kompromittierter Südtiroler Staatsbeamten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_113_5">Sympathiewerbung für die Dynastie und die Regierung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_113_6">Stellung Ungarns zur Gesamtmonarchie; Verhandlungen mit Ungarn über gemeinsame Angelegenheiten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480827-P-0113" ana="a1-1848_z113">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z113.pdf">
+               <title type="num">Nr. 113</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-08-27">27. August 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff (keine <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice>), Latour, Krauß, Bach, Hornbostel, Schwarzer, Wessenberg; außerdem <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pipitz (nur bei VI); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (31. 8.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">2062</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-08-27">27. August 1848</date> unter dem Vorsitze des Ministerpräsidenten, zugleich Ministers des Äußern Freiherrn v. Wessenberg.</head>
+               <div type="agenda_item" xml:id="top_1_1_113_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Militärische Beförderungen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Krieges</rs>
+                     </hi> überreicht drei au. Vorträge a) wegen Beförderung des Titularfeldmarschalleutnants Baron Rath<note type="footnote" n="1">Rath war auf Vortrag Latours v. <date when="1848-08-13">13. 8. 1848</date> mit Ah. E. v. <date when="1848-08-20">20. 8. 1848</date> zum Titularfeldmarschalleutnant ernannt worden, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1747/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4418/1848</bibl>.</note> zum wirklichen Feldmarschalleutnant und Verleihung des Kommandeurkreuzes des Leopoldordens an denselben<note type="footnote" n="2">Vortrag Latours v. <date when="1848-08-25">25. 8. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1854/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4748/1848</bibl>.</note>; b) wegen Beförderung des Majors v. Ennhuber in die durch v. Gáals Pensionierung<note type="footnote" n="3">Nikolaus Gáal de Gyula war mit Ah. E. v. <date when="1848-09-05">5. 9. 1848</date> auf Vortrag Latours v. <date when="1848-08-23">23. 8. 1848</date> in den Ruhestand versetzt worden, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1878/1848</bibl>.</note> erledigte Oberstleutnantsstelle im Ingenieurkorps<note type="footnote" n="4">Vortrag Latours v. <date when="1848-08-24">24. 8. 1848</date>, <quote>ebd., MRZ. 1855/1848</quote>, und <bibl type="archival">KA., HKR., KM., Präs. 4821/1848</bibl>.</note> und c) wegen Verleihung des Majorscharakters samt Pension an den Grenadierhauptmann Anton Grafen De la Tour en Voivre<note type="footnote" n="5">Vortrag Latours v. <date when="1848-08-23">23. 8. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1856/1848</bibl>.</note>.</p>
+                  <p>Gegen die diesfälligen Anträge des Kriegsministeriums wurde von keiner Seite eine Erinnerung erhoben<note type="footnote" n="6">Der in Anm. 2 zit. Vortrag wurde mit Ah. E. v. <date when="1848-09-01">1. 9. 1848</date>, die in Anm. 4 und 5 zit. Vorträge mit Ah. E. v. <date when="1848-09-05">5. 9. 1848</date> resolviert.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_113_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Dotierung der Agramer Kriegskasse</head>
+                  <p>Graf Latour verlas den Entwurf seiner, an den ungarischen Minister Grafen Esterházy zu richtenden Note wegen schleuniger Dotierung der Agramer Kriegskasse aus den ungarischen Finanzen<note type="footnote" n="7">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480826-P-0112.xml#top_1_1_112_2">MR. v. <date when="1848-08-26">26. 8. 1848</date>/II</ref>.</note>.</p>
+                  <p>Der Ministerrat erklärte sich mit diesem Entwurfe einverstanden<note type="footnote" n="8">Der Entwurf, datiert mit <date when="1848-08-27">27. 8. 1848</date>, in <bibl type="archival">KA., HKR., KM., Präs. 4526/1848 und Präs. 4527/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480901-P-0115.xml#top_1_1_115_5">MR. v. <date when="1848-09-01">1. 9. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_113_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Neue provisorische Wahlordnung für den Wiener Gemeindeausschuß</head>
+                  <p>Von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> wurde hierauf der Entwurf einer neuen provisorischen Wahlordnung für den Wiener Gemeindeausschuß vorgetragen<note type="footnote" n="9">Mit Schreiben v. <date when="1848-08-24">24. 8. 1848</date> hatte Doblhoff den Gemeindeausschuß gedrängt, ihm endlich den Entwurf einer Gemeindeordnung vorzulegen, <bibl type="archival">WStLA., Gemeinderat 1848, GA. 1, Karton 3, Z. 898/1848</bibl>. Der Gemeindeausschuß beschloß daraufhin in seiner Plenarsitzung am <date when="1848-08-26">26. 8. 1848</date> den Entwurf einer Wahlordnung und legte ihn Doblhoff mit Schreiben (K.) v. <date when="1848-08-27">27. 8. 1848</date> zur Genehmigung vor, <quote>ebd., Z. 918/1848</quote>.</note>. Die <pb n="603" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s603.pdf"/>neuen Bestimmungen dieser Wahlordnung sind im wesentlichen a) die Vermehrung der Zahl der Glieder des Gemeindeausschusses von 100 auf 150; b) die Ausdehnung der aktiven Wahlbefugnis auf mehrere Stände und Konfessionen, welche bisher davon ausgeschlossen waren, und c) die Einführung direkter Wahlen.</p>
+                  <p>Der Ministerrat glaubte in eine Modifikation der fraglichen, vom Gemeindeausschusse vorgeschlagenen Wahlmodalitäten nicht eingehen zu sollen, da sie im wesentlichen zu keinem Bedenken Anlaß geben, und es sich ohnehin nur um ein Provisorium, um einen Versuch handelt, auf dessen Erfolg bei der Entwerfung der definitiven Wahlordnung Rücksicht genommen werden wird<note type="footnote" n="10">Mit Schreiben v. <date when="1848-08-27">27. 8. 1848</date> an den Gemeindeausschuß genehmigte Doblhoff den Entwurf der Wahlordnung und sprach den Wunsch aus, <quote>daß nach der hiermit genehmigten neuen Wahlordnung die Wahlen unvermittelt ausgeschrieben und vorgenommen werden, ebd., Z. 919/1848</quote>. Die Wahlen zum ersten Wiener Gemeinderat fanden schließlich am <date when="1848-10-05">5. 10. 1848</date> statt, die erste Sitzung wurde bereits zwei Tage später abgehalten. Zum Zustandekommen der neuen Wahlordnung und zu den Wahlen siehe <bibl type="secondary">
+                           <author>Till</author>, Wiener Stadtverwaltung 230 ff.</bibl>, und <bibl type="secondary">
+                           <author>Weiß</author>, Gemeinde-Verfassung 83f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_113_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Wiedereinstellung kompromittierter Südtiroler Staatsbeamten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> brachte die Frage in Anregung, ob die in politischer Hinsicht kompromittierten südtirolischen Staatsbeamten aus der Justizbranche infolge der soeben Ag. bewilligten Amnestie<note type="footnote" n="11">Diese Amnestie war mit Ah. E. v. <date when="1848-08-24">24. 8. 1848</date> erteilt worden, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480822-P-0109.xml#top_1_1_109_3">MR. v. <date when="1848-08-22">22. 8. 1848</date>/III</ref>.</note> wieder in ihre Dienstposten einzusetzen seien. Der Minister betrachtet eine solche Wiedereinsetzung als den notwendigen Schlußstein der Amnestie, für deren segensreiche Wirkungen fast jeder Bericht Südtirols neue Belege bringt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte nur, daß bei derlei Wiedereinsetzungen jedesmal zu erwägen sein dürfte, ob nicht besondere Verhältnisse rätlich machen, daß der Beamte an einen andern Ort versetzt werde<note type="footnote" n="12">Weder unter den Beständen des AVA., IM., Präs., noch unter denen des AVA., JM., findet sich ein Hinweis auf eine konkrete Anwendung dieses Vorschlages.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_113_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Sympathiewerbung für die Dynastie und die Regierung</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>erklärte, er halte es für seine Pflicht, auf die dringende Notwendigkeit aufmerksam zu machen, daß die dynastischen Elemente im konstituierenden Reichstage und die Anhänglichkeit der Deputierten an die Ah. Person Sr. Majestät sowohl als die Glieder des Ah. Kaiserhauses in geeigneter Weise gekräftigt würden; da die Stimmung der Reichstagsabgeordneten in dem gegenwärtigen Augenblicke, wo die Beratungen über die Konstitution durch den Ausschuß bereits begonnen haben<note type="footnote" n="13">Die Wahlen für den Verfassungsausschuß des Reichstages hatten am <date when="1848-08-01">1. 8. 1848</date> stattgefunden, siehe dazu <bibl type="archival">HHSTA., RTA. 106, Fasz. Constitutions-Ausschuß, fol. 1–11</bibl>; die erste Sitzung fand am <date when="1848-08-02">2. 8. 1848</date> statt, <quote>ebd., Fasz. Protokolle des Verfassungs-Ausschusses Aug.–Sept., fol 2–7</quote>.</note>, von höchster Wichtigkeit und von unberechenbaren Folgen für alle Zukunft sei. Se. Majestät der Kaiser und Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Franz Karl dürften Höchstsich daher bewogen finden, bei Gelegenheit eines demnächst zu veranstaltenden Festes die sämtlichen Reichstagsdeputierten den Ah. und Höchsten Herrschaften vorstellen zu lassen.</p>
+                  <p>Der Minister dürfe auch nicht unerwähnt lassen, daß es seiner Überzeugung nach allgemein den besten Eindruck machen und mit Enthusiasmus aufgenommen werden <pb n="604" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s604.pdf"/>würde, wenn Ihre k. k. Hoheiten die jüngeren Erzherzöge sich dem Publikum in Nationalgardeuniform zeigen würden<note type="footnote" n="14">Dieser Wunsch Bachs ging nur bedingt in Erfüllung. Bloß Erzherzog Ferdinand Maximilian nahm an der Fahnenweihe einer Nationalgardekompanie – allerdings in Heeresuniform – teil, siehe dazu <bibl type="secondary">
+                           <author>Corti</author>, Vom Kind zum Kaiser 306</bibl>.</note>.</p>
+                  <p>Sämtliche Minister traten den geäußerten Ansichten des Justizministers bei und vereinigten sich auch mit demselben über die Notwendigkeit, daß ein Minister durch regelmäßige Eröffnung seiner Salons einmal die Woche den Reichstagsmitgliedern einen Vereinigungspunkt zur freundschaftlichen Besprechung und Verständigung wie auch eine Gelegenheit gewähre, sich mit den höheren Staatsbeamten, Militärs etc. in nähere Berührung zu setzen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_113_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Stellung Ungarns zur Gesamtmonarchie; Verhandlungen mit Ungarn über gemeinsame Angelegenheiten</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Pipitz</rs>
+                     </hi> wurde in den Ministerrat berufen, um daselbst das von ihm über Auftrag und nach den Andeutungen des Ministeriums verfaßte Memoire über die Stellung des Königreiches Ungarn zur Gesamtmonarchie vor und nach den Märzereignissen in Vortrag zu bringen<note type="footnote" n="15">Abschrift dieser Denkschrift in <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1901/1848</bibl>.</note>.</p>
+                  <p>Dieses Memoire wurde von dem Ministerrate der gesagten Absicht entsprechend und sowohl durch Gründlichkeit als durch mit Umsicht gewählte Form völlig geeignet befunden, um als Staatsschrift gebraucht zu werden. Man beschloß sofort, diese Staatsschrift Sr. Majestät mittelst besonderen Vortrages unter Beifügung von Anträgen über den in der ungrisch-kroatischen Angelegenheit einzuhaltenden Gang vorzulegen. Bei der Verhandlung, welche die Vereinbarung des österreichisch-deutschen und des ungrischen Ministeriums bezielt und womit solche Einrichtungen vorbereitet werden sollen, daß mit denselben die Pragmatische Sanktion zur vollen Geltung käme, würde sich nach den von einzelnen Stimmen gemachten Andeutungen an folgende Richtpunkte zu halten sein: Es wäre nämlich mittelst eines bestimmten ungrischen Gesetzes auszusprechen notwendig, wienach der ungrische Kriegsminister in seiner Aufgabe auf die zur Landesverteidigung gehörigen Anstalten und Vorkehrungen beschränkt werde, daß er für die Militärbedürfnisse auf die für das Land schonendste Weise Rat schaffe, im übrigen aber den Oberbefehl über das gesamte, teilweise auch in Ungern dislozierte Heer nicht durch abweichende Verfügungen beirre. Auf ähnliche Art wären die Gegenstände aufzuzählen, die den Gesamtstaatshaushalt angehen, wie nämlich die allgemeine Staatsschuld, das Geld- und Bankwesen, endlich die Beitragsleistung zu den Erfordernissen des Gesamtstaates. Auch beim Handelsministerium muß eine Ausscheidung für dasjenige stattfinden, was die Monarchie im ganzen angeht, sonst dürften die Beziehungen zum Auslande, ja der Länder unter sich, in Verwicklung geraten.</p>
+                  <p>Für die Erhaltung der unentbehrlichen Einheit in der Ausübung der exekutiven Gewalt wäre entweder die Bestellung von verantwortlichen Staatssekretären an der Seite der in Wien befindlichen Minister des Kriegs und der Finanzen oder die Beiziehung des im Ah. Hoflager befindlichen ungrischen Ministers zu dem in Wien bestehenden Ministerrate in vorkommenden Fällen, oder endlich die ununterbrochne Mitteilung und schriftliche Verhandlung des hiesigen Ministerrates mit dem anwesenden ungrischen Minister erforderlich. In den Verhandlungen mit dem ungrischen Ministerium wäre <pb n="605" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s605.pdf"/>dahin zu streben, die erste der Alternativen zur Annahme zu bringen, weil dieselbe die einfachste und haltbarste scheint.</p>
+                  <p>Was die Stellung der legislativen Organe betrifft, so lassen sich auch hierbei verschiedene Gestaltungen in Anregung bringen. Am geeignetsten dürfte es erscheinen, wenn aus den legislativen Körpern ein Reichsrat, oder welchen Namen man geben will, zusammengesetzt würde, dem die Fragen, wo Konflikte zwischen den Gewalten Ungerns und jenen der österreichisch-deutschen Länder oder gemeinsame Interessen zur Sprache kommen, zur Erörterung und Entscheidung zuzuweisen wären. Demselben Reichsrate gegenüber wären auch die Minister der beiden Länderkomplexe verantwortlich, insofern sie durch ihre Handlungen gegen die vom Reichsrate ausgegangenen Beschlüsse und Weisungen sich verstoßen oder sonst in Ansehung der vereinigten oder der gegenseitigen Interessen sich einer Pflichtverletzung schuldig gemacht haben würden<note type="footnote" n="16">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480829-P-0114.xml#top_1_1_114_1">MR. v. <date when="1848-08-29">29. 8. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-08-28">28. August 1848</date>.</dateline>
+                  <seg type="other">Ges. 31. August. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

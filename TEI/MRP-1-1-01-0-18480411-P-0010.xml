@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="010">Sitzung 10</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-11"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z10.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">138</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-11"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (12. 4.), Franz Karl (12. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-12">12. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-12">12. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_10_1">Versetzung der 2. Bataillone der kroatisch-slawonisch-banater Grenzregimenter nach Innerösterreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_10_2">Ernennung GM. Anton Freiherrn Csorich v. Monte-Cretos zum Feldmarschalleutnant und Divisionär in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_10_3">Geldanweisung für die k. k. Truppen in Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_10_4">Änderung im Armeereglement</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_10_5">Verstärkung der ständischen Körperschaften</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_10_6">Die „Constitutionelle Donau-Zeitung“ als Regierungsorgan</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480411-P-0010" ana="a1-1848_z10">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z10.pdf">
+               <title type="num">Nr. 10</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-11">11. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (12. 4.), Franz Karl (12. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">138</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-04-11">11. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_10_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Versetzung der 2. Bataillone der kroatisch-slawonisch-banater Grenzregimenter nach Innerösterreich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> brachte folgende Gegenstände zur Sprache: den Antrag, auch die zweiten Bataillons der kroatisch-slawonisch-banatischen Grenzregimenter nach Innerösterreich absenden zu dürfen, da wir auf dem Punkte angelangt sind, wo wir es als möglich ansehen müssen, daß wir von Seite von Friaul und in Tirol die deutschen Länder gegen italienische Angriffe zu verteidigen haben werden. Außer diesem Gesichtspunkte der notwendigen Vorsicht spricht für diese Absendung auch der Umstand, daß bei den neuesten Bestrebungen Ungarns, die Militärgrenze in seinen Verband zu ziehen<note type="footnote" n="1">Vgl. dazu <bibl type="archival">KA., HKR., KM., Präs. 409, 527 und 580, alle ex 1848</bibl>. Fortsetzung dieses Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_12">MR. v. <date when="1848-04-30">30. 4. 1848</date>/XII</ref>.</note>, man nicht wissen kann, wie lang man noch über die Grenztruppen wird frei disponieren können. Es ist eine Tatsache, daß die Grenzer außerordentlich bearbeitet werden, sich Ungarn anzuschließen, um an seinen Freiheiten teilzunehmen.</p>
+                  <p>Der Kriegsminister erbat sich die Zustimmung des Ministerrates, schon vorläufig in der angetragenen Art vorzugehen, wogegen nichts erinnert wurde. Eine bedeutende Mehrauslage wird dadurch nicht verursacht, weil diese Bataillons bereits in der Verpflegung des Ärars stehen.</p>
+                  <p>Ew. Majestät dürften sich sonach bestimmt finden, dem Kriegsminister die schriftliche Bedeckung hierüber zu erteilen<note type="footnote" n="2">Mit Schreiben (K.) v. <date when="1848-04-11">11. 4. 1848</date> wurden die notwendigen Schritte veranlaßt, die insgesamt fünf Bataillons in Marsch zu setzen, <bibl type="archival">KA., HKR., KM., Präs. 183/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_10_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Ernennung GM. Anton Freiherrn Csorich v. Monte-Cretos zum Feldmarschalleutnant und Divisionär in Wien</head>
+                  <p>Die Besetzung der durch die Ah. Ernennung des FML. Grafen Wrbna zum Militärkommandanten in Linz erledigten Divisionskommandantenstelle in Wien<note type="footnote" n="3">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480403-P-0002.xml#top_1_1_2_3">MR. v. <date when="1848-04-03">3. 4. 1848</date>/III</ref>, besonders Anm. 9.</note>, für welche der Kriegsminister mit Reservierung des Ranges für die älteren vor ihm stehenden Generalmajors den Generalmajor und Festungskommandanten zu Salzburg Baron Csorich mit dem Beisatze anträgt, daß er gleichzeitig zum Feldmarschalleutnant Ag. ernannt werden dürfte. Csorich erscheint für den hiesigen Platz vorzüglich geeignet; er ist besonnen, klug, eifrig und versehnlich.</p>
+                  <p>Gegen diesen Antrag fand der Ministerrat nichts zu erinnern<note type="footnote" n="4">Der diesbezügliche Vortrag Zaninis v. <date when="1848-04-10">10. 4. 1848</date> wurde mit Ah. E. v. <date when="1848-04-12">12. 4. 1848</date> im Sinne des Ministerratsbeschlusses resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 138/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 241/1848</bibl>. Zu Csorich siehe <bibl type="secondary">
+                           <author>Wagner</author>, Kriegsministerium 1, 240f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_10_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Geldanweisung für die k. k. Truppen in Ungarn</head>
+                  <p>Zeigt der Kriegsminister Ew. Majestät an, daß die k. k. Finanzverwaltung eine jede Geldanweisung für die in Ungarn befindlichen Truppen und Militärkörper vom Monate Mai d.J. an aus dem Grunde verweigert, weil das Königreich Ungarn den Verband mit dem Zentralstaate in finanzieller Beziehung aufgelöst habe und auch keine Einzahlungen mehr in die k. k. Kassen leiste. Auf eine regelmäßige Kontributionseinzahlung sei dortlandes unter den gegenwärtigen Wirren gleichfalls nicht zu denken<note type="footnote" n="5">Siehe dazu das Schreiben des Finanzministeriums an Zanini v. <date when="1848-04-08">8. 4. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 236/1848</bibl>. Vgl. dazu den Aufruf der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480328">Pester Zeitung</ref>
+                           </title> v. <date when="1848-03-28">28. 3. 1848</date>
+                        </bibl>, in dem die ungarische Oberhoheit in Kriegs- und Finanzangelegenheiten gefordert wird. Zur politisch-militärischen Beurteilung der Lage in Ungarn siehe die Berichte v. 27. und <date when="1848-03-28">28. 3. 1848</date> des dortigen kommandierenden Generals Baron Lederers, <bibl type="archival">KA., HKR., KM., Präs. 236/1848</bibl>.</note>.</p>
+                  <p>Der Ministerrat erachtet, daß die Regierung hier auf der Linie des Rechtes zu verbleiben und, auf die Loyauté Ungarns vertrauend, vor allem das Land zur Zahlung der laufenden Kontribution sowohl als der Rückstände daran aus früheren Jahren aufzufordern habe. Geht nicht so viel ein, als für die Truppenverpflegung erfordert wird, so müsse die Kammer die Zahlung alles Fehlenden übernehmen, weil die Truppen nicht ohne Verpflegung bleiben können.</p>
+                  <p>Um zu diesem Ziele zu gelangen, dürften Ew. Majestät sich bewogen finden, den Herrn Erzherzog Reichspalatin durch ein Kabinettschreiben aufzufordern, über dieses zur Ah. Kenntnis gelangte Verhältnis der Ah. deutschen Finanzverwaltung zu dem Königreiche Ungarn sich zu äußern, zugleich aber dahin zu wirken, daß sowohl die laufende Militärkontribution als auch die daran aushaftenden Rückstände aus früheren Jahren behufs der Verpflegung der Truppen in die Militärkassen genau eingezahlt werden. Auch hätte derselbe das diesfällige Einschreiten des unter einem hierzu angewiesenen Finanzministers Freiherrn v. Krauß bei dem ungarischen Minister Fürsten Esterházy kräftig zu unterstützen<note type="footnote" n="6">Der diebezügliche Vortrag Zaninis v. <date when="1848-04-11">11. 4. 1848</date> wurde mit Ah. E. v. <date when="1848-04-12">12. 4. 1848</date> nach den Vorstellungen des Ministerrates entschieden, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 138/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 236/1848</bibl>. Zugleich erging ein Ah. Kabinettschreiben an den Finanzminister Krauß, sich umgehend mit Fürst Esterházy in Verbindung zu setzen, um die finanzielle Absicherung des Militärs in Ungarn zu gewährleisten, <quote>ebd</quote>. Auch Erzherzog Palatin Stephan wurde mittels Kabinettschreibens angewiesen, die Bemühungen Krauß’ tatkräftig zu unterstützen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 138/1848</bibl>. Krauß wandte sich mit Schreiben (Abschrift) v. <date when="1848-04-13">13. 4. 1848</date> an Esterházy, um die vorher erwähnten Maßnahmen in Gang zu bringen, <bibl type="archival">KA., HKR., KM., Präs. 236/1848</bibl>. Nachdem aber Esterházy erklärt hatte, auf diese Angelegenheit keinen Einfluß nehmen zu können, ersuchte der Finanzminister Erzherzog Stephan mit Schreiben (Abschrift) v. <date when="1848-04-15">15. 4. 1848</date> um direkte Intervention, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_10_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Änderung im Armeereglement</head>
+                  <p>Bitte um die Ah. Genehmigung, die bestehenden Armeereglements in dem Punkte abändern zu dürfen, daß die Korporals und die mit denselben äquiparierenden Chargen vor jedem Höheren statt mit dem Pronomen „Er“ mit „Sie“ angeredet werden und die Stöcke und Röhre der Unteroffiziere aufhören, Ehrenzeichen dieser Chargen zu sein, – und da nach Ablegung der Stöcke zwischen den Unteroffizieren der Grenadiere, der Jäger und der deutschen Kavallerie kein äußeres Abzeichen bestünde, so wäre dafür eine Auszeichnung durch Litzen von weißem Wollstoffe am Kragen bei der Infanterie und durch gewisse Helmverzierungen bei der Kavallerie einzuführen.</p>
+                  <p>
+                     <pb n="57" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s57.pdf"/>Dieser Antrag wird gemacht, um einer baldigen diesfälligen Forderung zuvorzukommen, ferner weil das, was hier angetragen wird, bei allen deutschen Armeen bereits besteht und weil diese Änderung einen sehr guten Einfluß und moralische Wirkung auf die Armee machen würde.</p>
+                  <p>Die Aufhebung der Stockstrafe, welche in dem Gesetze gegründet ist, wird damit dermal nicht in Verbindung gebracht, sich aber dieser Antrag vorbehalten, wenn einmal die Stellung zum Militär durch das Los bestimmt und die Kapitulationszeit abgekürzt sein wird. Der Ministerrat hat sich mit diesem Antrage vollkommen vereinigt<note type="footnote" n="7">Der diesbezügliche Vortrag Zaninis v. <date when="1848-04-10">10. 4. 1848</date> wurde mit Ah. E. v. <date when="1848-04-12">12. 4. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 138/1848</bibl>; vgl. dazu <quote>ebd., MRZ. 131/1848</quote>. Der entsprechende Akt <bibl type="archival">KA., HKR., KM., Präs. 151/1848</bibl>, ist nicht mehr vorhanden. Zur Aufhebung der Stockstrafe siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480602-P-0059.xml#top_1_1_59_4">MR. v. <date when="1848-06-02">2. 6. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_10_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Verstärkung der ständischen Körperschaften</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> erinnerte, daß nach den letzten Ereignissen die böhmischen Stände aufgefordert worden seien, sich mit Zuziehung der bis jetzt nicht vertretenen Elemente des Volkes behufs ihrer bevorstehenden wichtigen Beratungen zu verstärken<note type="footnote" n="8">Pillersdorf bezieht sich hier auf das kaiserliche Reskript v. <date when="1848-03-25">25. 3. 1848</date>, auf die erste Prager Petition, in deren Punkt 2 die Verstärkung der Stände durch frei gewählte Städtedeputierte gewährt wird.</note>. Dieselben haben es getan und die Art der von ihnen veranlaßten Verstärkung durch den Druck bekannt gemacht<note type="footnote" n="9">Die Kundmachung über <quote>eine vorläufige interimistische Erweiterung der Landesvertretung</quote> abgedruckt in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18480405">Constitutionellen Prager Zeitung</ref>
+                           </title> v. <date when="1848-04-05">5. 4. 1848</date>
+                        </bibl>. Dieselbe Zeitung veröffentlichte am <date when="1848-04-07">7. 4. 1848</date> eine Petition mehrerer böhmischer Landstände, in der u. a. gefordert wurde, <quote>daß in der Hinkunft in Böhmen nicht nur der Bürgerstand, sondern so viel als möglich auch die Klassen aller anderen, bis jetzt nicht oder nicht entsprechend vertretenen Grundbesitzer, und zwar auf die umfassendste Weise, mittelst selbst gewählter Deputirter auf dem Landtage oder sonstigen Landesversammlungen vertreten werden</quote>.</note>.</p>
+                  <p>Die Stände der übrigen Provinzen, besonders die niederösterreichischen, wünschen nun eine gleiche Verstärkung ihres Körpers einzuleiten<note type="footnote" n="10">Siehe dazu <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtagsbewegung 496</bibl>, und insbesondere die Kundmachung der niederösterreichischen Stände v. <date when="1848-03-15">15. 3. 1848</date>, <quote>ebd. 511</quote>.</note>.</p>
+                  <p>Da füglich dem einen nicht verweigert werden kann, was dem anderen bewilliget worden ist, so glaubt der Minister des Inneren sich die Zustimmung des Ministerrates erbitten zu sollen, in diesem Sinne bei dem Ansuchen der Stände vorzugehen, welche Zustimmung für diesen in der Billigkeit gegründeten Vorgang ohne Anstand gegeben wurde<note type="footnote" n="11">So war in der <quote>Einberufung einer Provinzial-Stände-Versammlung in Oesterreich unter der Enns</quote> v. <date when="1848-04-12">12. 4. 1848</date> eine bedeutende Vermehrung des Landtags durch Mitglieder aus dem Bürger- und Bauernstand und aus der Intelligenz vorgesehen, abgedruckt in <quote>ebd., 527ff</quote>. Die Wahlen fanden dann am <date when="1848-05-02">2. 5. 1848</date> statt. Der Landtag, der für die zweite Maihälfte 1848 vorgesehen war, konnte wegen der im selben Monat ausgebrochenen Unruhen nicht wie geplant stattfinden und wurde schließlich ganz abgesagt, siehe dazu <quote>ebd. 508f</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_10_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Die „Constitutionelle Donau-Zeitung“ als Regierungsorgan</head>
+                  <p>Ferner brachte der Minister des Inneren zur Sprache, daß es für die Regierung unter den gegenwärtigen Verhältnissen dringend notwendig geworden sei, ein eigenes Organ für die Einwirkung auf die öffentliche Meinung zu besitzen<note type="footnote" n="12">Die <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> nahm, abgesehen vom offiziellen Teil, eine sehr schwankende Haltung gegenüber der Politik der neuen Regierung ein; der Metternich nahestehende <bibl type="secondary">
+                           <title>Österreichische Beobachter</title>
+                        </bibl> verlor mit dem Sturz seines Meisters den Boden unter den Füßen und mutierte unter seinem neuen Redakteur Schwarzer noch im März 1848 zur <bibl type="secondary">
+                           <title>Allgemeinen Österreichischen Zeitung</title>
+                        </bibl>, die in entschiedener Opposition zum Ministerium Pillersdorf stand, <bibl type="secondary">
+                           <author>Salomon</author>, Deutsches Zeitungswesen 3, 626–629 und 639f.</bibl>; vgl. auch <bibl type="secondary">
+                           <author>Winckler</author>, Periodische Presse 67</bibl>.</note>. Die Wahl einer <pb n="58" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s58.pdf"/>geeigneten Person hierzu sei sehr wichtig. Dem Minister des Inneren seien mehrere Personen genannt worden, insbesondere der Redakteur der Constitutionellen Donau-Zeitung<note type="footnote" n="13">Die <bibl type="secondary">
+                           <title>Constitutionelle Donau-Zeitung</title>
+                        </bibl> war am <date when="1848-04-01">1. 4. 1848</date> erstmals erschienen, siehe dazu <bibl type="secondary">
+                           <author>Salomon</author>, Deutsches Zeitungswesen 3, 631</bibl>.</note> Hock<note type="footnote" n="14">Zu Karl Ferdinand (seit 1859 Freiherr) v. Hock siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 9, 78–81</bibl>.</note>, auf welchen auch der provisorische Ministerpräsident Graf v. Kolowrat hingedeutet hat. Mit diesem habe Baron Pillersdorf den Gegenstand besprochen, und Hock erklärte nun nach verstrichener Bedenkzeit, die Parteistellung so lange einnehmen zu wollen, als die Regierungsmaßregeln mit seinen Grundsätzen und seinem der Constitutionellen Donau-Zeitung vorausgeschickten Programm nicht in Widerspruch geraten.</p>
+                  <p>Die von ihm gestellten Bedingungen sind in der Wesenheit folgende: a) Dem Redakteur als dem Vertrauten des Ministeriums eine nicht unehrenvolle Stellung bei einem Ministerium, dann eine Zulage von 2000f. zu gewähren, insofern er diesen Vorteil nicht schon aus dem Journale selbst zieht, b) einen Beitrag zu den Kosten des Redaktionsbüros von jährlichen 3000f. zu leisten, c) dem Redakteur alle Journale des Ministeriums zu Gebote zu stellen und d) den Zeitungsstempel vorzumerken statt zu zahlen. Da Hock eine ehrenvolle Anstellung bei der Generaldirektion der Staatseisenbahnen bereits innehat<note type="footnote" n="15">Auf Vortrag Kübecks v. <date when="1847-07-02">2. 7. 1847</date> war der damalige Oberamtsdirektor des Wiener Gefälls-Oberamtes Karl Hock mit Ah. E. v. <date when="1847-07-17">17. 7. 1847</date> zum Adjunkten bei der Generaldirektion der Staatseisenbahnen mit dem Titel und Charakter eines Regierungsrates und dem Gehalt von 3000 fl. plus Quartiergeld von 400 fl. p. a. ernannt worden, <bibl type="archival">FA., PP. 6259/1847</bibl>.</note> und er auf die Vormerkung des Zeitungsstempels nach der ihm bemerkten Unzukömmlichkeit, welche damit verbunden wäre, nicht weiter insistiere, so entfallen diese beiden Punkte. Die übrigen Bedingungen findet der Minister des Inneren und mit ihm der Ministerrat zur Annahme geeignet.</p>
+                  <p>Die entfallenden Zahlungen wären als geheime Auslagen zu betrachten. Die sämtlichen Minister hätten sich nun dieses Organes zu ihren Zwecken zu bedienen.</p>
+                  <p>Eine schriftliche Antwort über dieses Übereinkommen wäre dem Hock in der Art, wie er sie entworfen, nicht zu erteilen und überhaupt nicht zu gestatten, daß eine Publikation darüber in der Zeitung erscheine. Durch eine solche Publikation würde diese Zeitung formell und offen als eine Regierungszeitung dargestellt, was die große Unzukömmlichkeit, daß alles, was darin vorkommt, wenn es auch ohne oder gegen den Willen der Regierung geschieht, als mit ihrer Billigung erschienen betrachtet werden würde. Mündlich kann Hock von der eingegangenen Verbindung reden so viel er will<note type="footnote" n="16">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_4">MR. v. <date when="1848-04-14">14. 4. 1848</date>/IV</ref>.</note>. Die nebenstehenden Erledigungsentwürfe dürften den obigen Erörterung[en] und Anträgen entsprechen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-12">12. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 12. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-12">12. April 1848</date>
+                  </seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

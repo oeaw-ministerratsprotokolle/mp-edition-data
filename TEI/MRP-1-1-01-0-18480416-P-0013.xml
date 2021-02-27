@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="013">Sitzung 13</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-16"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z13.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">309 et 310</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-16"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Taaffe, Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (17. 4.), Franz Karl (17. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-17">17. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-17">17. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_13_1">Silber für die Nationalbank</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_13_2">Entschädigung der Wiener Fleischerinnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_13_3">Übertragung der Krakauer Hofkommissarstelle an Graf Heinrich Castiglioni</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_13_4">Gesuch der Militärpolizeiwachmannschaft um Bildung eines Freikorps für Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_13_5">Abfindung für den Pächter des Kärntnertortheaters</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_13_6">Umbenennung der nach dem König von Sardinien und Großherzog von Toskana benannten Regimenter</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_13_7">Beförderungen im Marinekorps</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_13_8">Genehmigung der von Radetzky getroffenen Maßnahmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_13_9">Militärische Ernennungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_13_10">Ausrücken der Prager Nationalgarde zur Geburtstagsfeier des Kaisers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_13_11">Verlegung zweier nichtslawischer Regimenter aus Galizien nach Ungarn</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480416-P-0013" ana="a1-1848_z13">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z13.pdf">
+               <title type="num">Nr. 13</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-16">16. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Taaffe, Pillersdorf, Krauß. Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (17. 4.), Franz Karl (17. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">309 et 310</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-04-16">16. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_13_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Silber für die Nationalbank</head>
+                  <p>Mit dem hier vorliegenden au. Vortrage vom 16. April d. J., Z. 1420<note type="footnote" n="1">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 216/1848</bibl>, und <bibl type="archival">FA., PP. 3761/1848</bibl>.</note>, bringt der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> die in Folge fortgesetzter Beratungen mit der Bankdirektion erzielten Resultate behufs der Konsolidierung der Nationalbank mittelst Herbeischaffung von Silber zur Ah. Genehmigung.</p>
+                  <p>Es ist ihm nämlich gelungen, die Direktion der Nationalbank für ihre an den Staat in betreff der schwebenden Schuld habenden Forderung von 60 Millionen Gulden mit einer Hypothek von 30 Millionen Gulden auf die Saline Gmunden zufriedenzustellen<note type="footnote" n="2">Die schwebende Staatsschuld bei der Oesterreichischen Nationalbank hatte sich von 1847 auf 1848 mehr als verdoppelt, siehe dazu <bibl type="secondary">
+                           <author>Brandt</author>, Neoabsolutismus 2, 1071. Tab. 34</bibl>.</note>, welche Hypothek zunächst dem Zwecke dienen soll, der Bank durch Ankauf von Silber und Gold im Auslande die zur Verwechslung ihrer Noten erforderliche Münze zu verschaffen.</p>
+                  <p>In Absicht auf die Bedeckung des Staatsaufwandes für die nächste Zukunft hat der Finanzminister mit der Bank, dem niederösterreichischen Landstand Baron Stifft, den Bankiers Stametz, Mayer, Rothschild (Vater und Sohn), dann dem Fabriksinhaber Robert Besprechungen gepflogen.</p>
+                  <p>Baron Stifft riet zur Vorsicht mit Anweisung von Hypotheken für die Bank und machte auf die Schwierigkeit aufmerksam, eine solche Maßregel vor dem Reichstage zu verantworten. Dies wirkte. Man ist von der Idee der Zentralkasseanweisungen in der früher vorgeschlagenen Art abgegangen und einigte sich in folgenden Punkten:</p>
+                  <p>1) Die Staatsverwaltung widmet eine weitere Hypothek von 30 Millionen Gulden zur Fundierung eines Anlehens in Form einer schwebenden Schuld von 30 Millionen Gulden.</p>
+                  <p>2) Zu diesem Zwecke werden verzinsliche Partialpfandanweisungen über 50f., 100f., 500f. und 1000f. auf vier, acht oder zwölf Monate lautend hinausgegeben.</p>
+                  <p>3) Die Verzinsung erfolgt anticipando mit jährlichen 5, 5,5 oder 6%, je nachdem die Pfandanweisungen auf vier, acht oder zwölf Monate lauten.</p>
+                  <p>
+                     <pb n="73" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s73.pdf"/>4) Die Hinausgabe erfolgt durch die Bank, ohne daß jedoch die Benützung der Staatskassen zur Vermittlung der Hinausgabe dadurch ausgeschlossen wäre.</p>
+                  <p>5) Die Einlösung der fälligen Pfandanweisungen geschieht, wenn nicht etwa deren Umtausch gegen neue Anweisungen verlangt werden sollte, bei der Zentralkasse und den Einnahmskassen der Provinzen und werden auch an Steuer statt bei den Kassen angenommen.</p>
+                  <p>6) Die Bank macht sich anheischig, gleich itzt einen Vorschuß von 10 Millionen Gulden gegen 4% Verzinsung, einen weiteren von 10 Millionen nach Maßgabe des eintretenden Bedarfes, endlich die letzten 10 Millionen, nach Abschlag der durch Staatskassen eingebrachten Summen, später auf Verlangen zu leisten, wobei sie sich jedoch vorbehält, daß, sofern sich ihre Verhältnisse nicht gebessert hätten, auf den Betrag der von ihr in Umlauf gesetzten Pfandanweisungen Rücksicht genommen und die Einzahlung des letzten Dritteils an das Ärar mit dem erwähnten Betrage in ein angemessenes Verhältnis gestellt werde, so z. B. wenn die Bank von den zweiten 10 Millionen nur erst 5 Millionen abgesetzt hätte, ihr nicht wieder 10, sondern nur 5 Millionen solcher Papiere zu geben wären.</p>
+                  <p>Auf diese Weise sind die Finanzen für 20 Millionen gedeckt.</p>
+                  <p>Diese Papiere dürften Anwert finden, weil sie a) auf kurze Zeit ausgestellt, b) auf Hypothek gegründet und c) mit einem Zinsfuße verbunden sind, der in dem Verhältnisse der längeren Dauer der Verwendung steigt.</p>
+                  <p>Die Saline Wieliczka wurde hierbei ihrer minderen Sicherheit wegen nicht berücksichtiget.</p>
+                  <p>Der Ministerrat erkennt diese Anträge des Finanzministers zur Ah. Genehmigung vollkommen geeignet<note type="footnote" n="3">Der in Anm. 1 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-18">18. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 309 et 310/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_1">MR. v. <date when="1848-04-19">19. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Entschädigung der Wiener Fleischerinnung</head>
+                  <p>Hierauf brachte der Finanzminister die von dem Minister des Inneren erhaltene Verhandlung zur Sprache, der hiesigen Fleischerinnung dafür, daß sie in der ersten Hälfte dieses Monates das [Pfund] Fleisch statt des satzungsmäßig entfallenden Betrages von 12 Kreuzer mit 11 Kreuzer verkauft habe (wozu sie nicht verpflichtet war), eine Entschädigung zu gewähren<note type="footnote" n="4">Wegen der labilen politischen Lage war Ende März der Fleischpreis für Wien auf Anordnung von Pillersdorf bei 11 Kreuzer eingefroren worden. Zugleich war der Innenminister bereit, den Fleischhauern den entstandenen Verdienstentgang zu entgelten. Im Schreiben v. <date when="1848-03-30">30. 3. 1848</date> an das Finanzministerium schlug er vor, der Staatsschatz solle zwei, die Gemeinde Wien ein Drittel der aufgelaufenen Kosten übernehmen. Das Finanzministerium vertrat in seiner Note (K.) an den Innenminister v. <date when="1848-03-31">31. 3. 1848</date> den Standpunkt, die Vergütung hätte prinzipiell allein die Gemeinde zu tragen; das einzige, was der Staat tun könne, sei, <quote>einen mäßigen Vorschuß</quote> zu gewähren, <bibl type="archival">FA., PP. 2926/1848</bibl>. In weiterer Folge weigerte sich die Gemeinde Wien, auch nur einen Teil der Entschädigung aus der städtischen Kassa zu bezahlen, und Pillersdorf blieb nichts anderes übrig, als das Finanzministerium zu ersuchen, einen Vorschuß in der Höhe von 21.000f. zur Verfügung zu stellen, Schreiben Pillersdorfs an das Finanzministerium v. <date when="1848-04-13">13. 4. 1848</date>, <quote>ebd., PP. 3515/1848</quote>. Schließlich erschien eine <quote>zahlreiche Deputation</quote> der inzwischen erbosten Fleischhauer bei Pillersdorf und erschreckte ihn durch ihre aggressive Haltung, so daß er mit Schreiben v. <date when="1848-04-15">15. 4. 1848</date> Krauß dringlichst bat, den Vorschuß schleunigst anzuweisen, <quote>ebd., PP. 3583/1848</quote>.</note>.</p>
+                  <p>
+                     <pb n="74" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s74.pdf"/>Diese würde, da die für ein Stück Vieh entfallenden 8f. 30 Kreuzer auf 7f. 30 Kreuzer herabgesetzt wurden, beiläufig 21.000f. betragen.</p>
+                  <p>Die Finanzen sind zwar zu einer solchen Entschädigung nicht verpflichtet; allein, da sie die Kommune nicht leisten kann und es zur Beschwichtigung der sonst zu besorgenden Aufregung notwendig erschien, von den Satzungsdirektiven abzuweichen, so meinte der Finanzminister, daß von den Finanzen zu diesem Zwecke nur 21.000f. anzuweisen, das allenfällige, noch näher zu ermittelnde Plus aber von der Kommune zu übernehmen wäre, mit dem Vorbehalte jedoch, daß, wenn die Fleischpreise wieder sinken, die Fleischsatzung höher belassen werde, um den gedachten Betrag für die Finanzen wieder hereinzubringen.</p>
+                  <p>Die Innung hätte diesfalls einen Revers auszustellen.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden und der Finanzminister hat demgemäß bereits die entsprechenden Verfügungen erlassen<note type="footnote" n="5">Mit Note (K.) v. <date when="1848-04-16">16. 4. 1848</date> an den Innenminister zeigte Krauß die Erledigung der Sache im Sinne des Ministerratsbeschlusses an, <quote>ebd., PP. 3515/1848</quote>; anbei Entwurf des Reverses.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Übertragung der Krakauer Hofkommissarstelle an Graf Heinrich Castiglioni</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> machte auf den gegenwärtigen Zustand Krakaus aufmerksam, welches durch die polnische (6 – 7000 Mann starke) Emigration bedroht werde, und wo die politische Verwaltung demoralisiert und ohne Haupt sei<note type="footnote" n="6">Der Hofkommissär von Krakau Moritz Graf Deym bekleidete diese Stelle seit 1846, bis er unter dem Druck der revolutionären Ereignisse Ende März Krakau verließ, <bibl type="secondary">
+                           <author>Bieniarzowna – Małecki</author>, Dzieje Krakowa 2, 109 und 184f.</bibl>; <bibl type="secondary">
+                           <author>Cetera</author>, Proletariacki nurt 13, 24ff., 34ff.</bibl>; <bibl type="secondary">
+                           <author>Helfert</author>, Krakauer Emigranten-Aufstand 13, Anm. 1</bibl>. Zur Lage im Krakauer Gebiet vgl. die Berichte des dortigen kommandierenden Generals FML. Castiglioni v. 29. 3., 30. 3. und <date when="1848-04-01">1. 4. 1848</date>, <bibl type="archival">KA, HKR., KM., Präs. 366/1848</bibl>.</note>. Es sei dringend notwendig, die Verwaltung dort in ganz verläßliche und geeignete Hände zu geben.</p>
+                  <p>Graf Stadion hat auf niemanden hinzudeuten gewußt<note type="footnote" n="7">Pillersdorf hatte in seinem Schreiben v. <date when="1848-04-06">6. 4. 1848</date> an Stadion, <bibl type="archival">ZDIAUL., StH., Präs. 4742/1848</bibl>, in dem er sich auf einen Bericht des galizischen Gouverneurs v. 1. 4 1848, <quote>ebd., Präs. 4181/1848</quote>, bezog, erklärt, Freiherr v. Krieg könne vorläufig diese Aufgabe übernehmen. Stadion verwahrte sich in seiner Antwort (K.) v. <date when="1848-04-10">10. 4. 1848</date> an Pillersdorf dagegen, Krieg zur Leitung der Krakauer Hofkommission als geeignet bezeichnet zu haben, erklärte aber gleichzeitig, diesen Posten selbst nicht übernehmen zu können, <quote>ebd., Präs. 4742/1848</quote>.</note>.</p>
+                  <p>Der Minister meint, daß der dort kommandierende General Castiglioni die Stelle des Hofkommissärs, wie sie Graf Deym versah, zu übernehmen hätte, da er beliebt ist und die allgemeine Achtung genießt. Er ist zwar kränklich und mit seinen eigenen Obliegenheiten hinlänglich beschäftiget, dessen ungeachtet wäre ihm aber diese Kommissärsstelle wenigstens provisorisch zu übertragen, da es bei ihm mehr um den moralischen Eindruck und die Leitung des ganzen als um das Selbstschreiben (was er anderen überlassen kann) zu tun ist.</p>
+                  <p>Die Minister des Inneren und des Kriegswesens werden diesfalls – nach erhaltener Zustimmung des Ministerrates – das Nötige veranlassen<note type="footnote" n="8">Mit Schreiben (K.) v. <date when="1848-04-17">17. 4. 1848</date> wurde Castiglioni gefragt, ob er auch die zivile Gewalt übernehmen wolle, <quote>ebd</quote>. Fortsetzung des Gegenstandes im <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_6">MR. v. <date when="1848-04-20">20. 4. 1848</date>/VI</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Gesuch der Militärpolizeiwachmannschaft um Bildung eines Freikorps für Italien</head>
+                  <p>Anzeige des Ministers des Inneren, daß die hiesige, ungefähr 1100 Mann starke, gegenwärtig unbeschäftigte Militärpolizeiwachmannschaft das Einschreiten macht, aus ihr ein Freibataillon zum Kriegsdienste in Italien zu bilden. Ein Teil dieser Mannschaft ist ordentlich und dienstfähig.</p>
+                  <p>Der Minister des Inneren wird den hiesigen provisorischen Polizeioberdirektor vernehmen, ob diese Mannschaft nicht teilweise zur Bildung einer Munizipalgarde verwendet werden könnte<note type="footnote" n="9">Der entsprechende Akt, <bibl type="archival">KA., HKR., KM., Präs. 977/1848</bibl>, ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Abfindung für den Pächter des Kärntnertortheaters</head>
+                  <p>Es ist dem Ministerrate bekannt, daß die italienische Oper hier, wegen der gegen die Italiener herrschenden Aufregung, nicht eröffnet werden konnte<note type="footnote" n="10">Siehe dazu bereits <ref type="protocol-link" target="MRP-1-1-01-0-18480401-P-0001.xml#top_1_1_1_6">MR. v. <date when="1848-04-01">1. 4. 1848</date>/VI</ref>.</note>. Der Pächter des Kärntnertortheaters Ballochino hat aus Anlaß des ihm dadurch erwachsenen Nachteiles zu einem Übereinkommen die Hand geboten. Er verlangt nämlich eine Entschädigung von 12.000f. für sich und von 3000f. für seine Leute, dann wolle er von der Theaterpachtung abstehen. Er genießt bekanntlich vom Staate, zum Teil wegen der italienischen Oper, eine Subvention von 75.000f. jährlich<note type="footnote" n="11">Der Pachtbetrag, gekoppelt mit der erwähnten Subvention, war 1847 erneuert worden und lief bis Ende Juni 1849, der entsprechende Akt <bibl type="archival">FA., PP. 1549/1847</bibl>, ist nicht auffindbar. Der die Verhandlungen mit Ballochino wegen Auflösung des Pachtvertrags betreffende Akt, <quote>ebd., PP. 3682/1848</quote>, ist ebenfalls nicht auffindbar.</note>.</p>
+                  <p>Die oberwähnte Abfindung erscheint hiernach in finanzieller Beziehung nur günstig. Um das Opernpersonale nicht preiszugeben, hat sich eine Gesellschaft angetragen, das Theater, ohne sonstige Opfer von Seite des Staates als der bloßen Überlassung des Hauses, zu übernehmen und fortzuführen<note type="footnote" n="12">Das Komitee des Personals im Operntheater hatte dieses Gesuch gestellt. Auch die Direktion des Nationaltheaters an der Wien wollte das Operntheater übernehmen, die entsprechenden Akten, <bibl type="archival">HHSTA., OKäA. 1848, r. 32, Nr. 735 und 745</bibl>, sind nicht mehr vorhanden.</note>.</p>
+                  <p>Der Ministerrat erklärte sich unter den angegebenen Umständen einverstanden, daß der Vertrag mit Ballochino aufgelöst und ihm eine Abfindung von 15.000f. im ganzen erfolgt werde<note type="footnote" n="13">Der Pachtvertrag mit Ballochino wurde mit Stichtag v. <date when="1848-04-16">16. 4. 1848</date> vom Hofkammerprokurator aufgelöst und gleichzeitig ein Entschädigungsübereinkommen geschlossen, in dem die Summe von 12.000f. genannt wurde. Ballochino verlangte aber zu dieser Summe noch 3125f. als den ihm aus dem Pachtkontrakt für die Zeit vom 1. – <date when="1848-04-16">16. 4. 1848</date> gebührenden halbmonatlichen Subventionsbetrag. Dieser Antrag wurde von der Hofkammerprokuratur befürwortet und über das Innenministerium dem Finanzministerium zugeleitet, siehe dazu <bibl type="archival">FA., FM., Präs. 181 und Präs. 322 beide ex 1848</bibl>. Doch Krauß stellte sich auf den Standpunkt, in der Summe von 12.000f. wären auch sämtliche Subventionszahlungen beinhaltet und verweigerte die Flüssigmachung der darübergehenden Forderung, Note (K.) Krauß’ an Pillersdorf v. <date when="1848-05-19">19. 5. 1848</date>, <quote>ebd., Präs. 950/1848</quote>. Ballochino erklärte sich schließlich mit den 12.000f. als alles deckende Ausgleichszahlung einverstanden, der diesbezügliche Akt, <quote>ebd., Präs. 1814/1848</quote>, ist nicht mehr auffindbar.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Umbenennung der nach dem König von Sardinien und Großherzog von Toskana benannten Regimenter</head>
+                  <p>Der in dem vorliegenden au. Vortrage vom 15./16. April d. J., Z. 1631, von dem Minister des Kriegswesen gestellte Antrag, daß bei den so offen an den Tag gelegten feindseligen Gesinnungen des Königs von Sardinien und des Großherzogs von Toskana gegen Österreich die ihren Namen führenden österreichischen Regimenter König von <pb n="76" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s76.pdf"/>Sardinien Husaren und Großherzog Toskana Dragoner aufhören, diese Namen weiter zu führen, und dafür jene ihrer bisherigen zweiten Inhaber FM. Graf Radetzky und FML. Baron Boyneburg annehmen, wird von dem Ministerrate zur Ah. Genehmigung ganz geeignet erkannt<note type="footnote" n="14">Der Vortrag (K.) Zaninis <bibl type="archival">KA., HKR., KM., Präs. 344/1848</bibl>, wurde mit Ah. E v. <date when="1848-04-18">18. 4. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 223/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Beförderungen im Marinekorps</head>
+                  <p>Mit dem weiteren au. Vortrage vom 13./16. April d. J., Z. 1632, trägt der Kriegsminister auf einige im treu gebliebenen Marine-Offizierskorps<note type="footnote" n="15">Vgl. dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480408-P-0007.xml#top_1_1_7_7">MR. v. <date when="1848-04-08">8. 4. 1848</date>/VII</ref>.</note> erforderliche Beförderungen an, von welchen er einen Teil in Anhoffnung der Ah. Genehmigung, um welche er bittet, gleich selbst verfügt hat.</p>
+                  <p>Sein Antrag geht dahin, den Schiffskapitän, Obersten v. Buratović, in Anerkennung seiner bewiesenen Treue<note type="footnote" n="16">Buratović war Kapitän der Fregatte <quote>Guerriera</quote>.</note> mit dem Ritterkreuz des kaiserlichen Leopoldordens zu zieren und denselben in seiner dermaligen Charge dem Triester Militärkommandanten für Marineangelegenheiten beizugeben. Ferner trägt er an, den Fregattenkapitän Ludwig v. Kudriaffsky mit Vorbehalt des Ranges für seine Vormänner zum Schiffskapitän und zugleich zum Kommandanten der Schiffsdivision zu ernennen.</p>
+                  <p>Die von ihm selbst verfügten Beförderungen, um deren Ah. Genehmigung er hier bittet, erscheinen im Extrakte, Z. 1632/1848, umständlich aufgezählt<note type="footnote" n="17">Mit Ah. E. v. <date when="1848-04-18">18. 4. 1848</date> wurden die Anträge Zaninis sanktioniert, <bibl type="archival">KA., HKR., KM., Präs. 431/1848</bibl>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 224/1848</bibl>. Zugleich wurde Kübeck, der Kanzler des Leopoldordens, von dieser Entscheidung unterrichtet, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Genehmigung der von Radetzky getroffenen Maßnahmen</head>
+                  <p>Ebenso macht er auf mehrere vom Grafen Radetzky getroffenen Verfügungen aufmerksam, um deren Ah. Genehmigung er gleichfalls bittet<note type="footnote" n="18">Es dürfte sich dabei u. a. um die Bestellung des Majors Schlitter – bei gleichzeitger Ernennung zum Oberstleutnant – zum zweiten Generaladjutanten des FML. Radetzky handeln; diese Maßnahme wurde nachträglich auf Vortrag Zaninis v. <date when="1848-04-16">16. 4. 1848</date> mit Ah. E. v. <date when="1848-04-23">23. 4. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 240/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 628/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Militärische Ernennungen</head>
+                  <p>In dem dritten au. Vortrage vom 14. April d. J., Z. 1425, trägt der Kriegsminister an, den körperlich gebrechlichen Brigadier von Erlau, GM. v. Riepenhoff, normalmäßig zu pensionieren; den Brigadier von Wien, GM. Baron Cordon, nach Mainz zu versetzen; den Obersten von Erzherzog Ferdinand Chevauxlegers Hollner zum Generalmajor und Brigadier in Erlau, zum Generalmajor und Festungskommandanten in Salzburg den Obersten Baron Eynatten; zum Brigadier in Wien den Obersten Baron Baltheser, und den diesen dreien im Range vorgehenden Obersten v. Langenau mit Belassung in seiner diplomatischen Verwendung zum Generalmajor zu ernennen.</p>
+                  <p>Gegen diese in den beiden letzteren Vorträgen enthaltenen Anträge des Kriegsministers fand der Ministerrat nichts zu erinnern<note type="footnote" n="19">Mit Ah. E. v. <date when="1848-04-18">18. 4. 1848</date> wurden alle Anträge Zaninis vom Kaiser genehmigt, <quote>ebd., Präs. 428/1848</quote>, und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 309/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Ausrücken der Prager Nationalgarde zur Geburtstagsfeier des Kaisers</head>
+                  <p>Ferner zeigte der Kriegsminister dem Ministerrate an, daß der Herr Erzherzog Karl Ferdinand in Prag ihn vertraulich um die Weisung ersucht habe, ob er zum <pb n="77" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s77.pdf"/>bevorstehenden Ah. Geburtstage Ew. Majestät die Prager Nationalgarde, was allgemein gewünscht werde, gemeinschaftlich mit der Garnison ausrücken lassen dürfe. Diese Ausrückung und Parade würde am 24. d. M., einem Feiertage, statt am 25. stattfinden und am 25. das Fest im Prager Dom gefeiert werden.</p>
+                  <p>Der Kriegsminister schrieb dem Herrn Erzherzoge und billigte sein Vorhaben, das zur guten Stimmung in Prag viel beitragen kann.</p>
+                  <p>Der Ministerrat erteilte diesem Vorgange seine volle Zustimmung<note type="footnote" n="20">Der entsprechende Akt über die Beiziehung der Nationalgarde zur Geburtstagsfeier des Kaisers, <bibl type="archival">KA., HKR., KM., Präs. 552/1848</bibl>, ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_13_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Verlegung zweier nichtslawischer Regimenter aus Galizien nach Ungarn</head>
+                  <p>Schließlich bemerkte der Kriegsminister, daß das ungarische Ministerium durch den Fürsten Esterházy die Verlegung zweier Regimenter aus Galizien nach Ungarn der Aufrechterhaltung der Sicherheit wegen anspreche, welche Regimenter der ungarischen Nationalität oder doch keiner slawischen sein sollen<note type="footnote" n="21">Der Kaiser hatte am <date when="1848-04-16">16. 4. 1848</date> das Ansuchen Esterházys an Zanini übersandt mit der Aufforderung, <quote>ohne Verzug Ihre Äußerung</quote> zu erstatten, <quote>ebd., Präs. 574/1848</quote>.</note>.</p>
+                  <p>Dieses scheint dem Kriegsminister das erste Beginnen zu sein, ungarische Regimenter ins Land zu ziehen und sich dadurch noch mehr unabhängig zu machen.</p>
+                  <p>Über diesen Gegenstand werde der Kriegsminister nächstens einen eigenen au. Vortrag erstatten<note type="footnote" n="22">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_8">MR. v. <date when="1848-04-19">19. 4. 1848</date>/VIII</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-17">17. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 17. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-18">18. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

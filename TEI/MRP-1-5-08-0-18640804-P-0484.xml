@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="484">Sitzung 484</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-08-04"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z484.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1288</idno>
+                  <idno type="KZ">2527</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-08-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Hueber; VS. Rechberg; BdE. und anw. (Rechberg 4. 8.), Mecséry, Schmerling, Plener, Esterházy (BdE. fehlt; bei I abw.), Burger, Hein, Franck, Zichy, Kalchberg 11. 8. (bei V abw.), Geringer; außerdem anw. Kudernatsch (bei II anw.); abw. Nádasdy, Lasser, Lichtenfels; BdR. Rechberg 24. 8.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr7490">
+                     <surname>Hueber</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-08-04">1864-08-04</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+                  <note>keine BdE.</note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr9016">
+                     <surname>Kudernatsch</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei II anw.)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_484_1">Änderung der Aufkündigungs- und Räumungstermine für gemietete Wohnungen in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_484_2">Verkauf des ärarischen Kupferwerkes in Agordo</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_484_3">Statuten der Niederösterreichischen Escompte-Gesellschaft</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_484_4">Staatliche Zinsengarantie der Eisenbahnen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_484_5">Urlaub für Offiziere, die in den Zivilstaatsdienst überzutreten wünschen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640804-P-0484" ana="a5-b8-z484">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z484.pdf">
+               <title type="num">Nr. 484</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-08-04">4. August 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Hueber; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Rechberg; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Rechberg 4. 8.), Mecséry, Schmerling, Plener, Esterházy (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> fehlt; bei I <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Burger, Hein, Franck, Zichy, Kalchberg 11. 8. (bei V <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Geringer; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Kudernatsch (bei II <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice>); <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Nádasdy, Lasser, Lichtenfels; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Rechberg 24. 8.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1288</idno>
+                  <idno type="KZ">2527</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-08-04">4. August 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. Exzellenz des Herrn Minister des Äußern Grafen Rechberg.</head>
+               <div type="agenda_item" xml:id="top_5_8_484_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Änderung der Aufkündigungs- und Räumungstermine für gemietete Wohnungen in Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> referierte, es sei in der Ministerkonferenz vom 2. Mai l. J.<note type="footnote" n="1">Tagesordnungspunkt I, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z471" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z471.pdf" target="MRP-1-5-07-0-18640514-P-0471.xml">ÖMR. V/7, Nr. 471</ref>
+                        </bibl>.</note> beschlossen worden, die Mietzinstermine in Triest seien aufgrund des § 25 der kaiserlichen Verordnung vom <date when="1858-11-26">26. November 1858</date>, RGBl. Nr. 213, in administrativem Wege zu regeln. Dies sei nach dem Wortlaute des bezogenen Paragraphes zulässig gewesen, weil es in Triest an einer entsprechenden diesfälligen Regulierung gemangelt hatte. Es liege nunmehr ein Einschreiten der Kommune Wien vor, gemäß welchem sie die Ausziehtermine hier anders eingerichtet und vierteljährige Kündigungs- und Räumungstermine eingeführt zu haben wünscht. Es frage sich daher, ob auch in diesem Falle nach § 25 der obigen kaiserlichen Verordnung vorgegangen werden könne. Dies sei jedoch zweifelhaft, weil die Kündigungstermine für Wien mit Ah. Entschließung vom <date when="1859-08-29">29. August 1859</date> bereits geregelt wurden<note type="footnote" n="2">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2863/1859</bibl>.</note>. Da jedoch es sich hiebei nicht um eine prinzipielle Frage handle und die Notwendigkeit abermaliger derlei Regulierungen durch die Zeitverhältnisse sich ergeben könne und dieselbe für Wien wirklich eingetreten und nachgewiesen sei, da auch das Justiz- und das Staatsministerium darüber einig seien, daß die Vornahme solcher Regulierungen in der Natur der Exekutive gelegen sei, glaube Referent, daß auch im vorliegenden Falle nach § 25 der obigen kaiserlichen Verordnung vorgegangen werden könnte, daß jedoch, weil die Ah. Entschließung vom <date when="1859-08-29">29. August 1859</date> inmitten liege, Se. Majestät in einem au. Vortrage gebeten werden müßte, das Justiz- und das Staatsministeriums Ag. zu ermächtigen, diesfalls im Sinne des mehrerwähnten § 25 vorzugehen.</p>
+                  <p>Diesem Vorhaben stimmte die Konferenz einhellig bei, und es erwähnte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß in der Abänderung des Verwaltungsjahres und der Steuerzahlungstermine solche Momente gegeben seien, welche ein Abgehen von der Ah. Entschließung vom <date when="1859-08-29">29. August 1859</date> vollkommen rechtfertigen dürften, zumal sich auch für die Staatsfinanzen der wesentliche Vorteil ergeben würde, daß den Beamten in Wien sodann, statt wie bisher halbjährig, nur vierteljährig im vorhinein die Quartiergeldraten zu erfolgen sein werden<note type="footnote" n="3">Zu der unter dem Titel Quartiergeld gebührenden Gehaltszulage siehe <bibl type="secondary">
+                           <author>Heindl</author>. Gehorsame Rebellen 172 ff.</bibl>; <bibl type="secondary">
+                           <author>Johanus</author>, Handbuch Staatsbeamte 255–264</bibl>: zur Umstellung des Verwaltungsjahres auf das Solarjahr siehe <bibl type="secondary">
+                           <author>Kletečka-Koch</author>, Einleitung ÖMR. V/6. XXXIf.</bibl>
+                     </note>.</p>
+                  <p>
+                     <pb n="69" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s69.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> fügte in Ergänzung des letztangeführten Argumentes noch bei, daß ein weiterer Vorteil für die Finanzen hieraus auch dadurch erwachsen werde, weil bei Ableben eines Beamten in Wien dem Erben desselben statt einer halbjährigen nur eine vierteljährige Quartiergeldrate zu erfolgen sein werde<note type="footnote" n="4">Mit Ah. E v. <date when="1864-08-19">19. 8. 1864</date> genehmigte der Kaiser den Antrag, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2483/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_484_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verkauf des ärarischen Kupferwerkes in Agordo</head>
+                  <p>
+                     <ref xml:id="fn_5_8_484_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_484_a">Randvermerk Huebers: <quote>Der Ministerialrat des Finanzministeriums Kudernatsch war nur bei dem Vortrage des nebenstehenden Gegenstandes in der Sitzung anwesend.</quote>
+                     </note> Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über seinen mit dem au. Vortrage vom 2. April l. J., Z. 56785/1545, gestellten Antrag, das ärarische Kupferwerk zu Agordo im Venezianischen im Vereine mit dem Eisenwerke zu Primör in Südtirol gegen seinerzeitige Erfolgsanzeige an den Reichsrat unter Anwendung des § 13 des Grundgesetzes über die Reichsvertretung im öffentlichen Konkurrenzwege, und zwar das erste Werk aufgrund des Schätzungswertes von 400.000 fr. ÖW. in Silber und letzteres von 16.000 fr. veräußern zu dürfen<note type="footnote" n="5">Bereits in der mit Vortrag Pleners v. <date when="1863-12-30">30. 12. 1863</date>, <bibl type="archival">FA., FM., Präs. 5208/1863</bibl> (K. und RS.) unterbreiteten Regierungsvorlage über die zur Veräußerung geeigneten Staatsgüter war das Kupferbergwerk in Agordo enthalten. Diese Vorlage hatte Plener zurückgezogen, nachdem der Staatsrat die Verkaufsbedingungen beanstandet hatte, Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 9/1864</bibl>, und außerdem das Ende der Reichsratssession gekommen war, vgl. Weisung Pleners auf dem Akt Präs. 5208/1863. Zu den Ansichten Pleners über den Verkauf von Bergwerken siehe den Passus aus der Budgetrede am <date when="1863-07-17">17. 7. 1863</date>, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1863/64, 160 f. (9. Sitzung)</bibl>, dann die Wortmeldung am <date when="1863-11-24">24. 11. 1863</date>, <quote>ebd., 967 ff. (47. Sitzung)</quote>. Zum Verkauf von Staatsgütern siehe auch <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_3">MR. v. <date when="1864-10-24">24. 10. 1864</date>/III</ref>, <ref type="protocol-link" target="MRP-1-5-08-0-18641103-P-0508.xml#top_5_8_508_1">MR. II v. <date when="1864-11-03">3. 11. 1864</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-08-0-18641126-P-0516.xml#top_5_8_516_2">MR. v. <date when="1864-11-26">26. 11. 1864</date>/II</ref>; <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 165–169</bibl>.</note>.</p>
+                  <p>Nachdem Referent in einem längeren Exposé die obwaltenden Verhältnisse, welche den Verkauf dieser Werke als wünschenswert erscheinen lassen, dargestellt hatte, bemerkte er, daß der Staatsrat<note type="footnote" n="6">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 358/1864</bibl>.</note> vor allem der Ansicht gewesen sei, die Veräußerung dieser Werke könne in dem bezogenen § 13 eine Stütze nicht finden, da eine dringende Notwendigkeit zur Veräußerung augenscheinlich nicht bestehe. Überhaupt habe sich der Staatsrat gegen die Veräußerung dieser Werke ausgesprochen, weil diese Veräußerung in den seither vom Reichsrat in Absicht auf die ärarischen Montanentitäten geäußerten Anschauungen und Wünschen eine Begründung nicht erlange<note type="footnote" n="7">Siehe <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1861/62, 3570 (145. Sitzung / <date when="1862-07-15">15. 7. 1862</date>)</bibl>.</note>. Denn diese Wünsche seien nur dahin ergangen, daß die Staatsverwaltung sich jener Objekte entledige, die entweder passiv oder von geringem Belange seien, welche Voraussetzungen hier aber nicht eintreffen. Einen weiteren Bestimmungsgrund zu dem Einraten auf Ablehnung des Antrages habe der Staatsrat in dem nach seiner Meinung nicht vollkommen genauen Vorgange bei der Werterhebung dieser Werke finden zu sollen erachtet. Referent machte dagegen geltend, daß die Erhebungen bei der Schätzung sehr genau von dem in diesen Angelegenheiten sehr bewanderten Fachreferenten des Finanzministeriums selbst gepflogen<note type="footnote" n="8">Die Schätzung war von Ministerialrat Kudernatsch selbst vorgenommen worden; Unterlagen und Referate bei <bibl type="archival">FA., FM., VIII. Abt. (Montan), Nr. 39754/1864: Bemerkungen</bibl> Kudernatschs zum Staatsratsgutachten bei <quote>ebd., Nr. 56785/1863</quote>.</note> und daß die obwaltenden Rücksichten finanzieller Natur von dem <pb n="70" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s70.pdf"/>Staatsrate nicht widerlegt worden seien. Der Ansicht des Staatsrates, daß ein dringendes Bedürfnis zur Anwendung des § 13 nicht vorliege, konformierte sich Referent mit dem Beifügen, daß die Zustimmung des Ministerrates zu dieser Veräußerung einzuholen wäre. Diese müßte natürlich in Form eines Gesetzes geschehen, wodurch der Finanzminister ermächtigt würde, diese Werke zu veräußern. Referent erklärte sohin seinen in dem bezogenen au. Vortrage enthaltenen Antrag dahin modifizieren zu wollen, daß er Se. Majestät au. bitten werde, die Vorlage eines solchen Gesetzes an den Reichsrat zur verfassungsmäßigen Behandlung Ag. genehmigen zu wollen<ref xml:id="fn_5_8_484_b"/>
+                     <note type="variant" n="b" target="#fn_5_8_484_b">Randvermerk Huebers: <quote>Der Minister Graf Esterházy erschien in der Konferenz.</quote>
+                     </note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialrat Kudernatsch</rs>
+                     </hi> stellte hierauf den näheren Sachverhalt sowie den Vorgang bei der Schätzung dieser Werke dar, erörterte, warum insbesondere bei der Bestimmung des Werkes von dem Eisenwerke Primör so weit hinter dem Ankaufswerte zurückgeblieben werden mußte, und führte schließlich an, daß in der nächsten Zeit ein außerordentlicher Aufwand von 80 bis 100.000 fr. für Betriebsverbesserung und für den Bau des schadhaft gewordenen Hauptschachtes unausweichlich bevorstehe.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> bemerkte, daß das formelle Bedenken des Staatsrates durch die nunmehrige Erklärung des Finanzministers als behoben angesehen werden könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> glaubte, daß man bei dem Verkaufe solcher ärarischer Unternehmungen im allgemeinen in erster Linie nicht darauf zu sehen habe, ob die Unternehmung sehr oder weniger lukrativ betrieben werde, sondern vielmehr darauf, ob sie im Besitze von Privaten denselben oder noch einen größeren Ertrag liefern werde, weil der Nationalreichtum hiemit befördert werde. Im vorliegenden Falle sei Aussicht vorhanden, daß Private dasselbe Werk und dieselbe Produktion fortsetzen werden und daß durch den Verkauf ein Aufschwung der Produktion sich ergeben werde. Votant stimme daher für die Veräußerung, jedoch auch für die Einholung der Zustimmung des Reichsrates. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> fügte der Bemerkung der Vorstimme bei, daß Anbote von belgischen und englischen Gesellschaften für dieses Werk bereits vorliegen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte, eine andere Anschauung in dieser Sache zu haben. Mit den im Staatseigentum befindlichen Montanwerken habe es, abgesehen von den Ertragsverhältnissen, noch andere Bewandtnisse, die nicht unterschätzt oder gar aus dem Auge gelassen werden dürfen, vor allem jenes polizeilicher Natur. Ganze Gegenden leben oft von einem solchen Unternehmen, und es könne doch unmöglich für den Staat gleichgültig sein, wenn die ganze angrenzende Bevölkerung eine erlaubte und gewohnte Beschäftigung verliere und somit das Proletariat vermehre. Der Gefahr lasse sich dabei nicht entgehen, daß dann auf Umwegen an den Staat die Forderung wieder heranrückt, die Leute leben zu lassen. Ein weiteres Moment hiefür dürfte auch darin erkannt werden, daß der Staat als Unternehmer solcher Werke einen mächtigen Einfluß auf die Bevölkerung ganzer Distrikte sich zu wahren in der Lage ist, die von ihm als dem Brotherrn abhängen. Hierauf müßte aber insbesondere im lombardisch-venetianischen Königreiche großer Wert gelegt werden. Zudem sei in der Sache selbst mit dem Verkaufe kein preiswürdiges Geschäft für den Staat vorauszusehen, jeder der das Werk kaufen wolle, werde wissen, daß dem Ärar soeben ein außerordentlicher Aufwand von 80.000 fr., der nicht aus dem laufenden Baukonto <pb n="71" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s71.pdf"/>bestritten werden kann, bevorstehe, und werde natürlich diesen Aufwand von der Kaufsumme abrechnen, und es wird daher bei der Veräußerung lange nicht der gewünschte Kaufpreis erreicht werden. Dieses alles zusammengehalten mit der Tatsache, daß das Werk erst in den letzten drei Jahren passiv geworden, sowie mit der Erwägung, daß es im allgemeinen nicht zweckmäßig sein dürfte, wenn der Staat all sein unbewegliches Eigentum veräußert und ein reiner Kapitalist wird, ließen den Votanten die beantragte Veräußerung nicht als wünschenswert erkennen, und er sprach sich daher gegen den Antrag des Finanzministers aus. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> stimmte aus den vom Staatsminister geltend gemachten Gründen und namentlich bei den bestehenden Verhältnissen im lombardisch-venetianischen Königreiche, die es als sehr wünschenswert erscheinen lassen, den Einfluß der Regierung auf die Bevölkerung zu wahren, gegen den Antrag des Finanzministers. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hielt den Bemerkungen des Staatsministers entgegen, daß das Werk in Agordo in Privathänden viel mehr Arbeiter beschäftigen werde, als in jenen des Ärars, und daß der Wert des Gutes im Besitze von Privaten sich erhöhen werde. Solche Werke solle man aber veräußern, überhaupt grundsätzlich nur jene behalten, bei denen besondere Rücksichten dies notwendig erscheinen lassen, wie z. B. bei Eisenerz. Es sei eine anerkannte Tatsache, daß der Private besser wirtschaftet als das Ärar, der Private könne durch eine freiere Bewegung, durch ein Tantiemensystem weit mehr erreichen als das Ärar, welches diese Hilfe nicht adoptieren könne. Die Bedeutung der Motive in polizeilicher Hinsicht lasse sich nicht absprechen, ebensowenig könne aber in Abrede gestellt werden, daß es für die Finanzen mißlich sei, solche Unternehmungen, die in Privathänden rentabel wären, lediglich als Wohltätigkeitsanstalten beizubehalten. Wenn der bestimmte Ausrufspreis für dieses Werk nicht erzielt werde, sei damit nichts verloren, das Werk bleibe dann weiters in ärarischem Besitze. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> stimmte für den modifizierten Antrag des Finanzministers, durch welchen nichts präzipitiert und nichts präjudiziert werde. In keinem Falle könne es schaden, wenn im Reichsrate noch eine neue Ventilation dieser Frage vorgenommen und demselben Gelegenheit geboten werde, darauf hinzudeuten, daß es wirtschaftlich sei, dieses Werk zu veräußern. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> schloß sich dem Antrage des Staatsministers mit dem Bemerken an, daß er nicht begreifen könne, wie die Passivität dieses Werkes behauptet werden könne, bei dem in 32 Jahren nur drei Fehljahre sich ergeben haben. Die Hauptgründe des mißlichen Ertragserfolges in den letztverwichenen Jahren seien weniger im Herabgehen der Kupferpreise, als in der schlechten Wirtschaft zu suchen, auf welche auch das durch einen Fehler des früheren Werksverwalters erfolgte Eingehen des Hauptschachtes und das Eintreten der Wässer, die das Werk fast ganz lahm legten, deutlich hinweisen. Unter solchen Umständen würde aber der Verkauf dieses Werkes an eine Gesellschaft, die schon darauf passe, damit einen großen Gewinn zu machen, im Reichsrate gewiß den Anlaß zu den mißliebigsten Bemerkungen geben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, daß, wenn das Werk nicht verkauft werde, im nächsten Voranschlage eine außerordentliche Auslage von 80.000 fr. für Hauptreparaturen und Betriebsverbesserung werde eingestellt werden müssen und daß dann bei Prüfung dieser Post dem Reichsrate dieselbe Gelegenheit geboten sein werde, über schlechte Bewirtschaftung Bemerkungen vorzubringen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> stimmte dem Antrage des Finanzministers bei, indem er keine Gefahr darin erkannte, daß das Werk zum <pb n="72" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s72.pdf"/>Verkaufe ausgeboten werde. Wenn kein Anbot erfolge, verbleibe das Werk einfach dem Ärar, im Gegenteile erreiche aber das Ärar einen entschiedenen Vorteil. Das vorgebrachte Motiv, daß der Staat als Unternehmer solcher Werke großen Einfluß auf die dadurch von ihr abhängige Bevölkerung ausübe, zähle nach des Votanten Ansicht wenig, der daran erinnerte, daß er im Jahre 1848 von dem FZM. Baron Welden mit einer ganzen Kriegsexpedition in jene Gegend kommandiert worden sei, um die Domänenbeamten gegen die aufständische Bevölkerung zu schützen<note type="footnote" n="9">Zu Weldens Tätigkeit in Venetien 1848 siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 54, 215f.</bibl>
+                     </note>. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> stimmte dem Antrage des Staatsministers bei. Wegen eines Ausfalles in drei Jahren könne ein sonst gut rentabel gewesenes Werk nicht verkauft werden, die gänzliche Unmöglichkeit einer besseren Bewirtschaftung könne nicht behauptet werden, es sei somit Aufgabe der Staatsverwaltung, eine bessere Wirtschaft in Agordo einzuführen. Votant sprach sich prinzipiell gegen die Veräußerung dieses Werkes mit Rücksicht auf mögliche Konsequenzen für Ungarn aus, wo, wenn z. B. Nagybánya zum Verkaufe käme, eine Bevölkerung von 5 bis 6000 Seelen brotlos werden könnte.</p>
+                  <p>Der vorsitzende <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> konstatierte, daß sich sonach vier Stimmen für und vier Stimmen gegen die Veräußerung des Kupferwerkes Agordo ausgesprochen haben, und bemerkte, daß sich die Entscheidung, wie in der Sache vorzugehen sei, von Sr. Majestät werde erbeten werden müssen<note type="footnote" n="10">Erzherzog Rainer trat dem Finanzminister bei und beantragte die folgende Ah. Entschließung, die der Kaiser am <date when="1864-08-14">14. 8. 1864</date> unterzeichnete: <quote>Ich genehmige die Veräußerung des Kupferbergwerkes in Agordo im Vereine mit dem Eisenwerke in Primör im Prinzipe nach Ihrem Antrage mit dem Bedeuten, daß die Zustimmung des Reichsrates hiezu einzuholen sein wird, zu welchem Behufe Sie den dem Reichsrate mitzuteilenden diesfälligen Gesetzentwurf Meiner Schlußfassung zu unterziehen haben</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2467/1864</bibl>. Die beiden Bergwerke wurden schließlich in den Staatsvoranschlag 1865 (Veräußerung von Montanwerken) aufgenommen, wodurch sich ein eigener Gesetzentwurf erübrigte. Zum Verkauf kam es nicht. 1866 ging Agordo in das Eigentum des Königreichs Italien über. Das Eisenwerk in Primör wurde 1869 an August Sartori aus Neapel verkauft, <bibl type="archival">FA., FM., Urkunde Nr. 28</bibl>. Zu Agordo siehe die Monographie von <bibl type="secondary">
+                           <author>Přiwoznik</author>, Das Berg- und Hüttenwerk in Agordo.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_484_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Statuten der Niederösterreichischen Escompte-Gesellschaft</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über den au. Vortrag des Ministers Ritter v. Lasser vom <date when="1864-07-07">7. Juli 1864</date>, Z. 9414/756, betreffend das Gesuch des Verwaltungsrates der Niederösterreichischen Escompte-Gesellschaft um Nachsicht oder um authentische Auslegung einiger zu den neuen Statuten der Anstalt angeordneten Änderungen<note type="footnote" n="11">Siehe dazu MR. v. 25. v. <date when="1864-02-29">29. 2. 1864</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z449" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z449.pdf" target="MRP-1-5-07-0-18640229-P-0449.xml">ÖMR. V/7, Nr. 449</ref>
+                        </bibl>.</note>.</p>
+                  <p>Referent erwähnte, daß sich die zwischen ihm und dem Minister Ritter v. Lasser diesfalls noch bestehende Meinungsverschiedenheit auf die Frage der staatlichen Genehmigung der Geschäftsordnung ad § 15 lit. b und § 16 lit. e in Absicht auf das Vorschuß- und Kontokorrentgeschäft, welche mit Ah. Entschließung vom <date when="1864-03-13">13. März 1864</date>
+                     <note type="footnote" n="12">Zit. <quote>ebd., Anm. 6.</quote>
+                     </note> vorbehalten wurde, beschränke. Minister Ritter v. Lasser beantrage, die Gesellschaft von dem Vorbehalte der staatlichen Genehmigung einer Geschäftsordnung auch für das Kontokorrentgeschäft mit der Erklärung zu entheben, daß jedoch zu jeder Veränderung in der gegenwärtigen Art der Ausstellung der Kassascheine die Genehmigung der Staatsverwaltung einzuholen sein wird. Er, Referent, sei der Ansicht gewesen, daß auf der <pb n="73" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s73.pdf"/>Forderung der staatlichen Genehmigung der auf die obigen zwei Geschäfte sich beziehenden Bestimmungen der Geschäftsordnung zu beharren sei. Der Staatsrat habe der Anschauung des Ministers Ritter v. Lasser beigestimmt<note type="footnote" n="13">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 606/1864</bibl>.</note>. Um nun diese Angelegenheit rascher zum Schlusse zu führen, erbat sich Referent die Zustimmung der Konferenz, in diesem Differenzpunkte mit dem Minister Ritter v. Lasser, nach dessen Rückkehr vom Urlaube, eine Vereinbarung treffen und die sohin vereinbarte diesfällige Bestimmung nebst den übrigen Anträgen, worüber ein allseitiges Einverständnis erzielt sei, Sr. Majestät zur Ah. Schlußfassung sofort unterbreiten zu dürfen.</p>
+                  <p>Der Ministerrat war mit diesem Vorgange einverstanden<note type="footnote" n="14">Plener trat dem Antrag Lassers schließlich bei. Am 31. 8. konnte Erzherzog Rainer den Vortrag v. <date when="1864-07-07">7. 7. 1864</date> dem Kaiser vorlegen, der mit Ah. E. v. <date when="1864-09-04">4. 9. 1864</date> den Antrag Lassers genehmigte, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2661/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_484_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Staatliche Zinsengarantie der Eisenbahnen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte den Inhalt seines au. Vortrages vom 9. Mai l. J., Z. 3100, betreffend das Ah. bezeichnete Gesuch der Verwaltungsräte der Kaiserin-Elisabeth- und der Theißbahn, dann der Süd-Norddeutschen Verbindungsbahn und der Böhmischen Westbahn in Absicht auf die staatliche Zinsengarantie<note type="footnote" n="15">Dem Akt <bibl type="archival">FA., FM., Präs. 3100/1863 [sic!]</bibl> liegt das Ah. signierte Gesuch sowie das von Plener im folgenden erwähnte Gutachten der Finanzprokuratur bei; das K. des Vortrags fehlt, RS. des Vortrags bei <bibl type="archival">FA., FM., Präs. 4129/1864</bibl>. Zur Auszahlung der von den Eisenbahngesellschaften nahmhaft gemachten Zuschüsse aufgrund der staatlichen Zinsengarantie siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630513-P-0354.xml#top_5_6_354_3">MR. II v. <date when="1863-05-13">13. 5. 1863</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z354" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z354.pdf" target="MRP-1-5-06-0-18630513-P-0354.xml">ÖMR. V/6, Nr. 354</ref>
+                        </bibl>, dort auch Literatur.</note>.</p>
+                  <p>Nachdem Referent in längerer Rede ein Exposé des historischen Vorganges gegeben, die Beschwerden und Wünsche der genannten Bahnen in dieser Beziehung angeführt, den Inhalt des Rechtsgutachtens der hierüber vernommenen österreichischen Finanzprokuratur dargestellt und demselben über die einzelnen Punkte des Bittgesuches vom administrativ-finanziellen Standpunkte die sachdinglichen Bemerkungen beigefügt, endlich die Konferenz von den eingreifenden Verfügungen in Kenntnis gesetzt hatte, welche er durch Einsetzung lf. Kommissäre bei den einzelnen Bahnen zum Ausgleiche streitiger Punkte in betreff der ökonomischen Gebarung und Rechnungslegung im Laufe des Betriebsjahres, dann durch Bestellung von Kommissionen zur Prüfung der Baurechnungen, dann der Betriebsrechnungen der früheren Jahre behufs der alsbaldigen Feststellung des Anlagekapitales aller vier in Rede stehenden Bahnen im beiderseitigen Interesse sowohl der Bahnen als der Staatsverwaltung getroffen hat<note type="footnote" n="16">
+                        <bibl type="archival">FA., FM., Präs. 1254/1864</bibl>; weitere Akten dazu <quote>ebd., Präs. Index</quote>, Stichwort <quote>Eisenbahnsubventionen.</quote>
+                     </note>, reassumierte er die in dem au. Vortrage aufgeführten Motive, aus welchen er auf die abweisliche Erledigung der vorliegenden Vorstellung der vier Bahnen den Antrag gestellt hatte, und zwar mit dem Beifügen, daß der Staatsrat sich mit seinem Antrage einverstanden erklärt habe<note type="footnote" n="17">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 428/1864</bibl>.</note>. Der Staatsratspräsident habe zu dem Punkte IV des Majestätsgesuches, „daß die Staatsverwaltung verpflichtet sei, die zu dem jedesmaligen Verfallstermin der Zinsen und Annuitäten erfordlichen Summen zu diesem Termine flüssig zu machen, unter der Voraussetzung jedoch, daß das Erfordernis spätestens sechs Wochen vor dem gedachten Zeitpunkte durch Vorlage approximativer Ertragspräliminarien nachgewiesen werde“, <pb n="74" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s74.pdf"/>die Meinung ausgesprochen, daß vom Rechtsstandpunkte wohl nicht die Verpflichtung der Staatsverwaltung bei den drei Bahngesellschaften Kaiserin-Elisabeth-, Süd-Norddeutsche Verbindungsbahn und Theißbahn abgeleitet werden könne, die Ergänzungsbeiträge aus dem Titel der Staatsgarantie zu den Verfallsterminen der Zinsenkupons zu zahlen. Wenn nun aber auch der Staatsratspräsident, soweit es die Frage des strengen Rechts betrifft, sich für die Ablehnung auch des Punktes IV des Gesuches aussprach, insbesondere weil es in einem Gegenstande von solcher Wichtigkeit sicher nicht ratsam wäre, ohne strenge Notwendigkeit eine im Rechte nicht gegründete Verbindlichkeit auf sich zu nehmen, glaubte er doch, daß andererseits in Erwägung zu ziehen sei, daß die Bittsteller, wenn bei der Erledigung der Rechnungen mit zu großer Umständlichkeit zu Werke gegangen werde, allerdings vielen Vexationen ausgesetzt sein würden. Nach seinem Dafürhalten dürfte daher, da für die Bittsteller die Möglichkeit, die Zinsenkupons jederzeit pünktlich einlösen zu können, als ein höchst wichtiger Gegenstand erscheint, da ferner der Staatsverwaltung um des Staatskredits willen selbst daran gelegen sein muß, daß hierin keine Stockung entstehe, demselben durch einen Zusatz zu dem Resolutionsentwurfe die Beruhigung zu gewähren sei, daß die Staatsverwaltung ohne Übernahme einer Rechtsverpflichtung doch bei rechtzeitiger Überreichung der Rechnungen, nach erfolgter Feststellung des Anlagekapitals jeder der bezüglichen Bahnen, auch in Rücksicht jener Bahngesellschaften, in deren Konzessionsurkunde die für die Böhmische Westbahn in § 13 ihrer Konzession getroffene Bestimmung über die Verfallszeit der Ergänzungen zu den Zinsen des Anlagekapitals nicht getroffen ist, nach Möglichkeit dafür sorgen werde, daß die Zahlung der garantierten Beträge zur Verfallszeit der Zinsen oder Dividendenkupons erfolgen könne. Der referierende Finanzminister bemerkte sohin bezüglich des Votums des Staatsratspräsidenten, daß die Schlußworte „nach Möglichkeit“ einen Widerspruch enthalten würden, weil die bezüglichen Rechnungen Jahresrechnungen seien, dieser Beisatz daher nicht für die Semestraldividende, sondern nur auf den letzten Kupon Bezug haben könnte. Was den Beisatz „ohne Übernahme einer Rechtsverpflichtung“ betreffe, beabsichtige Referent, noch weiter zu gehen als der Staatsratspräsident angedeutet habe, nämlich dahin, daß diese Bahnen in Folge einer Vereinbarung, die er mit denselben vorhabe, unter gewissen Kautelen das Recht erlangen sollen, schon im Juli den erforderlichen Garantiebeitrag zu bekommen. Es sei jedoch zweckmäßig, diese Regelung mit anderen obschwebenden Verhältnissen, insbesondere mit der Frage der Stempelgebühren- und Einkommensteuer, worüber es an festen Bestimmungen mangle, in Ordnung zu bringen, weil dann leichter ein gegenseitiger Ausgleich zustande kommen werde. Referent erklärte sohin sich gleichfalls mit der Aufnahme eines Zusatzes zu dem Resolutionsentwurfe einverstanden, daß er im wesentlichen dabei von der Ansicht des Staatsratspräsidenten nicht abweiche, jedoch die Fassung bindend haben wolle, in der Art, daß die Verpflichtung der Staatsverwaltung hieraus hervorgehe. Hienach könnte den genannten Bahngesellschaften bedeutet werden, daß die Staatsverwaltung beabsichtige, nach erfolgter Feststellung des Anlagekapitals und der bisherigen Betriebsrechnungen sofort mit den Vertretern der Gesellschaft in Verhandlung zu dem Zwecke zu treten, um über sämtliche zwischen der Staatsverwaltung und der Gesellschaft bestehenden Differenzen, und zwar insbesondere über die Tragung der bisher aufgelaufenen Kosten der Geldbeischaffung, über die künftigen Modalitäten und die Zeitpunkte der Auszahlung der Garantiebeträge, <pb n="75" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s75.pdf"/>dann über die Frage der Stempelgebühren und Einkommensteuer festbestimmte Vertragsstipulationen zu vereinbaren, wobei sich nach Maßgabe der Beschaffenheit der Vereinbarung eventuell die verfassungsmäßige Behandlung vorbehalten werde. Referent fügte sohin noch aufklärend hinzu, daß der Beisatz wegen Vorbehalt der verfassungsmäßigen Behandlung deshalb notwendig sei, weil bei den Stempelgebühren und bei der Einkommenssteuer Begünstigungen de retro vereinbart werden müssen und weil sich selbst im Punkte der Garantiefrage vielleicht die Notwendigkeit der verfassungsmäßigen Behandlung herausstellen könnte.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> erklärte sich mit dem modifizierten Antrage des Finanzministers einverstanden, weil ihm der Weg, den der Finanzminister nun einzuschlagen beabsichtige, der beste schien, um aus den dermaligen verwickelten Verhältnissen herauszukommen. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> glaubte, daß der Staatsratspräsident dem nunmehrigen Antrage des Finanzministers anstandlos beitreten würde, und betonte, daß somit alle Differenzpunkte ausgeglichen seien. In merito erklärten sich auch alle übrigen Stimmführer mit dem Antrage des Finanzministers einverstanden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erachtete jedoch für eine veränderte Fassung des Resolutionsentwurfes stimmen zu sollen, in der Art, daß der Beisatz mit den Worten beginne: „Unter einem finde Ich zu verfügen, daß etc.“ Votant glaubte Gewicht darauf legen zu sollen, daß der kaiserliche Wille in dieser Beziehung einen bestimmten Ausdruck finde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> trat diesem Antrage mit der Bemerkung entgegen, daß es einerseits für den Finanzminister sehr unangenehm sein müßte, erst von Sr. Majestät auf den korrekten Vorgang aufmerksam gemacht worden zu sein, daß eine solche Fassung aber auch andererseits der Sachlage nicht entsprechen würde, weil er zu dem in Rede stehenden Zweck bereits vor längerer Zeit die oben erwähnten Verhandlungen eingeleitet habe. Über Andeutung von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineministers</rs>
+                     </hi> wurde in dieser formellen Beziehung das Auskunftsmittel allseitig darin erkannt, daß der Schlußsatz zu lauten hätte: „Ich gewärtige übrigens die möglichste Beschleunigung dieser Verhandlung und die baldige Anzeige ihres Resultates“.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> formulierte sohin den Resolutionsentwurf, welcher seinem modifizierten Antrage und den Beschlüssen des Ministerrates entsprechen würde, in nachstehender Weise: „Ich nehme den Inhalt dieses Vortrages zur Kenntnis und ermächtige Sie, die Vorstellung der vier Gesellschaften: Theißeisenbahn, Kaiserin-Elisabethbahn, Süd- und Norddeutsche Verbindungsbahn und Böhmische Westbahn abweislich zu erledigen. Sie haben jedoch den Bittstellern zu eröffnen, die Staatsverwaltung werde nach erfolgter Feststellung des Anlagekapitals und der bisherigen Betriebsrechnungen sofort mit den Vertretern der Gesellschaft in Verhandlung zu dem Zwecke treten, um über sämtliche zwischen der Staatsverwaltung und der Gesellschaft bestehenden Differenzen und zwar insbesondere über die Zeitpunkte und Modalitäten der Zahlung der garantierten Beträge, bei jenen Bahngesellschaften aber, in deren Konzessionsurkunden die für die Böhmische Westbahn im § 13 ihrer Konzession getroffene Bestimmung über die Verfallszeit der Ergänzungen zu den Zinsen des Anlagekapitals nicht getroffen ist, über die Zahlung der garantierten Beiträge zur jedesmaligen Verfallszeit der Zinsen oder Dividendenkupons feste und allgemein sichernde Bestimmungen zu erzielen, wobei sich nach Maßgabe der Beschaffenheit der Vereinbarung eventuell die verfassungsmäßige Behandlung vorbehalten wird. Ich gewärtige <pb n="76" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s76.pdf"/>übrigens die möglichste Beschleunigung dieser Verhandlung und die baldige Anzeige ihres Resultats.“<note type="footnote" n="18">Am <date when="1864-08-13">13. 8. 1864</date> unterfertigte der Kaiser diesen Resolutionsentwurf, <bibl type="archival">HHSTA., Kab. Kanzlei KZ. 2457</bibl>. Am <date when="1865-04-29">29. 4. 1865</date> konnte Plener die entsprechenden Vertragsentwürfe und einen Gesetzentwurf vorlegen, <quote>ebd., KZ. 1529/1865</quote>; siehe dazu <ref type="protocol-link" target="MRP-1-5-09-0-18650602-P-0578.xml#top_5_9_578_2">MR. v. <date when="1865-06-02">2. 6. 1865</date>/II</ref>.</note>, <ref xml:id="fn_5_8_484_c"/>
+                     <note type="variant" n="c" target="#fn_5_8_484_c">Randvermerk Huebers: <quote>Der Leiter des Handelsministeriums entfernte sich.</quote>
+                     </note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_484_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Urlaub für Offiziere, die in den Zivilstaatsdienst überzutreten wünschen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> referierte über den vom Kriegsminister mit dem au. Vortrage vom 15. Juli l. J., Z. 4357, gestellten Antrag, daß Urlaube an Offiziere zum Antritte der Dienstespraxis bei Zivilämtern nicht nur nach Ablauf von acht Wochen ebenfalls mit dem normalen Taxabzuge zu belegen, sondern grundsätzlich nur dann zu bewilligen seien, wenn die Urlaubswerber wegen besonderen Verhältnissen persönlich berücksichtigungswürdig seien oder wenn deren Beibehalt im Armeedienste aus verschiedenen Gründen nicht wünschenswert sei<note type="footnote" n="19">Wenn ein Urlaub aus familiären oder anderen persönlichen Gründen den Zeitraum von acht Wochen überschritt, hatte der beurlaubte Offizier für jede weitere Woche die Urlaubstaxe zu bezahlen. Sie betrug ein Viertel der Monatsgage. Dagegen wurde ein drei- bis sechsmonatiger taxfreier, also voll bezahlter Urlaub gewährt, wenn er dazu diente, eine Beamtenstelle anzutreten. Gegen diese Ausnahme und überhaupt gegen den allzu leichten Wechsel in den zivilen Dienst wandte sich der Vortrag des Kriegsministers <bibl type="archival">KA., KM., 1. Abt. 104–212/2 aus 1864</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 640/1864</bibl>.</note>. Der Staatsrat habe sich gegen diesen Antrag ausgesprochen, insbesondere deshalb, weil es nach seinem Dafürhalten eine irrige Ansicht wäre, annehmen zu wollen, daß solche Offiziere, die Urlaub zum Antritte der Dienstpraxis bei Zivilämtern ansuchen, immer bloß dienstscheue, selbstsüchtigen Beweggründen folgende Individuen seien, die keine Rücksicht verdienen, indem im Gegenteile außergewöhnliche persönliche Verhältnisse oft die bravsten Offiziere in die Lage bringen, den Militärdienst verlassen und in den Zivilstaatsdienst übertreten zu müssen. Ohnedies bleibe es immerhin dem Kriegsminister anheim gegeben, besonders dann, wenn keine oder nur eine geringe Anzahl supernumerärer Offiziere mehr in der Armee vorhanden sei, bei Erteilung solcher Urlaube mit größerer Strenge und Auswahl persönlich berücksichtigungswerter Offiziere vorzugehen, wenn aber der Urlaub ad hoc erteilt werde, wären nach Ansicht des Staatsrates die im Punkte 4 des Urlaubsnormales<note type="footnote" n="20">§ 4 des Urlaubsnormales v. <date when="1858-09-25">25. 9. 1858</date>, kundgemacht mit Zirkularverordnung des AOK. v. <date when="1858-10-11">11. 10. 1858</date>, Abt. I. Nr. 6412, K. K. <bibl type="secondary">
+                           <author>Armee-Verordnungsblatt</author> 1859, Beilage.</bibl>
+                     </note> und in den §§ 44 und 45 des Gebührenreglements<note type="footnote" n="21">
+                        <bibl type="secondary">
+                           <title>Gebühren-Reglement für die k. k. Armee vom <date when="1858-11-01">1. November 1858</date>
+                           </title>, Wien 1858</bibl>.</note> enthaltenen Begünstigungen aufrecht zu erhalten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> hielt seinen Antrag aus dem im au. Vortrage angeführten Motiven aufrecht, indem er beifügte, daß diese Begünstigung eigentlich nur damals einen praktischen Sinn hatte, als 800 supernumeräre Offiziere in der Armee waren, die praktische Erfahrung habe jedoch gezeigt, daß diese Sache sehr mißbraucht worden sei.</p>
+                  <p>Sämtliche Stimmführer schlossen sich dem Antrage des Kriegsministers an, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> noch beifügte, daß die Begünstigung des Übertrittes von Offizieren in den Zivilstaatsdienst schon aus dem Grunde nicht zweckmäßig erscheine, weil ein solcher Übertritt erfahrungsmäßig meist von vermögenslosen Offizieren aus dem Grunde <pb n="77" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s77.pdf"/>geschehe, um heiraten zu können, solche Akquisitionen aber, die nur das Proletariat vermehren, nicht wünschenswert seien<note type="footnote" n="22">Mit Ah. E. v. <date when="1864-08-14">14. 8. 1864</date> auf den in Anm. 19 zit. Vortrag genehmigte der Kaiser den Antrag des Kriegsministers; Publikation K. K. <bibl type="secondary">
+                           <author>Armee-Verordnungsblatt</author> Nr. 125/1864</bibl>. Zum Übertritt von Militärpersonen in den Zivildienst siehe <bibl type="secondary">
+                           <author>Schmidt-Brentano</author>, Die Armee in Österreich 413 ff.</bibl>
+                     </note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1864-08-04">4. August 1864</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, <date when="1864-08-21">21. August 1864</date>.</seg>
+                  <seg type="other">Praes[entatum]. 24. August [1864]. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

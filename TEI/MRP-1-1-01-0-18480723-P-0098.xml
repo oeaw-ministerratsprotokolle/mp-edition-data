@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="098">Sitzung 98</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-23"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z98.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1987</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-23"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. fehlt; anw. Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer; abw. Wessenberg; BdE. Doblhoff (24. 7.), Hornbostel (13. 8).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8225">
+                     <surname>Hornbostel</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8222">
+                     <surname>Schwarzer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-24">24. 7.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8225">
+                     <surname>Hornbostel</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-13">13. 8</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_98_1">Leitung der Generalgeniedirektion durch Bernhard Graf Caboga</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_98_2">Seefriedensverhandlungen mit dem sardinischen Blockadegeschwader</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_98_3">Antrag Johann Boncza Skrzyneckis auf Rückkehr</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_98_4">Istrianische Petition um Nichtverwendung der dortigen Rekruten im Krieg in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_98_5">Keine offizielle Veröffentlichung über die Mission Montecuccolis; Rechtfertigung über seine Rolle am <date when="1848-05-26">26. 5. 1848</date>
+                  </ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_98_6">Gesetzentwürfe zum Schutz des Reichstages und zur Sicherheit der Abgeordneten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_98_7">Änderung von Beamtentiteln; teilweise Verwaltungsreform; Dotierung der Unterstaatssekretäre</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_98_8">Gesuch der Brünner Nationalgarde um Artillerie</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_98_9">Reform der „Wiener Zeitung“</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_98_10">Waffenausfuhrverbot nach Italien durch die Schweiz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_98_11">Zwanzig Jahre Steuerfreiheit für Neubauten in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_98_12">Verlängerung des Münzausfuhrverbotes</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480723-P-0098" ana="a1-1848_z98">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z98.pdf">
+               <title type="num">Nr. 98</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-23">23. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Doblhoff (24. 7.), Hornbostel (13. 8).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1987</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-07-23">23. Juli 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_98_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Leitung der Generalgeniedirektion durch Bernhard Graf Caboga</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> übergab seinen Vortrag vom <date when="1848-07-23">23. Juli 1848</date>
+                     <note type="footnote" n="1">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1546/1848</bibl>.</note> wegen Benennung des dermal an der Spitze der Generalgeniedirektion stehenden FML. Grafen Caboga und dessen Beteilung mit der üblichen Zulage, wogegen nichts zu erinnern gefunden wurde<note type="footnote" n="2">Mit Ah. E. v. <date when="1848-07-27">27. 7. 1848</date> wurde Caboga auf den in Anm. 1 zit. Vortrag offiziell <quote>mit der provisorischen Leitung der Geschäfte der k. k. General-Genie-Direction</quote> beauftragt und erhielt eine jährliche Zulage von 1500 f. Zu Bernhard Graf Caboga siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 2, 223 ff</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480814-P-0103.xml#top_1_1_103_4">MR. v. <date when="1848-08-14">14. 8. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Seefriedensverhandlungen mit dem sardinischen Blockadegeschwader</head>
+                  <p>Anzeige des Gouverneurs von Triest Grafen Salm<note type="footnote" n="3">Das entsprechende Schreiben Salms konnte unter den Beständen des AVA., IM., Präs., nicht mehr gefunden werden; vgl. dazu den Bericht Gyulais an Latour v. <date when="1848-07-14">14. 7. 1848</date> über die laufenden Verhandlungen mit Albini, <bibl type="archival">KA., HKR., KM., Präs. 3604 et 3627 ex 1848</bibl>. Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480615-P-0073.xml#top_1_1_73_2">MR. v. <date when="1848-06-15">15. 6. 1848</date>/II</ref>.</note>, daß er im Einvernehmen mit dem dortigen Militärkommandanten FML. Grafen Gyulai und unter Vorbehalt der höheren Ratifikation mit dem Kommandanten des sardinischen Blockadegeschwaders eine Seefriedensunterhandlung angeknüpft habe, deren Hauptstipulation dahin ginge, daß das sardinische Geschwader sich in die Gewässer von Venedig zurückziehen, die k. k. Flottille aber sich auf die Gewässer von Triest und Istrien beschränken und keiner der beiden Teile eine Belästigung des Seehandels sich erlauben solle<note type="footnote" n="4">Zur Bewegung des sardinischen Geschwaders vor Triest siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480711-P-0096.xml#top_1_1_96_5">MR. v. <date when="1848-07-11">11. 7. 1848</date>/V</ref>.</note>.</p>
+                  <p>Nachdem, wie der Kriegsminister bemerkte, durch den Abschluß eines derlei Seefriedens die militärischen Operationen gegen Venedig beirrt werden könnten, wurde einstimmig beschlossen, die Ratifikation der diesfälligen Unterhandlung dem Ministerrate vorzubehalten und zu diesem Ende den Gouverneur Grafen Salm aufzufordern, vor dem Abschlusse nicht nur die gegenwärtig nicht vorliegende Äußerung des Grafen Gyulai hierüber, sondern auch die vom sardischen Flottenkommandanten Albini einlangende Antwort einzusenden<note type="footnote" n="5">Die Antwort Albinis liegt in Abschrift v. <date when="1848-07-20">20. 7. 1848</date> dem Bericht Gyulais an Latour v. <date when="1848-07-21">21. 7. 1848</date> bei, <bibl type="archival">KA., HKR., KM., Präs. 3604 et 3627 ex 1848</bibl>. Latour wies mit Schreiben (K.) v. <date when="1848-07-24">24. 7. 1848</date> Gyulai an, daß die letzte Entscheidung über einen Verhandlungsabschluß dem Ministerium vorbehalten bleibe, <quote>ebd</quote>. Der Waffenstillstandsabschluß zwischen Österreich und Sardinien am <date when="1848-08-09">9. 8. 1848</date> machte weitere Verhandlungen überflüssig; das sardinische Geschwader segelte – nach etlichen Verzögerungen durch Albini – am <date when="1848-09-07">7. 9. 1848</date> von Triest ab, siehe dazu <bibl type="secondary">
+                           <author>Benko</author>, Kriegs-Marine 298, 361, 365, 375f. und 378f</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Antrag Johann Boncza Skrzyneckis auf Rückkehr</head>
+                  <p>Durch das Ministerium des Äußern wurde dem Minister des Inneren mitgeteilt ein von der königlich belgischen Gesandtschaft unterstütztes Gesuch des aus Galizien gebürtigen ehemaligen polnischen Generals Skrzynecki um Bewilligung zur Rückkehr<note type="footnote" n="6">Mit Schreiben (K.) v. <date when="1848-07-18">18. 7. 1848</date> hatte das Außenministerium das Gesuch des in Belgien lebenden Skrzynecki dem Innenministerium übersandt, <bibl type="archival">HHSTA., StK., Noten an die Hofkammer 67, Fasz. 1848, fol. 173</bibl>. Zu Skrzynecki, dem Oberbefehlshaber des polnischen Heeres während des Aufstandes von 1830/31 siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 35, 108–113</bibl>.</note> in sein Vaterland.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bezweifelte, daß Skrzynecki noch als österreichischer Untertan anzusehen sei, nachdem er sich vor sieben Jahren aus seinem Geburtslande entfernt hatte und in fremde Dienste getreten war. Er trug daher vorläufig auf eine Rückfrage hierwegen an das galizische Landespräsidium an. Diese schien dem Justizminister nicht nötig, denn ist Skrzynecki österreichischer Staatsbürger, so muß er in seinem Vaterlande aufgenommen werden, ist er es nicht mehr, so kann ihm, wenn er mit einem regelmäßigen Passe kommt, der Eintritt nach Galizien auch nicht verwehrt werden. Allein, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> machte den Umstand geltend, daß, nachdem zwischen der k. k. österreichischen und der russischen Regierung in Ansehung der Auslieferung der an dem russisch-polnischen Aufstande Beteiligten Verträge bestehen<note type="footnote" n="7">Österreich hatte mit Patent v. <date when="1834-01-04">4. 1. 1834</date> mit Rußland und Preußen einen Vertrag wegen gegenseitiger Auslieferung politischer Verbrecher abgeschlossen, siehe dazu <bibl type="secondary">
+                           <author>Vesque</author>, Staatsverträge 304 und 331</bibl>.</note>, es für Skrzynecki als ehemaligem Oberbefehlshaber der polnischen Insurrektion von 1830 und 1831 bedenklich werden dürfe, wenn er nach Galizien käme.</p>
+                  <p>In dieser Rücksicht ward daher auf den Antrag des Ministers des Inneren beschlossen, hierwegen das Ministerium der auswärtigen Angelegenheiten um Mitteilung näherer Aufschlüsse anzugehen, wobei dann unter einem auch die oben angedeutete Rückfrage an das galizische Landespräsidium stattfinden könnte<note type="footnote" n="8">Mit Schreiben v. <date when="1848-07-23">23. 7. 1848</date> ersuchte Doblhoff das Außenministerium um Auskünfte über Skrzyneckis Kontakte zu den russischen Behörden und seinen ehemaligen Aufenthalt in Österreich, <bibl type="archival">HHSTA., Noten von der Hofkanzlei 249, fol. 409</bibl>. Mit Schreiben (K.) v. <date when="1848-08-08">8. 8. 1848</date> beantwortete das Außenministerium diese Fragen und übersandte entsprechende, in seinem Besitz befindliche Akten an Doblhoff, <quote>ebd., Noten an die Hofkanzlei 67, Fasz. 1848, fol. 184f</quote>. Weitere Akten aus dem Jahr 1848 zu diesem Gegenstand konnten in den Wiener Archiven nicht gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Istrianische Petition um Nichtverwendung der dortigen Rekruten im Krieg in Italien</head>
+                  <p>Drei beim Ministerium des Inneren eingebrachte Petitionen aus Istrien (namentlich eine aus Capo d’Istria) um Sistierung der dort im Zuge befindlichen Rekrutierung oder, wenn nicht, doch um Erteilung der Zusicherung, daß die dort ausgehobenen Rekruten im italienischen Kriege nicht werden verwendet werden, erbat sich der Kriegsminister zur tunlichen Berücksichtigung.</p>
+                  <p>Es wurde beschlossen, dem Kriegsminister diese Petitionen mit der nachdrücklichen Verwendung des Ministers des Inneren für die Gewährung der zweiten Alternative umso mehr zu empfehlen, als diese Rekrutierung ohnehin nur die Aufstellung einer <pb n="546" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s546.pdf"/>Reserve beabsichtigt, deren Bestimmung zunächst der Dienst im Inneren des Landes und nicht im Felde ist<note type="footnote" n="9">Diese Petitionen konnten weder unter den Beständen des AVA., IM., Präs., noch unter denen des KA., HKR., KM., Präs., gefunden werden; ebensowenig war eine diesbezügliche Weisung des Kriegsministers zu finden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Keine offizielle Veröffentlichung über die Mission Montecuccolis; Rechtfertigung über seine Rolle am <date when="1848-05-26">26. 5. 1848</date>
+                  </head>
+                  <p>Gesuch der Gemahlin und der Freunde des an die Seite des Feldmarschall Grafen Radetzky zur Landesverwaltung der von den k. k. Truppen besetzten Teile des lombardisch-venezianischen Königreichs abgeordneten Grafen Montecuccoli um Veröffentlichung seiner dermaligen ämtlichen Bestimmung durch die Zeitungsblätter<note type="footnote" n="10">Dieses Gesuch konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., Kab. Kanzlei, gefunden werden. Zur Bestellung Montecuccolis als Leiter der Landesverwaltung in Lombardo-Venetien siehe MR. <date when="1848-06-23">23. 6. 1848</date>/IV.</note>.</p>
+                  <p>Dieses Ansuchen wurde zur Gewährung nicht für geeignet erkannt, nachdem durch eine solche Veröffentlichung das dermalige Ministerium den vom vorigen ausgegangenen Akt der Mission des Grafen Montecuccoli auf sich nehmen würde.</p>
+                  <p>Die öffentliche Meinung, bemerkte insbesondere der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, bezeichnet den Grafen Montecuccoli als einen an den Ereignissen des 26. Mai Schuldtragenden, der, dem Ministerialbeschlusse vom 27. zufolge, vor ein öffentliches Gericht gestellt werden sollte<note type="footnote" n="11">Zur aktiven Rolle Montecuccolis bei der geplanten Auflösung der Akademischen Legion siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480525-P-0051.xml#top_1_1_51_1">MR. v. <date when="1848-05-25">25. 5. 1848</date>/I</ref>; zu dem hier angesprochenen Ministerratsbeschluß siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_1">MR. v. <date when="1848-05-27">27. 5. 1848</date>/I</ref>.</note>. Diesem ist Graf Montecuccoli durch seine Entfernung von hier entgangen, ohne seine Rechtfertigung eingebracht zu haben<note type="footnote" n="12">Montecuccoli war nach Linz geflüchtet, siehe dazu <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 2, 261</bibl>. Helfert berichtet allerdings weiter, Montecuccoli habe am <date when="1848-06-08">8. 6. 1848</date> aus Salzburg, wohin er weitergereist war, in einem Schreiben an Pillersdorf seine Rolle um den <date when="1848-05-26">26. 5. 1848</date> sehr wohl und ausführlich gerechtfertigt, <quote>ebd., Anm. 1</quote>.</note>. Von dieser Rechtfertigung, die Graf Montecuccoli, wie der Minister nicht zweifelt, zu geben imstande ist, hängt der Fortbestand seiner Mission im lombardisch-venezianischen Königreiche und das Einstehen des gegenwärtigen Ministeriums dafür ab. Er wäre daher aufzufordern, diese seine Rechtfertigung unverzüglich einzureichen<note type="footnote" n="13">Montecuccoli hatte bereits in seiner gedruckten <quote>Denkschrift des Grafen Alfred Montecuccoli an die Hohe Reichsversammlung</quote> v. <date when="1848-07-05">5. 7. 1848</date> auf 15 Seiten seine Rolle rund um die Ereignisse des <date when="1848-05-26">26. 5. 1848</date> geschildert, <bibl type="archival">HHSTA., RTA. 152, fol. 527–534</bibl>. Der ehemalige niederösterreichische Landmarschall wandte sich schließlich mit einem Schreiben v. <date when="1848-08-01">1. 8. 1848</date> aus Verona noch einmal an die <quote>Hohe Reichsversammlung</quote>, mit dem Ansuchen, der Reichstag möge über sein Verhalten urteilen, <quote>ebd., 129, Fasz. IX/51</quote>. Der damit befaßte Ausschuß empfahl, da <quote>der konstituierende Reichstag sich überhaupt nicht mit derartigen Privatrechtsanliegen befassen … kann</quote>, diese Eingabe ad acta zu legen, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Gesetzentwürfe zum Schutz des Reichstages und zur Sicherheit der Abgeordneten</head>
+                  <p>Der Justizminister trug vor zwei Gesetzentwürfe: 1. zum Schutze der Reichsversammlung gegen gewaltsame Störungen von außen und gegen Aufreizungen dazu; 2. zum Schutze der persönlichen Sicherheit der einzelnen Abgeordneten und zwar nach dem doppelten Prinzipe, daß kein Abgeordneter wegen seiner Reden in der Reichsversammlung zur Verantwortung gezogen oder beleidigt werden dürfe (§ 1 und 2) und daß keiner während des Reichstags wegen eines Verbrechens etc., den Fall der Ergreifung auf der Tat ausgenommen, ohne Einwilligung der Reichsversammlung solle gerichtlich verfolgt oder verhaftet werden können (§ 3). Hierbei versteht sich von selbst, <pb n="547" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s547.pdf"/>daß diese Bestimmung auf Fälle solcher Amtshandlungen vor der Wahl des Betroffenen zum Abgeordneten sich nicht beziehen könne<note type="footnote" n="14">Der Akt über die Vorlage dieser Gesetzentwürfe, <bibl type="archival">AVA., JM. 1868/1848</bibl>, ist nicht mehr vorhanden.</note>.</p>
+                  <p>Gegen den Inhalt des Gesetzentwurfs sub 1. ergab sich kein Anstand. Rücksichtlich des Gesetzentwurfs ad 2. wünschte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> § 2 den Ausdruck „Beleidigung“ näher bestimmt, etwa durch „Mißhandlung“ ergänzt, und § 1 die Motivierung weggelassen zu sehen, als ob das Gesetz zum Schutze des Abgeordneten gegen Angriffe der Regierung allein (welche gar nicht vorauszusetzen sind) erlassen worden, endlich die § 2 bezeichnete Handlung ausdrücklich als schwere Polizeiübertretung bezeichnet zu sehen, insoferne sie nicht schon als solche oder als Verbrechen nach dem allgemeinen Strafgesetze angesehen werden müsse.</p>
+                  <p>In der Form glaubt derselbe, daß beide Gesetzentwürfe, nach dem Muster jener andrer konstitutioneller Regierungen, im Namen Sr. Majestät ausgefertigt und zur Einbringung in die Reichsversammlung vorläufig die Ah. Bewilligung eingeholt werden sollte.</p>
+                  <p>In dieser Beziehung wurde der Justizminister vom Minister des Inneren eingeladen, sich – mit Rücksicht auf die Dringlichkeit dieser Sache – im kurzen Wege die höchste Zustimmung Sr. k. k. Hoheit des Herrn Erzherzog Reichsverwesers zur Einbringung jener Gesetzentwürfe zu erbitten.</p>
+                  <p>Die Maßregeln zur Aufrechthaltung des durch diese Gesetze beabsichtigten Schutzes bleiben den Ministern des Inneren und des Kriegswesens überlassen<note type="footnote" n="15">Mit Vortrag v. <date when="1848-07-24">24. 7. 1848</date> brachte Bach beide Gesetzentwürfe zur Entscheidung vor; Erzherzog Johann, als Stellvertreter des Kaisers, resolvierte den Vortrag mit Ah. E. v. <date when="1848-07-29">29. 7. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1576/1848</bibl>. Der entsprechende Akt <bibl type="archival">AVA., JM. 2032/1848</bibl>, ist nicht mehr vorhanden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Änderung von Beamtentiteln; teilweise Verwaltungsreform; Dotierung der Unterstaatssekretäre</head>
+                  <p>Aus Anlaß eines vom Minister der öffentlichen Arbeiten beabsichtigten Vortrags wegen Organisierung des Personalstatus seines Ministeriums sprach der Finanzminister den Wunsch aus, daß sich die Ministerien wegen Änderung des Titels der bei ihnen bestehenden Hofräte, -Sekretäre und -konzipisten in „Ministerialräte etc.“ vereinigen mögen. Er sprach ferner seine Absicht aus, wegen Reform des Praktikantenstandes einen Antrag dahin zu stellen, daß selbe künftig beim Ministerio nur zeitweilig aus den Unterbehörden zugeteilt würden, und erklärte es endlich für ein Bedürfnis, bei den größeren Ministerien einen höheren Beamten, etwa einen Präsidenten, stabil anzustellen, welcher mit der Revision der kurrenten Geschäfte, die der Minister selbst nicht übersehen kann, beauftragt würde.</p>
+                  <p>Endlich wünschte er die Festsetzung des Gehalts für die Unterstaatssekretäre, wo nicht mit 8000f., doch jedenfalls höher als jene der mit 6000f. dotierten Sektionschefs, wogegen der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> diesen letztern Betrag für ausreichend erkannte<note type="footnote" n="16">Mit Vortrag v. <date when="1848-09-01">1. 9. 1848</date> legte Krauß die hier vorgeschlagenen Änderungen der Benennung und der Bezüge der Beamten dem Kaiser vor, der sie mit Ah. E. v. <date when="1848-09-13">13. 9. 1848</date> resolvierte, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1963/1848</bibl>, und <bibl type="archival">FA., FM., Präs. 4935/1848</bibl>. In diesem Vortrag waren die Stellen der Unterstaatssekretäre nicht erwähnt; sie wurden auf Vorträge der einzelnen Ministerien besetzt, vgl. dazu den diesbezüglichen Vortrag Schwarzers v. <date when="1848-07-23">23. 7. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1651/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Gesuch der Brünner Nationalgarde um Artillerie</head>
+                  <p>Gesuch der Nationalgarde in Brünn um Erfolgung einer Batterie<note type="footnote" n="17">Dieses Gesuch war mit Schreiben Doblhoffs v. <date when="1848-07-22">22. 7. 1848</date> an Latour übermittelt worden. Der Akt, <bibl type="archival">KA., HKR., KM., Präs. 3639/1848</bibl>, ist skartiert worden.</note>.</p>
+                  <p>
+                     <pb n="548" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s548.pdf"/>Die Minister der Justiz und des Handels etc. waren für die Bewilligung.</p>
+                  <p>Die übrigen Stimmen aber, nachdem der Kriegsminister, der inzwischen die Sitzung verlassen hatte, schon früher gegen den Minister des Inneren auf das entschiedenste sich gegen die Gewährung dieses Gesuchs ausgesprochen hatte, erklärten sich der Konsequenzen wegen und da das Nationalgardeinstitut noch immer einer förmlichen Organisierung entbehrt, für die Ablehnung dieser Bitte<note type="footnote" n="18">In welchem Wege diese Ablehnung erfolgte, ist nicht mehr zu rekonstruieren. Auch der Akt, in dem Doblhoff mit Schreiben v. <date when="1848-09-06">6. 9. 1848</date> den Protest des Verwaltungsrates der Brünner Nationalgarde gegen die Ablehnung Latour übermittelte, <quote>ebd., Präs. 4978/1848</quote>, ist skartiert worden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Reform der „Wiener Zeitung“</head>
+                  <p>Der Minister des Inneren lud den Finanzminister und den Minister der öffentlichen Arbeiten ein, wegen Reform der Wiener Zeitung, welche weder bezüglich ihrer Redaktion noch ihrer Ausstattung den Forderungen des Ministeriums entspricht, mit Zuziehung des Direktors Rambach in einem Komitee die erforderlichen Maßregeln zu beraten, welcher Aufgabe zu unterziehen sich die beiden Minister bereiterklärten<note type="footnote" n="19">Die <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> hatte nach der Übernahme der Redaktion durch Schmidl und nachdem sie ein reines Regierungsorgan geworden war – ohne in einem nichtamtlichen Teil kritische Kommentare abzugeben – kontinuierlich Leser verloren, siehe dazu <bibl type="secondary">
+                           <author>Stamprech</author>, Älteste Tageszeitung 222</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480815-P-0104.xml#top_1_1_104_3">MR. v. <date when="1848-08-15">15. 8. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Waffenausfuhrverbot nach Italien durch die Schweiz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> trug vor die Notwendigkeit der Erlassung eines Waffenausfuhrverbots nach den italienischen Staaten durch die Schweiz und zur See, nachdem dieselben mit Österreich im Kriege sind<note type="footnote" n="20">Krauß reagierte hier auf einen Bericht des Wiener Gefällenoberamtsdirektors Anton Fichner v. <date when="1848-07-21">21. 7. 1848</date> über geplante Waffenlieferungen über die Schweiz nach Italien, <bibl type="archival">FA., FM., Präs. 3237/1848</bibl>. Krauß verfügte ein Waffenausfuhrverbot in die Schweiz und wies mit Schreiben (K.) v. <date when="1848-07-23">23. 7. 1848</date> alle zuständigen Zentral- und Verwaltungsstellen an, das entsprechende Zirkular zu veröffentlichen, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Zwanzig Jahre Steuerfreiheit für Neubauten in Wien</head>
+                  <p>Bezüglich der Steuerfreiheit für die bis Georgii 1849 zur Gleiche des Erdgeschosses kommenden Neubauten in Wien vereinigte sich der <ref xml:id="fn_1_1_98_a">Finanzminister, der früher 15 Steuerfreijahre dafür für genügend gehalten hatte, mit dem Antrage des Ministers des Inneren auf 20 Jahre</ref>
+                     <note type="variant" n="a" target="#fn_1_1_98_a">Korrektur a–a Krauß’ aus: <quote>Minister des Inneren, der früher 20 Steuerfreijahre dafür angesprochen hatte, mit dem Antrage des Finanzministers auf 15 Jahre, nachdem, wie der Handelsminister bemerkte, man auch im Gemeindeausschuß mit 15 Jahren sich zufriedengestellt hat</quote>.</note>,<ref xml:id="fn_1_1_98_b"/>
+                     <note type="variant" n="b" target="#fn_1_1_98_b">Randbemerkung Doblhoffs: <quote>Ich glaube, daß sich hier vielmehr der Herr Finanzminister mit mir für die 20jährige Steuerfreiheit einverstanden hat; sollte ich irrig aufgefaßt haben, so bitte ich meine Ansicht hier schriftlich zu berichtigen. Doblhoff</quote>.</note>,<note type="footnote" n="21">Die Frage der Erstreckung der Steuerfreiheit für Neubauten war bereits seit Mai der Gegenstand der Korrespondenz zwischen Innen- und Finanzministerium. Krauß stimmte zunächst dem Vorschlag zu, die Steuerfreiheit um drei Jahre über das geltende Limit zu erweitern, siehe dazu <bibl type="archival">FA., FM., Präs. 807/1848 und Präs. 1134/1848</bibl>. Schließlich bestimmte Krauß mit Dekret v. <date when="1848-06-15">15. 6. 1848</date> an die niederösterreichische Steuerregulierung die Steuerfreiheit mit 20 Jahren, <bibl type="archival">ebd., VII. Abt. (Steuer), Z. 20776/72 ex 1848 Fasz. Steuerfreijahre NÖ.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_98_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Verlängerung des Münzausfuhrverbotes</head>
+                  <p>Nachdem das bestehende Münzausfuhrverbot nur noch bis Ende Juli zu gelten hat<note type="footnote" n="22">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480618-P-0076.xml#top_1_1_76_4">MR. v. <date when="1848-06-18">18. 6. 1848</date>/IV</ref>.</note>, so gedenkt der Finanzminister auf Verlangen der Nationalbank dasselbe zwar <pb n="549" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s549.pdf"/>noch über diesen Termin hinaus, jedoch nur auf so lange zu erstrecken, bis die Reichsversammlung, welcher diese Angelegenheit jedenfalls vorgelegt werden muß, hierüber entschieden haben wird<note type="footnote" n="23">Mit Zirkular (K.) v. <date when="1848-07-23">23. 7. 1848</date> wurden alle Landespräsidien und die damit befaßten Zentral- und Verwaltungsstellen von der neuerlichen Verlängerung des Münzausfuhrverbotes verständigt, <bibl type="archival">FA., FM., Präs. 3250/1848</bibl>. Das Ansuchen der Bank, das auch in diesem Akt erwähnt wird, liegt nicht bei. Anbei das gedrucktes Zirkular der niederösterreichischen Landesregierung v. <date when="1848-07-24">24. 7. 1848</date>, mit dem diese Maßnahme kundgemacht wurde.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-07-24">24. Juli 1848</date>. Doblhoff.</dateline>
+                  <seg type="other">Gesehen 13. August. Hornbostl.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

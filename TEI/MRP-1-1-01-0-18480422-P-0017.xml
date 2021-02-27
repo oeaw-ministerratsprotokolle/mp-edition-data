@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="017">Sitzung 17</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-22"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z17.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">343</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-22"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. fehlt; VS. Ficquelmont; anw. Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont (23. 4.), Franz Karl (23. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-23">23. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-23">23. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_17_1">Errichtung einer Sicherheitswache für Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_17_2">Bezüge der Abgeordneten zum Frankfurter Bundestag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_17_3">Pazifizierung des lombardisch-venezianischen Königreiches</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_17_4">Rücktritt Graf Johann Ernst Hoyos-Sprinzensteins von der Stelle des Nationalgardekommandanten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_17_5">Herabsetzung des Salzverschleißpreises in Dalmatien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_17_6">Machtlosigkeit der politischen und Kameralbehörden in Galizien; Entwaffnung der dortigen Finanzwache</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_17_7">Judenverfolgungen in Pest</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480422-P-0017" ana="a1-1848_z17">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z17.pdf">
+               <title type="num">Nr. 17</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-22">22. April 1848</date> I</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (23. 4.), Franz Karl (23. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">343</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll [I] des Ministerrates vom <date when="1848-04-22">22. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_17_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Errichtung einer Sicherheitswache für Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> brachte folgende Gegenstände zur Sprache:</p>
+                  <p>Die Errichtung einer Sicherheitsanstalt (Sicherheitswache, Munizipalgarde) für Wien, welche zum Teile mit den Funktionen der bisherigen Polizei betraut werden soll<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_12">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XII</ref>.</note>.</p>
+                  <p>Der Magistrat gibt in seinem diesfälligen Vorschlage<note type="footnote" n="2">Schreiben des Magistrats und provisorischen Bürgerausschusses der Stadt Wien an Pillersdorf v. <date when="1848-04-19">19. 4. 1848</date> mit einem <quote>Vortrag über die Organisierung der Sicherheitswache der Stadt Wien</quote>, <bibl type="archival">AVA., IM., Präs. 1070/1848</bibl>.</note> die Einrichtung dieser Wache, ihre Uniformierung, die zu ihrer Erhaltung erforderlichen Auslagen usw. näher an. Einzelne Bestimmungen dieser Wache werden jenen der bisherigen Polizeiwache gleichen, nur wird jene in den Gehalten und Löhnungen besser gestellt sein als diese. So wird der Kommandant 1500 fl. jährlich, die drei Hauptleute (einer für die Stadt und zwei für die Vorstädte), jeder monatlich 75 fl., die zehn Leutnants monatlich jeder 24 fl. und der Gemeine, deren es 430 geben soll, täglich eine Löhnung von 24 Kreuzer beziehen.</p>
+                  <p>Dazu kommt die entsprechende Anzahl Kavallerie dieser Wache. Die Kosten dürften sich auf 143.000 fl. belaufen.</p>
+                  <p>Der Magistrat bittet um Genehmigung dieser Anstalt. Die Notwendigkeit der Errichtung einer Sicherheitswache für die Stadt und die Vorstädte Wiens ist, wie der Minister des Inneren bemerkt, nicht zu verkennen, die Mittel ihrer Sicherstellung sind nachgewiesen, es dürfte daher dem Magistrate die angesuchte Genehmigung hiezu erteilt werden.</p>
+                  <p>Die Wirksamkeit der gegenwärtigen Polizei wird nicht ganz aufgehoben, dieselbe wird noch ferner das Paß-, das Dienstbotenwesen, die Aufsicht bei den Eisenbahnen und dergleichen zu besorgen haben.</p>
+                  <p>Ob die Wirksamkeit der erwähnten Sicherheitswache sich nicht bloß auf die Stadt und die Vorstädte, sondern auch auf die nahen Ortschaften um Wien zu erstrecken haben werde, darüber hätte sich der Magistrat mit der Polizei noch in das Einvernehmen zu setzen.</p>
+                  <p>
+                     <pb n="96" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s96.pdf"/>Eine zweite Frage entsteht nun, was mit der Polizeidirektion zu geschehen habe. Darüber glaubt sich der Minister des Inneren gegenwärtig noch nicht aussprechen zu sollen. Derzeit wäre die Polizeioberdirektion lediglich aufzufordern, sich zu äußern, in welcher Ausdehnung die bisherige Polizei zu erhalten und welche Attribute der Wirksamkeit derselben ferner einzuräumen wären. Was das Personale anbelangt, bemerkt der Minister, daß der gegenwärtige Polizeioberdirektor, Hofrat Martinez, diese Stelle nur provisorisch versehe. Er war früher durch eine kurze Zeit Leiter der Zensurdirektion und ist nach der Pensionierung des Hofrates Muth provisorisch als Leiter der Polizeioberdirektion bestellt worden<note type="footnote" n="3">Peter Edler v. Muth war am <date when="1848-03-13">13. 3. 1848</date> beurlaubt worden, und die Geschäftsführung der Polizeidirektion übernahm Hofrat Martinez, der Akt <bibl type="archival">NÖLA, StH., Präs. 609/1848</bibl>, ist skartiert worden. Schließlich wurde Muth auf Vortrag Pillersdorfs v. <date when="1848-04-08">8. 4. 1848</date> mit Ah. E. v. <date when="1848-04-16">16. 4. 1848</date> pensioniert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 92/1848</bibl>.</note>. Er scheint übrigens nicht der Mann zu sein, welcher dieser Leitung gehörig vorstehen könnte; es gebricht ihm an der nötigen Ruhe, Festigkeit und an Takt. Die Polizei genießt gegenwärtig keine Achtung, ist ganz unwirksam und imponiert in keiner Beziehung.</p>
+                  <p>Der Minister des Inneren glaubt die Leitung der Polizeioberdirektion provisorisch dem in seiner Kategorie zwar andern nachstehenden, aber sehr fähigen und tätigen Adjunkten Born<note type="footnote" n="4">Ernst Wilhelm Born wurde schließlich mit Erlaß des Ministeriums des Inneren v. <date when="1848-04-23">23. 4. 1848</date> mit der Leitung der Polizeidirektion betraut, siehe dazu <bibl type="secondary">
+                           <author>Oberhummer</author>, Wiener Polizei 1, 2121.</bibl>; zu Born siehe <quote>ebd. 3, 11</quote>.</note> zu übertragen, ohne gegenwärtig definitiv noch auszusprechen, was mit dem Hofrate Martinez zu geschehen hätte.</p>
+                  <p>Der Ministerrat hat in beiden Beziehung dem Minister des Inneren beigestimmt<note type="footnote" n="5">Mit Schreiben (K.) an den Magistrat und provisorischen Bürgerausschuß v. <date when="1848-04-22">22. 4. 1848</date> bewilligte Pillersdorf die Errichtung einer Wiener Polizeiwache mit dem Hinweis, ihre Wirksamkeit auf die Umgebung Wiens auszudehnen und bei der Einstellung geeigneter Personen Rücksicht auf die nun arbeitslos werdenden Mitglieder der Polizei zu nehmen, <bibl type="archival">AVA., IM., Präs. 1070/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bezüge der Abgeordneten zum Frankfurter Bundestag</head>
+                  <p>Die Anfrage des Komitees für die Wahlen zu dem Bundestage in Frankfurt, welche Bezüge und Vergütungen den gewählten Abgeordneten bewilliget werden wollen, wobei zugleich öffentlich auszusprechen wäre, ob diese Kosten vom Staate oder von den betreffenden Provinzen für ihre Abgeordneten zu tragen sein werden<note type="footnote" n="6">Zum Wiener <quote>Zentralkomitee für die Wahlen zur deutschen Nationalversammlung in Fankfurt</quote> siehe <bibl type="secondary">
+                           <author>Ibler</author>, Frankfurter Nationalversammlung 107</bibl>. Die Anfrage des Komitees konnte unter den Beständen des AVA. IM. Präs. nicht gefunden werden.</note>.</p>
+                  <p>Der Minister des Inneren findet keinen rechten Anhaltspunkt, schon gegenwärtig einen Ausspruch diesfalls zu tun, das Bedürfnis und der Betrag der Kosten seien nicht nachgewiesen; er vermutet auch, daß nur ein kleiner Teil der Gewählten den Landtag in Frankfurt besuchen werde. Böhmen scheint ihn gar nicht beschicken zu wollen<note type="footnote" n="7">Darauf deutete der Brief Palackýs v. <date when="1848-04-11">11. 4. 1848</date> hin, in dem er die Einladung zur Teilnahme an der Frankfurter Nationalversammlung ausschlug, tschechischer Text in <bibl type="secondary">
+                           <author>Palacky</author>, <author>Radhost</author> 3, 10f.</bibl>, der deutsche Originaltext in <bibl type="archival">DERS., Gedenkblätter 149 – 155</bibl>, und der Umstand, daß sich Vertreter der Prager Nationalversammlung am <date when="1848-04-18">18. 4. 1848</date> gegen die Abhaltung der Wahlen ausgesprochen hatten, siehe dazu <bibl type="secondary">
+                           <author>Černy</author>, Boj 1, 142 f</bibl>.</note>, in anderen Provinzen findet dieses Beschicken keinen großen Anklang, sie verhalten sich <pb n="97" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s97.pdf"/>meist passiv<note type="footnote" n="8">Da erst eine knappe Woche vorher offiziell verlautbart wurde, daß Wahlen zum Frankfurter Parlament in Österreich stattfinden werden, siehe <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-16">16. 4. 1848</date>
+                        </bibl>, erschien diese Behauptung etwas voreilig.</note>, und so dürfte wohl kaum ein Dritteil der nach der Volkszahl entfallenden Abgeordneten sich zu dem Landtage in Frankfurt begeben<note type="footnote" n="9">Zu der nach dem Wahlgesetz auf Österreich entfallenden Abgeordnetenzahl siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480407-P-0006.xml#top_1_1_6_6">MR. v. <date when="1848-04-07">7. 4. 1848</date>/VI</ref>.</note>.</p>
+                  <p>Ob aber nicht äußere politische Rücksichten eine regere Beschickung des Frankfurter Landtages wünschenswert machen, und ob nicht zu diesem Ende die Vergütung der Kosten als ein Reizmittel dazu anzuwenden wäre, wurde dem Ausspruche des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers der auswärtigen Angelegenheiten</rs>
+                     </hi> anheimgestellt, welcher es hier für zweckmäßig erachtete, daß diese Angelegenheit ihm im schriftlichen Wege zur Äußerung mitgeteilt werden möchte<note type="footnote" n="10">Eine diesbezügliche schriftliche Mitteilung an den Außenminister erfolgte nicht. Die Frage der Diäten und Reisekosten für die Deputierten nach Frankfurt kam erneut in <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_5">MR. v. <date when="1848-04-30">30. 4. 1848</date>/V</ref> zur Sprache.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Pazifizierung des lombardisch-venezianischen Königreiches</head>
+                  <p>Die wiederholt an ihn gelangenden Reklamationen und Petitionen wegen Pazifikation Italiens<note type="footnote" n="11">Zur Hartigschen Pazifizierungsmission siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480422-P-0017.xml#top_1_1_17_3">MR. v. <date when="1848-04-22">22. 4. 1848</date>/III</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Ministet des Inneren</rs>
+                     </hi> wünscht von dem Ministerrate die Weisung zu erhalten, ob er sich darüber bestimmt auszusprechen habe. Er wäre geneigt, schriftlich und in allgemeiner Fassung zu erklären, daß die österreichische Regierung zur Pazifikation des gedachten Landes Hände biete und auch schon die nötigen Einleitungen hiezu getroffen habe.</p>
+                  <p>Der Ministerrat fand gegen diese vorhabende Erklärung nichts zu erinnern<note type="footnote" n="12">Eine derartige Erklärung des Innenministers konnte weder in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title>
+                        </bibl> noch in der Flugschriftensammlung der Österreichischen Nationalbibliothek gefunden werden. Am <date when="1848-04-24">24. 4. 1848</date> erschien allerdings in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.)</bibl> die Übersetzung einer von Hartig am <date when="1848-04-19">19. 4. 1848</date> an die Italiener Lombardo-Venetiens erlassenen Proklamation, in der er sie aufforderte, die österreichischen Zugeständnisse – Verfassung, verbesserte Verwaltung, nationale Freiheiten – anzunehmen und die kriegerischen Handlungen gegen die Habsburgermonarchie einzustellen.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Ministerpräsident und Minister des Auswärtigen</rs>
+                     </hi> erinnerte bei diesem Anlasse, daß mehrere Handelsleute und andere Personen vom hiesigen Platze bei ihm waren und ihm die Absicht erklärten, einige Individuen aus ihrer Mitte nach Italien (Bergamo, Brescia, Mailand) zu senden, welche in derselben Absicht daselbst wirken sollen. Der Minister des Äußern habe ihr Vorhaben gutgeheißen und sie nur aufgefordert, die getroffene Wahl und die Namen der Gewählten ihm anzuzeigen, damit er den Grafen Hartig davon verständigen könne<note type="footnote" n="13">Vgl. dazu den Antrag einiger Nationalgarden und Hausbesitzer, auf ihre Kosten einige Deputierte nach Mailand und Venedig mit Pazifikationsvorschlägen zu senden, <bibl type="archival">HHSTA., StK., Noten von der Hofkanzlei 249</bibl>, Schreiben Pillersdorfs an Ficquelmont v. <date when="1848-04-22">22. 4. 1848</date>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_9">MR. v. <date when="1848-04-30">30. 4. 1848</date>/IX</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Rücktritt Graf Johann Ernst Hoyos-Sprinzensteins von der Stelle des Nationalgardekommandanten</head>
+                  <p>Die Resignation des Grafen Hoyos auf die Kommandantenstelle der Nationalgarde und sein diesfälliges Gesuch an Ew. Majestät um Enthebung von diesem Posten<note type="footnote" n="14">Hoyos war mit Kabinettschreiben v. <date when="1848-03-14">14. 3. 1848</date>, in dem die Errichtung der Nationalgarde verfügt wurde, zu ihrem ersten Kommandanten bestellt worden, <bibl type="archival">HHSTA., MKA., MZ. 705/1848</bibl>. Der Akt mit dem Rücktrittsgesuch von Hoyos <bibl type="archival">AVA., IM., Präs. 1301/1848</bibl>, ist nicht mehr vorhanden.</note>.</p>
+                  <p>
+                     <pb n="98" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s98.pdf"/>Die Gründe, welche ihn dazu bestimmen, sind, daß er nicht populär sei, daß seine Verfügungen nicht den gehörigen Anklang finden, und daß es für ihn kränkend sein würde, wenn etwa Manifestationen gegen ihn vorgenommen werden sollten.</p>
+                  <p>Der Minister habe sich nach Empfang dieser Eingabe zum Grafen Hoyos begeben und die Frage gestellt, ob vielleicht irgend ein spezieller Fall zu seiner Unzufriedenheit Anlaß gegeben habe, und ob sein Einschreiten diesfalls gewünscht werde. Graf Hoyos verneinte es und bemerkte, daß seine Stellung im allgemeinen sehr schwierig sei und er im allgemeinen keinen Anklang finde.</p>
+                  <p>Hierauf äußerte der Minister bloß den Wunsch, der Graf Hoyos möchte sein Vorhaben nicht präzipitieren, aus einem doppelten Grunde: a) weil die Feier des Ah. Geburtsfestes Ew. Majestät nächstens bevorsteht, wobei auch die Nationalgarde ausrücken wird und das Oberkommando dabei nicht fehlen sollte<note type="footnote" n="15">Zur Geburtstagsfeier des Kaisers siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_5">MR. v. <date when="1848-04-20">20. 4. 1848</date>/V</ref>. Zur Parade der Nationalgarde auf dem Glacis siehe <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 1, 474</bibl>.</note>, und b) weil, wenn die Resignation des Grafen mit der bald erscheinenden Verfassung zusammentreffen würde, dies leicht als eine Manifestation dagegen ausgelegt werden könnte.</p>
+                  <p>Durch diese Gründe ließ sich Graf Hoyos bestimmen, das Oberkommando der Nationalgarde noch durch einige Zeit zu behalten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> bringt dieses zur Kenntnis des Ministerrates mit dem Beisatze, daß die Demission des Grafen Hoyos in der Folge wird vorgelegt und ein Vorschlag für die Kommandantenstelle der Nationalgarde wird erstattet werden müssen<note type="footnote" n="16">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_4">MR. v. <date when="1848-04-29">29. 4. 1848</date>/IV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Herabsetzung des Salzverschleißpreises in Dalmatien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> brachte hierauf die erneuerte Bitte des Zivil- und Militärgouverneurs von Dalmatien, Ritter v. Turszky, um Herabsetzung des Salzpreises zum Vortrage<note type="footnote" n="17">Vortrag Turszkys v. <date when="1848-04-16">16. 4. 1848</date>. <bibl type="archival">FA., FM., Präs. 106/1848</bibl>; zu den früheren Bemühungen des dalmatinischen Guberniums um Herabsetzung des Salzpreises siehe <quote>ebd., PP. 3461/1848</quote>, und <quote>ebd., FM., Präs. 79/1848</quote>.</note>.</p>
+                  <p>Der Gouverneur bemerkt, daß diese Herabsetzung zur Erhaltung der Ruhe unbedingt notwendig erscheine. Das Landvolk sei noch der Regierung anhängig und widerstehe der Aufreizung, es wünsche aber dringend eine Herabsetzung der Salzpreise.</p>
+                  <p>Der inländische Preis eines Zentners Salz sei 3 fl. 30 kr., während das ausländische Salz viel wohlfeiler zu stehen komme.</p>
+                  <p>Der Referent bei der allgemeinen Hofkammer (Hofrat Habermann) erkennt es gleichfalls als unvermeidlich, mit den Salzpreisen herabzugehen<note type="footnote" n="18">Gutachten (K.) Habermanns v. <date when="1848-04-22">22. 4. 1848</date> in <quote>ebd., PP. 3467/1848</quote>.</note>. Das Ärar setzt in Dalmatien 56.000 Zentner Salz ab; wird der Zentner, wie angetragen wird, um 1 fl. 23 kr. herabgesetzt, so entsteht dadurch ein Abfall von mehr als 77.000 fl. Dieser Ausfall wird sich zwar nicht in dem Maße realisieren, weil bei geringeren Salzpreisen die Schwärzungen abnehmen und der Verbrauch sich vermehrt.</p>
+                  <p>Bei Dalmatien allein kann man aber nicht stehen bleiben, es muß ein Gleiches im Küstenlande und [in] Istrien geschehen. In Istrien kostet der Zentner Salz 3 fl. 37 kr., <pb n="99" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s99.pdf"/>in Triest 4 fl. 44 kr. – Wird der Preis des Salzes in Istrien auf 3 fl. und in Triest auf 4 fl. 14 kr. herabgesetzt, dann erscheint der Abfall für die Finanzen schon bedeutender. Auch in den deutschen Provinzen wird, wie in Tirol<note type="footnote" n="19">Zur Herabsetzung des Salzpreises in Tirol siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480409-P-0008.xml#top_1_1_8_10">MR. v. <date when="1848-04-09">9. 4. 1848</date>/X</ref>.</note>, eine Preisherabsetzung des Salzes eintreten müssen. Kärnten ist in derselben Lage wie Tirol, und in Galizien ist die Klage über den hohen Salzpreis eine stehende.</p>
+                  <p>Würden die Preise in der ganzen Monarchie herabgesetzt, was unvermeidlich sein wird, so würde dadurch ein Ausfall für die Finanzen von ungefähr 4 Millionen (mit der oberwähnten Korrektion) eintreten.</p>
+                  <p>Der Finanzminister kann sich ungeachtet der ungünstigen finanziellen Verhältnisse, wo die Ausgaben immer steigen, die Einnahmen dagegen fallen, doch nur mit dem Referenten vereinigen, für Dalmatien und Küstenland schon jetzt die Salzpreise in der erwähnten Art herabzusetzen.</p>
+                  <p>Für die übrigen Provinzen wird der Finanzminister in wenigen Tagen seine diesfälligen Anträge vorbringen. Es werde, bemerkte derselbe, nicht erübrigen, als das gegenwärtige Finanzsystem zu ändern, die indirekten Steuern zu erhöhen und allenfalls eine Vermögenssteuer einzuführen.</p>
+                  <p>Der Ministerrat erklärte sich mit der oben angetragenen Herabsetzung des Salzpreises für Dalmatien und das Küstenland einverstanden. Der Erledigungsentwurf befindet sich bei der KZ. 1670/1848<note type="footnote" n="20">Der in Anm. 17 zit. Vortrag wurde mit Kabinettschreiben an den Gouverneur von Dalmatien v. <date when="1848-04-23">23. 4. 1848</date> positiv erledigt, <bibl type="archival">FA., FM., Präs. 106/1848</bibl>; mit Kabinettschreiben vom selben lag wurde Krauß beauftragt, die erforderlichen Schritte zu unternehmen, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Machtlosigkeit der politischen und Kameralbehörden in Galizien; Entwaffnung der dortigen Finanzwache</head>
+                  <p>Der Finanzminister teilte weiter dem Ministerrate einen beunruhigenden Bericht des Kameralgefällenadministrators in Lemberg mit, worin derselbe nebst der Schilderung des gelähmten Zustandes der politischen und Kameralbehörden und nebst der Angabe, daß von Seite der Böswilligen die Entwaffnung der Finanzwache gefordert werden wolle, die Anzeige macht, daß die Kameralgefällenverwaltung die Verfügung treffen wolle, daß die Aufnahme in die Finanzwache zu unterbleiben habe<note type="footnote" n="21">Bericht Hofrat Pöchers v. <date when="1848-04-19">19. 4. 1848</date>, <quote>ebd., Präs. 105/1848</quote>. Vgl. dazu den alarmierenden Bericht Pöchers v. <date when="1848-04-09">9. 4. 1848</date> über die Zustände in Galizien, <quote>ebd., PP. 3469/1848</quote>.</note>.</p>
+                  <p>Nach der Ansicht des Finanzministers und des ihm beistimmenden Ministerrates ist dem Kameralgefällenadministrator auf diesen Bericht zu erwidern, daß von einer Auflösung der Sicherheitswache unter den gegenwärtigen Umständen keine Rede sein könne, sie vielmehr stets bereit sein solle, dem Militär in Aufrechthaltung der öffentlichen Ordnung und Sicherheit beizustehen<note type="footnote" n="22">In diesem Sinne wurde Pöcher mit Schreiben (K.) des Finanzministers v. <date when="1848-04-22">22. 4. 1848</date> instruiert, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_17_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Judenverfolgungen in Pest</head>
+                  <p>Schließlich brachte der Finanzminister zur Kenntnis des Ministerrates eine ihm zugekommene Nachricht von Pest vom 20. d. M., nach welcher es dort tags zuvor zu einem blutigen Zusammentreffen gekommen ist, veranlaßt durch die beabsichtigte allgemeine Entwaffnung der Juden, wobei drei derselben erschlagen und bei 60 <pb n="100" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s100.pdf"/>gefangengenommen worden sein sollen. Es soll große Erbitterung gegen die Israeliten daselbst herrschen<note type="footnote" n="23">Eine schriftliche Benachrichtigung über dieses Ereignis konnte unter den Beständen des <bibl type="archival">FA., FM., Präs.</bibl>, nicht gefunden werden. Zu den Krawallen v. <date when="1848-04-19">19. 4. 1848</date> und der Forderung nach Ausscheidung der Juden aus der Pester Nationalgarde siehe <bibl type="secondary">
+                           <author>Einhorn</author>, Juden in Ungarn 79–89</bibl>, und <bibl type="secondary">
+                           <author>Chownitz</author>, Ungarische Revolution 1, 75–80</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-23">23. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 23. April. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Dient zur Wissenschaft. Ferdinand. Wien, den <date when="1848-04-26">26. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

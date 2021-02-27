@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="341">Sitzung 341</title>
+            <title level="a" type="sub" n="1">Protokoll I</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-04-16"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z341.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1145</idno>
+                  <idno type="KZ">1335</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-04-16"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 16. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; BdR. Erzherzog Rainer 29. 4.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-04-16">1863-04-16</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_341_1">Entwurf des Reskripts an das siebenbürgische Gubernium wegen Einberufung des Landtags</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_341_2">Bestimmung des Ortes, wohin der siebenbürgische Landtag einzuberufen ist</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_341_3">Ernennung des FML. Grafen Ludwig Crenneville zum bevollmächtigten Landtagskommissär für den siebenbürgischen Landtag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_341_4">Zurückziehung des Vortrags wegen Ablegung des Amtseides in Siebenbürgen in den verschiedenen Landessprachen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630416-P-0341" ana="a5-b5-z341">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z341.pdf">
+               <title type="num">Nr. 341</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-04-16">16. April 1863</date> – Protokoll I</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 16. 4.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 29. 4.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1145</idno>
+                  <idno type="KZ">1335</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll I des zu Wien am <date when="1863-04-16">16. April 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_341_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Entwurf des Reskripts an das siebenbürgische Gubernium wegen Einberufung des Landtags</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte den au. Vortrag der siebenbürgischen Hofkanzlei vom 8. April l. J., Z. 235, mit dem Verzeichnisse der dem bevorstehenden Landtage in Siebenbürgen vorzulegenden Gesetzentwürfe und dem Entwurfe des zu erlassenden Landtagseinberufungs­reskriptes<note type="footnote" n="1">
+                        <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 235/1863 (K.) und Allgemein 1968/1863 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 321/1863</bibl>. Zur Einberufung des Landtags siehe Einleitung XL f.</note>.</p>
+                  <p>Die Absicht der siebenbürgischen Hofkanzlei gehe dahin, die Gegenstände der königlichen Propositionen dem Landtage nicht bloß im allgemeinen bekanntzugeben, sondern mit vollkommen ausgearbeiteten Gesetzesvorlagen vor den Landtag zu treten, weil hiedurch nicht nur die landtäglichen Verhandlungen wesentlich vereinfacht und beschleunigt werden, sondern auch der Standpunkt, welchen die Regierung in den verschiedenen Fragen einzunehmen findet, klar und offen vorliegt. Dem mit der Ah. Entschließung vom <date when="1861-09-11">11. September 1861</date> auf den 11. November desselben Jahres anbefohlenen, jedoch nicht zustande gekommenen Landtage hätten bekanntlich folgende vier königliche Propositionen gestellt werden sollen: 1. die Inartikulierung der romanischen Nation; 2. die Wahlen für die Kardinalämter bei dem königlichen Gubernium und der königlichen Gerichtstafel; 3. die Beschickung des Reichsrates und 4. die Verhandlungen über allfällige Änderungen in betreff der Bestimmungen und Einrichtung des bürgerlichen und des Strafgesetzes<note type="footnote" n="2">Handschreiben an Kemény zit. <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18611109" ana="prot0 top0">MR. v. <date when="1861-11-09"/>9. 11. 1861</ref>, Anm. 6, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z121" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z121.pdf" target="MRP-1-5-02-0-18610909-P-0121.xml">ÖMR. V/2, Nr. 121</ref>
+                        </bibl>.</note>. Die erste und dritte dieser Propositionen haben auch heute noch dieselbe Bedeutung, und werden daher die hierauf bezugnehmenden Gesetzentwürfe dem Landtage vorgelegt werden müssen. Dagegen werden die zweite und vierte wegzubleiben haben, weil ad 2 die bezüglichen Verhältnisse geändert erscheinen und die Reorganisierung der königlichen Gerichtstafel Ah. ausgesprochen ist, und ad 4, weil bei dem Grundsatze, daß dem Landtage die Regierungsvorlagen als fertige Gesetzentwürfe zukommen sollen, diese Proposition in ihrer früheren Allgemeinheit nicht mehr gestellt werden könne, sondern in entsprechende Gesetzentwürfe aufgelöst werden müsse, mithin in mehreren Teilen dem Landtage vorgelegt werde.</p>
+                  <p>Dieses vorauslassend verlas Freiherr v. Lichtenfels den beiliegenden Reskriptsentwurf<ref xml:id="fn_5_5_341_a"/>
+                     <note type="variant" n="a" target="#fn_5_5_341_a">Ein lithographiertes Exemplar liegt dem Originalprotokoll bei; gedruckt als Beilage zum vorliegenden Protokoll, Nr. 341 a.</note>
+                     <pb n="380" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s380.pdf"/>und bemerkte, daß sich dem Staatsrate im Prinzipe keine Erinnerung ergab; nur in formeller Beziehung glaubte die Majorität, so weit es den Eingang und die Absätze I und II betrifft, eine entsprechendere Fassung in Antrag bringen zu sollen, welche der vortragende Präsident für ganz zweckmäßig halte, daher diesem Vorschlage auch beigetreten sei. Mit dieser sofort verlesenen, in der obigen Beilage ersichtlich gemachten Textänderung<ref xml:id="fn_5_5_341_b"/>
+                     <note type="variant" n="b" target="#fn_5_5_341_b">Siehe die Beilage zum vorliegenden Protokoll, Nr. 341 b.</note> erklärte sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> vollkommen einverstanden, und ergab sich bei der hierwegen gehaltenen Umfrage keine Erinnerung, nur der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi>, welcher im allgemeinen gegen die Erlassung dieses auf die früheren gegen seine Ansicht gefaßten Ministerratsbeschlüsse und auf Ah. Bestimmungen sich fußenden Reskriptes hier weiter nicht anknüpfen wollte, glaubte darauf doch hinweisen zu sollen, daß auch bezüglich der königlichen Propositionen bereits eine Ah. Bestimmung, nämlich die vom <date when="1861-09-11">11. September 1861</date>, vorliege, daher seines Erachtens auch diese bereits durch Se. Majestät festgestellten vier Propositionen unverändert beibehalten werden sollten, worauf <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> erwiderte, daß, was die vierte Proposition betrifft, diese eigentlich nicht beseitigt, sondern nur in Teile aufgelöst worden sei, indem es nach dem jetzt angenommenen Grundsatze erforderlich erscheint, separate Gesetzentwürfe in betreff der der Regierung selbst notwendig scheinenden Änderungen und Einrichtungen des bürgerlichen und Strafgesetzes dem Landtage vorzulegen, und daß, was die zweite Proposition belangt, nach der gegenwärtig beantragten Landtagsordnung das Gubernium und die Gerichtstafel aufhören sollen, ein integrierender Teil des Landtags zu sein, und daß es bei den heutigen staatlichen Einrichtungen höchst unpassend scheine, den Gubernialpräsidenten und den Präsidenten des Obersten Gerichtshofes von der Wahl des Landtages abhängig zu machen, welche Ungereimtheit der Landtag, wie Graf Nádasdy hofft, selbst einsehen dürfte.</p>
+                  <p>Hierauf referierte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> weiter, daß der Staatsrat den Punkt 1 dahin textieren wolle „Über die Durchführung der Gleichberechtigung der romanischen Nation und ihrer Konfessionen“, wogegen der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> ebenfalls keinen Anstand erhob, weil hiedurch die Sache selbst nicht geändert sei.</p>
+                  <p>Ferner glaube der Staatsrat, daß sich in Absicht auf die Reihenfolge der Propositionen empfehlen würde, das Zusammenhängende, sich gegenseitig Bedingende nicht zu trennen, sondern aneinanderzureihen, also nach Post 5 jene unter 11 und 10 und hierauf 6 folgen zu lassen. Auch hierwegen ergab sich weder dem Grafen Nádasdy noch sonst einem Stimmführer eine Bemerkung.</p>
+                  <p>Ferner beabsichtige die Hofkanzlei – fährt <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> fort – gleichzeitig die von dem Gubernium unterm 1. Juni und 3. Oktober [1861] vorgebrachten Vorstellungen gegen die Abhaltung eines siebenbürgischen Landtages zu erledigen<note type="footnote" n="3">Zu diesen Vorstellungen siehe <ref type="protocol-link" target="MRP-1-5-02-0-18611019-P-0139.xml#top_5_2_139_1">MR. v. <date when="1861-10-19">19. 10. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z139" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z139.pdf" target="MRP-1-5-02-0-18611019-P-0139.xml">ÖMR. V/2, Nr. 139</ref>
+                        </bibl>. Die Originale liegen bei <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 1968/1863</bibl>.</note>, indem sie darauf antrage, daß diese Vorstellungen grundsätzlich zurückzuweisen <pb n="381" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s381.pdf"/>sind und diese Zurückweisung mittelst eines über ausdrücklichen Befehl Sr. Majestät zu erlassenden Hofdekretes stattzufinden hätte und dasselbe nebst der Zurückweisung der Vorstellungen auch eine Ausstellung<note type="footnote" n="4">Tadel.</note> des diesbezüglichen Vorganges des königlichen Guberniums zu enthalten hätte. Der Inhalt dieses vorgelegten, vom Baron Lichtenfels sofort vorgelesenen Dekretes blieb im Staatsrate unbeanständet, und ergab sich auch dem Ministerrate keine Erinnerung hierwegen<note type="footnote" n="5">Ein von Nádasdy unterfertigter Entwurf liegt dem Akt <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1273/1863</bibl> bei; Konzept <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 235/1863</bibl>.</note>.</p>
+                  <p>Über das von dem <hi rend="#letterspaced">
+                        <rs type="person">ungarischen Hofkanzler</rs>
+                     </hi> bezüglich des Gebrauches der drei landesüblichen Sprachen (Punkt 2) erhobene Bedenken, daß man sich hiedurch in sehr große Schwierigkeiten setzen werde und es wohl geratener wäre, es bei dem früheren Gebrauche, sich <ref xml:id="fn_5_5_341_c">in diesem Falle</ref>
+                     <note type="variant" n="c" target="#fn_5_5_341_c">Korrektur c–c Forgáchs aus <quote>im ämtlichen Verkehre</quote>.</note> der lateinischen Sprache zu bedienen, zu belassen, als von der Regierung mit dieser äußerst heiklichen Sache selbst zu rühren, welches Bedenken von dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> insofern geteilt wurde, als er durch die Gestattung der drei Sprachen eine Kollision bei den dortigen Finanzbehörden besorge, daher wünschen würde, daß diese ganze Proposition, wenn nicht ganz besondere politische Gründe dafür sprechen, hier weggelassen werde, ergab sich eine längere Diskussion, bei welcher die Gründe für und wider erörtert wurden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> hob hervor, daß, abgesehen davon, daß Se. Majestät die definitive Regelung der Sprachenfrage Allerhöchstselbst als einen Gegenstand der Gesetzgebung zu bezeichnen geruht haben<note type="footnote" n="6">Handschreiben v. <date when="1862-07-27">27. 7. 1862</date>, <ref type="protocol-link" target="MRP-1-5-04-0-18620709-P-0246.xml">MR. v. <date when="1862-07-09"/>9. 7. 1862</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z246" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z246.pdf" target="MRP-1-5-04-0-18620709-P-0246.xml">ÖMR. V/4, Nr. 246</ref>
+                        </bibl>; Einleitung XXXV; zit. auch in den <quote>Grundsätzen</quote> Schmerlings, Beilage Nr. 332 a, Abschnitt III.</note>, sich die diesbezügliche Gesetzesvorlage umso notwendiger darstellen dürfte, als zu befürchten ist, daß, wenn die Regierung mit dieser Sache nicht vor den Landtag tritt, der letztere selbst die Initiative ergreifen wird, was dann ohne Zweifel weit schlechter ausfallen dürfte. Votant verkenne nicht, daß sich über diesen Punkt vieles sagen lasse und dieses überhaupt ein heikliches Terrain sei, auf dem man sich mit vieler Vorsicht bewegen müsse. Deshalb habe er sich auch vorbehalten, die diesbezügliche Regierungsvorlage nur unter Mithilfe des weisen Rates der Konferenz zu formulieren, wobei die im Interesse des dienstlichen Verkehres erforderlichen Salvationen werden erörtert werden können<note type="footnote" n="7">Siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630713-P-0373.xml#top_5_6_373_2">MR. v. <date when="1863-07-13">13. 7. 1863</date>/II</ref>.</note>. Was speziell die Korrespondenz mit den Post- und Finanzbehörden betrifft, so dürfte wohl Se. Majestät dann doch auch Ah. befehlen können, daß dieselbe deutsch sein soll, wie es bereits hinsichtlich der Militärbehörden geschehen ist. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> würde auch diese Proposition beibehalten, denn man müsse in der Sprachenfrage, welche fortwährend in den Eingaben der nach Gleichberechtigung strebenden Nationalitäten den Hauptbeschwerdegrund bildet, doch etwas tun, und da sei es doch unstreitig besser, wenn die Regierung selbst von vornehinein diesfalls die Zügel in die Hand nimmt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> wären auch dafür, daß die Regierung in der Sache die Initiative ergreife. Dieser Punkt beziehe sich eigentlich nur auf den öffentlichen und ämtlichen Verkehr <pb n="382" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s382.pdf"/>im allgemeinen; bezüglich des inneren dienstlichen Verkehres könne in der betreffenden Regierungsvorlage die geeignete Vorsorge getroffen werden. Übrigens könnte hier, wie Ritter v. Lasser meinte, um in nichts vorzugreifen, gesagt werden, „der Gebrauch der drei landesüblichen Sprachen im Verkehre mit den öffentlichen Ämtern“. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> war der Meinung, daß diese Proposition nicht so umfassend zu halten, sondern die Stilisierung derart zu geben wäre, daß damit nur das in Aussicht gestellt wird, was man eigentlich beabsichtigt. Nachdem <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> erklärte, zwar nicht gegen eine Modifikation dieser Post zu sein, jedoch immer aber auf eine solche Fassung dringen zu müssen, welche das Verhältnis der Gleichberechtigung der drei landesüblichen Sprachen kundgibt, und nachdem <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> vor einer zu genauen Präzisierung dieses Punktes warnte, indem dadurch die Grundlinien des künftigen Gesetzentwurfes schon jetzt preisgegeben sein würden, brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> in Vorschlag, den fraglichen Punkt dahin abzuändern, daß das Wörtchen „und“ zwischen den Worten „öffentlichen“ „ämtlichen“ weggelassen werde, weil dadurch der Unterschied aufhört und gleichsam der innere ämtliche Verkehr ausgeschlossen bleibe, welchem Vorschlag sofort die Majorität der Konferenz beitrat<note type="footnote" n="8">Im <ref type="protocol-link" target="MRP-1-5-05-0-18630421-P-0343.xml">MR. v. <date when="1863-04-21"/>21. 4. 1863</ref> ließ sich der Kaiser Erläuterungen zum Reskript geben und unterfertigte es noch am selben Tag in der Fassung des Staats- bzw. des Ministerrates, vgl. Nr. 341 b; Publikation gemeinsam mit der provisorischen Landtagsordnung <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18630509">Wiener Zeitung</ref>
+                           </title> v. <date when="1863-05-09">9. 5. 1863</date>
+                        </bibl>; <bibl type="secondary">
+                           <title>Sammlung der wichtigeren Staatsacten</title> 3, 82 f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_341_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bestimmung des Ortes, wohin der siebenbürgische Landtag einzuberufen ist</head>
+                  <p>Anknüpfend an diesen Gegenstand referierte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> in betreff des Ortes, wohin der bevorstehende siebenbürgische Landtag einzuberufen sei<note type="footnote" n="9">Vortrag v. <date when="1863-04-14">14. 4. 1863</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1228/1863</bibl>; <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 256/1863 (K.) und Allgemein 1969/1863 (RS.)</bibl>.</note>. Für den im Jahre 1861 abzuhalten beabsichtigten Landtag wurde Karlsburg Ah. bestimmt, aber schon damals habe der gewesene Gubernialpräsident Graf Mikó die Unmöglichkeit eines Landtages in Karlsburg wegen Mangel der benötigten Unterkünfte dargestellt<note type="footnote" n="10">Im Jahre 1861 war Karlsburg als Kompromiß anstelle von Klausenburg bzw. Hermannstadt, die beide aus politischen Gründen abgelehnt wurden, bestimmt worden, vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610909-P-0121.xml#top_5_2_121_1">MR. v. <date when="1861-09-09">9. 9. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z121" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z121.pdf" target="MRP-1-5-02-0-18610909-P-0121.xml">ÖMR. V/2, Nr. 121</ref>
+                        </bibl>.</note>. Referent habe nun den gegenwärtigen Gouverneur FML. Grafen Crenneville zur Abgabe seiner Wohlmeinung in dieser Sache aufgefordert, und derselbe erklärte nach persönlich vorgenommenen Erhebungen, daß der Landtag in Karlsburg nicht leicht möglich ist und spricht sich im Einvernehmen mit den beiden Vizepräsidenten für Hermannstadt aus. Nachdem sich nicht verkennen lasse, daß diesbezüglich die Anschauungen des Landeschefs, welcher bei seiner gegenwärtigen Anwesenheit hier seinen Vorschlag erneuerte, von entscheidender Bedeutung seien, so glaube die Hofkanzlei nur der Meinung des Gouverneurs beistimmen und auf die Abhaltung des Landtages zu Hermannstadt einraten zu sollen.</p>
+                  <p>Hierwegen ergab sich der Konferenz keine Erinnerung<note type="footnote" n="11">Der Landtag wurde nach Hermannstadt einberufen, vgl. das Reskript.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_341_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Ernennung des FML. Grafen Ludwig Crenneville zum bevollmächtigten Landtagskommissär für den siebenbürgischen Landtag</head>
+                  <p>Der Minister Graf Nádasdy erbat sich die Zustimmung der Konferenz zu dem beabsichtigten au. Vorschlage wegen Ernennung des FML. Grafen Crenneville zum königlich bevollmächtigten Landtagskommissär für den siebenbürgischen Landtag.</p>
+                  <p>
+                     <pb n="383" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s383.pdf"/>Nicht allein die Fähigkeiten des Grafen Crenneville für diesen Posten, sondern auch seine Stellung insbesondere bestimmen den Referenten zu diesem Vorschlage, denn durch seine Ernennung zum königlich bevollmächtigten Landtagskommissär wird Graf Crenneville aus der Situation gezogen, auf der Regierungsbank als Präsident des Guberniums zu sitzen. Er werde eigentlich der Vertreter Se. Majestät sein und beiläufig dieselbe Funktion haben, wie einstens der durchlauchtigste Herr Erzherzog Ferdinand d’Este<note type="footnote" n="12">Erzherzog Ferdinand d’Este (1781–1850) war als Gubernialpräses zum kgl. Kommissär auf dem Landtag von 1837 ernannt worden, <bibl type="secondary">
+                           <author>Kutschera</author>, Landtag und Gubernium in Siebenbürgen 282 ff.</bibl>
+                     </note>. Auch dürfte sich nicht verkennen lassen, daß durch die Übertragung dieser Mission an den Gubernialpräsidenten jeder mögliche Dualismus beseitigt und die einheitliche Leitung und Beeinflussung des Landtages erzielt werde.</p>
+                  <p>Dem Ministerrat ergab sich hierwegen keine Erinnerung<note type="footnote" n="13">Mit Ah. E. v. <date when="1863-04-21">21. 4. 1863</date> wurde Crenneville ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ.</bibl>
+                        <bibl type="archival">MOL., Siebenbürgische Hofkanzlei Präs. 255/1863 und Präs. 282/1863</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_341_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Zurückziehung des Vortrags wegen Ablegung des Amtseides in Siebenbürgen in den verschiedenen Landessprachen</head>
+                  <p>Minister Graf Nádasdy brachte zur Kenntnis der Konferenz, daß er seinen au. erstatteten, im Ministerrat vom 13. April l. J.<note type="footnote" n="14">Tagesordnungspunkt IV.</note> besprochenen Vortrag wegen Ablegung des Amtseides in Siebenbürgen nach der freien Wahl des zu Beeidenden in jeder der drei landesüblichen Sprachen infolge der diesfälligen Abstimmung der Konferenz, nach welcher er in der Minorität verblieben ist, nunmehr zurückgezogen habe.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1863-04-16">16. April 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1863-04-28">28. April 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-04-29">29. April 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         <div type="appendix">
+                    <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-05-0-00000000-P-0341a.xml">Beilage: MRP-1-5-05-0-00000000-P-0341a.xml</tei:ref>
+                    </ab>
+                </div>
+                <div type="appendix">
+                    <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-05-0-00000000-P-0341b.xml">Beilage: MRP-1-5-05-0-00000000-P-0341b.xml</tei:ref>
+                    </ab>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

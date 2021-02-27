@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="498">Sitzung 498</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-10-13"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z498.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1302</idno>
+                  <idno type="KZ">3226</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-10-13"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 17. 10.), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Burger, Hein, Zichy 26. 10., Geringer 27. 10., Kalchberg; außerdem anw. Reichenstein (nur bei I), Hock (bei IV); abw. Rechberg, Esterházy, Lichtenfels; BdR. Erzherzog Rainer 2. 11.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-10-17">1864-10-17</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-10-26">26. 10.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-10-27">27. 10.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei I)</note>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr3463">
+                     <surname>Hock</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei IV)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_498_1">Vertagung des siebenbürgischen Landtags</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_498_2">Reichsratsangelegenheiten: a) Zeitpunkt der Eröffnung; b) Einberufung als Gesamtreichsrat; c) Ernennung der Präsidenten und Vizepräsidenten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_498_3">Organisierung des Dienstes beim Finanzministerium</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_498_4">Organisierung der Finanzwache in Südtirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_498_5">Gesetzentwurf über die Abänderung der Zollordnung; Motivierung von Gesetzentwürfen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_8_498_6">Erläuterungen zum Staatsvoranschlag für 1865; Bezugnahme auf die „Wünsche“ des Reichsrates</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_8_498_7">Entwurf einer neuen Advokatenordnung für Ungarn</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18641013-P-0498" ana="a5-b8-z498">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z498.pdf">
+               <title type="num">Nr. 498</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-10-13">13. Oktober 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 17. 10.), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Burger, Hein, Zichy 26. 10., Geringer 27. 10., Kalchberg; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Reichenstein (nur bei I), Hock (bei IV); <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Rechberg, Esterházy, Lichtenfels; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 2. 11.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1302</idno>
+                  <idno type="KZ">3226</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-10-13">13. Oktober 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_8_498_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Vertagung des siebenbürgischen Landtags</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Hofvizekanzler Baron Reichenstein</rs>
+                     </hi> referierte über den Antrag der siebenbürgischen Hofkanzlei, daß der siebenbürgische Landtag wegen der bevorstehenden Einberufung des Reichsrates am 29. Oktober d. J. Allerhöchstenortes vertagt werden wolle<note type="footnote" n="1">Zu der seit <date when="1864-05-23">23. 5. 1864</date> tagenden zweiten Session des Hermannstädter Landtags siehe Einleitung XVIII f. <quote>Den Vertagungsantrag hatte die Hofkanzlei mit Vortrag v. 12.</quote> 10. 1864, Präs. 1177/1864, gestellt.</note>. Wenn Ah. Se. Majestät das diesfällige königliche Reskript in Bälde herabgelangen zu lassen geruhen, würde man sich beeilen, den Landtag davon in Kenntnis zu setzen, damit derselbe die demselben vorliegenden Angelegenheiten noch vor der Vertagung erledige.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> erklärte sich mit diesem Antrage vollkommen einverstanden, und von anderer Seite wurde gegen denselben keine Erinnerung erhoben<note type="footnote" n="2">Der Landtag wurde mit Ah. E. v. <date when="1864-10-14">14. 10. 1864</date>
+                        <quote>für die Dauer der bevorstehenden Session des Reichsrates</quote> vertagt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3042/1864</bibl>; er trat nicht mehr zusammen.</note>, <ref xml:id="fn_5_8_498_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_498_a">Randvermerk Ransonnets: <quote>Nach Erledigung des Punktes I verließ Baron Reichenstein den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Reichsratsangelegenheiten: a) Zeitpunkt der Eröffnung; b) Einberufung als Gesamtreichsrat; c) Ernennung der Präsidenten und Vizepräsidenten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte im Nachhange zu den am 10. d. M. gepflogenen Beratungen bezüglich der bevorstehenden Reichsratssession<note type="footnote" n="3">
+                        <ref type="protocol-link" target="MRP-1-5-08-0-18641010-P-0497.xml#top_5_8_497_2">MR. v. <date when="1864-10-10">10. 10. 1864</date>/II</ref>.</note>, nach nochmaliger reifer Erwägung sich mit dem Minister Ritter v. Lasser über folgende Anträge geeinigt zu haben:</p>
+                  <p>a) daß der Reichsrat statt auf den 8. erst auf den 12. kommenden Monats Ah. einberufen werde und die feierliche Eröffnung am 14. stattfinde, so daß die eigentlichen Verhandlungen erst am 16. beginnen würden, wobei der Finanzminister noch einige Tage zur Vollendung seiner Vorlagen gewänne, über deren Gegenstände Ritter v. Schmerling einer baldigen Mitteilung für die Redaktion der kaiserlichen Thronrede entgegensehe<note type="footnote" n="4">Zur Thronrede siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641107-P-0509.xml">MR. v. <date when="1864-11-07"/>7. 11. 1864</ref>.</note>.</p>
+                  <p>
+                     <pb n="183" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s183.pdf"/>b) Um den Reichsrat sofort als den allgemeinen zu charakterisieren, wäre im Ah. Einberufungspatente auszusprechen, daß er „zur Beratung der im § 10 des Grundgesetzes bezeichneten Angelegenheiten“ einberufen werde. Dieser Punkt wird in der Thronrede noch klarer zu beleuchten und am Schluß derselben die nahe Einberufung des „engeren Reichsrates“ in Aussicht zu stellen sein.</p>
+                  <p>c) Zu Präsidenten der beiden Häuser dürften Fürst Karl Auersperg und Ritter v. Hasner, zu Vizepräsidenten Graf Kuefstein, Baron [sic!] Hopfen und Conrad Schmidt Ag. ernannt werden.</p>
+                  <p>Der Ministerrat war mit den au. Anträgen a, b und c einverstanden<note type="footnote" n="5">Der Reichsrat wurde mit Patent v. 19. 10. auf den <date when="1864-11-12">12. 11. 1864</date> einberufen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3087/1864</bibl>; <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18641022">Wiener Zeitung</ref>
+                           </title> v. <date when="1864-10-22">22. 10. 1864</date>;</bibl> die Session dauerte, und zwar als Gesamtreichsrat, bis zum <date when="1865-07-27">27. 7. 1865</date>; an diesem Tag wurde auch die Regierung Schmerling entlassen; zu einer Einberufung des engeren Reichsrates für die eisleithanischen Kronländer ist es nicht gekommen, am <date when="1865-09-20">20. 9. 1865</date> wurde das Grundgesetz über die Reichsvertretung sistiert. Mit Ah. E. v. <date when="1864-10-19">19. 10. 1864</date> wurde Fürst Karl Wilhelm Auersperg zum Präsidenten des Herrenhauses, Franz Graf v. Kuefstein zum Vizepräsidenten des Herrenhauses, Leopold Ritter v. Hasner zum Präsidenten des Abgeordnetenhauses, Franz Ritter v. Hopfen und Conrad Schmidt zu Vizepräsidenten des Abgeordnetenhauses ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3088/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Organisierung des Dienstes beim Finanzministerium</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> referierte über den Vortrag des Finanzministers vom <date when="1864-09-05">5. September 1864</date> in betreff der Organisierung des Dienstes beim Finanzministerium und beleuchtete die nachfolgenden divergierenden Anträge, welche sich bei der staatsrätlichen Beratung des Gegenstandes ergeben haben<note type="footnote" n="6">Vortrag Pleners <bibl type="archival">FA., FM., Präs. 4438/1864</bibl> (K.) und <quote>Präs. 5454/1864</quote> (RS.); Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 804/1864</bibl>.</note>.</p>
+                  <p>1. Der Staatsrat glaubte, daß die dermalige Organisierung in der Ah. Entschließung noch nicht als eine „definitive“ zu bezeichnen wäre, da einerseits nichts vorliegt, woraus auf das den einzelnen Departements zugemutete Arbeitsquantum geschlossen werden könnte, andererseits die Annahme, daß Reduzierungen würden möglich werden, nach den Andeutungen des Finanzministers selbst (Vortrag <date when="1863-02-14">14. 2. 1863</date>)<note type="footnote" n="7">
+                        <bibl type="archival">FA., FM., Präs. 668/1863</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 575/1863</bibl>.</note> nicht ausgeschlossen werden kann. Ist ja der Status der Ministerien überhaupt erfahrungsgemäß sehr wandelbar. Auch dürfte sich aus der Erweiterung des Wirkungskreises der Unterbehörden seinerzeit eine Verminderung der Agenden und somit des Personals im Zentrum der Finanzen ergeben.</p>
+                  <p>2. Während im Resolutionsentwurfe des Finanzministers die Zahl der Gremialräte speziell mit 17 Ministerial- und 15 Sektionsräten bezeichnet wird, scheine es im Interesse des Dienstes gelegen, dort bloß die Gesamtziffer von 32 Gremialräten Ah. auszusprechen, um dem Finanzminister bei der Wahl der für die verschiedenen Geschäftsabteilungen einzuberufenden Männer möglichst freie Hand zu lassen und zugleich den sonstigen Übelständen zu begegnen, welche erfahrungsgemäß die übermäßige Vermehrung der Sektionsräte gegenüber den Ministerialräten für den Staatsdienst und das Ansehen der Zentralstellen mit sich gebracht hat.</p>
+                  <p>3. Dem Staatsrat erschien der Antrag wegen Umwandlung der für das unbewegliche Staatseigentum gebildeten Sektion in eine Generaldirektion mit den daran sich knüpfenden <pb n="184" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s184.pdf"/>Anträgen wegen besonderer Ermächtigungen für zwei Ministerialräte des Forst- und Montanfaches zur Ah. Genehmigung nicht geeignet. Es wurde bereits wiederholt und selbst Allerhöchstenortes erkannt, daß vor den Generaldirektionen mit ihrer Zwitterstellung jene Einrichtung den Vorzug verdiene, wo das der Verwaltung angehörige Detail den zur Verwaltung bestellten Unterbehörden zugewiesen und der zur obersten Leitung gehörige Teil in einer Sektion besorgt wird, in der die eigentlichen Techniker lediglich die Rolle eines Beirats (ohne selbständige administrative Attribute) übernehmen. Es schien dem Staatsrate eine Art Widerspruch darin zu liegen, daß der Finanzminister hier in demselben Vortrage, der den Antrag auf Aufhebung der zu Bereisungen bestimmten „drei Finanzwachzentralinspektoren“ enthält, für die Sektion des unbeweglichen Staatseigentums die Systemisierung von zwei Techniker beantragt, welche nach Stellung, Wirkungkreis und Beschäftigung auf Bereisungen mit jenen Finanzwachzentralinspektoren so viel Analogie haben, daß man sie füglich „Zentralinspektoren des Forst- und Montanwesens“ betiteln könnte. Zudem seien diese zwei Techniker noch nicht ihren vielerlei Aufgaben gewachsen, und es würde konsequent auch nachträglich ein eigener Rat für das ganz spezielle und wichtige Salinenfach systemisiert werden müssen! Die den beiden Technikern zugedachte Befugnis zu umfassenden selbständigen Verfügungen sei endlich zu weitgehend und mit dem bestehenden Sytem nicht vereinbarlich.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> sieht nicht ab, warum der von ihm au. beantragte Status des Finanzministeriums nicht, gleich dem anderer Ministerien, Allerhöchstenortes als definitiv bezeichnet werden könnte. Der Ausdruck „definitiv“ soll nur sagen, daß das bisherige Provisorium ein Ende hat, ohne daß damit die Unabänderlichkeit für immer proklamiert werde! Indessen nimmt der Minister doch keinen Anstand, daß dieser Ausdruck in der Ah. Resolution wegbleibe. Ebensowenig fände er zu 2. etwas dagegen zu erinnern, daß die Gesamtzahl der Gremialräte mit einer Ziffer, ohne Unterteilung in Ministerial- und Sektionsräte ausgesprochen werde. Dagegen müsse der Finanzminister gegen die oben unter 3. angeführten ablehnenden staatsrätlichen Anträge sich auf das Entschiedenste erklären. Die bisher gemachten Erfahrungen und die sorgfältigsten Erwägungen über den zweckmäßigsten Modus der Verwaltung des unbeweglichen Staatseigentumes haben ihn nämlich überzeugt, daß die beantragte Einrichtung der Zentraldirektion für das Interesse des öffentlichen Dienstes im Domänen- und Montanfach von großem Nutzen sein wird. Das Prinzip dieser Einrichtung ist auch von beiden Häusern des Reichsrates lebhaft bevorwortet worden<note type="footnote" n="8">Bereits anläßlich des Budgets für 1862 hatte das Abgeordnetenhaus die Aufforderung an die Regierung beschlossen, sie wolle <quote>eine besondere, möglichst selbständige Staatsgüteradministration ins Leben rufen,</quote>
+                        <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1861/62, 3729 (151. Sitzung/<date when="1862-07-26">26. 7. 1862</date>)</bibl>; ganz ähnlich das Herrenhaus, <quote>ebd., HH. 1861/62, 1070 f. (74. Sitzung/<date when="1862-08-09">9. 8. 1862</date>).</quote>
+                     </note>, und die entgegengesetzte Ansicht, daß Techniker zu Administration nicht geeignet sind, läßt sich nicht standhältig rechtfertigen. Man weiß, wie oft die zweckmäßigsten Vorschläge der Fachmänner an dem mindererleuchteten Willen des bezüglichen <ref xml:id="fn_5_8_498_b">administrativen Chefs</ref>
+                     <note type="variant" n="b" target="#fn_5_8_498_b">Korrektur b–b Pleners aus <quote>Referenten.</quote>
+                     </note> scheiterten, und der geringe Ertrag mancher Zweige findet darin seine Erklärung. Übrigens verbürgt die Wahl des Generaldirektors aus der eigentlichen Beamtenwelt <pb n="185" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s185.pdf"/>dafür, daß der finanzielle und administrative Gesichtspunkt bei der Geschäftsführung gehörig gewahrt werden wird, <ref xml:id="fn_5_8_498_c">sowie dafür, daß die nicht selten kollidierenden Interessen der einzelnen verschiedenen Zweige des Staatseigentums vereinigt werden</ref>
+                     <note type="variant" n="c" target="#fn_5_8_498_c">Einfügung c–c Pleners.</note>. In bezug auf die dem Forst- und Montanreferenten zugedachten Attribute, gegen die sich der Staatsrat erklärt, müsse der Minister erinnern, daß ihm nach seinem Wirkungskreise das Recht zur Exmittierung von Beamten seines Ressorts und die Befugnis zustehe, dem einen oder anderen eine größere Befugnis zur Erteilung des Expediatur zu geben. Eine Parifizierung dieser zwei Referenten mit den Zentralinspektoren der Finanzwache in Absicht auf Stellung und Aufgabe könne nicht zugegeben werden. Die letzteren seien allerdings ein Institut, über dessen Unzweckmäßigkeit so ziemlich jedermann im Reinen ist und dessen Aufhebung völlig gerechtfertigt erscheint. <ref xml:id="fn_5_8_498_d">Der Zentralinspektor hätte in allen Fächern des Finanzdienstes wirken sollen, wozu kein Individuum die volle Kenntnis besitze. Der künftig auszusendende Funktionär wird einem bestimmten von ihm vollkommen gekonnten Fache angehören und in diesem Fache gut wirken können</ref>
+                     <note type="variant" n="d" target="#fn_5_8_498_d">Einfügung d–d Pleners.</note>. Der Finanzminister sei überzeugt, daß die fraglichen au. beantragten Neuerungen in beiden Häusern des Reichsrates sehr gut werden aufgenommen werden, da selbe einem einstimmigen Wunsche derselben<ref xml:id="fn_5_8_498_e"/>
+                     <note type="variant" n="e" target="#fn_5_8_498_e">Korrektur Pleners aus <quote>der Reichsräte.</quote>
+                     </note> entsprechen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> äußerte, daß er sich den Anträgen des Finanzministers aus dem Grund anschließe, weil vorauszusehen ist, daß ein jeder am besten beurteilen könne, was in seinem eigenen Hause not tut, und es mißlich sei, jemand für die Wirksamkeit eines Organismus verantwortlich zu machen, den er für unzweckmäßig hält und daher beseitigen will. Übrigens hege Votant die persönliche Meinung, daß die Errichtung der Generaldirektion für das unbewegliche Staatseigentum ihm als ein Experiment erscheine, von dem sich erst zeigen muß, ob es besser gelingt als die Generaldirektionen des Montanistikum, der Posten, des Bauwesens und der Gefängnisse.</p>
+                  <p>Die übrigen Stimmführer traten gleichfalls dem Finanzminister bezüglich der Anträge ad 3. bei, zumal die bestehenden Differenzen zu 1. und 2. behoben wurden und somit keinen Gegenstand einer Diskussion bildeten<note type="footnote" n="9">Mit Ah. E. v. <date when="1864-10-27">27. 10. 1864</date> genehmigte der Kaiser die Anträge des Finanzministers mit den zwei vom Staatsrat vorgeschlagenen Änderungen. Die Generaldirektion für das (unbewegliche) Staatseigentum mit einem Generaldirektor im Rang eines Sektionschefs wurde gebilligt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3213/1864</bibl>; bereits nach einem Jahr wurde die Generaldirektion im Zuge einer Reform der Geschäftseinteilung wieder aufgehoben, <bibl type="archival">FA., FM., Präs. 3772/1865</bibl>; Fortsetzung <ref type="protocol-link" target="MRP-1-6-02-0-18660426-P-0068.xml#top_6_2_68_2">MR. v. <date when="1866-04-26">26. 4. 1866</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a6-b2-z68" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a6-b2/pdf/a6-b2-z68.pdf" target="MRP-1-6-02-0-18660426-P-0068.xml">ÖMR. VI/2, Nr. 68</ref>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Organisierung der Finanzwache in Südtirol</head>
+                  <p>
+                     <ref xml:id="fn_5_8_498_f"/>
+                     <note type="variant" n="f" target="#fn_5_8_498_f">Randvermerk Ransonnets: <quote>Der Beratung über Punkt IV wurde der Sektionschef Baron Hock beigezogen.</quote>
+                     </note> Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über die mit seinem Vortrage vom 27. Julius 1864 zur Ah. Kenntnis gebrachte neue Organisierung der Finanzwache in Südtirol, über welche Organisierung sich Differenzen mit dem Staatsrate ergeben haben<note type="footnote" n="10">Vortrag des Finanzministers <bibl type="archival">FA., FM., II. Abt. (Bankale) Nr. 1424/1864</bibl> (K, mit separatem Beilagenkonvolut) und <quote>Nr. 52587/1864</quote> (RS.), <quote>Faszikulatur 1.5;</quote> Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 687/1864</bibl>.</note>.</p>
+                  <p>
+                     <pb n="186" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s186.pdf"/>Während nämlich der Finanzminister glaubt, daß Se. Majestät diese im Sinn der Ah. Entschließung vom <date when="1860-04-08">8. April 1860</date>
+                     <note type="footnote" n="11">
+                        <quote>Ebd., Kab. Kanzlei, KZ. 339/1860,</quote> auf einen Vortrag des Finanzministers betreffend Änderungen in der Organisation der Finanzverwaltung u. a. an den Grenzen des Reiches.</note> und <date when="1863-10-14">14. Oktober 1863</date>
+                     <note type="footnote" n="12">
+                        <quote>Ebd., KZ. 3275/1863</quote> auf einen Vortrag des Finanzministers betreffend Änderung der Organisation der Finanzverwaltung in sieben Kronländern.</note> beschlossenen und bereits öffentlich kundgemachten Einrichtungen<note type="footnote" n="13">Erlaß des Finanzministeriums v. <date when="1864-07-27">27. 7. 1864</date> über die Einführung besonderer Einrichtungen in bezug auf den indirekten Steuer- und Finanzwachdienst in Südtirol, <bibl type="archival">RGBL. Nr. 64/1864</bibl>; mit Erlaß des Finanzministeriums v. <date when="1864-09-24">24. 9. 1864</date> war der Beginn der Wirksamkeit mit <date when="1864-10-31">31. 10. 1864</date> festgesetzt worden, <bibl type="archival">RGBL. Nr. 78/1864</bibl>.</note> zur Ah. Kenntnis zu nehmen geruhen dürften, hat der Staatsrat den nachfolgenden Resolutionsentwurf beantragt: „Die hier zu Meiner Kenntnis gebrachten Vorkehrungen rücksichtlich der Organisierung der Finanzwache in Südtirol gehen über dasjenige hinaus, was Ich mit Meinen Entschließungen vom <date when="1858-05-02">2. Mai 1858</date>
+                     <note type="footnote" n="14">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3359/1857,</bibl> auf einen Vortrag des Finanzministers betreffend die Organisation der Finanzverwaltung an der Grenze zum Deutschen Zollverein; dazu Kundmachung des Finanzministers v. <date when="1858-10-30">30. 10. 1858</date>, <bibl type="archival">RGBL. Nr. 195/1858</bibl>.</note> und <date when="1860-04-08">8. April 1860</date> anzuordnen fand; und in Meiner Entschließung vom <date when="1863-10-14">14. Oktober 1863</date> wurden keine Normen aufgestellt, deren Anwendung auf andere als die dort genannten Kronländer ohne vorläufige Einholung Meiner Genehmigung zulässig wäre. Ihre Erklärung, daß im Trienter Bezirke die Organisierung des eigentlichen Grenzbezirkes allein ohne unverhältnismäßige Kosten nicht durchführbar sei, läßt die Ansicht zu, daß sich eben jenes Gebiet zur Anwendung der an der Grenze gegen den Zollverein bestehenden Einrichtungen nicht eigne, und ihre weitere Erklärung, daß es in hohem Grade wünschenswert erscheine, in einem und demselben Finanzbezirke nur eine nach gleichen Grundsätzen organisierte Wache bestehen zu lassen, führt zu dem Zweifel, ob sich nicht im Laufe der Zeit das jenen Einrichtungen an der Zollvereinsgrenze zum Grund liegende Prinzip als minderentsprechend herausgestellt hat. Unter diesen Umständen finde Ich den in diesem Vortrage entwickelten Vorkehrungen Meine Genehmigung nicht zu erteilen, dieselben sind daher nicht durchzuführen. Auch ist an anderen Punkten der Reichsgrenze vorläufig mit der Einführung der an der Grenze gegen den Zollverein bestehenden Einrichtungen nicht weiter vorzugehen, sondern es ist unter sorgfältiger Erwägung jener Umstände, durch welche Sie zu obigen Erklärungen veranlaßt wurden, nunmehr die Frage wegen der Einrichtungen an der Reichsgrenze mit der noch immer schwebenden Verhandlung wegen der Reorganisierung der Finanzwache überhaupt in Verbindung zu bringen und nach Vernehmung der Finanzlandesbehörden einer reiflichen Erwägung und Beratung zu unterziehen, deren Ergebnis mir zur Entscheidung zu unterbreiten sein wird.“</p>
+                  <p>Der Finanzminister erörterte zuerst die vom Staatsrate negativ beantwortete Frage, ob sein Vorgang durch die Ah. Entschließungen vom <date when="1860-04-08">8. April 1860</date> und <date when="1863-10-14">14. Oktober 1863</date> gerechtfertigt sei, und zeigte, daß die von ihm vorgenommene Organisierung der Finanzwache in Südtirol ein Korollar der Ah. Entschließung vom 8. April gewesen sei. Man könne höchstens sagen, es sei darin zu weit gegangen worden, daß den zwei Finanzinspektoren auch die Zweige des Gefällsdienstes im Innern – Verzehrungssteuer, Mauten, Tabakbau und -verschleiß, Karten- und Ankündigungsstempel – teils zur Leitung, teils zur Überwachung <pb n="187" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s187.pdf"/>zugewiesen wurden, eine Zuweisung, für die übrigens das Präzedenz <ref xml:id="fn_5_8_498_g">der über die Einrichtung des Finanzdienstes in den kleineren Kronländern erflossenen Ah. Entschließung vom <date when="1863-10-14">14. Oktober 1863</date>
+                     </ref>
+                     <note type="variant" n="g" target="#fn_5_8_498_g">Korrektur g–g Pleners aus <quote>bei den Finanzkommissären.</quote>
+                     </note>der über die Einrichtung des Finanzdienstes in den kleineren Kronländern erflossenen Ah. Entschließung vom <date when="1863-10-14">14. Oktober 1863</date> spricht. Auf die weitere Frage übergehend, ob es durch die Opportunität geboten sei, diese bereits publizierte, aber noch nicht ins Leben getretene Einrichtung zurückzunehmen, äußerte der Minister, daß zu einer solchen Zurücknahme gar kein Opportunitätsgrund vorhanden sei, indem die fragliche Einrichtung sich bereits an der Grenze des deutschen Zollvereins als sehr nützlich bewährt hat, die politischen Behörden sowohl als die vernommenen Vertrauensmänner einstimmig im Lob derselben sind und Sektionschef Baron Hock sich an Ort und Stelle von dem erzielten Erfolge bei seinen Bereisungen überzeugt hat. Wenigere [sic], aber besser bezahlte, besser vorgebildete und überwachte Organe leisten hier viel mehr. Die Überwachung durch die Finanzbezirksdirektion, welche fast nur schreibend tätig ist, kann nicht das leisten, was der Inspektor in unmittelbarer Nähe und bei Bereisungen bewirkt. Dem letzteren werden auch in Südtirol keine besonders schwierigen technischen Aufgaben zugemutet, indem es dort keine großen Fabriksetablissements für Rübenzucker, Branntwein, <ref xml:id="fn_5_8_498_h">sondern lediglich Tabakpflanzungen als Objekte der inneren Überwachung</ref>
+                     <note type="variant" n="h" target="#fn_5_8_498_h">Einfügung h–h Pleners statt <quote>etc.</quote>
+                     </note> gibt. Der Finanzbezirksdirektion bleibt im Kassen- und Gebührenbemessungswesen und in den Strafsachen immerhin noch ein angemessener Wirkungskreis, und es wird die Gelegenheit zur Realisierung einer möglichen Personalverminderung gewiß nicht versäumt werden. Der Finanzminister glaube daher, seinen au. Antrag noch festhalten zu sollen, daß Ah. Se. Majestät die Organisierung Ag. zur Nachricht zu nehmen geruhen. Allein in Anbetracht einiger, vom Staatsrate gemachter, beachtenswerter Andeutungen über die Tragweite der berufenen Ah. Entschließungen beantrage er selbst, daß dem vorgelegten Ah. Resolutionsentwurfe noch beiläufig folgender Satz beigefügt werde: „In Zukunft haben Sie jedoch die von Ihnen beabsichtigte Ausdehnung der an der Grenze gegen den deutschen Zollverein bestehenden Einrichtungen der Finanzwache auf das innere Gebiet vorläufig Meiner Genehmigung zu unterziehen.“</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> äußerte, er glaube namens des Staatsrates sich mit dem dergestalt ergänzten Entwurfe der Ah. Resolution einverstanden erklären zu dürfen. Die bereits kundgemachte neue Einrichtung für Südtirol werde somit ins Leben treten, allein deren weiteren Ausdehnung ohne Ah. Genehmigung würde nicht platzgreifen. Der Streit über die Vorzüge des alten und des neuen Finanzwachsystemes ist eben noch nicht entschieden, und Se. k. k. apost. Majestät gewärtigen noch nähere Aufschlüsse über die Erfolge und den Kostenpunkt. Die zu machenden Erfahrungen dürften diesfalls den Ausschlag geben.</p>
+                  <p>Nachdem die bestandene Differenz in den Anträgen des Ministers und des Staatsrates auf diese Weise behoben erscheint, fand der Ministerrat über diesen Gegenstand nichts zu erinnern<note type="footnote" n="15">Mit Ah. E. v. <date when="1864-10-21">21. 10. 1864</date> nahm der Kaiser die Anzeige über die Organisierung der Finanzwache in Südtirol genehmigend zur Kenntnis. Der zweite Satz der Ah. Entschließung lautete genau so, wie ihn Plener im Ministerrat beantragt hatte: <quote>In Zukunft haben Sie jedoch …,</quote>
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3148/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Gesetzentwurf über die Abänderung der Zollordnung; Motivierung von Gesetzentwürfen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über seinen Antrag wegen Aufhebung des § 262 der Zoll- und Staatsmonopolsordnung<note type="footnote" n="16">Zoll- und Staatsmonopolsordnung von 1835, eingeführt mit kaiserlichem Patent v. <date when="1835-07-11">11. 7. 1835</date>, <bibl type="archival">PGV. Bd. 63, Nr. 113/1835</bibl>.</note>, dann des § 28 der Verordnung vom <date when="1853-06-07">7. Juni 1853</date>
+                     <note type="footnote" n="17">
+                        <bibl type="archival">RGBL. Nr. 104/1853</bibl>.</note>, wonach Webe- und Wirkwaren in der Menge von mehr als einem Zentner, dann jene Waren, welche mit einem 50 fl. vom Zollzentner erreichenden oder überschreitenden Eingangszolle belegt sind, wenn sie in einer Menge von mehr als 25 Pfund vorkommen, beim Eingange in einem mit Steuerlinien geschlossenem Ort an den Linienämtern anzugeben und zu dem im Orte bestehenden Zollamte zu stellen sind<note type="footnote" n="18">Vortrag v. <date when="1864-09-20">20. 9. 1864</date>, <bibl type="archival">FA., FM., II. Abt. (Bankale), Nr. 19483/1863 (K.) und Nr. 52586/1864 (RS.), Faszikulatur 3.1.</bibl>
+                     </note>.</p>
+                  <p>Das Motiv der beantragten Aufhebung liegt im wesentlichen darin, daß durch die seit dem Erscheinen der Zoll- und Staatsmonopolsordnung von 1835 eingetretenen Herabsetzungen der hohen Eingangszölle die Notwendigkeit einer strengeren Kontrolle der Warenbewegung im Inlande aufgehört hat, ferner, daß nur mehr die Stadt Wien die einzige geschlossene Stadt ist, bei welcher die Einhebung der Verzehrungssteuer in eigener Regie stattfindet, also die Handhabung des § 262 noch möglich ist. Das Handelsministerium war in merito mit diesem Antrage einverstanden, ebenso auch der Staatsrat<note type="footnote" n="19">Vermerk des Handelsministeriums auf dem Akt Nr. 19483/1863; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 846/1864</bibl>.</note>, und der letztere hat nur gegen die vom Referenten beabsichtigte Mitteilung der Beweggründe der Regierungsvorlage an den Reichsrat zugleich mit der Vorlage selbst aus der Ursache Einwendung erhoben, weil, nach einem Ministerratsbeschlusse, die Beweggründe von Gesetzentwürfen nicht dem Reichsrate vorzulegen sind, sondern hievon nur zur Aufklärung bei den Beratungen Gebrauch gemacht werden soll<note type="footnote" n="20">Siehe dazu den Randvermerk des Protokollführers, unten Anm. i; die Reinschrift der Begründung des Gesetzentwurfs liegt beim Akt Nr. 52586/1864.</note>. Ferner wurde bemerkt, daß unter allen Umständen aus der Begründung der Schluß wegzulassen wäre, welcher das Geständnis respektive die Selbstanklage enthält, daß das Finanzministerium durch die Verpachtung der Verzehrungssteuer in den geschlossenen Städten (mit Ausnahme Wiens)<note type="footnote" n="21">In Wien und übrigens auch in Triest wurde die Verzehrungssteuer entlang der sogenannten Linie durch die Linienämter und die Finanzwache eingehoben; in den übrigen <quote>geschlossenen Städten</quote> war die Einhebung an die Gemeinden verpachtet, <bibl type="secondary">
+                           <author>Mischler–Ulbrich</author>, Staatswörterbuch 2, 35.</bibl>
+                     </note> die Befolgung des § 262 faktisch vereitelt hat, und dann noch auf eine eventuelle weitere Herabsetzung der Eingangszölle im Wege der Gesetzgebung hinweist. Die wesentliche Frage ist hiebei, ob die Mitteilung von Beweggründen bei Vorlage eines Gesetzentwurfes im allgemeinen zu unterbleiben habe, wie mit Berufung auf einen Ministerratsbeschluß behauptet wird. Der Finanzminister wisse sich an keinen solchen generellen Beschluß zu erinnern, sondern nur auf spezielle Beschlüsse von Weglassung gewisser Motive bei Vorlage des Staatsvoranschlages und des Rechnungsabschlusses. Wenngleich der Minister im vorliegenden Falle keinen Anstand nimmt, auf die sofortige Motivierung des Gesetzvorschlages zu verzichten und selbe auf die Debatten im Ausschuß und in den Häusern des Reichsrates zu verschieben, so müsse er sich doch gegen die Aufstellung dieses Grundsatzes als allgemeingültig <pb n="189" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s189.pdf"/>verwahren. Denn es gibt manche wichtige und große Vorlagen, z. B. das Steuergesetz, welche einer Motivierung gleich bei ihrer Einbringung nicht entbehren können, ja ohne dieselbe nicht einmal verständlich wären. Hiernach wäre der zweite Satz des staatsrätlichen Resolutionsentwurfes wegzulassen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> wüßte sich gleichfalls keines solchen generellen Beschlusses zu entsinnen und würde im konkreten Falle die Beigebung der Begründung selbst, der Deutlichkeit wegen, für wünschenswert halten. Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> ist die Fassung eines absoluten negativen Ministerratsbeschlusses über die Motivierungen nicht bekannt, wohl aber sei es angezeigt, von Fall zu Fall die Frage der Beigebung von Beweggründen in Überlegung zu nehmen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> erinnert, daß man anfänglich die Gesetzentwürfe den Häusern stets mit eingehender Motivierung vorgelegt, sich aber bald überzeugt habe, daß man dadurch in die nachteilige Lage kommt, sein ganzes Pulver schon vor der Debatte verschossen zu haben. Wenn daher ein Ministerratsbeschluß in dieser Richtung noch nicht besteht, so würde Votant dafür stimmen, daß man heute beschließe, die Beigebung von Motiven bei Überreichung einer Gesetzvorlage habe in der Regel nicht stattzufinden.<ref xml:id="fn_5_8_498_i"/>
+                     <note type="variant" n="i" target="#fn_5_8_498_i">Randvermerk Ransonnets: <quote>Der gehorsamst gefertigte Protokollführer erlaubt sich hier zu bemerken, daß allerdings im hohen Ministerrate am 7. und <date when="1861-05-14">14. Mai 1861</date> Punkt (V und IV) beschlossen worden sei, die Vorlagen in der Regel ohne gedruckte Motivierung zu machen und die Motive mündlich im Ausschusse und in den Häusern anzugeben. Ransonnet;</quote> es handelt sich um die Protokolle <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z64" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z64.pdf" target="MRP-1-5-02-0-18610507-P-0064.xml">ÖMR. V/2, Nr. 64</ref>
+                        </bibl> und <quote>Nr. 66.</quote>
+                     </note>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> vereinigt sich mit der Meinung des Staatsministers und hält in dem heute zur Beratung vorliegenden Fall eine Motivierung für überflüssig. Übrigens wäre es angezeigt, die definitive Abstimmung über das Prinzip auf eine andere Beratung in Gegenwart des Staatsratspräsidenten aufzuschieben. Graf Nádasdy und der Marineminister, der königlich ungarische Hofkanzler und der Leiter des Handelsministeriums traten der Meinung des Staatsministers und des Finanzministers bei. Der Kriegsminister schloß sich, was die allgemeine Frage betrifft, der Meinung des Staatsrates, in bezug auf den konkreten Fall aber dem Antrage des Finanzministers an.</p>
+                  <p>Hiernach ergaben sich folgende Abstimmungsresultate: 1. Der vom Finanzminister vorgeschlagene Gesetzentwurf wird zur Einbringung beim Reichsrate au. beantragt<note type="footnote" n="22">Mit Ah. E. v. 21. 10. wurde der Finanzminister zur Einbringung des Gesetzentwurfs ermächtigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3149/1864</bibl>; das Gesetz wurde am <date when="1865-01-09">9. 1. 1865</date> im Abgeordnetenhaus behandelt und beschlossen, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 233–327 (18. Sitzung)</bibl>; Sanktion <date when="1865-02-25">25. 2. 1865</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 521/1865</bibl>; Publikation <bibl type="archival">RGBL. Nr. 14/1865</bibl>.</note>. 2. Es ist demselben keine Motivierung beizulegen, sondern die Begründung auf die Debatten in den Ausschüssen und in den Häusern des Reichsrates zu verschieben. 3. Der zweite Satz des staatsrätlichen Resolutionsentwurfes ist wegzulassen und bloß der erste Satz der Ah. Genehmigung zu unterziehen. 4. Die Frage, ob eine Vorlage an den Reichsrat gleich bei der Einbringung durch die dafür sprechenden Motive zu unter[stützen] sei oder nicht, ist von Fall zu Fall zu beraten und zu entscheiden. Der Beschluß ad 1. war einstimmig; die Beschlüsse 2., 3. und 4. wurden durch Stimmenmehrheit gefaßt.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Erläuterungen zum Staatsvoranschlag für 1865; Bezugnahme auf die „Wünsche“ des Reichsrates</head>
+                  <p>Die Beratung über den Punkt V. 4. veranlaßte den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> zur Bemerkung, daß es sehr wichtig sei, in den motivierenden Erläuterungen zu den Voranschlägen der einzelnen Ministerien und der übrigen Zentralstellen nach denselben Grundsätzen vorzugehen und dabei das Zuviel sowie das Zuwenig zu vermeiden. Man sollte sich auch darüber einigen, ob und inwiefern bei den Positionen des Voranschlags, welche sich auf die bei Votierung des Finanzgesetzes für 1864 vorgebrachten „Wünsche“ des Reichsrates<note type="footnote" n="23">
+                        <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1863/64, 1613–1622 (Anhang III zur 64. Sitzung/<date when="1863-12-15">15. 12. 1863</date>)</bibl>.</note> gründen, des bezüglichen „Wunsches“ zu erwähnen sei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> glaubte, daß dieser Punkt bereits durch einen über Antrag des Staatsministers gefaßten Ministerratsbeschluß erledigt sei, wonach die von einem Minister im Sinne oder über die Initiative der „Wünsche“ des Reichsrates zu treffenden Anordnungen nicht als eine Konsequenz dieser Wünsche zu bezeichnen kommen und überhaupt der Debatte über die Wünsche auszuweichen sei<note type="footnote" n="24">Die Protokolle enthalten keinen solchen Beschluß; siehe jedoch die verschiedentlichen Debatten zum Thema „Wünsche des Reichsrates“, z. B. <ref type="protocol-link" target="MRP-1-5-05-0-18621110-P-0281.xml#top_5_5_281_4">MR. v. <date when="1862-11-10">10. 11. 1862</date>/IV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z281" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z281.pdf">ÖMR. V/4, Nr. 281</ref>
+                        </bibl>, <ref type="protocol-link" target="MRP-1-5-06-0-18630710-P-0372.xml#top_5_6_372_1">MR. v. <date when="1863-07-10">10. 7. 1863</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-06-0-18630803-P-0381.xml#top_5_6_381_3">MR. v. <date when="1863-08-03">3. 8. 1863</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z372" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z372.pdf" target="MRP-1-5-06-0-18630710-P-0372.xml">ÖMR. V/6, Nr. 372</ref>
+                        </bibl> und <quote>Nr. 381,</quote> und <ref type="protocol-link" target="MRP-1-5-07-0-18640502-P-0468.xml#top_5_7_468_5">MR. v. <date when="1864-05-02">2. 5. 1864</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z468" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z468.pdf" target="MRP-1-5-07-0-18640502-P-0468.xml">ÖMR. V/7, Nr. 468</ref>.</bibl>
+                     </note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> erwiderte, er könne demnach nur „den Wunsch“ aussprechen, daß jeder seiner Kollegen sich diesen Beschluß bei der Textierung der Erläuterungen zum Voranschlage seines Zweiges gegenwärtig halten wolle. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> schloß sich der Vorstimme mit dem Bemerken an, daß der Mangel an Gleichförmigkeit in den ministeriellen Erläuterungen zum Staatsvoranschlage für 1864 ihm (Ritter v. Schmerling) von Seite der Reichsratsabgeordneten der Vorwurf zu weitgetriebener Kürze zugezogen habe.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_498_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Entwurf einer neuen Advokatenordnung für Ungarn</head>
+                  <p>Der Staatsrat <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Geringer</rs>
+                     </hi> referierte schließlich, daß die zwischen dem ungarischen Hofkanzler und dem Staatsrate bezüglich des von dem ersteren verfaßten Entwurfs einer Advokatenordnung bestandenen Differenzen behoben seien, sodaß der amendierte Entwurf der Ah. Genehmigung au. empfohlen werden dürfte. Hierüber wurde von keiner Seite etwas erinnert<note type="footnote" n="25">Mit Vortrag v. <date when="1864-09-16">16. 9. 1864</date>, Z. 16401, hatte Hofkanzler Zichy den Entwurf einer Advokatenordnung für Ungarn vorgelegt; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 847/1864</bibl>. Die Ah. E. v. 18. 10. auf den Vortrag lautete: <quote>Ich genehmige den vorgelegten Entwurf der Advokatenordnung für Mein Königreich Ungarn mit den aus der Beilage ersichtlichen Änderungen. Das an Meine königliche Kurie zu erlassende Einführungsreskript ist Mir zur Unterschrift zu unterbreiten, ebd., Kab. Kanzlei, KZ. 3100/1864;</quote> dies geschah mit Vortrag v. <date when="1864-11-10">10. 11. 1864</date>, Z. 18814; am <date when="1864-11-20">20. 11. 1864</date> unterzeichnete Franz Joseph das Reskript, <quote>ebd., KZ. 3445/1864</quote>. Gesetzlich geregelt wurde die Advokatur in Ungarn dann mit <bibl type="archival">GA. XXXIV/1874</bibl>; dazu <bibl type="secondary">
+                           <author>Márkus</author>, Ungarisches Verwaltungsrecht 501 f.</bibl>
+                     </note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-10-17">17. Oktober 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, am <date when="1864-10-31">31. Oktober 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-11-02">2. November 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

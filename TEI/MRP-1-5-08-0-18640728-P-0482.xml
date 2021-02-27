@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="482">Sitzung 482</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-07-28"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z482.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1286</idno>
+                  <idno type="KZ">2418</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-07-28"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Hueber; VS. Mecséry; BdE. und anw. (Mecséry 28. 7.), Schmerling, Plener (bei I–III abw.), Esterházy, Burger, Hein, Franck, Zichy (BdE.<orig> in Abwesenheit des Grafen Zichy: Privitzer, 2. Hofkanzler), </orig>Reichenstein (BdE. fehlt), Geringer; abw. Rechberg, Nádasdy, Lasser, Lichtenfels; MR. Rechberg 12. 8.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr7490">
+                     <surname>Hueber</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-07-28">1864-07-28</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei I–III abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+                  <note>BdE. <orig>in Abwesenheit des Grafen Zichy: Privitzer, 2. Hofkanzler</orig>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+                  <note>keine BdE.</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_482_1">Gesetzentwurf betreffend die Sanktionierung und Kundmachung der Landtagsartikel in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_482_2">Gesetzentwurf über die Wahl der Abgeordneten Siebenbürgens zum Reichsrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_482_3">Gesetzentwurf über die Errichtung und Organisation des Obersten Gerichtshofes für Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_482_4">Gesetzentwurf wegen Abänderung des § 75 der provisorischen Landtagsordnung für Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_482_5">Über das Gesuch der königlichen Freistadt Klausenburg um Bewilligung eines Unterstützungsbeitrages zur Bestreitung der Justizauslagen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_8_482_6">Gesuch der Bukowinaer Landesvertretung um eine Ärarialunterstützung zur Tilgung der Grundentlastungsschuld</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_8_482_7">Gesetzentwurf betreffend die Tilgung der Schuld des Bukowinaer Grundentlastungsfonds und den Tilgungsplan</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_5_8_482_8">Enthebung der Obergespäne mehrerer Komitate in Ungarn</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640728-P-0482" ana="a5-b8-z482">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z482.pdf">
+               <title type="num">Nr. 482</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-07-28">28. Juli 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Hueber; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Mecséry; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Mecséry 28. 7.), Schmerling, Plener (bei I–III <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Esterházy, Burger, Hein, Franck, Zichy (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice>
+                            <orig> in Abwesenheit des Grafen Zichy: Privitzer, 2. Hofkanzler), </orig>Reichenstein (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> fehlt), Geringer; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Rechberg, Nádasdy, Lasser, Lichtenfels; MR. Rechberg 12. 8.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1286</idno>
+                  <idno type="KZ">2418</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokollg des zu Wien am <date when="1864-07-28">28. Juli 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. Exzellenz des Herrn Polizeiministers Freiherrn von Mecséry. Der siebenbürgische Hofvizekanzler Baron Reichenstein referierte über die von der siebenbürgischen Hofkanzlei gestellten Anträge, und zwar</head>
+               <div type="agenda_item" xml:id="top_5_8_482_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Gesetzentwurf betreffend die Sanktionierung und Kundmachung der Landtagsartikel in Siebenbürgen</head>
+                  <p>über den mit dem au. Vortrage vom 26. Juli l. J., Z. 3459, gestellten Antrag in betreff des vom siebenbürgischen Landtage beschlossenen Gesetzartikels wegen Sanktionierung und Kundmachung der Landtagsgesetzartikel<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-5-08-0-18640604-P-0477.xml#top_5_8_477_2">MR. v. <date when="1864-06-04">4. 6. 1864</date>/II</ref>; der Landtag hatte den Gesetzartikel beschlossen; der Kaiser bestätigte ihn mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date> und unterfertigte gleichzeitig das entsprechende Reskript an den Landtag, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2325/1864</bibl>, und <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Z. 3643/1864 (K.) und Z. 3459/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 674/1864</bibl>.</note>;</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gesetzentwurf über die Wahl der Abgeordneten Siebenbürgens zum Reichsrat</head>
+                  <p>über den mit dem au. Vortrage vom 24. Juli l. J., Z. 3430, vorgelegten Gesetzentwurf über die Art und Weise, wie im Großfürstentum Siebenbürgen die Wahl der Abgeordneten zum Reichsrate durch den Landtag zu geschehen habe<note type="footnote" n="2">
+                        <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 3430/1864 (K.) und 3644/1864 (RS.)</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 671/1864</bibl>; mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date>, genehmigte Franz Joseph die Einbringung des Gesetzentwurfs im Landtag als Regierungsvorlage, <quote>ebd., Kab. Kanzlei, KZ. 2321/1864</quote>. Fortsetzung <ref type="protocol-link" target="MRP-1-5-08-0-18640929-P-0493.xml#top_5_8_493_1">MR. v. <date when="1864-09-29">29. 9. 1864</date>/I</ref>.</note>;</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gesetzentwurf über die Errichtung und Organisation des Obersten Gerichtshofes für Siebenbürgen</head>
+                  <p>über den mit dem au. Vortrage vom 21. Juli l. J., Z. 3325, vorgelegten Gesetzentwurf des siebenbürgischen Landtages wegen Errichtung und Organisation des Obersten Gerichtshofes für Siebenbürgen<note type="footnote" n="3">Zu diesem Gesetzentwurf siehe <ref type="protocol-link" target="MRP-1-5-06-0-18630928-P-0397.xml#top_5_6_397_1">MR. v. <date when="1863-09-28">28. 9. 1863</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z397" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z397.pdf" target="MRP-1-5-06-0-18630928-P-0397.xml">ÖMR. V/6, Nr. 397</ref>
+                        </bibl>; der Landtag hatte den Gesetzentwurf beschlossen; Vortrag v. <date when="1864-07-21">21. 7. 1864</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 3325/1864</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 662/1864</bibl>. Mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date> bestätigte Franz Joseph den Gesetzentwurf, ebd., Kab. Kanzlei, KZ. 2320/1864; die Sanktion und das entsprechende Reskript an den Landtag folgten am <date when="1864-10-08">8. 10. 1864</date> aufgrund eines eigenen Vortrags des Hofkanzlers, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 4630/1864 (K.) und 4740/1864 (RS.)</bibl> und <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2985/1864</bibl>. Der Oberste Gerichtshof begann am <date when="1865-07-15">15. 7. 1865</date> mit seiner Tätigkeit, <quote>ebd., KZ. 1469/1865</quote>.</note>; endlich</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Gesetzentwurf wegen Abänderung des § 75 der provisorischen Landtagsordnung für Siebenbürgen</head>
+                  <p>
+                     <ref xml:id="fn_5_8_482_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_482_a">Randvermerk Huebers: <quote>Der Finanzminister erschien erst bei nebenstehendem Vortrage in der Konferenz.</quote>
+                     </note> über den au. Vortrag vom 26. Juli l. J. betreffend den von dem siebenbürgischen Landtage beschlossenen Gesetzartikel wegen Abänderung des § 75 der provisorischen Landtagsordnung<note type="footnote" n="4">Zu diesem Gesetzentwurf siehe <ref type="protocol-link" target="MRP-1-5-07-0-18640523-P-0473.xml#top_5_7_473_2">MR. v. <date when="1864-05-23">23. 5. 1864</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z473" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z473.pdf" target="MRP-1-5-07-0-18640523-P-0473.xml">ÖMR. V/7, Nr. 473</ref>
+                        </bibl>; Vortrag der Hofkanzlei <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 3622/1864</bibl> (K.) und <quote>3460/1864</quote> (RS.); Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 675/1864</bibl>. Mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date> genehmigte Franz Joseph den Gesetzartikel und unterfertigte das entsprechende Reskript an den Landtag, <quote>ebd., Kab. Kanzlei, KZ. 2319/1864</quote>; die Sanktion erfolgte am <date when="1864-09-28">28. 9. 1864</date> aufgrund eines eigenen Vortrags des Hofkanzlers, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 4351/1864 (K.) und 4584/1864 (RS.)</bibl>. und <bibl type="archival">HHSTA. Kab. Kanzlei, KZ. 2810/1864</bibl>; Gutachten des Staatsrates <quote>ebd., JStr. 824/1864</quote>.</note>, unter Darstellung der Motive, welche die siebenbürgische Hofkanzlei den diesfälligen Anträgen zu Grunde gelegt hatte.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr von Geringer</rs>
+                     </hi> bemerkte, daß der Staatsrat sich mit den in den vorbezogenen au. Vorträgen enthaltenen Anträgen der siebenbürgischen Hofkanzlei einverstanden erklärt habe.</p>
+                  <p>Der Ministerrat stimmte diesen Anträgen einhellig bei<note type="footnote" n="5">Allgemein zum siebenbürgischen Landtag siehe noch <ref type="protocol-link" target="MRP-1-5-08-0-18641013-P-0498.xml#top_5_8_498_1">MR. v. <date when="1864-10-13">13. 10. 1864</date>/I</ref> (Vertagung) und <ref type="protocol-link" target="MRP-1-5-08-0-18641020-P-0501.xml#top_5_8_501_2">MR. v. <date when="1864-10-20">20. 10. 1864</date>/II</ref> (permanente Ausschüsse); siehe auch Einleitung XVIII f.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Über das Gesuch der königlichen Freistadt Klausenburg um Bewilligung eines Unterstützungsbeitrages zur Bestreitung der Justizauslagen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> referierte weiters über das ihm mit Ah. Handschreiben<note type="footnote" n="6">Handschreiben v. <date when="1864-07-04">4. 7. 1864</date>, <bibl type="archival">HHSTA., CBProt. 46 c/1864</bibl>.</note> zugekommene neuerliche Gesuch des Gemeinderates der kgl. Freistadt Klausenburg um Bewilligung des zur Bestreitung der politischen Verwaltungs- und Justizauslagen angesuchten Unterstützungsbeitrages mit dem Bemerken, daß die Hofkanzlei erst vor kurzem in der Lage gewesen sei, aus Anlaß eines von der Kommune Klausenburg überreichten Gesuches um Erfolgung eines vom <date when="1861-06-01">1. Juni 1861</date> angefangen auszuzahlenden jährlichen Zuschusses von 30.000 fr. aus dem Staatsschatze zur Bedeckung der Kosten ihrer politischen Verwaltung und Rechtspflege gegen die Ansicht des Finanzministeriums den au. Antrag auf die Ag. Gewährung eines nach Maßgabe der zu gewärtigenden endgiltigen Entscheidung über die Bestreitung der Kosten für die Justizpflege in den kgl. siebenbürgischen Freistädten und Taxalortschaften rückzuzahlenden Vorschusses von 10.000 fr. zu stellen<note type="footnote" n="7">Vortrag der siebenbürgischen Hofkanzlei v. <date when="1864-05-08">8. 5. 1864</date>, Z. 5784, mit Ah. E. v. <date when="1864-06-21">21. 6. 1864</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1847/1864</bibl>.</note>. Se. Majestät haben jedoch mit Ah. Entschließung vom 21. Juni l. J. mit Hinblick auf die Ah. genehmigte Vorlage eines Gesetzentwurfes über die Organisierung der Gerichtsbehörden an den siebenbürgischen Landtag<note type="footnote" n="8">Dazu <ref type="protocol-link" target="MRP-1-5-08-0-18640604-P-0477.xml#top_5_8_477_5">MR. v. <date when="1864-06-04">4. 6. 1864</date>/V</ref>.</note> Ag. zu befehlen geruht, daß jener Antrag einstweilen auf sich beruhend belassen und den wahrgenommenen Gebrechen in der Rechtspflege der Stadt Klausenburg bis dahin durch die Enthebung des Stadtgerichtes von einem Teile seiner bisherigen Justizgeschäfte abgeholfen werde. Referent glaubte in dem Ah. Handschreiben vom 4. Juli l. J. den Anhalt zur erneuerten Stellung und Begründung des au. Antrages, daß Se. Majestät der Stadt Klausenburg zur momentanen Linderung der <pb n="59" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s59.pdf"/>eingetretenen Geschäftskalamität eine vorschußweise Aushilfe von 10.000 fr. aus Staatsmitteln, und zwar aus der unverwendet gebliebenen Dotation<note type="footnote" n="9">der siebenbürgischen Hofkanzlei.</note> des Vorjahres gegen seinerzeitigen Rückersatz oder Einrechnung für den Fall [,daß] der Stadt Klausenburg erhöhte Beiträge zu den aus Kommunalmitteln bestrittenen Kosten der öffentlichen Verwaltung und Rechtspflege bewilligt werden sollten, Ag. zu bewilligen geruhen mögen, erblicken zu können<note type="footnote" n="10">In dem in Anm. 6 zit. Handschreiben war Nádasdy aufgefordert worden, über das Gesuch des Gemeinderates von Klausenburg gutächtlichen Vortrag zu erstatten.</note>, und habe mit au. Vortrage vom 8. Juli l. J., Z. 783/Präs., diesen au. Antrag erneuert<note type="footnote" n="11">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2380/1864</bibl>.</note>. Referent rekapitulierte die für diesen Antrag bereits von der siebenbürgischen Hofkanzlei in dem au. Vortrage vom <date when="1864-05-08">8. Mai l. J.</date>, Z. 5784, geltend gemachten Motive mit dem Beifügen, daß sich seit dem ersten Ansuchen der Stadt Klausenburg im Jahre 1862<note type="footnote" n="12">Zum Inhalt dieses Gesuchs <quote>ebd., JStr. 417/1864</quote>.</note> die pekuniären Verhältnisse dieser Stadtgemeinde bedeutend verschlimmert haben und daß die Jahreseinnahmen der Stadt durch die in Folge der letzten Überschwemmungen herbeigeführten Beschädigungen an städtischem Gute und durch die momentane Beeinträchtigung des verpachteten Schankgefälles einen beträchtlichen Ausfall erleiden, daß also hiemit neue Motive rücksichtswürdiger Natur für die Beteilung der Stadt Klausenburg mit einer Unterstützung aus Staatsmitteln sprechen, zumal die Gefahr einer Geschäftsstockung bei dieser Kommune unausweichlich bevorstehe.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Freiherr v. Geringer</rs>
+                     </hi> bemerkte, daß sich der Staatsrat<note type="footnote" n="13">Gutachten des Staatsrates <quote>ebd., JStr. 604/1864</quote>.</note> mit überwiegender Majorität gegen diesen Antrag ausgesprochen habe, weil sich seit der vor kurzem stattgefundenen Beratung dieses Gegenstandes<note type="footnote" n="14">Gutachten des Staatsrates zum Vortrag des siebenbürgischen Hofkanzlers v. <date when="1864-05-08">8. 5. 1864</date>, <quote>ebd., JStr. 417/1864</quote>.</note> die Sachlage – insoferne es sich um die Unterstützung der Stadt Klausenburg aus Anlaß der ihr obliegenden judiziellen und politischen Verwaltung handle – eigentlich nicht geändert habe, weil in Beziehung auf die Elementarunfälle jede nähere Nachweisung der Größe des erlittenen Schadens, ferner jede Nachweisung, daß es der Kommune nicht möglich sei, sich des Kredites bei Privaten zu bedienen, fehle, weil endlich die Kommune rücksichtlich der Elementarereignisse nicht allein stehe und sonach von einer Bewilligung des erbetenen Vorschusses auch Folgerungen von noch nicht übersehbarem Gewichte zu besorgen wären. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte nur bestätigen zu können, was Baron Geringer angeführt habe. In den Verhältnissen, soweit es sich um eine Beihilfe für die Stadt Klausenburg aus Anlaß der ihr obliegenden Besorgung der Justizgeschäfte handle, sei seit der Ah. Entschließung vom 21. Juni l. J. eine Änderung nicht eingetreten, es sei daher ein anderer Antrag derzeit nicht zulässig. Elementarereignisse können aber, abgesehen davon, daß genaue Nachweisungen hierüber gänzlich fehlen, nicht den Bestimmungsgrund abgeben, der genannten Stadt eine Unterstützung aus Staatsmitteln zur besseren Versehung der Justizpflege angedeihen zu lassen. Nachdem Votant noch der Schwierigkeit der Rechtfertigung einer nicht vollkommen begründeten, im Finanzgesetze <pb n="60" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s60.pdf"/>nicht vorgesehenen Auslage gedacht hatte, deutete er auf die in ähnlicher Lage befindlichen, aber dessenungeachtet keine derartigen Anforderungen an den Staatsschatz stellenden Städte Pest und Ofen mit dem Bemerken hin, daß es wegen der höchst gefährlichen Konsequenzen nicht zu verantworten wäre, der Stadt Klausenburg den erbetenen Vorschuß zu bewilligen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> und der ungarische Hofkanzler unterstützten den Antrag des siebenbürgischen Hofvizekanzlers, letzterer mit der Bemerkung, daß der Notstand der Stadt Klausenburg dermal bedeutend sei, daß sich die Stadt nicht mehr zu helfen wisse, und zu besorgen sei, daß das Stadtgericht ohne die staatliche Beihilfe in kurzem ganz aufliegen werde.</p>
+                  <p>Alle übrigen Stimmführer sprachen sich für den Antrag des Finanzministers auf Ablehnung des Antrages aus<note type="footnote" n="15">Der Kaiser entschied sich für den Antrag des siebenbürgischen Hofvizekanzlers Baron Reichenstein und bewilligte mit Ah. E. v. <date when="1864-08-06">6. 8. 1864</date> auf den Vortrag v. <date when="1864-07-08">8. 7. 1864</date> den Vorschuß von 10.000 fl. aus der Dotation der siebenbürgischen Hofkazlei, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2380/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Gesuch der Bukowinaer Landesvertretung um eine Ärarialunterstützung zur Tilgung der Grundentlastungsschuld</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über seine mit dem au. Vortrage vom 25. Juni l. J., Z. 2901 StM. I, gestellte au. Bitte um die Ah. Ermächtigung, daß vom Finanzministerium der jährliche mittelst des 55%igen direkten Steuerzuschlages nicht bedeckte Abgang des Bukowinaer Grundentlastungsfonds in den der verfassungsmäßigen Behandlung unterliegenden Staatsvoranschlag jährlich als unverzinsliche Vorschußleistung an diesen Fonds aus Reichsmitteln unter Vorbehalt des Rückzahlungsanspruches einbezogen und die Sistierung der Verzinsung und Rückzahlung der diesem Fonds vom Ärar bisher geleisteten Vorschüsse bei der verfassungsmäßigen Behandlung der Voranschläge erwirkt werde.</p>
+                  <p>Der Staatsrat fand, wie <hi rend="#letterspaced">
+                        <rs type="person">Baron Geringer</rs>
+                     </hi> bemerkte, gegen diesen Antrag nichts zu erinnern<note type="footnote" n="16">Gutlichen des Staatsrates <bibl type="archival">HHSTA., JStr. 593/1864</bibl>.</note>. Der Ministerrat stimmte dem Antrage einhellig bei<note type="footnote" n="17">Mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date> genehmigte der Kaiser den Antrag, <quote>ebd., Kab. Kanzlei, KZ. 2318/1864</quote>. Zur Grundentlastung und zur Einrichtung des Grundentlastungsfonds in der Bukowina siehe MK. v. <date when="1853-07-19">19. 7. 1853</date>/IV und V, <bibl type="internal_ref">
+                           <ref type="internal" n="a3-b2-z142" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a3-b2/pdf/a3-b2-z142.pdf" target="MRP-1-3-02-0-18530719-P-0142.xml">ÖMR. III/2, Nr. 142</ref>
+                        </bibl>; siehe auch den folgenden Tagesordnungspunkt.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Gesetzentwurf betreffend die Tilgung der Schuld des Bukowinaer Grundentlastungsfonds und den Tilgungsplan</head>
+                  <p>Im Zusammenhange hiemit steht der an dem Bukowinaer Landtage beschlossene Gesetzentwurf betreffend die Tilgung der Schuld des Bukowinaer Grundentlastungsfonds und der Tilgungsplan, für welchen der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> – wie er in seinem Referate fortfuhr – sich mit dem au. Vortrage vom 25. Juni l. J., Z. 3763 StM. I, die Ah. Genehmigung vorbehaltlich einiger Modifikationen erbeten hatte.</p>
+                  <p>Der Staatsrat war mit diesem Antrage einverstanden<note type="footnote" n="18">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 594/1864</bibl>.</note>. Der Ministerrat stimmte demselben einhellig bei<note type="footnote" n="19">Franz Joseph genehmigte das Gesetz zunächst nicht, weil die Art der Bedeckung dieser Schuld im Staatsvoranschlag 1865 noch offen war, <quote>ebd., Kab. Kanzlei, KZ. 2317/1864</quote>; nach Klärung dieses Punktes erfolgte die Ah. Sanktion am <date when="1865-07-06">6. 7. 1865</date>, <quote>ebd., KZ. 1826/1865</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_482_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Enthebung der Obergespäne mehrerer Komitate in Ungarn</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> brachte zur Kenntnis der Konferenz, er habe in Folge der ihm zuteil gewordenen Ah. Ermächtigung an jene Obergespäne in Ungarn, welche ihr Komitat nicht selbst leiten<note type="footnote" n="20">Siehe dazu <ref type="protocol-link" target="MRP-1-5-07-0-18640523-P-0473.xml#top_5_7_473_4">MR. v. <date when="1864-05-23">23. 5. 1864</date>/IV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z473" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z473.pdf" target="MRP-1-5-07-0-18640523-P-0473.xml">ÖMR. V/7, Nr. 473</ref>
+                        </bibl>.</note>, eine den gegenwärtigen Umständen angemessene <pb n="61" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s61.pdf"/>Aufforderung gerichtet und in Folge der erhaltenen nicht befriedigenden Erklärungen, in Befolgung der Ah. Entschließung vom <date when="1862-07-27">27. Juli 1862</date>
+                     <note type="footnote" n="21">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2245/1862</bibl>, vgl. <ref type="protocol-link" target="MRP-1-5-04-0-18620709-P-0246.xml#top_5_4_246_1">MR. v. <date when="1862-07-09">9. 7. 1862</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z246" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z246.pdf" target="MRP-1-5-04-0-18620709-P-0246.xml">ÖMR. V/4, Nr. 246</ref>
+                        </bibl>.</note>, mit dem au. Vortrage vom 27. Juli l. J. den au. Antrag gestellt, Se. Majestät wolle die Obergespäne der Komitate Abaúj, Bács, Neograd, Sohl, Ung, Veszprim, Wieselburg und Zemplin – Emanuel Grafen Péchy, Joseph Baron Rudics, Franz Grafen Zichy, Anton von Radvánszky, Johann Grafen Waldstein, Franz Baron Fiáth, Heinrich Grafen Zichy und Emanuel Grafen Andrássy – von dieser ihrer Würde in Gnaden zu entheben geruhen. Der Ministerrat fand hiegegen nichts zu erinnern<note type="footnote" n="22">Mit Ah. E. v. <date when="1864-08-01">1. 8. 1864</date> wurden die genannten Obergespäne in Gnaden enthoben, <quote>ebd., KZ. 2322/1864</quote>; ein Vortrag Zichys v. <date when="1865-05-05">5. 5. 1865</date>, Präs. 222, mit dem Antrag auf Besetzung mehrerer vakanter Obergespansstellen wurde am <date when="1865-07-03">3. 7. 1865</date> unerledigt dem neuen Hofkanzler Mailáth übergeben, <quote>ebd., KZ. 1231/1865</quote>; zur Ernennung eines Obergespans ohne Verpflichtung zur Amtsausübung <quote>ebd., KZ. 2387/1865</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1864-07-28">28. Juli 1864</date>. Mecséry.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1864-08-10">10. August 1864</date>.</seg>
+                  <seg type="other">Praes[entatum]. 12. August [1864]. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="294">Sitzung 294</title>
+            <title level="a" type="sub" n="2">Protokoll II</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-12-06"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z294.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1100</idno>
+                  <idno type="KZ">4010</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-12-06"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 6. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy; außerdem anw. Geringer; abw. Lasser, Pratobevera, Burger; BdR. Erzherzog Rainer <date when="1863-01-02">2. 1. 1863</date>.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-12-06">1862-12-06</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_294_1">Bitte der dalmatinischen Reichsratsmitglieder um Berücksichtigung ihrer Landsleute bei Besetzung höherer Ministerialposten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_294_2">Auszeichnung für den Sektionsrat Dr. Wilhelm Schwarz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_294_3">Art des Zahlungsmittels zur Vergütung der Kriegsschäden im lombardisch-venezianischen Königreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_294_4">Beschwerde des dalmatinischen Landesausschusses wegen verweigerter Auskünfte über den Stand der öffentlichen Sicherheit</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_5_294_5">Eingabe des Baron Thierry um Bewilligung zur Errichtung eines englischen Bankinstitutes in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_5_294_6">Bewilligung einer Remuneration für die Erben nach dem verstorbenen Hofrat Johann v. Némethy</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621206-P-0294" ana="a5-b5-z294">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z294.pdf">
+               <title type="num">Nr. 294</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-12-06">6. Dezember 1862</date> – Protokoll II</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 6. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Geringer; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Lasser, Pratobevera, Burger; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer <date when="1863-01-02">2. 1. 1863</date>.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1100</idno>
+                  <idno type="KZ">4010</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll II des zu Wien am <date when="1862-12-06">6. Dezember 1862</date> abgehaltenen Minsterrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_294_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Bitte der dalmatinischen Reichsratsmitglieder um Berücksichtigung ihrer Landsleute bei Besetzung höherer Ministerialposten</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> machten infolge Ah. Befehles dem Ministerrate Mitteilung von einem Majestätsgesuche der dalmatinischen Reichsratsmitglieder Conte Fanfogna, Vincenzo Degli Alberti etc., worin um die Verfügung gebeten wird, daß bei dem Ministerium einer von ihren Landsleuten in einer höheren Stellung verwendet werde, indem sich bisher kein Dalmatiner dessen zu erfreuen hatte. Se. k. k. Hoheit fügten die Bemerkung bei, daß sich zur Realisierung dieses Wunsches am ehesten beim Marineminsterium Gelegenheit bieten dürfte.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_294_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Auszeichnung für den Sektionsrat Dr. Wilhelm Schwarz</head>
+                  <p>Se. k. k. Hoheit brachten die zwischen den Ministern des Äußern, der Finanzen und des Handels obwaltende Differenz in bezug auf die dem Sektionsrate Schwarz für seine Verdienste als kaiserlicher Kommissär bei der Londoner Ausstellung<note type="footnote" n="1">Zur Londoner Weltausstellung siehe zuletzt <ref type="protocol-link" target="MRP-1-5-04-0-18621031-P-0276.xml#top_5_4_276_7">MR. v. <date when="1862-10-31">31. 10. 1862</date>/VII</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z276" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z276.pdf" target="MRP-1-5-04-0-18621031-P-0276.xml">ÖMR. V/4, Nr. 276</ref>
+                        </bibl>.</note> zuteil werdende Auszeichnung zur Sprache, wornach Graf Rechberg auf eine Ordensverleihung, Graf Wickenburg auf die Beförderung zum wirklichen Ministerialrate und Edler v. Plener auf Verleihung des Titels und Charakters eines Ministerialrates antragen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> bemerkte, er hätte in Absicht auf die Ernennung des Schwarz zum Ministerialrate nur das Bedenken, daß, solange Schwarz auf seinem gegenwärtigen Posten in Paris, wo er nicht Konsul, sondern nur der Kanzleichef des Konsulates ist, verbleibt, diese Rangserhöhung zu dieser seiner Stellung dann nicht paßt. Wollte Schwarz den Konsulsposten in Marseille annehmen, dann würde jeder Anstand gegen seine sogleiche Beförderung zum Ministerialrate entfallen. Hiezu scheine aber Schwarz nicht geneigt zu sein, und deshalb halte es Graf Rechberg derzeit für das Entsprechendste, wenn Schwarz durch die Verleihung eines Ordens – Kommandeur des Franz-Joseph-Ordens – ausgezeichnet und zugleich auch seine Funktionszulage erhöht werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> äußerte, ihm sei aus einer persönlichen Unterredung mit Schwarz bekannt, daß sein <pb n="90" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s90.pdf"/>sehnlichster Wunsch dahin gehe, eine höhere Stellung, und zwar die eines Ministerialrates zu erlangen; auch glaube Votant behaupten zu können, daß Schwarz ohneweiters den Posten eines Generalkonsuls in Marseille annehmen würde. Übrigens war Graf Wickenburg der Ansicht, daß, nachdem ihm nun das <ref xml:id="fn_5_5_294_a">mittelst einzelner Berichte vorgelegte</ref>
+                     <note type="variant" n="a" target="#fn_5_5_294_a">Einfügung a–a Wickenburgs.</note> Verzeichnis über die aus Anlaß der Londoner Austellung zu erteilenden Auszeichnungen größtenteils<ref xml:id="fn_5_5_294_b"/>
+                     <note type="variant" n="b" target="#fn_5_5_294_b">Einfügung Wickenburgs.</note> zugekommen ist und er die diesfälligen Anträge demnächst zu erstatten in der Lage sein wird, es das Geratenste wäre, die Sache des Schwarz mit diesen Anträgen zu kumulieren, damit das Ganze gleichsam aus einem Gusse hervorgehe.</p>
+                  <p>Dieser Vorgang wurde von der Konferenz gebilligt, und Se. k. k. Hoheit forderten sonach die beiden Minister auf, sich in dieser Beziehung noch miteinander zu benehmen und dann diese Auszeichnungsanträge kombiniert vorzulegen<note type="footnote" n="2">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621231-P-0305.xml#top_5_5_305_2">MR. v. <date when="1862-12-31">31. 12. 1862</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_294_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Art des Zahlungsmittels zur Vergütung der Kriegsschäden im lombardisch-venezianischen Königreich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringe</rs>
+                     </hi>r referierte den im Staasrate begutachteten au. Vortrag des Staatsministeriums vom 2. November l. J., Z. 22669, über die Frage, mit welchen Zahlungsmitteln die von dem letzten Kriege [im lombardisch-venetianischen Königreiche] herrührenden Prästationen und Expropriationen zu vergüten seien<note type="footnote" n="3">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 920/1862.</bibl>
+                     </note>.</p>
+                  <p>Diese Angelegenheit habe bereits den Gegenstand eines mit der Ah. Entschließung vom <date when="1861-03-02">2. März 1861</date> resolvierten au. Vortrages gebildet<note type="footnote" n="4">Vortrag des Staatsministeriums v. <date when="1860-11-04">4. 11. 1860</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3628/1860.</bibl>
+                     </note>, allein in Absicht auf die Prästationen haben Se. Majestät mit der eben berufenen Ah. Entschließung anzuordnen geruht, daß die Frage, ob die Vergütung der für liquid erkannten Prästationen im Hinblick auf die Finanzlage und die früheren ähnlichen Vorgänge in Monte-Obligationen oder durch Barzahlung geschehen soll und was im ersten Falle mit Rücksicht auf den Inhalt des Diplomes vom <date when="1860-10-20">20. Oktober 1860</date> und des Patentes vom <date when="1861-02-26">26. Februar 1861</date> vorzunehmen sei<note type="footnote" n="5">Die Frage war, ob es sich um eine Vermehrung der Staatsschuld handelte, die der Zustimmung des Reichsrates bedurfte.</note>, in der Ministerkonferenz zu beraten und der Ah. Schlußfassung zu unterziehen sei. Demgemäß wurden diese Verhandlungen zwischen den beteiligten Ministerien wieder aufgenommen. Nach Inhalt des nun vorliegenden au. Vortrages zerfallen die Vergütungen aus Anlaß des letzten Krieges in zwei Hauptabteilungen, nämlich 1. in solche für Naturalleistungen und Dienste und 2. in solche für Schäden an Eigentume, und die Vergütungen für letztere beziehen sich weiter a) auf eine Besitzergreifung eines Grundes für einen dauernden militärischen Gebrauch und b) auf Schäden aus Anlaß der Expropriation oder Beschädigung eines Gebäudes oder eines Grundes für vorübergehende militärische Zwecke. Bezüglich der Art dieser Vergütung seien nun die beteiligten Ministerien darüber einig, daß für Schäden bei 2 a die Vergütung in Barem, dagegen für Schäden bei 2 b die Vergütung im allgemeinen mittelst Monte-Kartellen<note type="footnote" n="6">Auf die lombardisch-venezianische Staatsschuld lautende Obligationen.</note>, und nur insoferne der liquid <pb n="91" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s91.pdf"/>befundene Betrag durch solche Kartelle nicht beglichen werden kann, bar in Silber geleistet werde. Nur in betreff der Vergütung für die eigentlichen Militärprästationen (Hauptabteilung 1) bestehe eine Meinungsdifferenz, indem das Staats- und das Kriegsministerium auch hier eine Barzahlung befürworten, das Finanzministerium hingegen auch diese Forderungen mit Monte-Kartellen begleichen will. Was ferner die in der obbemerkten Ah. Entschließung enthaltene Frage anbelangt, was wegen der Hinausgabe der Monte-Kartelle mit Rücksicht auf die Reichsverfassung vorzukehren sei, so sei das Staatsministerium der Ansicht, daß für den Fall, als hiedurch eine Vermehrung dieser Obligationen über den nach der Vereinbarung mit Sardinien bei Österreich verbliebenen Stand notwendig würde und es nicht möglich wäre, das erforderliche Quantum von Monte-Obligationen im Ankaufswege herbeizuschaffen, dem Finanzministerium anheimgestellt werden müsse, zu der hiedurch bedingten Vermehrung des Passivstandes des Monte lombardo-veneto die entsprechende Regierungsvorlage im Reichsrate einzubringen. Der Staatsrat pflichtet dem gemeinsamen Einraten des Kriegs- und [des] Staatsministeriums bei, weil die Barzahlung der eigentlichen Militärprästationen schon aus der mit der Ah. Entschließung vom <date when="1859-05-16">16. Mai 1859</date> genehmigten Belehrung<note type="footnote" n="7">
+                        <quote>Belehrung für die Administration einer mobilen Armee und deren Organe</quote> v. <date when="1859-05-16">16. 5. 1859</date>, K.K. <bibl type="secondary">
+                           <title>Armee-Verordnungsblatt</title> (Normalverordnungen) Nr. 82/1859, § 8</bibl>.</note> gefolgert werden müsse und weil der finanzielle Vorteil bei einer Vergütung mit 5%-Kartellen kein so großer wäre, als der Finanzminister anzunehmen scheint. Eine Verschiedenheit der Meinung ergab sich aber im Staatsrate in bezug auf die weitere Behandlung der Sache rücksichtlich auf die Bedeckung der zur Leistung der Vergütung erforderlichen Mittel. Denn während die staatsrätliche Mehrheit der Meinung ist, daß bei den gedachten Vergütungen, mögen sie in Kartellen oder in baren Geldmitteln bestehen, die Mitwirkung des Reichsrates nicht beseitigt werden kann, erachtet die Minorität, daß dieser Punkt gar nicht in Frage zu ziehen, sondern sich lediglich auf die Begutachtung der zwischen den Ministerien obwaltenden Meinungsdifferenz zu beschränken sei, und glaubt daher, einfach den vom Staatsministerium vorgelegten Resolutionsentwurf befürworten zu sollen.</p>
+                  <p>Bei der Erörterung hierüber äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß zur Zeit, als diese Angelegenheit in Angriff genommen wurde, <ref xml:id="fn_5_5_294_c">wegen des hohen Silberagio</ref>
+                     <note type="variant" n="c" target="#fn_5_5_294_c">Einfügung c–c Pleners.</note> andere Verhältnisse bestanden und das Finanzministerium damals vollen Grund hatte, sich für die Kartellenzahlung auszusprechen, daß er aber jetzt bei der geänderten Valutasachlage<ref xml:id="fn_5_5_294_d"/>
+                     <note type="variant" n="d" target="#fn_5_5_294_d">Korrektur Pleners aus <quote>Sachlage.</quote>
+                     </note> und bei den für die Barzahlung sprechenden Gründen von dieser Ansicht abstehe und sich dem Einraten des Staatsministeriums anschließe. Was die Bedeckung des durch die Leistung dieser Vergütungen erwachsenden Erfordernisse betrifft, so werde hierwegen jedenfalls eine Position im Staatsvoranschlage aufgenommen werden müssen, keineswegs [werde sie] aber als eine Vermehrung der Staatsschuld, sondern als eine bare Zahlung behandelt werden. Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsministers</rs>
+                     </hi>, daß er einen großen Wert darauf legen müsse, daß diese <pb n="92" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s92.pdf"/>Summe nicht in das Budget des Kriegsministeriums aufgenommen, sondern als eine besondere Forderung hingestellt werde, meinte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß [es] sich im gegenwärtigen Augenblicke <ref xml:id="fn_5_5_294_e">nicht darum handle, auf welches Konto des Staatsvoranschlages die in Rede stehende Post aufzutragen komme</ref>
+                     <note type="variant" n="e" target="#fn_5_5_294_e">Korrektur e–e Pleners aus <quote>hierwegen gar nichts Bestimmtes sagen lasse.</quote>
+                     </note>, und erst die weitere Kombiniation zeigen werde, wohin diese Forderung einzureihen sein wird.</p>
+                  <p>
+                     <ref xml:id="fn_5_5_294_f">Der Kriegsminister muß sich hier die Wiederholung der in der Konferenz gemachten Äußerung erlauben, daß es bei dem jedenfalls zu erwartenden beträchtlichen Betrage der eventuellen Entschädigungssumme von Wichtigkeit sei, dieselbe nicht in das Militärbudget aufzunehmen, weil bei der bekannten Tendenz des Abgeordnetenhauses, beträchtliche Restringierungen von dem Militärbudget en bloc hervorzurufen, diese Veranlassung sicher benützt werden würde, die zu erwartende Entschädigungssumme auch wieder en bloc dem Extraordinarium des nächsten Militärbudgets zuzuweisen und somit neue Verlegenheiten hervorzurufen. Der Kriegsminister glaubt, sich daher schon jetzt gegen diese Art, die Forderung beim Reichsrate zur Sprache zu bringen, umso mehr angelegentlichst zu verwahren, als ihm auch die Aufnahme gerade in das Militärbudget von gar keinem besondern finanziellen oder politischen Vorteile zu sein scheint</ref>
+                     <note type="variant" n="f" target="#fn_5_5_294_f">Einfügung f–f Degenfelds.</note>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> muß sich hier die Wiederholung der in der Konferenz gemachten Äußerung erlauben, daß es bei dem jedenfalls zu erwartenden beträchtlichen Betrage der eventuellen Entschädigungssumme von Wichtigkeit sei, dieselbe nicht in das Militärbudget aufzunehmen, weil bei der bekannten Tendenz des Abgeordnetenhauses, beträchtliche Restringierungen von dem Militärbudget en bloc hervorzurufen, diese Veranlassung sicher benützt werden würde, die zu erwartende Entschädigungssumme auch wieder en bloc dem Extraordinarium des nächsten Militärbudgets zuzuweisen und somit neue Verlegenheiten hervorzurufen. Der Kriegsminister glaubt, sich daher schon jetzt gegen diese Art, die Forderung beim Reichsrate zur Sprache zu bringen, umso mehr angelegentlichst zu verwahren, als ihm auch die Aufnahme gerade in das Militärbudget von gar keinem besondern finanziellen oder politischen Vorteile zu sein scheint.</p>
+                  <p>Den übrigen Mitgliedern der Konferenz ergab sich keine Erinnerung<note type="footnote" n="8">Mit Ah. E. v. <date when="1863-01-01">1. 1. 1863</date> wurde der Vortrag nach dem Antrag des Staatsministers resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 4007/1862</bibl>; zu diesem Gegenstand siehe auch <ref type="protocol-link" target="MRP-1-5-03-0-18620506-P-0229.xml#top_5_3_229_9">MR. v. <date when="1862-05-06">6. 5. 1862</date>/IX</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z229" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z229.pdf" target="MRP-1-5-03-0-18620506-P-0229.xml">ÖMR. V/3, Nr. 229</ref>
+                        </bibl>; Fortsetzung <ref type="protocol-link" target="MRP-1-5-06-0-18630713-P-0373.xml#top_5_6_373_5">MR. v. <date when="1863-07-13">13. 7. 1863</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_294_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Beschwerde des dalmatinischen Landesausschusses wegen verweigerter Auskünfte über den Stand der öffentlichen Sicherheit</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte in Hinsicht einer vom Landesausschusse Dalmatiens eingebrachten Beschwerde wegen verweigerter Auskünfte über den Stand der öffentlichen Sicherheit, welche der Staatsminister mittelst Erlasses an den Statthalter Mamula dahin zu erledigen gedenkt, daß dem Landesausschusse kein maßgebender und kontrollierender Einfluß auf die Handhabung der zur Erhaltung der öffentlichen Sicherheit erlassenen Maßregel eingeräumt werden kann, daß jedoch, soweit der Landesausschuß dem ihm vom Landtage gewordenen Auftrage gemäß hierwegen berichten will, es dem Statthalter anheimgestellt bleibt, die gewünschten Auskünfte zu geben. Dem Ministerrate ergab sich hierwegen keine Erinnerung<note type="footnote" n="9">Der Landtag hatte in der ersten Session 1861 den Landesausschuß (Giunta Provinciale) beauftragt, von den staatlichen Organen energische Maßnahmen im ländlichen Raum zum Schutz des Eigentums vor dem Räuberunwesen zu verlangen. Die Statthalterei bekämpfte daraufhin mit einigem Erfolg das Brigantentum. 1862 interpellierte der Landesausschuß wieder und erhielt zunächst unzureichende, nach der Intervention des Staatsministeriums doch ausführliche Antwort, vgl. den Bericht des Präsidenten des Landesausschusses Spiridion Petrovich in der ersten Sitzung der zweiten Session am <date when="1863-01-12">12. 1. 1863</date>, <bibl type="secondary">
+                           <title>Relazioni Stenografiche della IIˆ Sessione della dieta provinciale Dalmata</title>, Nr. 1</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_294_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Eingabe des Baron Thierry um Bewilligung zur Errichtung eines englischen Bankinstitutes in Wien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über eine Eingabe des geheimen Rates Freiherr v. Thierry und des britischen Parlamentsmitgliedes John Orell Lever um Bewilligung zur Errichtung eines englischen Bankinstitutes in Wien<note type="footnote" n="10">
+                        <bibl type="archival">FA., FM., Präs. 4802/1862</bibl> (die Eingabe selbst liegt dem Akt nicht mehr bei); die Bank sollte <quote>k. k. priv. Union-Bank</quote> heißen; zu diesem Plan siehe bereits <ref type="protocol-link" target="MRP-1-5-05-0-18621120-P-0285.xml#top_5_5_285_1">MR. v. <date when="1862-11-20">20. 11. 1862</date>/I</ref>. Zu Thierry siehe <ref type="protocol-link" target="MRP-1-5-03-0-18620401-P-0219.xml#top_5_3_219_6">MR. v. <date when="1862-04-01">1. 4. 1862</date>/VI</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z219" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z219.pdf" target="MRP-1-5-03-0-18620401-P-0219.xml">ÖMR. V/3, Nr. 219</ref>
+                        </bibl>, und <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 43, 228ff</bibl>.; zu Lever <ref type="protocol-link" target="MRP-1-5-03-0-18620304-P-0203.xml#top_5_3_203_1">MR. II v. <date when="1862-03-04">4. 3. 1862</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z203" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z203.pdf">ÖMR. V/2, Nr. 203</ref>
+                        </bibl>.Infolge des englischen Aktiengesetzes von 1862, das die beschränkte Haftbarkeit der Aktionäre zuließ, kam es zu einer Reihe von Bankgründungen mit englischem Kapital im Ausland, <bibl type="secondary">
+                           <author>Morawitz</author>, Geschichte einer Wiener Bank 7</bibl>; vgl. auch das Projekt der Anglo-österreichischen Bank, <ref type="protocol-link" target="MRP-1-5-05-0-18630205-P-0318.xml#top_5_5_318_8">MR. v. <date when="1863-02-05">5. 2. 1863</date>/VIII</ref>; neuerdings dazu <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 177 f</bibl>.</note>.</p>
+                  <p>
+                     <pb n="93" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s93.pdf"/>Es soll dies keine Zettelbank sein, sondern es sollen durch dieses Institut <ref xml:id="fn_5_5_294_g">das Eskompte-, Lombard-, Giro- und Depositengeschäft</ref>
+                     <note type="variant" n="g" target="#fn_5_5_294_g">Korrektur g–g Pleners aus <quote>alle Eskompte-, Giro-, Geldwechslungs- und Depositengeschäfte.</quote>
+                     </note> besorgt werden. Das Grundkapital von 1 Million Pfund Sterling würde in England aufgebracht und das Institut von einem aus österreichischen und englischen Mitgliedern gebildeten Direktorium geleitet werden. In den verschiedenen österreichischen Kronländern würden Filialen errichtet werden, und es würde sich diese Bank verpflichten, der Staatsverwaltung ein conto corrente zu eröffnen, in welchem gegenseitig der in der gegebenen Zeit von der österreichischen Nationalbank angesprochene Zinsfuß für die Zinsenberechnung angenommen werden würde, dagegen sich die Zusicherung erbitten, daß die von ihr einzuführenden Gold- und Silberbarren in der kaiserlichen Münzstätte zu dem Preise von ⅛% in österreichische Münzsorten umgeprägt werden würden. Nach einer in dieser Angelegenheit gehabten Unterredung mit Baron Thierry – fährt der Finanzminister fort – wünscht derselbe eine Erledigung zu erhalten, die <ref xml:id="fn_5_5_294_h">[die] im § 15 lit. a des Vereinsgesetzes vorgesehene Ermächtigung zu den vorbereitenden Maßregeln enthielte</ref>
+                     <note type="variant" n="h" target="#fn_5_5_294_h">Korrektur h–h Pleners aus <quote>eigentlich eine Konzession wäre, indem er verlange, daß ihm gleich die Ermächtigung zur Errichtung dieser Bank erteilt werde.</quote>
+                     </note>[die] im § 15 lit. a des Vereinsgesetzes<note type="footnote" n="11">
+                        <bibl type="archival">RGBL. Nr. 253/1852.</bibl>
+                     </note> vorgesehene Ermächtigung zu den vorbereitenden Maßregeln enthielte. Der Finanzminister erachtet, daß es nicht angemessen wäre, dem Gesuchsteller eine solche Vorkonzession zu erteilen, <ref xml:id="fn_5_5_294_i">weil diese bloß bei jenen Fällen eintritt, wo zum Behufe der in Österreich zu errichtenden Vereine Aufforderungen zum Beitritte in Österreich oder Vorarbeiten, wie z. B. Trassierungen bei Eisenbahnen, vorausgehen, während im gegenwärtigen Falle die Gesellschaft in England gebildet werden soll, welche in Österreich die Bank gründen will, und anderweitige Vorarbeitungen nach der Natur der Sache gar nicht stattfinden</ref>
+                     <note type="variant" n="i" target="#fn_5_5_294_i">Einfügung i–i Pleners.</note>. Er verlas den Entwurf der von ihm beabsichtigten Erledigung dieser Eingabe<note type="footnote" n="12">
+                        <bibl type="archival">FA., FM., Präs. 4802/1862.</bibl>
+                     </note>, wornach die Gemeinnützigkeit und Ersprießlichkeit dieses Unternehmens zwar anerkannt, jedoch erklärt würde, daß eine Konzession erst dann erteilt werden könne, wenn den Bestimmungen der diesfalls bestehenden Gesetze Genüge geleistet sein wird.</p>
+                  <p>Hierüber ergab sich eine längere Diskussion, in welcher die Gründe für und wider eingehend geprüft wurden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> hob hervor, daß ein großer Unterschied zwischen Eisenbahn­gesellschaften und dergleichen und einem solchen Bankinstitute vorhanden sei und daß es ihm nicht unangemessen erscheine, der fraglichen Gesellschaft die erbetene Bewilligung zu den vorbereitenden Schritten für die Bildung dieser Bank zu erteilen, zumal dieser Fall unter § 15 lit. a des Vereinsgesetzes zu subsumieren ist und auch nicht abzusehen ist, wienach die Regierung durch eine derlei Ermächtigung gebunden wäre, indem noch immer die eigentliche Konzession <pb n="94" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s94.pdf"/>verweigert werden kann, wenn sich bei der Konstituierung des Vereines eine Inkorrektheit zeigen sollte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> hätte ebenfalls keine Bedenken gegen eine derlei Ermächtigung, nur würde er in der bezüglichen Erledigung ausdrücklich sagen, daß dieses noch keine eigentliche Konzession sei, sondern selbe erst dann erfolgen werde, wenn die betreffenden Statuten vorgelegt sein werden. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatratspräsident</rs>
+                     </hi> war der Ansicht des Finanzministers, meinend daß, wenn man die Bewilligung zu den vorbereitenden Schritten geben will, doch wenigstens schon ein vorläufiger Verein existieren muß, was aber hier nicht der Fall ist, daher durch eine solche Vorkonzession das Publikum nur beirrt werden könnte. Ebenso erachtete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi>, mit dem Finanzminister stimmen zu sollen, indem er hervorhob, daß man früher doch irgendeine Wahrscheinlichkeit für das Gelingen des fraglichen Unternehmens haben müsse, wofür aber die Person des Baron Thierry, der wohl ein Staatsmann, aber kein Kapitalist ist, kaum eine Garantie geben dürfte, der Mann aber, den er hinter sich hat, nämlich Lever, eine Persönlichkeit sei, die in England keinen Wert hat. Zudem liege auch die Vermutung nahe, daß Baron Thierry im Sinn hat, mit der einmal erlangten Konzession weiter zu spekulieren.</p>
+                  <p>Alle übrigen Stimmführer vereinigten sich mit der Auffassung des Polizeiministers beziehungsweise mit dem Zusatze des Grafen Rechberg, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erinnerte, daß man prinzipiell der Errichtung einer solchen Bank gewiß nicht entgegentreten werde und es sich heute nur darum handelt zu erklären, daß der Sache von Seite der Regierung kein Hindernis in [den] Weg gelegt werde, wohin eigentlich auch das vorliegende Petitum zu verstehen ist. Andererseits sei es aber allerdings notwendig, in der Erledigung klarzumachen, daß die eigentliche Konzession nur nach den bestehenden Gesetzen erfolgen kann, das heißt, wenn die vorgeschriebenen Bedingungen erfüllt sein werden, und wozu <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> beifügte, daß sich diese Erledigungsweise schon deshalb empfehle, weil ein solches Bankinstitut nur sehr erwünscht sein kann und in dieser Richtung ein abschlägiger Bescheid des vorliegenden Ansuchens kaum von Nutzen sein dürfte. Es war sonach die Mehrheit der Konferenz für die Ermächtigung zu den vorbereitenden Schritten mit dem vom Grafen Rechberg vorgeschlagenen Zusatze, und wird der Finanzminister hiernach die an Baron Thierry hinauszugebende Erledigung abändern<note type="footnote" n="13">Erledigung <quote>ebd.</quote>; Thierry legte daraufhin die Statuten der zu gründenden Bank vor (Exemplare <bibl type="archival">FA., FM., Präs. 877/1863 und Präs. 2347/1863</bibl>), sie wurden mit Ah. E. v. <date when="1862-08-26">26. 8. 1862</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2761/1863</bibl>; dazu siehe Fortsetzung <ref type="protocol-link" target="MRP-1-5-06-0-18630820-P-0385.xml#top_5_6_385_3">MR. v. <date when="1863-08-20">20. 8. 1863</date>/III</ref>. Weitere Akten <bibl type="archival">FA., FM., Präs. 5009/1862, Präs. 1616, 2409</bibl> und <quote>4036, alle aus 1863</quote>. Trotz erteilter Konzession kam es nicht zur Gründung der Bank, vielmehr spekulierte Thierry tatsächlich, wie es Wickenburg vermutete; Thierry wurde in einen Prozeß verwickelt, den er verlor; dazu <bibl type="secondary">
+                           <author>Cottrell</author>, London Financiers and Austria 108 f.</bibl>; <bibl type="secondary">
+                           <author>Steiner</author>, Mobilbankwesen 155</bibl>; <bibl type="secondary">
+                           <author>Wurzbach</author>, wie Anm. 10</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_294_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Bewilligung einer Remuneration für die Erben nach dem verstorbenen Hofrat Johann v. Némethy</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den Vortrag der siebenbürgischen Hofkanzlei bezüglich der Bitte der Hofratswitwe Amalie v. Némethy um Verabfolgung der von ihrem verstorbenen Gatten Johann v. Némethy für die Leitung der siebenbürgischen Grundentlastungs­kommission ins Verdienen gebrachten Remuneration<note type="footnote" n="14">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 960/1862.</bibl>
+                     </note>.</p>
+                  <p>
+                     <pb n="95" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s95.pdf"/>Hinsichtlich des Ausmaßes dieser Remuneration seien die Hofkanzlei und der Finanzminister darin einig, daß der Betrag von 1500 fl. genügt, und es handelt sich nur um die Frage, aus welchem Fonds derselbe erfolgt werden soll. Der Finanzminister sei der Ansicht, daß diese Remuneration dem Grundentlastungsfonds zur Last zu fallen habe, während die siebenbürgische Hofkanzlei an der Meinung festhalte, daß diese Belohnung aus dem Staatsschatze – wie es bei den gleichen Remunerationen für Baron Lebzeltern und Statthaltereirat Grimm, die aus dem Regieaufwande der damaligen Landeskommission, also eigentlich aus dem Staatssäckl gegeben wurden, der Fall war – zu bewilligen wäre. Im Staatsrate habe man sich des Prinzipes wegen einhellig der Ansicht des Finanzministers angeschlossen, mit welchem Einraten sich der vortragende Präsident umso mehr einverstanden erkläre, als es im Grunde ohnehin auf eins hinausgeht, da der Grundentlastungsfonds passiv ist, nur glaubte derselbe, daß die fragliche Remuneration nicht an die Witwe, sondern an die Erben des verstorbenen Hofrates v. Némethy zu erfolgen wäre.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> glaubte, von der in seinem au. Vortrage entwikkelten Meinung der Hofkanzlei nicht abgehen zu können, da der siebenbürgische Grundentlastungsfonds über 2 Millionen schuldig ist und er es nicht verantworten könnte, denselben mit einer <ref xml:id="fn_5_5_294_j">zu Exemplifikationen und Beanständigungen führenden</ref>
+                     <note type="variant" n="j" target="#fn_5_5_294_j">Korrektur j–j Nádasdys aus <quote>so namhaften.</quote>
+                     </note> Auslage, <ref xml:id="fn_5_5_294_k">welche in ähnlichen Fällen bei Grimm und Lebzeltern etc. etc. von dem Staatsärar getragen wurden</ref>
+                     <note type="variant" n="k" target="#fn_5_5_294_k">Einfügung k–k Nádasdys.</note>, neuerdings zu bebürden, worauf der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, daß, wenn von Seite des Leiters der siebenbürgischen Angelegenheiten ein so großer Wert darauf gelegt wird, daß aus dem siebenbürgischen Grundentlastungsfonds nichts mehr angewiesen werde, er weiter nicht mehr entgegentreten wolle.</p>
+                  <p>Den übrigen Stimmführern ergab sich keine Erinnerung, und wurde schließlich die vom Baron Lichtenfels beantragte Modifikation rücksichtlich der Erben allseitig gebilligt<note type="footnote" n="15">Der Antrag der siebenbürgischen Hofkanzlei mit der von Lichtenfels vorgeschlagenen Modifikation wurde mit Ah. E. v. <date when="1862-12-24">24. 12. 1862</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3930/1862.</bibl>
+                     </note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1862-12-06">6. Dezember 1862</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, <date when="1863-01-01">1. Jänner 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-01-02">2. Jänner 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

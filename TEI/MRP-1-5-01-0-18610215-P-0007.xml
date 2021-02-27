@@ -1,0 +1,802 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">Februar 1861–<date when="1861-04-30">30. April 1861</date>
+            </title>
+            <title level="a" type="desc" n="007">Sitzung 7</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1861-02-15"/>
+            </meeting>
+            <editor ref="#editor_Brettner-Messler">
+               <persName>
+                  <forename>Horst</forename>
+                  <surname>Brettner-Messler</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b1-z7.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Brettner-Messler">
+                        <persName>
+                           <forename>Horst</forename>
+                           <surname>Brettner-Messler</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 1 Februar 1861–30. April 1861</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1977">1977</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">773</idno>
+                  <idno type="KZ">587</idno>
+               </msIdentifier>
+               <p>
+                  <span>Sammelprotokoll, kompiliert aus mehreren Sitzungstagen; </span>
+                  <span ana="non-parsed">Sammelprotokoll (ursprünglich als Prot. II v. <date when="1861-02-09">9. 2. 1861</date> bezeichnet); RS.; P. Marherr (9. und 11. 2.), Ransonnet (RS. Klaps) (10., 12. und 15. 2.); VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 17. 2.), Rechberg, Mecséry, Schmerling, [Degenfeld] vidi, Plener, Wickenburg, Lasser 18. 2., Szécsen 18. 2., Pratobevera 20. 2., Mažuranić 22. 2.; BdR. Erzherzog Rainer 28. 2. Teildruck: Redlich, Staats- und Reichsproblem 1/1, 733—751.</span>
+                  <placeName>Wien</placeName>
+                  <date when="1861-02-15"/>
+               </p>
+            </msDesc>
+            <listWit>
+               <witness>
+                  <bibl>Teildruck: 
+                                    : Redlich, Staats- und Reichsproblem 1/1, 733—751.</bibl>
+               </witness>
+            </listWit>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">Sammelprotokoll (ursprünglich als Prot. II v. <date when="1861-02-09">9. 2. 1861</date> bezeichnet); RS.; P. Marherr (9. und 11. 2.), Ransonnet (RS. Klaps) (10., 12. und 15. 2.); VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 17. 2.), Rechberg, Mecséry, Schmerling, [Degenfeld]<orig> vidi, </orig>Plener, Wickenburg, Lasser 18. 2., Szécsen 18. 2., Pratobevera 20. 2., Mažuranić 22. 2.; BdR. Erzherzog Rainer 28. 2.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+                  <note>Protokoll <date when="1861-02-11">9. und 11. 2.</date>
+                  </note>
+               </person>
+               <person role="protocol">
+                  <note>RS. Klaps</note>
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+                  <note>Protokoll 10., 12. und 15. 2.
+                        </note>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-02-17">1861-02-17</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-02-18">18. 2.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8078">
+                     <surname>Szécsen</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-02-18">18. 2.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-02-20">20. 2.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+                  <note>BdE. <date when="1861-02-22">22. 2.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_1_7_1">Statut für die Reichsvertretung</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-01-0-18610215-P-0007" ana="a5-b1-z7">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml#a5-b1_z7.pdf">
+               <title type="num">Nr. 7</title>
+               <title type="descr">Ministerrat, Wien, 9., 10., 11., 12. und <date when="1861-02-15">15. Februar 1861</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">Sammelprotokoll (ursprünglich als Prot. II v. <date when="1861-02-09">9. 2. 1861</date> bezeichnet); <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Marherr (9. und 11. 2.), Ransonnet (<choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice> Klaps) (10., 12. und 15. 2.); <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> (Erzherzog Rainer 17. 2.), Rechberg, Mecséry, Schmerling, [Degenfeld]<orig> vidi, </orig>Plener, Wickenburg, Lasser 18. 2., Szécsen 18. 2., Pratobevera 20. 2., Mažuranić 22. 2.; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 28. 2.</item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">587</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der am 9., 10., 11., 12. und <date when="1861-02-15">15. Februar 1861</date> abgehaltenen Ministerkonferenzen unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer. [Sitzung vom <date when="1861-02-09">9. Februar 1861</date>] [anw. Erzherzog Rainer, Rechberg, Mecséry, Schmerling, Degenfeld, Vay, Plener, Wickenburg, Lasser, Szécsen, Pratobevera, Mažuranić]</head>
+               <div type="agenda_item" xml:id="top_5_1_7_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Statut für die Reichsvertretung</head>
+                  <p>Gegenstand der Beratung war der beiliegende Entwurf eines Statuts für die Reichsvertretung<note type="footnote" n="1">Siehe Beilage Nr. 7 a.</note>.</p>
+                  <p>Nach einem einleitenden Vortrage des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsministers</rs>
+                     </hi> über die Grundprinzipien des Entwurfs und über die Notwendigkeit einer durch Glanz und Zahl der Mitglieder hervorragenden politischen Körperschaft, um einerseits dem allgemeinen Wunsche nach einer entscheidenden Vertretung zu entsprechen, andererseits nicht gegen die reichausgestatteten Landtage der größeren Kronländer, wie Ungern und Böhmen, zurückzustehen, ergriff <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> — unter Vorbehalt seiner Meinung über einzelne Bestimmungen des Entwurfs — das Wort, um darzustellen, daß der Einsetzung des Reichsrates nach dem Sinne des kaiserlichen Diploms vom 20. Oktober die Idee zum Grunde lag, mittelst desselben und des ungrischen Landtages die staatsrechtlichen Verhältnisse Ungerns zur Gesamtmonarchie zu regeln und die in der Pragmatischen Sanktion ausgesprochene Untrennbarkeit zur allgemeinen Anerkennung zu bringen. Wäre die Einrichtung des Reichsrates unmittelbar auf das kaiserliche Diplom gefolgt, so würde allerdings eine minder zahlreiche Versammlung, nicht über, sondern neben dem ungrischen Landtage, zur Erreichung dieses Zweckes genügt haben. Nachdem jedoch seit dem Erscheinen des Diploms Monate verstrichen sind und inzwischen die Verhältnisse in Ungern eine solche Wendung genommen haben, welche die Ausführung jener Idee in ihrer ursprünglichen Form nicht mehr gestattet<note type="footnote" n="2">Zur Aufnahme des Oktoberdiploms siehe besonders <bibl type="secondary">
+                           <author>Baranyi</author>, Ungarns Verwaltung</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka — Urbanitsch</author>, Habsburgermonarchie 2, 364 ff.</bibl>; <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 251</bibl>; <bibl type="secondary">
+                           <author>Fellner</author>, Februarpatent 550</bibl>; <bibl type="secondary">
+                           <author>Franz</author>, Liberalismus 123 f</bibl>.; <bibl type="secondary">
+                           <author>Hellbling</author>, Landesverwaltung in Cisleithanien</bibl>. In: <bibl type="secondary">
+                           <author>Wandruszka — Urbanitsch</author>, Habsburgermonarchie 2, 209</bibl>; <bibl type="secondary">
+                           <author>Kann</author>, History of the Habsburg Empire 327 f.</bibl>; <bibl type="secondary">
+                           <author>Macartney</author>, The Habsburg Empire 509 f.</bibl>; <bibl type="secondary">
+                           <author>Miskolczy</author>, Ungarn 125</bibl>; <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 1/1, 672—701</bibl>; <bibl type="secondary">
+                           <author>Rogge</author>, Österreich von Világos bis zur Gegenwart 2, 81—88</bibl> und <quote>94—100</quote>; <bibl type="secondary">
+                           <author>Skottsberg</author>, Parlamentarismus 28 f.</bibl>; <bibl type="secondary">
+                           <author>Tzöbl</author>, Anfänge des Parlamentarismus 73 f.</bibl>; <bibl type="secondary">
+                           <author>Walter</author>, Zentralverwaltung 3/3, 170</bibl>.</note>, so scheint dem Votanten die Erweiterung derselben gerechtfertigt zu <pb n="33" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s33.pdf"/>sein, und er stimmt daher in thesi für den Entwurf. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> vermißte in der Bezeichnung des Statuts die in der gegenwärtigen Zeit dringend nötige Klarheit, indem in der Aufschrift von der „Reichsvertretung“, im Kontexte aber vom „Reichsrate“ die Rede ist, welch letztere Bezeichnung daher, als dem kaiserlichen Diplom entsprechend, allein beizubehalten wäre. <ref xml:id="fn_5_1_7_a">Es sei ein Werk, das weder Fisch noch Fleisch sei, weder das eine noch das andere Prinzip vertrete; man müsse mit sich selbst im klaren sein, was man gewähren wolle, und dies dann klar und bestimmt durchführen.</ref>
+                     <note type="variant" n="a" target="#fn_5_1_7_a">Einfügung a–a Rechbergs.</note> Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> rechtfertigte die Bezeichnung „Reichsvertretung“ damit, daß ein Teil des Reichsrates durch Wahlen gebildet werden soll, mithin den Charakter der Vertretung hat. Im übrigen ist es die Absicht, dieses Statut zugleich mit sämtlichen Landesordnungen erscheinen zu lassen und in dem diese Akte begleitenden Einführungspatente dieselben als „Reichsverfassung“ zu bezeichnen, welche sonach zwei Hauptteile, den Reichsrat und die Landtage der einzelnen Kronländer, umfassen würde.</p>
+                  <p>In dieser Bezeichnung „Reichsverfassung“ vereinigten sich sohin auch die mehreren Stimmen, und es bemerkten hierüber noch insbesondere: Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>, daß dieses Reichsratsstatut die Krone aller Landesstatute und als Reichsverfassung um so wichtiger sei, als Ungern nur darin die Garantie für seine eigene Verfassung und für die aufrichtige Vollziehung des Diploms erblicken kann. Der Tag, an dem [es] erscheint, ist von der höchsten Bedeutung für Österreich. Es kommt alles darauf an, es so zu bezeichnen und einzurichten, daß die Völker an die Erfüllung des kaiserlichen Wortes glauben. Von ihm hängt die Zukunft des ungrischen Landtages ab. Schon beginnen sich in Ungern die Meinungen zu klären und zur Umkehr zu bereiten. Sie warten nur auf den Moment, wo auch für die übrigen Kronländer eine Verfassung gegeben sein wird, und dann wird es auch für Ungern eine Ehrensache sein, sich an der allgemeinen Reichsvertretung zu beteiligen. Auch der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des kroatischen Hofdikasteriums</rs>
+                     </hi> wünschte mit Rücksicht auf die Stimmung in Kroatien, wo noch immer die Besorgnis vor der Rückkehr zum alten Systeme herrscht, daß das, was die kaiserliche Gnade den Völkern gewährt, voll und ohne Abbruch ausgeführt und auch mit dem wahren Namen „Verfassung“ bezeichnet werde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi>, mit der Bezeichnung „Reichsverfassung“ für die Gesamtheit der Landesordnungen und des Reichsratsstatuts im Patente einverstanden, bemerkte: Im Prinzip tauchen in der Presse und öffentlichen Meinung vornehmlich zwei Systeme auf, ein allgemeiner Reichstag ohne Provinziallandtage, aus direkten Wahlen hervorgegangen, und ein allgemeiner Landtag aus den nichtungrischen Kronländern als Gegengewicht gegen den ungrischen Landtag. Aber der erstere wäre schon Ungern gegenüber ganz unmöglich und gegen letzteren, welcher höchstens nur zu dem Ende hätte berufen werden können, um in gemeinsamer Verhandlung mit dem ungrischen Landtage das staatsrechtliche Verhältnis zwischen den ungrischen <pb n="34" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s34.pdf"/>und den nichtungrischen Kronländern auszutragen und eine gemeinsame Reichsvertretung anzubahnen, sprechen andere gewichtige Bedenken. Seine Konstituierung läge außerhalb des Rahmens des Diploms vom 20. Oktober, an dem doch jedenfalls festgehalten werden muß. <ref xml:id="fn_5_1_7_b">Würde er nur dazu berufen, damit er aus sich die Reichsräte wähle, die dann mit den vom ungrischen Landtag gewählten Reichsräten zusammenträten, so wäre er nur ein Wahlkörper ad actum. Wollte und sollte er aber mehr zu tun haben, so müßte er diese Kompetenz entweder aus dem Wirkungskreis der einzelnen Landtage oder aus der des Reichsrates herholen. Letzteres würde den Dualismus gegenüber Ungarn begründen, ersteres in den Provinzen deshalb heftigen Widerspruch finden, weil es dahin führen würde, die Provinziallandtage zu nullifizieren und doch für allgemeine Reichsangelegenheiten im Sinne des Diploms der Kompetenz zu entbehren.</ref>
+                     <note type="variant" n="b" target="#fn_5_1_7_b">Korrektur b–b Lassers aus <quote>Er würde die Provinziallandtage nullifizieren und doch für allgemeine Reichsangelegenheiten im Sinne des Diploms der Kompetenz entbehren</quote>.</note> Es spricht endlich gegen ihn die Erfahrung mit dem ersten österreichischen Reichstage von 1848 und 1849, der, nur für die deutsch-slawischen Kronländer zusammenberufen, durch seinen Konstitutionsausschuß den Beschluß vorbereitet hatte, die beratene Verfassung für diese Länder der Regierung als Entwurf vorzulegen, um nach demselben mit Berücksichtigung der Länder der ungrischen Krone eine Gesamtverfassung für das Reich zu geben, indem er erkannte, daß die Trennung von Ungern zum Verderben des Reiches führen würde. Daß dieser Beschluß nicht zur Ausführung kam, daran war die frühere Auflösung des Reichstages schuld. Allen diesen Bedenken begegnet der vorliegende Entwurf des Staatsministers. Er schafft eine wahre Reichsvertretung aus allen Kronländern für gemeinsame Reichsangelegenheiten und sichert mit den Landesstatuten die spezielle Vertretung für die eigenen Interessen der einzelnen Provinzen. Minister v. Lasser ist daher im Prinzip vollkommen damit einverstanden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> wünschte, daß im Patente, womit dieses und die Landesstatute publiziert werden, ausdrücklich erklärt werde, es sei hiermit dem Reiche eine „Verfassung“ verliehen. In dieser Beziehung fände er auch gegen die Benennung des Statuts „für die Reichsvertretung“ nichts einzuwenden, wohl aber würde er vorziehen, wenn darin statt von einem Reichsrate von dem Reichstage die Rede wäre. Er ist in der Tat für das ganze Reich das, was für die einzelnen Kronländer ihre Landtage sind. Warum sollte er also nicht mit dem Namen bezeichnet werden, der seinem Wesen entspricht? Der Name „Reichsrat“ befriedigt nicht, es knüpfen sich daran in der Meinung des Publikums Besorgnisse, die nicht wieder erweckt, sondern dadurch behoben werden sollten, daß man dem Institute auch den beliebten Namen gibt. Dieser würde gewiß mit dem wärmsten Danke von der Bevölkerung begrüßt werden. Im wesentlichen mit den Vorstimmen einverstanden, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi>: Nur in Verbindung mit Ungern könne Österreich eine Großmacht sein. Es müsse also bei Abfassung des Einführungspatentes für die Landesstatute und für dieses vorliegende Statut sorgfältig darauf Bedacht genommen werden, daß sich kein dem Reiche verderblicher Dualismus zwischen jenem Königreiche und den übrigen Ländern ergebe. Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische</rs>
+                     </hi>
+                     <pb n="35" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s35.pdf"/>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Hofkanzler</rs>
+                     </hi> besorgt nicht, daß dies eintreten werde, wenn anders das neue Institut mit Vorsicht, ohne Schwäche und Leidenschaftlichkeit geleitet wird. Die Landtagsstatute sind für die betreffenden Kronländer das, was die ungrische Verfassung für Ungern ist, und der Glanzpunkt für alle ist das vorliegende Statut. Imponiert es in seiner Zusammensetzung und Wirksamkeit den Ungern, so ist deren Beteiligung daran um so sicherer, je fester bereits die Überzeugung besteht, daß Ungern nur im Zusammengehen mit Österreich mächtig sein kann. Dann wird auch das bisher getrennte Kroatien in dem Statute wieder einen Anhaltspunkt mehr zur Vereinigung mit Ungern finden. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherr v. Pratobevera</rs>
+                     </hi> sprach die Überzeugung aus, daß, nachdem das Wesen einer „Verfassung“ in dem Diplom vom 20. Oktober bereits gegeben ist, dieselbe auch in dem Patente ihren förmlichen und feierlichen Ausdruck finden sollte. Und indem er in thesi mit dem Staatsminister einverstanden ist, würde er keinen Anstand nehmen, nach dem Antrage des Finanzministers für die Bezeichnung „Reichstag“ zu stimmen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> gab in letzterer Beziehung zu bedenken, daß die Benennung „Reichstag“ die Lösung der Frage über die staatsrechtlichen Verhältnisse mit Ungern erschweren dürfte, weil der ungrische Landtag selbst diesen Titel in Anspruch nimmt. Mit einem „Reichsrate“ dagegen würde er leichter in Verhandlung treten können, weil das Prinzip der Einheit auch schon in dem Namen gewahrt ist, während die Unterhandlung mit einem gleichartigen, getrennten politischen Körper leicht zu einer Liquidierung statt zu einer Einigung führen könnte.</p>
+                  <p>Nach diesen Erörterungen konkludierten Se. k. k. Hoheit, daß die Mehrheit der Stimmen sich für die Erlassung eines „Verfassungpatentes“ mit dem Statute für den Reichsrat und den Landesordnungen erklärt habe.</p>
+                  <p>Über die Frage, ob der Reichsrat nach § 1 des Statuts in einem oder in zwei getrennten Körpern zu beraten habe, erklärten sich alle Stimmen für das letztere, nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> die Gründe dafür in überzeugender Weise auseinandergesetzt hatte, der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> die hundertjährige Erfahrung über die Zweckmäßigkeit dieser Einrichtung aus der ungrischen Verfassung erörtert und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> bemerkt hatte, daß nichts dem Reichstage von 1848 nachteiliger war als der Mangel an einem Oberhause <ref xml:id="fn_5_1_7_c">und daß die unzweckmäßige Gestaltung des Oberhauses in der Verfassung vom Jahre 1849 eine wesentliche Ursache ihrer praktischen Unausführbarkeit war</ref>
+                     <note type="variant" n="c" target="#fn_5_1_7_c">Einfügung c–c Lassers.</note>.<note type="footnote" n="3">Mit der Proklamation v. <date when="1848-05-16">16. 5. 1848</date>, <bibl type="archival">PGV. Nr. 65/1848</bibl>, wurde in Abänderung des § 34 der Verfassung v. <date when="1848-04-25">25. 4. 1848</date>, <quote>ebd. Nr. 49/1848</quote>, angeordnet, nur eine Kammer wählen zu lassen; dazu <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 106 und 111</bibl>; mit der Verfassung von 1849 ist (entgegen <bibl type="secondary">
+                           <author>Redlich</author>, Staats- und Reichsproblem 1/1, 736</bibl>, der annimmt, es handle sich um den Kremsierer Entwurf) die Märzverfassung v. <date when="1849-03-04">4. 3. 1849</date>, <bibl type="archival">RGBL. Nr. 150/1849</bibl>, gemeint.</note> Übrigens erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi>, daß er in diesem Falle unbedingt auf dem Prinzipe der Erblichkeit für die obere Abteilung bestehen müsse, und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi>, daß er sich vornehmlich aus der Rücksicht für zwei Abteilungen bestimmt habe, weil die sogleiche Teilnahme der Ungern an der ersten Versammlung nicht zu erwarten ist.</p>
+                  <p>
+                     <pb n="36" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s36.pdf"/>Belangend die Benennung der zwei Körper, so erklärten sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und mit ihm die Majorität für „Ober- und Unterhaus“ als die gangbarsten, gemeinverständlichen deutschen Benennungen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> war für die Bezeichnung „Erste Kurie und Wahlkurie“. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister, der Kriegsminister</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> für „Erste und Zweite Kurie“ (statt Wahlkurie, welche keinen Gegensatz zur Ersten bildet), teils weil die Bezeichnung „Ober- und Unterhaus“ zu sehr an die englische Einrichtung erinnert, teils weil dem Grafen Szécsen bedenklich schien, eine Bezeichnung zu wählen, welche dem Reichsrate einen parlamentarischen Charakter über dem ungrischen Reichstage gäbe. Dagegen machte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> gegen den Ausdruck „Kurie“ geltend, daß derselbe in der Regel nur von zeitweilig sich ausscheidenden Abteilungen eines Körpers, nicht aber von zwei getrennten wie Ober- und Unterhaus gebraucht wird. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> endlich erklärte sich für die in den neueren deutschen Verfassungen übliche Bezeichnung „Erste und Zweite Kammer“.</p>
+                  <p>Gegen § 2 ergab sich keine Erinnerung.</p>
+                  <p>§ 3. Gegen die Aufnahme der Häupter „der im Sinne der Bundesakte standesherrlichen Familien<note type="footnote" n="4">Siehe Art. 14 der Deutschen Bundesakte, <bibl type="secondary">
+                           <author>Huber</author>, Dokumente zur deutschen Verfassungsgeschichte 1, 78 f.</bibl>
+                     </note>“ machte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> die Einwendung, daß die „Standesherrlichkeit“ durch den Besitz eines vormals reichsunmittelbaren Territoriums bedingt ist. Dieser Besitz gibt nur in dem Lande, wo er gelegen ist, Anspruch auf die „Standesherrlichkeit“. In der österreichischen Monarchie hat es aber niemals solche reichsunmittelbaren Besitztümer gegeben. Es können also österreichische Familien, wenn sie auch in Deutschland deren hätten, doch darum die Standschaft in Österreich nicht ansprechen. Dies ward auch vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherrn v. Pratobevera</rs>
+                     </hi> durch Vorlesung des betreffenden Artikels der Deutschen Bundesakte bestätigt, und es machte weiters <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> darauf aufmerksam, wie verletzend es für so viele andere uraltadelige Familien in Österreich sein würde, wenn sie ihre Reichsstandschaft als eine Gnade vom Kaiser empfangen müßten, während sie jenen wenigen Familien, deren Chefs infolge obiger Bestimmung der Bundesakte mit Ah. Entschließung weiland Kaiser Franz’ I. der Titel „Durchlaucht“ oder „Erlaucht“ verliehen ward, als ein Vorrecht zukäme<note type="footnote" n="5">Mit Hofkanzlei-Ministerialschreiben v. <date when="1825-10-07">7. 10. 1825</date>, <bibl type="archival">PGV. Nr. 102/1825</bibl>, an sämtliche Landeschefs wurde verfügt : <quote>Se. k. k. Majestät haben mittelst Ah. Kabinettsschreibens v. <date>9. September d. J.</date> den auf Höchstihren Antrag in der Sitzung des Deutschen Bundestages v. <date>18. August d. J.</date> einstimmig gefaßten Beschluß zu eröffnen geruht: Daß den infolge der Auflösung des Deutschen Reiches mittelbar gewordenen, vormals reichsständischen Familien ein ihrer Ebenbürtigkeit mit den souveränen Häusern angemessener Rang und Titel gewährt und den Fürsten das Prädikat „Durchlaucht“ erteilt werde</quote>; mit Hofkanzleidekret v. <date when="1829-10-09">9. 10. 1829</date>, <bibl type="archival">PGV. Nr. 120/1829</bibl>, an sämtliche deutsche Länderstellen wurde bekanntgegeben: <quote>Da es der Billigkeit angemessen ist, daß den mediatisierten vormaligen reichsgräflichen Häusern aus denselben Rücksichten, welche bereits hinsichtlich der mittelbar gewordenen vormaligen Reichsfürsten anerkannt worden sind, ein ihrer Ebenbürtigkeit mit den regierenden Häusern angemessener Rang und Titel gewährt werde, so ist, infolge eines Ah. Kabinettsschreibens v. <date>21. September d. J.</date>, laut öffentlichen Protokolls der siebenten Bundestagssitzung v. <date when="1829-03-12">12. März 1829</date> der einstimmige Beschluß sämtlicher Bundesglieder dahin gefaßt worden, daß nunmehr den Häuptern der vormals reichsständischen gräflichen Familien die Verleihung des Prädikats „Erlaucht“ zu gewähren sei</quote>; vgl. <bibl type="secondary">
+                           <author>Mayrhofer</author>, Handbuch 5, 128 f.</bibl>; siehe auch <bibl type="secondary">
+                           <author>Waldstein-Wartenberg</author>, Österreichisches Adelsrecht 110 f.</bibl>
+                     </note>. Es mögen daher alle gleichmäßig aus der Hand des Kaisers diese Gnade <pb n="37" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s37.pdf"/>empfangen, zumal da dabei auf jene ausgezeichneten Familien gewiß vorzügliche Rücksicht genommen werden wird.</p>
+                  <p>Nach diesen Bemerkungen entschied sich die Konferenz für die Weglassung jener bevorrechteten Kategorie, desgleichen für die Weglassung der „ungrischen Magnaten“, welche der Staatsminister mit Vorbedacht darum aufgenommen hat, um sie zur Beteiligung am Reichsrate zu bestimmen, weil diese, nach der Bemerkung der ungrischen Votanten, wenigstens nicht verbürgt werden kann und die Verleihung der erblichen Reichsratswürde an ungrische Magnaten ebenso wie an andere vom hohen Adel Sr. Majestät vorbehalten bleibt. <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Graf Rechberg</rs>
+                     </hi> waren ferner der Meinung, daß die hiernach übrigbleibende Bestimmung des § 3: „Häupter der durch ausgedehnten Gutsbesitz hervorragenden Adelsgeschlechter“ mit § 5 verschmolzen und überhaupt Sr. Majestät vorbehalten werden soll, Personen, die durch ihre Verdienste im Militär oder Zivile und durch ihre soziale Stellung hervorragen, die erbliche Standschaft zu verleihen. Graf Rechberg <ref xml:id="fn_5_1_7_d">glaubte, daß man vor allem vermeiden müsse, den Keim zu einem Zwiespalt zwischen den verschiedenen Klassen der Gesellschaft zu legen. Bleibt die Erste Kurie als ein abgeschlossenes Ganzes, so würde dieser Zwiespalt hervorgerufen. Es müsse, um ihn zu vermeiden, der Weg geöffnet werden, daß auch aus anderen, auch aus dem Bürgerstande, diese Kurie allmählich ergänzt werden könne durch Aufnahme neuer, auch nichtadeliger erblicher Mitglieder, die hierzu die Eigenschaften besäßen und denen mit ihrer Aufnahme in diese Kurie gleichzeitig der höhere Adelstitel verliehen würde. Er</ref>
+                     <note type="variant" n="d" target="#fn_5_1_7_d">Einfügung d–d Rechbergs.</note> sähe darin die Befestigung des Prinzips der Erblichkeit für die Erste Kurie, das er oben vertreten zu sollen glaubte, und die Beseitigung des Keims zu Rivalisierung unter dem Adel selbst. Nur müßte seines Erachtens, welches auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> teilte, über das Alter, in welchem die erbliche Standeswürde angetreten wird, über die Art der Vererbung und über die Sicherstellung des Besitztums das Nähere bestimmt werden. <hi rend="#letterspaced">
+                        <rs type="person">Präsident v. Mažuranić</rs>
+                     </hi> meinte, daß die Erfordernisse zur erblichen Pairie sich nicht so leicht in ein paar Worte zusammenfassen lassen dürften, vielmehr einer besonderen nachträglichen Bestimmung vorbehalten werden sollten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> führte dagegen aus, daß — mit Ausnahme des Antrittsalters — alle übrigen, oben von den beiden Ministern erwähnten Erfordernisse bereits dem Wesen nach in der Bestimmung des § 3 enthalten sind. Es heißt nämlich: die „Häupter“ der Adelsgeschlechter, d. i. die sogenannten regierenden Herren, welche nach den Familienstatuten etc. im Besitz sukzedieren, also die Erstgeborenen, Majoratsherren, Senioren etc. Dies gibt also für die Art der Vererbung den Maßstab. Es heißt ferner: die durch Grundbesitz hervorragenden „Adelsgeschlechter“, was andeutet, daß damit nicht ein persönlicher, vorüber­gehender, sondern ein bei den Geschlechtern verbleibender, also gebundener Besitz gemeint sei.</p>
+                  <p>
+                     <pb n="38" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s38.pdf"/>Wirklich — erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> — sind diese Bestimmungen so gemeint, und wenn die Bestimmung beliebt wird, daß außerdem anderen ausgezeichneten Männern die erbliche Standschaft unter der Bedingung der Erwerbung und Sicherstellung eines größeren Grundbesitzes, worüber, da in Galizien und Venetien Fideikommisse nicht bestehen, etwas Besonderes festgesetzt werden müßte, verliehen werden kann, so wird sich nach dem Vorausgeschickten wohl auch eine Textierung finden lassen, die allem dem entspricht.</p>
+                  <p>Fortsetzung am <date when="1861-02-10">10. Februar 1861</date>.</p>
+                  <p>Ministerkonferenz. Protokoll vom <date when="1861-02-10">10. Februar 1861</date>. Unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer. Gegenwärtige: Der Minister des Äußern Graf Rechberg, der Polizeiminister Freiherr v. Mecséry, der Staatsminister Ritter v. Schmerling, der Kriegsminister Graf Degenfeld, der ungarische Hofkanzler Freiherr v. Vay, der Finanzminister Edler v. Plener, der Handelsminister Graf Wickenburg, der Minister Ritter v. Lasser, der Minister Graf Szécsen, der Minister Freiherr v. Pratobevera, der Präsident des provisorischen kroatisch-slawonischen Hofdikasteriums I. Mažuranić.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, die neue Textierung des § 3 in einer späteren Sitzung mitteilen zu wollen, und las sofort den § 4 über die in das Oberhaus aufzunehmenden Kirchenfürsten. Minister v. Schmerling motivierte seinen Antrag umständlich mit Beziehung auf die dem Episkopat in den Landtagen zugestandenen Virilstimmen und bemerkte, daß nebst den katholischen Erzbischöfen und dem Patriarchen von Venedig, dann den Fürstbischöfen auch die Erzbischöfe des orientalischen und des armenischen Ritus Oberhausmitglieder sein würden. Für die Superintendenten der evangelischen Konfession habe er ein gleiches Recht nicht beantragt, weil die Stellung derselben in ihren Kirchen eine ganz verschiedene und hierarchisch nicht so hervorragende sei, so daß eine Parifizierung derselben mit den Erzbischöfen selbst protestantischerseits nicht anerkannt wird.</p>
+                  <p>Sämtliche Stimmführer waren mit diesen Anträgen einverstanden, und es wurde nur über Anregung von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiministers</rs>
+                     </hi> einstimmig beschlossen, den Zwischensatz „und jene Bischöfe, welchen ehemals reichsunmittelbare Landeshoheit zustand“ konsequent mit dem zu § 3 gefaßten Beschlusse wegzulassen, zumal die Bischöfe dieser Kategorie als Fürstbischöfe ohnehin im Oberhause ihren Platz finden werden<note type="footnote" n="6">§ 3 wurde nochmals im <ref type="protocol-link" target="MRP-1-5-01-0-18610222-P-0014.xml#top_5_1_14_1">MR. v. <date when="1861-02-22">22. 2. 1861</date>/I</ref> diskutiert.</note>.</p>
+                  <p>§ 5. Nach Vorlesung dieses Paragraphes erörtert der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> die Frage über nichterbliche Mitglieder des Oberhauses<note type="footnote" n="7">Vgl. dazu <bibl type="secondary">
+                           <author>Stourzh</author>, Mitgliedschaft auf Lebensdauer 68 ff.</bibl>
+                     </note>. Ritter v. Schmerling sprach die Überzeugung aus, daß es unter den gegenwärtigen Verhältnissen unerläßlich sei, der Krone das Recht zur Ernennung solcher Mitglieder zu wahren, teils um für das Oberhaus die zur Gewinnung des moralischen Gewichtes und für eine gedeihliche Geschäftsführung nötigen hervorragenden Kapazitäten zu erlangen, teils auch um der Regierung in gewissen Fällen die Majorität im Oberhause verschaffen <pb n="39" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s39.pdf"/>zu können. England besitzt eine so zahlreiche und für den öffentlichen Dienst sowie für die parlamentarische Wirksamkeit von Jugend auf so sorgfältig vorgebildete Pairie, daß man dort der Ernennung lebenslänglicher Pairs entbehren kann, während in Österreich noch durch einige Zeit der § 3 nicht die hinlängliche Zahl von Kapazitäten liefern wird, so daß man auch auf Personen werde greifen müssen, die weder durch Geburt noch durch ausgedehnten Gutsbesitz dazu berufen erscheinen.</p>
+                  <p>Sämtliche Stimmführer waren mit dem Antrage im wesentlichen einverstanden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> machte jedoch auf die Mißbräuche aufmerksam, welche durch allzu häufige Ernennungen lebenslänglicher Pairs eintreten können. Die Fournéen von Pairs in Frankreich und neulich in Preußen sind warnende Beispiele, wie ein Ministerium im Drange des Augenblicks das Ansehen des Oberhauses durch solche Mißbräuche bleibend schwächen kann. Graf Rechberg würde es daher als sehr erwünscht betrachten, wenn eine Form gefunden werden könnte, um dem zu ausgedehnten Gebrauche des Ernennungsrechtes vorzubeugen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> glaubten dafür die Bestimmung vorschlagen zu können, daß die Zahl der Oberhausmitglieder nach § 5 die Hälfte oder das Dritteil der Zahl der erblichen Pairs und der Bischöfe zusammen nicht zu überschreiten habe. Dies veranlasse aber die Vorfrage, wie hoch sich die Zahl der Oberhausmitglieder der §§ 3 und 4 belaufen werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, daß nach seiner Berechnung erbliche Pairs ungefähr 100 sein würden, was mit Hinzurechnung der Bischöfe 120 Oberhausmitglieder gibt. Doch werde diese Zahl sich nie vollständig einfinden, nachdem Minderjährigkeit, hohes Alter, Krankheit, Sedisvakanzen und andere Umstände viele Lücken im Oberhause hervorbringen werden. Ritter v. Schmerling müsse sich aber gegen jede Fixierung der Zahl der lebenslänglichen<ref xml:id="fn_5_1_7_a1"/>
+                     <note type="variant" n="a1" target="#fn_5_1_7_a1">Einfügung Ransonnets.</note> Pairs im Statute aussprechen, weil die Regierung sich dadurch ohne Not nur Schwierigkeiten und Verlegenheiten für die Zukunft schafft. Andererseits ist diese Fixierung deswegen nicht nötig, weil beide Häuser nie vereint zusammentreten, in welchem Falle allein die relative Zahl der Mitglieder des Oberhauses von Bedeutung wäre. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> erklärte sich gegen eine Beschränkung der Ernennungen, da dieselbe einer vorsichtigen Regierung gegenüber unnötig, bei einer minder vorsichtigen aber im Drange des Augenblicks unwirksam sein würde. Derselben Meinung war auch der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi>, welcher aufmerksam machte, daß es an einer rationellen Basis zur Festsetzung des Zahlenverhältnisses von ein halb, ein Drittel, ein Viertel etc. gänzlich fehle. Die übrigen Stimmführer sprachen sich im selben Sinne aus.</p>
+                  <p>Über die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> aufgeworfene Frage, ob es angezeigt sei, auch <ref xml:id="fn_5_1_7_b1">Verdienste um die Kunst</ref>
+                     <note type="variant" n="b1" target="#fn_5_1_7_b1">Korrektur b1–b1 Szécsens aus <quote>Künstler</quote>.</note> unter denjenigen aufzuführen, welche einen Anspruch geben, zu lebenslänglichen Mitgliedern des Oberhauses ernannt zu werden, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß im § 5 nicht von Künstlern, sondern von Personen die Rede ist, die sich um die Kunst <ref xml:id="fn_5_1_7_c1"/>
+                     <note type="variant" n="c1" target="#fn_5_1_7_c1">
+                        <quote>besondere</quote> Streichung Schmerlings (?).</note>Verdienste erworben haben, <pb n="40" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s40.pdf"/>worunter nicht bloß Künstler, sondern auch Kunstmäzene zu verstehen sind. Wenn übrigens diese Bestimmung auch kaum eine praktische Folge haben werde, so kann man doch davon im Publikum einen guten Eindruck erwarten.</p>
+                  <p>Hiernach wurde der § 5 von der Konferenz ungeändert angenommen. Die beiläufig angeregte Frage, was die Allerhöchstenorts bereits lebenslänglich ernannten außerordentlichen Reichsräte für eine Stellung künftig einzunehmen haben werden, dürfte, wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> glaubt, vorderhand noch unentschieden bleiben.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> brachte hierauf die Inzidenzfrage zur Beratung, ob den erblichen Mitgliedern des Oberhauses als solchen nicht auch schon Virilstimmen in den bezüglichen Landtagen anzuweisen wären. Es spreche dafür allerdings die argumentatio a majori ad minus. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Graf Szécsen</rs>
+                     </hi> erklärten sich für die bejahende Beantwortung, welche den ungarischen Anschauungen entspreche. Überhaupt wäre es auch eine Anomalie, wenn z. B. der regierende Fürst Liechtenstein nicht eine Stimme im mährischen Landtage hätte. Alle übrigen Minister waren gegen diese Virilstimmen in den Landtagen, da durch dieselben das Stimmenverhältnis in den Landtagen verrückt würde und allerlei Streitfragen und Komplikationen entstünden, während ja andererseits doch nicht ausgeschlossen ist, daß ein Mitglied des Oberhauses durch Wahl in den Landtag trete. <hi rend="#letterspaced">
+                        <rs type="person">Präsident Mažuranić</rs>
+                     </hi> wies nach, daß diese Doppelstellung in Kroatien gar nicht praktisch wäre.</p>
+                  <p>Bei diesem Abstimmungsresultate erhielt [sic!] es von dem Einschalten eines diesfälligen Zusatzes in den Landesstatuten sein Abkommen.</p>
+                  <p>§ 6. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte, daß er an den Ziffern der Unterhausmitglieder für einige Kronländer die im beiliegenden Entwurfe ersichtlich gemachte Änderung vorgenommen habe<ref xml:id="fn_5_1_7_d1"/>
+                     <note type="variant" n="d1" target="#fn_5_1_7_d1">Vermerk Ransonnets: <quote>Ich bitte um Berichtigung der Zahlen des Entwurfes</quote>.</note>, wodurch sich auch die Gesamtsumme der Deputierten etwas höher, nämlich auf 345, stellt. Ein solcher Körper imponiert jedenfalls schon durch seine Größe den Landtagen gegenüber. Nach dem bei der Repartition auf die einzelnen Länder befolgten Systeme werde jeder Kreis, jedes Komitat — auch das kleinste — mindestens einen Deputierten haben, und es wird nebstbei den Faktoren der Population, des territorialen Umfangs und der Steuerkraft gleichzeitig möglichst Rücksicht geschenkt.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> fand die Gesamtzahl der Unterhausmitglieder zu hoch gegriffen, 200 bis 250 dürften genügen. Woher auch so viele ausgezeichnete Kapazitäten bekommen? Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> fände gegen die Gesamtzahl nichts zu erinnern, würde aber vorziehen, wenn die Zahl der auf Ungarn entfallenden Mitglieder in diesem Statute gar nicht ausgesprochen würde und diese Zahl sowie der Wahlmodus § 7 aus den weiter unten anzuführenden Gründen der Verhandlung mit dem Lande vorbehalten blieben. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> fand gegen den Ausspruch der beantragten Zahlen nichts zu erinnern, <ref xml:id="fn_5_1_7_e">da bei der Festsetzung der allgemeinen Zahl und der Aufzählung der auf die übrigen Länder entfallenden Zahlen ein einfaches Rechenexempel die auf Ungarn entfallende Zahl ergibt</ref>
+                     <note type="variant" n="e" target="#fn_5_1_7_e">Einfügung e–e Szécsens.</note>da bei der Festsetzung der allgemeinen Zahl und der Aufzählung der auf die <pb n="41" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s41.pdf"/>übrigen Länder entfallenden Zahlen ein einfaches Rechenexempel die auf Ungarn entfallende Zahl ergibt. Die übrigen Minister traten auch dem vom Staatsminister vorgeschlagenen und umständlich motivierten Zahlenverhältnisse bei, wobei <hi rend="#letterspaced">
+                        <rs type="person">Baron Mecséry</rs>
+                     </hi> äußerte, daß eine Differenz von 250 auf 350 Personen im ganzen von relativ nicht sehr großem Belange sei. v. <hi rend="#letterspaced">
+                        <rs type="person">Plener</rs>
+                     </hi> bemerkte, man brauche keineswegs 345 ausgezeichnete Kapazitäten, und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> stellte mit Berufung auf die Erfahrung im verstärkten Reichsrate die Behauptung auf, daß große Beratungskörper leichter zu lenken sind als kleine, worin jeder eine hervorragende Rolle spielen will. Endlich wies <hi rend="#letterspaced">
+                        <rs type="person">Graf v. Wickenburg</rs>
+                     </hi> auf die großen Zahlen der Unterhausmitglieder in England und Preußen hin. <hi rend="#letterspaced">
+                        <rs type="person">Präsident Mažuranić</rs>
+                     </hi> findet gegen die für Zivilkroatien und Slawonien bemessene Zahl von Mitgliedern nichts zu erinnern, bemerkt aber, daß die Militärgrenze dabei ganz unvertreten bleibt. Wolle man daher aus militärischen Rücksichten das kroatische Grenzland nicht seine Vertreter selbst wählen lassen, so sollte man doch als Kompensation für Zivilkroatien eine entsprechend höhere Zahl von Unterhausmitgliedern festsetzen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> erklärte sich gegen die besondere Vertretung der Militärgrenze sowie gegen die von der Vorstimme proponierte suppletorische durch Erhöhung der Deputierten aus Zivilkroatien, welch letztere sich nicht wohl logisch rechtfertigen lasse und gewiß Reklamationen des Militärgrenzvolkes hervorrufen würde, welches dann seine eigene direkte Vertretung begehren wird.</p>
+                  <p>§7, Absatz 1 und 2. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> erklärte, er wünsche lebhaft, daß der Reichsrat der ganzen Monarchie baldmöglichst zustande komme, aber eben deswegen müsse er dringend ersuchen, aus demselben [sic!] alle Bestimmungen zu entfernen, welche man in Ungarn als dem gesetzlichen Wege vorgreifende Oktroyierungen betrachten würde. Die Beschickung des Reichsrates und der Wahlmodus für denselben sollen nach ungarischen Anschauungen in die königlichen Propositionen aufgenommen und im Wege der landtäglichen Verhandlung in das Krönungsdiplom gebracht werden. Bevor nicht die Fragen über den Verband Ungarns mit Österreich geordnet sind, könne das Wahlgesetz von 1848 nicht beseitigt werden.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> teilt diese Meinung und weiset nach, wie sehr die Schwierigkeiten, die sich jeder Oktroyierung entgegensetzen, in Ungarn seit dem 20. Oktober gewachsen sind. Mit Zwang sei in gewissen Sachen nichts zu erreichen, so wie das Sprichwort sagt: daß man Pferde wohl zum Wasser führen, aber nicht zum Trinken zwingen kann. In Ungarn kann nur im Wege der Diskussion im Landtage zu einer friedlichen und gedeihlichen Ausgleichung gelangt werden, und Graf Szécsen beantragt daher, im Statute zu sagen: „die Art und Weise der Beschickung des Reichsrates werde durch ein Landesgesetz festgestellt werden.“ Damit aber andere Provinzen nicht die gleiche Freiheit für sich in Anspruch nehmen, wobei die größte Konfusion unvermeidlich und die Aussicht auf Beschickung des Reichsrates in neblige Ferne gerückt sein würde, könnte man die Bestimmungen über die Reichsratswahlen für die übrigen Kronländer in die Landesstatute aufnehmen. Bei Eröffnung des ungarischen Landtages aber dürfte dringlichkeitshalber der Versuch gemacht werden können, denselben zu einer provisorischen <pb n="42" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s42.pdf"/>
+                     <ref xml:id="fn_5_1_7_f">Beratung mit dem engeren Reichsrate</ref>
+                     <note type="variant" n="f" target="#fn_5_1_7_f">Korrektur f–f Szécsens aus <quote>Beschickung des Reichsrates</quote>.</note> zu bestimmen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> glaubte, daß überhaupt den Landtagen der Wahlmodus für das Unterhaus <ref xml:id="fn_5_1_7_g">um so mehre überlassen werden könne, als ein vieljähriger Aufenthalt in Ländern, wo das Repräsentativsystem eingeführt sei, ihm Gelegenheit geboten habe, dieses System und dessen Wirkungen in dessen Schatten- und Lichtseiten zu studieren. Er habe aber in einer während 30 Jahren mit wenigen Unterbrechungen fortgesetzten Beobachtung keinen Fall erlebt, wo die von den Repräsentativversammlungen gemachten Wahlen auf einem anderen Wege als auf dem der Transaktionen zwischen den verschiedenen Parteien vorgenommen worden seien</ref>
+                     <note type="variant" n="g" target="#fn_5_1_7_g">Einfügung g–g Rechbergs.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erklärte, man müsse sich vor allem klarmachen, wie die Regierung des Kaiserstaates Ungarn gegenübersteht. Am 20. Oktober sei die ungarische Verfassung nicht in ihrer Gänze und nicht unbedingt wiederhergestellt worden. Die im kaiserlichen Diplome ausgesprochenen Beschränkungen seien kein Gegenstand einer weiteren landtäglichen Diskussion oder des sogenannten Paktierens. Der Landtag hat selbst nicht die Befugnis, über Annahme oder Ablehnen des Diploms zu deliberieren, sowie auch die Korollarien des Diploms, z. B. das Reichsratsstatut und der Wahlmodus, kein Deliberandum mehr bilden können. Diesen Standpunkt müsse man gehörig festhalten. Was den Antrag des Ministers Grafen Rechberg betrifft, den Wahlmodus den Landtagen überhaupt anheimzustellen, so könne der Staatsminister demselben durchaus nicht beistimmen und müsse vielmehr auf der Bestimmung des § 7 beharren, widrigens man der Herrschaft der Majorität, d. i. des Zufalls, gehorchen müsse. In Ländern mit homogener Bevölkerung sind in der Regel nur zwei parlamentarische Parteien vorhanden: die sogenannte Rechte und Linke. Bei gemischten Nationalitäten treten nun ganz neue Elemente auf, deren Einfluß das politische Element in gewissen Fragen ganz paralysiert oder doch modifiziert. So z. B. würde im böhmischen Landtage das tschechische Element als das zahlreichere überwiegen und alle Wahlen auf Tschechen leiten, wenn nicht das Korrektiv des § 7 die Nötigung auflegen würde, für jeden deutschen<ref xml:id="fn_5_1_7_h"/>
+                     <note type="variant" n="h" target="#fn_5_1_7_h">Einfügung Ransonnets.</note> Kreis aus diesem Kreise selbst zu wählen. Ritter v. Schmerling verkennt nicht den Nachteil dieser Beschränkung, daß dadurch die Wahl von Mittelmäßigkeiten begünstigt werde, allein der politische Vorteil sei überwiegend. Übrigens falle diese Beschränkung bei den Wahlen der großen Grundbesitzer selbstverständlich weg. Die Bestimmungen für die Wahlen der Städte, welche aus verschiedenen Kreisen zusammengruppiert sind, wird eine noch in der Bearbeitung stehende Tabelle enthalten, welche der Minister später mitteilen wird.</p>
+                  <p>Der Staatsminister legt einen großen Wert auf die Festsetzung des Wahlmodus im Reichsratsstatute, wo er seinen Platz weit angemessener findet als in den Landesstatuten. Dieser Modus sei übrigens namentlich auch für Siebenbürgen von großer Wichtigkeit. Denn ist der dortige Landtag durch eine magyarische Majorität beherrscht, werden die Sachsen und Romanen bei den Wahlen in den Reichsrat <pb n="43" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s43.pdf"/>verkürzt. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> äußert, er müsse das Argument des Staatsministers für seinen Wahlmodus allerdings gelten lassen. Dagegen könne er aber doch nicht umhin, zu erklären, daß er sich von dessen Anwendung in Ungarn keinen praktischen Erfolg versprechen könne, und es werden auch für die slowakischen und ruthenischen Komitate — wenigstens in den ersten Jahren — stets nur magyarische oder doch magyarisch gesinnte Abgeordnete ins Unterhaus geschickt werden. Übrigens könne er mit Beziehung auf seinen früher gestellten Antrag nur wiederholen, daß eine solche Bestimmung des Reichsratsstatutes der Diskussion im ungarischen Landtage jedenfalls nicht entgehen werde <ref xml:id="fn_5_1_7_i">und absolut keine Aussicht vorhanden sei, daß Ungarn an einer Beratung gemeinsamer Angelegenheiten anders als als Land teilnehme</ref>
+                     <note type="variant" n="i" target="#fn_5_1_7_i">Einfügung i–i Szécsens.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> teilt diese Ansicht und äußert, er müsse sich ebenfalls dafür aussprechen, daß die Bestimmungen über den Wahlmodus in die einzelnen Landesstatute zu versetzen seien. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> würde sich gleichfalls zu diesem Auskunftsmittel hinneigen, verspricht sich aber von der Anwendung des vom Staatsminister vorgeschlagenen Wahlmodus eine günstige Wirkung in den Ländern mit gemischter Bevölkerung, namentlich auch in Siebenbürgen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> erkennt den vom Staatsminister vorgeschlagenen Wahlmodus — soweit er sich ohne Einsicht der Tabelle beurteilen läßt — für sehr zweckmäßig.</p>
+                  <p>Die Frage, wo die diesfällige Bestimmung auszusprechen ist, sei allerdings eine schwer zu lösende. Wird der Modus für Ungarn im Statute der landtäglichen Verhandlung vorbehalten, gleichzeitig aber die Wahlordnung für die übrigen Länder bis ins Detail oktroyiert, so ist dies eine mit dem Diplom in Widerspruch stehende, augenscheinlich ungleiche Behandlung. Ritter v. Lasser würde daher glauben, daß im § 7 des Reichsratsstatutes nur die unabänderlichen Hauptgrundsätze der Wahl auszusprechen, die Details aber, als variabler Natur, in die Landesstatute zu verlegen wären. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärt sich mit der Fassung des § 7 völlig einverstanden. Man könne den vielen Landtagen die Diskussion über den Wahlmodus nicht freigeben. Andererseits würden diese Grundsätze auch für Ungarn, immerhin vorbehaltlich der Austragung im Diätalwege, vorgezeichnet werden können. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Pratobevera</rs>
+                     </hi> sprach sich ebenfalls dahin aus, daß der beantragte, zwar komplizierte, aber sehr zweckmäßige Wahlmodus im Statute vorgezeichnet werde, ebenso der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister. Präsident Mažuranić</rs>
+                     </hi> äußerte, daß es in Kroatien bei seiner ganz homogenen Nationalität an einem Motiv zur Annahme des fraglichen Modus fehle und es am zweckmäßigsten wäre, dem Landtage die Festsetzung der Wahlmodalitäten ganz zu überlassen.</p>
+                  <p>Den <date when="1861-02-11">11. Februar 1861</date>.</p>
+                  <p>Fortsetzung am <date when="1861-02-11">11. Februar 1861</date>. Vorsitz und Gegenwärtige wie am 9. d. M. mit Ausnahme des Kriegsministers, statt dessen der FML. Ritter v. Schmerling intervenierte, dann des Präsidenten v. Mažuranić.</p>
+                  <p>§7. Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi> beantragte die Weglassung dieses Paragraphes. <pb n="44" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s44.pdf"/>Ohnehin wird in den Landesstatuten für die Wahl der Abgeordneten zum Reichsrate eine Bestimmung aufgenommen, es entfällt also die Notwendigkeit des ersten Absatzes des Paragraphes. Die im zweiten Absatze enthaltene Bestimmung über die Wahl der Abgeordneten aus den betreffenden Kreisen, Städten und Körpern ist für Ungern nach der Organisierung des ungrischen Landtages unausführbar. Der dritte Absatz endlich erscheint als entbehrlich, weil der Regierung eintretendenfalls immer vorbehalten bleibt, nach dem Grundsatze: salus rei publicae suprema lex esto direkte Wahlen anzuordnen, wenn einzelne Landtage nicht wählen können oder wollen. Er ist aber auch, hier im Statute ausgedrückt, namentlich Ungern gegenüber bedenklich, weil er den Eindruck eines von der Regierung nach Willkür zu gebrauchenden Hinterhalts machen würde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> bestätigte dies nicht nur bezüglich Ungerns, sondern auch bezüglich der übrigen Kronländer und besorgte, daß diese Bestimmung, welche nach der Meinung des Staatsministers einen moralischen Druck auf die Landtage zur Beteiligung an den Reichsratswahlen ausüben soll, leicht die entgegengesetzte Wirkung haben dürfte. Warum wird keine Konstitution im modernen Sinne gegeben? Weil die eigentümliche Zusammensetzung der Monarchie aus Völkern der verschiedensten Nationalität sie unmöglich macht. In den Völkern Österreichs ist das Gefühl der Gemeinsamkeit aller Interessen nicht hinlänglich entwickelt. Überall treten die provinziellen Verschiedenheiten und Gegensätze hervor. Die Regierung muß daher diese berücksichtigen und sich darauf beschränken, die Einheit in demjenigen zu behaupten, wo die Gemeinsamkeit der Interessen, wie z. B. im Finanz-, Heer- und Handelswesen, wirklich besteht. Zeigt sie, wie hier im Schlußsatz des § 7, die Absicht, mit Umgehung der Landtage die Reichsvertretung direkt zu berufen, so wird dies als ein Versuch gedeutet werden, die den einzelnen Ländern mittelst der Einsetzung der Landtage gemachte Konzession illusorisch zu machen und namentlich in Ungern entschieden gegen die Ausgleichung wirken. Hat man den Fall vor Augen, wo ein Teil des Landes sich im Aufstande befindet, so begnüge man sich, wie dies in Ungern mehrmals (1687, 1715 und 1723) der Fall war, mit der Berufung des Landtages aus dem treu gebliebenen Teile, lasse aus ihm die Abgeordneten zum Reichsrate wählen und stelle ihn der Revolution als Gegengewicht entgegen. Hätte man 1849 dasselbe in Ungern getan, die Dinge wären daselbst nie so weit gekommen, wie es geschehen. Wäre aber ein ganzes Land im Aufstande, so könnte ja ohnehin von einer Vertretung desselben für die Dauer desselben keine Rede sein. Soll es gelingen, das Reichsratsstatut für Ungern zur Geltung zu bringen, so muß dieser Paragraph wegbleiben, denn seine Bestimmungen widerstreben der Auffassung über den Grundcharakter des Landes und seines Landtages als positiv berechtigten politischen Körpers, dessen Verhältnis zu den übrigen Teilen der Monarchie auf Grundlage der Pragmatischen Sanktion erst zu regeln ist. Es direkt und ohne Beachtung seiner eigentümlichen politischen Berechtigung zum Zusammengehen mit Österreich zu bewegen, wäre jetzt, nachdem der dazu auch nur vielleicht günstige Moment der Überwindung <ref xml:id="fn_5_1_7_a2">faktischer Empörung</ref>
+                     <note type="variant" n="a2" target="#fn_5_1_7_a2">Einfügung a2–a2 Szécsens.</note> im Jahre 1849 längst vorüber, ein wirklich vergebliches Bemühen.</p>
+                  <p>
+                     <pb n="45" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s45.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte dagegen: Der erste Absatz des § 7 enthält eine Bestimmung, die zwar auch in den Landesstatuten enthalten ist, er gehört aber doch der Vollständigkeit wegen auch in das Reichsratsstatut, und gegen das meritum desselben kann wohl keine gegründete Einwendung gemacht werden. Der zweite Absatz berücksichtigt eben die provinziellen Verschiedenheiten, indem er anordnet, daß die Wahl aus den betreffenden einzelnen Kreisen etc. getroffen werden soll, so daß überall die eigentümlichen Interessen im Reichsrate zur Vertretung gelangen. Sollte diese Modalität in Ungern auf Schwierigkeiten in der Ausführung stoßen, so könnte bezüglich dieses Königreichs der Wahlmodus einer besonderen nachträglichen Bestimmung vorbehalten werden und ist der Staatsminister bereit, hierwegen einen Zusatz zum § 7 einzuschalten. Belangend den dritten Absatz, so sollte damit der Regierung das Recht gewahrt werden, direkte Wahlen vorzunehmen, wenn aus was immer für Gründen der Landtag nicht berufen werden könnte oder der berufene nicht wählen wollte. Namentlich sollte darin für den letzteren Fall ein leiser moralischer Druck für den renitenten Landtag liegen, indem er aus der vorliegenden Bestimmung die Nutzlosigkeit seiner Renitenz ersieht. Aber die Regierung kann diese Absicht nicht offen aussprechen; es wurde der Bestimmung eine andere Wendung gegeben. Sie soll auch in gewöhnlichen, ruhigen Zeiten nicht zur Anwendung kommen. Nachdem aber die Vorstimmen selbst zugegeben haben, daß die Notwendigkeit ihrer Anwendung eintreten kann, so ist es gewiß aufrichtiger und loyaler, das Recht der Regierung im Statute im vorhinein zu sichern, als es mit Anwendung des Prinzips der Staatsnotwendigkeit zwar, aber über das gegebene Gesetz hinaus faktisch in Ausübung zu bringen, was gewiß einen schlimmeren Eindruck machen würde, als jener wäre, den die Vorstimmen von dem Paragraphesabsatze der Frage befürchten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> würde aus den von den ungrischen Stimmführern angeführten Gründen sich für die Weglassung des Schlußabsatzes erklären, wenn dagegen eine Bestimmung aufgenommen wird, daß die Reichsratsbeschlüsse auch dann Gültigkeit haben, wenn nicht alle Länder auf dem Reichsrate vertreten sind. In dieser Beziehung wies der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> auf die Bestimmungen des §13 des Statutes hin. Sollte sich aber für die Beibehaltung dieses Absatzes ausgesprochen werden, so müßte er etwas präziser textiert und darin die Worte „kann vom Kaiser“ als der Ah. Machtvollkommenheit nicht angemessen geändert werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, welcher übrigens eine klärere Bestimmung über den Wahlmodus im zweiten Absatze gewünscht hätte, war für die Beibehaltung des dritten Absatzes, jedoch in einer solchen Fassung, welche die wesentlichen Umstände hervorhebt, daß nur dann, wann eine ordnungsmäßige Wahl ohne Verschulden der Regierung nicht möglich, und nur dort, wo sie nicht möglich ist, zur direkten Wahl werde geschritten werden. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi>, welcher zwar anerkannte, daß, ehe an eine eigentliche <ref xml:id="fn_5_1_7_b2">einheitliche Zentralvertretung aus direkten Wahlen</ref>
+                     <note type="variant" n="b2" target="#fn_5_1_7_b2">Einfügung b2–b2 Lassers.</note> zu denken sei, noch viele Jahre vergehen werden und man sich diesfalls noch immer der Landtage werde bedienen müssen, bemerkte: Der Schlußabsatz des § 7 gründe sich auf das Prinzip, daß nicht der Landtag als <pb n="46" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s46.pdf"/>Korporation im Reichsrate zu vertreten sei, sondern das Land. Der Landtag bildet nur dessen Wahlkörper, dessen Wahlmänner, und darum, weil diese nicht vorhanden sind oder ihrer Pflicht nicht nachkommen, kann das Land von der Vertretung im Reichsrate nicht ausgeschlossen bleiben. Da nun solche Fälle eintreten können, so ist es gewiß besser, das Recht der direkten Wahlen der Regierung im Statut ausdrücklich zuzusprechen, als sie, wenn sie via facti davon Gebrauch machen muß, dem Vorwurfe der Ungesetzlichkeit preiszugeben. Indem daher Minister v. Lasser für den Paragraph und insbesondere für dessen Schlußsatz stimmte, schlug er im Sinne der Vorstimmen dessen Fassung etwa also vor: „Treten ausnahmsweise Verhältnisse ein, welche die Wahlen für ein Land durch den Landtag nicht zum Vollzuge kommen lassen, so bleibt dem Kaiser vorbehalten“ etc. wie im Text.</p>
+                  <p>Alle übrigen Stimmen waren sohin für die Beibehaltung des § 7 mit dem bezüglich Ungerns zum zweiten Absatze von dem Staatsminister vorbehaltenen Zusatze und insbesondere mit dem vom Minister v. Lasser beantragten Texte des dritten Absatzes, welchen schließlich <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Freiherr v. Pratobevera</rs>
+                     </hi>, in der Hauptsache mit obigem übereinstimmend, folgendermaßen formulierte: „Sollten Verhältnisse eintreten, welche die Beschickung des Unterhauses durch Landtagswahlen nicht in Vollzug kommen lassen, bleibt dem Kaiser vorbehalten, unmittelbare Wahlen durch die Kreise, Städte und Körper anzuordnen.“</p>
+                  <p>Aus Anlaß des zum § 7, zweiter Absatz, beantragten Zusatzes wegen des Wahlmodus in Ungern machte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> zu § 6 den Vorschlag, das Königreich Ungern, Kroatien, Slawonien und Siebenbürgen, da sie vermöge ihrer besonderen staatsrechtlichen Verhältnisse in eine Kategorie gehören, welche sich darin wesentlich von den übrigen Ländern unterscheidet, unmittelbar nacheinander zu reihen und gewissermaßen von den andern auszuscheiden. Bei Ungern hätte übrigens die Aufführung der Woiwodina infolge der Reinkorporierung zu entfallen. Für diesen Vorschlag — bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> — spräche die Rücksicht, daß damit sogleich die Gruppe des engeren Reichsrates (§ 11) mit ihrer Stimmenzahl ersichtlich gemacht wäre. Allein die Reihung der Länder wurde nach dem großen Titel Sr. Majestät vorgenommen, und, da dieses — wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des kaiserlichen Hauses</rs>
+                     </hi> bemerkte — in allen Staatsschriften beobachtet zu werden pflegt, so besteht kein Grund, in diesem Gesetze hiervon abzuweichen.</p>
+                  <p>Die Mehrheit der Konferenz war daher für die Beibehaltung der im Entwurfe angenommenen Reihenfolge, um so mehr, als <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> bemerkte, daß die Frage über die sogenannten Länder der ungrischen Krone und wegen des Anschlusses von Dalmatien noch in der Schwebe ist und durch eine vom Kaisertitel abweichende Reihung nicht präokkupiert werden darf.</p>
+                  <p>§ 8. Der <hi rend="#letterspaced">
+                        <rs type="person">ungrische Hofkanzler</rs>
+                     </hi>, mit der Ernennung des Präsidenten und des Vizepräsidenten des Oberhauses durch Se. Majestät einverstanden, hielt für anomal und unhaltbar, diese Funktionäre in dem aus Wahlen hervorgegangenen Unterhause anders als durch freie Wahl dieses Hauses selbst, vorbehaltlich der Ah. Bestätigung Sr. Majestät, bestellen zu lassen. Weit entfernt, das Recht der Krone schmälern zu wollen, ist er bei diesem Antrage von der Überzeugung geleitet, <pb n="47" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s47.pdf"/>daß die Regierung hierin dem Drängen des Hauses wird nachgeben müssen. In allen Verfassungen werden die Präsidenten der aus Wahlen hervorgegangenen Versammlungen von diesen selbst gewählt. Es ist kein Vorteil für die Krone, ihnen einen Vorstand zu oktroyieren. Denn ist der von ihr Ernannte ein Mann, der das Vertrauen des Hauses genießt, der also von ihm selbst gewählt worden wäre, so ist Ernennung oder Wahl in der Wirkung für die Regierung ganz gleich. Ist er es nicht, so kann er sich im Hause nicht halten, und wird er geworfen, so hat die Regierung nichts als Verlegenheit davon, wogegen das Haus, das eine schlechte Wahl getroffen, auch die Verantwortung dafür übernehmen muß. Ein Zeichen des Mißtrauens wäre es, einer aus gewählten Mitgliedern bestehenden Versammlung das Recht der Präsidentenwahl zu nehmen. Die Garantie für die Regierung liegt anderswo.</p>
+                  <p>Für diesen Antrag sprachen sich der <hi rend="#letterspaced">
+                        <rs type="person">Finanz-</rs>
+                     </hi> und der<hi rend="#letterspaced">
+                        <rs type="person" ana="indirect"> Handelsminister</rs>
+                     </hi>, dann FML. <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Schmerling</rs>
+                     </hi> aus. Der Handelsminister hätte dies auch rücksichtlich der Provinziallandtage für wünschenswert gehalten und glaubte übrigens, daß die Wahl auf drei bis sechs Individuen ausgedehnt und diese der Krone zur Auswahl vorgeschlagen werden sollten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> bemerkte: Nach seiner Erfahrung muß die Frage, ob Wahl, ob Ernennung des Präsidenten, lediglich vom Standpunkte der praktischen Zweckmäßigkeit beantwortet werden. Besteht der Körper, für welchen diese Frage gelöst werden soll, aus politisch Geschulten und bekannten Persönlichkeiten, so kann ihm füglich die Wahl überlassen werden. Er wird sich sicher die besten aussuchen. Anders ist es mit dem Unterhaus hier, das zum ersten Male zusammentritt, aus den heterogensten Elementen besteht, aus Personen, die sich nicht kennen und verstehen, meist ohne parlamentarische Erfahrung und Kenntnisse. Von einem solchen Körper ist wohl nicht zu erwarten, daß er eine glückliche Wahl zustande bringe. Hier muß also, wenn man es nicht dem Zufall überlassen will, die Regierung einschreiten, denn sonst greift man, wenn die erste Wahl nicht entspricht, zu dem auf dem 1848er Reichstage beliebten Auskunftsmittel der monatlichen Wahlen, welches aber noch viel schlimmer ist, weil sich dann die Tätigkeit der Parteien lediglich auf die Präsidentenwahl wirft. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> legte seiner parlamentarischen Erfahrung aus Frankfurt nach keinen besonderen Wert darauf, ob der Präsident gewählt oder ernannt wird. Im Interesse der Regierung liegt es, an die Spitze eines politischen Körpers einen Mann zu setzen, der die nötige Leitungsgabe und Vertrauenswürdigkeit hat. Von ihr ist nicht wohl ein Mißgriff in der Wahl zu besorgen, und der Staatsminister fände es nur konsequent, in dem aus den Landtagswahlen hervorgegangenen Hause den Präsidenten ebenso wie in den Landtagen selbst vom Kaiser ernennen zu lassen, zumal derselbe überall, sowohl im Landtage als im Unterhause, ein vom Lande bzw. vom Landtage Gewählter sein muß. Die Wahl des Präsidenten durch das Haus selbst aber hat außerdem, daß sie nach dem, was Minister v. Lasser anführte, sehr unglücklich ausfallen kann, noch eine Schattenseite: Die Minorität des Hauses, die ihren Kandidaten nicht durchsetzen konnte, erschwert die Stellung und Wirksamkeit des Präsidenten der Majorität und bereitet ihm, wo sie kann, Hindernisse und Verlegenheiten. Endlich ist der Einfluß des Präsidenten im Hause nicht so groß, um eine Parteistellung einnehmen <pb n="48" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s48.pdf"/>zu können. Aber eben darum — versetzte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> — hat auch die Regierung kein besonderes Interesse daran, ihn zu ernennen. Hoffentlich wird der Reichsrat bzw. dessen zweite Kammer aus tüchtigeren Elementen zusammengesetzt sein als der 1848er Reichstag. Alsdann ist aber auch zu erwarten, daß er einen tüchtigen Präsidenten wählen werde. Jedenfalls wird der Gewählte sich des Vertrauens der Kammer in höherem Grade erfreuen als ein von der Regierung ihr aufoktroyierter, nachdem nun einmal heutzutage das Oktroyieren der Regierung in der öffentlichen Meinung nicht mehr beliebt ist.</p>
+                  <p>Von den übrigen hier nicht namentlich aufgeführten Votanten fand — über Anfrage Sr. k. k. Hoheit — keiner mehr über den § 8 etwas zu erinnern, nachdem derselbe während einer zeitweiligen Entfernung des ungrischen Hofkanzlers aus der Sitzung vorgelesen und unbeanständet durchgegangen war.</p>
+                  <p>§9. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> meinte: Wenn nicht festgesetzt wird, daß ein jährliches Budget verfaßt wird, wäre es besser, die Bestimmung über die alljährliche Berufung des Reichsrates zu beseitigen oder durch die Verweisung auf die Finanzperiode und [infolge] eines etwa eintretenden außerordentlichen Bedürfnisses zu ersetzen, damit Se. Majestät freie Hand behalten, den Reichsrat in einem oder dem anderen Jahre nicht zu berufen.</p>
+                  <p>Hiermit war auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> einverstanden, und zwar mit dem Beisatze, daß, wenn eine Bestimmung hierwegen in das Statut aufgenommen würde, dieselbe ausdrücklich auf den gesamten Reichsrat zu beziehen sei, weil für den engeren Reichsrat selbst in der Finanzperiode nicht immer Gegenstände der Verhandlung vorhanden sein werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> legte dagegen einen besonderen Wert auf die Beibehaltung des § 9 in seiner vorliegenden Fassung, weil er sich den Fall nicht denken kann, daß in einem Jahre kein Gesetz erlassen werden sollte, wozu die Mitwirkung des Reichsrates erforderlich wäre. Er glaubt auch, daß die ausdrückliche Bestimmung der alljährlichen Berufung einen günstigen Eindruck hervorbringen und jedes Mißtrauen von vornehinein beseitigen wird, als gedächte die Regierung diese verfassungsmäßige Institution mit [der] Zeit einschlafen zu lassen. Auch der Sinn der Zusammengehörigkeit der Länder und Individuen im Reiche wird damit befestigt. Übrigens dürfte es nicht nötig sein, zu sagen, der gesamte Reichsrat werde berufen, indem die allgemeine Bezeichnung „Reichsrat“ ohnehin den gesamten mit dessen Abteilung, dem engeren, in sich begreift. Ergäbe sich wirklich in einem Jahre kein Bedürfnis zur Berufung des Reichsrates, so steht es der Regierung (§ 17) frei, ihn zu vertagen. Jährliche Landtäge oder Reichsratsversammlungen — bemerkte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> — führen zwar in der Regel zu einer parlamentarischen Regierung, die für Österreich von Übel wäre, allein nachdem der Wirkungskreis des Reichsrates (§§ 10 und 11) ein genau begrenzter sein soll, so ist dies nicht zu besorgen, und stimmte Graf Szécsen daher für die Beibehaltung des Paragraphes. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> bemerkte, der § 9 könnte insofern weggelassen werden, als im § 10 ohnehin von den jährlichen Voranschlägen die Rede ist, die vom Reichsrate, also auch jährlich, festgesetzt werden müssen. Allein auch er hielt die ausdrückliche Bestimmung der jährlichen Berufung im Statute darum für unerläßlich, damit nicht gesagt werden könne, es sei der Regierung nicht ernst mit der Ausführung der Verfassung.</p>
+                  <p>
+                     <pb n="49" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s49.pdf"/>Aus eben diesem Grunde und weil es nach dem Zustande der Finanzen und der politischen Verhältnisse noch vieler Jahre bedürfen wird, um die Staatsvoranschläge für mehrere Jahre zusammenfassen zu können, erklärten sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und mit ihm die übrigen Stimmen für die unveränderte Beibehaltung des Paragraphes.</p>
+                  <p>Nach dem Erachten des Finanzministers sollte übrigens auch der Ort, wo die Versammlung zu tagen hätte, nämlich die Reichshaupt- und Residenzstadt, als Zentrum der Monarchie und Repräsentantin der Reichseinheit benannt werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte dagegen: Es verstehe sich wohl von selbst, daß der Reichsrat nur am Sitze der Zentralregierung, also in der Regel in Wien, werde versammelt werden. Falls aber Umstände einträten, welche, wie im Jahre 1848, eine Berufung desselben an einen anderen Ort notwendig oder rätlich machen sollten, so wären der Regierung mit einer derlei ausdrücklichen Bestimmung die Hände gebunden. Er war daher für die Nichtbenennung des Versammlungsortes, und die Majorität der Konferenz trat ihm bei.</p>
+                  <p>§ 10. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> wünschte die Gegenstände genau bezeichnet zu sehen, über welche sich die Wirksamkeit des Reichsrates nicht zu erstrecken hat, namentlich bezüglich aller diplomatischen Verhandlungen, wo das Eingreifen einer aus so verschiedenen Nationalitäten zusammengesetzten politischen Korporation von unberechenbaren Nachteilen für <ref xml:id="fn_5_1_7_c2">den Dienst Sr. Majestät des Kaisers</ref>
+                     <note type="variant" n="c2" target="#fn_5_1_7_c2">Korrektur c–c Rechbergs aus <quote>die Politik der kaiserlichen Regierung</quote>.</note> sein würde. Votant wies namentlich auf die drei Hauptrichtungen hin, nach denen die auswärtige Politik Österreichs tätig sein muß: gegen den Deutschen Bund, Italien und den Orient, und zeigte, wie verderblich es wäre, wenn die Regierung sich darin von einer zufälligen Majorität müßte bestimmen lassen, welche aus einer spezifisch nationalen Auffassung der Beziehungen zu jenen Ländern hervorgegangen wäre, oder wenn sie sich durch unberufene Interpellationen über auswärtige Verhältnisse zur Darlegung ihrer Ansichten und Absichten genötigt und sohin in der Durchführung ihrer Verhandlungen mit auswärtigen Kabinetten gehemmt sähe. <ref xml:id="fn_5_1_7_d2">Er ersuche die hohe Konferenz, ihm zu gestatten, seine Bemerkungen durch Anwendung auf einen speziellen Fall zu erläutern. Die Mehrheit im Reichsrate würde keinenfalls dem deutschen Stamme angehören. Würde nun die kaiserliche Regierung sich in der Lage sehen, in Erfüllung ihrer Bundespflichten dem Deutschen Bunde gegenüber in dem Reichsrate ihre deutsche Politik verteidigen zu müssen, so würden die Ungern, die Südslawen, die Polen und die Italiener sich vereinigen in dem Ausspruche, daß sie jede Politik, welche für Deutschland Opfer an Geld oder Blut auferlege, verwerfen, und es würde sich die kaiserliche Regierung infolge eines solchen Votums in die Unmöglichkeit versetzt sehen, ihre Rechte und ihre Machtstellung in Deutschland zu behaupten. Gleichen Hindernissen dürfte auch die Befolgung der Politik in Italien oder im Orient begegnen.</ref>
+                     <note type="variant" n="d2" target="#fn_5_1_7_d2">Einfügung d–d Rechbergs.</note> Er beantragte daher die Aufnahme einer Bestimmung, welche die auswärtige Politik unbedingt dem Wirkungskreise des Reichsrates entzieht, weil nur dann, wenn eine solche Bestimmung im Statute enthalten ist, jeder Diskussion <pb n="50" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s50.pdf"/>über auswärtige Politik der Weg gesetzlich verschlossen ist. Ob nicht auch rücksichtlich militärischer Angelegenheiten ähnliches bestimmt werden soll, überließ er dem Ermessen des Kriegsminister-Stellvertreters. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> glaubte nicht, daß eine solche Bestimmung nötig sei. Eine kräftige Regierung wird den Reichsrat so leiten, daß er sich keine Übergriffe erlauben kann. Fragen über schwebende Verhandlungen, deren nicht nur in auswärtigen, sondern auch in Angelegenheiten der inneren Verwaltung vorkommen, werden — wie in konstitutionellen Versammlungen anderer Länder — so auch hier von dem betreffenden Minister einfach zurückgewiesen werden. Sie würden aber auch, wenn die beantragte Bestimmung ins Statut käme, doch nicht zu hindern sein, weil ein absolutes Stillschweigen nicht auferlegt werden kann. Sie tauchen bei den Verhandlungen, die in der gesetzlichen Kompetenz des Reichsrates liegen, von selbst auf. Endlich würde, wenn es sich z. B. um einen Staatsvertrag handelt, dessen Bestimmungen für die Untertanen des Reiches als Gesetz verbindende Kraft haben sollen, die Mitwirkung des Reichsrats dabei kaum zu umgehen sein. Wie wird sich also eine Formel finden lassen, um eine negative Bestimmung genau zu präzisieren? <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> fand über das Bedenken des Grafen Rechberg in der Bestimmung des Paragraphes selbst die vollkommene Beruhigung, indem darin genau bezeichnet ist, was zur Kompetenz des Reichsrates gehört, nämlich Gegenstände der Gesetzgebung etc., mithin alles, was darin nicht aufgeführt ist, mithin auch die auswärtigen Angelegenheiten, wenn davon erwähnt werden wollte, einfach mit Hinweisung auf den Inhalt des Paragraphes als zur Kompetenz des Reichsrates nicht gehörig vom Präsidenten von der Diskussion ausgeschlossen werden kann. Auch militärischerseits — erklärte der <hi rend="#letterspaced">
+                        <rs type="person">Stellvertreter</rs>
+                     </hi> des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsministers</rs>
+                     </hi> — ist eine besondere Vorkehrung nicht nötig, indem die Kompetenz des Reichsrates im Schlußsatze des Paragraphes lediglich auf die Art und Weise sowie auf die Ordnung der Militärpflicht beschränkt ist. Die Mehrheit erklärte sich sonach für die Ansicht des Staatsministers.</p>
+                  <p>Ein Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers Grafen Szécsen</rs>
+                     </hi>, im Eingange des Paragraphes das Wort „Reichsangelegenheiten“ zu beseitigen, weil es im kaiserlichen Diplom nicht vorkommt, wurde nicht angenommen, nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> übereinstimmend mit dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkt hatte, daß, solange es ein Reich und einen Reichsrat gibt, auch Reichsangelegenheiten bestehen, insbesondere als Gegensatz zu den [in] § 11 erwähnten, nur einigen Kronländern gemeinsamen Gegenständen. Letzterer beantragte vielmehr, daß in diesem Paragraphe, zweiter Absatz, statt „Staatshaushalt“ gesetzt werde „Reichshaushalt“. Dagegen beanständete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> bei diesem Passus die „Feststellung der Voranschläge durch ein Gesetz“, weil dieses letztere im kaiserlichen Diplome nicht vorkommt und in dieser Fassung einerseits auf das Recht der Steuerbewilligung, also auch der Steuerverweigerung, hindeutet, andererseits aber für den Fall keine Vorsorge trifft, daß die Steuern forterhoben werden können, wenn die Finanzperiode, für welche das Gesetz gilt, abgelaufen und das Gesetz für die neue noch nicht erschienen ist. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> legte einen besonderen Wert auf die Beibehaltung der Feststellung des Voranschlags durch ein Gesetz, weil nur dieses die sichere Basis für eine gesetzmäßige Finanzgebarung gewährt. Er besorgte <pb n="51" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s51.pdf"/>nicht, daß daraus ein Steuerbewilligungs- oder -verweigerungsrecht des Reichsrates abgeleitet werden könne. Denn in betreff der Steuern ist ihm nur zur Auflegung neuer oder Erhöhung der bestehenden das Zustimmungsrecht eingeräumt. Über die Verwendung derselben aber kann ihm die Bestimmung nicht wohl entzogen werden, weil sie im Diplom vom 20. Oktober durch die Übertragung der Feststellung der Voranschläge zugesichert ist, ihm also vorbehalten bleibt, gegen einzelne Posten des Ausgabenbudgets seine Einwendungen zu machen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> schlug vor, dem Bedenken des Polizeiministers dadurch zu begegnen, daß nach der Bestimmung über die Feststellung des Budgets gesagt werde: „die Bedeckung geschieht durch die bestehenden Steuern“, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> gab dieser Idee einen präziseren Ausdruck, indem er sagte: „die bestehenden Steuern bleiben aufrecht und können nur durch ein Gesetz abgeändert werden.“ <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> machte aber auf den wesentlichen Unterschied zwischen <ref xml:id="fn_5_1_7_e1">bleibenden Steuern und periodischen Steuerausschreibungs- und</ref>
+                     <note type="variant" n="e1" target="#fn_5_1_7_e1">Einfügung e1–e1 Lassers.</note> Finanzgesetzen aufmerksam. Unsere Steuergesetze, d. i. die Bestimmungen über die Objekte, welche der Besteuerung unterliegen, über den Betrag der Steuer und die Modalität der Einhebung etc. bestehen und bestehen so lange, bis sie nicht durch ein Gesetz aufgehoben werden. Dennoch wird alljährlich ein Steuerausschreibungspatent (Gesetz) nach Maß des Staatsbedürfnisses in dem gleichen oder höheren Ausmaß der Steuerquote von Sr. Majestät erlassen, welches Gesetz künftig nur unter Mitwirkung des Reichsrates, nämlich nach Feststellung des Staatsvoranschlags, wird erlassen werden können. Es würde also durch einen der oben beantragten Zusätze das Bedenken nicht behoben, welches der Polizeiminister gegen die Bestimmung des Steuerpassus hatte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> bestand also darauf, daß jener Zusatz so formuliert werde: „Bis zur neuen Feststellung des Budgets werden die bestehenden Steuern eingehoben.“</p>
+                  <p>Hiermit waren auch alle<ref xml:id="fn_5_1_7_f1"/>
+                     <note type="variant" n="f1" target="#fn_5_1_7_f1">Korrektur Marherrs aus <quote>die mehreren</quote>.</note> Stimmen einverstanden, obwohl die mehreren selbst dies nicht für unumgänglich notwendig erkannten.</p>
+                  <p>Gegen einen vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> als für den öffentlichen Kredit als notwendig anerkannten, gehörigen Orts einzuschaltenden Zusatz: „Die Staatsschuld ist vom Reiche gewährleistet und“ (nachdem die eingesetzte Staatsschuldenkommission wird aufgelöst sein<note type="footnote" n="8">Nach Schaffung einer Staatsschuldenkontrollskommission des Reichsrates durch das Gesetz v. <date when="1862-12-13">13. 12. 1862</date>, <bibl type="archival">RGBL. Nr. 96/1862</bibl>, beendete die alle Staatsschuldenkommission am <date when="1862-12-17">17. 12. 1862</date> ihre Tätigkeit; dazu <bibl type="secondary">
+                           <author>Püregger</author>, Fünfzig Jahre Staatsschuld 24</bibl>.</note>) „unter die Kontrolle des Reichsrates gestellt“ ergab sich — nach Weglassung der vom Polizeiminister und Graf Szécsen für bedenklich erachteten Worte „vom Reiche gewährleistet“ — keine Einwendung. Ebenso wurde der Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers des Äußern</rs>
+                     </hi> angenommen, daß die im Reichsratsstatut vom <date when="1860-03-05">5. März 1860</date> enthaltene „Kriegs- und Dringlichkeitsklausel<note type="footnote" n="9">Dies ist eine unpräzise Formulierung; die Kriegs- und Dringlichkeitsklausel findet sich nicht im Patent v. <date when="1860-03-05">5. 3. 1860</date>, <bibl type="archival">RGBL. Nr. 56/1860</bibl> (<bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 51</bibl>), sondern im Ah. Handschreiben an Erzherzog Rainer v. <date when="1860-07-17">17. 7. 1860</date>, <bibl type="archival">RGBL. Nr. 181/1860</bibl>
+                        <bibl type="secondary">
+                           <author>(Bernatzik</author>, Verfassungsgesetze Nr. 54)</bibl>.</note>“, nämlich Geld zu beschaffen, wenn der Reichsrat nicht berufen werden könnte, um <pb n="52" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s52.pdf"/>die Zustimmung dazu nachträglich zu verlangen, eingeschaltet werde. Endlich bemerkte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi>, daß der vorletzte Absatz nicht genau nach dem Diplom abgefaßt sei. Dort heißt es, es sollen die Grundsätze über Zettelbankwesen, die Gesetzgebung in betreff der Grundsätze des Post-, Telegraphen- und Eisenbahnwesens unter Mitwirkung des Reichsrates erfolgen<note type="footnote" n="10">Dies wurde im II. Abschnitt des Oktoberdiploms festgesetzt; siehe <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 225</bibl>.</note>, während hier die „Regelung“ dieser Angelegenheiten überhaupt dem Reichsrate zugewiesen wird. Da seines Erachtens ein großer Unterschied zwischen der Festsetzung von allgemeinen Grundsätzen und zwischen der Regelung solcher Angelegenheiten besteht, indem die Regelung auch auf alle Detailbestimmungen Bezug hat und es nicht wünschenswert erscheint, die Kompetenz des Reichsrates auch auf Gegenstände der Verwaltung auszudehnen, so wäre sich in diesem Absatz genau an den Wortlaut des Diploms zu halten, womit auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> einverstanden war, damit nicht etwa jede Verhandlung über Eisenbahnkonzessionen etc. an den Reichsrat gelange. Der Finanzminister war dagegen für die Belassung des Textes, indem so wichtige Angelegenheiten wie Eisenbahnen etc., die ins allgemeine Staatsleben eingreifen, einer umfassenden und eindringlichen Beurteilung wert sind. Auch <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> fand den Text dieses Absatzes insofern unbedenklich, als im Eingang des Paragraphes die Wirksamkeit des Reichsrates nur auf die Gesetzgebung beschränkt ist, mithin die nachfolgende Enumeration der Gegenstände sich nur auf diese beziehen kann. Indessen unterläge auch die Textierung nach dem Wortlaute des Diploms keinem Anstande, worüber nichts weiter erinnert wurde.</p>
+                  <p>Fortsetzung den <date when="1861-02-12">12. Februar 1861</date>. Gegenwärtige wie am 10. d. M. mit Ausnahme des ungarischen Hofkanzlers und des Präsidenten Mažuranić.</p>
+                  <p>Zum § 11, Absatz 2, beantragte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> einen Zusatz am Schluß: „oder von der Regierung vorkommendenfalls den Landtagen zugewiesen werde.“ Dadurch wird der Regierung die Möglichkeit gewahrt, gewisse legislative Angelegenheiten (z. B. die Grundbuchsführung) nach Maßgabe der Umstände einem einzelnen Landtage zur Behandlung zuzuweisen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> findet diesen Zusatz nicht praktisch. Berührt eine Angelegenheit bloß ein einzelnes Land, so geht die Sache selbstverständlich ausschließlich dahin. Berührt sie aber mehrere, so ist es praktisch, daß sie gemeinsam behandelt werde. Man hüte sich nur vor dem Zersplittern und halte den so vieljährigen legislativen Verband der Länder diesseits der Leitha möglichst aufrecht. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> hielt die Textierung des fraglichen Absatzes im Entwurfe für genügend, zumal die Kompetenz der Landtage in dem § 18 der Landesstatute abgegrenzt und im § 19 der Regierung das Recht gewährt ist, Vorschläge von den Landtagen einzuholen. Auf die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> geäußerte Besorgnis, daß ein Landtag nach § 11, Absatz 4, dem Reichsrate die Entscheidung über eine Landesangelegenheit aufzwingen könnte, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß ja dem Reichsrate das Recht nicht benommen werden kann, die Verhandlung an den Landtag zurückzuweisen.</p>
+                  <p>
+                     <pb n="53" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s53.pdf"/>Der letzte Absatz dieses Paragraphes, wonach Kompetenzstreitigkeiten zwischen dem engeren Reichsrate und einem Landtage von Sr. Majestät dem Kaiser über Antrag und Beirat des engeren Reichsrates entschieden werden, veranlaßte eine längere Erörterung, indem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Baron Pratobevera</rs>
+                     </hi> der Meinung waren, daß eine Kompetenzentscheidung schon in den Bereich der Gesetzgebung falle und der Reichsrat somit dabei nicht bloß den Beirat zu üben habe. Diese beiden Minister sowie <hi rend="#letterspaced">
+                        <rs type="person">Graf v. Szécsen</rs>
+                     </hi> stimmten für die Weglassung des letzten Absatzes. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> war dagegen der Meinung, daß die Entscheidung bloß über Beirat des Reichsrates Sr. Majestät vorzubehalten wäre, weil sonst die weitere Frage eintritt, wer zu entscheiden habe, wenn die Krone und der Reichsrat über die Kompetenz verschiedener Meinung sind. Dieser Punkt muß im Statute geregelt sein, und darum könne der Absatz nicht weggelassen werden. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi>, der Meinung des Staatsministers beitretend, findet es um so nötiger, der Krone das Entscheidungsrecht intakt vorzubehalten, damit sie je nach Umständen den allfälligen föderalistischen Bestrebungen im Reichsrate <ref xml:id="fn_5_1_7_a3">oder den separatistischen Landtagstendenzen</ref>
+                     <note type="variant" n="a3" target="#fn_5_1_7_a3">Einfügung a3–a3 Lassers.</note> entgegentreten könne. Übrigens sei seine Meinung, daß, juridisch ausgedrückt, „im Zweifel die Vermutung für die Kompetenz des Reichsrates streite“.</p>
+                  <p>Auch die übrigen Stimmen waren für die Beibehaltung des Absatzes in seiner dermaligen Fassung.</p>
+                  <p>Der § 12 wird — wie der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bemerkte — dem Texte nach mit der Fassung der analogen Bestimmung in den Landesstatuten in Einklang gebracht werden<note type="footnote" n="11">§ 12 des Grundgesetzes über die Reichsvertretung entspricht § 17 der Landesordnungen.</note>.</p>
+                  <p>Bei § 13, Absatz 2, bemerkte der Staatsminister, daß bei den „zwei Dritteln der Stimmen“ selbstverständlich nur zwei Drittel der Anwesenden gemeint sein können.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> würde es vorziehen, wenn der § 14 weggelassen würde, nachdem die Strömung der öffentlichen Meinung in Ungarn sich abermals den bindenden Instruktionen für die Deputierten zuwendet. Auch könne nicht geleugnet werden, daß bindende Instruktionen einen großen Teil der Überstürzungen des Jahres 1848 in Ungarn verhindert haben würden.</p>
+                  <p>Allein die Stimmenmehrheit erklärte sich für den Entwurf, nachdem bindende Instruktionen die Tätigkeit des Reichsrates in den meisten Fällen paralysieren würden.</p>
+                  <p>§ 15 blieb ohne Erinnerung.</p>
+                  <p>§ 16 wurde vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> umständlich motiviert und von der Konferenz dem Wesen nach nicht beanständet. Nur wird Ritter v. Schmerling über eine höchste Andeutung Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer den Ausdruck „die Reichsvertretungsfunktion der Mitglieder des Reichsrates“ mit dem „die Wirksamkeit der Mitglieder etc.“ vertauschen.</p>
+                  <p>Im § 18 beanständete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> den Ausdruck „die verantwortlichen Minister“, welcher ganz unerwartet, ja beinahe zufällig auf eine ganz unbestimmte Verantwortlichkeit <pb n="54" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s54.pdf"/>der Minister hinweiset. Aus dem Diplome könne man die Ministerverantwortlichkeit nicht ableiten, und er sehe auch nicht recht ab, wofür ein Kriegsminister jemand anderem als Sr. Majestät dem Kaiser verantwortlich sein könne. Wenn man diesen heikligen Punkt im Statute nicht ganz klar normieren kann oder will, so berühre man denselben lieber gar nicht. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> teilt diese letztere Ansicht, weil man sonst entweder zu wenig oder zu viel sagt. Verantwortlich! Wie? Wem? Wann? Das müßte entschieden ausgesprochen werden, wenn man überhaupt von Verantwortlichkeit reden will. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> äußerte, daß, wenn an diesem Orte von Verantwortlichkeit gesprochen wird, kann es sich wohl nicht um die moralische oder die bloß administrative, sondern nur um die parlamentarische Verantwortlichkeit handeln. Aber es scheine ihm nicht rätlich, diese delikate Frage hier Ungarn gegenüber aufzuwerfen — sie hängt innig zusammen mit dem Wunsche nach einem verantwortlichen ungarischen Ministerium. Und in der Tat, wie soll der Justizminister der deutschen Provinzen von einem Reichsrate zur Verantwortlichkeit gezogen werden, in dem ungarische Mitglieder sitzen und vice versa, warum soll ein Judex Curiae sich vor den deutsch-slawischen Mitgliedern verantworten? Graf Szécsen betrachtet die Minister als politisch verantwortlich in dem Sinne, daß sie sich nicht auf die Ah. Person berufen dürfen, um ihre Maßregeln zu rechtfertigen. Dies liege wohl schon in ihrer Stellung, werde aber durch die bloße Einschaltung des Wortes „Verantwortlichkeit“ im § 18 noch keineswegs klar ausgedrückt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> bemerkte, die sogenannte parlamentarische Verantwortlichkeit der Minister sei, praktisch genommen, nur ein leeres Wort. Seit 30 Jahren ist kein Fall dieser Art vorgekommen. <ref xml:id="fn_5_1_7_b3">Es sei auch nicht wohl denkbar, daß die Verantwortlichkeit praktische Geltung erhalte. Kein Gerichtshof würde einen Minister für einen Rat, den er seinem besten Wissen und Gewissen nach seiner Überzeugung gemäß der Krone erteile, verurteilen, wenngleich dieser Rat nicht glücklich gewesen. Lasse aber ein Minister sich irgendeine verbrecherische Handlung zuschulden kommen, so genüge das Kriminalgesetzbuch, um ihn zur Verantwortung und Strafe zu ziehen.</ref>
+                     <note type="variant" n="b3" target="#fn_5_1_7_b3">Korrektur b3–b3 Rechbergs aus <quote>denn nach dem Rücktritte eines Ministers vom Amte denkt niemand mehr daran, ihn zur Verantwortung zu ziehen</quote>.</note> Man müsse sich hüten, ein im Grunde bedeutungsloses Wort auszusprechen, bloß aus Nachgiebigkeit gegen vage Wünsche unter jenem Teile des Publikums, welches <ref xml:id="fn_5_1_7_c3">die Bedeutung des Wortes nicht ergründe oder nicht verstehe</ref>
+                     <note type="variant" n="c3" target="#fn_5_1_7_c3">Korrektur c–c Rechbergs aus <quote>in Staatsangelegenheiten keine klare Einsicht besitzt</quote>.</note>. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> erkennt so wie Graf Szécsen das Vorhandensein einer ministeriellen Verantwortlichkeit zum Schutz der Krone, jedoch nicht als Waffe gegen dieselbe. Der Minister muß die parlamentarischen Angriffe auf sich nehmen, damit sie nicht höher hinauf treffen. In diesem Sinne betrachtet sich Ritter v. Lasser seit dem 20. Oktober als verantwortlich. Am <date when="1851-08-20">20. August 1851</date> haben Se. Majestät die Verantwortlichkeit der Minister als bloß der Krone gegenüber bestehend auszusprechen geruht<note type="footnote" n="12">Ah. Kabinettsschreiben v. <date when="1851-08-20">20. 8. 1851</date>
+                        <bibl type="archival">RGBL. Nr. 194/1851</bibl> (<bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 46</bibl>).</note>. Gegenwärtig scheine die Verantwortlichkeit allerdings eine förmliche <pb n="55" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s55.pdf"/>neue Regelung zu verdienen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> stimmte für den Text des Entwurfes. Er sehe nicht ab, warum man sich scheuen solle, die den Ministern unleugbar obliegende tatsächliche<ref xml:id="fn_5_1_7_d3"/>
+                     <note type="variant" n="d3" target="#fn_5_1_7_d3">Korrektur Pleners aus <quote>große</quote>.</note> Verantwortlichkeit auszusprechen? Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Pratobevera</rs>
+                     </hi> scheint hier gleichfalls eine Andeutung über die Verantwortlichkeit wünschenswert zu sein. Daß Minister über ihre Gestion den verfassungsmäßigen Körpern Rede stehen, ist allenthalben, wo solche bestehen, vorgekommen und werde auch im Reichsrate nicht ausbleiben. Im übrigen vereinigt er sich mit der Meinung des Ritters v. Lasser. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> faßt die ministerielle Verantwortlichkeit so auf, daß, sobald die Verfassung gegeben ist, die Minister die volle Verantwortlichkeit für jede von ihnen im eigenen Wirkungskreise getroffene oder bei Sr. Majestät au. beantragte Maßregel zu tragen haben. Die Ah. Person darf keine Verantwortung treffen, und der Minister muß daher den parlamentarischen Kampf mit allen seinen Folgen auf sich nehmen. Darin liegt der Schutz für die Ah. Person, und eine Andeutung darüber scheine dem Staatsminister im Reichsratsstatute am Platz, wenn er gleich nicht verkennt, daß mit einem Worte diese Angelegenheit noch nicht geregelt sei und hier nicht auf Details eingegangen werden könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> glaubt, daß im § 18 die Verantwortlichkeit nicht zu berühren, sondern die Regelung derselben einem besonderen Gesetze vorzubehalten wäre.</p>
+                  <p>Zum § 19 warf der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> die Frage auf, ob man nicht auch den Ministern das Recht vorbehalten sollte, bei einer Mitteilung oder Verhandlung die Ausschließung der Zuhörer zu begehren. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hielt diesen ausdrücklichen Vorbehalt nicht für nötig, indem die Minister sich diesfalls an den Präsidenten wenden oder die erforderliche Zahl von zehn Mitgliedern des Hauses dazu bestimmen können, wodurch der Zweck ebenfalls erreicht wird.</p>
+                  <p>Gegen den Schlußparagraph 20 ergab sich von keiner Seite eine Erinnerung.</p>
+                  <p>Am <date when="1861-02-13">13. Februar 1861</date>.</p>
+                  <p>Fortsetzung den <date when="1861-02-15">15. Februar 1861</date>. Vorsitz und Gegenwärtige wie am <date when="1861-02-12">12. Februar 1861</date>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> las den anverwahrten, mit Berücksichtigung der Konferenzbeschlüsse redigierten Entwurf des Statutes für die Reichsvertretung<note type="footnote" n="13">Siehe Beilage zu diesem MRProt., Nr. 7 a.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erklärte sich mit Beziehung auf sein bei der ersten Beratung abgegebenes Gutachten gegen den Titel „Statut für die Reichsvertretung“, welchen er nicht hinlänglich klar und auch nicht ganz logisch findet, indem das Reich wohl im Reichsrate vertreten sei, aber der ganze Reichsrat nicht als Reichsvertretung gelten könne. Es wäre daher der Titel „Statut für den Reichsrat“ zu wählen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> fand aus gleichen Gründen den Titel „Reichsvertretung“, welcher auch mit dem Titel „Landesstatut“ nicht im Einklang steht, minder passend. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hielt es nicht für angezeigt, für den <pb n="56" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s56.pdf"/>politischen <ref xml:id="fn_5_1_7_a4">und repräsentativen</ref>
+                     <note type="variant" n="a4" target="#fn_5_1_7_a4">Korrektur a4–a4 Pleners aus <quote>Zentral-</quote>.</note> Körper die Benennung „Reichsrat“ beizubehalten, welche einer bisher bestandenen Behörde (ständiger Reichsrat) zukam [und] — wenn auch mit Unrecht — die neue Institution von vornherein unbeliebt machen dürfte. Man wird darin nicht das, was es ist, eine neue Schöpfung, erkennen. Wenn die Kronländer „Landtage“ erhalten, so drängt sich die Benennung „Reichstag“ mit logischer Konsequenz auf. Warum sollte man sich scheuen, diesen Titel zu wählen? Daß er in Ungarn Anstoß erregen werde — wie Graf Szécsen besorgt —, kann hier nicht entscheidend ins Gewicht fallen. Es wäre bedauerlich, wenn man in allem und jedem ausschließend nur die Rücksicht auf den Eindruck in Ungarn vorwalten lassen wollte. Wieviel ist wegen des Eindruckes in Ungarn bereits geschehen, und was wurde erreicht? Man dürfe sich keine Illusion machen, daß man durch Rücksichten solcher Art oder durch Worte überhaupt Ungarn kaptivieren werde. Votant bringe daher den Titel „Reichstagsstatut“ in Antrag. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> behielt sich — mit höchster Genehmigung des vorsitzenden durchlauchtigsten Herrn Erzherzogs — vor, seine Einwendung in bezug auf Titel und Inhalt des fraglichen Statuts kollektiv in einem besonderen Vortrage in der Konferenz darzulegen<note type="footnote" n="14">Ein entsprechender Vortrag Szécsens konnte in den Wiener Archiven nicht gefunden werden.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> verkennt nicht, daß die Benennung „Reichsrat“ auf die gegenwärtigen Verhältnisse nicht mehr passe und das Wort „Reichstag“ die Stellung des Ober- und Unterhauses am besten bezeichne. Es gibt ein Reich Österreich! Man spreche es aus, und Ungarn soll erkennen, daß es einen Teil dieses Reiches bildet!</p>
+                  <p>Nach längerer Beratung entschieden sich die mehreren Stimmen für die Wahl der Benennung „Reichstag“ und „Reichstagsordnung“<note type="footnote" n="15">Das Statut (d. h. das Grundgesetz), <bibl type="archival">RGBL. Nr. 20/1861</bibl>, wurde dann aber doch für die Reichsvertretung erlassen, nicht für den Reichstag.</note>.</p>
+                  <p>§ 1. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> fand den Zwischensatz „dem kraft des Diploms das Recht der Teilnahme an der Gesetzgebung staatsgrundgesetzlich gebührt“ entbehrlich, da diese Teilnahme sowie die übrigen Attribute des Reichstages im Statute ohnehin gehörigen Ortes normiert werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, daß er es passend fände, wenn die Berufung auf das Diplom vom 20. Oktober und das Recht der Teilnahme an der Gesetzgebung gleich am Eingange des Statutes ihren Platz erhielten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> glaubte, daß, wenn diese Erwähnung im Einführungspatente erscheint, die Wiederholung im § 1 unterbleiben könnte.</p>
+                  <p>Die Konferenz entschied sich für die Weglassung des Zwischensatzes.</p>
+                  <p>§ 2 blieb ohne Erinnerung.</p>
+                  <p>§ 3. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> hat die im Absatze 1 erscheinende neue Bestimmung über die Berufung der Häupter der inländischen Fürstenhäuser in das Oberhaus deswegen beantragt, weil die Häupter standesherrlicher Familien nach dem Beschlusse der Konferenz beseitigt wurden und es ihm doch angezeigt scheint, daß eine gewisse Klasse der hohen Aristokratie an und für sich und ohne besondere kaiserliche Ernennung Sitze im Oberhaus erhalte. Es gebe in Österreich ungefähr <pb n="57" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s57.pdf"/>25 bis 30 inländische fürstliche Familien. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi>, obgleich mit der kaiserlichen Berufung der Häupter aller inländischen Fürstenhäuser einverstanden, glaubte nicht, daß diese Berufung hier als ein exklusives Vorrecht der Fürsten als solche auszusprechen wäre, um nicht bei manchen gräflichen Familien, welche durch Alter, historischen Glanz und durch Besitz manches Fürstenhaus überragen, Anstoß zu erregen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> war des Erachtens, daß, sobald man alle Häupter fürstlicher Familien ins Oberhaus berufen will, dies lieber gleich grundsätzlich als mittelst besonderer kaiserlicher Ernennungen zu geschehen hätte. Die Eifersüchtelei dürfte sich bei weitem mehr bei den gräflichen Familien unter sich geltend machen. Die ausdrückliche Erwähnung der ungarischen Magnaten dürfte, wie bereits bei der ersten Beratung beschlossen wurde, unterbleiben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> trat der Vorstimme bei, indem auf diese Weise sogleich ein Kern für das Oberhaus gebildet wird. Der Vorrang der fürstlichen Häuser überhaupt und auch bei Hofe ist überdies so entschieden und unbestritten, daß gegen diese Bestimmung von Seite der gräflichen Häuser kaum Einwendungen werden erhoben werden.</p>
+                  <p>Die übrigen Stimmen — somit die Majorität — erklärten sich gegen das für die Häupter der fürstlichen Häuser beantragte Vorrecht, somit für die Streichung des Absatzes 1.</p>
+                  <p>§ 3, Absatz 2. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> vermißte unter den Bedingungen der erblichen Pairie das Vorhandensein eines ausgedehnten gebundenen Gutsbesitzes. Auf diese Weise würden, gegen den Geist der Institution, auch die Häupter verarmter Familien den Sitz im Oberhaus behalten. Der Staatsminister klärte auf, daß, sobald man einen gebundenen Gutsbesitz im Statute zur Bedingung stellt, dies die meisten ungarischen Magnaten von der erblichen Pairie ausschließen würde, indem der Grundbesitz der vornehmsten und reichsten Geschlechter in Ungarn kein fideikommissarisch gebundener ist. Wenn aber auch diese Bedingung nicht im Statute ausgesprochen ist, kann doch der Verarmung solcher ins Oberhaus berufenen Familien dadurch vorgebeugt werden, daß Se. Majestät in Fällen, wo kein Fideikommiß vorhanden ist, bei Verleihung der erblichen Reichsratswürde ausdrücklich die Gründung eines Fideikommisses als Bedingung der Erblichkeit stellen, und Se. Majestät der Kaiser dürften daher dies als Grundsatz pro foro interno Ag. festzusetzen geruhen. Die konsequente Ah. Handhabung dieses Grundsatzes werde das Korrektiv für den jetzt nicht vermeidlichen Mangel im § 3 bilden. Der Eintritt des ernannten Reichsrates ins Oberhaus könne aber nicht wohl von der bereits geschehenen Stiftung des Fideikommisses abhängig gemacht werden, weil diese gewöhnlich erst nach jahrelangen Verhandlungen zustande kommen kann. Gegen diesen Antrag ergab sich von keiner Seite eine Erinnerung. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> bemerkte, daß im § 3 Sr. Majestät auch das Recht zu wahren wäre, einen besonders ausgezeichneten Kriegs- oder Staatsmann, der zwar ausgedehnte Besitzungen hat, aber keinem Adelsgeschlechte angehört, sondern selbst erst in den Adelsstand erhoben wurde, zum erblichen Mitgliede des Oberhauses zu ernennen. Die Berufung solcher Männer und ihrer Nachkommen ins Oberhaus könne manchmal sehr wünschenswert erscheinen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> glaubte, daß solche Fälle sich unter die <pb n="58" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s58.pdf"/>von ihm vorgeschlagene Textierung des 2. Absatzes ohnehin subsumieren lassen, indem dort nur von durch ausgedehnten Gutsbesitz hervorragenden Geschlechtern (nicht Adelsgeschlechtern) die Rede ist. Der <hi rend="#letterspaced">
+                        <rs type="person">Kriegs</rs>
+                     </hi>- und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> fanden aber, daß nach dem Sprachgebrauche hier unter „Geschlechtern“ wohl nur Adelsgeschlechter verstanden werden können. Ein Neugeadelter sei aber nicht das Haupt eines Geschlechtes. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> schlug folgende Textierung des § 3 vor: „Erbliche Mitglieder des Oberhauses sind außerdem die großjährigen Häupter der durch ausgedehnten Gutsbesitz hervorragenden inländischen Adelsgeschlechter, denen der Kaiser die erbliche Reichsratswürde verleiht.“ Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> schien der Beisatz „inländische“ nicht notwendig, da, wenn die Ah. Wahl auf eine ausländische Adelsfamilie fällt, der Adel derselben ebendadurch als inländisch anerkannt würde. Die Minister Graf Rechberg und Graf Wickenburg stimmten mit dem Minister v. Lasser, während die Minister des Krieges, der Finanzen und der Polizei, dann Graf Szécsen und Baron Pratobevera sich für die Textierung des Staatsministers „hervorragende Geschlechter“ erklärten<note type="footnote" n="16">Im Grundgesetz über die Reichsvertretung (§ 3) erscheint die Fassung <quote>die großjährigen Häupter jener inländischen … Adelsgeschlechter</quote>, <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze 260</bibl>.</note>.</p>
+                  <p>§§ 5 und 6 blieben unbeanständet.</p>
+                  <p>Zu § 7, Absatz 3, beanständete der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> den der Ah. Stellung nicht ganz entsprechenden Ausdruck „bleibt dem Kaiser vorbehalten“ und beantragte statt desselben „behält sich der Kaiser vor“, wodurch das Recht als ein Ah. eigener Vorbehalt erscheint. Nebst dieser Modifikation wurde noch beschlossen, den letzten Satz zur Vermeidung der zweimaligen Wiederkehr des Wortes „Vollzug“ neu zu textieren.</p>
+                  <p>Im § 10, Absatz c, wurde über Antrag des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi> statt „bestehenden Steuern und Gefälle“ der vollständigen Aufzählung wegen gesetzt „Steuern, Abgaben und Gefälle“. Auf die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers des Äußern</rs>
+                     </hi>, daß es wünschenswert wäre, in diesem Paragraphe eine Abwehr gegen Versuche anzubringen, die auswärtigen Angelegenheiten im Wege von Interpellationen vor das Forum des Reichstages zu ziehen, sprachen sich der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> und mit ihm die Stimmenmehrheit dahin aus, daß es einer positiven Vorkehrung diesfalls nicht bedürfe, indem der Minister derlei Interpellationen einfach als nicht zum Wirkungskreise des Reichstages gehörig werde ablehnen können. Daß unberufene Interpellationen auch anderer Art vorkommen werden, sei vorauszusehen, und man könne unmöglich gegen jede derselben besondere gesetzliche Schranken ziehen. Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi>, daß die Kontrolle des Staatsschuldenwesens als ein administrativer Akt und kein Gegenstand der Gesetzgebung nicht wohl in den Absatz c gereiht werden könne, wurde beschlossen, in einem besonderen alinea des Paragraphes „die Kontrolle des gesamten Staatsschuldenwesens“ beizufügen.</p>
+                  <p>§ 11. Nachdem der Finanzminister auf den Pleonasmus in den Worten „über beratenen und beschlossenen Antrag“ hingewiesen hatte, vereinigte sich die Konferenz, statt derselben zu setzen „auf Antrag“.</p>
+                  <p>
+                     <pb n="59" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s59.pdf"/>§ 12 wurde in der neuen Fassung angenommen. Auf die Anfrage des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsministers</rs>
+                     </hi>, welches Ausgleichsmittel bestehe, wenn die Häuser verschiedener Meinung sind, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß eine Vereinbarung allenfalls durch beiderseitige Deputationen erzielt werden könnte. Übrigens werde der Verkehr beider Häuser in der Geschäftsordnung geregelt werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, er vermisse im Statute eine Bestimmung, wodurch die Regierung ermächtigt wird, in dringenden Fällen selbständig Gesetze und Maßregeln, welche in den Wirkungskreis des Reichstages fallen, zu erlassen oder zu verfügen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Szécsen</rs>
+                     </hi> bemerkte, die Berechtigung zu derlei Oktroyierungen liege in der dringenden Notwendigkeit, sei somit selbstverständlich. Man müsse daher erwägen, ob es nicht besser wäre, solche Ausnahmsfälle, um nicht das Vertrauen zu schwächen, im Statute gar nicht zu berühren. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entgegnete, daß eine solche ausdrückliche Bestimmung, welche auch in den meisten Verfassungsurkunden der deutschen Staaten enthalten ist, der Regierung eine sehr nützliche Stütze gewährt, um im Drange des Augenblicks Abhilfe treffen zu können, ohne sich dem Vorwurfe eines ungesetzlichen Vorganges auszusetzen. <hi rend="#letterspaced">
+                        <rs type="person">Graf Rechberg</rs>
+                     </hi> fand gleichfalls diesen Vorbehalt, und zwar insbesondere zu Finanzmaßregeln, nötig. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> glaubte, es könnte der gewünschte Ausspruch dem § 18 indirekt, und zwar beiläufig in folgender Weise, beigefügt werden, daß, wenn dringende Maßregeln ohne Mitwirken des Reichstages getroffen werden, der betreffende Minister die Gründe seines Vorgehens dem Reichstage darzulegen hat.</p>
+                  <p>Die Konferenz war mit der Aufnahme einer ähnlichen Bestimmung einverstanden, welche der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> aber an den § 12 zu knüpfen gedenkt.</p>
+                  <p>§ 13, 14 und 15 wurden nicht beanständet.</p>
+                  <p>Der Eingang des § 16 erhielt folgende kleine, rein stilistische Modifikation: „Die Funktion der Unterhausmitglieder aus einem Lande erlischt …“</p>
+                  <p>Zur Beseitigung des nicht glücklich gewählten Ausdruckes im § 17: „Der Kaiser kann den Reichstag vertagen und das Unterhaus auflösen“ schlug der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> vor: „Der Kaiser verfügt die Vertagung des Reichstages sowie die Auflösung des Unterhauses.“ Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, damit einverstanden, schlug vor, diesen Satz folgendermaßen zu beginnen: „Der Kaiser beruft jährlich den Reichstag. Er verfügt auch dessen Vertagung …“ — wogegen nichts eingewendet wurde.</p>
+                  <p>Die drei letzten Paragraphe blieben unbeanständet, nachdem das im § 18 aus Versehen stehengebliebene Wort „verantwortlichen“ gestrichen worden war.</p>
+                  <p>Schließlich wurde es von der Konferenz nicht für nötig befunden, über die Art, wie die Würde eines Reichsrates verlorengeht, eine Bestimmung aufzunehmen, zumal das Strafgesetz ohnehin bestimmt, in welchen Fällen öffentliche Funktionen verwirkt werden. Die Ausschließung wegen einer nicht strafgesetzlich verpönten Handlung könne füglich den Standesgenossen überlassen bleiben, und überhaupt erscheine es weder notwendig noch würdig, auf alle Ausschließungsgründe in diesem Statute vorzudenken.</p>
+               </div>
+               <closer>
+                  <dateline>
+                     <pb n="60" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b1-pdf.xml%23a5-b1_einzelseiten/a5-b1_s60.pdf"/>Wien, am <date when="1861-02-17">17. Februar 1861</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1861-02-27">27. Februar 1861</date>
+                  </seg>
+                  <seg type="other">Empfangen <date when="1861-02-28">28. Februar 1861</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+                <div type="appendix">
+                    <ab>
+                        <tei:ref xmlns:tei="http://www.tei-c.org/ns/1.0" target="MRP-1-5-01-0-18610226-P-0007a.xml">Beilage: MRP-1-5-01-0-18610226-P-0007a.xml</tei:ref>
+                    </ab>
+                </div>
+            </div>
+      </body>
+   </text>
+</TEI>

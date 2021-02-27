@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="308">Sitzung 308</title>
+            <title level="a" type="sub" n="2">Protokoll II</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-01-05"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z308.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1112</idno>
+                  <idno type="KZ">213</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-01-05"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 5. 1.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách (18. 1.), Esterházy, (19. 1.), Burger, Hein; BdR. 24. 1.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-01-05">1863-01-05</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-01-18">18. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-01-19">19. 1.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_308_1">Aufhebung der Ausnahmsmaßregel gegen Rekrutierungsflüchtlinge in Lombardo-Venetien und Südtirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_308_2">Bittschrift des Inner-Szolnoker Komitatsausschusses um Aufhebung der provisorischen Munizipalverfassung in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_308_3">Gesuch des Cziker Stuhlausschusses um Erhöhung der Anzahl der Vertreter der Landgemeinden im Ausschusse</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_308_4">Erhebung des Marktes Sächsisch-Regen zur königlichen Freistadt</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_5_308_5">Provisorische Einführung einiger Ah. sanktionierter Gesetze in Siebenbürgen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630105-P-0308" ana="a5-b5-z308">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z308.pdf">
+               <title type="num">Nr. 308</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-01-05">5. Jänner 1863</date> – Protokoll II</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 5. 1.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách (18. 1.), Esterházy, (19. 1.), Burger, Hein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> 24. 1.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1112</idno>
+                  <idno type="KZ">213</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll II des zu Wien am <date when="1863-01-05">5. Jänner 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_308_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Aufhebung der Ausnahmsmaßregel gegen Rekrutierungsflüchtlinge in Lombardo-Venetien und Südtirol</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> referierte über die Motive, welche das Staatsministerium im Einverständnisse mit dem Kriegsministerium zu dem Antrage bestimmen, die bisher angewendete Maßregel gegen Rekrutierungsflüchtlinge der italienischen Städte bei der nächsten Rekrutierung aufzulassen<note type="footnote" n="1">Vortrag Lassers v. <date when="1862-12-29">29. 12. 1862</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 227/1863</bibl>; zu dieser Frage zuletzt <ref type="protocol-link" target="MRP-1-5-04-0-18620605-P-0236.xml#top_5_4_236_1">MR. v.<date when="1862-06-05">5. 6. 1862</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z236" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z236.pdf" target="MRP-1-5-04-0-18620605-P-0236.xml">ÖMR. V/4, Nr. 236</ref>
+                        </bibl>; siehe auch die Ankündigung des vorliegenden Antrags durch Lasser anläßlich der Diskussion über Rekrutierungsflüchtlinge in Siebenbürgen, <ref type="protocol-link" target="MRP-1-5-05-0-18621108-P-0280.xml#top_5_5_280_1">MR. v. <date when="1862-11-08">8. 11. 1862</date>/I</ref>.</note>.</p>
+                  <p>Diese Maßregel sei nämlich an dem Mangel der Durchführbarkeit gescheitert. Es mußten vielfache Begünstigungen und Erleichterungen in Anspruch genommen [werden], wie z. B. Bewilligung von Zahlungsfristen, Zahlung der Taxgebühren durch Banknoten im Nennwerte, Reduzierung der Haftungspflicht der Gemeinde auf etwa 2/5 durch Abschreibung der Taxen der als nichttauglich angenommenen Flüchtlinge, Einstellung der zwangsweisen Eintreibung der Rückstände und Gestattung, dieselben im Kompensationswege in Abzug bringen zu dürfen usw. Es sei daher anläßlich der bevorstehenden Rekrutierung die Frage entstanden, ob die Haftungspflicht der italienischen Gemeinden für die uneinbringlichen Stellvertretungstaxen der Rekrutierungsflüchtigen noch weiter hier Platz greifen soll. Die hierüber vernommenen Delegaten<note type="footnote" n="2">
+                        <quote>Delegazioni</quote> hießen die politischen Verwaltungsbehörden auf Provinzebene im lombardisch-venezianischen Königreich, denen der Legat oder Provinzialdelegat vorstand.</note> seien geteilter Ansicht, denn während die lombardischen für die Beibehaltung dieser Maßregel stimmen, sprechen sich die venezianischen dagegen aus. Bei der hierwegen mit dem Kriegsministerium gepflogenen Verhandlung habe sich dieses mit dem Staatsministerium in der Ansicht geeinigt, daß diese Maßregel für die heurige Rekrutierung nicht in Anwendung gebracht werden soll. Es lasse sich zwar nicht verkennen, daß einige Gründe für die Beibehaltung dieser Maßregel sprechen. So gewähre dieselbe fürs erste doch einen Schutz der treu gebliebenen Bevölkerung, und sei weiter zu bedenken, daß für das Jahr 1863 außer dem gewöhnlichen Kontingente noch ein Superplus, nämlich ein Nachtrag aus dem Jahre 1861 abzustellen ist, wodurch, und da auch noch Nachmänner für die jetzt Flüchtigen dazukommen, die Rekrutierung sehr erschwert wird, indem man wahrscheinlich in die <pb n="155" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s155.pdf"/>höheren Altersklassen wird greifen müssen und hiedurch Renitenzen hervorrufen wird. Endlich sei auch nicht unbeachtet zu lassen, daß, wenn einmal diese Maßregel aufgehoben ist, dieselbe nicht leicht wieder eingeführt werden kann. Dagegen sprechen aber für die Auflassung dieser Maßregel 1. daß sie eigentlich nicht im Gesetze begründet ist und nur durch die in Italien obwaltenden außerordentlichen Verhältnisse gerechtfertigt werden kann, 2. daß sie bisher eigentlich nichts genützt und sich daher als unfruchtbar erwiesen hat, und endlich 3. daß sie sich wegen des Widerstandes von Seite der Gemeinden und auch wegen der Unerschwinglichkeit der den Gemeinden auferlegten Last als unausführbar gezeigt hat und es daher ratsam ist, eine solche Maßregel lieber nicht anzuwenden, wenn man nicht hiebei mit der äußersten Strenge vorgehen will. Referent glaube daher, den gemeinsamen Antrag des Staatsund Kriegsministeriums unterstützen zu sollen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> fügte nur bei, daß diese Maßregel nicht nur nichts genützt habe, sondern auch durch die vielen gewährten Ausnahmen nur dem Ansehen der Regierung abträglich war.</p>
+                  <p>Dem Ministerrate ergab sich hierwegen keine Erinnerung<note type="footnote" n="3">Mit Ah. E. v. <date when="1863-01-22">22. 1. 1863</date> genehmigte der Kaiser die Aufhebung der Maßnahme: <quote>Die zur Hintanhaltung der Militärstellungspflicht am <date when="1860-02-11">11. Februar 1860</date> beschlossene … Ausnahmsmaßregel im lombardisch-venezianischen Königreiche und in Südtirol ist bei der Heeresergänzung für 1863 unter Wiederherstellung der vollen Wirksamkeit der bezüglichen Bestimmungen des Heeresergänzungsgesetzes nicht mehr in Anwendung zu bringen …</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 227/1863</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_308_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bittschrift des Inner-Szolnoker Komitatsausschusses um Aufhebung der provisorischen Munizipalverfassung in Siebenbürgen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> referierte in betreff der von dem Ausschusse des Inner-Szolnoker Komitates an Se. Majestät gerichteten Repräsentation<ref xml:id="fn_5_5_308_a"/>
+                     <note type="variant" n="a" target="#fn_5_5_308_a">Ein lithographiertes Exemplar einer Übersetzung der Repräsentation liegt dem Originalprotokoll bei.</note> um Aufhebung des Provisoriums über die Regelung der Munizipalverfassung in Siebenbürgen<note type="footnote" n="4">Zu der mit Ah. E. v. <date when="1861-12-12">12. 12. 1861</date> erlassenen provisorischen Munizipalverfassung der Komitate, Distrikte und Szekler Stühle Siebenbürgens siehe <ref type="protocol-link" target="MRP-1-5-03-0-18611207-P-0165.xml">MR. I v. <date when="1861-12-07"/>7.12. 1861</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z165" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z165.pdf" target="MRP-1-5-03-0-18611207-P-0165.xml">ÖMR. V/3, Nr. 165</ref>
+                        </bibl>; sie war ein Teil der <quote>Maßregeln zur Wiederherstellung geordneter Zustände in Siebenbürgen</quote>; dazu sowie zur Rolle der Komitatsausschüsse siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung</bibl>
+                        <bibl type="internal_ref">ÖMR. V/3, XLV ff</bibl>.Die Komitatsausschüsse waren erstmals am <date when="1862-09-25">25. 9. 1862</date> zusammengetreten, <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18620930">Hermannstädter Zeitung</ref>
+                           </title> v. <date when="1862-09-30">30. 9. 1862</date>
+                        </bibl>; abschließender Bericht des Gubernialpräsidenten Crenneville v. <date when="1862-10-17">17. 10. 1862</date> und Vortrag Nádasdys darüber <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Präs. 507, 525 und 556/1862</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3240/1862</bibl>; Einleitung XL.Der Inner-Szolnoker Komitatsausschuß hatte am <date when="1862-09-26">26. 9. 1862</date> die von Graf Dominik Teleki eingebrachte Resolution beschlossen; Text siehe Anm. a und <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 4352/1862</bibl>.</note>.</p>
+                  <p>Nach einem einleitenden Vortrage, in welchem Referent die Haltung und das Resultat der ersten Ausschußversammlungen, welche aufgrund der erlassenen Vorschriften in den Komitaten und Szeklerstühlen zusammentraten, auseinandersetzte, kam er zu der beiliegenden Repräsentation des Inner-Szolnoker Komitatsausschusses und bemerkte, daß das siebenbürgische Gubernium sich in eine eingehende Behandlung derselben nicht eingelassen, sondern [sie] bloß mit dem Bemerken vorgelegt habe, „daß diese Repräsentation sowie auch die in einigen anderen Jurisdiktionen beantragten, aber nicht zum Beschluß erhobenen Vorstellungen jenem kindlichen Vertrauen und der homagialen Untertänigkeit der Unterfertigten Ausdruck verleihen, aus welcher sie sich die Freiheit nehmen, die Herstellung ihrer früheren Gesetze zu <pb n="156" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s156.pdf"/>erflehen“. Die siebenbürgische Hofkanzlei habe aber die Frage, welche Ah. Beantwortung auf die in Rede stehende Repräsentation au. in Antrag gebracht werden soll, der Beratung unterzogen, und es ergaben sich hiebei Meinungsverschiedenheiten<note type="footnote" n="5">Vortrag der siebenbürgischen Hofkanzlei v. <date when="1862-11-24">24. 11. 1862</date>, <bibl type="archival">MOL., Siebenbürgische Hofkanzlei, Allgemein 4352/1862 (K.) und 897/1863 (RS.)</bibl>; <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 580/1863</bibl>.</note>. Hofrat v. Kabos glaubte bezüglich des Inhaltes der diesfälligen Ah. Entschließung beantragen zu sollen, „daß darin nur der Ah. Wunsch ausgedrückt werde, daß Se. k. k. apost. Majestät sobald als möglich in die Lage gesetzt werde, die jetzt bestehende provisorische Maßregel betreffs der Regelung der Munizipalverfassung aufzuheben, da die Notwendigkeit der Einführung derselben nur durch die zur allgemeinen Anarchie führende Haltung der Munizipien im vergangenen Jahre herbeigeführt wurde“. Die Majorität der Hofkanzlei beantrage die vorliegende, den Mitgliedern der Konferenz bereits mitgeteilte Fassung der Erledigung der gedachten Repräsentation<ref xml:id="fn_5_5_308_b"/>
+                     <note type="variant" n="b" target="#fn_5_5_308_b">Ein lithographiertes Exemplar dieses Entwurfes der siebenbürgischen Hofkanzlei liegt dem Originalprotokoll bei; die in diesem Ministerrat beschlossenen Änderungen sind mit roter Tinte eingetragen.</note>, <note type="footnote" n="6">
+                        <quote>Sie</quote> war von Hofrat Franz Freiherr v. Reichenstein verfaßt worden und ist eine zwölf Seiten lange ausführliche Auseinandersetzung mit den Argumenten des Komitatsausschusses.</note>.</p>
+                  <p>Im Staatsrate haben sich verschiedene Ansichten gebildet, welche der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> durch Verlesung des Auszuges aus der staatsrätlichen Beratung zur Kenntnis der Konferenz brachte<note type="footnote" n="7">Gutachten des Staatsrates mit Sitzungsprotokoll, <bibl type="archival">HHSTA., JStr. 1058/1862</bibl>; dem Akt liegen wie dem Ministerratsprotokoll die Übersetzung der Repräsentation und der Erledigungsentwurf der siebenbürgischen Hofkanzlei bei.</note>. Hiernach ist die Majorität des Staatsrates der Ansicht, daß die vorliegende formwidrige und unzulässige Repräsentation<note type="footnote" n="8">Dazu die folgende Wortmeldung Nádasdys.</note> gar nicht hätte angenommen werden sollen und daß sich vom Ah. Throne aus in eine detaillierte Erörterung dieses Aktenstückes keineswegs einzulassen wäre, und beantragt eine Ah. Entschließung, wornach der Inhalt des Vortrages der Hofkanzlei lediglich zur Kenntnis genommen, zugleich aber die Erwartung ausgesprochen wird, daß die Hofkanzlei bezüglich der Annahme und der Unterfertigung der nach Inhalt und Form gleich unstatthaften Repräsentation des Inner-Szolnoker Komitates durch den Administrator und den Obernotär entweder im eigenen Wirkungskreise das Amt handeln oder nach Umständen die weitere Ah. Schlußfassung einholen wird. Der vortragende Präsident, im Wesen die Ansicht der staatsrätlichen Majorität teilend, würde auch die von derselben vorgeschlagene Erledigungsart für die zweckmäßigste und völlig ausreichende halten, wenn nicht durch die ausgestreuten mannigfachen Gerüchte über das Streben der Regierung nach einer Pazifikation dem öffentlichen Geiste sehr nachteilige Zweifel über die Fortdauer des gegenwärtigen Systems entstanden wären und öffentlichen Blättern zufolge namentlich über die vorliegende Repräsentation einer Kundgebung der Regierung mit Spannung entgegengesehen würde, daher, wenn eine solche nicht in bestimmter Weise erfolgen sollte, daraus Folgerungen auf eine fortwährende Unschlüssigkeit der Regierung über den einzuschlagenden Weg zu besorgen stünden. Diesem zu begegnen müsse der Hofkanzlei <pb n="157" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s157.pdf"/>nach dem Erachten des Baron Lichtenfels allerdings daran gelegen sein, daß die von ihr aufgestellten Grundsätze genehmigt und eine bestimmte Erklärung über den für die Zukunft zu beobachtenden Gang erlassen werde, und er erlaube sich daher folgende Ah. Entschließung in Antrag zu bringen: „Indem Ich den Inhalt dieses Vortrages zur Kenntnis nehme und die darin dargelegten Grundsätze genehmige, trage Ich Meiner Hofkanzlei auf, nicht nur bezüglich der Annahme und der Unterfertigung der nach Inhalt und Form gleich unstatthaften Repräsentation des Inner-Szolnoker Komitates durch den Administrator und den Obernotär das Amt zu handeln, sondern auch für die genaue Handhabung der in Verfolg Meines Diplomes vom <date when="1860-10-26">26. Oktober 1860</date> und des Staatsgrundgesetzes vom <date when="1861-02-26">26. Februar 1861</date> erlassenen Verfügungen, insbesondere für die strenge Befolgung der mit Meiner Entschließung vom <date when="1861-12-12">12. Dezember 1861</date>
+                     <ref xml:id="fn_5_5_308_c"/>
+                     <note type="variant" n="c" target="#fn_5_5_308_c">Im Originalprotokoll steht irrtümlich <quote>27. Dezember</quote>.</note> genehmigten provisorischen Vorschrift über die Regelung der Munizipalverfassung sowie für die Beschleunigung der Vorbereitungen zur Einberufung des Landtages zu sorgen.“ Diesem gemäß, fährt Baron Lichtenfels fort, sei er in der Sache mit dem Minister Grafen Nádasdy einverstanden, und die Differenz beziehe sich nur auf die Form, indem sie bloß darin bestehe, daß er eine solche punktweise Erörterung der Repräsentation – wie die vorgeschlagene – von Seite der Ah. Krone nicht passend findet, gleichwohl es aber für zweckmäßig und notwendig erachtet, daß diese Repräsentation beantwortet und hiebei die Wirksamkeit der Hofkanzlei Ah. genehmiget, zugleich aber der Auftrag erlassen wird, die bisherigen Maßregeln strenge zu handhaben und für die genaue Befolgung der erlassenen Vorschriften zu sorgen.</p>
+                  <p>Hierauf ergriff wieder <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> das Wort, um vorerst zu bemerken, daß seines Erachtens die Frage, ob der Inner-Szolnoker Komitatsausschuß zu der fraglichen Repräsentation berechtigt war oder nicht, nicht klar entschieden sein dürfte. Nach § 15 der Vorschrift über die provisorische Regelung der Munizipalverfassung ist der Ausschuß wohl nur zur Verhandlung und Beschlußfassung der inneren Angelegenheiten des Komitates, Distriktes usw. berufen; der § 18 gibt aber dem Ausschusse das Recht, Bitten und Vorstellungen hinsichtlich wahrgenommener Gebrechen in der politischen Verwaltung und Rechtspflege oder in Angelegenheiten, welche das allgemeine Wohl aller Komitats-, Distrikts- [und] Stuhlsangehörigen betreffen, an das Gubernium oder an Se. Majestät zu richten. Mit dieser Bestimmung wollte man diesen Ausschüssen das Petitionsrecht wahren, indem man es als eine Art Ventil betrachtet, wo sie ihren Schmerzen und ihren Wünschen nach oben Ausdruck geben können. Apodiktisch könne man daher nicht sagen, daß der Szolnoker Ausschuß kein Recht zu der gedachten Repräsentation hatte. Belangend die Aufschrift, mit welcher die Repräsentation an Se. Majestät gerichtet ist – „Allerdurchlauchtigster (Felséges) König“ –, so scheine diese Mangelhaftigkeit mehr aus einem Versehen als aus einer absichtlichen Verletzung der Würde der Ah. Krone herzurühren, und nachdem bei dem bisher ganz unbescholtenen Charakter des Administrators Pataki kaum bezweifelt werden kann, daß er diese Ungebührlichkeit nur übersehen hat, so wie sie auch dem Gubernium nicht aufgefallen ist, so dürfte vielleicht hierüber <pb n="158" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s158.pdf"/>in der Erledigung der Repräsentation umso mehr hinwegzugehen sein, als sonst die diesbezügliche Rüge auch das Gubernium mittreffen würde. Übergehend auf die Sache selbst äußerte Graf Nádasdy, daß er die Ansicht des Staatsratspräsidenten für sehr triftig halte und derselben sich auch anschließen würde, wenn nicht die obwaltenden Verhältnisse es dringend erheischen möchten, daß auf die gedachte Repräsentation eine bestimmte Antwort gegeben [werde], und zwar nicht die Kanzlei, sondern Se. Majestät selbst den Ah. Willen kundgeben. Denn es sei leider kein Geheimnis, daß in Siebenbürgen allgemein die Meinung verbreitet ist, daß die bisherigen Maßregeln nur von den Räten der Ah. Krone rücksichtlich von der Hofkanzlei ausgehen, ohne daß Se. Majestät Allerhöchstselbst davon wissen, oder gar der eingeschlagene Weg den Ah. Absichten nicht entspreche. Hiezu komme, daß der Landtag vor der Türe steht<note type="footnote" n="9">Zum siebenbürgischen Landtag von 1863 siehe MR. v. 7. und <date when="1863-04-09">9. 4. 1863</date>/I (= Sammelprotokoll Nr. 339).</note> und die Zeit zur schnellen Konstituierung und Zusammentretung der Munizipien drängt, was wieder hinausgeschoben würde, wenn bei dieser Gelegenheit eine Kundgebung der Regierung nicht in bestimmter Weise erfolgen sollte. Referent glaubt daher, die Konferenz um die Zustimmung bitten zu sollen, daß diese Angelegenheit in der von der Hofkanzlei vorgeschlagenen Weise erledigt werde. <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> wiederholte, daß seine Differenz nur in der Form liege, indem er es nur festhalten möchte, daß Se. Majestät die Grundsätze der Hofkanzlei genehmige, aber nicht Allerhöchstselbst zu dem Komitate spreche. Belangend die Kompetenz des Szolnoker Komitatsausschusses zu der fraglichen Repräsentation, so hob dieser Stimmführer hervor, daß diese Repräsentation staatsrechtliche Fragen behandle, welche doch nach § 17 der provisorischen Vorschrift für die Munizipalverfassung Siebenbürgens von der Verhandlung des Ausschusses vollkommen ausgeschlossen seien. Der Meinung des Grafen Nádasdy aber, daß die Mangelhaftigkeit der Aufschrift als ein bloßes Übersehen anzusehen und darüber hinwegzugehen wäre, glaubte Baron Lichtenfels nicht entgegentreten zu sollen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi>, von der Ansicht ausgehend, daß man über politische Grundsätze niemanden belehren wird, so wie überhaupt Vernunftgründe gegen Parteimeinungen nicht ausreichen, würde eine so detaillierte Erörterung der Repräsentation vom Ah. Throne aus nicht zweckmäßig finden und sich daher dem Einraten der Mehrheit des Staatsrates oder in zweiter Linie jenem des Staatsratspräsidenten anschließen. Ein besonderes Gewicht würde aber Votant auf die Unrichtigkeit der Aufschrift legen, die ihm keineswegs ein bloßes Versehen zu sein scheint, sondern vielmehr seines Ermessens ein Leugnen des rechtmäßigen Titels Sr. k.k. apost. Majestät involviere, und da noch der sehr bedauerliche Umstand dazutritt, daß der Administrator selbst diese Petition unterschrieben hat, so könnte Votant nicht dafür stimmen, daß man darüber einfach hinweggehe, sondern vielmehr nur darauf antragen, daß diese ungesetzliche Form streng gerügt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Esterházy</rs>
+                     </hi> erklärte sich mit der Majorität des Staatsrates einverstanden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erachtete, daß Se. Majestät so wenig als nur möglich in diese Angelegenheit hineingezogen werden und daß, wenn Allerhöchstdieselben in diesem Falle schon sprechen sollen, dies nur mit der größten Bündigkeit und <pb n="159" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s159.pdf"/>Präzision geschehen soll. Belangend die Aufschrift, so halte Votant auch das Gubernium für mitschuldig und würde es in der Ordnung finden, daß es demselben vorgehalten rücksichtlich dasselbe gewarnt werde, in Hinkunft aufmerksamer zu sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte, insoferne die vorliegende Repräsentation als berechtigt anzusehen und an Se. Majestät gerichtet ist, so könne es sich nur um die Frage handeln, ob dieselbe einfach durch Ah. Kenntnisnahme des au. Vortrages oder mit einer ins einzelne eingehenden Beantwortung erledigt werden soll. In gewöhnlicher Zeit und unter gewöhnlichen Umständen würde sich Votant ohne Bedenken jener Auffassung anschließen, die eine ganz einfache Erledigung bezielt, allein bei den gegenwärtigen Verhältnissen könne er es nur als zweckmäßig, ja angesichts der Bedeutung, welche man der fraglichen Repräsentation in der Öffentlichkeit gibt, als sehr notwendig erachten, wenn in eine detaillierte Erörterung dieses Aktenstückes eingegangen wird. Se. Majestät hätten in vielen anderen und minder wichtigen Fällen Aussprüche getan, die dort, wo man es wünscht, sehr gut ausgebeutet wurden. Warum sollte es also hier mit der Würde des Ah. Thrones unvereinbar sein, da es sich hauptsächlich darum handelt, hiermit die entstandenen Zweifel über den Ah. Willen bezüglich der Fortdauer des gegenwärtigen Systemes zu entfernen. Freiherr v. Mecséry stimme daher für die Erledigung in der vom Grafen Nádasdy vorgeschlagenen Weise vorbehaltlich einiger Modifikationen des vorliegenden Entwurfes. Hinsichtlich des unstatthaften Titels müsse er auf die Aussage des Grafen Nádasdy kompromittieren, da ihm die Persönlichkeit des Pataki gänzlich unbekannt ist. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> war in Ansehung des Titels der Meinung, daß man gerade diesen Punkt mit aller Schärfe behandeln sollte, ohne zu unterscheiden, ob es ein bloßes Übersehen oder eine absichtliche Verletzung sei, und würde daher beantragen, daß hierwegen eine strenge Rüge erlassen werde. Was die Sache selbst betrifft, so trat dieser Stimmführer vollkommen der Anschauung des Polizeiministers bei und machte insbesondere auf die Stelle der Repräsentation (Seite 9) aufmerksam, wo es wörtlich heißt, „damit Ew. Majestät übersehen können, was die im Namen Ew. Majestät verfügende Regierung aus der Vergangenheit alles bloß darum über den Haufen wirft, damit sie für die Zukunft freien Spielraum für ihre bedenklichen Experimente gewinne“. Mit diesem Passus sei doch entschieden gesagt, es gebe eine Regierung neben Sr. Majestät, die alles selbständig tut, und einer solchen vermessenen Sprache gegenüber sei es gewiß notwendig, daß Se. Majestät Allerhöchstselbst darüber antworte. Auch dürfe man nicht übersehen, daß diese Repräsentation des Inner-Szolnoker Komitatsausschusses nur gleichsam ein Fühler sei, indem auch die übrigen Ausschüsse auf demselben Standpunkte stehen und mit großer Spannung auf die Erledigung dieser Repräsentation warten. Derselben Meinung war auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, welcher in der vom Grafen Nádasdy vorgeschlagenen Beantwortung gleichsam eine Demonstration gegen die in den Ländern jenseits der Leitha herrschende Idee, daß es bloß die Räte Sr. Majestät sind, welche das gegenwärtige System wollen, erblickt. Mit dieser Erledigung gebe man aber zugleich nicht allein eine bestimmte Antwort einer großen Partei in Siebenbürgen, sondern auch eine offizielle Kundgebung, die für die weitere Durchführung des Staatsgrundgesetzes vielleicht von entscheidender Wirkung sein wird. Die Frage der Berechtigung des Ausschusses zu dieser Repräsentation scheine ihm wohl nicht entschieden <pb n="160" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s160.pdf"/>zu sein, gleichwohl würde er sich wegen dieser Inkompetenz nicht getrauen, die Zurückweisung zu befürworten, sondern würde sich in dieser Beziehung vorbehalten, bei der etwaigen Detailberatung des vorliegenden Entwurfes zu dem zweiten Absatze einige entsprechende Modifikationen zu beantragen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> schlossen sich den beiden Vorstimmen an, der letztere jedoch mit dem Wunsche, daß die vorliegende Beantwortung etwas kürzer abgefaßt werde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> stimmte in der Sache der Majorität bei, indem er es ebenfalls für notwendig erachtet, daß in diesem Falle Se. Majestät selbst, und zwar in eingehender Weise antworte, damit das Publikum endlich wisse, daß Se. Majestät und die Regierung bezüglich des eingeschlagenen Weges gleich denken. Was die Frage der Berechtigung des Ausschusses zu dieser Repräsentation betrifft, so müsse Votant auf die Auslegung des Grafen Nádasdy kompromittieren. Die Mangelhaftigkeit des Titels würde er aber nicht beanstanden, indem diese Aufschrift, wenngleich nicht ganz der gesetzlichen Form entsprechend, doch an den „König“ lautet. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> erachtete dem Antrage des Staatsratspräsidenten beitreten zu sollen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> meinte, man könne bei der gegenwärtigen Lage der Dinge nur darauf einraten, daß diese Repräsentation eingehend vom Ah. Throne aus beantwortet werde und schloß sich daher der Auffassung der mehreren Stimmen an.</p>
+                  <p>Nachdem dem Vorausgelassenen gemäß die Mehrheit der Konferenz im Prinzipe mit dem Antrage des Grafen Nádasdy einverstanden war, wurde zur näheren Prüfung des vorliegenden Entwurfes der beantragten Erledigung der Repräsentation geschritten, wobei sich im wesentlichen folgende Bemerkungen ergaben.</p>
+                  <p>Zu dem Eingange wurde von mehreren Stimmen die Notwendigkeit betont, darin die Ungebührlichkeit der Aufschrift etwas schärfer zu rügen und namentlich das Ah. Mißfallen bezüglich aller jener auszusprechen, welche an dem Zustandekommen und der Ausfertigung der Repräsentation Anteil genommen und dieselbe unterfertigt haben.</p>
+                  <p>Zu dem Absatz 2 brachte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> mit Beziehung auf sein in der Generaldiskussion abgegebenes Votum in Antrag, anstatt der Worte „bei der ehrfurchtsvollen Fassung dieser au. Repräsentation“ zu sagen, daß, „obwohl diese Repräsentation sich inkompetenterweise in Angelegenheiten und Fragen einläßt, die außer dem Wirkungskreise des Komitatsausschusses gelegen sind und daher von ihm gar nicht zum Gegenstand einer Erörterung und Schlußfassung hätten gemacht werden sollen, doch Se. Majestät in der Hoffnung etc.“, sowie dieser Stimmführer, um den von einigen Stimmen erhobenen Bedenken zu begegnen, daß diese detaillierte Beantwortung für eine unmittelbar zu erteilende Ah. Entschließung nicht passend sei, den Vorschlag machte, den Schluß dieses Absatzes derart zu modifizieren, daß nicht Se. Majestät Allerhöchstselbst die gedachte Repräsentation geprüft haben, sondern dieselbe durch die Hofkanzlei einer eingehenden Prüfung unterziehen ließen und die Kanzlei zu ermächtigen geruht haben, durch das königliche Gubernium dem Ausschusse folgende Antwort zu erteilen.</p>
+                  <p>Beide Anträge wurden von der Konferenz angenommen und der Minister Graf Nádasdy eingeladen, in diesem Sinne die Textänderungen zu veranlassen.</p>
+                  <p>Zum vorletzten Absatze, wo von der Union gesprochen wird, war der <hi rend="#letterspaced">
+                        <rs type="person">ungarische <pb n="161" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s161.pdf"/>Hofkanzler</rs>
+                     </hi> der Ansicht, daß dieser Absatz mit den Worten „befohlen worden“ zu schließen wäre, weil ihm die folgende Argumentation überflüssig und auch unpassend scheint<note type="footnote" n="10">Der Absatz handelte von der Bitte des Komitatsausschusses, den gesetzlichen Landtag – damit war der ungarische gemeint – einzuberufen, es war also die Frage der Union Siebenbürgens mit Ungarn angesprochen. Im Entwurf hieß es dazu: <quote>Es sei in den Ah. Entschließungen Sr. k. k. apost. Majestät vom <date when="1860-10-20">20. Oktober 1860</date> die Union Siebenbürgens mit Ungarn unberührt gelassen und nur die Wiederherstellung einer siebenbürgischen Landesvertretung vorzubereiten befohlen worden, weil diese Union niemals mit voller Gesetzeskraft zustandegekommen ist, faktisch gleich auseinanderfiel, und [weil]… durch das Ah. Handschreiben Sr. k. k. apost. Majestät Kaiser Ferdinand vom <date when="1848-11-14">14. November 1848</date>, kundgemacht im ganzen Lande durch das [königliche] Gubernium unterm <date when="1848-11-27">27. November 1848</date>, Z. 11991, auch die administrative Selbständigkeit Siebenbürgens wiederhergestellt wurde, und [weil die Union], insolange Siebenbürgens Bewohner nichtungarischer Zunge ihre Nationalinteressen durch eine solche Forderung bedroht sehen und solange nicht auch den Interessen und Forderungen des Gesamtreiches hiebei die nötige Garantie geleistet wird, als unausführbar zu betrachten sei</quote>.</note>. <ref xml:id="fn_5_5_308_d">Es wäre über die Union nicht mehr und nicht weniger zu sagen, als was hierüber im Ah. Reskript dem ungarischen Landtag gesagt wurde</ref>
+                     <note type="variant" n="d" target="#fn_5_5_308_d">Einfügung d–d Forgáchs.</note>, <note type="footnote" n="11">Königliches Reskript an den ungarischen Landtag v. <date when="1861-07-21">21. 7. 1861</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z96" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z96.pdf" target="MRP-1-5-02-0-18610719-P-0096.xml">ÖMR. V/2, Nr. 96</ref>a</bibl>, 233 f.</note>. Ein ganz besonderes Gewicht müßte er aber auf die Weglassung der Berufung des Ah. Handschreibens Sr. Majestät Kaiser Ferdinands legen, indem es nicht angemessen sei, zu sagen, daß Kaiser Ferdinand die Union<ref xml:id="fn_5_5_308_e"/>
+                     <note type="variant" n="e" target="#fn_5_5_308_e">
+                        <quote>sanktioniert und dann wieder</quote> von Forgách gestrichen.</note> aufgehoben hat, <ref xml:id="fn_5_5_308_f">weil es implizite ausspricht, daß sie früher gesetzlich sanktioniert wurde</ref>
+                     <note type="variant" n="f" target="#fn_5_5_308_f">Einfügung f–f Forgáchs.</note>, sowie es überhaupt bedenklich sei, ein solches Zitat zu gebrauchen, zumal es nur zur unliebsamen Polemik führen kann. Über diesen Antrag ergab sich eine längere Diskussion, bei welcher die Gründe für und wider eingehend geprüft wurden. <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi> meinte, daß diese Argumentation allerdings diejenige Partei, welche sich auf den Standpunkt der Union stellt, sehr unangenehm berühren wird, aber dieses sei eben ein Grund mehr, sich bezüglich dieses Punktes mit aller Entschiedenheit auszusprechen. Er nehme hier Anlaß, auf die mannigfachen Pazifikationsgelüste hinzuweisen und zu bemerken, daß, solange von der einen Seite die drei Punkte, nämlich Integrität, Unabhängigkeit und <ref xml:id="fn_5_5_308_g">ungarisches Ministerium</ref>
+                     <note type="variant" n="g" target="#fn_5_5_308_g">Korrektur g–g Forgáchs aus <quote>Union.</quote>
+                     </note> festgehalten werden, Se. Majestät nicht pazifizieren können, zumal Allerhöchstdieselben nicht allein König von Ungarn, sondern Kaiser von Österreich sind und als solcher gelobten, die für das Gesamtreich gegebene Verfassung aufrechtzuhalten und selbe auch mit allen zu Gebote stehenden Mitteln zu verwirklichen. Auf dieses Ende der Diskussion glaubte <hi rend="#letterspaced">
+                        <rs type="person">Graf Forgách</rs>
+                     </hi> der Vorstimme nicht folgen und sich heute in dieser Beziehung nur auf die Hoffnung beschränken zu können, daß sich endlich doch ein Weg finden wird, auf dem sich die Ansprüche der ungarischen Völker mit den Bedingungen des Bestandes der Monarchie vermitteln lassen. Seinen Antrag auf Weglassung des fraglichen Passus müsse er aus den bereits angeführten Gründen umso mehr festhalten, als durch das in diesem Absatze Vorhergesagte der Nichtbestand der Union hinreichend betont erscheine. <hi rend="#letterspaced">
+                        <rs type="person">Graf Esterházy</rs>
+                     </hi> erinnert, daß allen diesen Schwierigkeiten durch die <pb n="162" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s162.pdf"/>Annahme des staatsrätlichen Majoritätsantrages begegnet werden möchte, und erklärt, bei seinem früheren Votum zu verbleiben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> sprechen für die unveränderte Belassung des Absatzes, indem sie nichts Unpassendes darin finden, daß ein Regierungsakt zitiert wird, der notorisch ist. Graf Rechberg, dem sich Baron Burger anschließt, glaubt den Antrag des ungarischen Hofkanzlers unterstützen zu sollen, indem er es nicht angezeigt findet, ein Ah. Handschreiben, welches ein früheres aufhebt, hier zu beziehen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister und der Minister Dr. Hein</rs>
+                     </hi> halten das Zitat des gedachten Ah. Handschreibens nicht für so wichtig, um nicht hier weggelassen werden zu können, zumal der andere Wortlaut dieses Absatzes weit essentieller ist und zum Zwecke hinreicht. Schließlich wurde sich dahin geeinigt, aus dem Absatze den Zwischensatz „durch das Ah. Handschreiben“ bis „hergestellt wurde“ wegzustreichen.</p>
+                  <p>Der hierauf folgende Vorschlag des <hi rend="#letterspaced">
+                        <rs type="person">ungarischen Hofkanzlers</rs>
+                     </hi>, auf der fünften Seite den Satz „namentlich aus der früher allein mit politischen Rechten ausgerüsteten Klasse“ [wegzulassen], wurde ohne eine Erinnerung angenommen. Ebenso wurde der von den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministern Ritter v. Lasser</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Dr. Hein</rs>
+                     </hi> gestellte Antrag, im letzten Absatze anstatt der Worte „auf Grundlage der Bestimmungen des kaiserlichen Diplomes vom 20. Oktober etc. festzustellen“ zu setzen „nach den Bestimmungen vom <date when="1860-10-20">20. Oktober 1860</date> und <date when="1861-02-26">26. Februar 1861</date> zu ordnen“, von der Konferenz einhellig angenommen.</p>
+                  <p>Im übrigen ergab sich keine Erinnerung, und kommt nur noch schließlich zu bemerken, daß Minister Graf Nádasdy den beiliegenden, nach den Beschlüssen der Konferenz rektifizierten und mit sonst noch einigen wünschenswerten Textverbesserungen versehenen Entwurf nachträglich zum Beischlusse in dieses Protokoll übergeben hat<ref xml:id="fn_5_5_308_h"/>
+                     <note type="variant" n="h" target="#fn_5_5_308_h">Liegt dem Originalprotokoll bei, vgl. Anm. b.</note>, <note type="footnote" n="12">Der Vortrag der siebenbürgischen Hofkanzlei wurde am <date when="1863-02-20">20. 2. 1863</date> wie folgt resolviert: <quote>Ich genehmige diese Anträge und beauftrage Meine siebenbürgische Hofkanzlei, die Repräsentation des Inner-Szolnoker Komitatsausschusses in Meinem Namen nach dem beiliegenden modifizierten Entwurfe zu erledigen</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 580/1863</bibl>; die Antwort der Regierung ist gedruckt in <bibl type="secondary">
+                           <title>Sammlung der wichtigeren Staatsacten</title> 3, 40–47</bibl>; sie wurde auch in den Zeitungen publiziert, z. B. <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18630310">Donau-Zeitung</ref>
+                           </title> v. <date when="1863-03-10">10. 3. 1863</date>.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_308_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gesuch des Cziker Stuhlausschusses um Erhöhung der Anzahl der Vertreter der Landgemeinden im Ausschusse</head>
+                  <p>Der Staatsratspräsident referierte über den im Staatsrate begutachteten au. Vortrag des Ministers Grafen Nádasdy vom 15. Dezember v. J. Z. 606/Präs. betreffend das Gesuch des Cziker Stuhlausschusses um Erhöhung der Anzahl der Mitglieder der Gemeindevertreter im Ausschusse von 12 auf 24.<note type="footnote" n="13">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 1068/1862</bibl>; zur Wahlordnung siehe <ref type="protocol-link" target="MRP-1-5-03-0-18611207-P-0165.xml#top_5_3_165_1">MR. I v. <date when="1861-12-07">7. 12. 1861</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z165" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z165.pdf" target="MRP-1-5-03-0-18611207-P-0165.xml">ÖMR. V/3, Nr. 165</ref>
+                        </bibl>.</note>.</p>
+                  <p>Durch die Erhöhung würde sich die Gesamtzahl der Ausschußmitglieder von 28 auf 40 vermehren. Das königliche siebenbürgische Gubernium und die Majorität der Hofkanzlei stimmen im Prinzipe dieser Vermehrung von 28 auf 40 Mitglieder zwar bei, glauben jedoch, daß diese Vermehrung nicht bloß den Gemeindevertretern zugutekommen, <pb n="163" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s163.pdf"/>sondern daß hiernach auch die anderen Kategorien<note type="footnote" n="14">Die Wahlordnung sah vier Kategorien vor: a) die vier höchstbesteuerten Großgrundbesitzer, b) die übrigen Großgrundbesitzer, c) die größeren Orte und die Vertreter von Gewerbe, Industrie und Handel und d) die Vertreter der übrigen Gemeinden.</note> nach Verhältnis vermehrt werden. Hofrat v. Horváth tragt aber auf die Ag. Gewährung der vom Cziker Ausschusse erbetenen Vermehrung der Gemeindevertretung von 12 auf 24 an, weil bei der Identität der Interessen aller Klassen im Szeklerlande eine Vermehrung der Vertretung der Landgemeinden auch eine größere Vertretung der übrigen Klassen in sich fassen würde. Graf Nádasdy unterstützte diesen Antrag, und es wurde sich auch im Staatsrate einstimmig dafür ausgesprochen.</p>
+                  <p>Dem Ministerrate ergab dagegen keine Erinnerung<note type="footnote" n="15">Erzherzog Rainer legte den Vortrag der Hofkanzlei und die Beratungsergebnisse des Staats- und des Ministerrates Franz Joseph vor, der mit Ah. E. v. <date when="1863-01-15">15. 1. 1863</date> die erbetene Erhöhung der Anzahl der Vertreter der Landgemeinden bewilligte, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 137/1863</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_308_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Erhebung des Marktes Sächsisch-Regen zur königlichen Freistadt</head>
+                  <p>Der Staatsratspräsident referierte über den im Staatsrate begutachteten au. Vortrag der siebenbürgischen Hofkanzlei vom <date when="1862-11-22">22. November 1862</date>, Z. 3418, betreffend das Ah. bezeichnete Gesuch des privilegierten freien Marktes Sächsisch-Regen um Erhebung in die Reihe der königlichen Freistädte und um Einfügung in den Verwaltungsverband der sächsischen Nation<note type="footnote" n="16">Gutachten des Staatsrates <quote>ebd., JStr. 1031/1862</quote>.</note>.</p>
+                  <p>Der diesfällige au. Antrag der Hofkanzlei erscheine in dem nachstehenden Resolutionsentwurfe formuliert: „Aus Gnade finde Ich die Marktgemeinde Sächsisch-Regen in die Reihe der Städte zu erheben, indem Ich zugleich den dortigen Magistrat mit Enthebung von der Unterordnung unter den Obergespan des Thordaer Komitates unmittelbar dem Landesgubernium unterordne und zugleich bestimme, daß nicht nur in bürgerlichen Rechtstreiten, sondern auch in Straffällen provisorisch die Berufung vom Sächsisch-Regner Magistrate an das Hermannstädter Obergericht stattfinde. Das weitere Begehren wegen Einverleibung in den Verwaltungsverband der sächsischen Nation wird in dem von den Gesuchstellern vorausgesetzten Fall einer neuen Landeseinteilung in Erwägung gezogen werden.“ Im Staatsrate befürwortete die überwiegende Stimmenmehrheit das Einraten der Hofkanzlei, welchem auch der vortragende Präsident beizutreten erklärte.</p>
+                  <p>Der Ministerrat fand hierwegen nichts zu bemerken<note type="footnote" n="17">Am <date when="1863-01-15">15. 1. 1863</date> unterzeichnete Franz Joseph den von der Hofkanzlei beantragten Entwurf der Ah. Entschließung, <quote>ebd., Kab. Kanzlei, KZ. 141/1863</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_308_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Provisorische Einführung einiger Ah. sanktionierter Gesetze in Siebenbürgen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> brachte zur Kenntnis der Konferenz, daß, nachdem ihm von Seite des Ministers Ritter v. Lasser mehrere auf verfassungsmäßigem Wege zustande gekommene und Ah. sanktionierte Gesetze, als das Gesetz vom <date when="1862-12-17">17. Dezember 1862</date> zur Einführung eines Handelsgesetzbuches, Gesetz vom <date when="1862-10-27">27. Oktober 1862</date> zum Schutze der persönlichen Freiheit, Gesetz vom <date when="1862-12-17">17. Dezember 1862</date> über das Ausgleichsverfahren und dergleichen mitgeteilt worden sind, er nunmehr die Einleitung treffen werde, daß diese Gesetze in Siebenbürgen ex autoritate regia provisorisch eingeführt werden, wobei es sich von selbst verstehe, daß sie seinerzeit als Regierungsvorlagen an den Landtag gebracht werden. Als jedoch vom <hi rend="#letterspaced">
+                        <rs type="person">ungarischen <pb n="164" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s164.pdf"/>Hofkanzler</rs>
+                     </hi> mehrere Bedenken gegen die Berechtigung zu einem solchen Vorgehen erhoben wurden und auch von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsministers</rs>
+                     </hi> dieser Weg entschieden widerraten wurde, indem so etwas nur den Schein geben würde, daß man bei jeder Gelegenheit über das Oktoberdiplom hinauswolle, erklärte <hi rend="#letterspaced">
+                        <rs type="person">Graf Nádasdy</rs>
+                     </hi>, daß er vorderhand mit dieser Maßregel zurückhalten und hierwegen von Fall zu Fall au. Vortrag erstatten wolle, wo dann die hohe Konferenz in die Lage gesetzt sein werde, den Gegenstand einer eingehenden Erörterung zu unterziehen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1863-01-05">5. Jänner 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1863-01-23">23. Jänner 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-01-24">24. Jänner 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

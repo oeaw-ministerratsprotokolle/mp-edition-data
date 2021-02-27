@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="490">Sitzung 490</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-09-16"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z490.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1294</idno>
+                  <idno type="KZ">2938</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-09-16"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 19. 9.), Rechberg, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Mažuranić (bei IV abw.), Kalchberg; außerdem anw. Mercandin (nur bei III anw.), Friedenfels, Kaiser (nur bei III anw.); abw. Esterházy; BdR. Erzherzog Rainer 11. 10.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-09-19">1864-09-19</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei IV abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8788">
+                     <surname>Mercandin</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei III anw.)</note>
+               </person>
+               <person role="present-non-member">
+                  <persName ref="#mpr9020">
+                     <surname>Friedenfels</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei III anw.)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_490_1">Anerkennung des Königs Georg von Griechenland</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_490_2">Rücktritt des Judex Curiae Graf Georg Andrássy</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_490_3">Form der Einbringung des Staatsrechnungsabschlusses für 1862 beim Reichsrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_490_4">Bedeckung des im Jahre 1865 vorauszusehenden Defizits</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640916-P-0490" ana="a5-b8-z490">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z490.pdf">
+               <title type="num">Nr. 490</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-09-16">16. September 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 19. 9.), Rechberg, Mecséry, Nádasdy, Schmerling. Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Mažuranić (bei IV <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Kalchberg; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Mercandin (nur bei III <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice>), Friedenfels, Kaiser (nur bei III <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice>); <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Esterházy; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 11. 10.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1294</idno>
+                  <idno type="KZ">2938</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-09-16">16. September 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzoges Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_8_490_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Anerkennung des Königs Georg von Griechenland</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> referierte, daß nach dem dermaligen Stand der diplomatischen Verhandlungen Österreich dem Drängen Englands, Frankreichs und Rußlands nicht länger widerstehen und die Anerkennung des Königs Georg von Griechenland nicht weiter aufschieben könne. Die vielen und wichtigen Handelsinteressen, welche uns mit Griechenland verbinden, werden gleichfalls durch diese Anerkennung wesentlich gefördert werden. Nachdem Referent sich von der Ah. Geneigtheit, die fragliche Anerkennung auszusprechen, überzeugt hatte, ließ er die bezügliche Expedition vorbereiten, glaubte jedoch vor deren Absenden die Ansichten seiner Kollegen darüber einholen zu sollen.</p>
+                  <p>Der Ministerrat fand gegen die in Rede stehende Anerkennung des Königs Georg nichts zu erinnern<note type="footnote" n="1">Nach dem Sturz König Ottos, vgl. <ref type="protocol-link" target="MRP-1-5-03-0-18620304-P-0202.xml#top_5_3_202_2">MR. I v. <date when="1862-03-04">4. 3. 1862</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z202" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z202.pdf" target="MRP-1-5-03-0-18620304-P-0202.xml">ÖMR. V/3, Nr. 202</ref>
+                        </bibl>, war Prinz Wilhelm aus dem dänischen Haus Glücksburg am <date when="1863-03-30">30. 3. 1863</date> als Georg I. zum griechischen König gewählt worden, <bibl type="secondary">
+                           <author>Schulthess</author>, Europäischer Geschichtskalender 4 (1863) 281</bibl>; Hintergrund <quote>ebd. 410 f.</quote> Mit Vortrag v. <date when="1864-09-09">9. 9. 1864</date> hatte Rechberg die österreichische Antwort auf die Mitteilung des Regierungsantritts, den Antrag auf Anerkennung des Königs durch Österreich und das Beglaubigungsschreiben für den österreichischen Gesandten in Athen vorgelegt; Franz Joseph unterzeichnete die Dokumente am <date when="1864-09-11">11. 9. 1864</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2723/1864</bibl>, und <quote>ebd., Administrative Registratur, F 2, Karton 20.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_490_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Rücktritt des Judex Curiae Graf Georg Andrássy</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> brachte zur Kenntnis, daß der Judex Curiae, Graf Georg Andrássy, Sr. Majestät dem Kaiser am 14. d. M. sein Entlassungsgesuch überreicht habe, auf dessen Ag. Gewährung Graf Zichy au. anzutragen gedenke<note type="footnote" n="2">Zur Ernennung Andrássys im April 1863 siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630331-P-0337.xml#top_5_5_337_2">MR. II v. <date when="1863-03-31">31. 3. 1863</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z337" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z337.pdf" target="MRP-1-5-05-0-18630331-P-0337.xml">ÖMR. V/5, Nr. 337</ref>
+                        </bibl>.</note>. Es frage sich nun, ob derselbe zugleich auch der Obergespanswürde in Sáros zu entheben sei. Referent glaube sich dafür aussprechen zu sollen, und wäre eine vorläufige Anfrage an Graf Andrássy über seine künftige Haltung den Intentionen der Regierung gegenüber um so entbehrlicher, als der Judex Curiae seine politische Gesinnung zu einem jüngst erlassenen Zirkular in einer Weise ausgesprochen hat, die auf sein Wirken im Sinn der Regierung keine Hoffnung läßt. Graf Andrássy würde unter diesen Umständen nur noch die Würde eines Oberstlandesmundschenks fortzubekleiden haben, wie ihm dies mit Ah. Handschreiben vom <date when="1863-04-08">8. April 1863</date> zugesichert wurde<note type="footnote" n="3">
+                        <bibl type="archival">HHSTA., CB-Prot. 30c/1863</bibl>.</note>.</p>
+                  <p>
+                     <pb n="116" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s116.pdf"/>Auf die von Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzog gestellte Frage, auf welchen Ersatz Graf Zichy bei Sr. Majestät anzutragen gedenke, erwiderte der letztere, er gedenke au. in Antrag zu bringen, daß die Geschäfte des Judex Curiae vorderhand durch den Vizepräsidenten Grafen Török besorgt würden, zumal die Besetzung dieses Postens erst bei Abhaltung eines Landtages notwendig werden wird.</p>
+                  <p>Gegen die Anträge des ungarischen Hofkanzlers wurde von keiner Seite eine Erinnerung erhoben<note type="footnote" n="4">Mit Ah. E. und Handschreiben v. <date when="1864-09-21">21. 9. 1864</date> wurde Georg Graf Andrássy des Amtes des obersten Landesrichters sowie der Obergespanswürde des Komitates Sáros enthoben unter Beibehaltung des Ehrentitels Oberstlandesmundschenk, <quote>ebd., Kab. Kanzlei, KZ. 2810/1864</quote>. Eine Ah. Entschließung über die Betrauung des Valentin Graf Török v. Szendrö mit der Stellvertretung des Judex Curiae gibt es in der Kabinettskanzlei nicht, doch übte er ohne Zweifel diese Funktion bis zur Ernennung des Georg Graf Mailáth zum Judex Curiae am <date when="1867-02-12">12. 2. 1867</date> aus, vgl. <bibl type="secondary">
+                           <title>Hof- und Staatshandbuch</title> 1866 und 1867</bibl>.</note>, <ref xml:id="fn_5_8_490_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_490_a">Randvermerk Ransonnets: <quote>Den Referaten über die Punkte I und II wohnten Präsident Graf Mercandin und Sektionsrat Kaiser nicht bei.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_490_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Form der Einbringung des Staatsrechnungsabschlusses für 1862 beim Reichsrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über die Form, unter welcher der Reichsvertretung der Staatsrechnungsabschluß für das Verwaltungsjahr 1862 nach § 10 des Grundgesetzes<note type="footnote" n="5">Grundgesetz über die Reichsvertretung, Beilage zum Februarpatent, <bibl type="archival">RGBL. Nr. 20/1861</bibl>.</note> zur Prüfung mitzuteilen wäre<note type="footnote" n="6">Es war dies der erste Staatsrechnungsabschluß, der dem Reichsrat vorgelegt wurde. Die für die Mitteilung gewählte Form war also ein Präjudiz für die Zukunft.</note>.</p>
+                  <p>In bezug auf diesen Rechnungsabschluß liegen mehrere Elaborate vor<note type="footnote" n="7">Beilagen zu <bibl type="archival">FA., FM., Präs. 4665/1864, Präs. 4883/1864, Präs. 5389/1864 und Präs. 598/1865</bibl>.</note>: 1. Die Hauptübersicht der Gebarung des Jahres 1862, worin der erzielte Erfolg den im Finanzgesetze festgesetzten Ziffern des Staatsvoranschlages gegenübergestellt wird. Das Schlußergebnis bei den Ausgaben ist, daß der wirkliche Aufwand im ganzen das präliminierte Erfordernis um 13 Millionen Gulden überschritten hat. Diese Überschreitung ist unschwer zu rechtfertigen, zumal der Voranschlag für 1862 erst am <date when="1862-11-02">2. November 1862</date>, somit nach dem Schlusse des Verwaltungsjahres Gesetzeskraft erhielt<note type="footnote" n="8">Dazu <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/2, XXII–XXVII</bibl>.</note>. Ferner sind unter jener Summe 4 Millionen durch nachträglich bewilligte Kredite (Gesetz vom <date when="1862-12-17">17. Dezember 1862</date>, RGBl. XLIII. [Stück, Nr.] 100)<note type="footnote" n="9">Dazu <ref type="protocol-link" target="MRP-1-5-04-0-18620813-P-0257.xml#top_5_4_257_2">MR. v. <date when="1862-08-13">13. 8. 1862</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z257" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z257.pdf" target="MRP-1-5-04-0-18620813-P-0257.xml">ÖMR. V/4, Nr. 257</ref>
+                        </bibl>.</note> bedeckt. Endlich besteht der Mehraufwand auch zum Teil aus bedeutenden Posten, die bereits in früheren Jahren ausgegeben, im Jahre 1862 aber erst rechnungsmäßig durchgeführt worden sind, <ref xml:id="fn_5_8_490_b">der reelle Mehraufwand entfällt [sic!] nicht höher als ein und eine halbe Million</ref>
+                     <note type="variant" n="b" target="#fn_5_8_490_b">Einfügung b–b Pleners.</note>. Der Erfolg bei den Einnahmen war ein auffallend günstiger, indem um 25 Millionen mehr eingeflossen ist als man bei der Bedeckung im Voranschlag präliminiert hatte. 10 Millionen dieses Mehrbetrages wurden durch Reduktion der Ausgaben beim Tabakgefälle erzielt. <ref xml:id="fn_5_8_490_c">15 Millionen bilden ein reelles finanzielles Mehreinkommen</ref>
+                     <note type="variant" n="c" target="#fn_5_8_490_c">Einfügung c–c Pleners.</note>. Nebst dieser für den Reichsrat bestimmten Zusammenstellung des Finanzministeriums liegt auch eine von der Obersten Rechnungskontroll­behörde verfaßte Zusammenstellung vor, welche deswegen <pb n="117" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s117.pdf"/>ein anderes Ziffernresultat liefert, weil in dieselbe noch die anfänglichen und schließlichen Aktiva und Passiva als Faktoren einbezogen worden sind. 2. Ein Heft Erläuterungen, wodurch die Differenzen zwischen dem wirklichen Erfolg und den Ziffern des Voranschlages näher beleuchtet und motiviert werden. Dort erscheinen dann die Details der einzelnen Abteilungen, in welche der Voranschlag jedes Zweiges zerfällt. 3. liegt eine komparative Darstellung der Staatsschulden vor, worin die im Ausweis der Staatsschuldenkommission enthaltenen, von dem Ausweis des Finanzministeriums abweichenden Daten ersichtlich gemacht und die Differenzen (namentlich bezüglich der Grundentlastungsfonds) motiviert werden. Die Hauptzusammenstellung 1., welche den eigentlichen Rechnungsabschluß bildet, wäre in Druck zu legen und beiden Häusern des Reichsrates mitzuteilen. Die Erläuterungen 2. dürften besser ungedruckt bleiben und dem Finanzausschuß erst über sein Verlangen schriftlich mitzuteilen sein. Eine frühere Mitteilung von gedruckten Exemplaren an alle Reichsräte würde nur voreilige<ref xml:id="fn_5_8_490_d"/>
+                     <note type="variant" n="d" target="#fn_5_8_490_d">Einfügung Pleners.</note> Bemängelungen und Nergeleien hervorrufen. Besser man wartet ab, bis der Ausschuß des Abgeordnetenhauses Erläuterungen fordert, und teilt selbe dann schriftlich mit. Der Ausschuß mag sie drucken lassen! Die Zusammenstellung 3. gehört im Grunde auch in das Gebiet der Erläuterungen zum Rechnungsabschluß, dieselbe dürfte jedoch als ganz unverfänglich sofort gedruckt und zur Richtigstellung der Sachverhältnisse in beiden Häusern zugleich mit dem Rechnungsabschlusse verteilt werden. Was endlich die Form betrifft, unter welcher dieser Rechnungsabschluß (so wie seine Nachfolger) an den Reichsrat zu leiten und von dem letzteren zu erledigen wäre, so glaubt der Finanzminister, daß man in Österreich sich hiezu ebensowenig als in anderen konstitutionellen Staaten <ref xml:id="fn_5_8_490_e">(namentlich in den meisten deutschen Staaten)</ref>
+                     <note type="variant" n="e" target="#fn_5_8_490_e">Korrektur e–e Pleners aus <quote>namentlich in Belgien.</quote>
+                     </note> der Form eines Gesetzvorschlages bedienen sollte. Es genügt dazu vielmehr eine einfache Mitteilung des Rechnungsabschlusses durch den Finanzminister unter Berufung auf § 10 des Grundgesetzes. Die Häuser werden die Prüfung veranlassen und über das Resultat derselben debattieren, das Ergebnis der Debatte dürfte in Bemerkungen seinen Ausdruck finden, und zu einem Gesetz sich kein Anlaß ergeben.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> hält es für wichtig, daß man sich bei den in Rede stehenden Mitteilungen an den Reichsrat strikt innerhalb der durch das Grundgesetz vorgezeichneten Grenzen halte: der Rechnungsabschluß 1. und vorderhand nichts mehr, jedoch unter Erklärung der Bereitwilligkeit, die verlangten, nötig befundenen Aufschlüsse und Erläuterungen zu erteilen. Einverstanden mit dem Finanzminister, daß die Erklärungen 2. nicht in gedruckten Exemplaren mitzuteilen wären, würde dagegen Baron Lichtenfels selbst die Zusammenstellung 3. über den Stand der Staatsschuld aus dem gegenwärtigen Anlaß gar nicht mitteilen, da dieselbe mit dem Rechnungsabschlusse in keinem notwendigen Zusammenhange steht und die an sich wünschenswerte Rektifizierung der Angaben der Staatsschuldenkommission füglich bei einem anderen Anlaß vor den Reichsrat gebracht werden kann, wo dann deren Drucklegung keinem Anstand unterläge. In bezug auf die Form der Mitteilung des Abschlusses ohne Gesetzvorschlag trat der Staatsratspräsident dem Finanzminister bei. <pb n="118" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s118.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> trennte sich vom Staatsratspräsidenten nur insoferne Baron Mecséry 1. beantragt, die Erläuterungen zum Rechnungsabschlusse zugleich mit dem letzteren und gedruckt an den Reichsrat zu leiten, indem dadurch vielem unnützem Geschrei und Zeitungslärm über den Mehraufwand von 13 Millionen vorgebeugt würde. Ebenso wären die Erläuterungen über die Staats­schulden in Druck gelegt mitzuteilen. 2. wären die Erläuterungen auf jene Posten zu beschränken, wo Mehrauslagen stattgefunden haben, und hätten dort zu unterbleiben, wo die Ziffer des Voranschlags nicht überschritten wurde, somit nichts zu rechtfertigen ist. Man halte sich diesfalls streng inner der Grenzen des Notwendigen! Zu 2. erklärte sich der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> mit der Vorstimme einverstanden, während er im übrigen (ad 1.) seine Meinung festhielt. Die Erfahrung habe nämlich gezeigt, daß wenn man dem Abgeordnetenhaus mit Details entgegenkommt, die nicht verfassungsmäßig vorweg gefordert werden können, dieses gleich als Pflicht aufgenommen und zum Stützpunkt weiterer Prätentionen gemacht wird. Andererseits wird jeder Vernünftige sein Urteil aufschieben, bis die vom Finanzminister bereitwillig in Aussicht gestellten Erläuterungen eingelangt sind.</p>
+                  <p>Der Meinung des Staatsratspräsidenten traten sohin vollkommen bei: Minister Graf Nádasdy, der Minister des Äußern, der Staatsminister, Minister Ritter v. Hein, die beiden Hofkanzler und der <hi rend="#letterspaced">
+                        <rs type="person">Präsident der Obersten Rechnungskontrollbehörde</rs>
+                     </hi>, letzterer mit dem Beifügen, daß in Absicht auf die Mitteilungen der Erläuterungen über die Differenzen bei den Einnahmen selbstver­ständlich die analogen Grundsätze zu gelten haben werden. Sollten sich dem Finanzausschusse über einzelne Posten Zweifel ergeben, so könnte derselbe die Originalrechnungsbeilagen im Wege der betreffenden Zentralstellen von der Obersten Rechnungskontrollbehörde zur Einsicht begehren.</p>
+                  <p>Die minderen Stimmen – nämlich die Minister Ritter v. Lasser, Ritter v. Franck und Baron Burger, dann Baron Kalchberg und Hofrat Baron Friedenfels stimmten mit dem Amendement des Polizeiministers dafür, daß die Erläuterungen 2. und 3. in Druck gelegt und zugleich mit dem Rechnungsabschlusse an den Reichsrat geleitet werden.</p>
+                  <p>Sobald der Grundsatz angenommen wird, daß nur das strikt zu dem Rechnungsabschluß Gehörige in die Mitteilung aufzunehmen sei, hält es der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> für konsequent, daß aus der Zusammenstellung 1. die schließlichen Aktiva und Passiva wegbleiben, weil deren auch im Finanzgesetz keine Erwähnung geschieht. Hiernach werden auch die Schlußworte geändert werden müssen. Der Staatsratspräsident und der Polizeiminister waren damit einverstanden<note type="footnote" n="10">Mit Vortrag v. <date when="1864-10-05">5. 10. 1864</date> beantragte Plener, den Rechnungsabschluß für 1862 dem Reichsrat übermitteln zu dürfen, <bibl type="archival">FA., FM., Präs. 4665/1864 (K.) und Präs. 5389/1864 (RS.)</bibl>; Fortsetzung <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_2">MR. v. <date when="1864-10-24">24. 10. 1864</date>/II</ref>.</note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> machte aufmerksam, daß die Minister über die Frage, wie weit man in den Details der Aufklärungen an den Reichsrat gehen könne, in praxi sehr verschiedene Grundsätze beobachten. Er selbst zum Beispiel sei weit entfernt, diesfalls so viel zu geben als der Finanzminister, und es wäre daher jedem Chef eines Verwaltungszweiges das diesfalls einzuhaltende Maß anheimzugeben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>
+                     <pb n="119" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s119.pdf"/>behielt sich vor, die vorbereiteten Erläuterungen jedem Minister zu dem eben angedeuteten Zwecke mitzuteilen<note type="footnote" n="11">Dazu <bibl type="archival">FA., FM., Präs. 4665/1864</bibl>.</note>, <ref xml:id="fn_5_8_490_f"/>
+                     <note type="variant" n="f" target="#fn_5_8_490_f">Randvermerk Ransonnets: <quote>Nach der Abstimmung über den Punkt III verließen der kroatisch-slawonische Hofkanzler, Graf Mercandin und Sektionsrat Kaiser den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_490_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bedeckung des im Jahre 1865 vorauszusehenden Defizits</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> besprach in einem längeren Vortrage das im Verwaltungsjahre 1865 vorauszusehende Defizit im Staatshaushalte und die Mittel zu dessen Deckung<note type="footnote" n="12">Zu den Vorarbeiten für das Budget für 1865 siehe <bibl type="archival">FA., FM., Präs. Index, Stichwort Voranschlag</bibl>.</note>.</p>
+                  <p>Das Mehrerfordernis der einzelnen Zweige gegenüber der präliminierten Bedeckung beträgt im ganzen 59 Millionen, von welcher Summe aber nur 19½ Millionen das eigentliche „administrative Defizit“ bilden. An diesem Defizit hat die Landmacht einen Anteil von 14,386.000 fl., die Marine von 2,900.000 fl.; der Rest verteilt sich in kleineren Beträgen auf die übrigen Zweige. Wenn es gelänge, diese Mehransprüche zu beseitigen, würde es sich nur mehr um 40 Millionen handeln, für welche der Finanzminister die Deckung zu finden hofft, ohne zu einer Finanzoperation im Laufe des Jahres 1865 zu schreiten. Diese Deckung wäre nämlich zu erreichen: 1. Durch die Entschädigung für den schleswig-holsteinischen Feldzug, ein Betrag von 16 Millionen, worauf der Minister des Äußern die Aussicht eröffnet hat<note type="footnote" n="13">Vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18640525-P-0474.xml">MR. v. <date when="1864-05-25">25. 5. 1864</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-08-0-18641028-P-0504.xml#top_5_8_504_2">MR. I v. <date when="1864-10-28">28. 10. 1864</date>/II</ref>.</note>. 2. Durch Einnahmen an Steuerrückständen in Ungarn, per 4 Millionen. 3. Durch Vermehrung der schwebenden Schuld (Salinenhypothekaranweisungen) um 15 Millionen<note type="footnote" n="14">Zu dieser Verschuldungsform siehe <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 139 ff.</bibl>
+                     </note>, <ref xml:id="fn_5_8_490_g"/>
+                     <note type="variant" n="g" target="#fn_5_8_490_g">Gestrichen: <quote>4. Durch Begebung des Rests vom Silberanlehen.</quote>
+                     </note>. Der Finanzminister erklärt, es sei zur Erhaltung und Konsolidierung des österreichischen Staatskredits eine dringende Notwendigkeit, daß im Jahre 1865 keine neue Kreditoperation vorgenommen werde. In kurzen Zeiträumen sind bedeutende österreichische Anlehen nacheinander auf den Geldmarkt gebracht worden, <ref xml:id="fn_5_8_490_h">von denen das letzte (Silberanleihe 1864)</ref>
+                     <note type="variant" n="h" target="#fn_5_8_490_h">Korrektur h–h Pleners aus <quote>welche zwar von der Finanzverwaltung begeben, aber.</quote>
+                     </note> noch nicht ganz abgewickelt ist<note type="footnote" n="15">Gemeint sind: die Lotterieanleihe 1864, vgl. <ref type="protocol-link" target="MRP-1-5-07-0-18640207-P-0443.xml#top_5_7_443_6">MR. v. <date when="1864-02-07">7. 2. 1864</date>/VI</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z443" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z443.pdf" target="MRP-1-5-07-0-18640207-P-0443.xml">ÖMR. V/7, Nr. 443</ref>
+                        </bibl>; <bibl type="secondary">
+                           <author>Kletečka-Koch</author>, Einleitung ÖMR. V/7, XXXIII</bibl>; <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 150 f.</bibl>; <bibl type="secondary">
+                           <author>Wolf</author>, Ignaz von Plener 59</bibl>; und die Silberanleihe 1864, vgl. <ref type="protocol-link" target="MRP-1-5-07-0-18640419-P-0464.xml#top_5_7_464_6">MR. I v. <date when="1864-04-19">19. 4. 1864</date>/VI</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z464" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z464.pdf" target="MRP-1-5-07-0-18640419-P-0464.xml">ÖMR. V/7, Nr. 464</ref>
+                        </bibl>, <ref type="protocol-link" target="MRP-1-5-07-0-18640514-P-0471.xml">MR. v. <date when="1864-05-14">14. 5. 1864</date>/I</ref>, <quote>ebd., Nr. 471</quote>, und <ref type="protocol-link" target="MRP-1-5-08-0-18641003-P-0494.xml#top_5_8_494_3">MR. v. <date when="1864-10-03">3. 10. 1864</date>/III</ref>, <bibl type="secondary">
+                           <author>Kletečka-Koch</author>, Einleitung ÖMR. V/7, XXXIII</bibl>; <bibl type="secondary">
+                           <author>Liese</author>, Staatskredit und Defizitfinanzierung 156 ff.</bibl>; <bibl type="secondary">
+                           <author>Wolf</author>, Ignaz von Plener 60</bibl>.</note>. Die Unlust der Kapitalisten, sich dermal an neuen österreichischen Staatsanlehen zu beteiligen, wird noch dadurch gesteigert, daß eine Anzahl von lukrativen oder doch Gewinn versprechenden Unternehmungen jetzt auf den Börsen Konkurrenz macht. Dahin gehören die italienischen und mexikanischen Anlehen und insbesondere<ref xml:id="fn_5_8_490_i"/>
+                     <note type="variant" n="i" target="#fn_5_8_490_i">Einfügung Pleners.</note> die amerikanischen Staatspapiere. Die letzteren, auf den Kurs von 40% herabgedrückt, versprechen eine vierzehnperzentige Verzinsung des Ankaufskapitals, so daß sich die Spekulation darauf geworfen und Frankfurt allein 40 Millionen Dollar in solchen Papieren gekauft hat. Dies hat die Folge, daß sich viele ausländische Kapitalisten der österreichischen Papiere entäußern, wodurch sie massenhaft <pb n="120" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s120.pdf"/>zurückströmen und die Kurse drücken. Diese ungünstigen Umstände, <ref xml:id="fn_5_8_490_j">verbunden mit der Geldklemme auf allen europäischen Geldmärkten und zumeist auf den tonangebenden in London und Paris, mit dem enormen Geldabfluß nach Ostindien und Ägypten usw.</ref>
+                     <note type="variant" n="j" target="#fn_5_8_490_j">Einfügung j–j Pleners.</note>, dürften sich im Jahre 1865 eher noch verschlimmern, und die Vorsicht gebiete daher, die Eventualität eines neuen Anlehens im kommenden Jahre umso weniger als Bedeckungsmittel ins Auge zu fassen, als noch namhafte Posten des Silberanlehens im Stillen untergebracht werden müssen. Man darf die Börsen nicht übersättigen, und deswegen ist eine einjährige Ruhe unerläßlich. Durch diese Ausführung glaube der Finanzminister das Ansinnen gerechtfertigt, daß die Chefs der verschiedenen Verwaltungszweige auf ihre Mehranforderungen für 1865 verzichten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> äußerte, er verkenne nicht die Bedeutung der angeführten Gründe, auch sei er gerne bereit, in seinem Departement das Mögliche zu tun, um die Dotationsansprüche zu ermäßigen. Man müsse aber auch berücksichtigen, daß in dieser Beziehung schon sehr viel geschehen ist und der Militärvoranschlag für 1865 nur durch vorgängige Reduktionen auf die gegenwärtige Ziffer herabgedrückt wurde. So wurden vier Millionen bei der Artilleriebranche abgestrichen; man hat bei den Kosten der Waffenübungen, bei dem Lokostande<note type="footnote" n="16">Stand der Truppen am Platz, tatsächliche Truppenstärke.</note> und überhaupt dort zu sparen gesucht, wo es einigermaßen zulässig schien<ref xml:id="fn_5_8_490_k"/>
+                     <note type="variant" n="k" target="#fn_5_8_490_k">Signierter Randvermerk Francks: <quote>Bei allen zusammen wurden die 4 Millionen abgestrichen.</quote>
+                     </note>. Vom Ordinarium lasse sich durchaus nichts ersparen. Beim Extraordinarium könnte allenfalls die Ergänzung der Vorräte aus Anlaß der Kriegsabnützung und der bevorstehenden Rekrutierung unterbleiben, und der Rest der 14 Millionen müßte durch Reduktionen bei der Armee in Italien bewirkt werden, welche jedoch zur Ersparung einer so großen Summe bis auf den Friedensstand der Regimenter herabgedrückt werden müßte. FML. Ritter v. Franck wisse jedoch nicht, ob die politischen Verhältnisse der Gegenwart und die Aussichten in der Zukunft es gestatten, 30.000 Mann von den Fahnen zu entlassen<note type="footnote" n="17">Zur Situation in Lombardo-Venetien siehe <bibl type="secondary">
+                           <author>Kletečka-Koch</author>, Einleitung ÖMR. V/7, XXVff.</bibl>
+                     </note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erwiderte, die politische Lage in Europa sei nicht vollkommen friedlich. Graf Rechberg könne nicht dafür die Verantwortung übernehmen, daß nicht irgend ein unvorhergesehenes Ereignis ernste Verwicklungen herbeiführe. Allein abgesehen von solchen Vorfällen sei ein Krieg selbst bis zum nächsten Frühjahr nicht zu erwarten, wofern das Einverständnis mit Preußen aufrechterhalten wird. Wenn dies der Fall ist, so erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, würden die Ah. Befehle Sr. Majestät des Kaisers in der angedeuteten Beziehung einzuholen sein. Doch müsse er sich entschieden gegen eine weitere Reduktion des auf das ganz Unerläßliche eventuell zu moderierenden Budgets verwahren. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bemerkte, daß ihm abgesehen von den durch den Kriegsminister bezeichneten Ersparungen noch weitere deswegen zulässig scheinen, weil das Ordinarium auf Grundlage der vorjährigen Frucht- und Futterpreise berechnet ist, welche bereits faktisch sehr herabgegangen sind. Dann sei die präliminierte Änderung von 1,320.000 fl. bei den eigenen Einnahmen der Militärverwaltung, deren Detail dem Minister nicht bekannt ist, auffallend hoch und nicht motiviert. <pb n="121" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s121.pdf"/>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> zeigte, daß seine Anforderung für 1865 nicht höher sei, als die <ref xml:id="fn_5_8_490_l">in Anspruch genommene</ref>
+                     <note type="variant" n="l" target="#fn_5_8_490_l">Einfügung l–l Burgers.</note> Dotation der Marine vor zwei Jahren betrug. Der Mehranspruch gegen 1864 per 2½ Millionen wird hauptsächlich für Schiffbauten (1,200 000 fl.) und für die Arsenalbauten in Pola (1 Million) erhoben. Letztere sind zur Fortsetzung begonnener Bauten notwendig, und die Schiffbauten werden noch durch etwa sieben Jahre eine extraordinäre<ref xml:id="fn_5_8_490_m"/>
+                     <note type="variant" n="m" target="#fn_5_8_490_m">Einfügung Burgers.</note> Jahresdotation von 1,200.000 fl. erfordern, um die österreichische Flotte auf den Normalstand zu bringen. Wird diese Summe gänzlich gestrichen, so tritt wieder in unserer maritimen Entwicklung eine bedauerliche Stagnation ein. Wenn daher überhaupt im präliminierten Aufwande für die Seemacht eine Verminderung eintreten soll, so möge man doch wenigstens nicht die vollen 2½ Millionen, sondern allenfalls die Hälfte streichen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, man würde sich einer argen Täuschung hingeben, wenn man hoffe, daß die Budgets des Krieges und der Marine, mögen sie dem Reichsrat auch aufs äußerste restrigiert vorgelegt werden, keine weitere Schmälerung erfahren würden. Wer die Stimmung in beiden Häusern kennt, wird keine solche Hoffnung hegen, und in der Tat, der Reichsrat wäre der öffentlichen Meinung in der ganzen Monarchie gegenüber gewissermaßen ruiniert, wenn er unter unseren dermaligen finanziellen Nöten die Budgets der Armee und der Flotte, welche man a priori als überspannt betrachtet, ungeschmälert ließe. Deswegen könne der Staatsminister nur raten, die Anforderung für die Armee um vier, jene für die Marine um eine Million höher im Budget einzustellen, als das äußerste Erfordernis des Dienstes gebietet. Dies seien die Zankäpfel, die man fallen lassen kann. Im übrigen teile Minister Ritter v. Schmerling völlig die Meinung des Ministers des Äußern, daß die friedliche Stimmung in Europa eine sehr namhafte Reduktion unseres Truppenstandes zulasse. Seit Jahren unterhalten wir in Italien eine sehr bedeutende Streitmacht in Erwartung kriegerischer Eventualitäten, die nicht eintreten! Selbst jetzt noch haben wir dort einen bedeutend höheren Lokostand als vor einem halben Jahre. Wegen bloßen Möglichkeiten eines Krieges ist es nicht angezeigt, fortwährend so schwere finanzielle Opfer zu bringen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> glaubte aufmerksam machen zu müssen, daß man bei dem jetzigen Beschlusse auch berücksichtigen sollte, wie die Ersparnis einer temporären Reduktion durch die Kosten einer bald darauf wieder erfolgenden Vermehrung des Standes bei weitem überwogen werde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, dem Staatsminister beitretend, hob heraus, daß die Steigerung unserer Finanznot auch der politischen Stellung Österreichs nachteilig sei. Ohne in eine Analyse des Kriegsbudgets eingehen zu wollen, scheine dem Minister doch die Anforderung von 4 Millionen für Ergänzungen der Vorräte für den Kriegsbedarf, welche schon einmal vertagt wurde, unter den jetzigen friedlichen Aspekten nicht so dringend zu sein, daß sie nicht noch weiter aufgeschoben werden könnte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> äußerte gegen die vom Staatsminister vorgeschlagene Erhöhung der Dotationsansprüche für Marine und Armee zur Gewinnung einer Latitüde für die Reichsratsdebatten das Bedenken, daß ihm durch diese Erhöhung die Pflicht erwachse, auf eine entsprechende <pb n="122" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s122.pdf"/>Erhöhung der Bedeckung zu ermitteln. Dies sei er aber nicht im Stande <ref xml:id="fn_5_8_490_n">ohne neue Kreditoperation, deren Vermeidung eben angestrebt werden müsse</ref>
+                     <note type="variant" n="n" target="#fn_5_8_490_n">Einfügung n–n Pleners.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">Marine</rs>
+                     </hi>- und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> deuteten auf das Auskunftsmittel hin, den Ziffer [sic!] der Erhöhung der schwebenden Schuld entsprechend dem ausgewiesenen Mehrbedarfe zu erhöhen. Die Minister des Äußern und der Polizei waren damit einverstanden, wobei Baron Mecséry bemerkte, man müsse dem Reichsrat die Möglichkeit zur Vornahme von Reduktionen gewähren, welche die Fortsetzung des öffentlichen Dienstes nicht vereiteln, widrigens man sich genötigt sehen könnte, das Abgeordnetenhaus aufzulösen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> äußerte, man müsse sich auf ein Paktieren über das Budget in den reichsrätlichen Verhandlungen gefaßt machen, und der Finanzminister sollte sich davor mit den Ministern des Kriegs und der Marine unmittelbar wegen der im Reichsrate anzusprechenden Dotationen ins Einvernehmen setzen, da diese reine Ziffernangelegenheit füglich nicht im Ministerrate ausgetragen werden könne. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> teilt die Meinung des Staatsministers, über die Unvermeidlichkeit von Reduktionen durch den Reichsrat und die Notwendigkeit, diesfalls in den Anforderungen für die See- und Landmacht vorzudenken<note type="footnote" n="18">Fortsetzung dieser Diskussion im MR. <date when="1864-09-22">22. 9. 1864</date>/V und VI unter dem Vorsitz des Kaisers.</note>. Übrigens hält er es für kaum möglich, über das Jahr 1865 ohne neue Kreditoperation hinauszukommen.</p>
+                  <p>Freiherr v. Lichtenfels glaubte zugleich den Ministerrat auf eine namhafte Ausgabe aufmerksam machen zu müssen, die zwar in den Voranschlägen noch nicht ihren Platz gefunden haben dürfte, gleichwohl aber unvermeidlich sei. Dies ist der Mehraufwand für Erhöhung der Gehalte der unteren Beamtenklassen. Votant verkenne keineswegs die Schwierigkeiten, welche in finanzieller Beziehung gegen eine solche Erhöhung bestehen. Aber nebst den bekannten Gründen, welche für eine Verbesserung im Lose der kleinen Beamten streiten, tritt noch ein anderer Umstand ein, welcher es für das Ministerium zu einer unausweichlichen Notwendigkeit macht, mit dieser Maßregel die Initiative zu ergreifen. Schon in zwei Sessionen ist ein darauf gerichteter Antrag vom Abgeordnetenhause des Reichsrates ausgegangen<note type="footnote" n="19">Dazu <ref type="protocol-link" target="MRP-1-5-06-0-18631001-P-0399.xml#top_5_6_399_1">MR. v. <date when="1863-10-01">1. 10. 1863</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b6-z399" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b6/pdf/a5-b6-z399.pdf" target="MRP-1-5-06-0-18631001-P-0399.xml">ÖMR. V/6, Nr. 399</ref>
+                        </bibl>.</note>. Das Ministerium widersetzte sich demselben, und nicht ohne Mühe gelang es in der letzten Session, das Herrenhaus zur Ablehnung zu bestimmen<note type="footnote" n="20">Vgl. <ref type="protocol-link" target="MRP-1-5-07-0-18631214-P-0427.xml#top_5_7_427_5">MR. v. <date when="1863-12-14">14. 12. 1863</date>/V</ref>, <quote>ebd., Nr. 427.</quote>
+                     </note>. Daß der Antrag wiederholt eingebracht werden wird, sei nicht zu bezweifeln, sowie auch, daß in dieser nächsten Session beide Häuser demselben beitreten werden. Kann das Ministerium sich gegen denselben erklären, ohne sich dem schwersten Tadel nicht bloß der Beteiligten, sondern des großen Publikums überhaupt auszusetzen? Unter diesen Umständen ist es nicht bloß von der Menschlichkeit, sondern auch von der Klugheit geraten, dem vorausgesehenen Wunsche der Reichsvertretung durch einen Antrag zugunsten der sogenannten kleinen Beamten zuvorzukommen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi>, welcher sich diese Verhältnisse gleichfalls gegenwärtig gehalten hatte, äußerte, bereits einen darauf abzielenden Gesetzvorschlag zugunsten der Beamten seines Ressorts vorbereitet zu haben. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er werde mit Bedauern gewahr, daß man im Ministerrate den ganzen Ernst unserer <pb n="123" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s123.pdf"/>finanziellen Lage nicht würdigt. Bei der übergroßen Zahl von Beamten, um die es sich hiebei handelt, würde daraus eine sehr beträchtliche Mehrauslage entstehen, für die es an Bedeckungsmitteln fehlt. Unter den gegenwärtigen Konjunkturen muß man sich nicht durch Rücksichten der den Reichsrat gegenüber zu beobachtenden Politik leiten lassen, sondern fragen, wo die benötigten Millionen herzunehmen seien. Ohne im Jahre 1865 neue Anlehensoperationen vorzunehmen, sei eine Bedeckung für die Gehaltserhöhungen nicht zu finden, und er halte es von der höchsten Wichtigkeit, daß in diesem Jahre keine neuen Schulden gemacht werden. Die Gründe habe er bereits entwickelt. Die schwebende Schuld aber um etwa 30 Millionen zu erhöhen sei nicht tunlich, und würde dies die notwendige Begebung des Silberanlehens beirren. Minister Graf Nádasdy und der ungarische Hofkanzler vereinigten sich mit dem Antrage des Staatsministers und des Staatsratspräsidenten. Übrigens bemerkte Graf Zichy, daß bei den dermaligen niedrigen Preisen der Feldfrüchte in Ungarn von einer besonders ergiebigen Steuereinzahlung in Ungarn nicht viel zu erwarten sei, zumal ein großer Teil der Kontribuenten in Folge des vorjährigen Notstandes noch viele andere Lasten zu tragen haben wird. Schließlich bemerkte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, daß die wichtige und tiefgreifende Frage der Gehaltserhöhung in der heutigen Beratung allerdings nicht erledigt werden könne, allein man werde sich damit ernstlich beschäftigen müssen<note type="footnote" n="21">Fortsetzung dieser Diskussion am Schluß der Ministerratssitzung v. <date when="1864-10-03">3. 10. 1864</date>/I.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-09-19">19. September 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Ischl, am <date when="1864-10-09">9. Oktober 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-10-11">11. Oktober 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

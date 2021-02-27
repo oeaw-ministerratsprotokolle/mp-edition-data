@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="485">Sitzung 485</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-08-12"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z485.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1289</idno>
+                  <idno type="KZ">2589</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-08-12"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Rechberg; BdE. und anw. (Rechberg 14. 8.), Mecséry, Schmerling, Plener, Esterházy (bei I, II u. VI abw.), Burger, Hein (bei I u. II abw.), Franck, Zichy, Geringer (bei VI abw.), Kalchberg; abw. Nádasdy, Lasser, Lichtenfels; BdR. Rechberg 28. 8.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-08-14">1864-08-14</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei I, II u. VI abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei I u. II abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8313">
+                     <surname>Geringer</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (bei VI abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_485_1">Einrichtungspauschale für den Statthalter in Böhmen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_485_2">Bestätigung der Wahl des Samuel Maschirevics zum Metropoliten von Karlowitz; Vertagung des serbischen Nationalkongresses</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_485_3">Gesuch der Brüder Riche um die Konzession für die Eisenbahn von Kaschau nach Oderberg</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_485_4">Fortbestand der Wiener Porzellanfabrik als Musteranstalt</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_485_5">Auflassung des Mühlzinses in Dalmatien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_8_485_6">Eingeschränkte Zulassung der Öffentlichkeit bei Hinrichtungen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640812-P-0485" ana="a5-b8-z485">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z485.pdf">
+               <title type="num">Nr. 485</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-08-12">12. August 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Rechberg; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Rechberg 14. 8.), Mecséry, Schmerling, Plener, Esterházy (bei I, II u. VI <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Burger, Hein (bei I u. II <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Franck, Zichy, Geringer (bei VI <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Kalchberg; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Nádasdy, Lasser, Lichtenfels; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Rechberg 28. 8.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1289</idno>
+                  <idno type="KZ">2589</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-08-12">12. August 1864</date> abgehaltenen Ministerrates unter dem Vorsitze des Ministers des kaiserlichen Hauses und des Äußern Grafen Rechberg.</head>
+               <div type="agenda_item" xml:id="top_5_8_485_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Einrichtungspauschale für den Statthalter in Böhmen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die zwischen ihm und dem Finanzminister bestehende Meinungsverschiedenheit bezüglich des Ausmaßes des Einrichtungspauschals für den Statthalter von Böhmen, Grafen Belcredi<note type="footnote" n="1">Zur Ernennung Belcredis siehe <ref type="protocol-link" target="MRP-1-5-07-0-18640523-P-0473.xml#top_5_7_473_3">MR. v. <date when="1864-05-23">23. 5. 1864</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z473" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z473.pdf" target="MRP-1-5-07-0-18640523-P-0473.xml">ÖMR. V/7, Nr. 473</ref>
+                        </bibl>.</note>, welches Pauschal Ritter v. Schmerling mit 4000 fl., Edler v. Plener aber nur mit 2000 fl. zu bemessen au. in Antrag gebracht hat.</p>
+                  <p>Der Staatsminister machte die in seinem au. Vortrag angeführten Gründe geltend, welche gegen eine Schmälerung des ohnehin nicht bedeutenden Beitrags von 4000 fl. sprechen, und erinnerte, daß Baron Poche und Baron Kellersperg ebenfalls diese Summe erhielten, obgleich Brünn und Triest, relativ zu Prag, weniger teuere Plätze sind<note type="footnote" n="2">Adolph Freiherr v. Poche war am <date when="1862-05-21">21. 5. 1862</date> zum Statthalter in Mähren, Ernst Freiherr v. Kellersperg am <date when="1863-04-28">28. 4. 1863</date> zum Statthalter im Küstenland ernannt worden. Zum Übersiedlungspauschale für Poche siehe <ref type="protocol-link" target="MRP-1-5-04-0-18620801-P-0254.xml#top_5_4_254_1">MR. v. <date when="1862-08-01">1. 8. 1862</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z254" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z254.pdf" target="MRP-1-5-04-0-18620801-P-0254.xml">ÖMR. V/4, Nr. 254</ref>
+                        </bibl>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> motivierte den erhobenen Widerspruch insbesondere auch durch den Umstand, daß die in der politischen Verwaltung sich häufig wiederholenden Übersiedlungen der Landeschefs den hochgestiegenen Aufwand dieses Zweiges durch namhafte nicht präliminierte Auslagen noch mehr erhöhen. Da jedoch der Staatsminister auf die Bewilligung der vollen 4000 fl. in diesem Falle Wert legt, so wolle Edler v. Plener keine weitere Erinnerung dagegen erheben. Von Seite der übrigen Stimmführer ergab sich diesfalls keine Bemerkung<note type="footnote" n="3">Mit Ah. E. v. <date when="1864-08-14">14. 8. 1864</date> bewilligte der Kaiser das Einrichtungspauschale von 4000 fl. für Belcredi, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2446/1864</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_485_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Bestätigung der Wahl des Samuel Maschirevics zum Metropoliten von Karlowitz; Vertagung des serbischen Nationalkongresses</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die nachfolgenden, vom kaiserlichen Kommissär beim serbischen Nationalkongresse GM. Baron Philippović gestellten Anträge<note type="footnote" n="4">Fortsetzung von <ref type="protocol-link" target="MRP-1-5-08-0-18640531-P-0476.xml#top_5_8_476_2">MR. v. <date when="1864-05-31">31. 5. 1864</date>/II</ref>.</note>.</p>
+                  <p>1. Daß dem vom Kongresse beinah’ mit Stimmeneinhelligkeit zum Metropoliten in Karlowitz erwählten Bischofe Samuel Maschirevics die kaiserliche Bestätigung Ag. erteilt werde. Nachdem die Wahl keine ganz einstimmige war, hätte eigentlich das kaiserliche <pb n="79" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s79.pdf"/>Ernennungsrecht einzutreten. Allein da der Nationalkongreß dringend bittet, es wolle in diesem Falle von diesem Rechte ausnahmsweise Umgang genommen werden, dürfte die einfache Ah. „Bestätigung“ dieser vollkommen entsprechenden Wahl eintreten<note type="footnote" n="5">Maschirevics war der Kandidat der Regierung in Wien gewesen. Seine Wahl war gegen den Widerstand der nationaliberalen Serben um Svetozar Miletić durchgesetzt worden; zu den Vorgängen auf dem serbischen Nationalkongreß von 1864 siehe <bibl type="secondary">
+                           <author>Haselsteiner</author>, Die Serben und der Ausgleich 67 ff.</bibl>
+                     </note>. 2. Daß der gegenwärtig tagende Kongreß nicht aufgelöst, sondern lediglich vertagt werde, um nach Ah. Genehmigung des Programmes über jene Gegenstände, die auf dem nächsten Nationalkongreß zu verhandeln sind, wieder einberufen zu werden. Damit in Zusammenhange steht die 3. Bitte der Deputierten, daß schon jetzt die Wahl eines Laienausschusses dem Kongresse zur Ausarbeitung der obgedachten, mit den Bischöfen zu vereinbarenden Programmes vorgenommen werde. GM. Baron Philippović unterstützt beide [sic!] Bitten, zumal in der Versammlung eine loyale, regierungsfreundliche Majorität gesichert ist und die Vornahme von Neuwahlen mit Agitationen und mancherlei Ausgaben verbunden wäre.</p>
+                  <p>Der Staatsminister sowie der Kriegsminister, dann der kroatische Hofkanzler und der [zweite] ungarische Hofkanzler v. Privitzer waren mit den Anträgen des GM. Baron Philippović einverstanden, und Ritter v. Schmerling richtete an den ungarischen Hofkanzler Grafen Zichy das Ersuchen, den diesfälligen au. Vortrag mitfertigen zu wollen, was der letztere auch zusagte, nachdem der Staatsminister die Versicherung erteilt hatte, es würden alle nötigen Vorbehalte gemacht werden, um der Ah. Bestätigung des Erzbischofs Maschirevics den Charakter einer „ausnahmsweisen“ zu wahren, um das königliche Ernennungsrecht zu salvieren.</p>
+                  <p>Der Ministerrat fand hierüber nichts zu erinnern<note type="footnote" n="6">Die Ah. E. v. <date when="1864-08-13">13. 8. 1864</date> auf den gemeinschaftlichen Vortrag des Staatsministers, des Kriegsministers, des ungarischen und des kroatisch-slawonischen Hofkanzlers v. <date when="1864-08-11">11. 8. 1864</date> lautete: <quote>Die von dem Nationalkongresse am <date when="1864-08-06">6. August l. J.</date> vollzogene Wahl des bisherigen Bischofs von Temesvár und Administrators des Karlowitzer Erzbistums, Samuel Maschirevics, zum Erzbischofe und Metropoliten von Karlowitz finde Ich zu bestätigen und verleihe demselben im Sinne Meines Manifestes vom <date when="1848-12-15">15. Dezember 1848</date> die Würde eines Patriarchen … Die übrigen hier gestellten Anträge erhalten Meine Genehmigung,</quote>
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2455/1864</bibl>. Fortsetzung zum serbischen Nationalkongreß <ref type="protocol-link" target="MRP-1-5-09-0-18641209-P-0517.xml#top_5_9_517_4">MR. v. <date when="1864-12-09">9. 12. 1864</date>/IV</ref> und V.</note>, <ref xml:id="fn_5_8_485_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_485_a">Randvermerk Ransonnets: <quote>An der Beratung über die Punkte I und II nahmen die Minister Graf Esterházy und Ritter v. Hein keinen Anteil.</quote>
+                     </note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_485_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gesuch der Brüder Riche um die Konzession für die Eisenbahn von Kaschau nach Oderberg</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erinnerte, der Ministerrat habe am 4. Juni beschlossen<note type="footnote" n="7">Tagesordnungspunkt I.</note>, die Anträge des Handelsministeriums über das Konzessionsgesuch von Fréres Riche für die Eisenbahnlinien Kaschau-Sillein-Oderberg und Sillein-Diószeg durch ein Ministerkomitee bestehend aus dem Finanzminister, dem Ritter v. Lasser, dem ungarischen Hofkanzler, dem Leiter des Handelsministeriums und dem Referenten beraten zu lassen. Diese Beratung habe nun stattgefunden, und das Komitee habe sich zum Antrage geeinigt, daß der Vortrag des Handelsministers vom <date when="1864-01-28">28. Jänner 1864</date> dem Freiherrn v. Kalchberg behufs der Erstattung seiner neuerlichen Anträge mit Rücksicht auf die seit sieben Monaten wesentlich geänderte Sachlage zurückzustellen sei. Dieser Anlaß werde <pb n="80" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s80.pdf"/>ergriffen werden, um von den Konzessionswerbern konkretere und dem öffentlichen Interesse günstigere Offerte zu erwirken.</p>
+                  <p>Über die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> aufgeworfene Frage, ob das Ministerkomitee nicht jetzt schon, zur Gewinnung an Zeit, die den Brüdern Riche zu stellenden Bedingungen formulieren sollte, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi>, daß es dem Komitee zur Formulierung dieser Bedingungen jetzt noch an den nötigen Daten fehlen würde, zumal selbst die Proponenten noch nicht imstand sind, ihre eigenen Anträge mit der nötigen Sachkenntnis festzustellen. Denn die bisherigen Rechnungen und Propositionen beruhen nur auf den eigenen vorläufigen Messungen der Bittsteller, und die diesfälligen Operate bedürfen daher vor allem einer eindringlichen Revision, wozu sie sich die Abordnung eines im Staatsdienste stehenden Ingenieurs erbitten. Dann müßten mit ihnen noch mehrere unentschiedene Punkte ins Klare gebracht werden. Mit der Revision und den übrigen Vorverhandlungen über die Konzession hoffe Freiherr v. Kalchberg binnen wenig Wochen in Ordnung zu kommen, und es wird erst dann ein geeignetes Substrat für die Ministerialberatung vorhanden sein.</p>
+                  <p>Der Ministerrat war mit dem Antrage des Komitees auf Zurückstellung des Vortrages behufs des Erstellens modifizierter Anträge einverstanden, und es wurde die Beschleunigung der Sache sehr wünschenswert befunden, zumal sich demnächst eine Deputation unter der Führung des Grafen Georg Andrássy zu Sr. Majestät begeben wird, um eine Ah. Betreibung zu erwirken<note type="footnote" n="8">Der zurückgestellte Vortag <bibl type="archival">AVA., MHVw., Präs. 1340/1864</bibl>; das Konzept <quote>ebd., Präs. 1480/1863</quote>. Fortsetzung <ref type="protocol-link" target="MRP-1-5-09-0-18650313-P-0549.xml#top_5_9_549_1">MR. v. <date when="1865-03-13">13. 3. 1865</date>/I</ref>. Den Gebrüdern Riche &amp; Co. wurde am <date when="1866-06-26">26. 6. 1866</date> die Konzession zur Erbauung der Eisenbahn Kaschau – Oderberg erteilt, <ref type="protocol-link" target="MRP-1-5-09-0-18650502-P-0565.xml#top_5_9_565_1">MR. v. <date when="1865-05-02">2. 5. 1865</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_485_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Fortbestand der Wiener Porzellanfabrik als Musteranstalt</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> referierte über die Frage der Modalitäten des Fortbestandes der k. k. Ärarial-Porzellanfabrik zu Wien.</p>
+                  <p>Der Finanzminister hatte im Vortrage vom <date when="1864-01-30">30. Jänner 1864</date> die Auflassung und sohin die Einstellung des Betriebs dieser Fabrik au. beantragt. Der Ministerrat beschloß jedoch<note type="footnote" n="9">
+                        <ref type="protocol-link" target="MRP-1-5-07-0-18640229-P-0450.xml#top_5_7_450_1">MR. v. <date when="1864-02-29">29. 2. 1864</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z450" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z450.pdf" target="MRP-1-5-07-0-18640229-P-0450.xml">ÖMR. V/7, Nr. 450</ref>
+                        </bibl>.</note>, daß, bevor über diesen kontroversen Punkt eine Ah. Entschließung eingeholt würde, eine Enquete darüber stattfinde, ob und wie dem nachfolgenden, in der Herrenhaussitzung vom <date when="1862-08-11">11. August 1862</date>
+                     <note type="footnote" n="10">Zit. <quote>ebd., Anm. 3.</quote>
+                     </note> formulierten Wunsche entsprochen werden könne: „Der Wiener Porzellanfabrik sei allmählich die Bestimmung zu geben, daß sie als Lehranstalt für den Unterricht in der technischen Behandlung des Tones, in der Kunstfertigkeit für Formen und Gefäße, in der praktischen Anwendung der Malerei auf Porzellan und Glas diene, zu welchem Ende zur Veräußerung der Vorräte der gewöhnlichen Waren geschritten, die Fabrikation dieser letzteren auf das tunlichst kleinste Maß beschränkt und die Einleitung getroffen werden soll, daß der Unterricht in der angedeuteten Richtung zweckmäßig und mit möglichster Schonung der Finanzen erteilt werde.“ Zum Vollzuge dieses am <date when="1864-02-29">29. Februar 1864</date> gefaßten Ministerratsbeschlusses habe der Staatsminister eine Kommission mit Zuziehung des Antragstellers im Herrenhause, Freiherrn v. Baumgartner, einiger Professoren der Akademie der Bildenden Künste, des Professors Eitelberger und des Fabriksdirektors Löwe einberufen. Es <pb n="81" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s81.pdf"/>sei hiebei anerkannt worden, daß diese Fabrik, wenn nicht in allen, doch in vielen ihrer Leistungen mit den berühmtesten Instituten des Auslandes gleichstehe, in einigen Punkten sie selbst übertreffe, jedenfalls aber alle Privatfabriken des Inlandes weit überrage. Man fand es daher sehr wünschenswert, daß die k. k. Porzellanfabrik in einem entsprechend beschränkten Betriebe als praktische Lehr- und Musteranstalt für die heimische Industrie fortbestehe, bei welcher auch solche technische Versuche durchgeführt werden könnten, zu welchen es den Privaten an Mitteln fehlt. Daß übrigens die vorhandenen Fabriken den einheimischen Bedarf nicht ganz zu decken vermögen und somit ein weiterer quantitativer und qualitativer Fortschritt in der österreichischen Tonwarenindustrie geboten sei, darüber wurden statistische Tabellen beigebracht, welche entnehmen lassen, daß noch sehr viel Porzellan aus dem Ausland eingeführt werde. Der Fortbestand der Fabrik in mäßigen Dimensionen, als Musteranstalt, werde dem Staate zuverlässig nur geringe Opfer kosten und andererseits den Privatfabriken keine gefährliche Konkurrenz bereiten. Der Staatsminister erklärte, er könne das Gutachten der Kommission nur als wohlbegründet anerkennen und beantragen, daß im Sinne des auch vom Staatsrate gestellten Antrags<note type="footnote" n="11">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 104/1864</bibl>.</note> die Ah. Geneigtheit ausgesprochen werde, der k. k. Porzellanfabrik die Bestimmung einer praktischen Lehranstalt zu geben, der Staatsminister ferner den Ah. Auftrag zur Vorlage eines Plans und Kostenüberschlags für dieses Musterinstitut erhalte und die Fabrikation der gewöhnlichen Waren sofort aufgegeben werde.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bedauerte, daß man heute, sechs Monate nach Erstattung seines au. Vortrages wegen Auflassung der in Rede stehenden Fabrik, noch nicht weiter gelangt sei als zum Beschluß auf die Vornahme einer neuen Enquete, deren Ende gar nicht abzusehen sei, wenn man die Privatfabriken ebenfalls vernehmen will. Die Absicht des Votanten sei auch nicht dahin gerichtet gewesen, urplötzlich die ganze Fabrikation einzustellen, was ja aus mehreren Gründen, und namentlich wegen der angenommenen Bestellungen, nicht angehe. Aber diese Fabrik sei, nach dem richtigen Urteil des Abgeordnetenhauses, eine auch vom volkswirtschaftlichen Standpunkte nicht zu billigende Last der Finanzen. Ziffernmäßig erscheine dieselbe zwar nur mit 6–10.000 fl. passiv; aber unter den Einnahmen figurieren auch die Werte jener Objekte, die Allerhöchstenortes verschenkt werden, somit keine reale Einnahme bilden. Andererseits erscheinen nirgends die Zinsen des großen Fundus instructus. Daß direkt beteiligte Personen, wie Direktor Löwe, oder andere, welche für das Institut eine besondere Vorliebe haben, dem Fortbestand desselben das Wort reden, sei nicht zu wundern. Der Finanzminister könne aber darin nur eine verlebte Anstalt erkennen, von der das Heil der österreichischen Porzellanindustrie nicht ausgehen werde, daher er seine au. Anträge vom <date when="1864-01-30">30. Jänner 1864</date> festhalten müsse. In bezug auf die Einstellung der Fabrikation von ordinärer Ware müsse gegenwärtig gehalten werden, daß gerade die Fabrikation der ordinären Porzellanziegel eine der ergiebigsten Einnahmsquellen bildet.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> fand gegen den Antrag des Staatsministers umso weniger etwas zu erinnern, als derselbe mit den in der Sitzung am 17. Februar d. J. beschlossenen staatsrätlichen Anträgen übereinstimmt. Auch der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi>
+                     <pb n="82" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s82.pdf"/>vereinigte sich mit der vorgeschlagenen Enquete, indem die Angelegenheit so wichtig sei und so viele Interessen berühre, daß eine nähere Erhebung vollkommen gerechtfertigt erscheinet. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> teilt gleichfalls die Meinung über die vom Staatsminister vorgeschlagene Enquete und über den Fortbestand der Fabrik, falls sich herausstellt, daß dieselbe bei der Beschränkung auf den Zweck als Musteranstalt dem Staat nur ein geringes finanzielles Opfer kostet. Allein gerade aus der letzten Rücksicht scheine es noch nicht an der Zeit, daß Allerhöchstenortes die sofortige Einstellung der Produktion von ordinären Waren angeordnet werde, indem es sehr möglich ist, daß diese Produktion gewinnbringend ist und die Einbuße bei den Kunstprodukten bisher decken half. Baron Mecséry würde daher glauben, daß über diesen Punkt keine vorgreifende Bestimmung zu erlassen, sondern der Betrieb wie bisher intakt zu lassen wäre, bis man durch das erwartete Kommissionsoperat in den Stand gesetzt ist, mit genauerer Sachkenntnis zu entscheiden. Während der Minister Graf Esterházy und der ungarische Hofkanzler sich völlig den Anträgen des Staatsministers anschlossen, vereinigten sich die Minister Ritter v. Hein, Baron Burger und FML. Ritter v. Franck mit diesem Antrage unter der vom Polizeiminister vorgeschlagenen Modifikation, gegen welche auch der Staatsminister schließlich nichts zu erinnern fand, sodaß die Stimmenmehrheit des Ministerrates die vom Staatsrate formulierten Ah. Erlässe, mit Weglassung der die sofortige Änderung des Fabriksbetriebs anordnenden Stellen, der Ah. Genehmigung unterzieht.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> übernahm die entsprechende Redaktion der Entwürfe, in welche auch der Ah. Befehl tunlichster Beschleunigung aufzunehmen wäre. Das Resultat der Enquete dürfte dann längstens bis Ende Oktober au. vorgelegt werden können, zumal Baron Baumgartner bereits vorgearbeitet haben wird<note type="footnote" n="12">Am <date when="1864-08-18">18. 8. 1864</date> unterbreitete Erzherzog Rainer die Angelegenheit dem Kaiser, der entgegen der Mehrheit des Ministerrates die Auflösung der Fabrik verfügte, Ah. E. v. <date when="1864-08-22">22. 8. 1864</date> auf den Vortrag des Finanzministers v. <date when="1864-01-30">30. 1. 1864</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2541/1864</bibl>, und <bibl type="archival">FA., FM., IV. Abt. (Domänen), Nr. 42658/1864, Faszikulatur 27.B; ebd</bibl>. auch Material über die Modalitäten der Auflösung. Es gab auch bedauernde Stimmen zur Auflösung der Fabrik, so vom Direktor des Österreichischen Museums für Kunst und Industrie, in dessen Besitz viele Gegenstände der Fabrik übergingen, Jakob. v. Falke, der eine <quote>Geschichte der Wiener Porzellanfabrik</quote> in vier Folgen in der <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=">Wiener Zeitung</ref>
+                           </title> v. 13., 16., 17. und <date when="1867-01-19">19. 1. 1867</date>
+                        </bibl> publizierte; weitere Literatur: <bibl type="secondary">
+                           <author>Falke</author>, Die k. k. Wiener Porzellanfabrik</bibl>; <bibl type="secondary">
+                           <author>Folnesics-Braun</author>, Geschichte der k. k. Wiener Porzellan-Manufaktur</bibl>; <bibl type="secondary">
+                           <author>Suttner</author>, Zur Geschichte der Auflösung der k. k. Porzellanfabrik.</bibl> Die 1923 errichtete <quote>Wiener Porzellanmanufaktur Augarten</quote> hat u. a. <quote>die Wiederbelebung bzw. Erneuerung und Fortsetzung der vormaligen staatlichen (Aerarial-)Porzellanmanufaktur in Wien</quote> zum Ziel, <bibl type="secondary">
+                           <author>Neuwirth</author>, Porzellan aus Wien 115.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_485_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Auflassung des Mühlzinses in Dalmatien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über eine zwischen ihm und dem Staatsrat bestehende Meinungsverschiedenheit, indem sich der letztere gegen die vom Minister im Vortrage vom <date when="1864-06-19">19. Juni 1864</date> beantragte Auflassung der für die Mühl- und Walkwerke in Dalmatien gegenwärtig bestehenden Mühlzinse (livelli, canoni e dazi) ausgesprochen hat<note type="footnote" n="13">Vortrag Pleners v. <date when="1864-06-29">29. 6. 1864</date>, <bibl type="archival">FA., FM., IV. Abt. (Domänen), Nr. 22433/1864, Faszikulatur 5.B</bibl> (K.; die RS. fehlt); Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 586/1864</bibl>.</note>.</p>
+                  <p>Der Staatsrat hat sich gegen die Auflassung dieser Giebigkeiten erklärt, weil sie jährlich doch 6–7000 fl. betragen, was ungefähr ⅓ der Gesamteinkünfte des Demanio in <pb n="83" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s83.pdf"/>Dalmatien ausmacht, weil wenigstens die canoni und livelli keine schwere Last bilden und weil man den Kontribuenten die Ablösung unter vorteilhaften Bedingungen anbieten könnte. Der Finanzminister findet sich dadurch nicht bestimmt, von seinem Antrage abzugehen, der die Unbilligkeit in der ungleichen Behandlung der älteren und der neuen Mühlenbesitzer aufheben soll, von welchen die letzteren ihr Gewerbe fortan zinsfrei betreiben, während die Zinspflichtigkeit der bestehenden Mühlen und Walken aufrecht erhalten wurde. Ferner scheint der legale Ursprung dieser Zinsen nicht unbestreitbar, und es kann endlich ein mindestens teilweiser Ersatz des Entgangs für diese mit mancherlei Plackereien einzuhebenden Zinsen in der Erhöhung der Erwerb- und Einkommensteuer der Mühlen gefunden werden.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Geringer</rs>
+                     </hi> äußerte, er verkenne nicht, daß auf diesem Wege ein Teil des an sich auch nicht bedeutenden finanziellen Entganges hereingebracht werden könne. Die übrigen Stimmführer pflichteten in merito dem Finanzminister bei, und es ergab sich eine Differenz nur über die vom Staatsminister angeregte, jedoch von ihm selbst negativ beantwortete Frage, ob zu dieser Auflassung nicht die Genehmigung in verfassungsmäßigem Wege einzuholen wäre. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi>, dem auch der Leiter des Handelsministeriums beitrat, glaubte, daß diese Auflassung als eine finanzielle Angelegenheit (§ 10 c)<note type="footnote" n="14">Grundgesetz über die Reichsvertretung, Beilage zum Februarpatent.</note> und als die Aufhebung eines Steuergesetzes insbesondere vor dem Reichsrate zu verhandeln komme. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> kam zu demselben Resultate aus dem Gesichtspunkt, daß es sich hiebei um die unentgeltliche Aufhebung eines Staatseigentumes handle. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> machte dagegen geltend, daß die in Rede stehenden Giebigkeiten keine Steuern, sondern aus dem Staatsobereigentum über die Flüsse abgeleitete Domänengefälle seien. Die Verwaltung der Domänen aber, die Vor- und Abschreibung der Einnahmen von demselben aber bilde ein ausschließendes Attribut der Exekutive, und es wäre ebenso zweckwidrig als den parlamentarischen Gewohnheiten und den Interessen der Regierung entgegen, administrative Verfügungen dieser Art als „Gesetze“ im verfassungsmäßigen Wege erlassen zu wollen. Der Reichsrat erhält von den Ergebnissen derselben im Wege der Präliminarien und Rechnungsabschlüsse Kenntnis und kann selbe dann seiner Kritik unterziehen; allein die Regierung hat keine Pflicht, die Opportunität der Maßregeln vorläufig zur Diskussion zu bringen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> fügte bei, daß man durch die von den dissentierenden Stimmen beabsichtigte Verhandlungsweise dieser Sache zu bedenklichen Konsequenzen geraten würde. Die Minister Graf Esterházy und Baron Burger, der ungarische Hofkanzler und der Kriegsminister vereinigten sich ebenfalls in allen Punkten mit dem Finanzminister, der somit die Stimmenmehrheit für sich hatte<note type="footnote" n="15">Mit Ah. E. v. <date when="1864-08-19">19. 8. 1864</date> genehmigte der Kaiser die Aufhebung der Mühlzinse Dalmatiens nach dem Antrag des Finanzministers, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2530/1864</bibl>. Der Vollzug dieser Ah. Entschließung verzögerte sich. Dem Finanzminister kamen, entgegen seiner Äußerung im Ministerrat, Bedenken über die rechtliche Natur der Mühlzinse, und er gab Weisung, einen neuen Vortrag und einen Gesetzentwurf auszuarbeiten; der Akt blieb aber liegen. Im Dezember 1865 wurde er Finanzminister Larisch neuerlich vorgelegt, der der Ansicht des Referenten beitrat, es handle sich nicht um eine Steuer, sondern um eine bloße Abgabe, deren Aufhebung in die Kompetenz der Verwaltung fiel, und er unterzeichnete die entsprechende Verordnung, <bibl type="archival">FA., FM., IV. Abt. (Domänen), Nr. 41890/1865, Faszikulatur 5.B.</bibl>
+                     </note>, <ref xml:id="fn_5_8_485_b"/>
+                     <note type="variant" n="b" target="#fn_5_8_485_b">Randvermerk Ransonnets: <quote>Nach Beratung des Punktes V verließen Minister Graf Esterházy und Staatsrat Baron Geringer den Ministerrat.</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_485_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Eingeschränkte Zulassung der Öffentlichkeit bei Hinrichtungen</head>
+                  <p>Die ärgerlichen, ja empörenden Vorgänge, welche sich die schaulustige Menge aus Anlaß der jüngst erfolgten Hinrichtung des Jägers Alesch erlaubte<note type="footnote" n="16">Vermutlich handelte es sich um den Gemeinen des 30. Jägerbataillons Joseph Andersch, der am <date when="1864-07-23">23. 7. 1864</date> unter Beteiligung von angeblich 20.000 Schaulustigen hingerichtet wurde, Bericht <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18640724">Wiener Zeitung</ref>
+                           </title> v. <date when="1864-07-24">24. 7. 1864</date>
+                        </bibl>. Zu den Vorgängen bei Hinrichtungen siehe <bibl type="secondary">
+                           <author>Hartl</author>, Wiener Kriminalgericht 420 ff.</bibl>
+                     </note>, haben den Staatsminister bestimmt, mit dem Polizeiminister in Überlegung zu nehmen, ob und wie den Ausbrüchen von Rohheit sowie den unpassenden Ovationen, welche bei öffentlichen Hinrichtungen nicht selten an den Tag treten, für die Zukunft zu steuern wäre. Daß Vorkehrungen in dieser Beziehung nicht bloß für Wien, sondern überhaupt im Interesse der Humanität und öffentlichen Ordnung wünschenswert seien und von jedem Gebildeten dankbar begrüßt würden, ward beiderseits anerkannt; ebenso, daß das wirksamste Abhilfsmittel darin bestünde, wenn die Zahl der Zuschauer sowohl auf dem Richtplatze selbst, als auf dem Wege, den der Verbrecher auf seinem letzten Gange zurückzulegen hat, möglichst beschränkt würde. In beiden Beziehungen ist die Lage des Richtplatzes in Wien sehr ungünstig<note type="footnote" n="17">Der Hinrichtungsplatz befand sich damals am Wiener Berg bei der Spinnerin am Kreuz im heutigen 10. Wiener Gemeindebezirk, <bibl type="secondary">
+                           <author>Czeike</author>, Groner Wien Lexikon 771</bibl>; <bibl type="secondary">
+                           <author>Dahm-Koller</author>, Die Wiener Spinnerin am Kreuz 7</bibl>.</note>, und es bestehen auch anderwärts ähnliche, wenngleich minder große Übelstände.</p>
+                  <p>Bei Hinrichtungen von Individuen aus dem Zivilstande wird der Verurteilte in einem geschlossenen Wagen zum Richtplatze gebracht, was wenigstens die Dauer und das Drastische des Vorganges vermindert, während der Umstand, daß bei Militärhinrichtungen der Verurteilte den Weg zu Fuß zurücklegen muß, den ärgerlichen Szenen einen größeren Spielraum eröffnet, ja selbst dieselben provoziert. Nachdem die gedachten Minister kein Hindernis in der Gesetzgebung kennen, welches eine Abhilfe für derlei Skandale unmöglich machte, glauben sie beantragen zu sollen, daß [der] <ref xml:id="fn_5_8_485_c">Herr Justiz- und der Herr Kriegsminister einzuladen wären, eine Verhandlung einzuleiten, um eine beschränktere Öfentlichkeit bei Hinrichtungen einzuführen</ref>
+                     <note type="variant" n="c" target="#fn_5_8_485_c">Korrektur c–c Schmerlings aus <quote>den sämtlichen Obergerichten der Monarchie die Aufgabe zu erteilen wäre. Gutachten über diesen Gegenstand zu erstatten.</quote>
+                     </note>.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> erklärte sich mit diesem Antrage vollkommen einverstanden und glaubt, daß die bezüglich der Hinrichtungen von Zivil- und Militärpersonen diesfalls einzuführenden neuen Modalitäten seinerzeit der Ah. Schlußfassung zu unterziehen wären. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> äußerte, er finde gleichfalls die einreißenden Mißbräuche der erwähnten Art so empörend, daß es angezeigt sei, die Mittel zur Abhilfe in reife Erwägung zu ziehen. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> bemerkte, eine Abhilfe erscheine allerdings in Wien besonders nötig, wo die Distanz zum Richtplatz so groß ist und der Pöbel sich zu solchen traurigen Schauspielen drängt. In Ungarn pflegt bei solchen Anlässen kein Gedränge zu sein; indessen finde Graf Zichy gegen die beantragte <pb n="85" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s85.pdf"/>Verhandlung nichts zu erinnern. Die übrigen Stimmführer traten den Anträgen des Staats- und des Polizeiministers gleichfalls bei<note type="footnote" n="18">In <bibl type="archival">HHSTA., Kab. Kanzlei</bibl>, ist kein Vortrag über die Einschränkung der Öffentlichkeit bei Hinrichtungen verzeichnet. Die letzte öffentliche Hinrichtung in Österreich fand am <date when="1868-05-30">30. 5. 1868</date> statt, <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18680528">Wiener Zeitung</ref>
+                           </title> v. <date when="1868-05-28">28. 5. 1868</date> (A.)</bibl>, und v. <quote>
+                           <date when="1868-05-30">30. 5. 1868</date> (A.)</quote>, <bibl type="secondary">
+                           <author>Hartl</author>, Wiener Kriminalgericht 420.</bibl> Zum Stand der Diskussion über die Todesstrafe in Österreich in jener Zeit siehe <bibl type="secondary">
+                           <author>Berger</author>, Ueber die Todesstrafe</bibl>; <bibl type="secondary">
+                           <author>Wahlberg</author>, Neuere Praxis und Geschichte der Todesstrafe</bibl>. In: <bibl type="secondary">
+                           <title>Ders.</title>, Gesammelte kleinere Schriften 2, 138–162</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1864-08-14">14. August 1864</date>. Rechberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, den <date when="1864-08-28">28. August 1864</date>.</seg>
+                  <seg type="other">Praes[entatum]. 28. August [1864]. Rechberg.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

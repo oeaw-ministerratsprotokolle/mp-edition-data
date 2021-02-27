@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="009">Sitzung 9</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-09"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z9.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">127</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-09"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Ficquelmont; anw. Pillersdorf, Taaffe, Sommaruga, Krauß, Zanini; BdE. Ficquelmont (11. 4.), Franz Karl (12. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8154">
+                     <surname>Taaffe</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8157">
+                     <surname>Zanini</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-11">11. 4.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-12">12. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_9_1">Ernennung Graf Agenor Gonuchowskis zum Vizepräsidenten des Lemberger Guberniums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_9_2">Maßnahmen zur Eindämmung der Unruhen in Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_9_3">Bekanntgabe der Konstitutionsbewilligung an das Militär</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_9_4">Gemeinsames Mitwirken der Nationalgarde und des Militärs zur Aufrechterhaltung von Ruhe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_9_5">Stärke der Wiener Garnison</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_9_6">Reserve am Isonzo und Vermehrung der Truppen in Tirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_9_7">Entlassungen italienischer Soldaten in Ungarn</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_9_8">Unruhe unter den Gymnasiasten</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480410-P-0009" ana="a1-1848_z9">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z9.pdf">
+               <title type="num">Nr. 9</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-10">10. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Pillersdorf, Taaffe, Sommaruga, Krauß, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont (11. 4.), Franz Karl (12. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">127</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratsversammlung vom <date when="1848-04-10">10. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_9_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Ernennung Graf Agenor Gonuchowskis zum Vizepräsidenten des Lemberger Guberniums</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> brachte den Antrag des Gouverneurs von Galizien Grafen Franz Stadion<note type="footnote" n="1">Schreiben (K.) Stadions an Pillersdorf v. <date when="1848-04-07">7. 4. 1848</date>, <bibl type="archival">ZDIAUL., StH. Präs. 4533/1848</bibl>. Stadion war mit kaiserlichem Handschreiben v. <date when="1848-04-02">2. 4. 1848</date> von der Bestellung Krauß’ zum Finanzminister unterrichtet und gleichzeitig aufgefordert worden, einen Nachfolger für dessen bisherigen Posten vorzuschlagen, <quote>ebd.</quote>
+                     </note> zur Sprache, welcher an die Stelle des zum Finanzminister Ah. ernannten zweiten galizischen Gubernialpräsidenten Freiherrn v. Krauß<note type="footnote" n="2">Zur Ernennung Krauß’ zum Finanzminister siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480401-P-0001.xml#top_1_1_1_1">MR. v. <date when="1848-04-01">1. 4. 1848</date>/I</ref>.</note> den dortigen Gubernialrat Grafen Gołuchowski<note type="footnote" n="3">Zu Agenor Graf Gołuchowski siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 5, 262ff</bibl>.</note> zum Vizepräsidenten für das Lemberger Gubernium vorschlägt und gleichzeitig um die schleunige Ah. Erledigung bittet, weil es bei dem jetzigen Geschäftsandrange unbedingt notwendig sei, daß diese Stelle bald besetzt werde.</p>
+                  <p>Der dem Ministerrate das erstemal beiwohnende und die galizischen Amts- und Personalverhältnisse genau kennende neue <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi>, über die Persönlichkeit des Gołuchowski befragt, bemerkte, daß derselbe viele Geschicklichkeit und Charakterstärke besitze und besonders in der letzten Zeit ausgezeichnete Dienste geleistet habe. Es hat sich nämlich, wie bekannt, nach den letzten Ereignissen in Wien in dem Stadthause in Lemberg ein Komitee gebildet, welches sich Regierungsgeschäfte anmaßen wollte<note type="footnote" n="4">Zu den Ereignissen um die Bildung und Verbot eines polnischen Nationalausschusses in Lemberg im März 1848 siehe <bibl type="secondary">
+                           <author>Helfert</author>, Revolution 1, 429f.</bibl>; <bibl type="secondary">
+                           <author>Kiniewicz</author>, Rok 1848 281</bibl>; <bibl type="secondary">
+                           <author>Kozik</author>, Ukrainian <title>Nationalmovement</title> 184</bibl>.</note>. Gołuchowksi wurde unter diesen schwierigen Umständen mit der Leitung des Lemberger Magistrates beauftragt und hat in dieser Eigenschaft vollkommen entsprochen. Was daher seine Persönlichkeit anbelangt, könne der Finanzminister nur dem diesfälligen Antrage des Gouverneurs und des Ministers des Inneren beistimmen, denselben zum Vizepräsidenten bei dem Lemberger Gubernium zu bestimmen.</p>
+                  <p>Der Ministerrat, diese Ansicht teilend, erlaubt sich den ehrfurchtsvollen Antrag: Ew. Majestät wollen den galizischen Gubernialrat Grafen Gołuchowski zum Vizepräsidenten bei dem Lemberger Gubernium Ag. zu ernennen geruhen<note type="footnote" n="5">Mit Ah. E. v. <date when="1848-04-11">11. 4. 1848</date> wurde der entsprechende Vortrag Pillersdorfs v. <date when="1848-04-10">10. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 98/1848</bibl>. Mit Schreiben v. <date when="1848-04-21">21. 4. 1848</date> teilte dann Pillersdorf Stadion diese Ah. Entschließung mit, <bibl type="archival">ZDIAUL, StH., Präs. 5233/1848</bibl>.</note>.</p>
+                  <p>
+                     <pb n="52" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s52.pdf"/>Der Entwurf zu der diesfälligen Ah. Entschließung befindet sich bei der KZ. 1363/1848.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Maßnahmen zur Eindämmung der Unruhen in Wien</head>
+                  <p>Ferner erwähnte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> der sich hier fast täglich erneuernden Unruhen<note type="footnote" n="6">Zur Situation in Wien Anfang April 1848 siehe <bibl type="secondary">
+                           <author>Raschauer - Smets</author>, Revolution 2, 44f., 62–70, 74</bibl>; <bibl type="secondary">
+                           <author>Häusler</author>, Massenarmut 179–196</bibl>.</note> und der Notwendigkeit, diesem Unfuge ein Ende zu machen. Daß diesem Treiben nur durch das vereinte Zusammenwirken der Regierung, des Magistrates, der Nationalgarde und der Bürger begegnet werden könne, sei offenbar; er habe daher in dieser Richtung die entsprechenden Vernehmungen eingeleitet.</p>
+                  <p>Von dem Magistrate und dem Bürgerausschusse<note type="footnote" n="7">Zur Entstehung des Wiener Bürgerausschusses siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480420-P-0016.xml#top_1_1_16_12">MR. v. <date when="1848-04-20">20. 4. 1848</date>/XII</ref>, Anm. 25.</note> sind ihm diesfalls nachstehende Punkte als Abhilfsmittel vorgeschlagen worden<note type="footnote" n="8">Schreiben Pillersdorfs v. <date when="1848-04-08">8. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 598/1848</bibl>.</note>: a) eine kundzumachende ernstliche Warnung gegen solche Unfüge, b) die Dringlichkeit einer schnellen Organisierung der Nationalgarde, c) daß das Militär von der erteilten Konstitution in die Kenntnis gesetzt werde und d) daß es auf die Konstitution beeidet werde. Von dem hiesigen provisorische Polizeioberdirektor wurde vorgeschlagen: 1. schleunige Organisierung der Nationalgarde, 2. Zurückhaltung von Neugierigen, 3. vereinigtes Wirken des Militärs und der Nationalgarde, 4. Einwirkung auf die Studierenden, und 5. daß das Korps der Polizeiwache eine den gegenwärtigen Umständen angemessene Organisierung (etwa eine Umstaltung in eine Munizipalgarde) erhalte. Der Minister des Inneren hat, soweit der Gegenstand seinen Bereich allein betrifft, dem Magistrate und Bürgerausschusse, dann der Polizei, bereits die entsprechende Belehrung und die nötigen Aufträge erteilt, und brachte sie zur Kenntnis des Ministerrates<note type="footnote" n="9">Ministerialdekret v. <date when="1848-04-09">9. 4. 1848</date>, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Bekanntgabe der Konstitutionsbewilligung an das Militär</head>
+                  <p>Was den einen der oberwähnten Anträge betrifft, daß nämlich das Militär von der erteilten Konstitution durch einen Armeebefehl in die Kenntnis gesetzt werden möge, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, daß an die Armee diesfalls ohne Ah. Auftrag nichts erlassen werden könne; es sei auch nicht üblich und nicht notwendig, solche Kundmachungen an die Armee zu erlassen, weil sie auch ohne dieselben sich allen gesetzlichen Anordnungen fügt, weil die dem Staate verheißene Konstitution auch für die Armee gilt, weil der konstitutionelle Landesherr der Führer der Armee ist, und weil es zu wünschen ist, daß in dieser Beziehung die Armee von dem Volke nicht als getrennt erscheine.</p>
+                  <p>Was allenfalls geschehen könnte, sei dieses, daß eine entsprechende Anzahl von Abdrücken des Patentes vom 15. März d. J.<note type="footnote" n="10">In diesem Patent ist eine Konstitution versprochen, die Aufhebung der Zensur und die Errichtung der Nationalgarde kundgetan worden, abgedruckt bei <bibl type="secondary">
+                           <author>Peyer</author>, Wiener Chronik 9f</bibl>.</note> den Generalkommanden und durch diese den Regiments- und anderen Korpskommanden zur Kenntnis mitgeteilt werde<note type="footnote" n="11">Ein Hinweis darauf, daß das Patent v. <date when="1848-03-15">15. 3. 1848</date> der Armee bekanntgegeben wurde, konnte in den Beständen des <bibl type="archival">KA., HKR., KM., Präs</bibl>., nicht gefunden werden. Erst die Pillersdorfsche Verfassung v. <date when="1848-04-25">25. 4. 1848</date> wurde mit Befehl (K.) v. <date when="1848-04-26">26. 4. 1848</date> in gedruckter Form den zuständigen Leitstellen zur Bekanntgabe an die Truppe übersandt, <quote>ebd., Präs. 728/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Gemeinsames Mitwirken der Nationalgarde und des Militärs zur Aufrechterhaltung von Ruhe</head>
+                  <p>Was einen weiteren Antrag anbelangt, daß nämlich das Militär vereint mit der Nationalgarde zur Aufrechthaltung der Ruhe mitwirken solle, bemerkte der Minister des Krieges, daß zunächst die Nationalgarde es ist, die für den Sicherheitsdienst in der ersten Reihe einstehen muß, wobei das Militär nur als ihre Reserve erscheint, während im Dienste gegen einen äußeren Feind das Militär in der ersten Reihe steht und die Nationalgarde seine Reserve ausmacht. Wenn die Nationalgarde für diesen ihren Beruf unter eintretenden Umständen nicht ausreicht, so wendet sie sich an das nächste Militärkommando um Hilfe, und alle Truppenkommandanten sind angewiesen, ihr diese Hilfe zu leisten.</p>
+                  <p>Den Sicherheitsdienst nach Bezirken zwischen der Nationalgarde und dem Militär abzuteilen, geht aus dem soeben angeführten Grunde ebenfalls nicht wohl an, weil die Nationalgarde für diesen Dienst zunächst berufen ist, und das Militär ihr nur subsidiarisch Hilfe leistet<note type="footnote" n="12">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_8">MR. v. <date when="1848-05-07">7. 5. 1848</date>/VIII</ref>. <ref type="protocol-link" target="MRP-1-1-01-0-18480513-P-0036.xml#top_1_1_36_6">MR. v. <date when="1848-05-13">13. 5. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480517-P-0040.xml#top_1_1_40_7">MR. v. <date when="1848-05-17">17. 5. 1848</date>/VII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Stärke der Wiener Garnison</head>
+                  <p>Über die vom Minister des Inneren gestellte Frage, wie stark wohl die Garnison in Wien sei, bemerkte der Kriegsminister, daß sich hier sechs Grenadierbataillons, zwei Bataillons Nugent, zwei Bataillons Wasa, zwei Bataillons Hess und zwei Bataillons Deutschmeister, zusammen mit der Kavallerie ungefähr 12.000 Mann befinden, wornach (wenn die Nationalgarde einmal organisiert sein wird) mit Einrechnung derselben 30–40.000 Mann zur Aufrechthaltung der Ruhe und Sicherheit in der Stadt Wien vorhanden sein werden. Zur Erreichung dieses Zweckes wird das der Zahl nach schwächere Militär der Nationalgarde immer eine wesentliche Stütze abgeben<note type="footnote" n="13">Fortsetzung der Debatte über die Stärke der Wiener Garnison in <ref type="protocol-link" target="MRP-1-1-01-0-18480520-P-0046.xml#top_1_1_46_5">MR. II v. <date when="1848-05-20">20. 5. 1848</date>/V</ref>.</note>.</p>
+                  <p>Das Einvernehmen zwischen der Nationalgarde und dem Militär ist bis jetzt gut.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Reserve am Isonzo und Vermehrung der Truppen in Tirol</head>
+                  <p>Der Minister des Kriegswesens legt mit Beziehung auf die in der gestrigen Ministerratsversammlung bereits vorgetragene Notwendigkeit der Bereithaltung einer starken Reserve im Isonzogebiete, Vermehrung des Truppenstandes in Tirol, dann einiger anderer Truppenversetzungen<note type="footnote" n="14">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 120/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 227/1848</bibl>. Im Protokoll des <ref type="protocol-link" target="MRP-1-1-01-0-18480409-P-0008.xml">MR. v. <date when="1848-04-09"/>9. 4. 1848</ref> kommt diese Angelegenheit nicht vor, Zanini hatte sub VI. bloß beantragt, die 3. Divisionen bei den 3. Bataillons aufzustellen. Der Vortrag in den Akten der Kabinettskanzlei ist mit <date when="1848-04-10">10. 4. 1848</date> datiert, ebenso die Eintragung im entsprechenden Protokollbuch. Diese wurde allerdings mit Bleistift auf <date when="1848-04-09">9. 4. 1848</date> ausgebessert.</note>, und die diesfalls erhaltene Zustimmung des Ministerrates, seinen diesfälligen au. Vortrag vom 9. d. M. (Z. 1372) zu dem Ende vor, um hierüber die schriftliche Ah. Bedeckung zu erhalten, welche Ew. Majestät demselben, nach Erachten des Ministerrates zu erteilen geruhen dürften<note type="footnote" n="15">Der in Anm. 14 zit. Vortrag wurde mit Ah. E. v. <date when="1848-04-12">12. 4. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 127/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 227/1848</bibl>. Mit Befehlen (K.) v. <date when="1848-04-14">14. 4. 1848</date> an das niederösterreichische und innerösterreichische Generalkommando und an Nugent wurde dann von Zanini das Entsprechende veranlaßt, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Entlassungen italienischer Soldaten in Ungarn</head>
+                  <p>Ferner bringt der Kriegsminister einen aus Ungarn erhaltenen Rapport zur Kenntnis des Ministerrates, nach welchem, was man schon lange besorgte, mehrere <pb n="54" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s54.pdf"/>italienische Offiziere ihre Demission aus dem Dienste verlangt haben, und daß auch die gemeine Mannschaft in ihr Vaterland entlassen zu werden wünscht<note type="footnote" n="16">Bericht Baron Lederers aus Ofen v. <date when="1848-04-08">8. 4. 1848</date>, <quote>ebd., Präs. 175/1848</quote>.</note>.</p>
+                  <p>Aus diesem Anlasse wäre den dortigen italienischen Truppen zu eröffnen, sie hätten sich einstweilen ruhig zu verhalten, die italienische Sache werde bald zur Entscheidung gelangen, worauf sie nach Umständen nicht länger werden zurückgehalten werden<note type="footnote" n="17">Vgl. dazu den Tagesbefehl v. <date when="1848-04-08">8. 4. 1848</date>, <quote>ebd.</quote>; zur Situation und der Stimmung des italienischen Truppenkörpers siehe <quote>ebd., Präs. 387/1848 und Präs. 731/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_9_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Unruhe unter den Gymnasiasten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des öffentlichen Unterrichts</rs>
+                     </hi> bemerkte, daß nach Äußerung des hiesigen Gymnasialdirektors Walch auch unter den Gymnasialschülern eine große Aufregung herrsche, zu deren Beschwichtigung viel beitragen würde, wenn er ihnen in Aussicht stellen könnte, daß die Prüfungen heuer um einen Monat früher stattfinden werden als gewöhnlich<note type="footnote" n="18">Brief Walchs an das Unterrichtsministerium v. <date when="1848-04-10">10. 4. 1848</date>, <bibl type="archival">AVA., UM., Präs. 40/1848</bibl>.</note>.</p>
+                  <p>Es wurde dem Minister überlassen, diesfalls das ihm zweckdienlich Scheinende zu verfügen<note type="footnote" n="19">Mit Erlaß v. <date when="1848-04-11">11. 4. 1848</date> verfügte Sommaruga, daß das laufende Semester an den Gymnasien bereits Mitte Juni zu enden habe, die öffentlichen Prüfungen zu unterbleiben haben und die Beurteilung nach <quote>den Fortschritten im Laufe des Semesters</quote> und nach einer Schlußprüfung in der Klasse vorzunehmen sei, <quote>ebd</quote>.</note>.</p>
+                  <p>Der oberwähnten Erörterung dürfte der nachstehende Erledigungsentwurf entsprechen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-04-11">11. April 1848</date>. Ficquelmont.</dateline>
+                  <seg type="other">Ges. 12. April. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-04-12">12. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

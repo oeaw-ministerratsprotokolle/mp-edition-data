@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="016">Sitzung 16</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-04-20"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z16.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">340 et 341</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-04-20"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Ficquelmont; anw, Pillersdorf, Krauß, Sommaruga, Zanini; BdE. Ficquelmont, Franz Karl (23. 4.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8145">
+                     <surname>Ficquelmont</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-04-23">23. 4.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_16_1">Bestellung Karl Ludwig Graf Ficquelmonts zum provisorischen Ministerpräsidenten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_16_2">Besetzung des Justizministeriums durch Baron Franz Sommaruga</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_16_3">Rücktrittsgesuch FML. Peter Zaninis</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_16_4">Amtlicher Artikel über die österreichische Teilnahme an der Wiedergeburt Deutschlands</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_16_5">Festbeleuchtung Wiens anläßlich des Geburtstages des Kaisers; Kundmachung der Konstitution</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_16_6">Adaptierung der Räumlichkeiten für die Reichstagssitzungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_16_7">Ablehnung der Führung der Ziviladministration in Krakau durch Graf Heinrich Castiglioni</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_16_8">Instruktionen für Graf Franz Stadion; Robotpatent für Galizien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_16_9">Textänderung der Konstitutionsurkunde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_16_10">Umwandlung der Naturalleistungen in Geldentschädigungen in Kärnten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_1_1_16_11">Landtagsvertagung und Neuwahlen in Tirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_1_1_16_12">Provisorische Übernahme der Polizeivorsorge in Wien durch den Wiener Bürgerausschuß</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_1_1_16_13">Pazifizierung des lombardisch-venezianischen Königreiches</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_1_1_16_14">Zuschuß zur Uniformierung von Beamten in der Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_1_1_16_15">Amnestie für Oberst Joseph Freiherr Werklein</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480420-P-0016" ana="a1-1848_z16">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z16.pdf">
+               <title type="num">Nr. 16</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-04-20">20. April 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Ficquelmont; anw, Pillersdorf, Krauß, Sommaruga, Zanini; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Ficquelmont, Franz Karl (23. 4.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">340 et 341</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-04-20">20. April 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_16_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Bestellung Karl Ludwig Graf Ficquelmonts zum provisorischen Ministerpräsidenten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> teilte dem Ministerrate das Ah. Handschreiben vom <date when="1848-04-19">19. April 1848</date>, Z. 578, mit, laut welchem Se. Majestät die durch den Rücktritt des Staats- und Konferenzministers Grafen Kolowrat erledigte provisorische Präsidentschaft<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_5">MR. v. <date when="1848-04-19">19. 4. 1848</date>/V</ref>.</note> des Ministerrates dem Grafen Fiequelmont Ag. zu übertragen geruhten<note type="footnote" n="2">Auf Vortrag Kolowrats v. <date when="1848-04-19">19. 4. 1848</date> wurde Ficquelmont mit Kabinettschreiben vom selben Tag zum provisorischen Präsidenten des Ministerrates ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 339/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Besetzung des Justizministeriums durch Baron Franz Sommaruga</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> glaubte, daß Se. Majestät die Notwendigkeit zur baldigen Wiederbesetzung der durch den Rücktritt des Grafen Taaffe erledigten Stelle eines Justizministers<note type="footnote" n="3">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_4">MR. v. <date when="1848-04-19">19. 4. 1848</date>/IV</ref>.</note> au. gegenwärtig gehalten werden dürfte. Insofern es dem Freiherrn v. Pillersdorf gestattet sei, wegen der Wiederbesetzung dieses Postens einen au. Antrag zu stellen, würde er sich mit dem Vorschlage des Grafen Taaffe selbst vereinigen, welcher in erster Linie auf den Unterrichtsminister Baron Sommaruga und zunächst auf den Vizepräsidenten Baron Gärtner hingedeutet hatte<note type="footnote" n="4">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480419-P-0015.xml#top_1_1_15_4">MR. v. <date when="1848-04-19">19. 4. 1848</date>/IV</ref>, besonders Anm. 10 und 11.</note>. Nachdem die übrigen Mitglieder des Ministerrates Baron Krauß, FML. Zanini und Graf Ficquelmont diesem Antrage aus vollster Überzeugung beigetreten waren, erklärte Baron Sommaruga, daß, nachdem er seine Kräfte zur Versehung des für ihn ungleich schwierigeren Postens eines Unterrichtsministers, Sr. Majestät zur Disposition gestellt habe, er um so bereitwilliger in Befolgung eines Ah. Befehls die Funktionen eines Justizministers auf sich nehmen würde, da die juridische Laufbahn sowohl durch szientifische Vorbildung als durch vieljährige praktische Dienstleistung sein eigentlicher Beruf sei, während er sich im Unterrichtswesen zum Teil wie in einem fremden Element bewege. <pb n="89" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s89.pdf"/>Baron Sommaruga erlaube sich hier nur den ehrerbietigen Vorbehalt des Rücktrittes zum Appellationsgerichte als zweiter Präsident für den Fall seines künftigen gänzlichen Ausscheidens aus dem Ministerium zu erneuern<note type="footnote" n="5">Sommaruga war mit Kabinettschreiben v. 19. 11 1847 zum zweiten Präsidenten des niederösterreichischen Appellationsgerichtes bestellt worden, <bibl type="archival">HHSTA., SBProt. 995/1847</bibl>.</note>.</p>
+                  <p>Insofern es nunmehr auf die Bestellung des eventuell erledigten Unterrichtsministeriums ankäme, äußerte Baron Pillersdorf, er würde es dankbar als einen Beweis der Ah. Gnade ansehen, wenn ihm dieses Ministerium unter gleichzeitiger Enthebung vom Ministerium des Inneren Ah. übertragen würde. Er habe im bisherigen Laufe seiner Gestion die Überzeugung gewonnen, daß ihm die physische und moralische Kraft gebreche, um den vielfachen und dringenden Anforderungen an den Leiter des Ministeriums des Inneren nur einigermaßen genügend zu entsprechen. Er betrachte es daher als eine Pflicht gegen den Staat und gegen sich selbst, um die baldigste Enthebung von diesem Posten zu bitten, zumal er in der glücklichen Lage sei, jemand vorschlagen zu können, der alle dafür erforderlichen Eigenschaften des Geistes, des Charakters und der Diensteserfahrung besitze, und der dabei in einem kräftigen Mannesalter stehe, welches ihm die Mittel gewähre, die allerdings schwere Last dieses Ministeriums dauernd zu tragen, ohne darunter sich aufzureiben. Der niederösterreichische Landmarschall Albert Graf Montecuccoli<note type="footnote" n="6">Zu Albert Raimund Zeno Graf Montecuccoli siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 19, 41–50</bibl>.</note> vereinige mit viel Popularität in weiten Kreisen noch den Vorteil eines glänzenden Namens und er würde dadurch gewissermaßen der Vermittler für zwei Elemente werden, welche sich in gegenwärtiger Zeit mehr als je gegenüberstehen. Baron Pillersdorf würde durch Übernahme des Unterrichtswesens zu einem Fache zurückkehren, das er immer mit Liebe gepflegt habe, und er würde es sich zur heiligsten Pflicht machen, seinem Nachfolger ein Ministerium des Inneren in der ersten Zeit seines Wirkens, bis er mit den Dienstverhältnissen ganz vertraut sein wird, mit Rat und Tat zu unterstützen.</p>
+                  <p>Obgleich die übrigen Mitglieder des Ministerrates nicht verkannten, welche außerordentliche Anstrengungen dem Freiherrn v. Pillersdorf durch seine umfassenden Funktionen als Minister des Inneren in der gegenwärtigen, so vielbewegten Zeit auferlegt werden, und obgleich sie sich die Kalamität nicht verhehlen, welche daraus entstünde, wenn vielleicht Baron Pillersdorf in seiner dermaligen Dienstleistung in Folge des fortgesetzten Aufwands aller Kräfte von einer Krankheit befallen würde, welche das Ministerium des Inneren seines Leiters und den Ministerrat seines Beistandes berauben würde, so glaubten sie dennoch in Baron Pillersdorf dringen zu sollen, daß er den hochwichtigen, von ihm auf so ausgezeichnete Weise versehenen Posten doch wenigstens nicht in diesem Augenblicke verlasse, wo eben die Organisierung der österreichischen Monarchie als konstitutioneller Staat im Werke sei. Das Ministerium könne durch Übertragung des Unterrichtswesens an Graf Montecuccoli sofort ergänzt werden, und seinerzeit nach Beendigung der konstitutionellen Organisation mit Inbegriff des Wahlsystems der vom Freiherrn v. Pillersdorf gewünschte Tausch des Portefeuille vor sich gehen.</p>
+                  <p>
+                     <pb n="90" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s90.pdf"/>Nachdem Baron Pillersdorf erklärt hatte, von seiner aus reifer Überlegung hervorgegangenen au. Bitte nicht abstehen zu können, äußerte Graf Ficquelmont, über diesen Gegenstand die Befehle Sr. Majestät einholen zu wollen<note type="footnote" n="7">Auf Vortrag Ficquelmonts v. <date when="1848-04-22">22. 4. 1848</date> wurde mit Kabinettschreiben vom selben Tag Taaffe vom Posten des Justizministers abberufen und Sommaruga zu seinem Nachfolger ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 342/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Rücktrittsgesuch FML. Peter Zaninis</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Krieges</rs>
+                     </hi> nahm hierauf das Wort, um dem Ministerrate seinen Vorsatz kundzugeben, sich von Sr. Majestät die Enthebung von dem ihm anvertrauten Posten au. zu erbitten. FML. Zanini habe sogleich, wie ihm die Ehre der Ernennung zum Minister zuteil wurde, seine Unzulänglichkeit für diese Stelle anerkannt<note type="footnote" n="8">Siehe dazu MR, v. <date when="1848-04-04">4. 4. 1848</date>/I.</note>. In der kurzen Zeit, seit welcher er die Leitung des Kriegswesens besorgt, habe er sich in dieser Meinung auf das Überzeugendste bestärkt gefunden. Er fühle nur zu gut, daß, so wie ihm einerseits die nötigen speziellen Kenntnisse in einigen Branchen des Kriegswesens fehlen, es ihm auch andererseits unmöglich sei, seine Stellung gegenüber den ihm an Rang, Dienstalter und Kriegserfahrung vorgehenden Veteranen der österreichischen Generalität in einer für den Dienst ersprießlichen Weise zu bewahren.</p>
+                  <p>Im Interesse der guten Sache müsse er daher bitten, daß er zu dieser Zeit, wo die Integrität der Monarchie von der entsprechenden Leitung des Kriegsministeriums vor allem abhänge, dieser Posten einem Manne anvertraut werde, der durch militärische Kenntnisse, Kriegserfahrung und Dienstesrang in den Stand gesetzt sei, die schwierige Aufgabe glücklich zu lösen. Wenn es dem FML. Zanini gestattet sei, seine eigene unvorgreifliche Ansicht bezüglich der Wahl eines anderen Kriegsministers auszusprechen, so würde er sich erlauben, den FZM. Grafen Latour zu nennen, in welchem sich alle oben bezeichneten Eigenschaften vereinigen und der ihm vor allem geeignet und berufen scheine, dem Ministerium auf die ersprießlichste Weise vorzustehen.</p>
+                  <p>Auf Andringen des Ministerpräsidenten und der übrigen Minister, daß – wenn FML. Zanini es überhaupt für unerläßlich halte, von einem Posten zurückzutreten, zu dem er durch sein seltenes administratives Talent, durch ausgebreitete Kenntnisse und den rühmlichsten Diensteifer vorzugsweise berufen ist, wie auch die Erfahrung bereits bewahrt habe – dieser Rücktritt doch nicht noch vor der Publikation der Verfassungsurkunde stattfinde, an deren Redaktion er teilgenommen habe, erklärte FML. Zanini, bis dahin die Leitung des Kriegsministeriums fortführen zu wollen, jedoch mit der Bitte, daß er dann sofort derselben in Gnaden enthoben werden wolle, indem er nur zu gut fühle, daß er in seiner Stellung nichts leisten könne.</p>
+                  <p>Nachdem die Minister Baron Pillersdorf, Baron Krauß und Baron Sommaruga der au. Andeutung des Kriegsministers bezüglich der vorzüglichen Eignung des Grafen Latour beigepflichtet hatten, bemerkte der Ministerpräsident, er müsse sich einer Meinungsabgabe über diesen Punkt - wegen seiner Verwandtschaftsverhältnisse mit dem Grafen Latour<note type="footnote" n="9">Zu Theodor Graf Baillet v. Latour siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 1, 125 f.</bibl>; Latour und Ficquelmont waren Cousins ersten Grades.</note> – enthalten; doch behalte er sich vor, wegen der künftigen Versehung des Kriegsministeriums die Ah. Befehle einzuholen<note type="footnote" n="10">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480428-P-0021.xml#top_1_1_21_1">MR. v. <date when="1848-04-28">28. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Amtlicher Artikel über die österreichische Teilnahme an der Wiedergeburt Deutschlands</head>
+                  <p>Der Ministerpräsident brachte die Notwendigkeit zur Sprache, den Völkern Österreichs in dem Augenblicke, wo sie zur Wahl der Abgeordneten für das deutsche Parlament schreiten<note type="footnote" n="11">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_5">MR. v. <date when="1848-04-14">14. 4. 1848</date>/V</ref>.</note>, den im Interesse der konstitutionellen Monarchie festzuhaltenden Grundsatz gegenwärtig zu halten, daß Österreich an der politischen Wiedergeburt Deutschlands sich nur insofern beteiligen könne, als Deutschland einen Staatenbund, mit Bewahrung der Unabhängigkeit und Souveränität der einzelnen Staaten bilden werde.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> äußerte, diese Idee habe ihm auch bereits vorgeschwebt und er habe einen die Ansicht der Regierung über diesen Punkt unzweideutig aussprechenden ämtlichen Artikel vorbereitet<note type="footnote" n="12">Der entsprechende Akt <bibl type="archival">AVA., IM., Präs. 956/1848</bibl>, ist nicht mehr vorhanden.</note>. Nachdem dieser Artikel vorgelesen und einstimmig gutgeheißen worden war, vereinigte sich der Ministerrat zu dem Beschlusse, daß derselbe nicht bloß in die Wiener Zeitung vom <date when="1848-04-21">21. l. M.</date> einzuschalten, sondern auch den sämtlichen Länderchefs zur Verlautbarung mitzuteilen wäre, was zur Beruhigung der slawischen Nationalitäten nicht minder als zur Leitung der Wahlen notwendig sei<note type="footnote" n="13">Veröffentlicht in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) V. <date when="1848-04-21">21. 4. 1848</date>
+                        </bibl>, abgedruckt bei <bibl type="secondary">
+                           <author>Huber</author>, Dokumente 1, 275</bibl>. Vgl. dazu auch das Schreiben (K.) Pillersdorfs an Wolkenstein v. <date when="1848-04-21">21. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 958/1848</bibl>. Zur Haltung vor allem der Tschechen zur Beschickung des Frankfurter Parlaments siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot1 top0">MR. I v. <date when="1848-04-22">22. 4. 1848</date>/</ref>11, Anm. 7, und <ref type="protocol-link" target="MRP-1-1-01-0-18480423-P-0019.xml#top_1_1_19_1">MR. v. <date when="1848-04-23">23. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Festbeleuchtung Wiens anläßlich des Geburtstages des Kaisers; Kundmachung der Konstitution</head>
+                  <p>Der Minister des Inneren setzte den Ministerrat in Kenntnis, daß, dem gewissen Vernehmen nach, die Bevölkerung Wiens die Feier des Ah. Geburtsfestes am <date when="1848-04-25">25. l. M.</date> – wobei man sich allgemein auch die Kundmachung der Konstitution erwartet – durch eine festliche Beleuchtung zu erhöhen beabsichtigt. Baron Pillersdorf sei nun zwar davon unterrichtet worden, daß Ah. Se. Majestät es vorziehen würden, wenn die Summe, welche die Beleuchtung verursachen dürfte, lieber einem wohltätigen Zwecke gewidmet würde; allein der Minister des Inneren wäre auf seinem Standpunkte des unvorgreiflichen Dafürhaltens, daß Se. Majestät geruhen möchten, dem Drange der Wiener Bevölkerung, ihre innige Liebe und unauslöschliche Dankbarkeit für das hochherzige kaiserliche Geschenk einer freisinnigen Verfassung auf eine in den Gewohnheiten des Volks gelegene, harmlose und öffentliche Heiterkeit noch belebende Weise an den Tag zu legen – kein Hindernis zu setzen, zumal zu besorgen wäre, daß die zum Grunde liegende Ah. Absicht, wohltätige Zwecke zu fördern, leicht mißverstanden werden könnte.</p>
+                  <p>Der Ministerrat trat dieser Bitte einstimmig bei<note type="footnote" n="14">Die Geburtstagsfeier des Kaisers war wegen der Karwoche vom 19. auf den <date when="1848-04-25">25. 4. 1848</date> verlegt worden. Zu den Feierlichkeiten – mit Festbeleuchtung – siehe <bibl type="secondary">
+                           <author>Reschauer/Smets</author>, Revolution 2, 107f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Adaptierung der Räumlichkeiten für die Reichstagssitzungen</head>
+                  <p>Der Minister des Inneren berichtete, die eingeleiteten Nachforschungen wegen Ausmittlung von geeigneten Lokalitäten für die Sitzungssäle der beiden Parlamentskammern, hätten zu dem Resultate geführt, daß hiezu nur der kleine Redoutensaal und die Hofreitschule<note type="footnote" n="15">Zu den Redoutensälen siehe <bibl type="secondary">
+                           <author>Groner</author>, Wien-Lexikon 714</bibl>, zur Spanischen Hofreitschule <quote>ebd. 717</quote>.</note> verwendbar seien, welche letztere jedoch zu dem beabsichtigten Zwecke untergeteilt werden müßte. Baron Pillersdorf bat daher, Se. Majestät wollen geruhen, die erwähnten Lokale in der kaiserlichen Burg sobald als möglich zur Disposition des Ministeriums <pb n="92" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s92.pdf"/>stellen zu lassen, damit die nötigen Adaptierungen bis zu der bereits anfangs Julius beginnenden Eröffnung der Kammern beendigt werden können<note type="footnote" n="16">Mit Handschreiben v. <date when="1848-04-23">23. 4. 1848</date> wurde der Oberstkämmerer und der erste Stallmeister angewiesen, den kleinen Redoutensaal bzw. die Hofreitschule für die gedachten parlamentarischen Zwecke dem Innenminister zur Verfügung zu stellen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 340/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480426-P-0020.xml#top_1_1_20_9">MR. v. <date when="1848-04-26">26. 4. 1848</date>/IX</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Ablehnung der Führung der Ziviladministration in Krakau durch Graf Heinrich Castiglioni</head>
+                  <p>Der Minister des Inneren eröffnete, daß FML. Graf Castiglione in einer soeben eingelaufenen Zuschrift erklärt habe, es sei ihm unmöglich, neben dem Militärkommando auch noch die Ziviladministration in Krakau zu leiten<note type="footnote" n="17">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480416-P-0013.xml#top_1_1_13_2">MR. v. <date when="1848-04-16">16. 4. 1848</date>/II</ref>. Schreiben (Abschrift) Castigliones an Pillersdorf und Zanini v. <date when="1848-04-18">18. 4. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 479/1848</bibl>.</note>. Unter diesen Umständen wurde beschlossen, dem galizischen Landesgouverneur Grafen Stadion anheimzustellen, die politische Administration Krakaus unter einen Mann seiner Wahl zu stellen<note type="footnote" n="18">Mit Schreiben v. <date when="1848-04-20">20. 4. 1848</date> ersuchte Pillersdorf Stadion, die Leitung der Krakauer Hofkommission einem tüchtigen Beamten anzuvertrauen oder diese Stelle selbst zu versehen, <bibl type="archival">ZDIAUL., StH., Präs. 5465/1848</bibl>; Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480429-P-0022.xml#top_1_1_22_2">MR. v. <date when="1848-04-29">29. 4. 1848</date>/II</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480430-P-0023.xml#top_1_1_23_11">MR. v. <date when="1848-04-30">30. 4. 1848</date>/XI</ref> und vor allem <ref type="protocol-link" target="MRP-1-1-01-0-18480502-P-0025.xml#top_1_1_25_2">MR v. <date when="1848-05-02">2. 5. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Instruktionen für Graf Franz Stadion; Robotpatent für Galizien</head>
+                  <p>Die vom Minister des Inneren vorgelesene nähere Instruktion für Graf Stadion zur Richtschnur seines Benehmens unter den gegenwärtigen Konjunkturen und über den Weg, welchen die Regierung zur Erhaltung jener Provinz im Staatsverbande einzuhalten gedenkt, wurde mit Ausnahme einer einzigen Stelle einstimmig genehmigt – sowie auch der weiters vorgelesene Entwurf des Robotpatentes für Galizien, welcher dem gegenwärtigen Protokolle beiliegt<note type="footnote" n="19">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480417-P-0014.xml#top_1_1_14_1">MR. v. <date when="1848-04-17">17. 4. 1848</date>/I</ref>. Der Akt <bibl type="archival">ZDIAUL., StH., Präs. 5387/1848</bibl>, mit dem entsprechenden Schreiben Pillersdorfs, datiert mit <date when="1848-04-19">19. 4. 1848</date>, ist skartiert worden. Der Patententwurf liegt dem Originalprotokoll in handschriftlicher Fassung bei. Fortsetzung des Gegenstandes in MR v. <date when="1848-04-26">26. 4. 1848</date>/II.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Textänderung der Konstitutionsurkunde</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Baron Krauß</rs>
+                     </hi> erklärte sich mit einigen nachträglichen kleineren Modifikationen im Texte der Konstitutionsurkunde völlig einverstanden<note type="footnote" n="20">Zu den Beratungen über die Konstitution siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot2 top1">MR. II v. <date when="1848-04-22">22. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Umwandlung der Naturalleistungen in Geldentschädigungen in Kärnten</head>
+                  <p>Der vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> vorgelegte Entwurf eines Ah. Patents in bezug auf die Umwandlung der untertänigen Naturalleistungen und Geldgiebigkeiten im Herzogtum Kärnten wurde einstimmig genehmigt, und der diesfallige Ah. Resolutionsentwurf wird daher Ew. Majestät, z[ur] Z. 1464, MRZ. 290/1848, zur Ah. Sanktion unterbreitet<note type="footnote" n="21">Pillersdorf hatte bereits mit Vortrag v. <date when="1848-03-28">28. 3. 1848</date> angeregt, genauso wie in Böhmen, Mähren und Schlesien urbariale Leistungen in den anderen Erbländern gegen Entschädigung aufzuheben und zu diesem Zweck eine Befragung der Länderchefs durchzuführen. Ohne auf die Ah. Entschließung des Kaisers zu warten, leitete er auch sofort die notwendigen Schritte ein. Ferdinand blieb nichts anderes übrig, als alles nachträglich zur Kenntnis zu nehmen, und nur – schüchtern – einzuwenden, daß diese Materie doch Gegenstand der einzuberufenden Reichsstände sein sollte, <bibl type="archival">HHSTA., MKA., MZ. 888/1848</bibl>. Der Gouverneur von Illyrien, darüber befragt, ließ wiederum seinerseits die Meinung politischer Vertreter Kärntens sowie der Kreishauptleute von Klagenfurt und Villach einholen. Auf dieser Grundlage erstattete Pillersdorf am <date when="1848-04-18">18. 4. 1848</date> einen Vortrag im Sinne des vom Ministerrat gefaßten Beschlusses. Mit Ah. E. v. <date when="1848-04-23">23. 4. 1848</date> wurde die Erlassung eines entsprechenden Patentes genehmigt, <quote>ebd., Kab. Kanzlei, MRZ. 290/1848</quote>, und <bibl type="archival">AVA., IM., Präs. 1166/1848</bibl>. Das Patent selbst wurde am <date when="1848-04-25">25. 4. 1848</date> publiziert, liegt in gedruckter Fassung anbei.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Landtagsvertagung und Neuwahlen in Tirol</head>
+                  <p>Baron Pillersdorf eröffnete, daß Se. kaiserliche Hoheit der durchlauchtigste Erzherzog Johann in einer aus Innsbruck erlassenen gnädigen Note zwei Punkte zur Sprache gebracht habe<note type="footnote" n="22">Das Schreiben v. <date when="1848-04-15">15. 4. 1848</date> ist abgedruckt bei <bibl type="secondary">
+                           <author>Helfert</author>, Tyroler Landesvertheidigung 281–284</bibl>, mit dem Vermerk: <quote>Das Original des erzherzoglichen Schreibens hat sich im Nachlasse Pillerdsorfs gefunden</quote>. Weder das Original noch eine Kopie konnten in den Beständen des <quote>HHSTA.</quote> oder des <quote>AVA.</quote> gefunden werden.</note>:</p>
+                  <p>a) Vertagung des Landtages, der in seiner gegenwärtigen Zusammensetzung durchaus nicht, weder als die gesetzliche noch überhaupt als eine angemessene Repräsentation des Landes Tirol gelten könne, und</p>
+                  <p>b) Vornahme neuer Wahlen nach einem nicht näher bezeichneten Modus<note type="footnote" n="23">Zur Lage in Tirol siehe <bibl type="secondary">
+                           <author>Hugflmann</author>, Landtage 2, 88 ff.</bibl>
+                     </note>.</p>
+                  <p>Der Minister des Inneren wurde wegen Dringlichkeit der Sache ermächtigt, den tirolischen Landtag zu vertagen. Über den neuen Wahlmodus wird die weitere Verhandlung eingeleitet<note type="footnote" n="24">Fortsetzung in <ref type="protocol-link" target="MRP-1-1-01-0-18480426-P-0020.xml#top_1_1_20_14">MR. v. <date when="1848-04-26">26. 4. 1848</date>/XIV</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Provisorische Übernahme der Polizeivorsorge in Wien durch den Wiener Bürgerausschuß</head>
+                  <p>Der Minister des Inneren unterrichtete den Ministerrat von dem Antrage des Wiener Bürgerausschusses<note type="footnote" n="25">Unmittelbar nach den Unruhen von Mitte März 1848 war vom Wiener Bürgermeister Czapka eine Versammlung von Äußeren Räten, bekannten Bürgern in der Nähe des Rathauses und sämtlichen Kommandanten der Bürgermiliz einberufen worden, aus der sich, allerdings ohne Mitwirkung des Bürgermeisters, ein 24-köpfiger provisorischer Bürgerausschuß konstituierte; siehe dazu <bibl type="secondary">
+                           <author>Seliger – Ucakar</author>, Wien. Politische Geschichte 1, 211–214</bibl>; <bibl type="secondary">
+                           <author>Till</author>, Wiener Stadtverwaltung 20 – 23</bibl>; zur Zusammensetzung <quote>Ders., Mitglieder</quote>.</note>, die Vorsorge der Polizei in der Haupt- und Residenzstadt provisorisch zu übernehmen und einem eigens dazu aufzustellenden Komitee zu übertragen, gegen dem, daß die Staatsverwaltung die dazu nötigen Geldmittel gewährt und die entsprechenden administrativen Verfügungen trifft<note type="footnote" n="26">Schreiben des Magistrats und provisorischen Bürgerausschusses der Stadt Wien v. <date when="1848-04-20">20. 4. 1848</date>, <bibl type="archival">AVA., IM., Präs. 1005/1848</bibl>.</note>. Baron Pillersdorf findet den Vorschlag des Bürgerausschusses nicht bloß annehmbar, sondern selbst sehr erwünscht, da die Polizei in Wien derzeit sich in einem Zustande von Ohnmacht findet, der, wenn nicht bald ein Abhülfmittel gefunden wird, zu einer völligen Anarchie führen und die öffentliche Sicherheit gefährden würde<note type="footnote" n="27">Zur damaligen Reputation der Wiener Polizei vgl. <bibl type="secondary">
+                           <author>Till</author>, Sicherheitsausschuß 112</bibl>.</note>. Wenn die Handhabung der Polizei in die Hände der Stadtgemeinde übergeht, so verliert sie einerseits das Gehässige ihrer bisherigen Stellung, und sie ist zugleich der tätigsten Mitwirkung und Unterstützung von Seite der Nationalgarde versichert, so daß man sich erforderlichenfalls den besten Erfolg von dem energischen Einschreiten einer Munizipalpolizei erwarten kann. Der Minister des Inneren glaubte sonach, auf die Genehmigung des vom Bürgerausschusse gestellten Vorschlages antragen zu sollen und las den Entwurf einer zu erlassenden Kundmachung über diese neue Einrichtung vor, welche wegen Dringlichkeit der Sache womöglich noch vor den Osterfeiertagen zu veröffentlichen wäre, da während derselben die unbeschäftigten Massen einer sorgfältigeren Überwachung bedürfen. Dieser vom Bürgerausschusse verfaßte Entwurf, welcher in sehr guter Tendenz und angemessen geschrieben ist, wurde – so wie überhaupt die ganze Maßregel – vom Ministerrate <pb n="94" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s94.pdf"/>genehmigt, unter Vorbehalt der von Baron Pillersdorf vorzunehmenden Abkürzungen und sonstigen Modifikationen<note type="footnote" n="28">Mit Schreiben an den Magistrat und Bürgerausschuß v. <date when="1848-04-20">20. 4. 1848</date> bewilligte Pillersdorf die Kundmachung <bibl type="archival">AVA., IM., Präs. 1005/1848</bibl>; die gedruckte Kundmachung liegt bei. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot1 top1">MR. I v. <date when="1848-04-22">22. 4. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Pazifizierung des lombardisch-venezianischen Königreiches</head>
+                  <p>Über die von dem Minister des Inneren gestellte Anfrage, ob es nicht der beabsichtigten Pazifizierung des lombardisch-venetianischen Königreichen<note type="footnote" n="29">Zur Hartigschen Pazifizierungsmission siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480409-P-0008.xml#top_1_1_8_9">MR. v. <date when="1848-04-09">9. 4. 1848</date>/IX</ref>.</note> förderlich wäre, die Bereitwilligkeit der österreichischen Regierung zu einer Verständigung über die Anerkennung der Lombardei als unabhängig und zur sonstigen billigen Ausgleichung im Wege der öffentlichen Presse auszusprechen, entgegnete der Ministerpräsident, daß es ihm zu einer solchen Erklärung noch nicht an der Zeit scheine und die Benützung der Presse in dieser Absicht, auch aus dem Grunde dermals nicht nötig erscheine, weil Graf Hartig im Augenblicke, wo unsere Armee den Isonzo überschritten hat, eine Proklamation versöhnlichen Inhalts erlassen haben wird<note type="footnote" n="30">Die deutsche Übersetzung der von Hartig am <date when="1848-04-19">19. 4. 1848</date> in Görz erlassenen Proklamation wurde in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-04-24">24. 4. 1848</date>
+                        </bibl> abgedruckt. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18480422" ana="prot1 top3">MR. I v. <date when="1848-04-22">22. 4. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Zuschuß zur Uniformierung von Beamten in der Nationalgarde</head>
+                  <p>Aus Anlaß der von Beamten der Briefpost und der Buchhaltungen vorgebrachten Bitte um Ärarialbeiträge zur Bestreitung der Kosten ihrer Equipierung als Nationalgarden<note type="footnote" n="31">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480414-P-0012.xml#top_1_1_12_12">MR. v. <date when="1848-04-14">14. 4. 1848</date>/XII</ref>.</note> wurde beschlossen, den Behörden denselben Betrag, welcher für 1847 als außerordentlicher Teuerungszuschuß auf Aushülfen Allerhöchstenorts bewilligt worden ist, auch für das laufende Jahr, mit der speziellen Widmung auf Beiträge zur Equipierung der Nationalgarden, zuzugestehen<note type="footnote" n="32">Mit Erlaß v. <date when="1848-04-22">22. 4. 1848</date> wurden 200 fl. für bereits bestehende Aushilfsfonds für <quote>minder besoldete Beamte</quote> zur Verfügung gestellt, mit der ausdrücklichen Weisung, diese Summe für <quote>Equiparierungs-Unterstützungen</quote> zu verwenden; der betreffende Akt <bibl type="archival">FA., FM., Präs. 4/1848</bibl>, ist nicht mehr auffindbar. Vgl. dazu die Akten <quote>ebd., Präs. 929 und 923, beide ex 1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_16_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Amnestie für Oberst Joseph Freiherr Werklein</head>
+                  <p>Schließlich brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> unter Beistimmung des gesamten Ministerrates in Antrag, Se. Majestät wollen dem Obersten Baron Werklein die wegen Verleumdung der österreichischen Militäradministration in Druckschriften auferlegte Konfinierung zu Gratz<note type="footnote" n="33">Werklein stand seit 1841 in Graz unter Kriegsrecht, siehe dazu <bibl type="archival">HHSTA., RTA. 122, Fasz. IX/21</bibl>.</note> Ag. nachzusehen geruhen, nachdem Werklein sich eigentlich eines Zensurvergehens schuldig gemacht habe und alle aus diesem Titel auferlegten Strafen nunmehr Ag. nachgesehen wurden<note type="footnote" n="34">Der diesbezügliche Vortrag Zaninis v. <date when="1848-04-19">19. 4. 1848</date> wurde mit Ah. E, v. <date when="1848-04-23">23. 4. 1848</date> sanktioniert, <bibl type="archival">KA., HKR., KM., Präs. 626/1848</bibl>. und <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 311/1848</bibl>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480915-P-0120.xml#top_1_1_120_6">MR. v. <date when="1848-09-15">15. 9. 1848</date>/VI</ref>.</note>.</p>
+                  <p>Die den oben zu VI. und IX. gefaßten einstimmigen Beschlüssen entsprechenden Resolutionsentwürfe werden hiemit ehrerbietigst der Ah. Schlußfassung unterzogen.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am ... April 1848. Ficquelmont.</seg>
+                  <seg type="other">Ges. 23. April. Franz Karl. Vidi.</seg>
+                  <seg type="emperors_approval">Ah. E. Ich genehmige Ihren Antrag. Ferdinand. Wien, den <date when="1848-04-23">23. April 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="101">Sitzung 101</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-08-11"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z101.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1990</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-08-11"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. fehlt; BdE. und anw. Doblhoff, Latour, Krauß, Bach, Schwarzer; abw. Wessenberg, Hornbostel; BdE. Franz Karl (11. 8.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8222">
+                     <surname>Schwarzer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-11">11. 8.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8225">
+                     <surname>Hornbostel</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_101_1">Verwahrung der Prager Garnison gegen den Vorwurf der Meuterei</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_101_2">Waffentransporte nach Österreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_101_3">Bericht Wessenbergs über das Verhältnis zu England und Frankreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_101_4">Schreiben Erzherzog Johanns a) wegen Pazifikation Schleswig-Holsteins, b) gegen die Aufhebung des Jesuitenordens in Österreich</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480811-P-0101" ana="a1-1848_z101">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z101.pdf">
+               <title type="num">Nr. 101</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-08-11">11. August 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff, Latour, Krauß, Bach, Schwarzer; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg, Hornbostel; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (11. 8.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1990</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-08-11">11. August 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_101_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Verwahrung der Prager Garnison gegen den Vorwurf der Meuterei</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Kriegswesens Graf Latour</rs>
+                     </hi> teilte dem Ministerrate mit, daß ihm eine von allen Chargen der Prager Garnison unterfertigte, vom Kommandierenden Fürsten Windischgrätz einbegleitete Eingabe zugekommen sei<note type="footnote" n="1">Schreiben Windischgrätz‘ v. <date when="1848-08-08">8. 8. 1848</date>
+                        <bibl type="archival">KA., HKR., KM., Präs. 4105/1848</bibl>. Die Eingabe der Prager Garnison in <quote>ebd., AFA. 1848, Karton 1809, 8/9 b</quote>.</note>, worin die Garnison über die im Reichstage vorgebrachten Äußerungen der Abgeordneten von Prag – Rieger und Klaudi – über die angebliche Meuterei des Militärs in Prag<note type="footnote" n="2">So geschehen in der 3. Sitzung am <date when="1848-07-26">26. 7. 1848</date>, <bibl type="secondary">
+                           <title>Verhandlungen des Östereichischen Reichstages</title> 1, 164</bibl>.</note> empfindliche Klage führt und die feierliche Erklärung abgibt, daß sie ihre Pflicht stets genau erfüllt habe. General Mensdorff habe keine Befehle an die Garnison in Prag erlassen, sie habe daher auch keinen seiner Befehle übertreten und keine Meuterei begehen können.</p>
+                  <p>Die Prager Garnison dankt übrigens dem Kriegsminister für die Widerlegung der Anklage des Abgeordneten Klaudi im Reichstage<note type="footnote" n="3">
+                        <quote>Ebd</quote>.</note> mit der weiteren Bitte, die nötigen Schritte tun zu wollen, daß die gegen die Garnison ausgesprochenen Beschuldigungen entweder förmlich bewiesen werden, oder daß ihr im Reichstage von den Schuldtragenden eine feierliche Abbitte geleistet werde, widrigenfalls sie nach Beendigung des Reichstages die genannten Abgeordneten als freche Verleumder vor dem Richter belangen müßte.</p>
+                  <p>Dagegen wurde im Ministerrate erinnert, daß die Deputierten für das, was sie im Reichstage sprechen, weder während des Reichstages, noch nach dessen Beendigung zur Verantwortung oder Rechenschaft gezogen werden können; daß das, was ein einzelner im Reichstage vorbringt, nicht das Gewicht habe, als was die Kammer beschließt; brächte man die Sache vor die Kammer, so wäre zu besorgen, daß dieselbe, da die Tatsachen in Prag noch immer nicht genügend aufgeklärt vorliegen, eine Untersuchung der Prager Vorfälle anordnen könnte, was eine große Aufregung hervorbringen und vielleicht dahin führen würde, daß der Reichstag die Entfernung des Kommandierenden Fürsten Windischgrätz verlangt.</p>
+                  <p>Diese Betrachtungen führten zu dem Beschlusse, diese Angelegenheit nicht vor den Reichstag zu bringen, sondern der Kriegsminister hätte dem Fürsten Windischgrätz zu erwidern, daß er die Eingabe der Prager Garnison zur Wissenschaft genommen habe <pb n="557" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s557.pdf"/>und ihn aufmerksam zu machen, daß der Zweck der gedachten Eingabe ganz verfehlt würde, wenn die Majorität der Kammer, wofür man nicht gutstehen könne, nicht gegen den Klaudi wäre; daß der Vorbehalt des Verfahrens gegen Klaudi nach dem Reichstage gesetzwidrig und die Stellung eines Deputierten eine Ausnahmsstellung sei; daß der gebrauchten Phrase, worin das Wort Meuterei vorkam, nicht so viel Gewicht beizulegen sei, als die Prager Garnison tut, indem dadurch nur ein Auflehnen gegen die damalige Hofkommission bezeichnet werden wollte; auch werde die Sache dadurch sehr gemildert, daß der Reichstag den gedachten Ausdruck mißliebig aufgenommen hat. Man möge sich daher mit der vom Kriegsminister im Reichstage gegebenen Erklärung zufrieden stellen<note type="footnote" n="4">In diesem Sinne beantwortete Latour mit Brief (K.) v. <date when="1848-08-12">12. 8. 1848</date> an Windischgrätz die Eingabe, <bibl type="archival">KA., HKR., KM., Präs. 4105/1848</bibl>. Windischgrätz war erbost. In seinem – beinahe schon groben – Brief v. <date when="1848-08-15">15. 8. 1848</date> an Latour nahm er mit Bedauern, aber auch mit Befremden die laxe und für ihn und die Prager Garnison unbefriedigende Lösung der Angelegenheit zur Kenntnis und forderte vom Kriegsminister, <quote>eine zur Verlautbarung an die Truppe geeignete Verständigung, ebd., Präs. 4316/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_101_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Waffentransporte nach Österreich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Baron v. Doblhoff</rs>
+                     </hi> brachte zwei Anzeigen zur Kenntnis des Ministerrates a) des Grafen Kueffstein, daß Waffensendungen aus Lüttich transito Böhmen für Wien vorkommen, und b) des Prager Polizeikommissärs Wimmer, worin nebst der Meldung, daß mehrere bekannte Revolutionäre von Berlin nach Wien abgehen, gleichfalls der Waffentransporte nach Wien und durch Galizien nach Jassy erwähnt wird<note type="footnote" n="5">Die zwei hier genannten Berichte konnten unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+                  <p>Da die Einfuhr von Waffen und der Handel damit nicht verboten ist, so dürfte gegen diese Waffentransporte derzeit nichts zu verfügen sein<note type="footnote" n="6">Die österreichische Regierung hatte allerdings bereits ein Waffenausfuhrverbot in die italienischen Staaten verfügt, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480723-P-0098.xml#top_1_1_98_10">MR. v. <date when="1848-07-23">23. 7. 1848</date>/X</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_101_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Bericht Wessenbergs über das Verhältnis zu England und Frankreich</head>
+                  <p>Ferner brachte derselbe Minister ein ihm zugekommenes Schreiben des Conseilspräsidenten, Ministers des Hauses und des Äußern, Freiherrn v. Wessenberg, zur Wissenschaft des Ministerrates, worin derselbe meldet, daß seine Gesundheit nicht die beste sei, und daß er nur noch auf eine Antwort von Innsbruck warte, um sich dann nach Wien zu begeben<note type="footnote" n="7">Wessenberg war am <date when="1848-07-08">8. 7. 1848</date> zusammen mit Erzherzog Johann von Wien nach Frankfurt abgereist, <bibl type="secondary">
+                           <author>Arneth</author>, Wessenberg 2, 243</bibl>. Weder das hier erwähnte Schreiben Wessenbergs an Doblhoff noch eine Korrespondenz Wessenbergs mit dem kaiserlichen Hof in Innsbruck konnte in den Wiener Archiven gefunden werden.</note>. Auch wird darin erwähnt, daß er mit Frankreich und England ein ziemlich gutes Verhältnis hergestellt habe. Die Franzosen seien den Huldigungen nicht feind, und daran habe er es nicht fehlen lassen. Gegenwärtig sei nur zu wünschen, daß die Militärs ihre Ansprüche nicht zu hoch spannen<note type="footnote" n="8">Wessenberg verließ am <date when="1848-08-15">15. 8. 1848</date> Frankfurt und kam am <date when="1848-08-21">21. 8. 1848</date> in Wien an, <quote>ebd., 248</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_101_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Schreiben Erzherzog Johanns a) wegen Pazifikation Schleswig-Holsteins, b) gegen die Aufhebung des Jesuitenordens in Österreich</head>
+                  <p>Schließlich teilte der Minister des Inneren ein Schreiben des Herrn Erzherzogs Reichsverweser mit, worin Höchstderselbe eröffnet, daß er glücklich in Frankfurt <pb n="558" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s558.pdf"/>angekommen sei, eine vortreffliche Wohnung daselbst gefunden und sich nun nur noch um einen Garten zur Erholung umzusehen habe<note type="footnote" n="9">Dieses Schreiben konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden. Zur Bestellung Erzherzog Johanns zum deutschen Reichsverweser siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480626-P-0084.xml#top_1_1_84_7">MR. v. <date when="1848-06-26">26. 6. 1848</date>/VII</ref>, <ref type="protocol-link" target="MRP-1-1-01-0-18480630-P-0088.xml#top_1_1_88_4">MR. v. <date when="1848-06-30">30. 6. 1848</date>/IV</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_1">MR. v. <date when="1848-07-03">3. 7. 1848</date>/I</ref>.</note>.</p>
+                  <p>Gegenwärtig beschäftige den Reichsverweser sehr die Pazifikation Schleswig-Holsteins<note type="footnote" n="10">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480810-P-0100.xml#top_1_1_100_5">MR. v. <date when="1848-08-10">10. 8. 1848</date>/V</ref>. Die militärischen Auseinandersetzungen in Schleswig-Holstein wurden durch den Waffenstillstand von Malmö v. <date when="1848-08-26">26. 8. 1848</date> am <date when="1848-08-31">31. 8. 1848</date> vorläufig beendet, <bibl type="secondary">
+                           <author>Alten</author>, Krieg in Schleswig 285</bibl>.</note>. Se. kaiserliche Hoheit überschickten zugleich dem hiesigen Ministerium eine an die österreichische Regierung gerichtete Eingabe gegen die Aufhebung der Gesellschaft Jesu in den k. k. Staaten<note type="footnote" n="11">Zur Aufhebung des Jesuitenordens in Österreich siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480505-P-0028.xml#top_1_1_28_2">MR. v. <date when="1848-05-05">5. 5. 1848</date>/II</ref>.</note>. Diese Eingabe wird den Akten beigelegt<note type="footnote" n="12">Diese Eingabe konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., StK., gefunden werden.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-08-11">11. August 1848</date>.</dateline>
+                  <seg type="other">Ges. 15. August. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

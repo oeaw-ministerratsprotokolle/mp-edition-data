@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="4">Abteilung IV</title>
+            <title level="s" type="sub">Das Ministerium Rechberg</title>
+            <title level="m" type="main" n="2">Band 2</title>
+            <title level="m" type="sub">März 1860–<date when="1860-10-16">16. Oktober 1860</date>
+            </title>
+            <title level="a" type="desc" n="176">Sitzung 176</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1860-06-14"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>
+                  <forename>Stefan</forename>
+                  <surname>Malfèr</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a4-b2-z176.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>
+                           <forename>Stefan</forename>
+                           <surname>Malfèr</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung IV Das Ministerium Rechberg, Band 2 März 1860–16. Oktober 1860</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2007">2007</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MCZ">528</idno>
+                  <idno type="KZ">1979</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1860-06-14"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Kaiser; BdE. und anw. Erzherzog Wilhelm, Erzherzog Rainer, (Rechberg 16. 6.), Nádasdy 16. 6., Gołuchowski 16. 6., Thierry 17. 6., Plener 17. 6., FML. Schmerling 18. 6.; abw. Thun.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8489">
+                     <surname>Erzherzog Wilhelm</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-16">1860-06-16</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-16">16. 6.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8584">
+                     <surname>Gołuchowski</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-16">16. 6.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8600">
+                     <surname>Thierry</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-17">17. 6.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-17">17. 6.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8621">
+                     <surname>FML. Schmerling</surname>
+                  </persName>
+                  <note>BdE. <date when="1860-06-18">18. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr7419">
+                     <surname>Thun</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_4_2_176_1">Rektifizierung des Berichtes der Budgetkommission</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_4_2_176_2">Reiseentschädigung des ao. Reichsrates Maager</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_4_2_176_3">Einstellung der Veröffentlichung nationaler Adressen an den Reichsrat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_4_2_176_4">Schlechte Tendenz der Lemberger Literaturzeitung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_4_2_176_5">Vorläufige Vernehmung der Minister über die an den Reichsrat zu leitenden Vorlagen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_4_2_176_6">Publikation eines Vortrages der Staatsschuldenkommission</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_4_2_176_7">Austritt des ao. Reichsrates Graf Barkóczy aus dem Reichsratskomitee</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_4_2_176_8">Bitten der italienischen Reichsräte</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_4_2_176_9">Unterstützungspauschale für FZM. Ritter v. Benedek</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_4_2_176_10">Landesvertretung für Görz und Istrien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_4_2_176_11">Verlegung der Statthalterei von Triest nach Laibach</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_4_2_176_12">Fortbestand der Landesstelle in Klagenfurt</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-4-02-0-18600614-P-0176" ana="a4-b2-z176">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml#a4-b2_z176.pdf">
+               <title type="num">Nr. 176</title>
+               <title type="descr">Ministerkonferenz, Wien, <date when="1860-06-14">14. Juni 1860</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Kaiser; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Erzherzog Wilhelm, Erzherzog Rainer, (Rechberg 16. 6.), Nádasdy 16. 6., Gołuchowski 16. 6., Thierry 17. 6., Plener 17. 6., FML. Schmerling 18. 6.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Thun.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">1979</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerkonferenz am <date when="1860-06-14">14. Juni 1860</date> unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_4_2_176_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Rektifizierung des Berichtes der Budgetkommission</head>
+                  <p>Se. k. k. Hoheit der durchlauchtigste Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Präsident des Reichsrates</rs>
+                     </hi> las einige Stellen aus dem Berichte der Budgetkommission, wobei eine Weglassung oder Modifikation vielleicht angezeigt wäre<note type="footnote" n="1">Fortsetzung von MK. II v. <date when="1860-06-12">12. 6. 1860</date>/I.</note>.</p>
+                  <p>Infolge der hierüber gepflogenen Erörterung geruhten Se . Ma jestät Ah. zu befehlen, daß bei der Beleuchtung des Militärvoranschlages nach den Worten „vor allem dringlich“ der nächste Satz „denn wer wäre wohl im Zweifel etc.“ weggelassen werde.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Reichsrat v. Plener</rs>
+                     </hi> übernahm es, eine neue Reinschrift des bezüglichen Blattes zu besorgen und auch die unrichtigen Angaben der Budgetkommission über die Zahl der im ao. Dienste des Ministeriums des Äußern stehenden, jedoch keine eigentliche Verwendung habenden Beamten rektifizieren zu lassen. Überhaupt habe sich seit den Kommissionsberatungen manches wesentlich geändert, worüber dann den reichsrätlichen Komitees, wenn die bezüglichen Posten zur Sprache kommen sollten, die Aufklärung zu geben wäre. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> behielt sich auch vor, im Komitee die Unstatthaftigkeit einiger am Personal des Ministeriums des Äußern beantragten Reduktionen nachzuweisen<note type="footnote" n="2">Der verstärkte Reichsrat hatte am <date when="1860-06-06">6. 6. 1860</date> das sog. 21er-Komitee zur Beratung des Staatsvoranschlages gewählt. Dieses war bevollmächtigt, Unterkomitees zu wählen, <bibl type="archival">VVR. 1, 43 f. (3. Sitzung)</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Reiseentschädigung des ao. Reichsrates Maager</head>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> au. angezeigt hatte, daß der ao. Reichsrat Maager die Anweisung einer Reiseentschädigung in Anspruch genommen hatte, geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> den Minister zu beauftragen, daß er den Gouverneur FML. Fürst Liechtenstein darüber vernehme, ob nicht Maager aus demselben Fonds beteilt werden könne, aus dem die Entschädigung für den ao. Reichsrat Jakabb bestritten wird<note type="footnote" n="3">Siehe dazu bereits MK. v. <date when="1860-03-15">15. 3. 1860</date>/I, Anm. 1. Eine Korrespondenz zu den Reisekosten für Maager konnte nicht gefunden werden. Betreffend Jakabb wurde Liechtenstein am <date when="1860-07-06">6. 7. 1860</date> von Erzherzog Rainer auf Grund eines mündlichen Befehls des Kaisers angewiesen, die Reiseentschädigung aus irgendeinem dem Gouverneur zur Disposition stehenden Landesfonds zu bestreiten, <bibl type="archival">HHSTA., RR., Präs. 187/1860 und Präs. 198/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Einstellung der Veröffentlichung nationaler Adressen an den Reichsrat</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> referierte, daß, so wie früher aus Krakau, jetzt auch aus Lemberg eine polonisierende Adresse an die galizischen Reichsräte eingegangen sei und daß er gegen die Sammler der Unterschriften Amt zu handeln beabsichtige. Diese beiden Adressen haben übrigens bereits ihren Weg in die Wiener Blätter gefunden, und da noch leicht mehrere Adressen im nationalen Sinne aus anderen Kronländern einlaufen können, so sei es wünschenswert, diesem neuen Agitationsmittel dadurch eine Schranke zu setzen, daß man allen inländischen Journalen den Abdruck solcher Adressen verbietet.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> sicherte hierauf zu, derlei Publikationen im Inlande zu hindern<note type="footnote" n="4">Die Adresse aus Krakau im Wortlaut in <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=apr&amp;datum=18600605">Die Presse</ref>
+                           </title> v. <date when="1860-06-05">5. 6. 1860</date>
+                        </bibl>; Bericht über die Adresse aus Lemberg <quote>ebd. v. <date when="1860-06-13">13. 6. 1860</date>
+                        </quote> (A., Kleine Chronik); die Lemberger Adresse in <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?datum=18600614">Wanderer</ref>
+                           </title> v. <date when="1860-06-14">14. 6. 1860</date> (M.)</bibl>; das Verbot wurde noch am selben Tag ausgesprochen, Telegramm Thierrys an die Statthaltereipräsidien <bibl type="archival">AVA., OPB., Präs. II 3629/1860</bibl>; die Adresse wurde auch in ungarischen Blättern veröffentlicht, <bibl type="archival">ebd. 3659/1860 und 3756/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Schlechte Tendenz der Lemberger Literaturzeitung</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten den Minister <ref xml:id="fn_4_2_176_a">der Polizei</ref>
+                     <note type="variant" n="a" target="#fn_4_2_176_a">Korrektur a–a Thierrys aus: <quote>des Inneren</quote>.</note> auf die mit Ostentation zur Schau getragenen polnischen Tendenzen der Literaturzeitung zu Lemberg aufmerksam zu machen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Graf Gołuchowski</rs>
+                     </hi> gab einige Aufklärungen über die Antezedentien des Redakteurs dieser bereits ämtlich verwarnten Zeitung, und wird <ref xml:id="fn_4_2_176_b">der Polizeiminister</ref>
+                     <note type="variant" n="b" target="#fn_4_2_176_b">Einfügung b–b Thierrys.</note>der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> sofort die entsprechenden Weisungen an den Landeschef erlassen<note type="footnote" n="5">Gemeint ist das Blatt <bibl type="secondary">
+                           <title>Dziennik Literacki</title> [Literarisches Tagblatt]</bibl>; Redakteur war Jan Dobrzánski, siehe dazu <bibl type="secondary">
+                           <author>Binder</author>, Die polnische Presse in der Habsburgermonarchie</bibl>. In: <bibl type="secondary">
+                           <author>Rumpler – Urbanitsch</author>, Habsburgermonarchie 8/2, 2050 f.</bibl>; <bibl type="secondary">
+                           <title>Polski Słownik Biograficzny</title> 5, 266 f.</bibl> Weisung Thierrys an den Statthaltereipräsidenten Mosch in Lemberg v. <date when="1860-06-15">15. 6. 1860</date>
+                        <bibl type="archival">AVA., OPB., Präs. II 3641/1860</bibl>; Erteilung einer Verwarnung <bibl type="archival">ebd. 3756/1860</bibl>; ausführlicher Bericht v. <date when="1860-07-10">10. 7. 1860</date> über die in Lemberg erscheinenden Zeitungen <bibl type="archival">ebd. 4258/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Vorläufige Vernehmung der Minister über die an den Reichsrat zu leitenden Vorlagen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Reichsrat Edler v. Plener</rs>
+                     </hi> brachte zur Sprache, daß der § 3 des Statuts über den verstärkten Reichsrat<note type="footnote" n="6">Kaiserliches Patent v. <date when="1860-03-05">5. 3. 1860</date>, <bibl type="archival">RGBL. Nr. 56/1860</bibl>, <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 51</bibl>.</note> allerdings bestimme, welche Gegenstände nebst dem Budget dem verstärkten Reichsrate als Vorlage mitzuteilen seien, allein unentschieden lasse, ob Se. Majestät darüber vorher das Gutachten der Minister einzuholen beabsichtigen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten hierauf zu äußern, daß Allerhöchstdieselben über jede an den verstärkten Reichsrat zu leitende Vorlage eher die k. k. Minister zu vernehmen geruhen wollen; es handle sich eigentlich nur noch um die Frage, ob das ministerielle Gutachten zugleich mit der Vorlage an den Reichsrat zu leiten sei.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Reichsrat v. Plener</rs>
+                     </hi> erklärte, daß ihm die Mitteilung des offiziellen Antrags des Ministers<note type="footnote" n="7">D.h. des Ministervortrags.</note> an den Reichsrat angezeigt erscheine, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> bemerkte, daß derlei Anträge jedenfalls früher in der Konferenz zu beraten wären, nachdem sie das Ministerium auch solidarisch zu vertreten habe<note type="footnote" n="8">Dies entsprach dem Punkt I des Ministerprogramms v. <date when="1859-08-21">21. 8. 1859</date>, <quote>ÖMR. IV/1, Nr. IX a</quote>.</note>.</p>
+                  <p>
+                     <pb n="252" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s252.pdf"/>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten diese Anträge Ag. zu genehmigen, und wird dies als Norm für die Geschäftsbehandlung pro foro interno zu gelten haben.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Publikation eines Vortrages der Staatsschuldenkommission</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi> erbat sich die Ah. Befehle über die Publikation des soeben erstatteten Berichts der Staatsschuldenkommission über das österreichische Staatsschuldenwesen und über dessen eventuelle Mitteilung an den Reichsrat<note type="footnote" n="9">Zu der am <date when="1859-12-23">23. 12. 1859</date> ins Leben gerufenen Staatsschuldenkommission siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. IV/1, LIII</bibl>; <bibl type="secondary">
+                           <author>Püregger</author>, Fünfzig Jahre Staatsschuld 4–25</bibl>. Die Akten der Kommission wurden 1862 an die Nachfolgebehörde, die Staatsschuldenkontrollkommission des Reichsrates, übergeben und gelangten nach dem Ersten Weltkrieg in das Finanzarchiv; die Protokolle und Bücher befinden sich dort, die Akten selbst sind verschollen. 
+			Mit Vortrag v. <date when="1860-06-04">4. 6. 1860</date>, Z. 75, hatte die Kommission den ersten Bericht über den Stand der Staatsschuld vorgelegt, die RS. liegt dem Vortrag Pleners v. <date when="1860-07-06">6. 7. 1860</date>, Präs. 2933, bei, <bibl type="archival">HHSTA., VRR., Karton 18</bibl>; Druck <bibl type="source" subtype="dated">
+                           <title>
+                              <ref type="external" target="http://anno.onb.ac.at/cgi-content/anno?aid=wrz&amp;datum=18600711">Wiener Zeitung</ref>
+                           </title> v. <date when="1860-07-11">11. 7. 1860</date> (M.)</bibl>. Die Staatsschuld betrug mit Ende 1859 2268 Millionen Gulden mit einem jährlichen Zinsenerfordernis von 99,4 Millionen Gulden. In diesem Vortrag hatte die Kommission auch die zwangsweise Konvertierung vieler Gattungen der Staatsschuld zwecks Verein­fachung beantragt, siehe dazu MK. v. <date when="1860-06-30">30. 6. 1860</date>/VI. In den Sitzungen v. <date when="1860-05-12">12. 5. 1860</date> und v. <date when="1860-05-22">22. 5. 1860</date> hatte die Kommission beschlossen, gleichzeitig mit dem ersten Bericht über den Stand der Staatsschuld einen zweiten, nicht für die Öffentlichkeit bestimmten Bericht mit verschiedenen Wahrnehmungen über den inneren Dienst zu überreichen, <bibl type="archival">FA., Sonderbestände, Staatsschulden­kontrollkommission des Reichsrates, Sitzungsprotokolle 1860 –1862</bibl>; siehe dazu MK. v. <date when="1860-06-29">29. 6. 1860</date>/II. Die beiden Berichte der Kommission waren dem Finanzminister zur Begutachtung weitergeleitet worden, <bibl type="archival">FA., FM., Präs. 2933/1860 und Präs. 3714/1860</bibl>.</note>.</p>
+                  <p>Streng genommen <ref xml:id="fn_4_2_176_c">(§ 11 des Ah. Patents vom <date when="1859-12-23">23. Dezember 1859</date> über die Einsetzung der Staatsschuldenkommission, RGBl. S[eite] 615)</ref>
+                     <note type="variant" n="c" target="#fn_4_2_176_c">Randbeifügung c–c Ransonnets.</note> wäre dieser Vortrag nicht zur Veröffentlichung bestimmt, da er nicht einen von den vorgeschriebenen Semestralberichten der Kommission, sondern ein proprio motu vorläufig erstatteter Vortrag ist über den erhobenen Bestand der Staatsschuld. Andererseits ist dieser Vortrag freilich von besonderer Wichtigkeit, insofern er die Basis bildet, auf der die künftigen Semestralberichte fortbauen werden. Deswegen würde sich daher derselbe vorzugsweise zur Publikation eignen; doch dürfte diese wohl nicht eher Platz greifen, bevor nicht der Vortrag der Kommission (nach den ad V. soeben erflossenen Ah. Bestimmungen) samt dem ministeriellen Gutachten darüber an den ao. Reichsrat gelangt ist.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> geruhten diesen Antrag Ah. zu genehmigen<note type="footnote" n="10">Fortsetzung zum ersten Vortrag MK. v. <date when="1860-06-30">30. 6. 1860</date>/VI; Fortsetzung zum zweiten Vortrag MK. v. <date when="1860-06-29">29. 6. 1860</date>/II.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Austritt des ao. Reichsrates Graf Barkóczy aus dem Reichsratskomitee</head>
+                  <p>Se. k. k. Hoheit der durchlauchtigste Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Rainer</rs>
+                     </hi> referierte, das Komiteemitglied Graf Barkóczy habe erklärt, sein Gewissen gestatte ihm nicht an den Beratungen über das meritum des Grundbuchgesetzes teilzunehmen.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> erblickt in diesem Austritt keinen Grund, weder für das Komitee, seine Arbeiten einzustellen, noch für das Plenum des Reichsrates, eine Ergänzungswahl vorzunehmen<note type="footnote" n="11">In der 4. Sitzung am <date when="1860-06-08">8. 6. 1860</date> hatte der verstärkte Reichsrat mit der Debatte über die Grundbuchordnung (zu dieser siehe MK. v. 30. und <date when="1859-10-31">31. 10. 1859</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z54" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z54.pdf" target="MRP-1-4-01-0-18591031-P-0054.xml">ÖMR. IV/1, Nr. 54</ref>
+                        </bibl>, <quote>Anm. 10</quote>) begonnen, dem ersten wirklichen Verhandlungsgegenstand, <bibl type="archival">VVR 1, 45–80</bibl>. Der ao. Reichsrat für Ungarn Johann Graf Barkóczy v. Szala hatte die Diskussion eröffnet. Er verwarf die Grundsätze des neuen Entwurfs und wollte den Gegenstand den Landtagen zugewiesen wissen. Nach ausführlicher Debatte wurde ein Komitee gewählt, auch Barkóczy war unter den Mitgliedern, ebd. 80. Als das Komitee mit Mehrheit beschloß, in das Detail einzugehen, erklärte Barkóczy seinen Austritt, <quote>ebd. 82</quote>. Er suchte darum an, von der ferneren Teilnahme an dem Ausschuß enthoben zu werden und einen vierwöchigen Urlaub für eine dringend benötigte Badekur in Karlsbad antreten zu dürfen, Vortrag Erzherzog Rainers mit genehmigender Ah. E. v. <date when="1860-06-22">22. 6. 1860</date>, <bibl type="archival">HHSTA., RR., Präs. 180/1860 und Präs. 185/1860</bibl>; <bibl type="archival">ebd., Kab. Kanzlei, KZ. 2013/1860</bibl>. Fortsetzung MK. v. <date when="1860-06-16">16. 6. 1860</date>/I.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Bitten der italienischen Reichsräte</head>
+                  <p>Se. k. k. Hoheit der durchlauchtigste Herr <hi rend="#letterspaced">
+                        <rs type="person">Erzherzog Reichsratspräsident</rs>
+                     </hi> referierte über die Bitten, welche die nicht deutsch sprechenden ao. Reichsräte aus Venedig und Dalmatien zu dem Zweck gestellt haben, um an den Verhandlungen des Reichsrates aktiven Anteil nehmen zu können.</p>
+                  <p>1. Bitte: Mitteilung von italienischen Übersetzungen der Gesetzentwürfe. 
+			Dieser Anspruch ist vollkommen gerecht, und es wird bereits an einer italienischen Übersetzung des Grundbuchgesetzentwurfs gearbeitet.</p>
+                  <p>2. Bitte: Bewilligung für diese Reichsräte, ihre Anträge und Äußerungen im Italienischen schriftlich zu Protokoll geben und ins Deutsche übersetzt im Reichsrat vorlesen lassen zu dürfen. 
+			Diese Bitte verstößt zwar gegen den § 12 der Geschäftsordnung<note type="footnote" n="12">Schriftliche Äußerungen dürfen weder während noch nach der Sitzung abgelesen oder zu Protokoll gegeben werden, VVR 1, 8.</note>, dürfte jedoch nach der Meinung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizministers</rs>
+                     </hi> mit Hinblick auf den Zweck der Einberufung der Reichsräte nicht wohl zurückgewiesen werden, widrigens den Italienern im Reichsrate faktisch das Stillschweigen auferlegt würde.</p>
+                  <p>3. Bitte: Gestattung, im Laufe der Diskussion ihre Meinungen und Einwendungen in freiem italienischen Vortrage äußern zu dürfen. </p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> fanden keinen Anstand gegen die Gewährung dieser dritten Bitte, zumal der größte Teil der Reichsräte überhaupt des Italienischen kundig ist, so daß auch die Vorlesungen von Übersetzungen der Anträge etc. füglich entbehrt werden und somit auch die dadurch begründete Ausnahme von der Geschäftsordnung unterbleiben könnte. Es müsse aber dann auch für italienische Stenographen gesorgt werden<note type="footnote" n="13">Mit Vortrag v. <date when="1860-06-13">13. 6. 1860</date> beantragte der Reichsratspräsident Erzherzog Rainer die Ausnahme für jene Reichsräte, die nur italienisch sprachen, <bibl type="archival">HHSTA., RR., Präs. 163/1860</bibl> (K.; dabei auch das Gesuch der italienischen Reichsräte) und Präs. 173/1860 (RS.); <bibl type="archival">ebd., VRR. 15/1860</bibl>. Die Ah. E. v. <date when="1860-06-16">16. 6. 1860</date> lautete: <quote>Ich gestatte, daß jene außerordentlichen Reichsräte, welche der deutschen Sprache vollkommen unkundig und nur der italienischen mächtig sind, ihre Äußerungen in italienischer Sprache vortragen dürfen. Diese Äußerungen sind jedoch aus dem Italienischen ins Deutsche, und die darauf erfolg­enden Erwiderungen aus dem Deutschen ins Italienische von einem beider Sprachen mächtigen Reichsrate allsogleich zu übersetzen</quote>, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1920/1860</bibl>. Mitteilung davon VVR 1, 81 (5. Sitzung/<date when="1860-06-21">21. 6. 1860</date>). Betroffen waren die Reichsräte Francesco Conte Borelli (Dalmatien), Filippo Conte Nani-Mocenigo und Achille Cavaliere de Zigno (beide Lombardo-Venetien). Die Übersetzung übernahm der ständige Reichsrat Freiherr Anton Salvotti.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Unterstützungspauschale für FZM. Ritter v. Benedek</head>
+                  <p>Se. Majestät geruhten die Bitte des FZM. Ritters v. Benedek um Bewilligung eines besonderen Pauschals für die Unterstützung von Notleidenden etc. zur Sprache zu bringen.</p>
+                  <p>
+                     <pb n="254" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b2-pdf.xml%23a4-b2_einzelseiten/a4-b2_s254.pdf"/>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Reichsrat v. Plener</rs>
+                     </hi> bemerkte, daß die Gewährung eines solchen Pauschals eine gefährliche Exemplifikation bilde. Kein Statthalter genieße bis jetzt ein solches Pauschale, auch nicht in jenen Ländern, wo früher durchlauchtigste Erzherzoge als Statthalter fungierten. Niemand könne wohl an die Wohltätigkeit oder Freigiebigkeit des FZM. Benedek in Ofen dieselben Ansprüche stellen wie an Se. k. k. Hoheit Herrn Erzherzog Albrecht! Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> verkannte nicht, daß Ritter v. Benedeks Freigiebigkeit in politischer Beziehung von einigem Nutzen sei, aber nichtsdestoweniger scheine es dem Minister angezeigt, daß hiefür kein Pauschal bewilligt und nur der bisher von ihm diesfalls bestrittene Aufwand dem Feldzeugmeister vergütet werde<note type="footnote" n="14">Mit Handschreiben v. <date when="1860-08-27">27. 8. 1860</date> bewilligte Franz Joseph ausnahmsweise Benedek für seine Person und vorläufig für das 1. Jahr seiner Amtswirksamkeit eine Donation für Unterstützungen von monatlich 500 fl. Gleichzeitig erhielt Benedek ein keiner Verrechnung unterliegendes Reisepauschale von monatlich 1000 fl., Vortrag Gołuchowskis v. <date when="1860-07-31">31. 7. 1860</date>, Präs. 2295, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2470/1860</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Landesvertretung für Görz und Istrien</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten den Minister des Inneren aufzufordern, daß er in reife Überlegung ziehe, wo die vereinigten Landesvertretungen von Görz, Gradiska und Istrien sich zu versammeln haben werden. Die Stadt Görz scheine hiezu weit weniger geeignet als Triest oder selbst Laibach<note type="footnote" n="15">Im Vortrag über die Auflassung der Landesregierungen in Klagenfurt und Laibach – vgl. dazu MK. III v. <date when="1860-05-29">29. 5. 1860</date>/II und die folgenden Tagesordnungspunkte XI und XII – hatte Gołuchowski das Fortbestehen des Küstenlandes mit dem Landtag in Görz erwähnt, weil dies Konsequenzen für den Personalstand der Statthalterei in Triest hatte, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1765/1860</bibl>. Dieser Passus im Vortrag war der Anlaß für die Bemerkung des Kaisers. Das Landesstatut für das Küstenland war noch nicht in Verhandlung.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Verlegung der Statthalterei von Triest nach Laibach</head>
+                  <p>Über die hierauf Ah. gestellte Frage, ob die Statthalterei von Triest nicht nach Laibach zu verlegen sei, äußerten der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Finanzministeriums</rs>
+                     </hi>, diese Verlegung aus administrativen und politischen Gründen nicht bevorworten zu können, worauf <hi rend="#letterspaced">
+                        <rs type="person">Se . k. k. apost. Majestät</rs>
+                     </hi> zur Pflicht zu machen geruhten, darüber sorgfältig zu wachen, daß das slawische Element der Bevölkerung im Küstenlande nicht vom italienischen überwunden werde<note type="footnote" n="16">Siehe dazu MK. III v. <date when="1860-05-29">29. 5. 1860</date>/II.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_4_2_176_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Fortbestand der Landesstelle in Klagenfurt</head>
+                  <p>Über die Ah. gestellte Frage, ob es nicht ausführbar wäre, für Kärnten eine eigene Landesstelle, jedoch mit geringerem Aufwand als bisher fortbestehen zu lassen, äußerte <hi rend="#letterspaced">
+                        <rs type="person">Graf Gołuchowski</rs>
+                     </hi>, daß solange dort eine Landesstelle fortbesteht, keine ergiebige Ersparung erzielt werden könne, und daß deren Fortbestand auch zu Konsequenzen bei den anderen kleineren Kronländern führen werde<note type="footnote" n="17">Siehe <quote>ebd.</quote>
+                     </note>.</p>
+                  <p>Schließlich geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät</rs>
+                     </hi> die bei dem Finanzministerium anhängigen Verhandlungen über die Reduzierung der siebenbürgischen Militärgrenze<note type="footnote" n="18">Siehe dazu MK. v. <date when="1859-12-29">29. 12. 1859</date>/VI, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z86" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z86.pdf" target="MRP-1-4-01-0-18591229-P-0086.xml">ÖMR. IV/1, Nr. 86</ref>
+                        </bibl>.</note> und über den Zollausschluß Istriens Ah. zu urgieren<note type="footnote" n="19">Siehe zuletzt MK. v. <date when="1860-01-12">12. 1. 1860</date>/II, <bibl type="internal_ref">
+                           <ref type="internal" n="a4-b1-z93" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a4-b1/pdf/a4-b1-z93.pdf" target="MRP-1-4-01-0-18600112-P-0093.xml">ÖMR. IV/1, Nr. 93</ref>
+                        </bibl>. Fortsetzung MK. v. <date when="1860-10-29">29. 10. 1860</date>/II.</note>.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1860-06-16">16. Juni 1860</date>. Rechberg.</seg>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Laxenburg, <date when="1860-06-22">22. Juni 1860</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

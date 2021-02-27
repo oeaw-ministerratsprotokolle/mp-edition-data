@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="102">Sitzung 102</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-08-13"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z102.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1991</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-08-13"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Marherr; VS. fehlt; BdE. 14. 8. und anw. Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer; abw. Wessenberg; BdE. Franz Karl (17. 8.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9269">
+                     <surname>Marherr</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr">
+                     <surname>unbekannt</surname>
+                  </persName>
+                  <note>
+                     <orig>fehlt</orig>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-08-17">17. 8.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_102_1">Entsendung Joseph Lanfranchis statt Alois Pederzanis zur Reorganisierung des Justizwesens im lombardisch-venezianischen Königreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_102_2">Gerichtliche Untersuchungen gegen Aufständische in Südtirol</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_102_3">Niederschlagung jener Preßprozesse, die sich mit der Rückkehr des Kaisers nach Wien beschäftigen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_102_4">Beschaffung von Artilleriebedarf für die Festung Olmütz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_102_5">Militärische Auszeichnungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_102_6">Ähnlichkeit des Luccaschen St. Georgordens und des österreichischen Maria Theresienordens</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_102_7">Gerücht über ein Attentat auf den Kaiser</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_102_8">Kaiserliche Proklamation über den gestrigen Empfang</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_102_9">Verhalten des Hofes und der kaiserlichen Familie nach der Rückkehr nach Wien; Tragen der deutschen Farben beim österreichischen Militär</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480813-P-0102" ana="a1-1848_z102">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z102.pdf">
+               <title type="num">Nr. 102</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-08-13">13. August 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Marherr; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> fehlt; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> 14. 8. und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Doblhoff, Latour, Krauß, Bach, Hornbostel, Schwarzer; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Franz Karl (17. 8.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1991</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates vom <date when="1848-08-13">13. August 1848</date>.</head>
+               <div type="agenda_item" xml:id="top_1_1_102_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Entsendung Joseph Lanfranchis statt Alois Pederzanis zur Reorganisierung des Justizwesens im lombardisch-venezianischen Königreich</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> eröffnete, daß er von der beschlossenen Absendung des Hofrates Pederzani zur Reorganisierung des Justizwesens im lombardisch-venezianischen Königreiche<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480810-P-0100.xml#top_1_1_100_2">MR. v. <date when="1848-08-10">10. 8. 1848</date>/II</ref>.</note> abgehen müsse, weil derselbe als Welschtiroler die Stimmung im Lande gegen sich haben würde. Der Minister glaubte daher, den ihm von mehreren Seiten sehr empfohlenen Hofrat bei Veroneser Senate, Lanfranchi, einen Italiener von Geburt, der auch der deutschen Sprache mächtig ist, für diese Mission bestimmen zu sollen, wobei der Finanzminister nur bemerkte, daß es angemessen sein dürfte, diese beabsichtigte Bestimmung Lanfranchis vorläufig dem Vorsteher des Obersten Justizsenats in Verona, Baron Orefici, zu eröffnen und dessen Ansicht hierüber zu vernehmen<note type="footnote" n="2">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480816-P-0105.xml#top_1_1_105_2">MR. v. <date when="1848-08-16">16. 8. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gerichtliche Untersuchungen gegen Aufständische in Südtirol</head>
+                  <p>Nach Berichten des tirolischen Guberniums<note type="footnote" n="3">Der entsprechende Akt <bibl type="archival">AVA., JM. 2383/1848</bibl>, ist nicht mehr vorhanden.</note> sind wegen des im April 1848 versuchten Abfalls in Südtirol<note type="footnote" n="4">Zu den separatistischen Bestrebungen in Südtirol siehe <bibl type="secondary">
+                           <author>Mazohl</author>, Autonomiebestrebungen im Trentino</bibl>.</note> zwei Personen criminaliter eingezogen, und gegen 32 andre Individuen, welche desselben Verbrechens rechtlich beinzichtigt, aber wahrscheinlich nach Italien geflüchtet sind, sollen Befehle zu deren Habhaftwerdung an die Behörden des lombardisch-venezianischen Königreichs erlassen werden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi>, welcher glaubt, daß unter den gegenwärtigen Verhältnissen die Niederschlagung der Untersuchung gegen die an jenem Aufstandsversuche Beteiligten angezeigt sein dürfte, hat hierwegen weitre Auskünfte vom Gubernium abverlangt und behält sich vor, nach deren Einlangung die geeigneten Anträge zu erstatten<note type="footnote" n="5">Die abverlangten Berichte, <bibl type="archival">AVA., JM. 2459/1848 und JM. 2460/1848</bibl>, die am <date when="1848-08-17">17. 8. 1848</date> im Justizministerium einlangten, sind nicht mehr vorhanden. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480822-P-0109.xml#top_1_1_109_3">MR. v. <date when="1848-08-22">22. 8. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Niederschlagung jener Preßprozesse, die sich mit der Rückkehr des Kaisers nach Wien beschäftigen</head>
+                  <p>Unter den dermal anhängigen 24 Preßprozessen, von denen einige am 24. August zur öffentlichen Verhandlung kommen werden, befinden sich mehrere, welche wegen <pb n="560" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s560.pdf"/>Schmähungen gegen die Ah. Person Sr. Majestät aus Anlaß der so vielfältig besprochenen Rückkehr Allerhöchstderselben<note type="footnote" n="6">Zur Flucht Ferdinands aus Wien siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480518-P-0041.xml#top_1_1_41_1">MR. I v. <date when="1848-05-18">18. 5. 1848</date>/I</ref>.</note> eingeleitet worden sind.</p>
+                  <p>Da zu besorgen ist, daß gegenwärtig, wo die bestandene Spannung durch die Rückkehr Sr. Majestät in die Residenz glücklich behoben worden<note type="footnote" n="7">Ferdinand war am <date when="1848-08-12">12. 8. 1848</date> nach Wien zurückgekehrt.</note>, eine Wiederaufnahme dieses Gegenstands in einem öffentlichen Gerichtsverfahren einen üblen Eindruck machen und zu neuer Aufregung Anlaß geben dürfte: so schlug der Justizminister – unter allseitiger Zustimmung – vor, die diesen Gegenstand speziell betreffenden Preßprozesse niederzuschlagen und dies als einen Akt der kaiserlichen Gnade öffentlich bekanntmachen zu lassen, zu welchem Ende der Minister unverweilt einen eigenen Vortrag erstatten wird<note type="footnote" n="8">Bach brachte diesen Vortrag am <date when="1848-08-14">14. 8. 1848</date> ein und Ferdinand resolvierte ihn mit Ah. E. v. <date when="1848-08-19">19. 8. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1733/1848</bibl>. Die entsprechenden Akten <bibl type="archival">AVA., JM. 2329/1848 und JM. 2550/1848</bibl>, sind nicht mehr vorhanden.</note>.</p>
+                  <p>Den übrigen Preßprozessen wäre ihr Lauf zu lassen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Beschaffung von Artilleriebedarf für die Festung Olmütz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> übergab seinen Vortrag vom <date when="1848-08-04">4. August 1848</date>, Z. 2161<note type="footnote" n="9">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1700/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4390/1848</bibl>; anbei ein Bericht des FML. Augustin v. <date when="1848-07-29">29. 7. 1848</date> mit detaillierten Angaben über diesen Gegenstand.</note>, wegen Anweisung von 169.267f. in drei zweimonatlichen Raten zur Beschaffung von Artilleriebedarf für die Festung Olmütz.</p>
+                  <p>Mit Rücksicht auf die dermaligen Verhältnisse wurde beschlossen, die verlangte Summe auf 100.000f., in drei Monatsraten zahlbar, zu beschränken<note type="footnote" n="10">Der in Anm. 9 zit. Vortrag wurde mit Ah. E. v. <date when="1848-08-19">19. 8. 1848</date> resolviert.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Militärische Auszeichnungen</head>
+                  <p>Gegen den Vortrag des Kriegsministers vom <date when="1848-08-11">11. August 1848</date>, Z. 2162<note type="footnote" n="11">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1701/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4356/1848</bibl>.</note>, wegen Bewilligung von drei Theresienkreuzen für die Generale Hess, Schönhals und Stwrtnik, dann des Leopoldordens für den Armeeintendanten Gubernialrat Grafen Pachta ergab sich nur bezüglich des letztgenannte das Bedenken, daß derselbe wegen seines notorisch sehr bemackelten Rufes zu einer Auszeichnung mit einem Orden nicht geeignet erscheint, daher der Kriegsminister auch von seinem zugunsten Pachtas gemachten Antrage wieder abging<note type="footnote" n="12">Der in Anm. 11 zit. Vortrag wurde mit Ah. E. v. <date when="1848-08-19">19. 8. 1848</date> resolviert.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Ähnlichkeit des Luccaschen St. Georgordens und des österreichischen Maria Theresienordens</head>
+                  <p>Der Vortrag ebendesselben vom 12. August, Z. 2163<note type="footnote" n="13">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1702/1848</bibl>, und <bibl type="archival">KA., HKR., KM., Präs. 4835/1848</bibl>.</note>, bezielt eine Maßregel zur Unterscheidung des herzoglich Luccaschen Ordens St. Georg von dem österreichischen Maria Theresien-Orden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> glaubte nicht, daß es der österreichischen Regierung zustehe, an der Dekoration eines fremden Ordens Veränderungen anzuordnen, und deutete darauf hin, daß es vielleicht angemessener sein dürfte, die Tragung dieses Ordens (da das Herzogtum Lucca nicht mehr besteht<note type="footnote" n="14">Das Herzogtum Lucca war 1847 mit dem Großherzogtum Toskana vereinigt worden.</note>) in den k. k. Staaten ganz zu untersagen. <pb n="561" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s561.pdf"/>Da aber bei einer solchen Frage der Minister des Äußern wesentlich beteiligt ist, so wurde beschlossen, die Entscheidung hierüber bis zur Rückkunft dieses Ministers auszusetzen<note type="footnote" n="15">Schließlich erging auf den in Anm. 13 zit. Vortrag folgende Ah. E. v. <date when="1848-09-06">6. 9. 1848</date>: <quote>Ich finde hiermit anzuordnen, daß alle Individuen Meiner Staaten, welche mit Meiner Bewilligung den herzoglich Luccaschen St. Georgs-Orden tragen, sich hiebei eines Bandes zu bedienen haben, dessen weißer Mittelstreifen nicht breiter als eine Linie ist</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Gerücht über ein Attentat auf den Kaiser</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren</rs>
+                     </hi> teilte mit einen Polizeirapport über das Ergebnis der Untersuchung, welche aus Anlaß des Gerüchts von einem Attentate auf die Person Sr. Majestät beim gestrigen Einzuge nächst Fünfhaus gepflogen wurde. Ein Gärtner hatte ein Gewehr geladen und versteckt; angehalten und befragt, erklärte er, Freudenschüsse abzufeuern beabsichtigt zu haben, und die Untersuchung des Gewehrs zeigte wirklich, daß solches nur blind geladen gewesen<note type="footnote" n="16">Dieser Bericht konnte unter den Beständen des AVA., IM., Präs., nicht gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Kaiserliche Proklamation über den gestrigen Empfang</head>
+                  <p>Der Minister des Inneren verlas den vom Minister der öffentlichen Arbeiten redigierten Entwurf der Proklamation Sr. Majestät über den gestrigen Empfang<note type="footnote" n="17">Der Kaiser war am Nachmittag den <date when="1848-08-12">12. 8. 1848</date> mit dem Dampfschiff in Nußdorf gelandet und fuhr unter großem Jubel der Bevölkerung nach Wien, wo im Stephansdom ein Tedeum zelebriert wurde. In Schönbrunn empfing der Kaiser anschließend den Ministerrat und Abordnungen der Ausschüsse, der Nationalgarde und des Reichstages, siehe dazu <bibl type="secondary">
+                           <title>Wiener Zeituni</title>; (M.) v. <date when="1848-08-13">13. 8. 1848</date>
+                        </bibl>.</note>. Selbe ist mit Zustimmung Sr. k. k. Hoheit des Herrn Erzherzogs Franz Karl bereits gedruckt und angeschlagen worden<note type="footnote" n="18">Diese Proklamation <quote>An Meine getreuen Wiener</quote> erschien u. a. in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (A.) v. <date when="1848-08-14">14. 8. 1848</date>
+                        </bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_102_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Verhalten des Hofes und der kaiserlichen Familie nach der Rückkehr nach Wien; Tragen der deutschen Farben beim österreichischen Militär</head>
+                  <p>Der Minister des Inneren teilte endlich mit das Resultat der heute mittags mit Sr. k. k. Hoheit dem Herrn Erzherzog Franz Karl gehabten Unterredung:</p>
+                  <p>a) Der Ah. Hof wird in Schönbrunn die gewohnte Lebensweise fortsetzen.</p>
+                  <p>b) Se. k. k. Hoheit wurden bei einem Spaziergange im Garten mit Ihrer durchlauchtigsten Gemahlin heute vormittags von dem zahlreich anwesenden Publikum mit den unzweideutigsten Äußerungen der Anhänglichkeit aufgenommen.</p>
+                  <p>c) Das gestern in der St. Stephanskirche abgehaltene Te Deum sollte – nach der Ah. Absicht Sr. Majestät – der Einnahme von Mailand gelten<note type="footnote" n="19">Radetzky war am <date when="1848-08-06">6. 8. 1848</date> in Mailand eingezogen, siehe dazu <bibl type="secondary">
+                           <author>Czeschka</author>, Krieg Österreichs gegen Italien 70</bibl>, und <bibl type="secondary">
+                           <author>Grüll</author>, Feldzug in Italien 459–470</bibl>.</note>, und da dies im Programm nicht ausgedrückt war, nachträglich hierwegen eine Bekanntmachung durch die Zeitung erfolgen.</p>
+                  <p>Der Ministerrat könnte es nicht auf sich nehmen, eine solche nachträgliche Bekanntmachung zu veranlassen, weil, gleichwie er selbst, so auch das gesamte Publikum, bei jener kirchlichen Feier nicht im entferntesten an die Besetzung Mailands, sondern bloß an die glückliche Rückkehr Sr. Majestät gedacht hat, mithin eine Bekanntmachung solcher Art nur geeignet wäre, den großen Eindruck jener Feier zu schwächen. Wünschen Se. Majestät durchaus eine Wiederholung eines ohnehin schon abgehaltenen Dankfestes für das Glück unserer Waffen, so möchte es am füglichsten bei Gelegenheit einer Revue der Garnison oder Nationalgarde stattfinden können.</p>
+                  <p>
+                     <pb n="562" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s562.pdf"/>Bei diesem Anlasse machte der Minister des Inneren auf die Notwendigkeit der Wiederannahme der am 6. August auf den Fahnen des deutsch-österreichischen Militärs aufgesteckten, seither wieder abgenommenen deutschen Bänder aufmerksam.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> bezog sich auf den diesfalls gefaßten Ministerratsbeschluß, die deutschen Farben nur im Bundesdienste tragen zu lassen<note type="footnote" n="20">Die Angelegenheit war im <ref type="protocol-link" target="MRP-1-1-01-0-18480702-P-0090.xml#top_1_1_90_3">MR. v. <date when="1848-07-02">2. 7. 1848</date>/III</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_2">MR. v. <date when="1848-07-03">3. 7. 1848</date>/II</ref> zur Sprache gekommen. Damals wurde lediglich beschlossen, die zur Feier der Ernennung Erzherzog Johanns zum deutschen Reichsverweser ausrückende Truppen die deutsche Kokarde tragen zu lassen.</note>. Allein, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entgegnete, daß es sich nicht um Aufsteckung der deutschen Kokarden von Seite der Mannschaft, sondern, was sehr verschieden, nur um Annahme der deutschen Bänder an den auch sonst mit Bändern gezierten Fahnen handle; und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister</rs>
+                     </hi> setzte hinzu, daß der Dienst des österreichisch-deutschen Militärs im Inneren der zum Deutschen Bunde gehörigen Erblande ja auch als Bundesdienst anzusehen sei.</p>
+                  <p>Nur unter dieser Wendung, erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, und wenn es der Wunsch Sr. Majestät wäre, würde er die Annahme jener Bänder bei den betreffenden Armeeabteilungen vertreten können<note type="footnote" n="21">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480814-P-0103.xml#top_1_1_103_1">MR. v. <date when="1848-08-14">14. 8. 1848</date>/I</ref>.</note>.</p>
+                  <p>d) Ob Se. Majestät und die Glieder der kaiserlichen Familie den Reichsversammlungen als Zuhörer beiwohnen sollten?</p>
+                  <p>Der Ministerrat erklärte sich für die Verneinung der Frage, weil solches – die Akte der feierlichen Eröffnung und Schließung des Parlaments ausgenommen – in den übrigen konstitutionellen Staaten nicht üblich ist.</p>
+                  <p>e) Se. k. k. Hoheit der Herr Erzherzog Franz Karl werden täglich zwischen 12 und 1 Uhr nach Wien kommen und die Minister empfangen.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1848-08-13">13. August 1848</date>.</dateline>
+                  <seg type="other">Ges. 17. August. Franz Karl. Vidi.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

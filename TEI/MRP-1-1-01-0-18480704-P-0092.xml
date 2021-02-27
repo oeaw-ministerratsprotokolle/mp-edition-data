@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="092">Sitzung 92</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-04"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z92.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1371</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; abw. Wessenberg; BdE. Pillersdorf (5. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-05">5. 7.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_92_1">Errichtung eines Familienfideikommisses für den Grafen von Meran Freiherrn v. Brandhofer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_92_2">Feiern bei der Ankunft der Deputation des Frankfurter Parlaments an Erzherzog Johann</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_92_3">Erlaß Erzherzog Johanns an Erzherzog Stephan; Ah. Reskript an den ungarischen Finanzminister wegen Dotierung der Agramer Kriegskassa</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_92_4">Bericht Windischgrätz' über Entwaffnung der Deputation des Sicherheitsausschusses</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_92_5">Besetzung der OberkommandantensteIle der Grazer Nationalgarde</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_92_6">Zurücknahme der angedrohten Gütersequestration der Nobili</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480704-P-0092" ana="a1-1848_z92">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z92.pdf">
+               <title type="num">Nr. 92</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-04">4. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (5. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1371</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am 4. Julius 1848 unter dem Vorsitze des interimistischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_92_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Errichtung eines Familienfideikommisses für den Grafen von Meran Freiherrn v. Brandhofer</head>
+                  <p>Es wurde der von dem Minister des Äußern und des kaiserlichen Hauses Freiherrn v. Wessenberg unterm 27. Junius l. J. erstatteten Vortrag<note type="footnote" n="1">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1277/1848</bibl>.</note> über das von Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Johann zugunsten des Herren Grafen von Meran Freiherrn v. Brandhofer zu errichtende und mit Ah. Entschließung vom <date when="1845-12-12">12. Dezember 1845</date>
+                     <note type="footnote" n="2">Auf Vortrag Metternichs v. <date when="1845-11-27">27. 11. 1845</date>, <bibl type="archival">ebd., Kab. Archiv, Conferenz-Acten a 1064/1848</bibl>; der Akt liegt nicht mehr ein.</note> bereits vorläufig genehmigte Familienfideikommiß in Beratung gezogen. Nachdem in dem vorgelegten Fideikommißinstrumente de dato <date when="1847-05-08">8. Mai 1847</date>
+                     <note type="footnote" n="3">Dieses Fideikommißinstrument konnte unter den Beständen des HHSTA. nicht gefunden werden.</note> den Allerhöchstenorts vorgeschriebenen Bedingungen Genüge geleistet wird und die weiters vorgenommenen Veränderungen des ursprünglich für das Fideikommiß bestimmten Besitzstandes teils von geringem Belange, teils von der Art sind, daß die Ausgleichung darüber auch nachträglich vorgenommen werden kann, so vereinigte sich der Ministerrat zu dem einstimmigen Beschlusse, dem gedachten Fideikommißinstrumente im Verfolge der Ah. Entschließungen vom <date when="1845-12-12">12. Dezember 1845</date> und <date when="1848-04-14">14. April 1848</date>
+                     <note type="footnote" n="4">Auf Vortrag Ficquelmonts v. <date when="1848-04-09">9. 4. 1848</date>, <bibl type="archival">HHSTA., Kab. Archiv, Conferenz-Acten a 500/1848</bibl>; der Akt liegt nicht mehr ein.</note> die definitive Genehmigung zu erteilen.</p>
+                  <p>Dieser Beschluß wird dem Minister Freiherrn v. Wessenberg durch den Ministerpräsidenten zur Einleitung des Erforderlichen und zur gleichzeitigen Anzeige darüber an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Johann eröffnet werden<note type="footnote" n="5">Mit Schreiben v. <date when="1848-07-07">7. 7. 1848</date> teilte Pillersdorf den Beschluß des Ministerrates mit, <quote>ebd., Kab. Kanzlei, MRZ. 1277/1848</quote>. Der Kaiser genehmigte <quote>nach Einvernehmen Unseres Ministerrates</quote> mit Ah. E. v. <date when="1848-07-14">14. 7. 1848</date> das Fideikommißinstrument und beauftragte Wessenberg, eine entsprechende Nachricht an den Justizminister zu veranlassen und Erzherzog Johann zu informieren, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_92_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Feiern bei der Ankunft der Deputation des Frankfurter Parlaments an Erzherzog Johann</head>
+                  <p>Der Ministerrat beschäftigte sich hierauf mit Festsetzung des Programmes über die Feierlichkeiten aus Anlaß der Ankunft der Deputierten des deutschen Volksparlaments in Frankfurt an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Joharm<note type="footnote" n="6">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_2">MR. v. <date when="1848-07-01">1. 7. 1848</date>/II</ref>.</note>
+                     <pb n="521" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s521.pdf"/>– und zwar sowohl für deren Empfang am Landungsplatze zu Nußdorf (wohin Hofwägen gesendet werden), als für deren feierliche Audienz bei dem durchlauchtigsten Herrn Erzherzoge unter Kanonensalven, Ausrückung der Nationalgarde und Paradierung eines Grenadierbataillons – als endlich für das feierliche Bankett von 40 bis 60 Gedecken am 6. d. M.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Doblhoff</rs>
+                     </hi> brachte zur Kenntnis, man beabsichtige bei diesem Anlasse, an der Reiterstatue Kaiser Josephs II. eine deutsche Fahne anzubringen – wogegen von Seite der Minister keine Erinnerung erhoben wurde.</p>
+                  <p>Der Kriegsminister behielt sich übrigens vor, wegen des militärischen Teils der Feierlichkeiten die Befehle Sr. kaiserlichen Hoheit ehrerbietigst einzuholen<note type="footnote" n="7">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480706-P-0093.xml#top_1_1_93_1">MR. v. <date when="1848-07-06">6. 7. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_92_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Erlaß Erzherzog Johanns an Erzherzog Stephan; Ah. Reskript an den ungarischen Finanzminister wegen Dotierung der Agramer Kriegskassa</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Doblhoff</rs>
+                     </hi> verlas den Entwurf des Erlasses Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzoges Johann an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Palatin in der kroatischen Angelegenheit, worin Höchstdemselben insbesondere empfohlen wird, auf schleunigste Abstellung aller Feindseligkeiten ungarischerseits und auf Dotierung der Agramer Kriegskasse aus den ungarischen Finanzen hinzuwirken<note type="footnote" n="8">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_6">MR. v. <date when="1848-07-03">3. 7. 1848</date>/VI</ref>. Kabinettschreiben Erzherzog Johanns an den Palatin v. <date when="1848-07-04">4. 7. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei., MRZ. 1350/1848</bibl>.</note>.</p>
+                  <p>Sämtliche Minister erklärten sich mit diesem Entwurfe wie auch mit dem vom Kriegsminister vorgelesenen Entwurfe eines Ah. Reskripts an den ungarischen Finanzminister wegen Dotierung der Kriegskasse zu Agram<note type="footnote" n="9">Der ungarische Finanzminister Ludwig Kossuth wurde nicht direkt durch den österreichischen Kriegsminister, sondern durch den ungarischen Außenminister von den österreichischen Forderungen unterrichtet, siehe dazu das Schreiben Esterházys an Latour v. <date when="1848-07-11">11. 7. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 3395/1848</bibl>.</note> völlig einverstanden<note type="footnote" n="10">Fortsetzung des Gegenstandes über die ungarisch-kroatische Angelegenheit in <ref type="protocol-link" target="MRP-1-1-01-0-18480708-P-0095.xml#top_1_1_95_1">MR. v. <date when="1848-07-08">8. 7. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_92_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bericht Windischgrätz' über Entwaffnung der Deputation des Sicherheitsausschusses</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister Graf Latour</rs>
+                     </hi> teilte einen Bericht des Fürsten Windischgrätz<note type="footnote" n="11">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480629-P-0087.xml#top_1_1_87_2">MR. v. <date when="1848-06-29">29. 6. 1848</date>/II</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480628-P-0086.xml#top_1_1_86_2">MR. v. <date when="1848-06-28">28. 6. 1848</date>/II</ref>. Zum Bericht Windischgrätz siehe ebd., Anm. 6.</note> mit, worin derselbe aufklärt, die Deputation des Wiener Sicherheitsausschusses sei bei ihrem Eintreffen in Prag deswegen entwaffnet worden<note type="footnote" n="12">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480628-P-0086.xml#top_1_1_86_2">MR. v. <date when="1848-06-28">28. 6. 1848</date>/II</ref>, bes. Anm. 4.</note>, weil mittelst der Eisenbahn vorher schon mehrere Individuen angekommen waren, welche sich zu den Aufrührern schlugen, und einige davon ihre Feindseligkeit selbst dadurch ungescheut an den Tag gelegt hatten, daß sie noch aus den Waggons vor dem Aussteigen auf das Militär ihre Gewehre abdrückten.</p>
+                  <p>Man habe daher geglaubt, auch gegen die Deputation Sicherheitsmaßregeln anwenden zu sollen; daß ihr übrigens die abgenommenen Säbel nicht zurückgestellt wurden, geschah bloß deswegen, weil man selbe unter den vielen damals mit Beschlag belegten Waffen nicht mehr herauszufinden vermochte.</p>
+                  <p>Nebst den bereits früher zur Sprache gebrachten Gründen, warum die Aufhebung des Belagerungszustandes in Prag noch nicht zulässig sei, führt der Fürst Windischgrätz auch den Umstand an, daß die über die Teilnehmer des Aufruhrs aufgestellte Untersuchungskommission<note type="footnote" n="13">Zur Aufstellung dieser Kommission siehe den Akt <bibl type="archival">KA., HKR., KM., Präs. 2815/1848</bibl>, und <bibl type="secondary">
+                           <author>Odložilík</author>, Vyšetřovací komise</bibl>. Fortsetzung des Gegenstandes über die Untersuchungskommission in <ref type="protocol-link" target="MRP-1-1-01-0-18480707-P-0094.xml#top_1_1_94_6">MR. v. <date when="1848-07-07">7. 7. 1848</date>/VI</ref>.</note>
+                     <pb n="522" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s522.pdf"/>selbst gegen die Aufhebung des Martialgesetzes protestiert habe<note type="footnote" n="14">Fortsetzung des Gegenstandes über Aufhebung des Belagerungszustandes in Prag in ebd., Tagesordnungspunkt V.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_92_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Besetzung der OberkommandantensteIle der Grazer Nationalgarde</head>
+                  <p>Der Kriegsminister brachte zur Kenntnis, daß die Wahl zum Oberkommandanten der Nationalgarde in Gratz auf den Obersten v. Pürker gefallen sei<note type="footnote" n="15">Der Akt <bibl type="archival">KA., HKR., KM., Präs. 3161/1848</bibl>, der das Schreiben Pillersdorfs v. <date when="1848-07-04">4. 7. 1848</date> beinhaltete, in dem dieser die Wahl Pürkers dem Kriegsminister anzeigte, ist skartiert worden. Diese Wahl war notwendig geworden, weil der bisherige Oberkommandant der Grazer Nationalgarde Negroni zurückgetreten war.</note>. Da jedoch v. Pürker demnächst zum Generalmajor befördert werden dürfte und ihm ein Brigadekommando sohin anvertraut werden wird<note type="footnote" n="16">Pürker wurde dann auch mit Ah. E. v. <date when="1848-07-18">18. 7. 1848</date> auf Vortrag Latours v. <date when="1848-07-05">5. 7. 1848</date> zum Generalmajor befördert, <quote>ebd., Präs. 3473/1848</quote>.</note>, so beabsichtigt Graf Latour, der Gratzer Nationalgarde im Wege des Generalkommandos eröffnen zu lassen, sie habe sich einen anderen Oberkommandanten zu wählen. Der Ministerrat trat diesem Antrage in der weiteren Erwägung bei, daß, nachdem der Oberkommandant der Wiener Nationalgarde dermal ein Oberst sei<note type="footnote" n="17">Das war Anton Pannasch, zu seiner Bestellung siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480527-P-0053.xml#top_1_1_53_7">MR. v. <date when="1848-05-27">27. 5. 1848</date>/VII</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480531-P-0057.xml#top_1_1_57_4">MR. v. <date when="1848-05-31">31. 5. 1848</date>/IV</ref>.</note>, es offenbar nicht angezeigt erscheine, für die so bedeutend schwächere Grätzer Garde einen Generalmajor als Kommandanten zu bestellen<note type="footnote" n="18">Der Beschluß des Ministerrates wurde durch die Ah. E. v. <date when="1848-07-21">21. 7. 1848</date>, in der der Kaiser die Bestellung Pürkers zum Oberkommandanten der Grazer und der steirischen Nationalgarde sanktionierte, aufgehoben, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1436/1848</bibl>. Von dieser Entschließung informierte Doblhoff mit Schreiben v. <date when="1848-07-24">24. 7. 1848</date> den Kriegsminister, <bibl type="archival">KA., HKR., KM., Präs. 3700/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_92_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Zurücknahme der angedrohten Gütersequestration der Nobili</head>
+                  <p>Auf die Eröffnung von Seite des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsidenten</rs>
+                     </hi>, daß die vom FML. Baron Weiden den geflüchteten Nobili angedrohten Gütersequestrationen<note type="footnote" n="19">Es war Radetzky, der, um einer Flucht der Bevölkerung aus den wiedereroberten Städten zuvorzukommen, mit der Gütereinziehung gedroht hatte, siehe dazu seinen Bericht an Latour v. <date when="1848-06-23">23. 6. 1848</date>, <quote>ebd., Präs. 2861/1848</quote>.</note> von der lombardischen Regierung als ein Vorwand gebraucht werden wollen, die Kapitulation von Vicenza<note type="footnote" n="20">Zum Fall von Vicenza siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480615-P-0073.xml#top_1_1_73_1">MR. v. <date when="1848-06-15">15. 6. 1848</date>/I</ref>.</note> zu brechen, beschloß der Kriegsminister, dem FML. Baron Weiden die Zurücknahme dieser Verfügung unverzüglich aufzutragen<note type="footnote" n="21">Latour wandte sich mit seinem Schreiben (K.) v. <date when="1848-07-07">7. 7. 1848</date> nicht an Weiden, sondern an Radetzky, berichtete über die im Ministerrate geäußerten Befürchtungen und schloß: <quote>Ich es natürlich nur E. E. weisem Ermessen anheimstellen [kann], ob Hochdieselben unter diesen Umständen Ihrer oberwähnten Drohung irgendeine Folge zu geben erachten, und ob Sie es nicht angemessen fänden, in ähnlicher Weise gegen diese Interpellation im Wege der Presse zu wirken</quote>, <bibl type="archival">KA., HKR., KM., Präs. 3086/1848</bibl>. Der Akt, in dem Radetzky die Publikation eines entsprechenden Zeitungsartikels in Verona anzeigt, <quote>ebd., Präs. 3535/1848</quote>, ist nicht mehr erhalten.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, 5. Julius 1848. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt des gegenwärtigen Protokolles zur Wissenschaft genommen. Erzherzog Johann. Wien, den <date when="1848-07-05">5. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

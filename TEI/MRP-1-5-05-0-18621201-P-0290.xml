@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="290">Sitzung 290</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1862-12-01"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z290.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1095</idno>
+                  <idno type="KZ">3794</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1862-12-01"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 4. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger; abw. Pratobevera; BdR. Erzherzog Rainer 14. 12.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1862-12-04">1862-12-04</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8713">
+                     <surname>Pratobevera</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_290_1">Behandlung der disponiblen Beamten in Ungarn und Kroatien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_290_2">Vorlage an den Reichsrat über die Dotation für die modenesischen Truppen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_290_3">Forderung des Staates an den Österreichischen Lloyd per 3,000.000 fl</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_290_4">Vorlage an den Reichsrat über die 1861/62 und 1862/63 verkauften oder noch zu verkaufenden Staatsgüter</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18621201-P-0290" ana="a5-b5-z290">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z290.pdf">
+               <title type="num">Nr. 290</title>
+               <title type="descr">Ministerrat, Wien, <date when="1862-12-01">1. Dezember 1862</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 4. 12.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Pratobevera; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 14. 12.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1095</idno>
+                  <idno type="KZ">3794</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1862-12-01">1. Dezember 1862</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_290_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Behandlung der disponiblen Beamten in Ungarn und Kroatien</head>
+                  <p>Vor dem Beginne der Beratungen wurde die Dringlichkeit eines Beschlusses über die Behandlung der disponiblen ungarischen und kroatischen Beamten besprochen, und der Finanzminister sowie der ungarische Hofkanzler sicherten zu, auf die baldige Zustandebringung der diesfalls zum Grunde zu legenden Tabellen einwirken zu wollen<note type="footnote" n="1">Siehe dazu <ref type="protocol-link" target="MRP-1-5-04-0-18621017-P-0273.xml#top_5_4_273_4">MR. v. <date when="1862-10-17">17. 10. 1862</date>/IV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z273" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z273.pdf" target="MRP-1-5-04-0-18621017-P-0273.xml">ÖMR. V/4, Nr. 273</ref>
+                        </bibl>, und Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621217-P-0302xml#top_5_5_302_1">MR. v. <date when="1862-12-17">17. 12. 1862</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_290_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Vorlage an den Reichsrat über die Dotation für die modenesischen Truppen</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> referierte, daß, nachdem die Debatten über das Finanzgesetz im Abgeordnetenhaus geschlossen sind<note type="footnote" n="2">Das Finanzgesetz 1863 war am <date when="1862-11-28">28. 11. 1862</date> vom Abgeordnetenhaus in dritter Lesung angenommen worden, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1861/62, 4834 (194. Sitzung)</bibl>.</note>, gemäß der Ah. genehmigten Ministerratsbeschlüsse nunmehr die Vorlage an den Reichsrat wegen der Dotation für die modenesischen Truppen<note type="footnote" n="3">Fortsetzung von <ref type="protocol-link" target="MRP-1-5-05-0-18621124-P-0287.xml#top_5_5_287_2">MR. v. <date when="1862-11-24">24. 11. 1862</date>/II</ref>.</note> einzubringen wäre und der Entwurf der diesfälligen Note an das Präsidium des Abgeordnetenhauses zur Expedition bereit liege. Graf Degenfeld müsse jedoch zur Kenntnis der Konferenz bringen, daß Präsident Hein sich gegen ihn konfidentiell dahin geäußert habe, daß es mit Rücksicht auf die Lage der Dinge und die Stimmung im Hause angezeigt wäre, diese Vorlage in der gegenwärtigen Session nicht mehr zu machen und lieber die diesfälligen Auslagen seinerzeit zu rechtfertigen. Der Präsident betrachte die Sache für so wichtig, daß er darüber im Ministerrate zu beraten bitte. Der Kriegsminister wäre im Fall der Zustimmung seiner Kollegen bereit, die nachträgliche Verantwortung auf sich zu nehmen und zwar hinsichtlich einer Jahresauslage von 600.000 fl., wonach dem Herzoge von Modena eventuell die Mitteilung zu machen wäre.</p>
+                  <p>Im Verlauf der hierüber gepflogenen längeren Erörterung beschäftigte man sich zuerst mit der Frage, ob eine Vorlage wegen des Aufwandes für die modenesischen Truppen noch während dieser Session des Reichsrates einzubringen, und zweitens ob hiebei ein bestimmter, und zwar welcher Betrag anzusprechen wäre.</p>
+                  <p>Zu 1. erklärte sich der Kriegsminister gegen eine Vorlage und für die nachträgliche Verantwortung, ebenso <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi>, welcher heraushob, daß es eine mißliche Sache ist, im Abgeordnetenhause eine Diskussion zu provozieren, vor welcher <pb n="76" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s76.pdf"/>die Abgeordneten selbst eine Scheu haben und die höchstwahrscheinlich mit einer Niederlage der Regierung endigen wird, nachdem die Abstimmung der großen Mehrheit jetzt noch durch den Rückschlag der eben votierten Steuererhöhung influenziert werden wird<note type="footnote" n="4">Erhöhung des außerordentlichen Zuschlags zu den direkten Steuern, Art. V des Finanzgesetzes 1863; dazu <bibl type="secondary">
+                           <author>Koch</author>, Einleitung ÖMR. V/4, XIV ff.</bibl>
+                     </note>. Die Abgeordneten fürchten sich, vor ihren Kommittenten die Erhöhung vertreten zu müssen, und besorgen, die Vertretung würde ihnen durch die Geldbewilligung für Modena noch mehr erschwert werden, zumal weitere ähnliche Ansprüche in den folgenden Jahren noch in Aussicht sind. Dem abschlägigen Votum des Abgeordnetenhauses werde sich das Herrenhaus ohne Zweifel anschließen, und dann sei die Stellung der Regierung in Absicht auf diese zu verantwortende Auslage eine viel ungünstigere, als wenn die Frage jetzt noch offen bleibt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, er sei ursprünglich gegen eine Vorlage an den Reichsrat gewesen, allein er sehe nicht ab, wie man sich jetzt der im Finanzausschuß jüngst abgegebenen Erklärung<note type="footnote" n="5">
+                        <ref type="protocol-link" target="MRP-1-5-05-0-18621124-P-0287.xml#top_5_5_287_2">MR. v. <date when="1862-11-24">24. 11. 1862</date>/II</ref>.</note> gegenüber der Einbringung einer Vorlage enthalten könne. Soweit er sich der Worte erinnert, lautete die Zusicherung ziemlich positiv. Die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">der Polizei</rs>
+                     </hi>, dann die <hi rend="#letterspaced">
+                        <rs type="person">Grafen Esterházy</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Nádasdy</rs>
+                     </hi> hielten die Einbringung der zugesicherten Vorlage auch aus dem Gesichtspunkte für angezeigt, weil durch die Vertagung die Schwierigkeiten nicht behoben und bezüglich der Kredite für 1864 und 1865 sogar noch vergrößert werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> findet es unbedingt nötig, mit einer Vorlage aufzutreten, indem sich ja die Umstände seit Abgabe der Erklärung im Ausschuß nicht geändert haben. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> war derselben Meinung, obgleich er die Schwierigkeiten, denen man entgegensieht, keineswegs verkennt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelminister</rs>
+                     </hi> glaubt, daß man durch ostensible Fortsetzung der Verhandlung mit Modena über die gegenwärtige Session hinauszukommen suchen sollte, und der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> kann überhaupt diese Verhandlungen noch nicht als geschlossen betrachten, weil man dabei nicht bloß für 1863, sondern auch für die weitere Folge zu einem Einverständnis kommen muß. Eher könne man nicht vor den Reichsrat treten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> war für die Einbringung einer Vorlage mit Offenhaltung des derzeit der Regierung noch nicht bekannten Ziffers.</p>
+                  <p>2. Nachdem die Majorität sich für die Einbringung einer Vorlage entschieden hatte, brachten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> die Frage des Ziffers zur Abstimmung.</p>
+                  <p>Die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Rechberg, Graf Degenfeld</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Graf Esterházy</rs>
+                     </hi> hielten für 1863 an dem bereits reduzierten Betrag von 600.000 fl. fest, während die <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Schmerling</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> umso mehr sich auf 500.000 fl. beschränken möchten, da Se. kaiserliche Hoheit sich dem Beschlusse der österreichischen Regierung unbedingt fügen will. Ritter v. Lasser kam jedoch auf den obigen Antrag des Marineministers zurück, in welchem er ein glückliches Auskunftsmittel erblickt, um zugleich die gegebene Zusicherung nach Tunlichkeit zu erfüllen und der Gefahr einer förmlichen Dotationsverweigerung auszuweichen. Man müßte in der diesfälligen Mitteilung an das Präsidium des Abgeordnetenhauses sagen, daß die Verhandlungen mit dem Herzoge noch nicht soweit <pb n="77" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s77.pdf"/>gediehen sind, um den Anspruch ziffernmäßig feststellen zu können, daß man sich aber vorbehalte, nachträglich die Bewilligung zu erwirken. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> trat diesem Vorschlage vollkommen bei, nachdem die Unterhandlungen tatsächlich noch nicht geschlossen seien, man dem Herzoge als den für 1863 von der österreichischen Regierung zu bezahlenden Zuschuß vorläufig 500.000 fl. bezeichnen und über die in den folgenden Jahren noch herabzumindernden Beiträge mit Sr. kaiserlichen Hoheit weiter verhandeln müsse und dies im Abgeordnetenhause geltend machen könne. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> würde es vorziehen, von jeder Vorlage in dieser heiklichen Angelegenheit Umgang zu nehmen. Die übrigen Stimmführer vereinigten sich aber mit dem Antrage des <hi rend="#letterspaced">
+                        <rs type="person">Ritters v. Lasser</rs>
+                     </hi>, welcher schließlich bemerkte, es werde das klügste sein, die beschlossene Mitteilung an das Abgeordnetenhaus so spät als tunlich in dieser Session zu machen, wodurch es umso leichter möglich werden wird, im geeigneten Wege zu bewirken, daß das delikate Thema dieses Mal im Abgeordnetenhause nicht mehr zur meritorischen Beratung kommt<note type="footnote" n="6">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621206-P-0293.xml#top_5_5_293_2">MR. I v. <date when="1862-12-06">6. 12. 1862</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_290_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Forderung des Staates an den Österreichischen Lloyd per 3,000.000 fl</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte über den von ihm Sr. k. k. apost. Majestät unterbreiteten Entwurf eines Gesetzes, wonach die Forderung des Staates an den österreichischen Lloyd per 3,000.000 fl. öW. durch Übernahme eines gleichen Nennbetrages an Lloydaktien al pari berichtigt werden soll<note type="footnote" n="7">Als der Lloyd im Jahre 1859 in Schwierigkeiten geraten war, hatte ihm die Finanzverwaltung eine als Vorschuß auf eine Anleihe deklarierte Subvention von 3 Millionen Gulden gegeben; da der Lloyd nicht in der Lage war, diese Schuld an den Staat zurückzuzahlen, wurde im Finanzministerium ein Gesetzentwurf zur Berichtigung dieses Vorschusses ausgearbeitet, der von Finanzminister Plener mit Vortrag v. <date when="1861-08-23">23. 8. 1861</date> vorgelegt wurde, <bibl type="archival">FA., FM., Präs. 2819/1861</bibl> (K.); die RS. liegt bei ebd. Präs. 3765/1863; dem Gesetzentwurf liegt eine 139 Seiten umfassende Begründung bei, in der die Finanzverhältnisse des Dampfschiffunternehmens von der Gründung im Jahre 1833 an dargestellt sind.</note>.</p>
+                  <p>Der Minister gab eine umständliche Darstellung der finanziellen Verhältnisse des Lloyd und beleuchtete die Ergebnisse der Enquetekommission, welche zusammengesetzt wurde, um Mittel zur Abhilfe in seiner Bedrängnis zu beantragen<note type="footnote" n="8">Bericht der von Karl v. Mayer geleiteten Enquetekommission <bibl type="archival">FA., FM., Präs. 377/1861.</bibl>
+                     </note>. Hierauf wurden die Motive des ministeriellen Antrages erörtert, welcher einerseits den Lloyd von einem großen Teile seiner schwersten und gefährlichsten Last – der schwebenden Schuld – befreit, dem Staate aber eine höhere Verzinsung der drei Millionen und einen sehr nützlichen Einfluß in die Administration des Lloyd gewährt, überdies aber noch das Recht einräumt, eineinhalb Millionen der zu überkommenden Aktien an Zahlungsstatt für jene Schiffe der Gesellschaft zu verwenden, welche die k. k. Marine an sich zu bringen für gut fände. Im Schoße des Staatsrates<note type="footnote" n="9">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 460/1861.</bibl>
+                     </note> haben sich jedoch Bedenken gegen die beantragte Konvertierung der Forderung ergeben, so daß von dort aus au. beantragt wurde, von den Ministern der Finanzen und des Handels vorläufig in Erwägung ziehen zu lassen, ob es nicht für beide Teile vorteilhafter wäre, mit der Gesellschaft ein neuerliches Übereinkommen in der Richtung zustandezubringen, daß mit Beibehaltung des dermaligen Zinsenausmaßes die Forderung des Ärars in ein den drei Prioritätsanlehen und dem Lotterieanlehen unmittelbar anzureihendes <pb n="78" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s78.pdf"/>Prioritätsanlehen mit gewissen<note type="footnote" n="10">D. h. sicheren, genau festgesetzten.</note> Tilgungsraten umgewandelt wird. In formellen Beziehungen sprechen sich zwei Staatsräte dahin aus, daß die Behandlung dieser Angelegenheit im Reichsrate nicht notwendig erscheine. Der Finanzminister bemerkte über den letzten Punkt, daß, nachdem das Abgeordnetenhaus alle von der Staatsverwaltung mit Gesellschaften abgeschlossenen Garantieverträge und deren Erfüllung einer strengen Kritik unterzogen hat, die Zustimmung der drei verfassungsmäßigen Faktoren zu dem in finanzieller Beziehung wichtigen Arrangement mit dem Lloyd sehr wünschenswert wäre. Auf das Wesentliche übergehend erinnerte der Finanzminister, daß man in der Geschichte des Lloyd seit seinem Entstehen eine Kette von Staatssubventionen unter verschiedenen Formen findet<note type="footnote" n="11">Siehe dazu die in Anm. 7 zit Beilage zum Gesetzentwurf.</note> und daß dieses hochwichtige Institut in seiner dermaligen bedrängten Lage umso weniger sich selbst überlassen werden könne, als mit demselben rivalisierende Schiffahrtsgesellschaften im Mittelmeer sich fortgesetzter kräftiger Unterstützung von Seite der respektiven Regierungen erfreuen. Andererseits verkenne Edler v. Plener nicht das Gewicht der angeregten Bedenken und wolle denselben dadurch Rechnung tragen, daß er, seinen Antrag modifizierend, nunmehr vorschlägt, bloß eineinhalb [Millionen] in Aktien an Zahlungsstatt anzunehmen und den Rest der Forderung als Prioritätsschuld (ut supra) anerkennen zu lassen und mittels Annuitäten zur Zahlung zu bringen. In dieser Richtung wäre ein Übereinkommen mit dem Lloyd zu treffen, <ref xml:id="fn_5_5_290_a">wobei vorläufig jede Verhandlung im Reichsrate zu unterbleiben und zunächst die Stipulation des Übereinkommens zwischen der Staatsverwaltung und der Lloydgesellschaft stattzufinden hätte</ref>
+                     <note type="variant" n="a" target="#fn_5_5_290_a">Einfügung a–a Pleners.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> unterzog die Verhältnisse des österreichischen Lloyd einer längeren Besprechung, aus welcher sich ergab, daß diese Gesellschaft, deren reiner Jahresgewinn nur 1,600.000 fl. beträgt, durch die Zahlung namhafter Kapitalsraten in die größten Verlegenheiten geraten müßte. Daß der Staat durch al pari-Ankauf der Aktien ein schlechtes Geschäft macht, liegt am Tage. Allein seine Forderung werde durch die Einreihung als Prioritätsschuld auch nicht ganz gesichert, da der zur Deckung der Schulden etc. in der Bilanz erscheinende Wert der Schiffe, vor allem aber der des neuen Arsenals, weit über dem reellen Wert steht – eine Tatsache, die in der niedrigen Kursnotierung der Aktien ihren Ausdruck findet. Weit entfernt, Passiven tilgen zu können, muß der Lloyd, um nur fortzubestehen, weiters Geld aufnehmen; denn es ist erwiesen, daß sich die Fahrten nur dann rentieren können, wenn ein großer Frachtenverkehr dadurch vermittelt wird, was wieder die Anschaffung von großen Dampfern mit brennstoffsparenden, verbesserten Maschinen voraussetzt. Man kann es nicht leugnen, daß die Regierung es war, die den Lloyd durch die demselben aufgedrungenen Kurse der Dampfer ruiniert hat. Es liegt also nicht bloß in ihrem Interesse, sondern gewissermaßen in ihrer Pflicht, demselben beizustehen und nicht durch das Auflegen von unerschwinglichen Ratenzahlungen seinen Kredit noch mehr zu erschüttern. Mit Beobachtung dieser Rücksicht dürfte daher ein Übereinkommen <pb n="79" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s79.pdf"/>auf der vom Finanzminister soeben vorgeschlagenen neuen Basis negoziiert werden. Gegen eine Diskussion dieser Angelegenheit im Reichsrate müsse Baron Burger sich schon deswegen erklären, weil sie für den Kredit des Instituts abträglich sein würde. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> schickte voraus, daß ihm die Details der besprochenen Angelegenheit nicht mehr vorschweben, nachdem seit deren Beratung im Staatsrate bereits mehr als ein Jahr vergangen ist. Die Mitwirkung des Reichsrates sei in dem gegenwärtigen Stadium nicht mehr notwendig, da es sich nicht um eine erst zu machende Ausgabe, sondern um die Sicherstellung einer Ärarialforderung handelt – ein Gegenstand, der rein administrativer Natur ist. Was das Meritum betrifft, haben die Ausführungen der Vorstimme den vom Staatrate erhobenen Bedenken gegen den ursprünglichen Antrag des Finanzministers noch größeres Gewicht verliehen. Der modifizierte ministerielle Antrag erscheine dem Präsidenten mehr plausibel, doch sei einleuchtend, daß der Staat, wenn er gar keine Aktien übernimmt, selbst bei kleinen Ratenzahlungen weniger Gefahr läuft. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> betrachtet den österreichischen Lloyd so gut als verloren. Die Beteiligung durch Aktienabnahme an Zahlungsstatt al pari sei daher <ref xml:id="fn_5_5_290_b">nach seiner nunmehr erlangten Überzeugung</ref>
+                     <note type="variant" n="b" target="#fn_5_5_290_b">Einfügung b–b Wickenburgs.</note> nicht rätlich und würde eine große Verantwortlichkeit begründen. Der Vorteil einer um 1% höheren Verzinsung der Aktien sei ferner sehr problematisch in seiner Dauer, da die reine Einnahme leicht noch tiefer sinken kann, wo dann die Verzinsung auf 3%, ja darunter fallen muß. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> bemerkte, der österreichische Lloyd sei schon längere Zeit ein bankrottes Institut, dem man durch die heute zur Sprache gebrachten Mittel nicht aufhelfen wird, da sie ja kein Geld schaffen und nur auf Ab- und Zuschreibungen in den Büchern hinauslaufen. Das Ärar verlöre aber doch dabei, indem es jetzt als Gläubiger bei einer Liquidation die Zahlung seiner ganzen Forderung aus den vorhandenen Aktiven, so weit selbe hinreichen, erhalten würde, während es als Aktionär nur eine Tantieme von dem nach Berichtigung aller gegenwärtigen und späteren Schulden etwa erübrigenden Aktiven erhalte. Das beste sei daher, an der Stellung des Ärars zum Lloyd in bezug auf diese Schuld dermalen<ref xml:id="fn_5_5_290_c"/>
+                     <note type="variant" n="c" target="#fn_5_5_290_c">Einfügung Lassers.</note> nichts zu ändern und <ref xml:id="fn_5_5_290_d">der Katastrophe des Bankrottes des Lloyd, die, wenn nicht ganz andere, durchgreifendere Mittel in Anwendung gebracht werden, über kurz oder lang ganz unvermeidlich sei, nicht durch solche weder dem Lloyd selbst noch der Regierung nützende, höchstens dem Publikum zum Nutzen einiger Spekulanten momentanen Sand in die Augen werfende Palliative vorzugreifen</ref>
+                     <note type="variant" n="d" target="#fn_5_5_290_d">Korrektur und Einfügung d–d Lassers statt <quote>die unabwendbare Katastrophe abzuwarten.</quote>
+                     </note>, <note type="footnote" n="12">Eine ausführliche Geschichte des Lloyd liegt nur für die Periode bis 1848 vor: <bibl type="secondary">
+                           <author>Coons</author>, Steamship, Statesmen and Bureaucrats</bibl>, dort auch bibliographische Notizen, S. X f.; die verschiedenen Jubiläumspublikationen gehen auf die Finanzkrise der 1860er Jahre nicht ein.</note>.</p>
+                  <p>Mit dem Antrage des Ministers Ritter v. Lasser vereinigten sich der Minister Baron Mecséry, Graf Degenfeld, Ritter v. Schmerling, Graf Esterházy, Graf Nádasdy und der Minister des Äußern, obgleich der letztere den Sturz des Lloyd als einen schweren <pb n="80" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s80.pdf"/>Schlag für unseren Handel betrachten müßte. Der ungarische Hofkanzler und der Marineminister traten dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> bei, welcher nicht glaubt, daß man ein so großartiges, politisch und kommerziell wichtiges Institut, für dessen Ausbildung der Staat sehr viel getan habe, so leichthin dem Bankrott entgegengehen lassen könne, ohne selbst an die dringend nötige Verbesserung der innern Organisation desselben mehr die Hand zu legen<note type="footnote" n="13">Fortsetzung <ref type="protocol-link" target="MRP-1-5-05-0-18621213-P-0298.xml#top_5_5_298_3">MR. v. <date when="1862-12-13">13. 12. 1862</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_290_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Vorlage an den Reichsrat über die 1861/62 und 1862/63 verkauften oder noch zu verkaufenden Staatsgüter</head>
+                  <p>Der Finanzminister referierte, er habe am 18. v. M. Sr. k. k. apost. Majestät den Entwurf eines Gesetzes vorgelegt, mittels welchem die im Verwaltungsjahre 1861/62 bereits stattgefundenen und die im Verwaltungsjahre 1862/63 noch vorzunehmenden Verkäufe bestimmter unbeweglicher Staatsgüter genehmigt werden sollten<note type="footnote" n="14">Diese Formulierung ist nicht ganz richtig: Plener hatte für die bereits veräußerten Staatsgüter ein Verzeichnis vorgelegt (so wie für 1860/61, vgl. <ref type="protocol-link" target="MRP-1-5-02-0-18610826-P-0114.xml#top_5_2_114_5">MR. v. <date when="1861-08-26">26. 8. 1861</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z114" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z114.pdf" target="MRP-1-5-02-0-18610826-P-0114.xml">ÖMR. V/2, Nr. 114</ref>
+                        </bibl>), für die im Verwaltungsjahr 1862/63 zu veräußernden einen Gesetzentwurf, Vortrag v. <date when="1862-11-18">18. 11. 1862</date>, <bibl type="archival">FA., FM., Präs. 4690/1862</bibl>, dabei auch die Verzeichnisse der betreffenden Liegenschaften.</note>.</p>
+                  <p>Der Staatsrat habe geglaubt, daß diese gesetzliche Genehmigung bloß bezüglich der bereits 1861/62 stattgefundenen Verkäufe erwirkt werden dürfte<note type="footnote" n="15">Die Zustimmung des – gesamten – Reichsrates war gemäß Art. II des Oktoberdiploms und § 10 c des Grundgesetzes über die Reichsvertretung, Beilage zum Februarpatent, einzuholen. Der Staatsrat wies darauf hin, daß der derzeit versammelte engere Reichsrat nicht kompetent sei, weshalb ihm bloß nach dem Notverordnungsparagraph 13 die bereits stattgefundenen Veräußerungen mitgeteilt werden sollten, <bibl type="archival">HHSTA., JStr. 980/1862.</bibl>
+                     </note>. Der Finanzminister könne das Gewicht der dafür geltend gemachten Gründe nicht in Abrede stellen. Bei den gegen die Kompetenz des dermal tagenden Reichsrates in dieser Sache erhobenen Bedenken und bei der Wendung, welche die Beratung über die seit <date when="1860-10-20">20. Oktober 1860</date> stattgefundenen Staatsgüterverkäufe in der heutigen Herrenhaussitzung genommen haben<note type="footnote" n="16">
+                        <bibl type="secondary">
+                           <title>Prot. Reichsrat, HH.</title> 1861/62, 1275 und 1284–1288 (88. Sitzung/<date when="1862-12-01">1. 12. 1862</date>)</bibl>: Dem Herrenhaus war gerade das in Anm. 14 zit. Verzeichnis für 1860/61 vorgelegen, und es war so wie im Staatsrat die Kompetenz des engeren Reichsrates in Zweifel gezogen worden; an der Debatte hatten sich u. a. Lichtenfels und Plener beteiligt. Der Berichterstatter Joseph Ritter v. Pipitz hatte schließlich darauf hingewiesen, daß pro futuro schon durch die Aufnahme der geplanten Staatsgüterverkäufe in den Staatsvoranschlag die Zustimmung des Reichsrates eingeholt werde.</note>, halte es der Minister selbst für das beste, die ganze obgedachte, von ihm au. beantragte Vorlage auf sich beruhen zu lassen. Die verfassungsmäßige Genehmigung der künftigen Staatsgüterverkäufe werde sich am einfachsten durch Aufnahme des zu erwartenden Erlöses in die Staatsvoranschläge erwirken lassen.</p>
+                  <p>Der Präsident des Staatsrates fand gegen diesen Antrag mit Hinblick auf das staatsrätliche Gutachten nichts zu erinnern<note type="footnote" n="17">Der Vortrag Pleners wurde nicht resolviert und vom Minister zurückerbeten. Weitere Akten betreffend den Staatsgüterverkauf <bibl type="archival">FA., FM., Präsidialakten, Faszikulatur 34.3.</bibl>
+                     </note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, <date when="1862-12-04">4. Dezember 1862</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1862-12-13">13. Dezember 1862</date>.</seg>
+                  <seg type="other">Empfangen <date when="1862-12-14">14. Dezember 1862</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

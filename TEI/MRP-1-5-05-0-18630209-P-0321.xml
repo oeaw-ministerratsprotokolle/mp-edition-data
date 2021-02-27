@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="321">Sitzung 321</title>
+            <title level="a" type="sub" n="2">Protokoll II</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-02-09"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z321.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1126</idno>
+                  <idno type="KZ">610</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-02-09"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 9. 2.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein (21. 2.); BdR. Erzherzog Rainer 23. 2.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-02-09">1863-02-09</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-02-21">21. 2.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_321_1">Vorgang bei der Verfassung des Staatsvoranschlags im allgemeinen und jenes für 1864</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_321_2">Verständigung der Parteien von der Übertragung der Wertpapiere des Venediger Anlehens an die Finanzpräfektur in Venedig</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_321_3">Besetzung der Stelle des Oberlandesgerichtspräsidenten in Innsbruck</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630209-P-0321" ana="a5-b5-z321">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z321.pdf">
+               <title type="num">Nr. 321</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-02-09">9. Februar 1863</date> – Protokoll II</title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 9. 2.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein (21. 2.); <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 23. 2.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1126</idno>
+                  <idno type="KZ">610</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll II des zu Wien am <date when="1863-02-09">9. Februar 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. kaiserlichen Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_321_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Vorgang bei der Verfassung des Staatsvoranschlags im allgemeinen und jenes für 1864</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> referierte in Hinsicht des bei Verfassung des Staatsvoranschlages künftig zu beobachtenden Vorganges.</p>
+                  <p>Nach einigen einleitenden Bemerkungen über die Notwendigkeit, alles aufzubieten, um das Defizit im Staatshaushalte wenigstens auf eine solche Ziffer zurückzuführen, <pb n="244" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s244.pdf"/>bei der es möglich sein wird, den Ausfall ohne Vermehrung der fundierten Schuld zu bedecken<note type="footnote" n="1">Anlaß für diesen Vorstoß Pleners war die üblicherweise zu Jahresbeginn vorgenommene Ausschreibung des Staatsvoranschlags für das kommende Verwaltungsjahr seitens des Finanzministeriums. Für das Verwaltungsjahr 1863 hatte ein Defizit von 62 Millionen Gulden, das war rund ein Sechstel der Ausgaben, veranschlagt werden müssen; zur Entwicklung des Staatshaushaltes seit 1861 siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/3, Nr. XVIII–XXIII</bibl> und <bibl type="secondary">
+                           <author>Koch</author>, Einleitung ÖMR. V/4, IX–XIV</bibl>. Die Idee einer kommissionellen Verhandlung des Staatsvoranschlags hatte Plener schon früher geäußert, <ref type="protocol-link" target="MRP-1-5-04-0-18620825-P-0260.xml">MR. II v. <date when="1862-08-25"/>25. 8.1862</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z260" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z260.pdf" target="MRP-1-5-04-0-18620825-P-0260.xml">ÖMR. V/4, Nr. 260</ref>
+                        </bibl>.</note>, welches Resultat bei den gegebenen Verhältnissen nur durch Verminderung des Staatsaufwandes, und zwar nur durch Einschränkungen in allen Zweigen der Militär- und Zivilverwaltung erzielt werden kann, wobei aber sämtliche Ministerien mit dem Finanzministerium auf das innigste zusammenzuwirken haben werden, kam Referent auf die Art und Weise zu sprechen, in welcher sonach der Staatsvoranschlag auszuarbeiten wäre. Bisher habe jeder Minister und Chef einer Zentralstelle ohne Gegenwärtighaltung und Erwägung der vorhandenen finanziellen Mittel, lediglich vom Standpunkte seines Etats ausgehend, sein Budget entwerfen lassen, und hatte das Finanzministerium eigentlich nur die Summierung der ihm gebrachten Resultate der Teilvoranschläge und die Zusammenstellung eines Defizits zu liefern, wodann es der Reichsvertretung ein Leichtes sei, die Reduzierungen selbständig in die Hand zu nehmen und sich so allein die Anbahnung der Ordnungsherstellung zu vindizieren. Dieser Vorgang sei nun nicht mehr haltbar und könne auch im Interesse des Ansehens der Regierung nicht länger fortgesetzt werden, vielmehr müsse der Staatsvoranschlag schon aus den Händen der Regierung als das Ergebnis der eigensten, auf möglichste Sparsamkeit gerichteten Tätigkeit hervorgehen und müsse deshalb das Resultat reiflicher gemeinschaftlicher und durch wechselseitigen Ideenaustausch und mündliche kommissionelle Verhandlung erzielbarer Verständigung der Beteiligten sein. Wenigstens müsse die Hauptsumme jedes Budgets auf diesem Wege für den gesamten Staatsvoranschlag gebildet werden. Den Staatsvoranschlag pro 1864 zunächst ins Auge gefaßt, so sei die Zeit zur Ausarbeitung desselben schon so sehr vorgerückt, daß eine rechtzeitige Verständigung über die in den einzelnen Ressorts möglichen Einschränkungen in dem gewöhnlichen Korrespondenzwege mit dem Finanzministerium nicht mehr erhofft werden könne, daher sich die Wahl eines anderen Weges, nämlich jenes der kommissionellen Verhandlung des Finanzministeriums mit den übrigen beteiligten Ministerien als dringend geboten darstelle. Dieser Vorgang <ref xml:id="fn_5_5_321_a">diene auch dazu, in verschiedenen Verwaltungsgegenständen, welche die Gebühren und Regieauslagen betreffen, Einheit herzustellen, die Auseinanderlegung verschiedener bisher kumulierter Auslagen auf die einzelnen Ministerien zu bewerkstelligen, und</ref>
+                     <note type="variant" n="a" target="#fn_5_5_321_a">Einfügung a–a Pleners.</note> dürfte dahin führen, die etwaigen Meinungsverschiedenheiten über die aus dem Standpunkte der Finanzverwaltung für unabweisbar erkannten Reformen und Einschränkungen auf dem kürzesten Wege zu begleichen, wobei selbstverständlich die Möglichkeit nicht ausgeschlossen bleibe, aus speziellen Veranlassungen noch die Ah. Entscheidung einzuholen. Diesem gemäß gedachte daher Referent bei Sr. Majestät auf die Ag. Erlassung eines Ah. Handschreibens an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Ministerratspräsidenten anzutragen des <pb n="245" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s245.pdf"/>Inhalts, daß behufs Verfassung des Staatsvoranschlages pro 1864 die Teilvoranschläge der einzelnen Ministerien und Verwaltungszweige bei einer im Finanzministerium unter dem Vorsitze des Finanzministers oder dessen Stellvertreters zusammenzustellenden und von allen übrigen Ministerien und Zentralstellen, soweit es sich um den Voranschlag ihres Ressorts handelt, durch Abgeordnete zu beschickenden Kommission zu prüfen und festzustellen und daß, falls in betreff einzelner Fragen eine Verständigung im kommissionellen Wege nicht erzielt werden sollte, hierüber nach vorläufiger Beratung im Ministerrate die Ah. Schlußfassung einzuholen sei<note type="footnote" n="2">Konzept und Reinschrift des Vortrags und des Entwurfs für das Handschreiben <bibl type="archival">FA., FM., Präs. 403/1863</bibl>.</note>. Als er diese Absicht einigen Herrn Kollegen kundgab, wären jedoch dieselben der Meinung gewesen, daß die Erlassung eines solchen Ah. Handschreibens nicht notwendig sei, vielmehr diese Angelegenheit im Wege eines Ministerkonferenzbeschlusses ins Werk gesetzt werden könnte, zumal Se. Majestät hievon ohnehin durch die Vorlage des betreffenden Konferenzprotokolles die Ah. Kenntnis erlangen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> geruhten hierauf zuerst die Formfrage zur Abstimmung zu bringen, wobei sich einhellig dahin ausgesprochen wurde, daß von einem au. Vortrage rücksichtlich von der Erlassung eines Ah. Handschreibens Umgang genommen und die Sache lediglich im Wege des Ministerrates abgetan werde.</p>
+                  <p>Bei der hierauf folgenden Diskussion über die Sache selbst glaubte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> den Anträgen des Finanzministers im allgemeinen nicht entgegentreten zu sollen, nur meinte derselbe, daß die vorhandenen Finanzmittel nicht allein den Maßstab für das Erfordernis jedes einzelnen Verwaltungszweiges bilden können und daß man sich einer argen Täuschung hingeben würde, wollte man annehmen, daß man mit einem auf die größtmöglichste Sparsamkeit gerichteten Staatsvoranschlage den Reduzierungen durch den Reichsrat entgehe, zumal es keinen Zweifel zulasse, daß das Abgeordnetenhaus in keinem Falle, ja selbst bei dem allernotdürftigsten Budget nicht dieses Amt, welches seine Tätigkeit nach außen hin am besten zeigt und faßlich macht, aufgeben werde. Dieses liege ja, fügte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> bei, schon in der Natur einer solchen Körperschaft, und deshalb sei es durchaus nicht ratsam, das Budget schon selbst auf das genaueste und kargste zu bemessen, vielmehr solle man trachten, sich hierin eine Latitüde frei zu lassen. Eine gemeinschaftliche mündliche Besprechung, wie sie der Finanzminister proponiert, halte der Staatsminister wohl auch für vorteilhaft, nur würde er wünschen, daß bei diesen kommissionellen Verhandlungen die Minister selbst auch anwesend sind und über solche Besprechungen nicht erst weitwendige Protokolle geführt werden, sondern das ganze den Charakter eines wechselseitigen Ideenaustausches an sich trage. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erachtete eine solche allgemeine, von allen Ministerien und Zentralstellen durch Abgeordnete zu beschickende Kommission, bei welcher die Teilvoranschläge der einzelnen Verwaltungszweige ursprünglich beraten und festgesetzt werden sollen, nicht für angemessen und würde sich von derselben keinen anderen Erfolg erwarten, als seinerzeit die sogenannte Ersparungskommission hatte<note type="footnote" n="3">Zur Ersparungskommission 1859/60 siehe <ref type="protocol-link" target="MRP-1-5-03-0-18611231-P-0174.xml">MR. v. <date when="1861-12-31"/>31. 12. 1861</ref>, Anm. 4, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z174" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z174.pdf" target="MRP-1-5-03-0-18611231-P-0174.xml">ÖMR. V/3, Nr. 174</ref>
+                        </bibl>.</note>.</p>
+                  <p>Seines Ermessens wäre es zweckdienlicher, daß, wenn einmal das Finanzministerium nach den ihm gelieferten Teilvoranschlägen die allfälligen Anstände zusammengestellt <pb n="246" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s246.pdf"/>hat, dann erst eine kommissionelle Besprechung hierüber zwischen den Referenten des Finanzministeriums und den betreffenden Abgeordneten des bezüglichen Budgets allein<ref xml:id="fn_5_5_321_b"/>
+                     <note type="variant" n="b" target="#fn_5_5_321_b">Einfügung Lichtenfels’.</note> gepflogen werde, und wenn dann dennoch eine Differenz übrig bliebe, diese in der Ministerkonferenz auszutragen wäre. Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi>, daß der eigentliche Zweck seines Antrages eben dahin gehe, daß anstatt des bisherigen weitwendigen Schriftwechsels in betreff der Teilvoranschläge nunmehr diesfalls bloß im kurzen, mündlichen Wege die nötige Verständigung und Vereinbarung erreicht werde und daß es eben hier notwendig sei, gewisse kleinere Auseinandersetzungen eintreten zu lassen, was nur bei einer solchen kommissionellen Besprechung geschehen kann, erinnerte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi>, der Unterschied zwischen seinem Vorschlage und jenem des Finanzministers bestehe nur darin, daß, während der letztere eine bestimmte Kommission für das ganze Budget einsetzen will, er dafür stimme, daß die kommissionelle Beratung <ref xml:id="fn_5_5_321_c">nicht in einer Gesamtkommission, sondern nur zwischen dem Finanzministerium und den Abgeordneten des betreffenden Ministeriums, rücksichtlich dessen Anstände eintreten, allein stattfinden solle</ref>
+                     <note type="variant" n="c" target="#fn_5_5_321_c">Korrektur c–c Lichtenfels’ aus <quote>nur für gewisse Anstände eintreten solle</quote>.</note> und, wenn eine Begleichung <ref xml:id="fn_5_5_321_d">auf diesem Wege</ref>
+                     <note type="variant" n="d" target="#fn_5_5_321_d">Einfügungd–d Lichtenfels’.</note> nicht zustande kommen sollte, hierwegen im Ministerrate verhandelt werde. <ref xml:id="fn_5_5_321_e">Dieses hindere keineswegs, daß, im Falle an einer Post prinzipiell auch noch eines oder das andere der übrigen Ministerien beteiligt ist, auch ein Delegierter desselben der Beratung über diese Post zugezogen werde</ref>
+                     <note type="variant" n="e" target="#fn_5_5_321_e">Einfügung e–e Lichtenfels’.</note>. Solche kommissionelle Beratungen, meinte <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi>, ließen sich am zweckmäßigsten so einrichten, daß in jedem Ministerium oder Zentralstelle ein oder zwei Abgeordnete bezeichnet werden, welche von Fall zu Fall von Seite des Finanzministeriums zu solchen Besprechungen einzuladen wären, welchem Modus der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> mit dem Vorbehalte beistimmte, daß er bei der Verschiedenheit der Budgets, die er zu vertreten hat, in jedem einzelnen Fall den passenden Abgeordneten der Hofkanzlei bestimmen würde. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> äußerte, die vorgeschlagene kommissionelle Zusammentretung habe für das Militäretat gar keine Bedeutung, indem eine Variation in dem präliminierten Militärerfordernisse stets nur von der politischen Lage und von der Ah. Bestimmung Sr. Majestät selbst abhängig sein kann. Graf Degenfeld glaubte daher von seinem Standpunkte aus sich gegen eine solche Kommission entschieden verwahren zu müssen, wogegen er stets bereit sein werde, erforderlichenfalls mit dem Finanzminister zu konferieren.</p>
+                  <p>Bei dieser Gelegenheit drückte der Kriegsminister den Wunsch aus, daß infolge des an ihn von dem Finanzminister neuester Zeit gestellten Ansinnens, das Gesamterfordernis der Armee auf die runde Summe von 100 Millionen (statt 112 Millionen) zurückzuführen, über die Basis, auf welche das außerordentliche Erfordernis pro 1864 gestellt werden soll, eine besondere Vorberatung gepflogen und diesfalls der Ah. Entschluß eingeholt werden soll, womit der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> sofort einverstanden und der Meinung war, daß diesfalls eine Konferenz unter dem Ah. Vorsitze <pb n="247" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s247.pdf"/>abgehalten und hiebei gleich der Ah. Beschluß gefaßt werden könnte<note type="footnote" n="4">Siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630212-P-0322.xml">MR. v. <date when="1863-02-12"/>12. 2. 1863</ref>.</note>. Der Minister des Äußern, der Minister Graf Nádasdy, der Handelsminister und der Minister Graf Esterházy traten den Vorschlägen des Staatsratspräsidenten bei, und es erklärte sich schließlich die Majorität der Konferenz für denselben, der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> mit dem Bemerken, daß er sich bezüglich des Kriegsmarineetats teilweise der Verwahrung des Kriegsministers aus gleichem Grunde anschließen müsse und sich bei der etwaigen kommissionellen Verhandlung nur auf diejenigen Punkte beschränken würde, die das kleinere Detail der Marineverwaltung betreffen<note type="footnote" n="5">Der beabsichtigte Vortrag wurde nach diesem Beschluß nicht eingereicht und resolviert. Plener richtete nun einen eigenhändig konzipierten dringlichen Sparappell an alle Chefs der Zentralstellen mit dem Ersuchen, auch im laufenden Verwaltungsjahr die präliminierten und bewilligten Beträge nach Möglichkeit nicht auszuschöpfen. Plener begründete diese Bitte damit, daß die im Finanzgesetz votierten Mehreinnahmen an Steuern und Gebühren nicht sofort wirksam würden. <quote>Andererseits erscheint es für den Kredit Österreichs von höchstem Interesse, wenn sich im Laufe dieses Jahres bloß auf eine Kreditoperation, nämlich auf die Begebung des noch verfügbaren Restes der Schuldverschreibungen vom Jahre 1860 beschränkt und von der im Art. VIII des Finanzgesetzes eventuell vorgedachten weiteren Anspruchnahme des öffentlichen Kredits mittels einer zweiten Anlehensoperation Abstand genommen werden könnte. Es bedarf keiner näheren Erörterung, daß die Emission der 1860er Schuldverschreibungen nur dann auf günstigen Erfolg rechnen kann, wenn sie auf den allgemein bekannten Betrag des vorhandenen Restes beschränkt und ohne Kumulierung mit der Auflage eines zweiten Anlehens stattfindet</quote>, Schreiben v. <date when="1863-02-26">26. 2. 1863</date>, <bibl type="archival">FA., FM., Präs. 403/1863</bibl>. Zur dritten Emission des 1860er Anlehens siehe <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18630428" ana="prot2 top0">MR. II v. <date when="1863-04-28"/>28. 4.1863</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_321_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verständigung der Parteien von der Übertragung der Wertpapiere des Venediger Anlehens an die Finanzpräfektur in Venedig</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Hein</rs>
+                     </hi> erbat sich die Entscheidung des Ministerrates in Hinsicht der im Schoße des Justizministeriums entstandenen Meinungsdifferenz in der Frage, ob von der gemäß des Ministerkonferenzbeschlusses vom <date when="1861-06-17">17. Juni 1861</date> nunmehr vollführten Übertragung der aus der Revolutionsperiode herrührenden gerichtlichen Depositen (1848- und 1849er Anlehen der revolutionären Machthaber in Venedig) an die Finanzpräfektur in Venedig die beteiligten Parteien zu verständigen sind oder nicht<note type="footnote" n="6">Im <ref type="protocol-link" target="MRP-1-5-02-0-18610617-P-0085.xml#top_5_2_85_4">MR. v. <date when="1861-06-17">17. 6. 1861</date>/IV</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b2-z85" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b2/pdf/a5-b2-z85.pdf" target="MRP-1-5-02-0-18610617-P-0085.xml">ÖMR. V/2, Nr. 85</ref>
+                        </bibl>, war nicht nur die Ablieferung der fraglichen Wertpapiere an die Finanzpräfektur Venedig, sondern auch ihre Vernichtung durch die Finanzbehörde beschlossen worden, um Mißbräuche zu verhindern.</note>.</p>
+                  <p>Dr. Hein sei der Meinung, daß eine solche allgemeine Verständigung der Parteien nicht stattzufinden hätte, sondern daß bloß diejenigen Parteien, die sich etwa melden sollten, von Fall zu Fall von dieser Übertragung in Kenntnis zu setzen wären.</p>
+                  <p>Der Ministerrat trat dieser Ansicht einhellig bei.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_321_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Besetzung der Stelle des Oberlandesgerichtspräsidenten in Innsbruck</head>
+                  <p>Der Minister Dr. Hein referiert, der Oberlandesgerichtspräsident in Innsbruck Dr. Hofer sei um seine Pensionierung, die keinem Anstande unterliegen dürfte, eingeschritten, und es handle sich daher unter Voraussetzung der Ah. Genehmigung dieser Pensionierung um die Besetzung der hiedurch vakant werdenden Oberlandesgerichtspräsidentenstelle.</p>
+                  <p>Von den vielen vorhandenen Bewerbern kommen zunächst der Oberlandesgerichtspräsident in Zara Freiherr v. Ulm und der gewesene Oberlandesgerichtspräsident in Siebenbürgen Freiherr v. Lattermann in Betracht. Der erstere bewerbe sich schon seit längerer Zeit um seine Übersetzung in die deutschen Länder; der letztere, welcher <pb n="248" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s248.pdf"/>gegenwärtig in Gratz zugeteilt ist, befindet [sich] nach seiner eigenen Aussage infolge der während seiner Disponibilität ihn wiederholt getroffenen Übersiedlungen in solchen bedrängten Geldverhältnissen, daß ihm eine abermalige Übersetzung nach Innsbruck sehr empfindlich wäre. Referent glaube daher, nur den Freiherrn v. Ulm, dessen Qualifikation eine ganz vorzügliche sei und der den besten Anspruch habe, für den gedachten Posten bei Sr. Majestät au. in Vorschlag bringen zu sollen.</p>
+                  <p>Hierwegen ergab sich dem Ministerrate keine Erinnerung<note type="footnote" n="7">Mit Ah. E. v. <date when="1863-02-16">16. 2. 1863</date> wurde Anton Freiherr Hofer v. Hoffenburg pensioniert und Franz Freiherr v. Ulm zum Präsidenten des Oberlandesgerichtes für Tirol und Vorarlberg ernannt, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 494/1863</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1863-02-09">9. Februar 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, am 23. Februar<ref xml:id="fn_5_5_321_f"/>
+                     <note type="variant" n="f" target="#fn_5_5_321_f">Im Originalprotokoll irrtümlich <quote>März</quote>.</note> 1863.</seg>
+                  <seg type="other">Empfangen <date when="1863-02-23">23. Februar 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="9">Band 9</title>
+            <title level="m" type="sub">Dezember 1864–<date when="1865-07-11">11. Juli 1865</date>
+            </title>
+            <title level="a" type="desc" n="567">Sitzung 567</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1865-05-04"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b9-z567.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 9 Dezember 1864–11. Juli 1865</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1371</idno>
+                  <idno type="KZ">1342</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1865-05-04"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet, VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 6.5.), Mensdorff 13.5. (ab V abw.), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy 16.5. (bei I abw.), Burger, Hein, Franck (Bei VII und VIII abw.), Zichy, Kalchberg; außerdem anw. Schwarzwald (nur bei VII); BdR. Erzherzog Rainer 23.5.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1865-05-06">6.5.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr7788">
+                     <surname>Mensdorff</surname>
+                  </persName>
+                  <note>BdE. 13.5</note>
+                  <note>nicht durchgehend anwesend (ab V abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+                  <note>BdE. <date when="1865-05-16">16. 5.</date>
+                  </note>
+                  <note>nicht durchgehend anwesend (bei I abw.)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+                  <note>Bei VII und VIII abw.</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="present-non-member" ana="partially-absent">
+                  <persName ref="#mpr8863">
+                     <surname>Schwarzwald</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (nur bei VII)</note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_9_567_1">Aufhebung der Waffenausfuhrverbote</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_9_567_2">Besitzfähigkeit der Moldowlachen für Grund und Boden in Österreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_9_567_3">Beteiligung der Minister an den Verhandlungen des Ausschusses über den Handels- und Zollvertrag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_9_567_4">Einbringung des Handels- und Zollvertrags im Herrenhaus</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_9_567_5">Berichtigung eines Irrtums über die Militärdotation</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_9_567_6">Mitteilung von Akten an Abgeordnete</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_9_567_7">Ah. bezeichnetes Gesuch betreffend die Gebühren für eine Vermögensübertragung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_5_9_567_8">Änderung der Einzahlungstermine für die Massen- und Freischurfgebühren</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-09-0-18650504-P-0567" ana="a5-b9-z567">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml#a5-b9_z567.pdf">
+               <title type="num">Nr. 567</title>
+               <title type="descr">Ministerrat, Wien, <date when="1865-05-04">4. Mai 1865</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet, <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 6.5.), Mensdorff 13.5. (ab V <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy 16.5. (bei I <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Burger, Hein, Franck (Bei VII und VIII <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice>), Zichy, Kalchberg; außerdem <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> Schwarzwald (nur bei VII); <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 23.5.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1371</idno>
+                  <idno type="KZ">1342</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1865-05-04">4. Mai 1865</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_9_567_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Aufhebung der Waffenausfuhrverbote</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> referierte, die walachische Regierung habe hieher eröffnet, daß sie Waffen aus Österreich zu beziehen wünsche<note type="footnote" n="1">Zur Aus- und Durchfuhr von Waffen <bibl type="archival">HHSTA., Administrative Registratur, F 16, Karton 1</bibl>; die Akten sind unvollständig, die hier genannte Anfrage fehlt.</note>, und da der Erfüllung dieses Wunsches das bestehende Waffenausfuhrverbot<note type="footnote" n="2">Erlaß des Finanzministeriums v. <date when="1861-01-15">15. 1. 1861</date>, <bibl type="archival">RGBL. Nr. 9/1861</bibl>; dazu MK. v. <date when="1861-01-10">10. 1. 1861</date>/I. Das Ausfuhrverbot betraf die Donaufürstentümer Moldau und Walachei sowie Serbien.</note> im Wege steht, komme zu erwägen, ob dasselbe nicht unter den dermaligen Verhältnissen den Fürstentümern gegenüber aufzuheben wäre. Referent glaubte dafür stimmen zu können, denn die Verweigerung des Waffenbezuges aus der österreichischen Monarchie werde keineswegs verhindern, daß die walachische Regierung sich Waffen, so viel sie nur will, auf Umwegen verschaffe. Andererseits aber wird die österreichische Industrie eines ihr sehr erwünschten, ja nötigen Absatzes beraubt. Es spricht ferner dafür das Präzedens des Waffenverkaufes nach Montenegro<note type="footnote" n="3">Während der Unruhen und des Feldzugs der Türkei in Montenegro 1861/62, vgl. <bibl type="secondary">
+                           <author>Schulthess</author>, Europäischer Geschichts­kalender 3 (1862), 334–338 und 426</bibl>, hatte es von österreichischer Seite kein Waffenverbot gegeben.</note>.</p>
+                  <p>Im Verlauf der hierüber gepflogenen Erörterung äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, daß es keinem Anstand unterliegen dürfte, solche Waffenpartien ausführen zu lassen, die erweislich entweder für die walachische oder [die] serbische Regierung bestimmt sind. Bei Gestattung der freien Ausfuhr an wen immer hätte man aber gar keine Bürgschaft, daß diese Waffen nicht in die Hände von dort domizilierenden politischen Flüchtlingen aller Art und auf Umwegen nach Bosnien etc. gelangen. Der Präsident des Staatsrates, dann die Minister Graf Nádasdy und Ritter von Hein traten der Meinung des Baron Mecséry bei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> ging dagegen noch weiter als Graf Mensdorff und fand, daß unter den gegenwärtigen Verhältnissen alle bestehenden Waffenausfuhrverbote mit Einschluß jenes gegen Rußland<note type="footnote" n="4">Anläßlich des Aufstandes in Russisch-Polen war ein Waffenexportverbot gegen Rußland und Russisch-Polen erlassen worden, <bibl type="archival">RGBL. Nr. 17/1863</bibl>, dazu <ref type="protocol-link" target="MRP-1-5-01-0-18610207-P-0002.xml#top_5_1_2_3">MR. v. <date when="1861-02-07">7. 2. 1861</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z319" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z319.pdf" target="MRP-1-5-05-0-18630207-P-0319.xml">ÖMR. V/5, Nr. 319</ref>
+                        </bibl>.</note> aufzuheben wären, da die Zustände jenseits <pb n="314" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s314.pdf"/>unserer Grenzen sich allenthalben ruhiger gestellt haben, das Verbot der Waffenausfuhr erwiesenermaßen den Bezug der Waffen nicht verhindert, die kaiserliche Regierung selbst wiederholt Ausnahmen gemacht hat<note type="footnote" n="5">
+                        <bibl type="archival">RGBL. Nr. 48/1863</bibl>; <bibl type="archival">RGBL. Nr. 58/1864</bibl> (vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18640620-P-0479.xml#top_5_8_479_2">MR. v. <date when="1864-06-20">20. 6. 1864</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b8-z479" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8/pdf/a5-b8-z479.pdf" target="MRP-1-5-08-0-18640620-P-0479.xml">ÖMR. V/8, Nr. 479</ref>
+                        </bibl>) und <bibl type="archival">RGBL. Nr. 82/1864</bibl>.</note> und man der schwergeprüften österreichischen Industrie nicht die Gelegenheit nehmen soll, etwas bei diesem Artikel zu verdienen, bei welchem sehr viele verschiedene Fabrikationszweige interessiert sind. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister v. Lasser</rs>
+                     </hi> geht von dem Grundsatze aus, daß derlei Verbote – wie alle Ausnahmen von Gesetzen – nicht länger aufrechterhalten werden sollen als die Notwendigkeit es erfordert. In dieser Beziehung dürfte jedoch die Zulässigkeit der Waffenausfuhr nach Rußland vielleicht noch zweifelhaft sein. Der Staatsminister, der Kriegsminister, der Leiter des Handelsministeriums und der Marineminister stimmten mit dem Finanzminister für die allgemeine Aufhebung der Ausfuhrverbote, wobei <hi rend="#letterspaced">
+                        <rs type="person">Baron Burger</rs>
+                     </hi> sich auf seine während zehn Jahren in Triest und Mailand gesammelten Erfahrungen<note type="footnote" n="6">Burger war 1853–1859 Statthalter im lombardisch-venezianischen Königreich und 1859–1862 Statthalter im Küstenland gewesen, <bibl type="secondary">
+                           <author>Blaas</author>, Burger</bibl>. In: <bibl type="secondary">
+                           <title>Neue österreichische Biographie</title> 17, 189–201</bibl>.</note> über die Nutzlosigkeit der Verbote berief. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi> äußerte, daß weder in der Lage Ungarns noch in der Haltung der ungarischen Emigration dermal ein Grund gegen die Aufhebung der Waffenausfuhrverbote gelegen sei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> hielt an seiner früheren Meinung fest und machte geltend, daß des sich heute doch nur um die Waffenausfuhr nach den Donaufürstentümern handle. Weitergehende Ansprüch seien noch nicht vorgekommen, auch erscheine die Lage des Königreiches Polen noch keineswegs so beruhigend, daß man nicht von Rußland Reklamationen gegen die Waffenausfuhr nach demselben gewärtigen müßte. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er glaube nicht zu irren, wenn er annimmt, daß Preußen in neuerer Zeit die Waffenausfuhr nach Polen wieder freigegeben habe. Ist dies wirklich der Fall, so dürfte gegen die allgemeine Zurücknahme der bestehenden Waffenaus­fuhrverbote kein Anstand bestehen.<ref xml:id="fn_5_9_567_a"/>
+                     <note type="variant" n="a" target="#fn_5_9_567_a">Randvermerk Ransonnets: <quote>Minister Graf Esterházy nahm an der Beratung über den Punkt I keinen Teil</quote>.</note>
+                  </p>
+                  <p>Schließlich forderte <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit der durchlauchtigste Herr Erzherzog</rs>
+                     </hi> den Finanz­minister auf, vor allem die Freigebung der Waffenausfuhr aus Preußen nach Polen zu konstatieren, und werde hiernach entweder eine allgemeine oder bloß partielle Aufhebung der Waffenaus­fuhrverbote nach dem Ministerratsbeschlusse stattzufinden haben<note type="footnote" n="7">Fortsetzung <ref type="protocol-link" target="MRP-1-5-09-0-18650516-P-0573.xml#top_5_9_573_1">MR. v. <date when="1865-05-16">16. 5. 1865</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Besitzfähigkeit der Moldowlachen für Grund und Boden in Österreich</head>
+                  <p>Über die hierauf durch <hi rend="#letterspaced">
+                        <rs type="person">Graf Mensdorff</rs>
+                     </hi> zur Sprache gebrachte Angelegenheit wegen reziproker Bewilligung der Besitzfähigkeit für Grund und Boden zu Gunsten der österreichischen und moldowlachischen Untertanen wurde beschlossen, vorläufig das Gutachten des Staatsrates einzuholen<note type="footnote" n="8">Vortrag Mensdorffs v. <date when="1865-05-09">9. 5. 1865</date>, Z. 6210; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 323/1865</bibl>; im Ministerrat kam die Angelegenheit nicht mehr zur Sprache. Die gegenseitige Besitzfähigkeit wurde zugestanden, dazu <bibl type="archival">RGBL. Nr. 46/1865</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Beteiligung der Minister an den Verhandlungen des Ausschusses über den Handels- und Zollvertrag</head>
+                  <p>Zu einer längeren Besprechung bot den Anlaß der von einigen Mitglieder des Ausschusses des Abgeordnetenhauses für den Zollvertrag vom 11. April<note type="footnote" n="9">Zur parlamentarischen Behandlung des Handels- und Zollvertrags mit dem Deutschen Zollverein siehe <ref type="protocol-link" target="MRP-1-5-09-0-18650424-P-0563.xml#top_5_9_563_2">MR. v. <date when="1865-04-24">24. 4. 1865</date>/II</ref>, Anm. 6.</note> ausgesprochene Wunsch, daß an den Ausschußberatungen nebst dem Leiter des Handelsministeriums auch der Minister des Äußern und einige andere Minister sich beteiligen möchten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> glaubt den Grund dieses Ansinnens darin zu finden, daß man im Ausschuß glaubt, die Mitglieder des Kabinetts seien über die Opportunität des Vertrags und Tarifs nicht einerlei Meinung und manche derselben seien geneigt, die Durchbringung der Vorlage im Reichsrat nicht sowohl als ein Regierungs-, sondern ein spezifisches freiherrlich v. Hocksches Interesse zu betrachten<note type="footnote" n="10">Der Sektionschef im Finanzministerium Freiherr v. Hock hatte die Verhandlungen in Berlin geführt.</note>. Um diesen Irrtum zu zerstreuen, wäre es angezeigt, daß in der nächsten Ausschußsitzung auch der Minister des Äußern nebst einigen anderen Ministern erscheine.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Graf Mensdorff</rs>
+                     </hi> erklärte sich hiezu vollkommen bereit, zumal die Gesetzvorlage in seinem Namen vor das Abgeordnetenhaus gebracht worden sei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> gab ein Bild der bisherigen Ausschußverhandlungen, in welchen Freiherr v. Hock namens der Regierung beinahe ausschließend das Wort geführt habe. Freiherr v. Kalchberg sei seiner eigenen Beteiligung so viel wie möglich ausgewichen, er werde damit auch fortfahren, um jeden Anlaß zu epinösen Diskussionen auszuweichen und den gedeihlichen Fortgang der Beratungen nicht zu stören. Eine Mehrheit von neun Stimmen gegen sechs erscheine im Auschuß bereits gesichert, und einem erwünschten Ausgange dürfte auch der Antrag des Abgeordneten Herbst günstig sein, der Ausschuß wolle als Grundsatz aussprechen, daß die Annahme des Vertrags vom 11. April samt dem Zolltarif für die Grenzen der Zollvereins dem allgemeinen Zolltarif für die übrigen Grenzen der Monarchie nicht präjudizierlich sein solle. Die jetzt dringendste Frage des Vertrags werde nämlich dadurch wesentlich vereinfacht, und deswegen wurde von Seite der Regierungsvertreter auch nichts dagegen eingewendet. Doch habe Freiherr v. Hock sofort erklärt, daß die Regierung seinerzeit den Tarif vom 11. April auch als allgemeinen österreichischen Tarif verteidigen werde. Bei dem Umstande, daß hiernach die Aussichten für den Zollvertrag im Auschuß günstig sind, könne Freiherr v. Kalchberg nur davor warnen, daß die günstige Stimmung nicht durch prinzipielle Aussprüche in delikaten Zoll- oder Handelsangelegenheiten von Seite eines Ministers gestört werde. Er glaube daher, daß in der nächsten Sitzung wohl der Minister des Äußern und etwa noch ein Minister zu erscheinen, selbe sich jedoch möglichst schweigsam zu verhalten hätten gegenüber den Bestrebungen einiger Auschußmitglieder, durch Interpellationen über allgemeine Grundsätze, z. B. Differentialzölle etc. Ausprüche der Regierung zu provozieren, die leicht als Feuerbrand in einer oder anderen Richtung ausgebeutet werden können. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> findet gleichfalls die größte Zurückhaltung notwendig. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> hält den Herbstschen Antrag für sehr gut zur leichteren Durchbringung der Vorlage. Mag man übrigens auch die Unpräjudizierlichkeit des Tarifs vom 11. April proklamieren, tatsächlich liegt doch schon darin die Entscheidung über den allgemeinen Tarif, weil wesentliche Verschiedenheiten <pb n="316" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s316.pdf"/>zwischen diesen Tarifen nicht haltbar sein würden. Den theoretischen Fragen im Ausschusse auszuweichen, hält Minister Edler v. Plener ebenfalls für ein Gebot der Klugheit, und sollte man vom Minister des Äußern ein Programm über die österreichische Handelspolitik verlangen, so könne er diesem Verlangen durch einfache Hinweisung auf den Zollvertrag entsprechen.</p>
+                  <p>Schließlich vereinigte sich der Ministerrat darüber, daß die Minister des Äußern und der Finanzen in der nächsten Sitzung des Ausschusses nebst Baron Kalchberg zu erscheinen und in ihren Äußerungen möglichst reserviert zu sein hätten<note type="footnote" n="11">Fortsetzung nächster Tagesordnungspunkt und <ref type="protocol-link" target="MRP-1-5-09-0-18650509-P-0569.xml#top_5_9_569_3">MR. I v. <date when="1865-05-09">9. 5. 1865</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Einbringung des Handels- und Zollvertrags im Herrenhaus</head>
+                  <p>Über die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> gestellte Frage, ob die Vorlage über den Zollvertrag vom 11. April<note type="footnote" n="12">Siehe Tagesordnungspunkt III.</note> nicht sofort auch beim Herrenhause einzubringen sei, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß er <ref xml:id="fn_5_9_567_b">mit der Einbringung der finanziellen Vorlage im Abgeordnetenhause [stets] die gleichzeitige Übersendung derselben an das Herrenhaus eintreten lasse</ref>
+                     <note type="variant" n="b" target="#fn_5_9_567_b">Korrektur b–b Pleners aus <quote>die finanziellen Vorlagen stets gleichzeitig in beiden Häusern einzubringen pflege</quote>.</note>. Graf Mensdorff wird hiernach jene Vorlage in der nötigen Anzahl von Exemplaren an das Herrenhaus leiten.<ref xml:id="fn_5_9_567_c"/>
+                     <note type="variant" n="c" target="#fn_5_9_567_c">Randvermerk Ransonnets: <quote>Der Minister des Äußern nahm an der Beratung über die folgenden Punkte keinen Teil</quote>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Berichtigung eines Irrtums über die Militärdotation</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> erwähnte, es sei in den Abgeordnetenkreisen der Wahn verbreitet, die Regierung oder doch die im Jahre 1860 Allerhöchstenortes zusammengesetzte Ersparungs­kommission<note type="footnote" n="13">Siehe dazu <ref type="protocol-link" target="MRP-1-5-03-0-18611231-P-0174.xml#top_5_3_174_2">MR. v. <date when="1861-12-31">31. 12. 1861</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z174" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z174.pdf" target="MRP-1-5-03-0-18611231-P-0174.xml">ÖMR. V/3, Nr. 174</ref>
+                        </bibl>.</note> habe erklärt, daß eine Jahresdotation von 80 Millionen für das Ordinarium und Extraordinarium der Armee <ref xml:id="fn_5_9_567_d">ohne Gefährdung ihres Bestandes ganz gut</ref>
+                     <note type="variant" n="d" target="#fn_5_9_567_d">Einfügung d–d Lassers.</note> hinlänglich sei. Der Berichterstatter Giskra hat diese Angabe auch in der Sitzung des Abgeordnetenhauses am 2. Mai wiederholt<note type="footnote" n="14">Vom 2.–<date when="1865-05-06">6. 5. 1865</date> wurde das Budget des Kriegsministeriums des Staatsvoranschlags für 1865 im Plenum des Abgeordnetenhauses behandelt (2. Lesung), <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 1425–1598 (53.–57. Sitzung)</bibl>; die Äußerung Giskras <quote>ebd., 1430</quote>. Zum Budget für 1865 siehe Einleitung X–XIV.</note>. Gleichwohl ist sie unrichtig, und Minister Ritter v. Lasser, welcher als Sektionschef<ref xml:id="fn_5_9_567_e"/>
+                     <note type="variant" n="e" target="#fn_5_9_567_e">Korrektur Lassers aus <quote>Ministerialrat</quote>.</note> Beisitzer jener Kommission war, weiß sich zu erinnern, daß die Kommission die Zulänglichkeit einer solchen Dotation nicht ausgesprochen, sondern nur erklärt hat, daß, wenn das Defizit absolut verschwinden solle, die Militärdotation auf 80 Millionen beschränkt werden müsse. Zur Berichtigung dieser Irrtümer wäre es sehr nützlich, daß Minister Ritter v. Lasser darüber eine Erklärung im Abgeordnetenhause abgebe. <hi rend="#letterspaced">
+                        <rs type="person">Ritter v. Lasser</rs>
+                     </hi> erklärte sich hiezu nötigenfalls<ref xml:id="fn_5_9_567_f"/>
+                     <note type="variant" n="f" target="#fn_5_9_567_f">Einfügung Lassers.</note> bereit, doch sei es notwendig, daß er sich vorläufig durch Einsicht der Kommissionsprotokolle Gewißheit über den diesen Punkt betreffenden Beschluß <ref xml:id="fn_5_9_567_g"/>
+                     <note type="variant" n="g" target="#fn_5_9_567_g">Einfügung g–g Lassers.</note>und den Inhalt der Auszüge, welche seinerzeit dem verstärkten <pb n="317" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s317.pdf"/>Reichsrate<note type="footnote" n="15">Zum verstärkten Reichsrat <bibl type="secondary">
+                           <author>Bernatzik</author>, Verfassungsgesetze Nr. 51–54</bibl>; <bibl type="secondary">
+                           <title>Verhandlungen des österreichischen verstärkten Reichsrates</title> 1860</bibl>.</note> zukamen und nun dem Giskra vorliegeng verschaffe. Den Entwurf der sonach zu erstattenden Äußerung werde er der hohen Einsicht Sr. k. k. Hoheit des durchlauchtigsten Herrn Vorsitzenden unterziehen<ref xml:id="fn_5_9_567_h"/>
+                     <note type="variant" n="h" target="#fn_5_9_567_h">Randvermerk Erzherzog Rainers: <quote>Die Abgabe dieser Erklärung fand, da selbe als nicht genügend befunden wurde, nicht statt</quote>.</note>,<note type="footnote" n="16">Die Erklärung wurde – siehe Anm. h – nicht abgegeben. Am <date when="1865-05-06">6. 5. 1865</date> bewilligte das Abgeordnetenhaus 89,9 Millionen Gulden als Armeebudget gegenüber den von der Regierung beantragten 94,7 Millionen Gulden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Mitteilung von Akten an Abgeordnete</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit der durchlauchtigste Herr Erzherzog Rainer</rs>
+                     </hi> brachte zur Sprache, daß Abgeordneter Dr. Giskra bei der Berichterstattung über das Armeebudget<note type="footnote" n="17">Vgl. oben Anm. 14.</note> einige Sätze aus einem vom Finanzminister Baron Bruck im Jahre 1858 an Se. k. k. apost. Majestät erstatteten Vortrage verlesen habe<note type="footnote" n="18">
+                        <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 1483 (54. Sitzung/<date when="1865-05-03">3. 5. 1865</date>)</bibl>. Es handelte sich um den Vortrag Brucks v. <date when="1858-04-05">5. 4. 1858</date>, in dem er eine Begrenzung der Kosten der Landarmee auf 80 Millionen fl. gefordert hatte, siehe dazu <ref type="protocol-link" target="MRP-1-5-03-0-18620116-P-0184.xml#top_5_3_184_3">MR. I v. <date when="1862-01-16">16. 1. 1862</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z184" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z184.pdf" target="MRP-1-5-03-0-18620116-P-0184.xml">ÖMR. V/3, Nr. 184</ref>
+                        </bibl>, und <ref type="protocol-link" target="MRP-1-5-03-0-18620215-P-0197.xml#top_5_3_197_9">MR. II v. <date when="1862-02-15">15. 2. 1862</date>/IX</ref>, <quote>ebd., Nr. 197</quote>.</note>, <ref xml:id="fn_5_9_567_i">und richtete an den Finanzminister die Frage, ob ihm nicht bekannt sei, auf welche Weise dieses Aktenstück in die Hände des oben genannten Reichsratsabgeordneten gelangt sein könne</ref>
+                     <note type="variant" n="i" target="#fn_5_9_567_i">Einfügung i–i Erzherzog Rainers.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> glaubte hiezu bemerken zu sollen, Giskra habe auf der Tribüne erklärt, daß ihm dieser Vortrag vom Kriegsminister Grafen Degenfeld zur Einsicht mitgeteilt worden sei. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, Graf Degenfeld habe diese Mitteilung ohne Zweifel in der Voraussetzung gemacht, daß er es mit einem „ritterlich Denkenden“ wagen könne, ohne Furcht vor Mißbrauch. Se. k. k. Hoheit sprachen schließlich die Überzeugung aus, daß derlei Mitteilungen von Amtsakten nicht mehr vorkommen werde.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Ah. bezeichnetes Gesuch betreffend die Gebühren für eine Vermögensübertragung</head>
+                  <p>
+                     <ref xml:id="fn_5_9_567_j"/>
+                     <note type="variant" n="j" target="#fn_5_9_567_j">Randvermerk Ransonnets: <quote>An der Beratung über die Punkte VII und VIII nahm der Kriegsminister keinen Teil. Ministerialrat v. Schwarzwald wohnte lediglich den Beratungen über Punkt VII bei</quote>.</note> Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag des Finanzministers betreffend das Ah. bezeichnete Gesuch des Simon Krendl und [des] Johann Kindler um Ermäßigung der Gebühren für die vom minderjährigen Joseph Krendl angekaufte Trattenmühle, Bezirk Wildon in Steiermark<note type="footnote" n="19">Vortrag Pleners v. <date when="1864-11-19">19. 11. 1864</date>, <bibl type="archival">FA., FM., V. Abteilung (Gebühren), Nr. 44651/1864</bibl> (K.); Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 1001/1864</bibl>.</note>.</p>
+                  <p>Die minderen Stimmen des Staatsrates fanden die Aufrechnung von Gebühren für zwei Übertragungen im vorliegenden Falle ganz korrekt und schlossen sich dem Antrage des Finanzministers an, welcher dahin geht, es sei dem Ministerium zu überlassen, das Einschreiten des Simon Krendl und Johann Kindler, nur eine Vermögensübertragung anzunehmen, abweislich zu erledigen. Die Minorität berief sich hiebei insbesondere auf die Absätze 1 und 6 lit. c der Vorerinnerungen zum Gebührentarife vom Jahr 1850<note type="footnote" n="20">Gebührentarif v. <date when="1850-02-09">9. 2. 1850</date>, <bibl type="archival">RGBL. Nr. 50/1850</bibl>; die Vorerinnerung <quote>ebd., 493 f</quote>.</note>. Die Stimmenmehrheit des Staatsrates aber glaubte nur einen Erwerbungsakt annehmen <pb n="318" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s318.pdf"/>zu können, indem Simon Krendl und Johann Kindler bei der Lizitation am <date when="1858-06-17">17. Juni 1858</date> erklärt haben, die Trattenmühle für einen erst nachträglich, binnen acht Tagen, namhaft zu machenden Käufer zu erstehen, als welchen von ihnen wirklich der minderjährige Sohn des erstgenannten Simon Krendl namhaft gemacht wurde. Hiernach wäre das Finanzministerium Allerhöchstenortes anzuweisen, das vorliegende Einschreiten des Simon Krendl und Johann Kindler mit Zugrundelegung nur einer Vermögensübertragung zu erledigen. Der Staatsratspräsident trat diesem Mehrheitsantrage bei, weil der zitierte Absatz 6 lit. c der Vorerinnerungen auf den vorliegenden Fall keine Anwendung finde, indem dieser lit. c sich nur auf solche Rechtsgeschäfte beziehe, welche jemand im eigenen Namen abgeschlossen hat, während die Bittsteller im Lizitationsprotokolle schon erklärten, den eigentlichen Besitzer der Realität binnen einer Frist von acht Tagen namhaft machen zu wollen, sie mithin den Kauf nicht im eigenen Namen abgeschlossen hatten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> äußerte, die Sache sei, prinzipiell betrachtet, heiklich, wie schon die Meinungsverschiedenheiten im Schoße des Staatsrates beweisen. Übrigens wolle er nicht leugnen, daß die vom finanziellen Standpunkte ganz korrekten Entscheidungen der Behörden für die Bittsteller nicht ohne eine gewisse Härte sind. Um daher in dieser Beziehung abzuhelfen, ohne ein Präjudiz zu schaffen, würde der Minister beantragen, daß Se. Majestät der Kaiser in diesem besonderen Falle aus Ah. Gnade zu gestatten geruhen, daß die Gebühr bloß von einer Übertragung aufgerechnet werde. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> entgegnete, bei diesem Erledigungsmodus werde allerdings kein Präjudiz gegen, wohl aber eines für die Finanzen und gegen andere, in ähnlicher Lage befindliche oder noch kommende Parteien geschaffen. Es wäre daher und zur Beseitigung jedes Zweifels am besten, wenn eine Ah. Entscheidung feststellte, daß hier nur eine Übertragung der Gebührenbemessung zum Grund zu legen sei. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerialrat Ritter v. Schwarzwald</rs>
+                     </hi> suchte aus dem Text der protokollarischen Erklärung des Anton Klug nachzuweisen, daß Simon Krendl und Johann Kindler die Ersteher der Realität seien, und berief sich darauf, daß die Regierung überhaupt guten Grund habe, die Ankäufe tecto nomine<note type="footnote" n="21">mit verdecktem, verschwiegenem Namen.</note> zu verhindern. Jedenfalls hätten die Gefällsbehörden Recht getan, im Zweifel nach §6 vorzugehen. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erwiderte, die eigene Erklärung von Simon Krendl und Joseph Kindler (auf der letzten Seite des Lizitationsprotokolls) lasse keinen Zweifel, daß sie nicht im eigenen Namen als Käufer auftraten.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> fand im vorliegenden Fall keine zweifache Übertragung und somit auch keinen Anlaß einer doppelten Gebührenabnahme. Die Ah. Entschließung dürfte daher dahin lauten: „Ich gestatte, daß in dem vorliegenden Falle bloß die Gebühr für eine Vermögensübertragung abgenommen werde.“ Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> war mit dieser Erledigung in merito und in der Form umso mehr einverstanden, als keine Notwendigkeit vorhanden ist, eine Gesetzeserläuterung zu erlassen. Die übrigen Minister teilten diese Meinung<note type="footnote" n="22">Am <date when="1865-05-18">18. 5. 1865</date> erhielt der Vortrag Pleners die Ah. Entschließung in der von Hein vorgeschlagenen Fassung, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1267/1865</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_9_567_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Änderung der Einzahlungstermine für die Massen- und Freischurfgebühren</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den Vortrag des Handelsministeriums vom <date when="1865-04-09">9. April 1865</date> wegen Änderung der gegenwärtigen Termine zur Einzahlung der Bergwerksmassen- und Freischurfgebühren mittels eines Reichsgesetzes<note type="footnote" n="23">
+                        <bibl type="archival">AVA., HM Bergbau, Nr. 3880/1865</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 240/1865</bibl>.</note>. Nach dem Berggesetze von 1854<note type="footnote" n="24">
+                        <bibl type="archival">RGBL. Nr. 146/1854</bibl>.</note> und dem Gesetze über die Aufhebung der Bergfrone von 1862<note type="footnote" n="25">
+                        <bibl type="archival">RGBL. Nr. 28/1862</bibl>.</note> sind die Massengebühren und die Freischurfgebühren im Monat Dezember und Juni jeden Jahres, und zwar halbjährig im vorhinein zu bezahlen. Diese Zahlungstermine standen wohl mit dem alten Verwaltungsjahr im Einklange, allein sie klappen nicht mehr mit dem seitdem eingeführten Sonnenjahr, denn die im Dezember stattfindenden Zahlungen reichen jetzt in ein anderes Jahr hinüber<note type="footnote" n="26">Das Verwaltungsjahr hatte vom 1. November bis zum 31. Oktober gedauert. Zur Umstellung auf das Solarjahr ab 1864 siehe <bibl type="secondary">
+                           <author>Kletecka–Koch</author>, Einleitung ÖMR. V/6, XXI f.</bibl>
+                     </note>. Das Handelsministerium gedachte diesem Übelstande abzuhelfen und zugleich die Einzahlungen der fraglichen Gebühren auf eine für die Steuerträger minder lästige Weise dadurch einzuteilen, daß dieselben künftig statt halbjährig im vorhinein quartalsmäßig verfallen, und zwar gleichzeitig mit der Einkommensteuer von den Bergwerksunternehmungen eingefordert würden, das ist in den Monaten März, Juni, September und Dezember. Weil aber diese Modifikation eine Änderung des Berggeseztes und des Gesetzes über die Bergfrone begründen würde, hielt der Leiter des Handelsministeriums die Einbringung einer Gesetzesvorlage über diesen Gegenstand für nötig und suchte hiezu die Ah. Ermächtigung an. Der Staatsrat fand es vom finanziellen Standpunkte nicht plausibel, daß man bei den Massen- und Freischurfgebühren die anstandlos bestehende halbjährige Vorauszahlung aufgebe und eine vierteljährig verfallene Einzahlung substituieren, und glaubte, daß sich die allerdings wünschenswerte Adaptierung der halbjährigen Zahlungsterminen an das Sonnenjahr einfach dadurch erzielen ließe, daß man die Zahlungsfristen vom Monat Dezember auf den Jänner, und vom Juni auf den Julius verlegt. Diese Änderung bedürfe übrigens keiner Genehmigung im verfassungsmäßigen Wege, sondern könne lediglich als eine durch die Annahme des Sonnenjahrs für die Staatsverwaltung bedingte Administrativmaßregel in Ausführung gebracht werden. Freiherr v. Lichtenfels, dem Antrage des Staatsrates beitretend, las den Entwurf der diesfälligen kaiserlichen Resolution.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> entwickelte die Motive, welche ihn bei dem einvernehmlich mit dem Finanzminister unterbreiteten Gesetzentwurfe geleitet haben. Erhebliche Bedenken stehen gegen die vorgeschlagene neue Einrichtung nicht im Wege, und dieselbe dürfte sich selbst aus geschäftlichen Rücksichten und im Interesse der Parteien empfehlen. Namentlich streite aber gegen die neuen Semestraltermine Jänner und Julius der Umstand, daß die Steuervorschreibung, welche sich nur auf den Stand vom Dezember des Vorjahres stützen kann, schon im nächsten Jänner noch nicht bewirkt und den Bergwerksunternehmungen mitgeteilt worden sein kann, was doch der wirklichen Einzahlung vorausgehen muß. Die Einbringung eines Gesetzes habe nötig geschienen, um die beiden früheren Gesetze nicht einseitig im administrativen Wege zu derogieren. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erwiderte, daß die Semestraltermine <pb n="320" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b9-pdf.xml%23a5-b9_einzelseiten/a5-b9_s320.pdf"/>mit Rücksicht auf die zur Steuervorschreibung nötige Zeit allerdings zweckmäßiger auf die Monate Februar und August verlegt werden könnten, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> machte für die Entbehrlichkeit einer Gesetzesvorlage über diese Änderung den Umstand geltend, daß auch die Termine zur Einzahlung der Erwerbsund Einkommensteuer aus Anlaß des Übergangs zum Sonnenjahre lediglich durch administrative Verfügnis des Finanzministeriums umgelegt worden seien<note type="footnote" n="27">
+                        <bibl type="archival">VBFM., Nr. 48/1864</bibl>.</note>. Freiherr v. Kalchberg dürfte sich daher bewogen finden, behufs des Verlegung der halbjährigen Termine zur antizipativen Einzahlung der Massen- und Freischurfgebühren sich mit dem Finanzministerium ins Einvernehmen zu setzen.</p>
+                  <p>Nachdem der Ministerrat dieser Meinung beigetreten war, erklärte <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Kalchberg</rs>
+                     </hi>, keinen Anstand zu nehmen, auf Grund dieses Ministerratsbeschlusses hierauf einzugehen und seinen au. Vortrag vom 9. April d. J. zurückzunehmen<note type="footnote" n="28">Der nachfolgende Notenwechsel zwischen den Ministerien <bibl type="archival">AVA., HM Bergbau, Nr. 3880/1865</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1865-05-06">6. Mai 1865</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Schönbrunn, <date when="1865-05-22">22. Mai 1865</date>.</seg>
+                  <seg type="other">Empfangen <date when="1865-05-23">23. Mai 1865</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="031">Sitzung 31</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-05-08"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z31.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">643 et 644</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-05-08"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; RdA. Pipitz; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Lebzeltern (interimistischer Leiter des Außenministeriums); BdE. Pillersdorf (9. 5.), Franz Karl (10. 5.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8229">
+                     <surname>Lebzeltern</surname>
+                  </persName>
+                  <note>interimistischer Leiter des Außenministeriums</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-09">9. 5.</date>
+                  </note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr9251">
+                     <surname>Franz Karl</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-05-10">10. 5.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_31_1">Aufhebung der Urbarialleistungen in Galizien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_31_2">Rücktritt James Rothschilds von der Stelle des österreichischen Generalkonsuls in Paris</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_31_3">Versetzung FML. Heinrich Ritter v. Hess' nach Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_31_4">Haltung des Papstes gegenüber Österreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_31_5">Maßnahmen zur Beruhigung der Wiener Akademischen Legion</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_31_6">Übernahme der Militärgestüte in Ungarn durch die ungarische Regierung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_31_7">Verhandlungsmodalitäten mit dem ungarischen Ministerium</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_31_8">Organisationsentwurf für das Innenministerium</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480508-P-0031" ana="a1-1848_z31">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z31.pdf">
+               <title type="num">Nr. 31</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-05-08">8. Mai 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; RdA. Pipitz; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Lebzeltern (interimistischer Leiter des Außenministeriums); <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (9. 5.), Franz Karl (10. 5.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">643 et 644</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung am <date when="1848-05-08">8. Mai 1848</date> unter dem Vorsitze des interimistischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_31_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Aufhebung der Urbarialleistungen in Galizien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entwickelte seine Ansichten über jene Modifikationen, welche an dem Entwurfe des Grafen Franz Stadion über das zu erlassende Patent wegen Abolition der Urbarialleistungen in Galizien vorzunehmen wären<note type="footnote" n="1">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480507-P-0030.xml#top_1_1_30_5">MR. v. <date when="1848-05-07">7. 5. 1848</date>/V</ref>.</note>. Nachdem sämtliche Anwesenden diesen Ansichten beistimmten, so wurde beschlossen, daß Baron Krauß sofort, mit Einbeziehung des Hofrates Zaleski<note type="footnote" n="2">Wenzel Ritter v. Zaleski war Hofrat in der Vereinigten Hofkanzlei, im Ministerium des Inneren hatte er das Referat über Galizien und die Bukowina, siehe zu ihm <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 59, 106 ff.</bibl>
+                     </note>, den Entwurf einer definitiven Redaktion unterziehe, in welcher Form er sodann dem galizischen Gouverneur zur Kundmachung mitzuteilen sein wird. Eine Abschrift wird dem Protokolle nachträglich beigelegt werden<note type="footnote" n="3">Auf Vortrag Pillersdorfs v. <date when="1848-05-08">8. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 576/1848</bibl>, wurde der Patententwurf mit Ah. E. v. <date when="1848-05-10">10. 5. 1848</date> sanktioniert, <quote>ebd., MRZ. 643/1848</quote>. Pillersdorf übersandte dieses Patent mit Ministerialerlaß, datiert <date when="1848-05-08">8. 5. 1848</date>, an Stadion, der wiederum am <date when="1848-05-14">14. 5. 1848</date> Abdrucke dieses Erlasses an sämtliche Kreisvorsteher in Galizien weiterleitete, <bibl type="archival">ZDIAUL, StH., Präs. 6293/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Rücktritt James Rothschilds von der Stelle des österreichischen Generalkonsuls in Paris</head>
+                  <p>Der Finanzminister eröffnete hierauf, Baron S. M. Rothschild habe ihm angezeigt, daß sein Bruder James B. Rothschild in Paris es unter den gegenwärtigen politischen Verhältnissen für geraten halte, sein Amt als österreichischer Generalkonsul niederzulegen<note type="footnote" n="4">James Rothschild versah den Posten des österreichischen Generalkonsuls in Paris seit 1822, <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 27, 126</bibl>; James befürchtete einen Krieg zwischen Frankreich und Österreich, <bibl type="secondary">
+                           <author>Mühlstein</author>, James de Rothschild 204</bibl>.</note>, dabei aber bitte, daß ihm diese Stelle dareinst wieder verliehen werde, wenn die Verhältnisse es ihm wieder gestatten, sich darum zu bewerben. Hierüber wurde beschlossen, dem Baron James Rothschild eröffnen zu lassen, daß das Ministerium ihm keine Zusicherung wegen eventueller Wiederverleihung der k. k. Generalkonsulsstelle geben könne, es ihm aber jederzeit unbenommen bleiben werde, sich darum wieder in Bewerbung zu setzen<note type="footnote" n="5">Das Generalkonsulat in Paris unterstand 1848 dem Finanzministerium. Weder im <quote>FA., FM., Präs</quote>. noch im <bibl type="archival">HKA., Commerz-Cammer, Fasz. 11 (Consularwesen)</bibl>, aus dem Jahr 1848 findet sich irgend ein Hinweis auf diese Angelegenheit; auch unter den Beständen der <quote>Admin. Reg. F 8, des Konsulararchivs</quote>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Versetzung FML. Heinrich Ritter v. Hess' nach Italien</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> überreichte einen Vortrag<note type="footnote" n="6">
+                        <quote>Ebd., MRZ. 571/1848</quote>. Vortrag Latours v. <date when="1848-05-07">7. 5. 1848</date>. Der entsprechende Akt, <bibl type="archival">KA., HKR., KM., Präs. 1234/1848</bibl>, ist nicht mehr auffindbar.</note>, worin er Se. Majestät bittet, die verfügte Zuteilung des FML. Ritter v. Hess als Leiter der Generalquartiermeistersgeschäfte zum Feldmarschall Grafen Radetzky<note type="footnote" n="7">Dies war mit Schreiben (K.) Latours v. <date when="1848-05-07">7. 5. 1848</date> geschehen, <quote>ebd., Präs. 1142/1848</quote>. Zu Heinrich Frhr. v. Hess siehe <bibl type="secondary">
+                           <title>Allgemeine Deutsche Biographie</title> 12, 281 ff.</bibl>
+                     </note> nachträglich Ag. genehmigen zu wollen. Die Gegenwart des FML. Hess sei nämlich unter den dermaligen Verhältnissen bei der italienischen Armee so dringend notwendig geworden, daß Graf Latour es nicht gewagt habe, die Absendung desselben bis zu dem Zeitpunkte aufzuschieben, wo die Ah. Genehmigung dieser Verfügung an das Kriegsministerium gelangt wäre<note type="footnote" n="8">Der in Anm. 6 zit. Vortragwurde mit Ah. E. v. <date when="1848-05-10">10. 5. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 643/1848</bibl>. Hess kam bereits am <date when="1848-05-12">12. 5. 1848</date> in Radetzkys Hauptquartier in Verona an, siehe dazu Hess’ Bericht an Latour v. <date when="1848-05-14">14. 5. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 1547/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Haltung des Papstes gegenüber Österreich</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Staatsrat Baron Lebzeltern</rs>
+                     </hi> teilte einen Bericht des österreichischen Botschafters in Rom mit, wornach der Papst sich über das Vorrücken der päpstlichen Truppen gegen das lombardisch-venezianische Königreich entschieden mißbilligend geäußert und die Absicht ausgesprochen habe, demnächst eine offizielle Erklärung über seine friedlichen Gesinnungen der österreichischen Regierung gegenüber zu veröffentlichen<note type="footnote" n="9">Bericht Lützows v. <date when="1848-05-04">4. 5. 1848</date>, <bibl type="archival">HHSTA., StK., Rom 79, Fasz. Berichte April–Juni, fol. 36–44</bibl>.</note>. Unter diesen Umständen glaubte Baron Lebzeltern, dürfte der Ministerialratsbeschluß wegen Ausfertigung von Pässen für den päpstlichen Nuntius Monsignore Viale vorderhand auf sich beruhen<note type="footnote" n="10">Auf Vortrag Ficquelmonts v. <date when="1848-05-02">2. 5. 1848</date> war mit Ah. E. v. <date when="1848-05-08">8. 5. 1848</date> die Erlaubnis ergangen, dem päpstlichen Nuntius die Pässe auszufolgen, d. h. die Beziehungen mit dem Heiligen Stuhl auf dieser Ebene abzubrechen, <bibl type="archival">ebd., Kab. Kanzlei, MRZ. 483/1848</bibl>.</note>, bis sich der Papst über seine Absichten erklärt hat, um nachteilige Komplikationen zu vermeiden. Diesem Antrage wurde allseitig beigestimmt<note type="footnote" n="11">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480521-P-0047.xml#top_1_1_47_1">MR. v. <date when="1848-05-21">21. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Maßnahmen zur Beruhigung der Wiener Akademischen Legion</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">provisorische Unterrichtsminister Baron Sommaruga</rs>
+                     </hi> berichtete über den Fortschritt der Einleitungen zur Behebung des aufgeregten Zustandes, in welchem sich die Wiener Akademische Legion befindet<note type="footnote" n="12">Zur Aufregung unter den Wiener Studenten siehe allgemein <ref type="protocol-link" target="MRP-1-1-01-0-18480505-P-0028.xml#top_1_1_28_6">MR. v. <date when="1848-05-05">5. 5. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480506-P-0029.xml#top_1_1_29_2">MR. v. <date when="1848-05-06">6. 5. 1848</date>/II</ref>.</note>. Die Epurierung dieser Legion ist im Zuge; ein großer Teil, namentlich das gesamte Korps der Juristen, ist vom besten Geiste der Ordnung beseelt, und die Zusammenrottungen in den an die Universität grenzenden Straßen werden gänzlich abgestellt. Über Aufforderung des Ministers des Inneren äußerte Baron Sommaruga, auch den Versuch machen zu wollen, die Hauptwache <pb n="181" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s181.pdf"/>der Techniker von der Universität weg und ins polytechnische Institut zu verlegen, um die gärenden Massen zu trennen, was deren Beruhigung erleichtern würde<note type="footnote" n="13">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480514-P-0037.xml#top_1_1_37_1">MR. v. <date when="1848-05-14">14. 5. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Übernahme der Militärgestüte in Ungarn durch die ungarische Regierung</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> überreichte einen Vortrag<note type="footnote" n="14">Vortrag Latours v. <date when="1848-05-08">8. 5. 1848</date>, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 570/1848</bibl>.</note>, worin er zur Ah. Kenntnis bringt, daß das ungarische Ministerium (laut einer Anzeige des Kommandierenden Baron Lederer<note type="footnote" n="15">Abschrift des Berichtes, irrtümlich mit <date when="1848-05-25">25. 5. 1848</date> datiert, <bibl type="archival">KA., HKR., KM., Präs. 1238/1848</bibl>.</note>) beabsichtigt, Kommissionen nach Mezőhegyes und Bábolna abzusenden, um die dortigen Militärgestüte zu übernehmen, um die vorhandenen Pferde zu veräußern. Indem Graf Latour eine Abschrift seines Erlasses an Baron Lederer beibringt<note type="footnote" n="16">Erlaß (K.) Latours an Lederer v. <date when="1848-05-08">8. 5. 1848</date>, <quote>ebd., Präs. 1133/1848</quote>.</note>, worin er aufgefordert wird, diesen unrechtmäßigen Angriff auf ein Eigentum des Militärärars durch alle möglichen Mittel abzuwehren, bittet der Kriegsminister, daß auch Allerhöchstenorts eine ernste Verfügung in diesem Sinne erlassen werde<note type="footnote" n="17">Die in dem in Anm. 14 zit. Vortrag getroffenen Maßnahmen Latours wurden mit Ah. E. v. <date when="1848-05-10">10. 5. 1848</date> gutgeheißen und der Kriegsminister angewiesen, gegebenenfalls gemeinsam mit dem Finanzminister das Eigentumsrecht des Militärärars in Ungarn nachdrücklich zu verteidigen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 643/1848</bibl>.</note>. Auch der ungarische Minister Fürst Esterházy habe versprochen, gegen diese Eigenmächtigkeit bei dem ungarischen Premierminister zu remonstrieren<note type="footnote" n="18">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480509-P-0032.xml#top_1_1_32_7">MR. v. <date when="1848-05-09">9. 5. 1848</date>/VII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Verhandlungsmodalitäten mit dem ungarischen Ministerium</head>
+                  <p>Nach der Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzministers</rs>
+                     </hi>, der auch der Ministerrat beitrat, dürften alle Mittel, welche das Privatrecht zur Verteidigung des Besitzes eines unbeweglichen Gutes in Ungarn darbietet, ebensowenig als irgend ein anderes versäumt werden. Insbesondere handelt es sich hier um Besitztümer, die dem Bedürfnisse des Gesamtheeres und nicht lediglich der ungarischen Truppen gewidmet wurden und worauf Investituren aus den Mitteln des Gesamtärars gemacht wurden<note type="footnote" n="19">Siehe dazu Tagesordnungspunkt VI dieses Protokolls.</note>.</p>
+                  <p>Bei diesem Anlasse bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">interimistische Ministerpräsident</rs>
+                     </hi>, er sei durch eine von Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzog Franz Karl mündlich erhaltene gnädige Andeutung auf die Modalitäten der Berührungen des Ministerrates mit dem ungarischen Ministerium aufmerksam gemacht worden. Vorderhand glaube er sich nun über diesen Gegenstand auf die Bemerkung beschränken zu sollen, daß sich zwei Wege der Verhandlung darbieten, nämlich jener des schriftlichen Verkehres zwischen dem deutsch-österreichischen mit dem ungarisch-österreichischen Ministerium, und dann der kürzere und in den meisten Fällen eher zum Ziele führende Weg der mündlichen Besprechung und Zusammentretung mit dem in Wien residierenden ungarischen Minister der auswärtigen Geschäfte<note type="footnote" n="20">Das war Paul Anton Fürst Esterházy; zu ihm siehe <bibl type="secondary">
+                           <title>Österreichisches Biographisches Lexikon</title> 1, 269</bibl>.</note>. Zur Festsetzung eines definitiven Verfahrens scheinen aber die jetzigen Umstände noch nicht genug vorbereitet<note type="footnote" n="21">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480510-P-0033.xml#top_1_1_33_3">MR. v. <date when="1848-05-10">10. 5. 1848</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_31_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Organisationsentwurf für das Innenministerium</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Pillersdorf</rs>
+                     </hi> las schließlich den Entwurf eines demnächst zu erstattenden au. Vortrages über die künftige Organisierung des Ministeriums <pb n="182" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s182.pdf"/>des Inneren, und sämtliche Glieder des Ministerrates erklärten sich mit den diesfälligen Anträgen völlig einverstanden<note type="footnote" n="22">Der im Vortrag Pillersdorfs v. <date when="1848-05-08">8. 5. 1848</date> vorgelegte Organisationsentwurf wurde mit Ah. E. v. <date when="1848-05-10">10. 5. 1848</date> vom Kaiser in allen Punkten genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 375/1848</bibl>. Das Organisationsschema mit vier Sektoren und 17 Departements in <bibl type="archival">ebd., StK., Noten von der Hofkanzlei 249, Fasz. 1848, Fol. 239</bibl>.</note>.</p>
+                  <p>Die den einstimmigen au. Anträgen des tg. Ministerrates zu III. und VI. entsprechenden Resolutionsentwürfe werden hierneben der Ah. Schlußfassung ehrerbietigst unterzogen.</p>
+               </div>
+               <closer>
+                  <seg type="other">Am <date when="1848-05-09">9. Mai 1848</date>. Pillersdorf.</seg>
+                  <seg type="other">Ges. 10. Mai. Franz Karl. Vidi.</seg>
+                  <seg type="other">Ferdinand. Wien, den <date when="1848-05-10">10. Mai 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

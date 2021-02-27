@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="492">Sitzung 492</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-09-22"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z492.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1296</idno>
+                  <idno type="KZ">2940</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-09-22"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Ransonnet; VS. Kaiser; BdE. und anw. (Erzherzog Rainer 23. 9.), Rechberg, Mecséry, Nádasdy, Schmerling (BdE. fehlt), Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg; abw. Esterházy; BdR. Erzherzog Rainer 10. 10.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr1848">
+                     <surname>Kaiser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-09-23">1864-09-23</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+                  <note>keine BdE.</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_492_1">Eröffnung der nächsten Reichsratssession</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_492_2">Haltung der Regierung in bezug auf das Ministerverantwortlichkeitsgesetz, das Vereinsgesetz, das Heeresergänzungsgesetz und das Konkordat</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_492_3">Verlautbarung des Familienvertrages mit Sr. Majestät dem Kaiser von Mexiko</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_492_4">Trennung der Sessionen des engeren und des Gesamtreichsrates</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_8_492_5">Voranschlag des Erfordernisses für die Armee für 1865</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_8_492_6">Voranschlag des Erfordernisses für die Marine für 1865</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_8_492_7">Rückberufung der österreichischen Flotte aus der Nordsee</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_5_8_492_8">Ausschreitungen der österreichischen Presse</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_5_8_492_9">Eisenbahn von Feldkirch nach Rüthi</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18640922-P-0492" ana="a5-b8-z492">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z492.pdf">
+               <title type="num">Nr. 492</title>
+               <title type="descr">Ministerrat, Wien, <date when="1864-09-22">22. September 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Kaiser; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 23. 9.), Rechberg, Mecséry, Nádasdy, Schmerling (<choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> fehlt), Lasser, Plener, Lichtenfels, Burger, Hein, Franck, Zichy, Kalchberg; <choice>
+                                <abbr>abw.</abbr>
+                                <expan>abwesend</expan>
+                            </choice> Esterházy; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 10. 10.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1296</idno>
+                  <idno type="KZ">2940</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1864-09-22">22. September 1864</date> abgehaltenen Ministerrates unter dem Ah. Vorsitze Sr. Majestät des Kaisers.</head>
+               <div type="agenda_item" xml:id="top_5_8_492_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Eröffnung der nächsten Reichsratssession</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> geruhten die Fragen aufzuwerfen, auf welchen Zeitpunkt die Eröffnung der neuen Reichsratssession<note type="footnote" n="1">§ 9 des Grundgesetzes über die Reichsvertretung, Beilage zum Februarpatent, bestimmte: <quote>Der Reichsrat wird vom Kaiser alljährlich einberufen</quote>. Die dritte Reichsratssession dauerte v. <date when="1864-11-12">12. 11. 1864</date> – <date when="1865-07-27">27. 7. 1865</date>.</note> anzuberaumen wäre und ob auch für Vorlagen gesorgt sei, die dem Reichsrate gleich nach seinem Zusammentreten hinlängliche Beschäftigung gewähren würden.</p>
+                  <p>In ersterer Beziehung äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, er gedenke au. zu beantragen, daß der Gesamtreichsrat auf die ersten Tage des Monates November einberufen werde<note type="footnote" n="2">Siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641010-P-0497.xml#top_5_8_497_2">MR. v. <date when="1864-10-10">10. 10. 1864</date>/II</ref>.</note>. Bezüglich der dem Reichsrate zu gebenden Beschäftigung brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> zur Ah. Kenntnis, daß seine au. Anträge über die Steuerreform bereits gedruckt würden und demnächst an Se. kaiserliche Hoheit den durchlauchtigsten Herrn Erzherzog Rainer werden geleitet werden<note type="footnote" n="3">Siehe MR. v. 7., 9. und <date when="1864-11-10">10. 11. 1864</date> (= Sammelprotokoll Nr. 551).</note>, daß ferner der Staatsvor­anschlag für 1865, an dem nur noch wenige Posten ungewiß sind, auch ohne Verzug beendigt werden wird<note type="footnote" n="4">Siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_3">MR. v. <date when="1864-10-24">24. 10. 1864</date>/III</ref>.</note> und es somit an Beschäftigung durch wichtige Regierungsvorlagen keineswegs fehlen wird.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Haltung der Regierung in bezug auf das Ministerverantwortlichkeitsgesetz, das Vereinsgesetz, das Heeresergänzungsgesetz und das Konkordat</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten einige Gesetzentwürfe zu bezeichnen, deren Einbringung von Seite der Regierung im Lauf der nächsten Session von Reichsratsabgeordneten urgiert werden wird, so daß die Regierung über die diesfalls zu beobachtende Haltung rechtzeitig einen Beschluß fassen muß. Dahin gehöre vor allem das Ministerverantwortlichkeitsgesetz.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> äußerte, die Einbringung eines Gesetzes von solcher Wichtigkeit dürfte vor allem bis zu dem Zeitpunkt vertagt werden, wo alle Kronländer im Reichsrate tatsächlich vertreten sein werden. Bei dem Umstande, wo selbst in solchen Staaten, die eine längere konstitutionelle Vergangenheit hinter sich haben, Gesetze <pb n="132" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s132.pdf"/>über diesen äußerst heiklichen Gegenstand noch nicht zu Stand gekommen sind, könne man der österreichischen Regierung ein Zurückhalten damit nicht übelnehmen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> sieht voraus, daß man sich im Abgeordnetenhause diesfalls nicht mit bloßen Interpellationen begnügen, sondern viel weiter gehen, vielleicht selbst auch einen Gesetzentwurf einbringen werde. Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> hält es für ein Gebot der Vorsicht, das Zustandekommen eines solchen Gesetzes möglichst hintanzuhalten. Ein günstiger Umstand ist, daß das Herrenhaus sich bis jetzt für die Opportunität der Erlassung eines solchen Gesetzes nicht erklärt hat<note type="footnote" n="5">Zur Ministerverantwortlichkeit siehe zuletzt den MR. v. 22. und <date when="1862-04-27">27. 4. 1862</date>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z226" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z226.pdf" target="MRP-1-5-03-0-18620427-P-0226.xml">ÖMR. V/3, Nr. 226</ref>
+                        </bibl>, in dem die Regierungserklärung am <date when="1862-05-01">1. 5. 1862</date> beschlossen wurde; vgl. auch <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/5, XV</bibl>. Bereits in der dritten Sitzung der neuen Session interpellierte der Abgeordnete Schindler mit vielen Kollegen den Staatsminister, ob die Regierung die Absicht habe, ein Ministerverantwortlichkeitsgesetz einzubringen, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 20 f. (<date when="1864-11-17">17. 11. 1864</date>)</bibl>: Schmerling verneinte die Frage mit der Begründung, daß die schwebenden Verfassungsfragen dadurch eher verzögert würden, daß viele Fragen noch offen seien und daß die Entwicklung des Verfassungslebens dadurch nicht beeinträchtigt werde, wie die Beispiele vieler europäischer Staaten zeigten, <quote>ebd. 46 f. (6. Sitzung / <date when="1864-11-24">24. 11. 1864</date>)</quote>.</note>.</p>
+                  <p>Bezüglich des von Ah. <hi rend="#letterspaced">
+                        <rs type="person">Sr. Majestät</rs>
+                     </hi> weiters zur Sprache gebrachten Vereinsgesetzes brachte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> zur Ah. Kenntnis, daß ein Entwurf dazu bereits zu Stand gebracht worden sei, die Regierung aber sich zur Einbringung dieses Entwurfes nur im Falle absoluter Nötigung herbeilassen dürfte, da sich die Resultate der reichsrätlichen Verhandlungen darüber nicht berechnen lassen und es somit am besten wäre, wenn das bestehende Vereinsgesetz<note type="footnote" n="6">Patent v. <date when="1852-11-26">26. 11. 1852</date>. <bibl type="archival">RGBL. Nr. 253/1852</bibl>.</note> auch weiter in Kraft bliebe. <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost</rs>
+                     </hi>. <hi rend="#letterspaced">
+                        <rs type="person">Majestät</rs>
+                     </hi> deutete Ag. an, daß die in mehreren deutschen Staaten geltenden schlechten Vereinsgesetze ein warnendes Bespiel geben und man durch Energie in den Verhandlungen seinerzeit sich verwahren müsse, daß die österreichische Regierung nicht auch durch das Vereinswesen lahmgelegt werde<note type="footnote" n="7">In der Reichsratssession 1864/65 wurden keine Anträge oder Interpellationen über ein neues Vereinsgesetz eingebracht; allgemein siehe <bibl type="secondary">
+                           <author>Ogris</author>, Die Rechtsentwicklung in Cisleithanien.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Habsburgermonarchie 2, 647 f.</bibl>
+                     </note>.</p>
+                  <p>In mehreren Landtagen sind bereits Anträge auf Änderung des Heeresergänzungsgesetzes vorgekommen<note type="footnote" n="8">Dazu <ref type="protocol-link" target="MRP-1-5-05-0-18630126-P-0315.xml#top_5_5_315_2">MR. I v. <date when="1863-01-26">26. 1. 1863</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b5-z315" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5/pdf/a5-b5-z315.pdf" target="MRP-1-5-05-0-18630126-P-0315.xml">ÖMR. V/5, Nr. 315</ref>
+                        </bibl>.</note>, was voraussehen läßt, daß solche gleichfalls im Abgeordnetenhause auftauchen werden. Se. Majestät der Kaiser legen einen hohen Wert darauf, daß dieses für die Armee so wichtige Gesetz nicht angetastet werde<note type="footnote" n="9">In der Reichsratssession 1864/65 wurden keine Anträge zum Heeresergänzungsgesetz gestellt.</note>.</p>
+                  <p>In bezug auf die eventuellen Angriffe des Abgeordnetenhauses auf das Konkordat bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi>, daß an der Abhilfe für die brennendsten Punkte im Wege des gütlichen Übereinkommens mit dem Heiligen Stuhle gearbeitet werde und die Leidenschaftslosen einsehen werden, daß sich ein Staatsvertrag nicht einseitig ändern lasse<note type="footnote" n="10">Zu den Verhandlungen zwischen Österreich und dem Heiligen Stuhl über die interkonfessionellen Gesetze siehe <ref type="protocol-link" target="MRP-1-5-03-0-18620103-P-0176.xml#top_5_3_176_2">MR. v. <date when="1862-01-03">3. 1. 1862</date>/II</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b3-z176" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b3/pdf/a5-b3-z176.pdf" target="MRP-1-5-03-0-18620103-P-0176.xml">ÖMR. V/3, Nr. 176</ref>
+                        </bibl>, Anm. 11. In der Reichsratssession von 1864/65 wurden keine diesbezüglichen Anträge oder Interpellationen eingebracht; Fortsetzung <ref type="protocol-link" target="MRP-1-5-09-0-18650526-P-0576.xml#top_5_9_576_3">MR. v. <date when="1865-05-26">26. 5. 1865</date>/III</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Verlautbarung des Familienvertrages mit Sr. Majestät dem Kaiser von Mexiko</head>
+                  <p>Die Art und Weise, wie das Sukzessionsarrangement mit Sr. Majestät dem Kaiser von Mexiko zur Kenntnis des Reichsrates zu bringen sei, dann die Frage über die bezügliche Verständigung der Landtage von Siebenbürgen, Ungarn und Kroatien hat bereits den Gegenstand einer ministeriellen Vorberatung gebildet<note type="footnote" n="11">
+                        <ref type="protocol-link" target="MRP-1-5-07-0-18640412-P-0462.xml">MR. II v. <date when="1864-04-12"/>12. 4.1864</ref> und <ref type="protocol-link" target="MRP-1-5-07-0-18640507-P-0469.xml#top_5_7_469_1">MR. v. <date when="1864-05-07">7. 5. 1864</date>/I</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b7-z462" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b7/pdf/a5-b7-z462.pdf" target="MRP-1-5-07-0-18640412-P-0462.xml">ÖMR. V/7, Nr. 462</ref>
+                        </bibl> und <quote>Nr. 469.</quote>
+                     </note>. <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> erwarten, daß die Sache nunmehr zur Vollberatung im Ministerrat gebracht werde, um eine Richtschnur für den einschlägigen Passus der Thronrede zu gewinnen<note type="footnote" n="12">Siehe <ref type="protocol-link" target="MRP-1-5-08-0-18641010-P-0497.xml#top_5_8_497_2">MR. v. <date when="1864-10-10">10. 10. 1864</date>/II</ref> b; zu Maximilian vom Mexiko siehe <bibl type="secondary">
+                           <author>Kletečka–Koch</author>, Einleitung ÖMR. V/6, XLIIIff.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Trennung der Sessionen des engeren und des Gesamtreichsrates</head>
+                  <p>Die gleichzeitige Abhaltung der Sessionen des engeren und des weiteren Reichsrates<note type="footnote" n="13">Der Reichsrat war in der ersten Session (Mai 1861–Dezember 1862) und im ersten Teil der zweiten Session (Juni–Oktober 1863) nur als der engere (alle Länder mit Ausnahme der Länder der Stephanskrone, also Cisleithanien) versammelt gewesen, er war aber ausnahmsweise auch mit der Behandlung finanzieller Angelegenheiten betraut worden; zu dieser Kompetenzfrage siehe <bibl type="secondary">
+                           <author>Malfèr</author>, Einleitung ÖMR. V/2, XVIII ff.</bibl> und <bibl type="secondary">
+                           <author>Ders.</author>, Einleitung ÖMR. V/3, XV f</bibl>. Erst in der zweiten Phase der zweiten Session, vom Eintritt der Abgeordneten aus Siebenbürgen am <date when="1863-10-20">20. 10. 1863</date> bis zum Schluß im Februar 1864, war er in formeller Hinsicht der Gesamtreichsrat gewesen.</note> hat erfahrungsgemäß den Nachteil, daß man die Beschlüsse des Gesamtreichsrates<ref xml:id="fn_5_8_492_a"/>
+                     <note type="variant" n="a" target="#fn_5_8_492_a">Im Protokoll fälschlich <quote>Gesamtreichstages.</quote>
+                     </note> in finanziellen Sachen benützen will, um die Regierung in Angelegenheit des engeren Reichsrates zur Nachgiebigkeit zu zwingen. Um in dieser Beziehung eine Abhilfe zu erhalten und andererseits die Besorgnisse, die man in Ungarn vor Maßregelung durch den engeren Reichsrat hegt, zu beschwichtigen, wünschen Se. Majestät, daß die Trennung der beiden Sessionen der Zeit nach bald vor sich gehe.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> fände diese Trennung allerdings sehr angezeigt, und es würde dann der engere Reichsrat künftig gleichzeitig mit den Landtagen von Ungarn, Siebenbürgen und Kroatien zu tagen haben. Indes hat die Frage über die Durchführung der Trennung in der nächsten Session so viele Seiten, daß er sich genötigt sehe, um eine Frist zur reifen Erwägung der Sache au. zu bitten<note type="footnote" n="14">Dazu MR. <date when="1864-10-10">10. 10. 1864</date>/II a.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Voranschlag des Erfordernisses für die Armee für 1865</head>
+                  <p>Die in den Staatsvoranschlag für 1865 einzustellende Ziffer des Erfordernisses für die Armee gab zu einer längeren Erörterung Anlaß<note type="footnote" n="15">Fortsetzung von <ref type="protocol-link" target="MRP-1-5-08-0-18640916-P-0490.xml#top_5_8_490_4">MR. v. <date when="1864-09-16">16. 9. 1864</date>/IV</ref>.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> äußerte nämlich, daß er sich genötigt sehe, auf der Basis des dermaligen Armeestandes in Italien und der übrigen Verhältnisse (abgesehen vom Kriege mit Dänemark) eine um 4 Millionen höhere Dotation als die für 1864 bewilligte in Anspruch zu nehmen<note type="footnote" n="16">Im Staatsvoranschlag für die Finanzperiode 1864 waren für die zwölf Monate November 1863 bis Oktober 1864 106,69 Millionen Gulden, für November und Dezember 1864 16,15 Millionen Gulden, zusammen 122,8 Millionen Gulden für die Armee bewilligt worden, das war nach Abzug der budgetierten Eigeneinnahmen ein Zuschuß von 105,5 Millionen Gulden, <bibl type="archival">RGBL. Nr. 14/1864</bibl>.</note>. Daß im laufenden Jahre mit einer um 4 Millionen niedrigeren Summe ausgelangt werden könne, liege darin, daß die Armeeverwaltung 1864 noch bedeutende Ressourcen zur Deckung jenes <ref xml:id="fn_5_8_492_b">vom Reichsrate gestrichenen</ref>
+                     <note type="variant" n="b" target="#fn_5_8_492_b">Einfügung b–b Ransonnets.</note> Betrages <pb n="134" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s134.pdf"/>besitzt<note type="footnote" n="17">Der Reichsrat hatte bei dem von der Regierung geforderten Armeebudget für die Finanzperiode 1864 folgende Veränderungen vorgenommen: Es wurden um 644.650 fl. niedrigere Ausgaben bewilligt, die Eigeneinnahmen der Heeresverwaltung wurden um 6,88 Millionen Gulden höher angesetzt; dies entsprach einer Nettokürzung um 7,5 Millionen Gulden; <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1863/64, 1399 f. (61. Sitzung / <date when="1863-12-11">11. 12. 1863</date>)</bibl>, dann <quote>1594 f. und 1610 f. (64/<date when="1864-12-15">15. 12. 1864</date>).</quote>
+                     </note>, allein diese Quellen werden mit Ende des Jahres erschöpft sein, und daher rührt der unausweichliche Mehrbedarf, von dem nichts gestrichen werden könne, ohne wesentlichen Nachteil für den Dienst und Zahlungsverlegenheiten hervorzurufen. Der Kriegsminister hätte zwar lebhaft gewünscht, noch weitere 7 Millionen für Ersatz der Kriegsabnützung, zur Beschaffung des Monturvorrats für eine eventuelle zweite Kriegsrekrutierung in Anspruch zu nehmen. Allein nach gepflogener Beratung im Ministerrate<note type="footnote" n="18">
+                        <ref type="protocol-link" target="MRP-1-5-08-0-18640916-P-0490.xml#top_5_8_490_4">MR. v. <date when="1864-09-16">16. 9. 1864</date>/IV</ref>.</note> habe er über dringende Vorstellung von Seite des Finanzministers auf jenen Mehranspruch für 1865 verzichtet, müsse jedoch umso ernstlicher auf der Bewilligung des vollen Restes bestehen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> warnte vor einer solchen knappen Reduktion und stimmte heute, so wie bei der Beratung am 16. d. M. dafür, daß auch jene 7 Millionen angesprochen würden, um dem Reichsrate die Möglichkeit zur Vornahme einer unschädlichen Reduktion zu gewähren. Als Bedeckungsmittel könne der Finanzminister auch rücksichtlich dieses Mehrbetrages auf die Erhöhung der schwebenden Schuld hinweisen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er könne zu einer solchen Vermehrung des Dotationsanspruchs für die Armee, mitten unter Friedensaussichten, unmöglich seine Zustimmung geben, indem dies einen schlechten Eindruck im Reichsrat und eine deprimierende Wirkung auf die Finanzwelt hervorbringen würde. Besser man begehrt das strikt Notwendige und schreitet, wenn der Reichsrat, sich allen Vernunftgründen verschließend, auch dieses noch schmälern will, zur Auflösung! Indes müsse Minister v. Plener auf seine schon neulich geäußerte Meinung zurückkommen, daß das als unantastbar geschilderte Budget der Armee doch noch eine erhebliche Reduktion zulasse, weil es auf viel höhere Naturalienpreise basiert ist, als jetzt in den meisten Ländern der Monarchie bestehen und während des Jahres 1865 wahrscheinlich fortbestehen werden. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> erwiderte, er wolle die Möglichkeit einer solchen Ersparnis nicht bestreiten und habe selbst die Umarbeitung des Präliminars der Naturalverpflegung mit Rücksicht auf die dermaligen Preise angeordnet. Allein diese Reduktion sei doch nur hypothetisch, da niemand sagen könne, wie sich die Preise nach der Ernte von 1865 stellen werden. Nach längerer Beratung, im Laufe welcher <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> die Mehranforderung von 7 Millionen auch aus dem Gesichtspunkte rätlich fand, um sich vor dem einstens möglicherweise zu machenden Vorwurfe zu schützen, man habe unterlassen, zu rechter Zeit die Dotation zur Beschaffung der Vorräte für den Kriegsbedarf zu verlangen, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi>, das Festhalten an dem Minimum der Armeedotation schließe nicht aus, daß, wenn im nächsten Frühjahre nach Zulässigkeit der politischen Verhältnisse eine Reduktion im Stande der italienischen Armee verfügt wird, die daraus resultierende Ersparnis den Finanzen zugute gebracht werde. <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten hierauf Ah. zu bemerken, es dürfte keinem Anstand unterliegen, die Eventualität einer Standesreduktion im Frühjahre schon jetzt ins Auge zu fassen, und mit Rücksicht auf diesen <pb n="135" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s135.pdf"/>Umstand würde sich dann die Möglichkeit ergeben, den Mehrbetrag von 4 Millionen zu entbehren. Bei diesen Verhältnissen könnte man sich daher selbst den Abstrich dieses Betrages noch gefallen lassen, und derselbe wäre daher seinerzeit als Zankapfel zu opfern. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erklärte, er könne nur dringend bitten, daß in diesem Sinn vorgegangen werde. Die Finanzverwaltung habe ohnehin mit nur zu vielen Hindernissen zu kämpfen, so daß man nicht erst künstlich und durch zu weit getriebene Vorsicht welche zu schaffen brauche. Man nehme daher auf eine wahrscheinliche Reduktion schon jetzt im Budget Rücksicht. Tritt diese Reduktion dann nicht ein, so wird es Sache des Finanzministers sein, den daraus entstandenen, nicht präliminierten Bedarf ebenso zu decken, so wie es mit manchen anderen unvorgesehenen Posten geschieht. Nach Umständen wird dann ein Nachtragskredit auszusprechen sein. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> trat dieser Meinung vollkommen bei und machte nur aufmerksam, daß man das Herrenhaus bei den Debatten über das Armeebudget nicht etwa zur Verteidigung einer Position veranlassen solle, die die Regierung nicht aufs Äußerste zu halten entschlossen ist.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten Allerhöchstsich dafür zu entscheiden, daß der für 1864 bewilligte Dotationsbetrag auch für 1865 als Minimum zu gelten habe, der Anspruch aber um die vielbesprochenen 4 Millionen höher zu stellen sei, welche Position auch von den Ministern im Abgeordnetenhause ernstlich zu verteidigen wäre. Auch dürfte zu diesem Behuf nicht transpirieren, daß die Regierung vorweg entschlossen ist, jenen Betrag aufzugeben!</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Voranschlag des Erfordernisses für die Marine für 1865</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> machte geltend, daß es bei seinem Budget<note type="footnote" n="19">Auch dazu siehe bereits <ref type="protocol-link" target="toc.html?collection=editions#myTable=f19640916" ana="prot0 top4">MR. v. <date when="1964-09-16">16. 9. 1964</date>/IV</ref>.</note> nicht minder als bei dem Armeebudget nötig sei, den auf Reduktionen gerichteten Absichten der beiden Häuser des Reichsrates Rechnung zu tragen und, ohne die Forderungen zu hoch zu spannen, damit doch so weit zu gehen, daß im Weg der reichsrätlichen Verhandlungen ein Abstrich vorgenommen werden könne, ohne daß darum wichtige Interessen des Dienstes geopfert werden. Bei diesen Umständen dürfte für die Kriegsmarine im Voranschlage für 1865 der Betrag von 9,500.000 fl. eingestellt werden.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. Majestät der Kaiser</rs>
+                     </hi> geruhten Ah. zu bemerken, daß eine namhafte Reduktion der kleinen Dotation der Marine vielleicht noch empfindlicher werden könnte als bei der Armee, daher sei diese Vorsicht angezeigt.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Rückberufung der österreichischen Flotte aus der Nordsee</head>
+                  <p>Allerhöchstdieselben geruhten hierauf vom Marineminister die Auskünfte über die eventuelle Zurückberufung unserer Flotte aus der Nordsee für den Winter entgegenzunehmen.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Baron Burger </rs>
+                     </hi>erwartet diesfalls noch eine Mitteilung von Seite des Ministers des Äußern, welche letztere wieder durch das Einlangen von Antworten aus Berlin und Kopenhagen bedingt ist. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Rechberg</rs>
+                     </hi> bemerkte, die Jahreszeit sei allerdings so weit vorgerückt, daß man mit den Dispositionen über das Überwintern der Flotte nicht mehr lange verziehen [sic!] kann. Indes fehlt doch noch die Äußerung Dänemarks über unsere Forderung, daß die Feindseligkeiten zur See erst drei Monate nach Kündigung des Waffenstillstandes wieder beginnen können. Unsere Maßnahmen <pb n="136" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s136.pdf"/>müssen sich nach der Erklärung Dänemarks hierüber richten<hi rend="#letterspaced">
+                        <rs type="person">. Se. Majestät der Kaiser</rs>
+                     </hi> geruhten den Minister des Äußern anzuweisen, sich diesfalls auch mit Preußen zu verständigen<note type="footnote" n="20">Das österreichische Nordseegeschwader trat noch im Oktober 1864 die Heimreise an, nur die Panzerfregatte „Kaiser Max“ und eine Korvette blieben bis Mai 1865 in der Nordsee stationiert, <bibl type="secondary">
+                           <author>Höbelt</author>, Die Marine.</bibl> In: <bibl type="secondary">
+                           <author>Wandruszka–Urbanitsch</author>, Die Habsburgermonarchie 5, 756 f.</bibl> mit Literatur.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Ausschreitungen der österreichischen Presse</head>
+                  <p>Allerhöchstdieselben geruhten zu bemerken, daß die Ausschreitungen der österreichischen Presse seit einiger Zeit sich sehr vermehren und jedes Maß überschreiten.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> äußerte, daß diese Ausschreitungen wenigstens nicht einer Untätigkeit der Staatsanwaltschaft oder übergroßer Milde der Richter zuzuschreiben seien. Die Gerichte und <hi rend="#letterspaced">
+                        <rs type="person">Staatsanwälte</rs>
+                     </hi> tun vielmehr ihre Pflicht, wie die vielen Verurteilungen von Journalen beweisen. Der Staatsminister muß das Prosperieren der schlechten Presse hauptsächlich dem Publikum – mit Einschluß der Gutdenkenden – zuschreiben, da die Oppositionsjournale in allen Klassen zahlreiche Abonnenten finden, während die von der Regierung influenzierten und die gemäßigten Journale nur einen kleinen Leserkreis finden. Die Konkurrenz der „Neuen Freien Presse“<note type="footnote" n="21">Die „Neue Freie Presse“ erschien ab <date when="1864-09-01">1. 9. 1864</date>; dazu <bibl type="secondary">
+                           <author>Paupié</author>, Handbuch 1, 144–150.</bibl> Zur bevorstehenden Reichsratssession siehe MR. <date when="1864-10-10">10. 10. 1864</date>/II a und <ref type="protocol-link" target="MRP-1-5-08-0-18641013-P-0498.xml#top_5_8_498_2">MR. v. <date when="1864-10-13">13. 10. 1864</date>/II</ref> a und b; zur Presse auch <ref type="protocol-link" target="MRP-1-5-08-0-18641024-P-0502.xml#top_5_8_502_1">MR. v. <date when="1864-10-24">24. 10. 1864</date>/I</ref> und <ref type="protocol-link" target="MRP-1-5-08-0-18641031-P-0506.xml#top_5_8_506_2">MR. v. <date when="1864-10-31">31. 10. 1864</date>/II</ref>.</note> und die Nähe der Reichsratssession sind auch Faktoren bei den gegenwärtigen häufigen Ausschreitungen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Baron Mecséry</rs>
+                     </hi> erwähnte, daß tatsächlich die Journale durch schlechte Artikel nur Abnehmer gewinnen und selbe durch gemäßigte regierungsfreundliche Artikel verlieren.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_492_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Eisenbahn von Feldkirch nach Rüthi</head>
+                  <p>Schließlich geruhten <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. apost. Majestät</rs>
+                     </hi> die Frage zu stellen, ob das Projekt der Führung einer Eisenbahn von Feldkirch nach Rüthi in der Schweiz auch militärischerseits geprüft und anstandslos befunden worden sei, nachdem jetzt mit der Schweiz darüber unterhandelt werden soll<note type="footnote" n="22">Mit Vortrag v. <date when="1864-09-16">16. 9. 1864</date> hatte Rechberg gebeten, den Ministerialrat im Handelsministerium Vinzenz Ritter v. Maly zum Bevollmächtigten bei den Verhandlungen über den Bau der Bodenseegürtelbahn von Rüthi in der Schweiz nach Feldkirch zu ernennen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 2849/1864</bibl>.</note>.</p>
+                  <p>Dem <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> war hierüber aus seiner Amtsführung nichts bekannt. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> erinnerte sich jedoch, daß über diese Eisenbahn schon vor etwa ein oder eineinhalb Jahren verhandelt wurde und darüber jedenfalls<ref xml:id="fn_5_8_492_c"/>
+                     <note type="variant" n="c" target="#fn_5_8_492_c">Korrektur Lassers aus <quote>sowohl.</quote>
+                     </note> das Eisenbahnkomitee, in welchem ein Repräsentant des Militärs sitzt, <ref xml:id="fn_5_8_492_d">und mittelbar</ref>
+                     <note type="variant" n="d" target="#fn_5_8_492_d">Korrektur d–d Lassers aus <quote>als.</quote>
+                     </note> auch das Kriegsministerium vernommen wurden, ohne daß ein Anstand sich ergeben habe. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> bemerkte, daß dieser Eisenbahnanschluß für Österreich nicht minder als für die Schweiz vorteilhaft sei, zumal damit auch eine Bahnverbindung mit Bludenz erzielt wird<note type="footnote" n="23">Mit Ah. E. v. <date when="1864-09-23">23. 9. 1864</date> erfolgte die erbetene Ernennung. Die Verhandlungen wurden am <date when="1865-08-05">5. 8. 1865</date> mit der Unterzeichnung eines Eisenbahnanschlußvertrags zwischen Österreich, Bayern und der Schweiz abgeschlossen, <quote>ebd., KZ. 3505/1865</quote>; siehe auch <ref type="protocol-link" target="MRP-1-5-09-0-18650315-P-0550.xml#top_5_9_550_1">MR. v. <date when="1865-03-15">15. 3. 1865</date>/I</ref>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>
+                     <pb n="137" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s137.pdf"/>Wien, <date when="1864-09-23">23. September 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Ischl, am <date when="1864-10-04">4. Oktober 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-10-06">6. Oktober 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

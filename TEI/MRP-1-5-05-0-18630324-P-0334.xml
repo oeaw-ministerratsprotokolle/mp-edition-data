@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="5">Band 5</title>
+            <title level="m" type="sub">November 1862–<date when="1863-04-30">30. April 1863</date>
+            </title>
+            <title level="a" type="desc" n="334">Sitzung 334</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1863-03-24"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b5-z334.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 5 November 1862–30. April 1863</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1989">1989</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1138</idno>
+                  <idno type="KZ">1193</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1863-03-24"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">RS.; P. Schurda; VS. Erzherzog Rainer; BdE. und anw. (Erzherzog Rainer 24. 3.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; BdR. Erzherzog Rainer 14. 4.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr">
+                     <surname>Schurda</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1863-03-24">1863-03-24</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8576">
+                     <surname>Rechberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8359">
+                     <surname>Degenfeld</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7158">
+                     <surname>Wickenburg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8753">
+                     <surname>Forgách</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_5_334_1">Behandlung des polnischen Insurgentenführers Marjan Langiewicz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_5_334_2">Verlängerung des böhmischen Landtags bis zum <date>18. April l. J.</date>
+                  </ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_5_334_3">Konzession der Eisenbahn von Eger bis zur bayerischen Grenze bei Waldsassen und bis zur sächsischen Grenze bei Voitersreuth</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_5_334_4">Entwurf der steiermärkischen Winzerordnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_5_5_334_5">Gesetzentwurf betreffend die Krankenverpflegsgebühren für Dienstboten in Kärnten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_5_5_334_6">Entwurf einer Vorschrift über Zulassung und Behandlung von Kriegsschiffen befreundeter Nationen an den österreichischen Küsten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_5_5_334_7">Verrechnug der an türkische Kriegsdampfer aus ärarischen Depots verabfolgten Steinkohle</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_5_5_334_8">Ausfertigung des Patents vom <date when="1861-02-26">26. Februar 1861</date> in den drei Landessprachen Siebenbürgens und Hinterlegung im siebenbürgischen Landesarchiv</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-05-0-18630324-P-0334" ana="a5-b5-z334">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml#a5-b5_z334.pdf">
+               <title type="num">Nr. 334</title>
+               <title type="descr">Ministerrat, Wien, <date when="1863-03-24">24. März 1863</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                            <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Schurda; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> und <choice>
+                                <abbr>anw.</abbr>
+                                <expan>anwesend</expan>
+                            </choice> (Erzherzog Rainer 24. 3.), Rechberg, Mecséry, Nádasdy, Degenfeld, Schmerling, Lasser, Plener, Wickenburg, Lichtenfels, Forgách, Esterházy, Burger, Hein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 14. 4.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1138</idno>
+                  <idno type="KZ">1193</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am <date when="1863-03-24">24. März 1863</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer.</head>
+               <div type="agenda_item" xml:id="top_5_5_334_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Behandlung des polnischen Insurgentenführers Marjan Langiewicz</head>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Der Polizeiminister</rs>
+                     </hi> referierte über die Frage, wie der in Krakau festgehaltene Insurgentenführer Langiewicz zu behandeln ist<note type="footnote" n="1">Eine Mitte März beginnende russische Offensive brachte die Aufständischen in große Schwierigkeiten. Das von Marjan Langiewicz angeführte Korps wurde in mehrere Gruppen zerstreut. Langiewicz selbst trat am 20. 3. auf österreichisches Gebiet über und stellte sich mit seiner Begleitung den Behörden, Telegramme dazu <bibl type="archival">HHSTA., Informationsbüro, Annexe, Karton 28</bibl>, und <bibl type="archival">ebd. (BM-Akten), Konvolut GZ. 2280/1863</bibl>.</note>.</p>
+                  <p>Nach den in Absicht auf die Behandlung der auf österreichisches Gebiet getretenen polnischen Insurgenten festgestellten Grundsätzen werden die Ausländer in der Richtung, wohin sie gehören, über die Grenze geschafft<note type="footnote" n="2">MR. v. <quote>25. 2.</quote> 1863/III.</note>. Soll bezüglich des Langiewicz <pb n="325" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s325.pdf"/>auch so vorgegangen werden, dann müßte derselbe, da er in preußisch Posen gebürtig ist, an die preussische Grenze gesendet werden, zugleich aber in Betracht seiner besonderen Stellung und in der Rücksicht, daß er die letzten Jahre keinen preußischen Paß besaß, von dieser Auslieferung vorläufig der preußischen Regierung die geeignete Mitteilung gemacht werden. Freiherr v. Mecséry glaubt jedoch, daß man diesen Hauptführer doch etwas anders behandeln sollte, und würde daher darauf antragen, daß ihm die Alternative gestellt werde, entweder an die preußische Grenze <ref xml:id="fn_5_5_334_a">gebracht und dort in Freiheit gesetzt zu werden, wovon die preußische Regierung zu verständigen wäre</ref>
+                     <note type="variant" n="a" target="#fn_5_5_334_a">Korrektur a–a Mecsérys aus <quote>ausgeliefert zu werden</quote>.</note>, oder, wenn er den Schutz der österreichischen Regierung in Anspruch nehmen will, sich <ref xml:id="fn_5_5_334_b">mit seinem Ehrenworte</ref>
+                     <note type="variant" n="b" target="#fn_5_5_334_b">Einfügung b–b Mecsérys.</note> zu verpflichten, während der Dauer des Aufstandes an einem ihm zu bestimmenden Ort zu bleiben <ref xml:id="fn_5_5_334_c">und sich von allen revolutionären Umtrieben fernzuhalten</ref>
+                     <note type="variant" n="c" target="#fn_5_5_334_c">Einfügung c–c Mecsérys.</note>. Hierwegen wäre er von dem Hofrat Merkl protokollarisch einzuvernehmen und diese seine Äußerung anher zu schicken. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Äußern</rs>
+                     </hi> erinnerte, daß in der bezüglichen unter dem Ah. Vorsitze abgehaltenen Konferenz bestimmt wurde, sich in allem nach dem Vorgang des Jahres 1831 halten zu wollen, wo damals alle Insurgentenchefs interniert wurden, indem man die internationale Verpflichtung hatte, dieselben während des Kampfes unschädlich zu machen. Graf Rechberg glaubte daher, daß man dem Langiewicz gegenüber einfach dasselbe, wie im Jahre 1831 gegen alle Chefs vorgegangen wurde, beobachten, d. h. ihn in einem geeigneten Orte internieren sollte, was bei den gegebenen Verhältnissen immer nur wünschenswert und als ganz korrekt erscheinen dürfte. <ref xml:id="fn_5_5_334_d">In bezug auf den Vorschlag, Langiewicz an die preußische Grenze zu führen und, nachdem die preußische Regierung hiervon benachrichtigt, an Preußen auszuliefern, müsse er das Bedenken aussprechen, daß, wenn auch Langiewicz selbst hierin gewilligt hätte, doch immer das Odium der Auslieferung auf die kaiserliche Regierung zurückfallen und sie für das Vorgehen Preußens gegen ihn verantwortlich werde gemacht werden</ref>
+                     <note type="variant" n="d" target="#fn_5_5_334_d">Einfügung d–d Rechbergs.</note>. Dieser Meinung waren auch alle übrigen Stimmführer, wobei der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> nur zu erwägen empfahl, ob, wenn Langiewicz sich der Internierung nicht fügen wollte, man hierwegen Zwangsmaßregeln anwenden könne.</p>
+                  <p>Nachdem sich somit die Konferenz für die fixe Internierung des Langiewicz ausgesprochen hatte, bemerkte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi>, daß er wegen Eruierung eines hiezu geeigneten Ortes bereits Vorsorge getroffen habe und in dieser Beziehung den zwei Stunden von Brünn entfernten Marktflecken Gurein vorschlagen würde, wogegen sich keine Erinnerung ergab<note type="footnote" n="3">Langiewicz wurde nicht in Gurein, sondern in Tischnowitz bei Brünn interniert, später nach Josefstadt überstellt, <ref type="protocol-link" target="MRP-1-5-05-0-18630428-P-0346.xml#top_5_5_346_1">MR. I v. <date when="1863-04-28">28. 4. 1863</date>/I</ref>. Zu Langiewicz siehe auch <ref type="protocol-link" target="MRP-1-5-05-0-18630425-P-0345.xml">MR. II v. <date when="1863-04-25"/>25. 4.1863</ref>, dann <ref type="protocol-link" target="MRP-1-5-06-0-18630601-P-0357.xml#top_5_6_357_1">MR. v. <date when="1863-06-01">1. 6. 1863</date>/I</ref> und die in Anm. 1 zit. Akten; Literatur: <bibl type="secondary">
+                           <title>Polski Słownik Biograficzny</title> 16, 503–506</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verlängerung des böhmischen Landtags bis zum <date>18. April l. J.</date>
+                  </head>
+                  <p>Der Landesmarschall von Böhmen Graf Nostiz hat eine Eingabe an den <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Staatsminister</rs>
+                     </hi> gerichtet, worin er die Dringlichkeit nachweiset, daß der böhmische <pb n="326" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s326.pdf"/>Landtag wenigstens bis Mitte April verlängert werde, wenn noch die zwei wichtigsten Gegenstände, nämlich das Gemeindegesetz und das Landesbudget verhandelt werden sollen. Der Statthaltereivizepräsident unterstützt dieses Einschreiten und habe gestern telegrafisch gemeldet, daß sich im Landtage eine Deputation vorbereite, um diese Verlängerung unmittelbar von Sr. Majestät sich zu erbitten. Unter diesen Verhältnissen erachtet der Staatsminister diesem Begehren des Landtages nicht entgegentreten zu sollen, und da einer solchen Verlängerung auch kein Hindernis entgegensteht, so gedenkt er bei Sr. Majestät den au. Antrag zu stellen, daß der böhmische Landtag ausnahmsweise erst am <date>18. April l. J.</date> geschlossen werde.</p>
+                  <p>Hierwegen ergab sich von keiner Seite eine Erinnerung<note type="footnote" n="4">Am <date when="1863-03-23">23. 3. 1863</date> hatte der Kaiser den Staatsminister auf seinen Antrag hin ermächtigt, die Landtage am 29. März oder 1. April zu schließen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 922/1863</bibl>. Die Verlängerung des böhmischen Landtags bis zum <date when="1863-04-18">18. 4. 1863</date> wurde gestattet, <quote>ebd., KZ. 954/1863</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Konzession der Eisenbahn von Eger bis zur bayerischen Grenze bei Waldsassen und bis zur sächsischen Grenze bei Voitersreuth</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte den au. Vortrag des Handelsministers vom <date>22. Februar l. J.</date>, Z. 1867/160, wegen Verleihung der Konzession zum Baue und Betriebe einer Eisenbahn von Eger einerseits bis zur bayrischen Grenze bei Waldsassen und andererseits bis zur sächsischen Grenze bei Voitersreuth<note type="footnote" n="5">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 197/1863</bibl>; siehe dazu auch <ref type="protocol-link" target="MRP-1-5-05-0-18630305-P-0327.xml#top_5_5_327_5">MR. v. <date when="1863-03-05">5. 3. 1863</date>/V</ref>.</note>.</p>
+                  <p>Um die Konzedierung der Eger–Waldsassner Strecke ist die bayrische Ostbahngesellschaft, und für die Strecke Eger–Voitersreuth die königlich sächsische Regierung eingeschritten. Nachdem die diesfälligen Bauprojekte der vorgeschriebenen kommissionellen Prüfung unterzogen und nachdem in kommerzieller Beziehung von der bayrischen Ostbahn dem Verkehre auf der böhmischen Westbahn wesentliche Zugeständnisse gemacht wurden, welche geeignet sind, der Pilsner Kohle die Konkurrenz mit der sächsischen Kohle zu ermöglichen, habe der Handelsminister die Konzessionsbestimmungen für die Eisenbahn von Eger nach Waldsassen mit den beteiligten Ministerien vereinbart und dem Verwaltungsrate der bayrischen Ostbahngesellschaft zur Äußerung mitgeteilt. Zugleich wurden diese Konzessionsbestimmungen im Wege des Ministeriums des Äußern der sächsischen Regierung mit dem Beifügen mitgeteilt, daß alle jene Bestimmungen, welche auf die Eger–Voitersreuther Linie analoge Anwendung finden können, seinerzeit in den mit der genannten Regierung in betreff des Baues und Betriebes dieser Bahn abzuschließenden Staatsvertrag aufzunehmen wären. Die bayrische Ostbahn habe in ihrer bezüglichen Äußerung zunächst das Ansinnen gestellt, daß wegen Regelung ihrer Beziehungen zur österreichischen Regierung ein Staatsvertrag, wie es bei der Eger–Hofer Eisenbahn der Fall ist, abgeschlossen werde, wogegen aber der Handelsminister richtig erörtert habe, daß hier von einem Staatsvertrage keine Rede sein könnte, sondern der Gesellschaft eine Konzessionsurkunde nach den oberwähnten Konzessionsbestimmungen mit Berücksichtigung der von den Gesellschaften beantragten Abänderungen auszufertigen wäre<note type="footnote" n="6">Mit der privaten Ostbahn konnte kein Staatsvertrag geschlossen werden; ein solcher war für die Hof–Egerer-Bahn erforderlich, falls der Betrieb durch die Bairische Staatsbahn erfolgte, wie es der Ministerrat am 5. 3. und auch noch jetzt annehmen mußte. Im Verlauf der Verhandlungen wurde von bayerischer Seite auch bei der Hof–Egerer-Bahn der Betrieb dem privaten Konsortium überlassen.</note>. Der Handelsminister erbitte sich auch zugleich in betreff der Eger-Voitersreuther <pb n="327" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s327.pdf"/>Bahn die Ah. Schlußfassung, zumal sich die sächsische Regierung einverstanden erklärte, daß die Konzessionsbestimmungen bezüglich der Eger–Waldsassener auch auf diese Bahn zum analogen Anhalte genommen werde und in dieser Beziehung nur die Differenz bezüglich der Dauer der Konzession besteht, indem der sächsischen Regierung die Beschränkung auf 60 Jahre sehr kurz erscheine, von welchem Bedenken aber nach der Meinung des Handelsministers die genannte Regierung noch abstehen wird, sobald es Tatsache sein wird, daß auch für die Hof–Egerer und Eger–Waldsassener Bahn auch nur eine 60jährige Konzessionsdauer gewährt worden ist. Graf Wickenburg habe daher folgenden Resolutionsentwurf vorgelegt: „Ich verleihe der bayerischen Ostbahngesellschaft die Konzession zum Baue und Betriebe einer Lokomotiveisenbahn von Eger bis zur österreichisch-bayerischen Landesgrenze bei Waldsassen und gestatte, daß die königlich sächsische Regierung – unter Vorbehalt des abzuschließenden Staatsvertrages – den Bau der Eisenbahn von Eger über Franzensbad bis zur österreichisch-sächsischen Landesgrenze bei Voitersreuth sofort in Angriff nehmen lasse. Der Entwurf der Konzessionsurkunde für die Eger–Waldsassener Bahn erhält Meine Genehmigung, und ermächtige Sie zur Ausfertigung derselben nach den beantragten Änderungen.“</p>
+                  <p>Im Staatsrate ergab sich in der Wesenheit kein Bedenken gegen die vom Handelsminister beantragte Erledigung dieser Angelegenheit, mit Ausnahme des zu § 6 beantragten Zusatzes „unter Vorbehalt des mit der bayerischen Regierung abzuschließenden Staatsvertrages“, für dessen Weglassung sich einstimmig ausgesprochen wurde. Der vortragende Präsident halte es zwar für schwierig, rücksichtlich der einzelnen Differenzpunkte, hinsichtlich deren nur der Handelsminister den Forderungen der Eisenbahngesellschaft willfahren will, ein Gutachten abzugeben, weil die übrigen Ministerien darüber nicht weiter vernommen worden sind; dennoch habe er auf die einzelnen Punkte der beantragten Konzessionsänderungen eingehen und seine Ansichten hierüber aussprechen zu sollen geglaubt und würde, im Falle diese seine Ansichten Billigung finden, dann folgenden Entwurf der Ah. Entschließung in Antrag bringen: „Die angetragene Verleihung der Konzession zum Bau und Betriebe einer Lokomotiveisenbahn von Eger bis zur österreichisch-bayerischen Landesgrenze bei Waldsassen an die bayerische Ostbahngesellschaft unterliegt unter den nachstehenden Modifikationen keinem Anstande. Da der Abschluß eines Staatsvertrages mit der königlich bayerischen Regierung über diese Bahn nicht stattzufinden hat, so haben die angetragenen Beziehungen auf diesen Vertrag in den §§ 4 und 6 zu entfallen. Hinsichtlich der Verpflichtung der Gesellschaft zu den Herstellungen im Bahnhofe in Eger haben die Bestimmungen des § 4 nach der ursprünglichen Textierung unverändert zu bleiben. Hinsichtlich des § 6 gestatte Ich die Beifügung eines Zusatzes, wodurch die Gesellschaft der im § 89 der Eisenbahnbetriebsordnung<note type="footnote" n="7">
+                        <bibl type="archival">RGBL. Nr. 1/1852</bibl>, <bibl type="secondary">
+                           <author>Pollanetz – Wittek</author>, Eisenbahngesetze 1, 119–156</bibl>.</note> vorgesehenen Entrichtung eines Pauschales für die erhöhten Kosten der Polizeiaufsicht und die gefällsämtliche Überwachung enthoben wird. Bezüglich des § 7 unterliegt es keinem Anstande, daß die Regelung der Abfahrt und Geschwindigkeit des täglichen Postzuges im Einverständnisse mit der bayerischen Postverwaltung vor sich gehe; im übrigen ist jedoch die ursprüngliche Textierung dieses Paragraphes beizubehalten.</p>
+                  <p>
+                     <pb n="328" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s328.pdf"/>Unter Beobachtung dieser Modifikationen ermächtige Ich Sie, mit der Ausfertigung der Konzessionsurkunde nach den gestellten Anträgen vorzugehen. Der Bau der Eisenbahn von Eger über Franzensbad bis zur österreichisch-sächsischen Landesgrenze bei Voitersreuth kann von der sächsischen Regierung in Angriff genommen werden, sobald sich mit dieser Regierung über die Dauer der Konzession geeinigt sein und dieselbe die Aufnahme der Konzessionsbestimmungen, wie sie für [die] Eger–Waldsassener Bahn festgestellt sind, in den abzuschließenden Vertrag ohne weiteren Vorbehalt zugesichert haben wird.“</p>
+                  <p>Bei der eingehenden Erörterung dieser vom Baron Lichtenfels punktweise motivierten Anträge erklärte sich die Konferenz mit denselben rücksichtlich mit dem vorstehenden Resolutionsentwurfe einverstanden mit Ausnahme des Antrages, daß hinsichtlich der Verpflichtung der Gesellschaft zu den Herstellungen im Bahnhofe zu Eger die Bestimmungen des § 4 nach der ursprünglichen Textierung unverändert zu bleiben hätten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Handelsminister</rs>
+                     </hi> machte nämlich gegen diesen Antrag geltend, daß, nachdem der Egerer Bahnhof ein gemeinschaftlicher für die dort zusammentreffenden Bahnen sein soll, der von der Gesellchaft ausgedrückte Wunsch, daß dieselbe nicht ausschließlich auf ihre Kosten, sondern in Gemeinschaft mit den übrigen Unternehmungen, und zwar nach dem Verhältnisse ihrer Beteiligung die erforderlichen Lokalitäten etc. herzustellen habe, ganz gegründet sei, und glaubte daher, bei seinem Antrage auf Willfahrung der in dieser Richtung von der Gesellschaft proponierten Abänderung des § 4 verbleiben zu sollen, womit die Konferenz <ref xml:id="fn_5_5_334_e">insoweit einverstanden sich erklärte, daß in die ursprüngliche Textierung des Konzessionsentwurfes die Worte „nach Verhältnis ihrer Beteiligung“ eingeschaltet werden sollen, im übrigen aber diese Textierung beizubehalten und daher die von der Gesellschaft vorgeschlagene Textierung nicht anzunehmen sei</ref>
+                     <note type="variant" n="e" target="#fn_5_5_334_e">Korrektur e–e Wickenburgs aus <quote>einverstanden war</quote>.</note>. Ferner wurde bezüglich des § 13 des Entwurfes, wonach die Beförderung der Militärtransporte nach den auf den österreichischen Bahnen geltenden ermäßigten Tarifspreisen stattzufinden hätte, der aber nach dem Wunsche der Gesellschaft dahin abgeändert werden soll, daß die Militärtransporte auf der österreichischen Bahnstrecke nach dem für die bayrischen Truppen bestehenden Tarife befördert werden müssen, sich dahin geeinigt, daß die Bestimmungen dieses Paragraphes nach der ursprünglichen Textierung unverändert zu bleiben haben, mithin dieses auch in dem Resolutionsentwurfe auszudrücken wäre<note type="footnote" n="8">Der Vortrag des Handelsministers wurde am <date when="1863-04-13">13. 4. 1863</date> nach dem Antrag des Staats- bzw. des Ministerrates resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1189/1863</bibl>. Zum Staatsvertrag, zur Konzession und zum Bau der Linie Eger–Waldsassen siehe <ref type="protocol-link" target="MRP-1-5-05-0-18630305-P-0327.xml">MR. v. <date when="1863-03-05"/>5. 3. 1863</ref>, Anm. 18.Zur Linie Eger–Voitersreuth: Am <date when="1863-10-25">25. 10. 1863</date> wurde Maly mit den Verhandlungen mit Sachsen betraut, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ 3356/1863</bibl>; Akten dazu <bibl type="archival">ebd., Administrative Registratur, F 19, Karton 5</bibl>. Der Vertrag wurde am <date when="1864-11-30">30. 11. 1864</date> unterzeichnet, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3772/1864</bibl>; <bibl type="archival">RGBL. Nr. 2/1865</bibl>; <bibl type="secondary">
+                           <author>Pollanetz – Wittek</author>, Eisenbahngesetze 1, 491–502</bibl>; er enthält zugleich die Konzession. Die Linie wurde am <date when="1865-11-01">1. 11. 1865</date> eröffnet, <bibl type="secondary">
+                           <author>Kupka</author>, Eisenbahnen Österreich-Ungarns 294</bibl>. Damit war die Verbindung des sächsischen und des bayerischen mit dem böhmischen Eisenbahnnetz bei Eger abgeschlossen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Entwurf der steiermärkischen Winzerordnung</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über die von dem steiermärkischen Landtage beschlossene und von dem Staatsminister mittelst au. Vortrages vom <pb n="329" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s329.pdf"/>5. März l. J., Z. 1772, zur Ah. Sanktion vorgelegte Winzerordnung<note type="footnote" n="9">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 239/1863</bibl>.</note>. Im Staatsrate habe der Inhalt dieser Winzerordnung keinen Anlaß zu einer Bemerkung gegeben, und werde dieses Gesetz zur Ah. Genehmigung empfohlen.</p>
+                  <p>Dem Ministerrat ergab sich hierwegen keine Erinnerung<note type="footnote" n="10">Das Gesetz erhielt am <date when="1863-04-01">1. 4. 1863</date> die Ah. Sanktion, <quote>ebd., Kab. Kanzlei, KZ. 1059/1863</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Gesetzentwurf betreffend die Krankenverpflegsgebühren für Dienstboten in Kärnten</head>
+                  <p>Der Staatsratspräsident referierte den au. Vortrag des Staatsministers vom 12. März l. J., Z. 1517, wegen Ah. Genehmigung des vom kärntnerischen Landesausschusse in der Sitzung vom 16. Jänner l. J. entworfenen Gesetzes bezüglich der Krankenverpflegsgebühren für Dienstboten<note type="footnote" n="11">Antragstellung, Begründung und Generaldebatte <bibl type="secondary">
+                           <title>Stenographisches Protokoll des Kärntnerischen Landtages 1863</title>, 105–113 (6. Sitzung/<date when="1863-01-15">15. 1. 1863</date>)</bibl>, Spezialdebatte und Annahme <quote>ebd., 118–125 (7/<date when="1863-01-16">16. 1. 1863</date>)</quote>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 247/1863</bibl>.</note>.</p>
+                  <p>Nach der Anordnung des Hofkanzleidekretes vom <date when="1835-09-17">17. September 1835</date> hatten die Dienstherren für ihre im Krankenhause zu Klagenfurt verpflegten kranken Dienstboten, wenn sie dieselben bei ihrer Abgabe in die Krankenanstalt aus dem Dienste entließen, die Verpflegsgebühr für 14 Tage zu bezahlen<note type="footnote" n="12">Ein solches Hofdekret konnte weder in den Gesetzespublikationen und in der juristischen Literatur noch in den Archiven der Zentralbehörden gefunden werden. Es gibt im <bibl type="secondary">
+                           <title>Kärntner Landesarchiv</title>, Kreisamt Klagenfurt, Fasz. 189</bibl>, Akten aus dem Jahr 1835 betreffend die Modifizierng der Diestbotenordnung; das von Lichtenfels zit. Dekret ist auch hier nicht vorhanden.</note>. Diese Anordnung ist durch die in den Jahren 1856 und 1857 in Wirksamkeit gesetzte provisorische Dienstbotenordnung<note type="footnote" n="13">1856 wurde die provisorische Dienstbotenordnung für das flache Land, 1857 jene für die Landeshauptstadt Klagenfurt erlassen.</note> dahin abgeändert worden, daß die Verpflegsgebühren für vier Wochen vom Dienstgeber zu bezahlen sind. Das vorliegende, vom Landtage beschlossene Gesetz bezwecke nun zunächst die Rückkehr zu der früheren zweckmäßigen Anordnung, und es habe sich gegen den Inhalt desselben im Staatsrate keine Bemerkung ergeben.</p>
+                  <p>Freiherr v. Lichtenfels verlas sodann diesen aus drei Paragraphen bestehenden Gesetzentwurf, worüber der Ministerrat nichts zu erinnern fand<note type="footnote" n="14">Am <date when="1863-04-02">2. 4. 1863</date> sanktionierte der Kaiser das Gesetz, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1060/1863</bibl>, Publikation <bibl type="archival">LGBL. 1/1863</bibl>. Zur Geschichte des Dienstbotenrechts <bibl type="secondary">
+                           <author>Mischler – Ulbrich</author>, Staatswörterbuch 1, 674 f.</bibl>; <bibl type="secondary">
+                           <author>Morgenstern</author>, Österreichisches Gesinderecht</bibl>; zur Versorgung in der Krankheit <quote>ebd. 139–151</quote>; zu Kärnten <bibl type="secondary">
+                           <author>Müller</author>, Dienstboten-Ordnung für Kärnten</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Entwurf einer Vorschrift über Zulassung und Behandlung von Kriegsschiffen befreundeter Nationen an den österreichischen Küsten</head>
+                  <p>Der Staatsratspräsident referierte in betreff des von dem Marineminister mit au. Vortrage vom 12. Jänner l. J., Z. 33, zur Ah. Genehmigung vorgelegten und von Sr. Majestät dem Staatsrate zur Begutachtung zugewiesenen Entwurfes einer Vorschrift hinsichtlich der Zulassung und Behandlung der Kriegsschiffe befreundeter Nationen an den österreichischen Küsten<note type="footnote" n="15">Der Vortrag und sämtliche Akten dazu <bibl type="archival">KA., AMA., M/C/9 : 5/1863</bibl>; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 62/1863</bibl>.</note>.</p>
+                  <p>Durch dieses Reglement, wenn es Ah. sanktioniert wird, würden die bisher wirksamen, auf Ah. Entschließungen beruhenden Verordnungen des Kriegsministeriums und des Armeeoberkommandos vom <date when="1850-01-29">29. Jänner 1850</date> und <date when="1854-08-09">9. August 1854</date> außer <pb n="330" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s330.pdf"/>Kraft treten<note type="footnote" n="16">Erlaß des Kriegsministeriums v. <date when="1854-01-29">29. 1. 1854</date>, <bibl type="archival">RGBL. Nr. 40/1850</bibl>, <quote>womit die von Sr. Majestät sanktionierten Bestimmungen über die Zulassung und Behandlung fremder Kriegsschiffe in den k. k. österreichischen Häfen kundgemacht werden</quote>, und Zirkularverordnung des Armeeoberkommandos v. <date when="1854-08-09">9. 8. 1854</date>, <bibl type="archival">RGBL. Nr. 205/1854</bibl>, mit einigen nachträglichen Bestimmungen zum Erlaß von 1854.</note>. Was diese neue Vorschrift veranlaßt habe und weshalb die bisherigen Verordnungen den internationalen Verhältnissen und Bedürfnissen nicht mehr entsprechen, werde in dem betreffenden Vortrage des Marineministers nicht nachgewiesen, gleichwohl glaubte der Staatsrat, da von den beteiligten Ministerien kein Anstand erhoben wurde, sich der Zweifel über die Notwendigkeit und der Opportunität der Erlassung neuer Bestimmungen entschlagen und in die Beratung dieses Gegenstandes eingehen zu sollen. Hiebei haben sich nun folgende von den Anträgen des Marineministers abweichende Ansichten ergeben.</p>
+                  <p>Bei § 1 will man die Worte „mit Ausnahme des Hafens von Klek“ weglassen, und wurde der Schlußsatz dieses Paragraphes als entbehrlich bezeichnet, wenn dem Wörtchen „darf“ die Worte angefügt werden „unter nachfolgenden Bestimmungen“. Der vortragende Präsident sehe jedoch nicht ab, warum die Bezugnahme auf die Ausnahme des Hafens Klek im § 1 vermieden werden müßte, so wie er auch mit der Weglassung des Schlußsatzes nicht einverstanden wäre. Er glaube vielmehr, daß so wie in dem früheren Gesetze vom Jahre 1850 mit Deutlichkeit auszudrücken wäre, daß das Einlaufen in die Kriegshäfen in der Regel ganz verboten sei, wie es der § 17 doch wirklich beabsichtigt. Seines Erachtens dürfte der § 1 nur derart modifiziert werden, daß nach dem Worte „darf“ beigefügt werde „und der Kriegshäfen, in welche einzulaufen fremden Kriegsschiffen in der Regel (§ 17) untersagt ist“. Der Marineminister erklärte sich mit dieser Modifikation einverstanden, und wurde auch von keiner anderen Seite etwas dagegen erinnert.</p>
+                  <p>Bei § 2, wonach die Anzahl der Kriegsschiffe einer und derselben Flagge, welche in einem österreichischen Hafen einlaufen können, nicht beschränkt werde, habe man sich im Staatsrate für eine Beschränkung der Anzahl dieser Schiffe, rücksichtlich dafür ausgesprochen, daß in dieser Beziehung auf die Bestimmungen vom Jahre 1850 zurückgegangen werde, zumal nach der Meinung des vortragenden Präsidenten überhaupt nicht abzusehen sei, warum von denselben abgewichen werden soll, da bisher nichts vorliege, daß selbe wirklich praktische Anstände nach sich gezogen haben, hingegen es aber fast sicher sein dürfte, daß das neue Gesetz nur Verlegenheiten bringen werde<note type="footnote" n="17">Der Erlaß von 1854 beschränkte die Erlaubnis zum Einlaufen fremder Kriegsschiffe ein und derselben Flagge auf ein großes und zwei kleine Schiffe.</note>. Man belasse es daher lieber beim Status quo und entscheide von Fall zu Fall. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> verteidigte seinen Antrag, indem er sich hiebei auf das von der Hafenadmiralität in der Sache abgegebene Gutachten, welches er vorlas, stützte<note type="footnote" n="18">Liegt dem in Anm. 15 zit. Sammelakt bei. Es wurde vor allem damit argumentiert, daß es in dieser Frage auch <quote>in den vorzüglichsten maritimen Staaten</quote> England, Frankreich und Holland keinerlei Beschränkungen in Zeiten des allgemeinen Friedens gebe.</note>. Ginge man hier auf die früheren Bestimmungen zurück, so dürfte überhaupt eine Erneuerung dieser Vorschrift kaum einen Wert haben und es müßte eigentlich dann die Hauptfrage entstehen, ob überhaupt dieses neue Reglement zu erlassen ist oder nicht.</p>
+                  <p>
+                     <pb n="331" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s331.pdf"/>Nachdem hier von mehreren Stimmen hervorgehoben wurde, daß es überhaupt schwer sei, heute über das fragliche Gesetz zu urteilen, da man mit dem Wesen desselben nicht vertraut ist und eine nähere Motivierung desselben nicht vorliege, fanden sich <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit</rs>
+                     </hi> veranlaßt, den Marineminister aufzufordern, vorläufig diesen Gesetzentwurf zur Mitteilung an die Konferenzmitglieder lithographieren lassen und dann diesen Gegenstand in der nächsten Konferenz wieder in Vortrag bringen zu wollen, worauf der Marineminister seinen vorliegenden au. Vortrag einstweilen zurückgezogen hatte<note type="footnote" n="19">Burger legte den Entwurf nicht wieder vor, es blieb bei den bestehenden Bestimmungen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Verrechnug der an türkische Kriegsdampfer aus ärarischen Depots verabfolgten Steinkohle</head>
+                  <p>Mit der Ah. Entschließung vom <date when="1862-08-23">23. August 1862</date> wurde Ah. genehmigt, daß der Kostenbetrag von 5160 fl. 56 Kreuzer für die vom Monate Mai 1861 bis Mai 1862 an mehrere türkische Kriegsfahrzeuge aus den Marinemagazinen in Gravosa überlassenen Steinkohlen definitiv verrechnet und daß dafür keine Ersatzforderung an die türkische Regierung gestellt werde<note type="footnote" n="20">Diese Ah. Entschließung war auf den Vortrag des mit der Leitung des Marineministeriums betrauten Grafen Wickenburg v. <date when="1862-07-23">23. 7. 1862</date> ergangen. Das Marineministerium hatte zuerst Kostenersatz verlangt, aber auf Anraten des Internuntius in Konstantinopel davon Abstand genommen, weil die türkische Admiralität mannigfache Gefälligkeiten zugunsten des Lloyd oder von k. k. Kriegsschiffen bereitwillig geleistet habe, deren Wert den Betrag für die Steinkohlen weit überschritten habe; siehe dazu den Sammelakt <bibl type="archival">KA., AMA., M/c/20:2/1862</bibl>.</note>. Seit dieser Zeit seien abermals 185 Tonnen Steinkohlen an türkische Kriegsdampfer verabfolgt worden, wodurch der Marinedotation neuerlich ein nicht präliminierter Ausfall von 2817 fl. verursacht werde. Dessenungeachtet glaubt aber der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Marineminister</rs>
+                     </hi> aus denselben Gründen der Reziprozität, welche bei obiger Gelegenheit entwickelt wurden, den au. Antrag auf die Ag. Erteilung der Bedeckung und deren Verrechnung ohne Ersatzanspruch an die türkische Regierung stellen zu sollen. Da aber andererseits der Vorrat an Steinkohlen in Gravosa sehr abgenommen hat und nachdem die vorhandene Quantität für die k. k. Kriegsschiffe vorbehalten werden müsse, endlich in Anbetracht der geringen Geldmittel der Kriegsmarine glaubte Freiherr v. Burger noch gleichzeitig den Minister des Äußern von diesem Sachverhalte mit dem Beisatz verständigen zu sollen, daß bei den obwaltenden Umständen an die türkischen Kriegsfahrzeuge dermal aus den Marinemagazinen in Gravosa keine Steinkohlen verabfolgt werden können. Hierwegen ergab sich dem Ministerrate keine Erinnerung<note type="footnote" n="21">Mit Vortrag v. <date when="1863-03-15">15. 3. 1863</date> beantragte Burger die definitive Verrechnung, brachte aber zugleich zur Kenntnis, daß und warum vorläufig keine Kohlen mehr verabfolgt werden konnten. Mit Ah. E. v. <date when="1863-03-27">27. 3. 1863</date> erteilte der Kaiser die Genehmigung, <bibl type="archival">KA., AMA., M/c/2: 8/1863</bibl> (dabei die RS. beider Vorträge).</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_5_334_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Ausfertigung des Patents vom <date when="1861-02-26">26. Februar 1861</date> in den drei Landessprachen Siebenbürgens und Hinterlegung im siebenbürgischen Landesarchiv</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> referierte, daß er es unter den gegenwärtigen Umständen für angezeigt halte, daß das Ah. Patent vom <date when="1861-02-26">26. Februar 1861</date> samt dem Grundgesetze über die Reichsvertretung, und zwar in den drei Landessprachen Siebenbürgens, ausgefertigt und in dem siebenbürgischen Landesarchive niedergelegt werde, wie es mit dem Diplome vom <date when="1860-10-20">20. Oktober 1860</date> bereits geschehen ist<note type="footnote" n="22">Die Hinterlegung des Februarpatents, des Grundgesetzes über die Reichsvertretung und der für jedes Land besonderen Grundgesetze, also z. B. der Landesordnungen, in den Landesarchiven war durch Art. VII des Februarpatents angeordnet. Für Ungarn, Kroatien-Slawonien, Siebenbürgen und das lombardisch-venezianische Königreich wurde diese Maßnahme nicht vollzogen, da die besonderen Grundgesetze für diese Länder nicht festgestellt waren. Dies galt für Siebenbürgen nach wie vor, doch beantragte Nádasdy als politische Geste angesichts des bevorstehenden Landtags – siehe dazu MR. v. 7. und <date when="1863-04-09">9. 4. 1863</date> ( = Sammelprotokoll Nr. 339) – die Hinterlegung des Februarpatents in den drei Landessprachen.</note>. Er <pb n="332" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b5-pdf.xml%23a5-b5_einzelseiten/a5-b5_s332.pdf"/>glaubte daher an Se. k. k. Hoheit die Bitte stellen zu sollen, wegen Einholung der diesfälligen Ah. Genehmigung das Geeignete gnädigst veranlassen zu wollen.</p>
+                  <p>Dem Ministerrate ergab sich hierwegen keine Bemerkung<note type="footnote" n="23">Mit Ah. E. v. <date when="1863-03-31">31. 3. 1863</date> auf den diesbezüglichen Vortrag Erzherzog Rainers genehmigte Franz Joseph die Ausfertigung und Hinterlegung, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1034/1863</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am <date when="1863-03-24">24. März 1863</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolles zur Kenntnis genommen. Franz Joseph. Wien, am <date when="1863-04-14">14. April 1863</date>.</seg>
+                  <seg type="other">Empfangen <date when="1863-04-14">14. April 1863</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

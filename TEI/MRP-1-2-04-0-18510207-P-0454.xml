@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="2">Abteilung II</title>
+            <title level="s" type="sub">Das Ministerium Schwarzenberg</title>
+            <title level="m" type="main" n="4">Band 4</title>
+            <title level="m" type="sub">Oktober 1850 – <date when="1851-05-30">30. Mai 1851</date>
+            </title>
+            <title level="a" type="desc" n="453">Sitzung 453</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1851-02-12"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a2-b4-z453.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung II Das Ministerium Schwarzenberg, Band 4 Oktober 1850 – 30. Mai 1851</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="2011">2011</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MKZ">502</idno>
+                  <idno type="KZ">374</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1851-02-12"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Schwarzenberg; BdE. und anw. (Schwarzenberg 13. 2.), P. Krauß 22. 2. (außer I.), Bach (außer I.), 14. 2., Bruck, K. Krauß, Thinnfeld 14. 2., Thun, Csorich, Kulmer 14. 2.; abw. Stadion.</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8270">
+                     <surname>Schwarzenberg</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-02-13">1851-02-13</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8163">
+                     <surname>P. Krauß</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (außer I.)</note>
+                  <note>BdE. <date when="1851-02-22">22. 2.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol" ana="partially-absent">
+                  <persName ref="#mpr8565">
+                     <surname>Bach</surname>
+                  </persName>
+                  <note>nicht durchgehend anwesend (außer I.)</note>
+                  <note>BdE. <date when="1851-02-14">14. 2.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8295">
+                     <surname>Bruck</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr6886">
+                     <surname>K. Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8372">
+                     <surname>Thinnfeld</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-02-14">14. 2.</date>
+                  </note>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr7419">
+                     <surname>Thun</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8368">
+                     <surname>Csorich</surname>
+                  </persName>
+               </person>
+               <person role="attendant signed-protocol">
+                  <persName ref="#mpr8303">
+                     <surname>Kulmer</surname>
+                  </persName>
+                  <note>BdE. <date when="1851-02-14">14. 2.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8275">
+                     <surname>Stadion</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_2_4_453_1">Vier Gnadenanträge des Justizministers</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_2_4_453_2">Rehabilitierung August Reinisch’</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_2_4_453_3">Kosten der Ausstellung österreichischer Industrieerzeugnisse in London</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_2_4_453_4">Lombardisch-venezianische Anleihe</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_2_4_453_5">Verzehrungs­steuereinführung von Wein und Fleisch in Siebenbürgen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_2_4_453_6">Einkommensteuerfreiheit der Urbarial­entschädigungen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_2_4_453_7">Verteidigung eines Beklagten durch Karl Giskra</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_2_4_453_8">Goldenes Verdienstkreuz für Anton Rautenkranz</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_2_4_453_9">Goldenes Verdienstkreuz für Maria Angelina (Klenkar)</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_2_4_453_10">Silbernes Verdienstkreuz für Franz Erd</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="11">XI.</num>
+                  </label>
+                  <ref target="#top_2_4_453_11">Goldenes Verdienstkreuz für Andreas Obermayer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="12">XII.</num>
+                  </label>
+                  <ref target="#top_2_4_453_12">Bestimmung der Stadt Kreibitz als wahlberechtigter Ort</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="13">XIII.</num>
+                  </label>
+                  <ref target="#top_2_4_453_13">Stellung der Professoren an den Universitäten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="14">XIV.</num>
+                  </label>
+                  <ref target="#top_2_4_453_14">Silbernes Verdienstkreuz für Joseph Prandstetter</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="15">XV.</num>
+                  </label>
+                  <ref target="#top_2_4_453_15">Behandlung der konfiszierten Güter in Ungarn etc</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-2-04-0-18510207-P-0454" ana="a2-b4-z453">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml#a2-b4_z453.pdf">
+               <title type="num">Nr. 453</title>
+               <title type="descr">Ministerrat, Wien, <date when="1851-02-07">7. Februar 1851</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Schwarzenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> und <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> (Schwarzenberg 13. 2.), P. Krauß 22. 2. (außer I.), Bach (außer I.), 14. 2., Bruck, K. Krauß, Thinnfeld 14. 2., Thun, Csorich, Kulmer 14. 2.; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Stadion.</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ"/>
+                  <idno type="KZ">374</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der am <date when="1851-02-12">12. Februar 1851</date> in Wien abgehaltenen Ministerratssitzung unter dem Vorsitze des Ministerpräsidenten, dann Ministers des Äußern und des Hauses Fürsten Felix v. Schwarzenberg.</head>
+               <div type="agenda_item" xml:id="top_2_4_453_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Vier Gnadenanträge des Justizministers</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister Ritter v. Krauß</rs>
+                     </hi> brachte in Übereinstimmung mit dem Obersten Gerichtshofe folgende Gnadenanträge zur Sprache:</p>
+                  <p>a) Die Nachsicht der Todesstrafe für die wegen des Verbrechens der Giftmischung und beziehungsweise des Gattenmordes verurteilten Mida Lakity, Milka Miletity und Katharina Lazity, Gliša [Krsztekanity]. Sie sind aus Serbien, seit dem Jahre 1845 in Untersuchung und nach unseren Gesetzen könnte das Verbrechen nicht als erwiesen angesehen, weshalb denn der Oberste Gerichtshof einstimmig auf Nachsicht der Todesstrafe angetragen hat<note type="footnote" n="1">Auf Vortrag Karl Krauß’ v. <date when="1851-02-12">12. 2. 1851</date> wurde Mida Lakity, Katharina Lazity und Gliša Krsztekanity (Milka Miletity war inzwischen verstorben) mit Ah. E. v. <date when="1851-02-21">21. 2. 1851</date> die Todesstrafe erlassen und der Oberste Gerichtshof mit der Verhängung einer Zeitstrafe beauftragt, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 513/1851</bibl>.</note>.</p>
+                  <p>b) Die Nachsicht der noch übrigen Strafe für den zu achtmonatlichem schweren Kerker wegen öffentlicher Gewalttätigkeit gegen die Gefällswache verurteilten Semen Woloszyniuk aus Galizien, welcher 17 Monate lang in Untersuchung gestanden ist<note type="footnote" n="2">Auf Vortrag Karl Krauß’ v. <date when="1851-02-12">12. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-21">21. 2. 1851</date> nach dem Ministerratsbeschluß, <bibl type="archival">ebd., MKZ. 509/1851</bibl>.</note>.</p>
+                  <p>c) Die Verwandlung der Arreststrafe in achtjährigen Hausarrest für den Pfarrer Franz Worwansky in Böhmen, welcher die ämtliche Kundmachung zu einer Wahl unglimpflich behandelt hat und wegen „Mißhandlung der Patente“ verurteilt wurde<note type="footnote" n="3">Auf Vortrag Karl Krauß’ v. 12, 2. 1851 entschied der Kaiser mit Ah. E. v. <date when="1851-02-21">21. 2. 1851</date> nach dem Ministerratsbeschluß, <bibl type="archival">ebd., MKZ. 512/1851</bibl>.</note>.</p>
+                  <p>d) Die Nachsicht des Strafrestes für die wegen Brandlegung zu sechsjährigem schweren Kerker verurteilte Hedwig Kopciowna. Sie befand sich mehr als zwei Jahre im Untersuchungsarreste, wird im April d. J. vier Jahre ihrer Strafzeit überstanden haben, hat den<pb n="255" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s255.pdf"/> Beinfraß bekommen. Und die Ärzte behaupten, daß sie zugrunde gehen müßte, wenn sie im Kerker bleibt<note type="footnote" n="4">Auf Vortrag Karl Krauß’ v. 12, 2. 1851 entschied der Kaiser mit Ah. E. v. <date when="1851-02-21">21. 2. 1851</date> nach dem Ministerratsbeschluß, <bibl type="archival">ebd., MKZ. 510/1851</bibl>.</note>.</p>
+                  <p>Der Justizminister trug an, für alle Obgenannten die Ah. Gnade Sr. Majestät in Anspruch zu nehmen, wogegen der Ministerrat nichts zu erinnern fand.</p>
+                  <p>An der Besprechung über die vorstehenden Gnadenanträge haben die Minister der Finanzen und des Inneren keinen Teil genommen.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Rehabilitierung August Reinisch’</head>
+                  <p>Dem Antrage des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministers für Landeskultur und Bergwesen Edlen v. Thinnfeld</rs>
+                     </hi>, daß das Mitglied des gewesenen ungarischen revolutionären Landtages Reinisch wieder angestellt werden dürfe, wurde vom Ministerrate beigestimmt, weil, wie der Minister v. Thinnfeld bemerkte, sein früheres Benehmen tadellos war, er nur passiven Anteil an den Verhandlungen im Landtage genommen hat und einer von jenen ist, gegen welche die anhängig gemachte Untersuchung wieder aufgehoben wurde<note type="footnote" n="5">Der Akt, <bibl type="archival">FA., FM., Montanabteilung, MLB., Präs. 1291/1850</bibl>, mit dem Gesuch August Reinischs um seine Belassung im Staatsdienst liegt nicht mehr ein. Vgl. dazu das Protokoll der achten Sitzung der k. k. Ministerial-Disziplinar-Kommission in Hermannstadt v. <date when="1851-01-30">30. 1. 1851</date>, in dem die Wiederanstellung Reinischs befürwortet wurde, <bibl type="archival">ebd., Präs. 344/1851</bibl>. Mit Dekret (K.) v. <date when="1851-02-24">24. 2. 1851</date> entschied Thinnfeld, daß August Reinisch in den Staatsdienst ohne Nachtrag seines Gehaltes wieder aufzunehmen ist, <bibl type="archival">ebd.</bibl> Zu August Reinisch siehe <bibl type="secondary">
+                           <author>Pálmány</author> (Hg.), Az 1848–1849. évi első népképviseleti országgyűlés történeti almanachja 716 f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Kosten der Ausstellung österreichischer Industrieerzeugnisse in London</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister Freiherr v. Krauß</rs>
+                     </hi> brachte zur Kenntnis des Ministerrates, daß die englische Regierung zur Ausstellung der Industrieerzeugnisse in London nur den Raum hergebe, sonst aber keine Auslagen trage<note type="footnote" n="6">Zur Londoner Industrieausstellung siehe zuletzt <ref type="protocol-link" target="MRP-1-2-02-0-18500411-P-0318.xml">MR. v. <date when="1850-04-11"/>11. 4. 1850</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b2-z318" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b2/pdf/a2-b2-z318.pdf" target="MRP-1-2-02-0-18500411-P-0318.xml">ÖMR. II/2, Nr. 318</ref>
+                        </bibl>.</note>. Die französische Regierung habe 683.000 Francs bewilligt, um die Kosten der Ausstellung der französischen Industrieerzeugnisse in der Hauptstadt Englands zu decken. Nach dem dem Handelsminister Freiherrn v. Bruck mitgeteilten Berichte der österreichischen Ausstellungs­kommission dürften unsere Auslagen der Ausstellung in London sich wenigstens auf 15.000 Pfund Sterling belaufen<note type="footnote" n="7">Der entsprechende Akt, <bibl type="archival">AVA., HM., Präs. 304/1851</bibl>, liegt nicht mehr ein.</note>. Der Finanzminister äußerte hierbei nur den Wunsch, daß dieser Betrag von den Finanzen in Raten in Anspruch genommen werden möge<note type="footnote" n="8">Der Akt, <bibl type="archival">FA., FM., Präs. 1903/1851</bibl>, laut Protokollbuch <quote>Handelsminister wegen Eröffnung eines Kredits von 15.000 £. Sterling für die Londoner Agentie zur Herstellung der Industrie Ausstellung</quote>, liegt nicht mehr ein. Mit Schreiben v. <date when="1851-02-18">18. 2. 1851</date> ersuchte dann Bruck den Finanzminister um die vorläufige Flüßigmachung von 5000 £. Sterling für die Londoner Ausstellung. Philipp Krauß kam diesem Ersuchen mit seiner entsprechenden Weisung (K.) v. <date when="1851-02-22">22. 2. 1851</date> an die Staatszentralkassa nach, alles in <bibl type="archival">ebd., Präs. 2510/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Lombardisch-venezianische Anleihe</head>
+                  <p>Derselbe Minister besprach hierauf abermals das lombardisch-venezianische Anlehen<note type="footnote" n="9">Fortsetzung des <ref type="protocol-link" target="MRP-1-2-04-0-18501220-P-0436.xml#top_2_4_436_3">MR. v. <date when="1850-12-20">20. 12. 1850</date>/III</ref>.</note>. Wie bekannt, wurde in den venezianischen Provinzen getrachtet, das Anlehen im freiwilligen Wege aufzubringen. Die Lombarden haben bis vor kurzem keine Miene gemacht, denselben Weg einzuschlagen, und so mußten die erste und zweite Rate dieses Anlehens von ihnen im Zwangswege eingebracht werden. Nun fangen aber auch die<pb n="256" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s256.pdf"/> lombardischen Provinzen, insbesondere Mantua und Cremona, an, Unternehmer für das Anlehen zu suchen. Ministerialrat Schwind meint, daß für die lombardischen Provinzen eine weitere Fristerstreckung (die erste ist nämlich am 17. Jänner d. J. abgelaufen) zu bewilligen und jenen, die bis zu Ende dieses Monates subskribieren, ein Abzug von 8 % zugunsten zu gestatten wäre<note type="footnote" n="10">Siehe dazu zwei Schreiben Schwinds an Philipp Krauß v. <date when="1851-01-29">29. 1. 1851</date>, <bibl type="archival">FA., FM., Präs. 1636 et 1637/1851</bibl>.</note>.</p>
+                  <p>Der Finanzminister erachtet dagegen, daß in eine einfache Fristerstreckung <ref xml:id="fn_2_4_453_a">zur Erlangung der günstigsten Anleihebedingungen</ref>
+                     <note type="variant" n="a" target="#fn_2_4_453_a">Einfügung a–a P. Krauß’.</note> nicht weiter einzugehen wäre. Die Provinzen Mantua und Cremona wären wie die venezianischen Provinzen zu behandeln, und denselben, wenn sie Unternehmer finden, die ursprünglichen Begünstigungen zu gewähren. Was die anderen Provinzen anbelangt, so hätte es in Ansehung derselben bei den im April 1850 festgesetzten Bedingungen zu verbleiben. Sie wären zwar nicht unbedingt <ref xml:id="fn_2_4_453_b">von der Aufbringung des Anleihens im freiwilligen Wege</ref>
+                     <note type="variant" n="b" target="#fn_2_4_453_b">Einfügung b–b P. Krauß’.</note> auszuschließen, doch hätten sie nicht an der Begünstigung des freiwilligen Anlehens (nämlich die Hälfte in Münze und die andere Hälfte in Tresorscheinen zu entrichten) teilzunehmen, sondern müßten drei Fünftel im Baren und zwei Fünftel in Tresorscheinen einzahlen. Durch diese Maßregel würde die Einbringung des Anlehens, für welches noch zehn Monate offen stehen, auch in den lombardischen Provinzen erleichtert, und die Regierung bliebe sich doch konsequent.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden<note type="footnote" n="11">Mit Schreiben (K.) v. <date when="1851-02-13">13. 2. 1851</date> teilte Philipp Krauß Schwind den Ministerratsbeschluß mit und erteilte ihm entsprechende Weisungen für die Durchführung, <bibl type="archival">ebd.</bibl> Zum weiteren Verlauf und Abschluß der lombardo-venezianischen Anleihe siehe <bibl type="secondary">
+                           <author>Brandt</author>, Neoabsolutismus 2, 650 f.</bibl>
+                     </note>, so wie</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Verzehrungs­steuereinführung von Wein und Fleisch in Siebenbürgen</head>
+                  <p>mit dem weiteren Antrage des Finanzministers, die Verzehrungssteuer von Wein und Fleisch in Siebenbürgen einzuführen. Das hierüber vernommene Thesauriat und der Landeschef erachten, daß die in Ansehung der Versteuerung der genannten Gegenstände für Ungarn, und zwar für das flache Land, erlassene und vom 1. März d. J. in Wirksamkeit tretende Vorschrift für Siebenbürgen ganz in Anwendung kommen könnte<note type="footnote" n="12">Schreiben Rosenfelds an Krauß v. <date when="1851-01-07">7. 1. 1851</date>, in dem er auch die Position Wohlgemuths erläuterte, <bibl type="archival">FA., FM., Präs. 579/1851</bibl>. Zur Einführung der Verzehrungssteuern in Ungarn siehe zuletzt <ref type="protocol-link" target="MRP-1-2-04-0-18501105-P-0414.xml#top_2_4_414_3">MR. v. <date when="1850-11-05">5. 11. 1850</date>/III</ref>.</note>. In den gleichzeitig geäußerten Wunsch, allen Gemeinden, also auch Städten in Siebenbürgen, gewisse Beträge bekanntzumachen, um Abfindungen bezüglich der genannten Steuer zustande zu bringen, wäre nach der Ansicht des Finanzministers nicht einzugehen, weil es an allem Maßstabe fehlt, einen Betrag zum Behufe der Bemessung der Steuer auszusprechen. In Siebenbürgen ist ferner keine Stadt so groß, um sie behufs der Steuer von Wein und Fleisch als geschlossen anzusehen. Die in Ungarn in Ansehung des Fleisches eingeführten Kontrollsmaßregeln wären in Siebenbürgen nicht zu aktivieren und es wäre auch in Ungarn, wenn es gewünscht werden sollte, davon abzugehen. Bei der Vorschrift, daß in der Nacht die Einführung von Getränken nicht gestattet ist, hätte es zu verbleiben.<pb n="257" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s257.pdf"/>
+                  </p>
+                  <p>Die Einführung der Verzehrungssteuer von Wein und Fleisch in Siebenbürgen hätte vom 1. Juli d. J. in Wirksamkeit zu treten<note type="footnote" n="13">Mit Erlaß (K.) Krauß’ v. <date when="1851-02-13">13. 2. 1851</date> über die Bemessung und Einhebung der Verzehrungssteuer von Wein und Fleisch in Siebenbürgen in Orten mit über 2000 Einwohnern wurde diese Angelegenheit im Sinne des Ministerratsbeschlusses geregelt, <bibl type="archival">FA., FM., Präs. 579/1851</bibl>; publiziert als <bibl type="archival">RGBL. Nr. 40/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Einkommensteuerfreiheit der Urbarial­entschädigungen</head>
+                  <p>Schließlich brachte der Finanzminister noch die Frage in Anregung, ob in diesem Jahre von den Vorschüssen auf Urbarialentschädigungen die Einkommensteuer zu entrichten sei oder nicht, und erklärte sich mit Zustimmung des Ministerrates für die Verneinung dieser Frage, weil die Berechtigten überhaupt viel verloren haben und der Zweck der ihnen geleisteten Vorschüsse ist, ihnen aufzuhelfen<note type="footnote" n="14">Die Frage war bereits mit der Anfrage Mecsérys v. <date when="1850-07-20">20. 7. 1850</date>, in welcher Weise die Besteuerung der Grundentlastungsrenten und Vorschüsse zu geschehen habe, aufgetaucht, <bibl type="archival">FA., FM. Präs. 10271/1851</bibl>.</note>. Ferner spreche die Rücksicht dafür, daß ein Drittel für die Steuern abgezogen wurde<note type="footnote" n="15">Mit Weisung (K.) v. <date when="1851-02-12">12. 2. 1851</date> legte das Finanzministerium fest, daß die fragliche Besteuerung für das Verwaltungsjahr 1851 zu unterbleiben habe, ebd. Zur weiteren Entwicklung in dieser Angelegenheit siehe <bibl type="archival">ebd., Präs. 3095/1852</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Verteidigung eines Beklagten durch Karl Giskra</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Dr. Bach</rs>
+                     </hi> besprach hierauf die Verteidigung eines Angeschuldigten bei den Assisen von Seite des bekannten Dr. Giskra. Er bemerkte, daß er hierüber Berichte der Autoritäten eingeholt habe, welche sich gegen die Sache erklärt haben<note type="footnote" n="16">Siehe dazu das Schreiben des Wiener Stadthauptmanns an Bach v. <date when="1851-02-07">7. 2. 1851</date>, <bibl type="archival">HHSTA., Informationsbüro, A-Akten, GZ. 4766/1851</bibl>.</note>. Die Tendenz der Übelgesinnten bei solchen Verteidigungen gehe dahin, nur pikante Fälle aufzusuchen und Anlaß zu finden, die Autoritäten herabzusetzen. Der Minister habe Grund vorauszusetzen, daß man hierbei planmäßig zu Werke gehe, um das Publikum in Erregtheit zu erhalten, und stellte die Frage, ob es nicht mit Rücksicht auf die bereits gemachte Erfahrung angemessen wäre, <ref xml:id="fn_2_4_453_c">das Recht, als Verteidiger aufzutreten</ref>
+                     <note type="variant" n="c" target="#fn_2_4_453_c">Korrektur c–c Bachs aus <quote>die Verteidigungspflicht</quote>.</note>, auf die Advokaten zu beschränken, welche unter der Disziplin sowohl der Advokatenkammer als des Gerichtspräsidenten stehen, daher mehr Bürgschaft für ihr Verhalten als andere Individuen gewähren.</p>
+                  <p>Über die Bemerkung des <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizministers</rs>
+                     </hi>, daß auf dem Lande nicht leicht überall Advokaten als Verteidiger zu haben wären, daß häufig selbst Gerichtspersonen als Verteidiger aufgestellt werden müssen, daß wegen des einzigen in Wien vorgekommenen Falles nicht wohl eine Ausnahme von dem Systeme für Wien festzusetzen wäre, was allenfalls dann <ref xml:id="fn_2_4_453_d">in Erwägung gezogen werden</ref>
+                     <note type="variant" n="d" target="#fn_2_4_453_d">Korrektur d–d Bachs aus <quote>geschehen</quote>.</note> könnte, wenn sich solche Fälle wiederholten, daß man dem Angeschuldigten die Wohltat der Verteidigung möglich machen und ihm freistellen müßte, sich als Verteidiger jenen zu wählen, zu welchem er ein besonderes Vertrauen hat, daß wenn ein solcher Verteidiger ausschreitet, der Gerichtsvorsitzer ihm das Wort entziehen kann, und daß schon darin eine hinlängliche Beschränkung liege, daß zu Verteidigern nur solche gewählt werden dürfen, welche entweder zum Richteramte<pb n="258" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s258.pdf"/> beeidiget oder zur Advokatie befähigt sind, wurde die obige Frage einstweilen fallen gelassen<ref xml:id="fn_2_4_453_e"/>
+                     <note type="variant" n="e" target="#fn_2_4_453_e">Korrektur K. Krauß’ aus <quote>umso mehr fallengelassen, als, wie der Justizminister bemerkte, ohnehin eine Verhandlung im Zuge ist, ob ein Mitglied des Gerichtes auch Verteidiger bei diesem sein kann, und er sich vorbehielt, dabei auf die oberwähnte Frage Rücksicht zu nehmen</quote>.</note>.<note type="footnote" n="17">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-2-04-0-18510214-P-0455.xml#top_2_4_455_4">MR. v. <date when="1851-02-14">14. 2. 1851</date>/IV</ref>.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Goldenes Verdienstkreuz für Anton Rautenkranz</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Dr. Bach</rs>
+                     </hi> brachte nun mehrere Auszeichnungen in Antrag, und zwar: für den Strafhausverwalter in Innsbruck Anton Rautenkranz das goldene Verdienstkreuz. Der Statthalter rühmt seine langen und ausgezeichneten Dienste, besonders in den letzten drei Jahren, die zweckmäßige Einrichtung der Anstalt und die dabei erzielten großen Ersparungen. Er bemerkt, daß Se. Majestät diese Anstalt mit Allerhöchstihrem Besuche zu beehren, die Anstalt gut zu finden und mehrere Sträflinge zu begnadigen geruhten<note type="footnote" n="18">Auf Vortrag Bachs v. <date when="1851-02-16">16. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-23">23. 2. 1851</date> im Sinne des Ministerratbeschlusses, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 532/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Goldenes Verdienstkreuz für Maria Angelina (Klenkar)</head>
+                  <p>Für die Klosterfrau, Chirurgin und Oberkrankenwärterin im Elisabethinerinnenkloster zu Prag Maria Angelina (mit Familiennamen Klenkar) gleichfalls das goldene Verdienstkreuz. Dieselbe ist seit dem Jahre 1795, somit bereits 55 Jahre Krankenwärterin in dem genannten Kloster und hat sich stets durch besondere Tätigkeit und aufopfernde Hilfeleistung ausgezeichnet und ist einige und siebenzig Jahre alt. Sie hat einen Teil ihres Vermögens dem Kloster gewidmet, dann bei Epidemien und bei der Pflege der im Jahre 1813 bei Kulm und Leipzig verwundeten österreichischen Krieger besonders gute Dienste geleistet<note type="footnote" n="19">Auf Vortrag Bachs v. <date when="1851-02-15">15. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-22">22. 2. 1851</date> im Sinne des Ministerratbeschlusses, <bibl type="archival">ebd., MKZ. 517/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Silbernes Verdienstkreuz für Franz Erd</head>
+                  <p>Für den Ortsrichter in Großhöflein Erd das silberne Verdienstkreuz. Dieser hat sich als Marktrichter, besonders während der ungarischen Wirren, dadurch ausgezeichnet, daß er bei dem Einmarsche der österreichischen Truppen sich ihnen zur Disposition stellte, ihnen alle in seiner Macht liegende Unterstützung leistete und die Gemeinde vor jeder Beteiligung an den damaligen Umtrieben abhielt<note type="footnote" n="20">Auf Vortrag Bachs v. <date when="1851-02-15">15. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-23">23. 2. 1851</date> im Sinne des Ministerratbeschlusses, <bibl type="archival">ebd., MKZ. 530/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_11" n="11">
+                  <head type="regest">
+                     <label>
+                        <num>XI. </num>
+                     </label>Goldenes Verdienstkreuz für Andreas Obermayer</head>
+                  <p>Für den Hauptmann des früheren Bürgerkorps Obermayer das goldene Verdienstkreuz. Derselbe hat sich im Jahre 1848 sehr gut benommen, sich auch als Armenvater Verdienst erworben und mit zwei anderen, welche bereits Auszeichnungen erhielten, sich bei der Bewachung der Hofburg im Jahre 1848 ausgezeichnet<note type="footnote" n="21">Auf Vortrag Bachs v. <date when="1851-02-16">16. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-23">23. 2. 1851</date> im Sinne des Ministerratbeschlusses, <bibl type="archival">ebd., MKZ. 531/1851</bibl>.</note>.</p>
+                  <p>Gegen diese bei Sr. Majestät in Antrag zu bringenden Auszeichnungen (VIII–XI) hat der Ministerrat nichts zu erinnern gefunden.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_12" n="12">
+                  <head type="regest">
+                     <label>
+                        <num>XII. </num>
+                     </label>Bestimmung der Stadt Kreibitz als wahlberechtigter Ort</head>
+                  <p>Der Statthalter von Böhmen Baron Mecséry stellte bei dem Umstande, daß Kreibitz in Böhmen unter den wahlberechtigten Orten erscheint, es dort aber auf einem Flecke mehrere Ortschaften dieses Namens gibt, die Anfrage, welche als die Wahlberechtigte<pb n="259" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s259.pdf"/> anzusehen sei, und meinte, daß die Stadt Kreibitz als die größte unter den gleichnamigen Ortschaften als solche zu erklären wäre<note type="footnote" n="22">Schreiben Mecsérys an Bach v. <date when="1850-11-21">21. 11. 1850</date>, <bibl type="archival">AVA., IM., Allg. 26565/1850</bibl>.</note>.</p>
+                  <p>Der Minister Dr. Bach bemerkte, daß eben die Stadt Kreibitz bei der Bestimmung der wahlberechtigten Ortschaften in Böhmen die gemeinte sei, was mit Zustimmung des Ministerrates dem Statthalter Baron Mecséry zu erwidern wäre<note type="footnote" n="23">Mit Schreiben (K.) v. <date when="1851-02-18">18. 2. 1851</date> teilte Bach Mecséry den Beschluß des Ministerrates mit, <bibl type="archival">ebd.</bibl> Die entsprechende Kundmachung Mecsérys v. <date when="1851-02-20">20. 2. 1851</date> publiziert als <bibl type="secondary">
+                           <title>Landesgesetz- und Regierungsblatt für das Kronland Böhmen</title> Nr. 38/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_13" n="13">
+                  <head type="regest">
+                     <label>
+                        <num>XIII. </num>
+                     </label>Stellung der Professoren an den Universitäten</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Kultus und öffentlichen Unterrichtes Graf Leo Thun</rs>
+                     </hi> referierte über die Stellung der Professoren an den Universitäten. Er bemerkte, daß Se. Majestät im Jahre 1849 Bestimmungen über die künftige Regulierung der Gehalte und des Vorrückungsrechtes <ref xml:id="fn_2_4_453_f">neu anzustellender</ref>
+                     <note type="variant" n="f" target="#fn_2_4_453_f">Korrektur f–f Thuns aus <quote>der</quote>.</note> Fakultätsprofessoren an den Universitäten zu Wien, Prag, Lemberg, Krakau, Olmütz, Gratz und Innsbruck zu erlassen geruhet haben<note type="footnote" n="24">Siehe dazu <ref type="protocol-link" target="MRP-1-2-01-0-18491024-P-0193.xml#top_2_1_193_5">MR. v. <date when="1849-10-24">24. 10. 1849</date>/V</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a2-b1-z193" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b1/pdf/a2-b1-z193.pdf" target="MRP-1-2-01-0-18491024-P-0193.xml">ÖMR. II/1, Nr. 193</ref>
+                        </bibl>.</note>. Hierbei wurden zwei Rücksichten festgehalten, daß nämlich die <ref xml:id="fn_2_4_453_g">ordentlichen Professoren der genannten Universitäten von zehn zu zehn Jahren gewisse Zulagen statt der bisherigen Senioratsvorrückung</ref>
+                     <note type="variant" n="g" target="#fn_2_4_453_g">Korrektur g–g Thuns aus <quote>Professoren weltlichen Standes an der rechts- und staatswissenschaftlichen, medizinischen und philosophischen Fakultät der genannten Universitäten von zehn zu zehn Jahren gewisse Zulagen</quote>.</note> erhalten und daß die Professoren <ref xml:id="fn_2_4_453_h">der verschiedenen Fakultäten gleichgestellt werden; nur die Theologen wurden niedriger gestellt</ref>
+                     <note type="variant" n="h" target="#fn_2_4_453_h">Einfügung h–h Thuns.</note>, [die] in den philosophischen Fakultäten teilweise erhöhte Gehalte bekamen.<ref xml:id="fn_2_4_453_i"/>
+                     <note type="variant" n="i" target="#fn_2_4_453_i">Gestrichen: <quote>In betreff der theologischen Fakultät hatten aber die bisher üblichen Gehalts- und Vorrückungsstufen als Minimum auch bei den neu anzustellenden Professoren zu gelten</quote>.</note>
+                  </p>
+                  <p>Graf Thun bringt nun wegen der <ref xml:id="fn_2_4_453_j"/>
+                     <note type="variant" n="j" target="#fn_2_4_453_j">Korrektur j–j Thuns aus: <quote>nötigen Gleichstellung die Verbesserung der Gehalte auch der theologischen Professoren, welche bisher übler daran waren als die weltlichen, in Antrag. Nach seiner Meinung wären die älteren theologischen Professoren wie die weltlichen zu behandeln, was bei den sämtlichen genannten Universitäten eine Auslage von ungefähr 5000 f. verursachen würde. Für die anderen Fakultäten gelten ohnehin die Vorschriften des neuen Systems. </quote>
+                        <quote>Ferner erbat sich Graf Thun die Zustimmung des Ministerrats, Professoren, die besondere Rücksicht verdienen, für Personalzulagen bei Sr. Majestät in Antrag zu bringen; ferner die Gehalte der chirurgischen Professoren in Innsbruck um 100 f. zu erhöhen</quote>.</note>Notwendigkeit, auch die Stellung der schon vor dieser neuen Systemisierung der Gehalte angestellt gewesenen Professoren wenigstens einigermaßen zu verbessern, folgende Bestimmungen in Antrag:</p>
+                  <p>1. hinsichtlich der theologischen Fakultäten, daß die Vorteile des neuen Systems den Altangestellten in vollem Maße zugewendet werden, nachdem ohnedies das neue System ihre Lage nur wenig verbessert.</p>
+                  <p>2. hinsichtlich der philosophischen Fakultäten, daß diejenigen der altangestellen Professoren, die nicht einmal den Gehalt beziehen, welcher der niedrigsten Gehaltsstufe des neuen Systems gleichkommt, in diese einrücken, und daß allen, vom Studienjahre 1849/50 angefangen, der Anspruch auf die Dezennalzulagen zukomme.</p>
+                  <p>3. hinsichtlich der übrigen Fakultäten, daß nur auf Gehaltserhöhungen für einzelne verdiente Professoren zur Ausgleichung auffallender Unbilligkeiten angetragen werde. Endlich</p>
+                  <p>4. hinsichtlich der chirurgischen Professoren auf Erhöhung der Gehalte, welche in der Regel 800 f., zum Teil nur 600 f. betragen, auf 900 f.<pb n="260" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s260.pdf"/>
+                  </p>
+                  <p>An der Pester Universität, wo die Gehaltsverhältnisse ganz verrückt sind, erscheine eine Regulierung der Gehalte als unabweislich notwendig. Graf Thun meint, daß <ref xml:id="fn_2_4_453_k">das neue Gehaltssystem mit den für Prag bestimmten Gehaltsstufen für die Zukunft in Anwendung komme, und</ref>
+                     <note type="variant" n="k" target="#fn_2_4_453_k">Einfügung k–k Thuns.</note> alte verdienstvolle Professoren, welche 15 Jahre dienen, Zulagen von 200 f. erhalten sollten.</p>
+                  <p>Der Ministerrat fand dagegen nichts zu erinnern und nur der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> zu bemerken, daß ihm eine Aufbesserung der Gehalte bei den Geistlichen nicht notwendig scheine<note type="footnote" n="25">Der Vortrag Thuns v. <date when="1851-02-28">28. 2. 1851</date> über die Regulierung der nach dem älteren Systeme angestellten Universitätsprofessoren und den Professoren der chirurgischen Lehranstalten zu Lemberg, Olmütz, Innsbruck und Salzburg wurde im Sinne des Ministerratsbeschlusses mit Ah. E. v. <date when="1851-03-19">19. 3. 1851</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 842/1851</bibl>. Der weitere Vortrag Thuns vom selben Tag über die Regulierung der Gehalte an der Universität zu Pest wurde ebenfalls mit Ah. E. v. <date when="1851-03-19">19. 3. 1851</date> im Sinne des Ministerratsbeschlusses resolviert, <bibl type="archival">ebd., MKZ. 841/1851</bibl>. Die entsprechenden kaiserlichen Verordnungen v. <date when="1851-03-19">19. 3. 1851</date> erschienen als <bibl type="archival">RGBL. Nr. 90/1851</bibl> (Fakultätsprofessoren) und <bibl type="archival">ebd., Nr. 93/1851</bibl> (Pest).</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_14" n="14">
+                  <head type="regest">
+                     <label>
+                        <num>XIV. </num>
+                     </label>Silbernes Verdienstkreuz für Joseph Prandstetter</head>
+                  <p>Dem weiteren Antrage des <hi rend="#letterspaced">
+                        <rs type="person">Grafen Thun</rs>
+                     </hi> auf Erwirkung des silbernen Verdienstkreuzes für den Schullehrer zu St. Peter in der Au in Niederösterreich, Joseph Prandstetter, wurde beigestimmt. Derselbe ist bereits 71 Jahre alt und dient bereits 53 Jahre mit seltener Pünktlichkeit und Aufopferung im Schulfache. Seine Schule ist eine der ausgezeichnetsten im Dekanate.</p>
+                  <p>Die Ortsgemeinde, die Schuldistriktsaufsicht, die Bezirkshauptmannschaft, das Konsistorium zu St. Pölten und die niederösterreichische Landesschulbehörde verwenden sich einstimmig für diesen verdienstvollen Schulmann<note type="footnote" n="26">Auf Vortrag Thuns v. <date when="1851-02-02">2. 2. 1851</date> entschied der Kaiser mit Ah. E. v. <date when="1851-02-20">20. 2. 1851</date> im Sinne des Ministerratbeschlusses, <bibl type="archival">HHSTA., Kab. Kanzlei, MKZ. 499/1851</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_2_4_453_15" n="15">
+                  <head type="regest">
+                     <label>
+                        <num>XV. </num>
+                     </label>Behandlung der konfiszierten Güter in Ungarn etc</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Justizminister Ritter v. Krauß</rs>
+                     </hi> besprach endlich die im Einverständnisse mit dem Finanzministerium und dem Ministerium des Inneren Sr. Majestät zur Ah. Genehmigung vorzulegende Verordnung über die Behandlung der wegen des Hochverrats der Eigentümer in Verfall erklärten (konfiszierten) und der mit Beschlag behafteten Güter in Ungarn, Kroatien, Slawonien, der Woiwodschaft Serbien und im Temescher Banat<note type="footnote" n="27">Der entsprechende Akt, <bibl type="archival">AVA., JM., Allg. 15510/1850, liegt nicht mehr ein</bibl>.</note>.</p>
+                  <p>Was die noch nicht konfiszierten, bloß sequestrierten Güter anbelangt, so wäre auf dieselben das für die konfiszierten Güter angetragene, von dem Justizminister auseinandergesetzte spezielle Verfahren nicht anzuwenden, weil bei den sequestrierten Gütern angenommen werden müsse, daß der Eigentümer des Gutes noch fortan derselbe ist.<pb n="261" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a2-b4-pdf.xml%23a2-b4_einzelseiten/a2-b4_s261.pdf"/> Bei diesen Gütern hätte daher, so lange als die Sequestration dauert, der gewöhnliche Rechtszug Platz zu greifen, und erst dann, wenn diese Güter als konfisziert erklärt wurden, hätte das für die konfiszierten Güter angetragene besondere Verfahren in Anwendung zu kommen.</p>
+                  <p>Die Frage, ob die hier in Antrag gekommene Verordnung auch auf Siebenbürgen auszudehnen sei, glaubte der Justizminister verneinen zu sollen, weil die Verhältnisse in Siebenbürgen nach ganz anderen Grundsätzen zu beurteilen sind. Derselbe hat sich übrigens vorbehalten, die Männer, welche gegenwärtig bei dem Aviticitätsgesetze verwendet werden, darüber zu vernehmen, wie die obgedachte Verordnung auch auf Siebenbürgen adaptiert werden könnte.</p>
+                  <p>Auch die weitere Frage, ob nicht die außer Ungarn gelegenen Güter der Hochverräter dem nämlichen Verfahren wie die ungarischen Güter zu unterwerfen wären, müßte der Justizminister verneinen, weil die auf den außer Ungarn liegenden Gütern vorgemerkten Gläubiger nach einem anderen Rechte und bei andern Richtern belangt werden und ihr Recht austragen müßten. Hinsichtlich dieser Güter wäre kein eigenes Liquidationsverfahren, kein besonderes Gericht, überhaupt keine besondere Anordnung notwendig, und es wäre sich diesfalls lediglich an das bürgerliche Gesetzbuch und an den ordentlichen Richter zu halten.</p>
+                  <p>Der Ministerrat erklärte sich damit einverstanden<note type="footnote" n="28">Auf Vortrag Karl Krauß’ v. <date when="1851-02-13">13. 2. 1851</date> wurde mit Ah. E. v. <date when="1851-03-20">20. 3. 1851</date> die Angelegenheit der konfiszierten Güter in Ungarn, Kroatien-Slawonien, dem Temescher Banat und der Serbischen Woiwodschaft im Sinne des Ministerratsbeschlusses geregelt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 518/1851</bibl>. Die entsprechende kaiserliche Verordnung v. <date when="1851-03-20">20. 3. 1851</date> publiziert als <bibl type="archival">RGBL. Nr. 72/1851</bibl>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1851-02-13">13. Februar 1851</date>. Schwarzenberg.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1851-02-23">23. Februar 1851</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

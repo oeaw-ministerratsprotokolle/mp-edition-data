@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="097">Sitzung 97</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-07-18"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z97.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1503 et 1504</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-07-18"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Doblhoff; anw. Sommaruga, Krauß, Latour, Baumgartner; BdE. Doblhoff (19. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-19">19. 7.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_97_1">Einnahme Ferraras</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_97_2">Ansuchen Erzherzog Albrechts um Übertragung eines Kommandos in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_97_3">Versuch Karl Alberts von Sardinien, Mantua zu kaufen</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_97_4">Ansuchen der Angestellten des litographischen Instituts um Erhebung zu Staatsbeamten</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_97_5">Pensionierung Karl Graf Civalarts v. Happancourt</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_97_6">Belobigung des Militärs für sein Verhalten beim Prager Pfingstaufstand</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_97_7">Ordensverleihungen an Militärs in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_97_8">Rüge des ungarischen Ministeriums wegen der österreichischen Unterstützung der k. k. Truppen in Kroatien</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480718-P-0097" ana="a1-1848_z97">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z97.pdf">
+               <title type="num">Nr. 97</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-07-18">18. Juli 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Doblhoff; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Doblhoff (19. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1503 et 1504</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-07-18">18. Juli 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Doblhoff.</head>
+               <div type="agenda_item" xml:id="top_1_1_97_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Einnahme Ferraras</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Kriegswesens Graf Latour</rs>
+                     </hi> teilte dem Ministerrate mit eine vom FML. Freiherrn v. Weiden von Padua erhaltene Depesche<note type="footnote" n="1">Datiert mit 15. 7. 2848, <bibl type="archival">KA., HKR., KM., Präs. 3479/1848</bibl>.</note>, welche die Einnahme von Ferrara durch unsere Truppen meldet und worüber auch Sr. Majestät in Innsbruck bereits die nötige Anzeige erstattet worden ist<note type="footnote" n="2">Siehe dazu die in Anm. 1 zit. Depesche.</note>. Der Feldmarschall Graf Radetzky hat ein Korps von 6000 Mann beauftragt, über den Po zu gehen, was geschehen ist. Am 14. d. M. um 9 Uhr früh wurden die päpstlichen Truppen angegriffen und nach Ferrara getrieben. Die Stadt sollte nun bombardiert werden, bevor es aber dazu kam, kamen Abgeordnete mit weißer Fahne, und die Stadt ergab sich auf Gnade und Ungnade<note type="footnote" n="3">Zur Einnahme Ferraras siehe den ausführlichen Bericht Radetzkys v. <date when="1848-07-15">15. 7. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 3480/1848</bibl>; vgl. auch <bibl type="secondary">
+                           <author>Grüll</author>, Feldzug in Italien 313f.</bibl>
+                     </note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Ansuchen Erzherzog Albrechts um Übertragung eines Kommandos in Italien</head>
+                  <p>Se. kaiserliche Hoheit der Herr Erzherzog Albrecht Feldmarschalleutnant haben dem Feldmarschall Grafen Radetzky die Bitte überreicht, ihm das Kommando einer Armeedivision anzuvertrauen<note type="footnote" n="4">Siehe dazu das Schreiben Radetzkys v. <date when="1848-07-12">12. 7. 1848</date>, <bibl type="archival">KA., HKR., KM., Präs. 3417/1848</bibl>.</note>.</p>
+                  <p>Graf Radetzky erwiderte, daß es nicht in seiner Befugnis liege, dieser Bitte zu willfahren und daß diese Bitte des Herrn Erzherzoges, nachdem er bereits Kommandierender in Österreich war<note type="footnote" n="5">Erzherzog Albrecht war am <date when="1848-03-30">30. 3. 1848</date> vom Posten des Kommandierenden in Niederösterreich zurückgetreten, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480403-P-0002.xml#top_1_1_2_3">MR. v. <date when="1848-04-03">3. 4. 1848</date>/III</ref>.</note>, mit seinem früheren Dienstverhältnisse in keinem Einklange stehe. Da der Erzherzog entgegnete, daß er Sr. Majestät dienen und sich Erfahrungen sammeln wolle und daß ihm demnach jedes Kommando recht sei, so erbittet sich der Feldmarschall Graf Radetzky die höhere Weisung hierüber, bemerkt aber, daß die Gewährung dieser Bitte keinen guten Eindruck machen würde und daß, um dem Herrn Erzherzoge das Kommando einer Armeedivision zu übertragen, dieses einem älteren und erfahreneren Generalen abgenommen werden müßte.</p>
+                  <p>
+                     <pb n="541" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1_s541.pdf"/>Der Ministerrat teilte dieselbe Ansicht, hält das Kommando eines älteren und kriegserfahreneren Mannes für zweckmäßiger, was auch die Erfahrung der neuesten Zeit bestätige, und meint, daß auch der Umstand zu berücksichtigen sei, daß der Krieg einem Prinzen gegen die eigenen Untertanen des Staates (wenn auch hier sich schon andere Fürsten darein mengten) nicht wohl anstehe.</p>
+                  <p>Der Ministerrat glaubt daher, daß dem Feldmarschall Grafen Radetzky aufzutragen wäre, das obige Gesuch auf die schonendste Weise, auch unter Anführung, daß der Krieg immerhin auch gegen die eigenen Untertanen geführt werde, abzulehnen<note type="footnote" n="6">In diesem Sinne instruierte Latour mit Schreiben (K.) v. <date when="1848-07-19">19. 7. 1848</date> Radetzky, <bibl type="archival">KA., HKR., KM., Präs. 3417/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Versuch Karl Alberts von Sardinien, Mantua zu kaufen</head>
+                  <p>Der Kriegsminister Graf Latour bringt zur Kenntnis des Ministerrates einen Bericht des Feldmarschalls Grafen Radetzky und die mit demselben vorgelegte merkwürdige Anzeige des Generalen der Kavallerie und Kommandierenden zu Mantua Grafen Gorczkowski, nach welcher der Sardenkönig Karl Albert ihm eine halbe Million Gulden (gleich im baren Golde oder in Wechseln auf Mailand oder Turin) angeboten hat, um Mantua oder ein Fort desselben zu verkaufen. In der Anzeige des Generalen Gorczkowski sind die Umstände genau angegeben, unter welchen ihm dieser ehrlose Antrag gemacht worden ist. Nach dem Wunsche dieses Generalen soll diese Angelegenheit der Öffentlichkeit übergeben werden<note type="footnote" n="7">Bericht Radetzkys v. <date when="1848-07-11">11. 7. 1848</date>, <bibl type="archival">KA., AFA., Karton 1983, Z. 143/I</bibl>. Abschrift des Schreibens Gorczkowskis an Radetzky v. <date when="1848-07-08">8. 7. 1848</date>, <quote>ebd., Z. 143/II</quote>.</note>.</p>
+                  <p>Da dieser Antrag des sardinischen Königes nicht bloß den moralischen Charakter des Antragstellers näher beleuchtet, sondern auch den Beweis liefert, daß das Vertrauen des Antragstellers in seine Kraft nicht genug stark sei, so hat der Ministerrat beschlossen, daß ein Auszug aus der oberwähnten Anzeige mit einer angemessenen Einkleidung zur öffentlichen Kenntnis gebracht werde<note type="footnote" n="8">Weder in den der Regierung nahestehenden Zeitungen noch in der Wiener Flugschriftensammlung konnte eine derartige Veröffentlichung gefunden werden.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Ansuchen der Angestellten des litographischen Instituts um Erhebung zu Staatsbeamten</head>
+                  <p>Derselbe Minister brachte ein Gesuch der Zeichner, Lithographen und Kupferstecher des lithographischen Institutes um Erhebung zu Staatsbeamten mit ihren dermaligen Gehalten zur Sprache<note type="footnote" n="9">Das Gesuch der Angestellten des Lithographischen Instituts v. <date when="1848-06-17">17. 6. 1848</date> in <bibl type="archival">KA., HKR., KM., Präs. 6084/1848</bibl>.</note>. Es sind bei dem besagten Institute 6 Zeichner, 7 Lithographen und 7 Kupferstecher, zusammen 20 Individuen.</p>
+                  <p>Da es sich hiernach um die förmliche Systemisierung dieses Institutes handeln würde, welche mit bleibenden Auslagen des Ärars auf Pensionen der Beamten, ihrer Witwen und Kinder verbunden wäre, so hat der Ministerrat beschlossen, daß hierüber noch vorläufig Rücksprache mit dem Finanzministerium zu pflegen sei<note type="footnote" n="10">Mit Schreiben (K.) v. <date when="1848-07-19">19. 7. 1848</date> unterrichtete Latour Krauß vom Stand der Dinge und befürwortete die Erhebung der Angestellten des Lithographischen Instituts zu Staatsbeamten, <quote>ebd., Präs. 3174/1848</quote>. Erst mit Schreiben v. <date when="1848-11-23">23. 11. 1848</date> antwortete das Finanzministerium, daß es gegen die Übernahme in den Staatsdienst nichts einzuwenden habe, <quote>als damit keine Erhöhung ihrer dermaligen Bezüge verbunden wäre, und hieraus keine weiteren Konsequenzen als z. B. der Anspruch auf Beteiligung mit Quartiergeldern und dgl. abgeleitet werden wolle, ebd., Präs. 6084/1848</quote>. Mit Schreiben (K.) v. <date when="1848-11-30">30. 11. 1848</date> wurde dann das Militärgeographische Institut davon vom Kriegsministerium benachrichtigt, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Pensionierung Karl Graf Civalarts v. Happancourt</head>
+                  <p>In dem vorliegenden au. Vortrage vom 16. Juli d. J., Z. 2083<note type="footnote" n="11">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1476/1848</bibl>.</note>, bespricht der Kriegsminister das Gesuch des Generalen der Kavallerie und Kapitäns der Trabantenleibgarde Grafen Civalart, worin derselbe um Versetzung in den Ruhestand und um den Feldmarschallscharakter, dann um die Gebühren seiner Charge als Pension bittet<note type="footnote" n="12">Das Gesuch Civalarts v. <date when="1848-07-13">13. 7. 1848</date> in <bibl type="archival">KA., HKR., KM., Präs. 3559/1848</bibl>.</note>. Zu dieser Bitte ist Graf Civalart vorzüglich dadurch bestimmt worden, daß dem ihm im Range nachstehenden Generalen der Kavallerie, Freiherrn v. Lederer, bei seinem Übertritte in den Ruhestand nebst seinem ganzen Gehalte gleichfalls die Feldmarschallswürde verliehen worden ist<note type="footnote" n="13">Zur Verleihung der Feldmarschallswürde an Lederer und zu seiner Pensionierung siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480610-P-0067.xml#top_1_1_67_4">MR. v. <date when="1848-06-10">10. 6. 1848</date>/IV</ref>. Zu Karl Graf Civalart v. Happancourt siehe <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 2, 375f.</bibl>
+                     </note>, und er (Civalart) gleichfalls lange, nämlich 65 Jahre, dient.</p>
+                  <p>Der Ministerrat glaubt auf die Ah. Gewährung dieser Bitte nicht antragen zu sollen, weil zur Verleihung der Feldmarschallswürde, der höchsten militärischen Auszeichnung, sehr lange Dienste allein nicht genügen, die Dienstleistung des Baron Lederer eine andere war als des Grafen Civalart und weil auch der finanzielle Grund berücksichtiget zu werden verdiene, daß, wenn der Bittsteller, welcher den Kapitänsposten bei der Trabantenleibgarde immerhin noch versehen könne, in den Ruhestand versetzt würde, sein Dienstposten wieder besetzt werden müßte, daher das Ärar neben der Pension auch einen Aktivgehalt zu bezahlen hätte.</p>
+                  <p>Der Vortrag des Kriegsministers dürfte demnach die Ah. Erledigung dahin erhalten, daß der General der Kavallerie Graf Civalart seine Dienste als Kapitän der Trabantenleibgarde weiter fortzusetzen habe<note type="footnote" n="14">Mit Ah. E. v. <date when="1848-07-20">20. 7. 1848</date> wurde Civalart aufgefordert, seine bisherigen Dienste fortzusetzen, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1503/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Belobigung des Militärs für sein Verhalten beim Prager Pfingstaufstand</head>
+                  <p>Der Kriegsminister Graf Latour brachte weiter einen Bericht des FML. Fürsten Windischgrätz<note type="footnote" n="15">Der diesbezügliche Bericht Windischgrätz‘ v. <date when="1848-07-04">4. 7. 1848</date>, der sich laut Präsidialindex im Akt <bibl type="archival">KA., HKR., KM., Präs. 3248/1848</bibl>, befinden sollte, ist nicht mehr auffindbar.</note>, Kommandierenden in Böhmen, zum Vortrage, worin derselbe aus Anlaß der letzten Prager Ereignisse<note type="footnote" n="16">Gemeint ist der Prager Pfingstaufstand, zu diesem siehe zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480707-P-0094.xml#top_1_1_94_6">MR. v. <date when="1848-07-07">7. 7. 1848</date>/VI</ref>, Anm. 23.</note> Belohnungen (Medaille für einen Gemeinen) und anerkennende Nennung jener Individuen in Antrag bringt, welche sich bei diesen Ereignissen besondere Verdienste erworben haben.</p>
+                  <p>Der Kriegsminister glaubt, daß den gesamten Truppen die Ah. Zufriedenheit zu erkennen zu geben und dem Johann Schwarzig, Gemeinen vom Fuhrwesenskorps, die silberne Tapferkeitsmedaille – sonst aber keine Auszeichnung – zu verleihen wäre.</p>
+                  <p>Über die Bemerkung der übrigen Stimmführer, daß es zweckmäßiger zu sein scheine, die Erledigung dieses Gegenstandes einstweilen zu ajournieren, bis die Aufregung der Gemüter sich ganz gelegt habe und die Ruhe vollkommen wiederhergestellt sein werde, wurde auch mit Zustimmung des Kriegsministers beschlossen, seinen diesfälligen Vortrag bis zum Eintritte jenes Zeitpunktes zu asservieren<note type="footnote" n="17">Der Vortrag (K.) Latours v. <date when="1848-07-17">17. 7. 1848</date> in <bibl type="archival">KA., HKR., KM., Präs. 3248/1848</bibl>. Im Anschluß an dieses Ministerratsprotokoll findet sich dazu folgende Eintragung: <quote>Weisung für das Büro des Ministerrates. Der Antrag des Kriegsministers Grafen Latour vom <date when="1848-07-17">17. Juli 1848</date>, Z. 2523, MR. 1478, ist einstweilen bei den Akten aufzubewahren und in angemessener Zeit wieder vorzunehmen</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Ordensverleihungen an Militärs in Italien</head>
+                  <p>In dem hier gleichfalls vorliegenden au. Vortrage vom 12. d. M., Z. 2524<note type="footnote" n="18">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1477/1848</bibl>.</note>, unterstützt der Kriegsminister die Anträge des Feldmarschalls Grafen Radetzky auf die Ag. Verleihung von Orden an einige Stabs- und Oberoffiziere, welche sich durch ihr tapferes Benehmen vor dem Feinde besonders ausgezeichnet haben<note type="footnote" n="19">Siehe dazu die beiden Berichte Radetzkys v. <date when="1848-07-03">3. 7. 1848</date> mit dem Verzeichnis der zur Auszeichnung vorgeschlagenen Offiziere, <bibl type="archival">KA., HKR., KM., Präs. 3561/1848</bibl>.</note>.</p>
+                  <p>Es werden in Antrag gebracht: für das Ritterkreuz des kaiserlich österreichischen Leopoldordens: der Oberst v. Hahne, Kommandant des Regiments Graf Latour-Infanterie, und Major Basil Knezevich vom Oguliner 1. Grenzbataillon; für das Ritterkreuz des österreichischen Ordens der eisernen Krone: der Hauptmann v. Beckh vom 10. Jägerbataillon, der Premier-Rittmeister Ahsbahs von Kaiser-Ulanen, Kapitänleutnant v. Savageri von Baron Paumgartten-Infanterie, Oberleutnant Schneider des 4. Artillerieregimentes, Oberleutnant Lammer vom 10. Jägerbataillon und Oberleutnant v. Schwarzer von Graf Latour-Infanterie.</p>
+                  <p>Der Ministerrat erklärte sich mit diesen Anträgen einverstanden<note type="footnote" n="20">Der in Anm. 18 zit. Vortrag wurde mit Ah. E. v. <date when="1848-07-20">20. 7. 1848</date> resolviert, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1503/1848</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_97_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Rüge des ungarischen Ministeriums wegen der österreichischen Unterstützung der k. k. Truppen in Kroatien</head>
+                  <p>Schließlich lasen der Kriegsminister Graf Latour und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Freiherr v. Doblhoff</rs>
+                     </hi> dem Ministerrate ihre Entwürfe der Antworten vor, welche der erstere an den ungarischen Minister des Äußern Fürsten Esterházy wegen der gerügten Anweisung von 100.000f. aus der österreichischen an die Agramer Kriegskasse zur Beseitigung der Geldverlegenheit und Not, in welche sich die k. k. Truppen in Kroatien aus Mangel der Dotationsanweisung von Seite des ungarischen Ministeriums versetzt sahen<note type="footnote" n="21">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480703-P-0091.xml#top_1_1_91_6">MR. v. <date when="1848-07-03">3. 7. 1848</date>/VI</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480704-P-0092.xml#top_1_1_92_3">MR. v. <date when="1848-07-04">4. 7. 1848</date>/III</ref>. Esterházy hatte mit Schreiben v. <date when="1848-07-11">11. 7. 1848</date> Latour in deutscher Übersetzung den Brief Kossuths v. <date when="1848-07-07">7. 7. 1848</date> übermittelt, der das Ansinnen, die kroatischen Truppen zu bezahlen, in schärfster Form zurückwies, <bibl type="archival">KA., HKR., KM., Präs. 3395/1848</bibl>.</note>; und der letztere an denselben Minister und in derselben Form, in welcher die Zuschrift des ungarischen Ministeriums hierher gelangten, nämlich mittelst Protokollsauszuges, hinsichtlich des bedenklichen, einen Bürgerkrieg in Aussicht stellenden Zustandes zwischen Kroatien und Ungarn zu erlassen gedenket.</p>
+                  <p>Mit der Textierung dieser Antworten erklärte sich der Ministerrat einverstanden<note type="footnote" n="22">Der Entwurf des Schreibens Latours an Esterházy, datiert mit <date when="1848-07-17">17. 7. 1848</date>, in <quote>ebd</quote>., siehe dazu noch das Schreiben (K.) Latours v. <date when="1848-07-23">23. 7. 1848</date> an Esterházy, <quote>ebd., Präs. 3421/1848</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-07-19">19. Juli 1848</date>. Doblhoff.</dateline>
+                  <seg type="other">Erzherzog Johann. Wien, den <date when="1848-07-20">20. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="074">Sitzung 74</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-16"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z74.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1135 et 1136</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-16"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Ransonnet; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Baumgartner; abw. Doblhoff, Wessenberg; BdE. Pillersdorf (17. 6.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-06-17">17. 6.</date>
+                  </note>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="absent">
+                  <persName ref="#mpr8184">
+                     <surname>Wessenberg</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_74_1">Kabinettschreiben wegen Bildung einer neuen Regierung; Veröffentlichung dieses Kabinettschreibens</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_74_2">Absage Wessenbergs wegen Übernahme des Außenministeriums</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_74_3">Reise des Kaisers nach Ischl; Wiederkehr Erzherzog Franz Karls nach Wien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_74_4">Zeitungspublikation über den Stand der Dinge in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_74_5">Ministerielle Dokumentation über die Ereignisse vom 25./<date when="1848-05-26">26. 5. 1848</date>
+                  </ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_74_6">Kommandowechsel in Prag</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_74_7">Personalvermehrung bei Eisenbahnbauprojekten; Personalreduktion in der Montanhofbuchhaltung</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480616-P-0074" ana="a1-1848_z74">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z74.pdf">
+               <title type="num">Nr. 74</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-16">16. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Ransonnet; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Baumgartner; <choice>
+                                    <abbr>abw.</abbr>
+                                    <expan>abwesend</expan>
+                                </choice> Doblhoff, Wessenberg; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (17. 6.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1135 et 1136</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Sitzung des Ministerrates am <date when="1848-06-16">16. Juni 1848</date> unter dem Vorsitze des interimistischen Ministerpräsidenten, zugleich Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_74_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Kabinettschreiben wegen Bildung einer neuen Regierung; Veröffentlichung dieses Kabinettschreibens</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">interimistische Ministerpräsident</rs>
+                     </hi> teilte dem Ministerrate das unterm 12. Junius 1848 an ihn erflossene Ah. Kabinettschreiben mit<note type="footnote" n="1">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1132/1848</bibl>.</note>, worin Se. Majestät den Freiherrn v. Pillersdorf aufzufordern geruhten, unter den gegenwärtigen Konjunkturen das Präsidium des Ministerrates fortzuführen und sofort ein neues Ministerium zu bilden.</p>
+                  <p>Hierauf verlas der interimistische Ministerpräsident den Entwurf seiner hierüber an Se. Majestät au. zu erstattenden Äußerung, welche im wesentlichen dahin geht, daß Baron Pillersdorf sich dem Ah. Befehle wegen weiterer interimistischer Fortführung des Präsidiums im Ministerrate in Ehrfurcht unterwerfe, daß er sich aber die Bitte erlauben müsse, die definitive Erklärung, ob er Sr. Majestät ein Ministerium vorzuschlagen imstande sei, bis zu Allerhöchstihrer Zurückkunft verschieben und an die Bedingungen knüpfen zu dürfen: 1. daß er die Beruhigung erhalte, ob das Vertrauen der Völker, bei welchen er das Organ der hochherzigen Bestrebungen Sr. Majestät für ihr Wohl sein soll, ihm in dieser Stellung entgegenkommt; daß er sich 2. der Mitwirkung der aufgeklärten Männer versichern könne, welche ihn bei diesem schwierigen Unternehmen zu unterstützen berufen werden, daß er endlich mit Zuversicht und Vertrauen seine Kräfte der Befestigung und Entwicklung der konstitutionellen Freiheiten widmen könne, deren Gewährung eine so glorreiche Epoche der Regierung Sr. Majestät bezeichnet.</p>
+                  <p>Der interimistische Ministerpräsident äußerte hierauf, daß so wie es überhaupt zu den Gewohnheiten der konstitutionellen Regierungen gehöre, das Publikum von beabsichtigten Änderungen des Ministerrates in Kenntnis zu setzen, es ihm auch angemessen erscheine, durch einen ämtlichen Zeitungsartikel sowohl den vollen Inhalt des Ah. Handschreibens als auch die wesentlichsten Punkte seiner au. Erwiderung zur öffentlichen Kenntnis zu bringen, und dies zwar umso mehr, als ohne Zweifel vielerlei dunkle und zum Teil irrige Gerüchte über diesen Gegenstand sehr bald im Publikum umlaufen und mancherlei Deutungen erhalten würden, welchen durch eine offene <pb n="436" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s436.pdf"/>offizielle Erklärung auf eine das öffentliche Vertrauen kräftigende Weise begegnet werden würde.</p>
+                  <p>Sämtliche Minister erklärten sich mit dem Vorhaben zur diesfälligen Verlautbarung einverstanden<note type="footnote" n="2">Sowohl der Wortlaut des Kabinettschreibens als auch der Inhalt der Pillersdorfschen Antwort wurden in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) V. <date when="1848-06-17">17. 6. 1848</date>
+                        </bibl> abgedruckt.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Absage Wessenbergs wegen Übernahme des Außenministeriums</head>
+                  <p>Der Ministerpräsident setzte den Ministerrat in Kenntnis, daß Baron Wessenberg dem ersteren eröffnet habe, er sei durch die Erfahrung der letzten Wochen zur Überzeugung gelangt, daß sein Alter von 75 Jahren und seine schwächliche Gesundheit es ihm nicht möglich machen, den vielfachen Anforderungen für den Dienst des Ministeriums der auswärtigen Angelegenheiten in die Länge zu entsprechen und – sofern es sich um seinen Nachfolger in dem neuzubildenden Ministerium handle – könne Baron Wessenberg nur auf Grafen Colloredo als auf einen Staatsmann hindeuten, der alle dazu erforderlichen Eigenschaften im ausgezeichneten Grade besitzt<note type="footnote" n="3">Dieses Schreiben konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., StK, gefunden werden. Vgl. dazu das Schreiben Wessenbergs an Lebzeltern v. <date when="1848-06-14">14. 6. 1848</date>, in dem er den Inhalt seiner Nachricht an Pillersdorf erwähnt, <bibl type="archival">HHSTA., StK., Interiora, Korr. Memoires 81, Fasz. alt 101, fol. 70f</bibl>.</note>. Baron Pillersdorf wird dieses Schreiben im Einklang mit seiner oberwähnten au. Äußerung über den Ah. Auftrag zur Bildung eines Kabinetts beantworten<note type="footnote" n="4">Pillersdorf tat dies mit Schreiben an Wessenberg v. <date when="1848-06-16">16. 6. 1848</date>, <quote>ebd., Fasz. alt 99, fol. 19 f</quote>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480622-P-0080.xml#top_1_1_80_1">MR. v. <date when="1848-06-22">22. 6. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Reise des Kaisers nach Ischl; Wiederkehr Erzherzog Franz Karls nach Wien</head>
+                  <p>Die in einem Schreiben des Ministers Baron Doblhoff an den Ministerpräsidenten enthaltene Eröffnung, daß Se. Majestät der Kaiser am 17. 1. M. sich nach Ischl zu begeben Ah. beabsichtigen<note type="footnote" n="5">Dieses Schreiben konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des HHSTA., Kab. Kanzlei, gefunden werden.</note>, wurde von dem Ministerrate mit großer Freude entgegengenommen und beschlossen, diese Nachricht, welche eine baldige noch weitere Annäherung an Wien in Aussicht stellt, sofort in den Zeitungsblättern zur Freude und Beruhigung des Publikums zu verkündigen<note type="footnote" n="6">Die Nachricht über die geplante Reise des Kaisers nach Ischl wurde in der <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-06-17">17. 6. 1848</date>
+                        </bibl> publiziert.</note>.</p>
+                  <p>Die vom Freiherrn v. Doblhoff gestellte Anfrage, ob es nicht von guter Wirkung wäre, wenn Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Franz Karl noch vor der Ankunft Sr. Majestät in Wien auf einige Tage hierher käme, wurde beschlossen zu erwidern, daß, so erfreulich auch zu jeder Zeit das Erscheinen des durchlauchtigsten Herrn Erzherzoges inmitten der Residenz wirken müsse, es in diesem ganz besonderen Falle den tiefergreifenden, allbeglückenden Eindrucke, den die Wiederkehr Sr. Majestät auf die Wiener Bevölkerung hervorbringen wird, eher schwächen dürfte, wenn dieser Wiederkehr das Erscheinen eines Prinzen aus dem Ah. Erzhause vorausginge<note type="footnote" n="7">Ein diesbezügliches Antwortschreiben an Dolbhoff konnte unter den Beständen des HHSTA., Kab. Kanzlei, nicht gefunden werden. Erzherzog Franz Karl kehrte erst gemeinsam mit dem Kaiser nach Wien zurück.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Zeitungspublikation über den Stand der Dinge in Italien</head>
+                  <p>Nachdem laut einer Eröffnung des Ministers Baron Wessenberg Graf Radetzky zum Abschlusse eines Waffenstillstandes bereits angewiesen<note type="footnote" n="8">Mit Handschreiben v. <date when="1848-06-12">12. 6. 1848</date> hatte Ferdinand Radetzky angewiesen, Waffenstillstandsverhandlungen <quote>alsbald anzubahnen</quote>, <bibl type="archival">KA., AFA. 1981, Z. 144 1/2</bibl>. Mit Schreiben vom nächsten Tag präzisierte dann Wessenberg die Direktiven für diese Verhandlungen, <quote>ebd., Z. 166 1/2</quote>.</note> und die Friedensunterhandlung mit der provisorischen Regierung zu Mailand direkt eröffnet worden ist<note type="footnote" n="9">In dem in Anm. 8 zit. Schreiben Wessenbergs hatte dieser erklärt, man könne nur mit der Mailänder provisorischen Regierung über einen etwaigen Frieden verhandeln, mit Sardinien hingegen, das den Aufständischen zu Hilfe gekommen war, nur über die Unterbrechung der Feindseligkeiten.</note>, so wurde beschlossen, diese Nachricht, welche auf die öffentliche Stimmung und den Staatskredit nur einen günstigen Einfluß üben kann, sofort mittelst der Zeitungsblätter zu verlautbaren<note type="footnote" n="10">Eine entsprechende Nachricht wurde im amtlichen Teil dery <bibl type="secondary">
+                           <title>Wiener Zeitung</title> (M.) v. <date when="1848-06-17">17. 6. 1848</date>
+                        </bibl> publiziert. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480624-P-0082.xml#top_1_1_82_5">MR. v. <date when="1848-06-24">24. 6. 1848</date>/V</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Ministerielle Dokumentation über die Ereignisse vom 25./<date when="1848-05-26">26. 5. 1848</date>
+                  </head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der Justiz</rs>
+                     </hi> übernahm es infolge einer vom Ministerpräsidenten erhaltenen Aufforderung, eine pragmatische und dokumentierte Darstellung der Ministerialbeschlüsse und Ereignisse vom 25. und 26. Mai zu verfassen, welche als Substrat der Verteidigung gebraucht werden könnte, im Falle das Ministerium über jene Vorgänge zur Verantwortung gezogen würde<note type="footnote" n="11">Zu diesen Vorgängen siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480525-P-0051.xml#top_1_1_51_1">MR. v. <date when="1848-05-25">25. 5. 1848</date>/I</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480526-P-0052.xml#top_1_1_52_1">MR. v. <date when="1848-05-26">26. 5. 1848</date>/I</ref>. Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480619-P-0077.xml#top_1_1_77_1">MR. v. <date when="1848-06-19">19. 6. 1848</date>/I</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Kommandowechsel in Prag</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Ministerpräsident</rs>
+                     </hi> legte eine telegraphische Depesche der Hofkommissäre aus Prag vom 16. Juni, 8 [Uhr] morgens, vor, folgenden Inhaltes<note type="footnote" n="12">
+                        <bibl type="archival">SUA., PGT., Karton 41, Fasz. T 28</bibl>.</note>: „Fürst Windischgrätz hat seinen Dienstposten niederzulegen sich entschlossen. Graf Mensdorff übernimmt provisorisch das Kommando. Es läßt sich Ruhe erwarten. Die Kanonade ist eingestellt. Die Truppen werden in dem Maße, als Barrikaden abgeräumt werden, einrückend gemacht.“</p>
+                  <p>Obgleich diese Nachricht beruhigend lautet, so läßt sich daraus doch nur wenig folgern, zumal man über den eigentlichen Verlauf der Ereignisse, deren nächste und entferntere Veranlassungen nur wenig Verläßliches weiß. Über die Vorfälle zu Prag am 12. Mai gibt der dem gegenwärtigen Protokolle in Abschrift angeschlossene Bericht des Fürsten Windischgrätz vom 13. d. M. an den Kriegsminister<note type="footnote" n="13">Liegt dem Originalprotokoll in handschriftlicher Fassung bei; Original in <bibl type="archival">KA., HKR., KM., Präs. 2553/1848</bibl>.</note> einigen Aufschluß und es erhellt daraus, daß die Svornost-Partei<note type="footnote" n="14">Die Svornost (Einigkeit), ursprünglich als ein Korps aus Künstlern und Literaten zum Schutz von historischen Denkmälern gebildet, galt als ein Hort des tschechischen Nationalismus; zu ihrem Entstehen siehe <bibl type="secondary">
+                           <author>Maršan,</author> Čechové a Němci 15f.</bibl>
+                     </note>, dann Studenten und Arbeiter die Feindseligkeiten am 12. Mai damit begannen, daß sie auf eine Bürgerdeputation von etwa 200 Mann, welche eben dem kommandierenden Generalen ihren Dank für die kräftige Aufrechthaltung der Ordnung ausgedrückt hatte, Flintenschüsse abfeuerten.</p>
+                  <p>Da nun besorgt, daß die Szene in Prag das Signal zu Blutvergießen auf dem flachen Land werden könnte, so hat der Minister des Inneren bereits auf telegraphischem Wege <pb n="438" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s438.pdf"/>dem Gubernium den Auftrag zugehen lassen, diesem Übel mit möglichster Tätigkeit und Energie zu steuern<note type="footnote" n="15">
+                        <bibl type="archival">SUA., PGT., Karton 41, Fasz. T 28</bibl>. Das Telegramm ist allerdings an Mensdorff und Klezansky adressiert.</note>.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister</rs>
+                     </hi> betrachtet es als einen günstigen Umstand, daß Fürst Windischgrätz das Generalkommando freiwillig niedergelegt hat, da es eine mißliche Sache gewesen wäre, ihn davon gegen seinen Wunsch zu entheben. Die Persönlichkeit des Generals der Kavallerie Grafen Mensdorff, welcher aus seiner früheren Dienstleistung in Prag noch beliebt ist<note type="footnote" n="16">Emanuel Graf Mensdorff-Pouilly war bis 1840 kommandierender General in Böhmen, siehe dazu <bibl type="secondary">
+                           <author>Wurzbach</author>, Biographisches Lexikon 17, 371</bibl>.</note>, wird auf dem Posten eines Kommandierenden, den er dermal provisorisch wieder übernommen hat, das Versöhnungswerk wesentlich erleichtern, und Ew. Majestät dürften diese Verfügung genehmigend zur Nachricht zu nehmen geruhen<note type="footnote" n="17">Diese Proposition des Ministerrates wurde mit Ah. E. v. <date when="1848-06-26">26. 6. 1848</date> genehmigt, <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1135/1848</bibl>. wobei sie zu diesem Zeitpunkt längst überholt war. Windischgrätz behielt das Oberkommando und der Ministerrat rätselte über die ungeklärten Umstände bei der Niederlegung und Wiederaufnahme des Generalkommandos durch den Fürsten; siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480620-P-0078.xml#top_1_1_78_4">MR. v. <date when="1848-06-20">20. 6. 1848</date>/IV</ref>. Fortsetzung des Gegenstandes über den Prager Pfingstaufstand im allgemeinen in <ref type="protocol-link" target="MRP-1-1-01-0-18480617-P-0075.xml#top_1_1_75_2">MR. v. <date when="1848-06-17">17. 6. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_74_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Personalvermehrung bei Eisenbahnbauprojekten; Personalreduktion in der Montanhofbuchhaltung</head>
+                  <p>Nachdem der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der öffentlichen Arbeiten</rs>
+                     </hi> die Notwendigkeit zur Sprache gebracht hatte, zur Revision der Eisenbahnbaurechnungen ein vermehrtes Personal zu bestellen, während andererseits im Personal der Montanhofbuchhaltung eine Reduktion eintreten könnte, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, er habe sich bereits mit dem Präsidenten des Generalrechnungsdirektoriums wegen einer neuen Regulierung der Kontrollbehörden ins Einvernehmen gestellt<note type="footnote" n="18">Mit Schreiben (K.) v. <date when="1848-06-17">17. 6. 1848</date> wandte sich Krauß an den Präsidenten des Generalrechnungsdirektoriums Wilczek mit der Aufforderung, über die Errichtung der Obersten Rechnungsbehörde in Verhandlungen zu treten, <bibl type="archival">FA., FM., Präs. 2098/1848</bibl>.</note> und er behalte sich vor, sofort auf den baldigen Beginn der kommissionellen Verhandlungen über diesen Gegenstand einzuwirken<note type="footnote" n="19">Mit Schreiben v. <date when="1848-06-18">18. 6. 1848</date> erklärte sich Wilczek mit dem in Anm. 18 gemachten Vorschlag einverstanden, <quote>ebd., Präs. 2175/1848</quote>. In der Folge fanden zwei Beratungen statt, an denen Vertreter der einzelnen Ministerien teilnahmen; das Ergebnis der Beratungen teilte Wilczek Krauß mit Schreiben v. <date when="1848-07-07">7. 7. 1848</date> mit, <quote>ebd., Präs. 2885/1848</quote>; die gemachten Vorschläge bezüglich der Organisierung einer Obersten Rechnungskontrollbehörde wurden schließlich im Mai 1856 zu den Akten gelegt, <quote>ebd</quote>.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, am 17. Junius 1848. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolles zur Nachricht genommen und die zur Leitung des böhmischen Generalkommandos getroffene provisorische Verfügung genehmigt. Nach Ah. Befehle</seg>
+                  <seg type="other">Erzherzog Johann. Wien, am <date when="1848-06-26">26. Juni 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title>
+            
+<title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <title level="s" type="sub" n="5">Abteilung V</title>
+            <title level="s" type="sub">Die Ministerien Erzherzog Rainer und Mensdorff</title>
+            <title level="m" type="main" n="8">Band 8</title>
+            <title level="m" type="sub">Mai 1864–<date when="1864-11-26">26. November 1864</date>
+            </title>
+            <title level="a" type="desc" n="511">Sitzung 511</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1864-11-07"/>
+               <date when="1864-11-09"/>
+               <date when="1864-11-10"/>
+            </meeting>
+            <editor ref="#editor_Malfer">
+               <persName>Stefan Malfèr</persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a5-b8-z511.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Malfer">
+                        <persName>Stefan Malfèr</persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung V Die Ministerien Erzherzog Rainer und Mensdorff, Band 8 Mai 1864–26. November 1864</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1994">1994</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1315</idno>
+                  <idno type="KZ">3546</idno>
+               </msIdentifier>
+               <p>
+                  <span>Sammelprotokoll, kompiliert aus mehreren Sitzungstagen; </span>
+                  <span ana="non-parsed">Sammelprotokoll; RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 13. 11.), Mensdorff, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck, Zichy, Mažuranić, Kalchberg, Reichenstein; BdR. Erzherzog Rainer 28. 11.</span>
+                  <placeName>Wien</placeName>
+                  <date when="1864-11-07"/>
+                  <date when="1864-11-09"/>
+                  <date when="1864-11-10"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">Sammelprotokoll; RS.; P. Ransonnet; VS. Erzherzog Rainer; BdE. (Erzherzog Rainer 13. 11.), Mensdorff, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck, Zichy, Mažuranić, Kalchberg, Reichenstein; BdR. Erzherzog Rainer 28. 11.</item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr8421">
+                     <surname>Ransonnet</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8609">
+                     <surname>Erzherzog Rainer</surname>
+                  </persName>
+                  <note>BdE. <date when="1864-11-13">1864-11-13</date> (nur am Ende des Protokolls, nicht aber auf dem Mantelbogen)</note>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7788">
+                     <surname>Mensdorff</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8671">
+                     <surname>Mecséry</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8538">
+                     <surname>Nádasdy</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr6888">
+                     <surname>Schmerling</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8668">
+                     <surname>Lasser</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr3557">
+                     <surname>Plener</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8729">
+                     <surname>Lichtenfels</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8121">
+                     <surname>Esterházy</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8848">
+                     <surname>Burger</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7039">
+                     <surname>Hein</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8941">
+                     <surname>Franck</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8954">
+                     <surname>Zichy</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8688">
+                     <surname>Mažuranić</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr7611">
+                     <surname>Kalchberg</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8915">
+                     <surname>Reichenstein</surname>
+                  </persName>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_5_8_511_1">Gesetzentwurf über die Grund- und Gebäudesteuer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_5_8_511_2">Gesetzentwurf über die Erwerbsteuer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_5_8_511_3">Gesetzentwurf über die Zins- und Rentensteuer</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_5_8_511_4">Gesetzentwurf über die allgemeine Klassen- und Einkommensteuer</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-5-08-0-18641110-P-0511" ana="a5-b8-z511">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml#a5-b8_z511.pdf">
+               <title type="num">Nr. 511</title>
+               <title type="descr">Ministerrat, Wien, 7., 9. und <date when="1864-11-10">10. November 1864</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">Sammelprotokoll; <choice>
+                                <abbr>RS.</abbr>
+                                <expan>Reinschrift</expan>
+                            </choice>; <choice>
+                                <abbr>P.</abbr>
+                                <expan>Protokoll</expan>
+                            </choice> Ransonnet; <choice>
+                                <abbr>VS.</abbr>
+                                <expan>Vorsitz</expan>
+                            </choice> Erzherzog Rainer; <choice>
+                                <abbr>BdE.</abbr>
+                                <expan>Bestätigung der Einsicht</expan>
+                            </choice> (Erzherzog Rainer 13. 11.), Mensdorff, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck, Zichy, Mažuranić, Kalchberg, Reichenstein; <choice>
+                                <abbr>BdR.</abbr>
+                                <expan>Bestätigung des Rückempfangs</expan>
+                            </choice> Erzherzog Rainer 28. 11.</item>
+               </list>
+               <p>
+                  <idno type="MRZ">1315</idno>
+                  <idno type="KZ">3546</idno>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll des zu Wien am 7., 9. und <date when="1864-11-10">10. November 1864</date> abgehaltenen Ministerrates unter dem Vorsitze Sr. k. k. Hoheit des durchlauchtigsten Herrn Erzherzogs Rainer. [Sitzung vom <date when="1864-11-07">7. November 1864</date>] [anw. Erzherzog Rainer, Mensdorff, Mecséry, Nádasdy, Schmerling, Lasser, Plener, Lichtenfels, Esterházy, Burger, Hein, Franck, Zichy, Mažuranić, Kalchberg, Reichenstein; außerdem anw. Vesteneck, Distler]</head>
+               <div type="agenda_item" xml:id="top_5_8_511_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Gesetzentwurf über die Grund- und Gebäudesteuer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über den vom Finanzminister mit Vortrag vom <date when="1864-09-20">20. September 1864</date> überreichten Gesetzentwurf über die Regelung der Grundsteuer und der Gebäudesteuer, welches Gesetz als für das ganze Reich, mit Ausnahme der Militärgrenze, gültig zu erlassen wäre<note type="footnote" n="1">Mit Vortrag v. <date when="1864-09-20">20. 9. 1864</date> hatte der Finanzminister vier Gesetzentwürfe zur Reform der direkten Steuern vorgelegt, <bibl type="archival">FA., FM., Präs. 4686/1864 (K.) und Präs. 5589/1864</bibl> (RS., unvollständig erhalten); sie wurden im Ministerrat am 7., 9. und <date when="1864-11-10">10. 11. 1864</date> besprochen; Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 845/1864,</bibl> dabei auch die gedruckten Entwürfe, eine <quote>Denkschrift zur Reform der directen Besteuerung,</quote> und eine Begründung zu jedem Gesetz. Die Gesetzentwürfe bildeten ein Reformpaket wie jenes, das der Finanzminister bereits in der zweiten Reichsratssession eingebracht hatte, das aber wegen des heftigen Widerstandes im Abgeordnetenhaus nicht verabschiedet worden war (zu diesem Reformversuch von 1863/64 siehe <bibl type="secondary">
+                           <author>Kletecka–Koch</author>, Einleitung ÖMR. V/6, XL–XLIII</bibl>, und die MRProt. v. 22. und 24. 9., v. 24. und 26. 9., und v. 26. und <date when="1863-09-28">28. 9. 1863</date>, <quote>ebd., Nr. 393, 395</quote> und <quote>396.</quote> Obwohl der zweite Anlauf in der Session 1864/65 bessere Erfolgsaussichten hatte und das Gesprächsklima im Steuerreformausschuß des Abgeordnetenhauses gut war, kam es auch diesmal zu keiner Reform: Die Regierung Schmerling hatte im Sommer 1865 nicht mehr die Kraft, so einschneidende Maßnahmen ohne die Beteiligung Ungarns durchzubringen. Literatur: <bibl type="secondary">
+                           <author>Kolmer</author>, Parlament und Verfassung 1, 187f.</bibl> und <quote>194 f.</quote>; <bibl type="secondary">
+                           <author>Lesigang</author>, Reform der direkten Steuern 223–229;</bibl>
+                        <bibl type="secondary">
+                           <author>Wolf</author>, Ignaz von Plener 55 f.</bibl> Zur Behandlung der Gesetze im Reichsrat siehe Anm. 16.</note>.</p>
+                  <p>Ein ministerieller Entwurf eines Gesetzes über die obgedachten zwei Realsteuern ist bereits im verflossenen Jahre vom Staatsrate begutachet worden<note type="footnote" n="2">Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 531/1863</bibl>.</note>. Der vorliegende Entwurf ist zum Teil mit Benützung der Amendements des Staatsrates ausgearbeitet worden, doch bestehen noch immer einige Differenzen, die Freiherr v. Lichtenfels beleuchtete und von denen die wichtigeren in dem heutigen Ministerrate zur Entscheidung gebracht wurden.</p>
+                  <p>Nach § 55 des Entwurfes sollen für die Geschäfte zur Durchführung der Regelung der Grundsteuer sowie der Gebäudebesteuerung neben den Steuerverwaltungsbehörden eigene Kommissionen, und zwar abgesondert eine für die Grundertragsschätzungen und eine für die Gebäudesteuer bestehen. Nachdem diese Kommissionen an Mitgliedern <pb n="252" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s252.pdf"/>reich sein werden, kann man, nach der Meinung des Staatsrates, bei der Wahl der Mitglieder auf die Kategorie der Hausbesitzer den geeigneten Bedacht nehmen, zumal auf dem flachen Land die Grundbesitzer in der Regel auch Hausbesitzer sind. Die Mitwirkung der letzteren ließe sich daher durch alle drei Instanzen mit einer einheitlichen Grund- und Gebäudesteuerkommission erzielen, und eine namhafte Kostenersparnis erreichen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> glaubte jedoch an der Bestimmung des § 55 festhalten zu sollen, indem er sich von einer einheitlichen Kommission keine so genaue Kenntnis der zwei verschiedenen Steuerobjekte versprechen könne. Die Stimmenmehrheit fand gegen den ministeriellen Antrag nichts zu erinnern.</p>
+                  <p>§ 56 lautet folgendermaßen: „Die oberste Leitung der Geschäfte zur Durchführung der Grundertragsschätzung und der Gebäudebesteuerung führt der Finanzminister. Für die der Zentralleitung vorbehaltenen Geschäfte steht dem Finanzminister ein Beirat von 16–20 sach- und länderkundigen Vertrauensmännern mit beratender Stimme zur Seite. Die Hälfte dieser Vertrauensmänner beruft der Finanzminister; die Wahl der anderen Hälfte derselben bleibt den beiden Häusern des Reichsrates vorbehalten.“ Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erklärte, er vermöge dieser letzteren Wahl durchaus nicht beizustimmen. Der Reichsrat ist lediglich zur Mitwirkung bei der Gesetzgebung berufen, und es ist nicht geraten, den Mitgliedern desselben, auf was immer für eine Weise, einen Einfluß einzuräumen, welcher sich nicht hierauf, sondern auf den Vollzug der Gesetze bezöge und daher dazu beitragen würde, die Exekutivgewalt der Regierung zu beengen. Es dürfte daher bei dem Antrage, wie er im § 8 des früheren Entwurfs gestellt war, zu bleiben haben, daß nämlich alle Mitglieder des Beirates vom Finanzminister zu wählen seien. Die gleiche Bestimmung hätte übrigens auch für die Entwürfe hinsichtlich aller übrigen Steuergattungen zu gelten.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, die fragliche Bestimmung sei nur nach reifer Erwägung aufgenommen worden, und zwar deswegen, um für die Operationen ein Element des öffentlichen Vertrauens zu gewinnen, ohne den Steuerträgern selbst eine bedenkliche Ingerenz einzuräumen. Die Wahl der Mitglieder durch andere Körper scheine mißlich, während für die Wahl aus den Häusern des Reichsrates das Präzedens mit den Beisitzern der Staatsschuldenkommission spricht. Die Wichtigkeit des Gegenstandes rechtfertigt es wohl, daß man diese Wahl den Faktoren der Gesetzgebung überträgt. In Preußen bestehe die gleiche Einrichtung. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> erwiderte, das Beispiel Preußens könne für uns nicht maßgebend sein. Die Wahl der Staatsschulden[kontroll]kommissionsmitglieder durch den Reichsrat habe einen guten Grund in der Verfassung, welche den Reichsrat zur Kontrolle der Staatsschuld berufen hat. Für die reichsrätlichen Wahlen in die Zentralsteuerkommission fehlt es dagegen an jedem verfassungsmäßigen Anhaltspunkt. Eher würde sich die Wahl von Beiräten durch die Landesvertretungen – Landesausschüsse – rechtfertigen lassen<note type="footnote" n="3">Dies sah der § 58 für die Kommissionen auf Landesebene vor.</note>. Die Minister Ritter v. Lasser und v. Hein stimmten mit dem Staatsratspräsidenten gegen die Reichsratswahlen, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> würde selbst die Landtagswahlen nicht für rätlich halten. Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> ist gegen jede Ingerenz des Reichsrates in diesem Beirat des Ministers. Baron Reichenstein stimmt jedoch auch gegen die Wahlen <pb n="253" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s253.pdf"/>durch die Landtage, § 58, und zwar aus dem Grunde, weil die Stellung der Delegierten der Landtage, welche sich den Funktionären des Staats gegenüber in der Minorität befinden würde, keine glänzende und für die Landesvertretungen wünschenswerte sein werden. In Siebenbürgen habe man dem Votum der Vertrauensmänner gar keine Aufmerksamkeit geschenkt; man berufe sie also lieber gar nicht. Schließlich äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß er sich dem Antrage des Staatsratspräsidenten zum §56 konformiere. Der Ministerrat fand nichts dagegen zu erinnern.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> bemerkte, die Bestimmungen des § 35 über die Veranlagung der Grundsteuer seien mit jenen des § 60 im vorigjährigen Entwurfe gleichlautend und nur die Ordnung der zwei Absätze umgekehrt. Der § 36 enthalte gegen § 61 der älteren Vorlage die Abweichung, daß von dem Vorbehalte einer künftigen gesetzlichen Regelung der Art und der Verteilung und Einhebung der Steuer in der Gemeinde Umgang genommen und mit Bestimmtheit ausgedrückt ist, daß der für jede Gemeinde ermittelte Reinertrag auf das Flächenmaß der einzelnen Grundstücke umgelegt und durch die hiezu berufenen Organe eingehoben werde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> vermißte im § 35 eine Bestimmung, wonach bei der laut § 34 nach Ablauf von zwanzig Jahren stattfindenden Revision des Grundertragskatasters eine neue Verteilung der Grundsteuer mit Rücksicht auf die zu jener Zeit vorhandenen Verhältnisse des gesamten Reinertrages der einzelnen Länder untereinander stattzufinden hätte. Es läßt sich nämlich mit Gewißheit voraussehen, daß nach so vielen Jahren die Proportion des Reinertrags der verschiedenen Länder eine ganz andere sein wird. Namentlich dürften die östlichen Länder in agrikoler Beziehung bis dahin ungeheure Fortschritte gemacht haben, während manches westliche Land, wo nicht zurückgegangen, doch stillgestanden sein wird. Wollte man daher in zwanzig Jahren die Steuerquoten der Länder nach dem Maßstabe des dermaligen Reinertrages bemessen, so würde man einerseits eine Ungerechtigkeit begehen, andererseits aber den Finanzen eine ergiebige Quelle zu vermehrten Einnahmen verschließen. Dies sei eine bedauerliche Folge des sogenannten Quotenkatastersystems, mit welchem Votant sich schon bei den Beratungen im Jahre 1863 nicht einverstanden erklärt habe, <ref xml:id="fn_5_8_511_a">weil dabei die Provinz als Steuerindividuum erscheine, während doch weder die Provinz noch der Kreis, Bezirk oder die Gemeinde, sondern die Parzelle und respektive deren Besitzer als steuerndes Individuum gelten müsse, wenn anders die Steuerkraft, welche diesen Individuen inhäriert und sich in ihnen erhöht, dem ganzen Reiche zustatten kommen soll. Wird die Provinz als Steuerindividuum behandelt (was leider bei feststehenden Postulaten der Fall wäre), so wird das Emporblühen und Anwachsen der Steuerkräfte immer nur der Provinz zugutekommen und in der Provinz die Ermäßigung des Steuerperzentes zur Folge haben, der Staat aber wird kein erhöhtes Steuereinkommen erlangen. Österreichs finanzielle Zukunft aber beruhe vorzüglich auch auf der Erwartung, daß überhaupt, namentlich und insbesondere in seiner östlichen Hälfte, die direkten Steuern naturgemäß einen steigenden Ertrag gewähren</ref>
+                     <note type="variant" n="a" target="#fn_5_8_511_a">Einfügung a–a Heins.</note>. Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> war 1863 nicht in der Lage, sich über die Grundsteuergesetzvorlage auszusprechen, bei seiner heutigen ersten Abstimmung über diesen Gegenstand aber müsse er sich ebenfalls unbedingt als einen <pb n="254" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s254.pdf"/>Gegner des Quotenkatasters und des § 35 erklären, indem die östlichen Länder dadurch insoferne benachteiligt erscheinen, als die dortigen Grundbesitzer nicht gleich jenen diesseits der Leitha das Recht haben, einen Teil des Steuerzuschlags auf die Hypothekargläubiger durch Abzug der Einkommensteuer von den Interessen überzuwälzen. Im Laufe der hierüber gepflogenen langen Erörterungen zeigte der Finanzminister vorerst, daß die hie und da bestehende Abneigung gegen das System des Quotenkatasters auf einer nicht ganz richtigen Auffassung dieses Systems beruhe. Gemäß der Vorlage soll, nach bewirkter Vollendung des Katasters, im ganzen Reiche von dem Gesamtbetrage der in jenem Zeitpunkt für das Reich in Vorschreibung stehenden Grundsteuer samt den lf. Zuschlägen der auf die einzelnen Verwaltungsgebiete entfallende Anteil nach dem Verhältnisse des ermittelten Reinertrages bestimmt und in jedem Verwaltungsgebiete auf die Gemeinden durch die Steuerbehörden umgelegt werden. Hier ist dem Grundsatz Ausdruck gegeben, daß die Grundsteuer nicht mehr mit einem im voraus bestimmten Perzente des Katastralreinertrags, sondern für das ganze Reich in einer bestimmten Summe angefordert werden soll. Die Quote der einzelnen Länder an der Postulatenhauptsumme wird sich aufgrund des Ertragskatasters nach dem Verhältnisse des Reinertrages ergeben. Wenn nach Ablauf von 20 Jahren die Revision des Katasters stattfindet, wird es die Sache des künftigen Finanzministers sein, im geeigneten Wege dafür zu sorgen, daß die mehr vorgeschrittenen Länder nach Maß ihres Reinertrages höher besteuert werden. Dies liegt ganz in der Natur der Sache, aber eben deswegen scheint es nicht nötig, schon heute darüber eine Norm zu erlassen. Die Hauptsache ist vorderhand, daß die dermalige Hauptsumme der bestehenden Steuern bis zur Revision und auch über dieselbe hinaus als Minimum unanfechtbar erhalten werde. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> findet durch diese Motive seine Überzeugung nicht erschüttert, daß es notwendig sei, schon in diesem Gesetze auf eine neue länderweise Steuerverteilung nach Maßgabe der Revisionsresultate hinzuweisen. Allerdings würden in 20 Jahren die Länder über die ihnen zugewiesenen neuen Quoten in lebhaften Streit geraten; allein dies sei einmal schon die Folge des angenommenen Systems. Ob übrigens dieses bellum omnium contra omnes der Steuerträger eine gute Einrichtung sei, das werde sich erst durch die Erfahrung zeigen. <ref xml:id="fn_5_8_511_b">Jedenfalls sei das vorliegende Gesetz mit seinem Quotensystem (das er ganz wohl aufgefaßt habe und eben deshalb lebhaft bekämpfe) ganz geeignet, wenn nicht eine entsprechende Änderung bei § 35 und § 36 erfolge, in dem für die Finanzen ungünstigen Sinne aufgefaßt und seinerzeit auch ausgebeutet zu werden, den er bereits angedeutet habe. Er halte es für unausbleiblich, daß seinerzeit namentlich die jetzt sehr geringe Quoten leistenden östlichen Provinzen von einer Erhöhung dieser Quote nichts werden wissen wollen, wenn nicht derzeit im Gesetz eine passende Änderung vorgenommen werde</ref>
+                     <note type="variant" n="b" target="#fn_5_8_511_b">Einfügung b–b Heins.</note>. <hi rend="#letterspaced">
+                        <rs type="person">Sektionschef Ritter v. Vesteneck</rs>
+                     </hi> bemerkte, der Grund der den Steuerträgern im gegenwärtigen neuen Gesetze zugedachten wechselseitigen Kontrolle der Schätzungen des Reinertrages und überhaupt der größeren Vorsicht liegt darin, daß den Steuerträgern jetzt ein größerer Einfluß auf die Schätzungsresultate eingeräumt werden soll. Nach dem bisherigen System wurden die Schätzungen ausschließend durch Regierungsorgane <pb n="255" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s255.pdf"/>bewirkt. Künftig sollen die Landeskommissionen etc. zur Hälfte aus Delegierten der Steuerträger bestehen; die Interessen des Staatsschatzes wären daher, ohne jenes Korrektiv, völlig preisgegeben. Die Quote jedes Landes muß vorerst sichergestellt werden gegen die Herabminderung derselben, welche sich aus allzuniedrigen Schätzungen ergeben würde, und in gleicher Weise muß auch die „bestehende“ Gesamtsteuer des Reiches bei der Repartition derselben nach Vollendung des Katasters intakt erhalten werden. Welche Verhältnisse nach 20 Jahren bei Revision des Grundsteuerkatasters bestehen werden, kann jetzt niemand wissen. Vielleicht braucht man weniger, wahrscheinlich aber braucht man mehr an Grundsteuer. Jedenfalls aber dürfte in jener Zeit das Grundsteuersimplum samt den tunc bestehenden Zuschlägen als die „bestehende Grundsteuer“ zu gelten haben, um deren neue Veranlagung es sich handeln wird. Sofern von einer Seite vorgeschlagen worden sei, die Ordnung der §§ 34 und 35 zu versetzen, fände Votant nichts dagegen zu erinnern. Er müsse jedoch bekennen, daß dadurch nicht mehr und nichts anderes festgesetzt werden würde, als was schon in dem vorliegenden Texte enthalten ist. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> würde es nicht für angezeigt halten, daß die Frage über die nach 20 Jahren stattfindende Umlegung der Grundsteuer im vorliegenden Gesetze unentschieden bleibe und der Deutung Raum gegeben werde, als ob dann keine neue länderweise Repartition nach Maß des zu jener Zeit bestehenden Reinertrags der einzelnen Verwaltungsgebiete mehr stattfinden solle. Um dies mit Aufrechthaltung des Prinzips der Kontinuität der bestehenden Steuern auszusprechen, dürfte daher ein neuer Paragraph in den Gesetzentwurf aufzunehmen sein. Nachdem die Minister Ritter v. Lasser und Freiherr v. Mecséry sich in ähnlichem Sinn ausgesprochen hatten, äußerte <hi rend="#letterspaced">
+                        <rs type="person">Sektionschef v. Vesteneck</rs>
+                     </hi>, diese erklärte Absicht dürfte auch ohne Einschaltung eines eigenen Paragraphen dadurch erreicht werden, daß der Eingang des § 35 folgende Fassung erhielte: „Nach der bewirkten Vollendung des Katasters im ganzen Reiche sowie nach jeder Revision desselben wird von dem Gesamtbetrage etc.“ Der Finanzminister und die übrigen Stimmführer waren mit dieser Ergänzung des Textes einverstanden.</p>
+                  <p>Laut § 59 – so fuhr der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> in seinem Referate fort – führt ein Finanzorgan in den Landeskommissionen zugleich das Geschäft eines Referenten und jenes des Präsidenten, und zwar mit dem Sistierungsrechte. Schon bei der vorigjährigen Beratung hat sich der Staatsrat gegen diese Doppelstellung mit so weitgehenden Attributen ausgesprochen. Freiherr v. Lichtenfels könne auch heute nur dieselbe Meinung hegen, denn von einem Referenten könne man nicht erwarten, daß er bei Beratung seiner Anträge stets mit Unbefangenheit das Präsidium führe. <hi rend="#letterspaced">
+                        <rs type="person">Sektionschef v. Vesteneck</rs>
+                     </hi> machte dagegen die Schwierigkeiten geltend, für die so ausgedehnten Katastraloperationen in der Monarchie geeignete Finanzbeamte in hinlänglicher Zahl zusammenzubringen. Die Bestellung eigener Präsidenten der Landeskommissionen durch einen höhergestellten Beamten würde die Verlegenheiten nur vermehren, einen gesteigerten Aufwand herbeiführen und am Ende der Förderung des Geschäftes kaum günstig sein, nachdem es wohl am ersprießlichsten ist, wenn ein vertrautes, vollkommen sachkundiges und in die Vorverhandlungen eingeweihtes Individuum alles allein in der Hand hat. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> fügte bei, daß in Preußen dieselbe Einrichtung anstandslos bestehe, und die Stimmenmehrheit entschied sich für die Bestimmungen des § 59 der Vorlage.</p>
+                  <p>
+                     <pb n="256" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s256.pdf"/>Fortsetzung am <date when="1864-11-09">9. November 1864</date>.</p>
+                  <p>Vorsitz und Gegenwärtige wie im Ministerrate am <date when="1864-11-07">7. November 1864</date> mit Ausnahme der Minister Graf Mensdorff, Ritter v. Schmerling, Ritter v. Franck und Freiherr v. Burger.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Präsident des Staatsrates</rs>
+                     </hi> referierte über die Bestimmungen der Regierungsvorlage die Gebäudesteuer betreffend, in welchen er das gegen zu niedrige Einschätzungen für die Grund- und Erwerbsteuer angewendete Korrektiv vermißt. Freiherr v. Lichtenfels würde es für angezeigt halten, wenn in diesem Gesetze sofort das Perzentenausmaß der Gebäudesteuer ziffernmäßig ausgesprochen und somit die Kontinuität der Steuer gewahrt würde, statt daß hier im § 40 bloß der Fall der Änderung des Perzentensatzes mit Hinweisung auf den verfassungsmäßigen Weg vorgesehen ist. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, es sei seine Absicht, zugleich mit der gegenwärtigen Vorlage einen eigenen Gesetzentwurf über die erste Festsetzung des Gebäudesteuerperzentes einzubringen, wobei die Kontinuität der bestehenden Gebäudesteuern salviert wäre. Da jedoch dies aus dem § 40 in seiner dermaligen Fassung nicht entnommen werden kann, gedenkt der Finanzminister den zweiten Satz desselben ungefähr folgendermaßen zu textieren: „Die Höhe des Perzentenausmaßes wird für das erste Jahr ausgemittelt und dasselbe kann sofort nur im verfassungsmäßigen Wege geändert Werden.“ In bezug auf das vermißte Korrektiv bemerkte der Minister, daß die Hauszinssteuer, als auf Fassionen<note type="footnote" n="4">Steuerbekenntnis, -angabe.</note> beruhend, eines solchen gar nicht, die Gebäudesteuer nach dem Gebrauchswert aber wegen der vorhandenen geringen Latitüde weit weniger bedürfe als die Grundsteuer. Der Staatsratspräsident und Minister Ritter v. Lasser erklärten sich mit der vorgeschlagenen Textesänderung [des] § 40 einverstanden.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> kam auf die von dem Korrektiv bei der Grundsteuer erwarteten Wirkungen zurück. Es liegt dasselbe darin, daß jeder Grundbesitzer ein Interesse daran hat, daß sein Nachbar nicht zu niedrig geschätzt wird, weil er selbst dann relativ mehr zu steuern hätte. Dieses Korrektiv sei allerdings wirksam bei einzelnen Steuerindividuen oder auch bei ganzen Bezirken innerhalb desselben Kronlandes untereinander. Allein gegenüber der Finanzverwaltung besteht keine Rivalität der Steuerindividuen des ganzen Kronlandes, insofern als sie vielmehr alle das gleiche Interesse verfolgen werden, sich möglichst niedrig einzuschätzen, unbeschadet der proportionierten Abstufung untereinander. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß es eine Hauptaufgabe der Inspektoren sein werde, solchen Bestrebungen entgegenzuwirken. Die Zentralkommission werde die Operate komparativ prüfen und die nicht entsprechenden zur Verbesserung zurückstellen. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> versprach sich wenig Erfolg von all diesen Korrektionen, und der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> äußerte schließlich, er habe dieses Bedenken gegen das neue, bereits 1863 adoptierte System nicht unterdrücken können, müsse aber gestehen, daß er kein anderes Auskunftsmittel in Antrag zu bringen vermöge.</p>
+                  <p>Im § 50 wird für Neubauten „die Gebäudesteuerfreiheit (vorbehaltlich der durch Bauführungen bereits erworbenen Steuerfreiheiten) auf sechs Jahre … festgesetzt“. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> besorgt, daß durch eine so enge begrenzte Ausnahme <pb n="257" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s257.pdf"/>die den Stadterweiterungsgründen Ag. zuerkannte 30jährige Gebäudesteuerfreiheit<note type="footnote" n="5">Die Steuerfreiheit war mit Ah. E. v. <date when="1859-05-14">14. 5. 1859</date> gewährt worden, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 1200/1859</bibl>.</note> plötzlich auf 6 Jahre reduziert werden würde, bei allen Bauplätzen, welche noch nicht verbaut sind. Denn man könne nicht sagen, daß auf solchen Gründen die Gebäudesteuerfreiheit durch Bauführungen bereits erworben sei! Die Folgen davon wären, daß das kaiserliche Geschenk der Steuerfreiheit gegen die Ah. Absicht verkümmert und auch der so schwer belastete Stadterweiterungsfonds empfindlich verkürzt würde, indem die Verkaufspreise aller demselben noch gehörigen Gründe namhaft sinken müßten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, man habe bei Textierung des § 50 nicht daran gedacht, die Steuerfreiheit der Wiener Stadterweiterungsgründe zu schmälern. Sofern es daher vielleicht nicht angemessen befunden würde, in diesem Gesetze die Ausnahme für jene Baugründe ausdrücklich zu erwähnen, wäre der Minister bereit, die Parenthese über die Ausnahmen folgendermaßen zu textieren: „(vorbehaltlich der durch Bauführungen oder für bestimmte Objekte bereits erworbenen Steuerbefreiungen)“. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> beruhigte sich bei dieser Fassung, und von Seite der übrigen Stimmführer wurde nichts dagegen eingewendet.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> sprach das Bedauern aus, daß die Baufreijahre nur mit sechs statt mit acht <ref xml:id="fn_5_8_511_c">oder noch mehr</ref>
+                     <note type="variant" n="c" target="#fn_5_8_511_c">Einfügung c–c Heins.</note> Jahren bemessen werden sollen. Im Vergleich mit dem vorjährigen Antrage auf bloß drei Freijahre sei dies zwar eine Besserung, aber [es sei] noch lange keine Gerechtigkeit gegen die im Vergleich mit Wien diesfalls so sehr zurückgesetzten Provinzen geübt worden. Die Begünstigung der Neubauten sei vom nationalökonomischen, vom Humanitäts- und selbst vom finanziellen Standpunkte empfehlenswert. Auch <hi rend="#letterspaced">
+                        <rs type="person">Baron Reichenstein</rs>
+                     </hi> würde, wenn die Frage noch offen wäre, die Verlängerung der Freijahre für die östlichen Provinzen bevorworten. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er sei prinzipiell gegen die einseitige Begünstigung der Bauunternehmungen mittelst Freijahren, während so viele andere Fabriks-, Handels- und Montanunternehmungen, die für den Staat nicht minder, ja noch mehr wichtig sind, gar keine Steuerfreiheit genießen. Der Staatsratspräsident trat dieser Meinung bei.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_511_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Gesetzentwurf über die Erwerbsteuer</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> referierte über den Gesetzentwurf für die Erwerbsteuer, welche eigentlich des Zusammenhanges wegen mit der Klassen- und Einkommensteuer, füglich in einem Gesetze hätte behandelt werden können.</p>
+                  <p>Bezüglich der Zusammensetzung der Zentralkommission, § 6, würde selbstverständlich der bei Beratung des Grundsteuergesetzes gefaßte Ministerratsbeschluß maßgebend sein.</p>
+                  <p>Zu § 17.1 sei die Erwähnung der Coloni, welche früher<note type="footnote" n="6">Im Entwurf 1863.</note> (§ 18.2) ausdrücklich genannt waren, nicht überflüssig, da der Vertrag der Coloni eigentlich kein Pacht-, sondern ein Gesellschaftsvertrag ist. Der Ministerrat war mit der Einschaltung des Wortes Coloni einverstanden.</p>
+                  <p>Zu § 57 könne der Staatsratspräsident der Bestimmung, wonach lf. Beamtenbezüge, deren jährlicher Betrag 630 fl. übersteigt, der II. Erwerbsteuerklasse unterliegen und <pb n="258" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s258.pdf"/>nur die Aktivitätsbezüge der aktiven k. k. Offiziers und Mannschaft steuerfrei sein sollen, nicht beipflichten. Bei der vorjährigen Beratung dieses Gesetzes wurde nämlich ausdrücklich beschlossen, daß die Befreiung der fixen und der veränderlichen Bezüge der Staatsbeamten im Prinzipe ausgesprochen und nur im Einfuhrungsgesetze ausgedrückt werden solle, daß diese Befreiung in Rücksicht der höher gestellten Kategorien so lange suspendiert bleibe, als die Finanzverhältnisse die Ausführung derselben nicht gestatten. Mit diesem Ministerratsbeschlusse wäre § 57 in Einklang zu bringen; dagegen dürfte im § 76, der die Stelle des Einführungsgesetzes vertritt, die einstweilige Suspension der fraglichen Befreiung ausgedrückt werden. Freiherr v. Lichtenfels müsse umso mehr darauf antragen, daß jenes Prinzip ausgesprochen werde, als die Beamten nach den Anträgen des Finanzministers durch die Klassen- und Einkommensteuer neuerdings getroffen werden sollen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> entgegnete, daß bei den Staatsbeamten nicht alle jene Befreiungsgründe zutreffen, welche für die Militärs sprechen. Ferner würde es keinen guten Eindruck machen, wenn die <ref xml:id="fn_5_8_511_d">Landes-, Fonds- und Gemeindebeamten, dann die</ref>
+                     <note type="variant" n="d" target="#fn_5_8_511_d">Einfügung d–d Pleners.</note> Privatbeamten steuerpflichtig sind, während die lf. Beamten steuerfrei wären. Von einem schlimmen Eindruck dieser ungleichen Behandlung besorgt aber <hi rend="#letterspaced">
+                        <rs type="person">Freiherr v. Lichtenfels</rs>
+                     </hi> nichts, sind ja in der Regel die Beamten der Aktiengesellschaften, Städte und Privaten besser bezahlt als die landesfürstlichen, und haben ja selbst die Häuser des Reichsrates die Initiative wegen Verbesserung des Schicksals dieser letzteren ergriffen<note type="footnote" n="7">Vgl. <ref type="protocol-link" target="MRP-1-5-08-0-18640916-P-0490.xml#top_5_8_490_4">MR. v. <date when="1864-09-16">16. 9. 1864</date>/IV</ref>, Anm. 19.</note>! <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> sprach sich im gleichen Sinne aus, zumal jetzt die Staatsbeamten ohne Rücksicht auf den Zensus gesetzlich die aktive Wahlfähigkeit haben. Es würde sich nach der Meinung dieses Votanten sehr empfehlen, die Bezüge derselben wenigstens bis 1.000 fl. steuerfrei zu lassen. Dieser Meinung traten auch die Minister Baron Mecséry und Graf Esterházy bei. Die übrigen Stimmführer vereinigten sich im wesentlichen mit dem Antrage des Staatsratspräsidenten, welcher sohin die Majorität erhielt. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> äußerte hierüber, daß er seine Meinung zwar festhalte, aber die beliebte Modifikation insofern nicht schade, als sie das Steuersystem an sich nicht modifiziert.</p>
+                  <p>Zum §49 stellte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> die Frage, ob der letzte Abschnitt, der von der Erwerbsteuer auf Aktienunternehmungen handelt, nicht mit Hinblick auf das demnächst einzubringende Gesetz über diesen Gegenstand wegbleiben könne<note type="footnote" n="8">In der zweiten Reichsratssession war ein Gesetz über die Erwerb- und Einkommensteuer der Aktiengesellschaften verhandelt und abgelehnt worden. Das von der Regierung vorbereitete Gesetz, das Lichtenfels hier meint, betraf nur die Eisenbahnen, dazu <ref type="protocol-link" target="toc.html?collection=editions#myTable=f18641223" ana="prot0 top3">MR. v. <date when="1864-12-23">23. 12. 1864</date>/III</ref>; im Zusammenhang mit diesem Gesetz über die Erwerbsteuer der Eisenbahnen urgierte das Abgeordnetenhaus im März 1865 ein Gesetz für alle Aktiengesellschaften, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 721 f. (34. Sitzung / <date when="1865-03-20">20. 3. 1865</date>)</bibl>; Plener war der Ansicht, daß die Frage nur im Zug der Steuerreform geregelt werden sollte; da diese insgesamt nicht erreicht wurde, ergriff er hier nicht die Initiative.</note>. Der Finanzminister erklärte sich mit der Weglassung einverstanden.</p>
+                  <p>Eine längere Erörterung ergab sich über die Veranlagung der Erwerbsteuer und die strenge Durchführbarkeit des Quotensystems bei derselben, indem Minister Ritter v. Hein dagegen geltend gemacht hatte, daß die große Veränderlichkeit in der Zahl <pb n="259" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s259.pdf"/>und Ausdehnung der Gewerbsunternehmungen die Festhaltung bestimmter Quoten erschwere und in den Steuerbezirken selbst zu großen Ungerechtigkeiten gegenüber den Steuerpflichtigen führen würde, wenn deren Zahl z. B. in Folge von Erwerbstokkungen plötzlich sehr herabsinkt <ref xml:id="fn_5_8_511_e">und man die Quote nicht ermäßigt. Hier, wo kein Steuerindividuum von solcher Dauer wie die Grundparzelle oder das Gebäude katastriert werden könne, sei das Quotensystem – selbst bei nur dreijähriger Revisionsfrist – eine Maßregel, die sehr leicht zu großen Ungerechtigkeiten und Überbürdungen in einzelnen Provinzen führen könne. Dieses System sei auch nicht nötig, weil man denselben Zweck, nämlich den Titel zur Erhebung der direkten Steuer auch ohne reichsrätliche Zustimmung dadurch erreichen könne, wenn man die Summe der ganzen Erwerbsteuer auf alle Erwerbsteuerpflichtigen ohne Länderquoten percentualiter umlegt</ref>
+                     <note type="variant" n="e" target="#fn_5_8_511_e">Einfügung e–e Heins.</note>. <hi rend="#letterspaced">
+                        <rs type="person">Sektionschef Ritter v. Vesteneck</rs>
+                     </hi> setzte hierauf umständlich den Vorgang bei Ausmittlung der Steuerpflicht der Individuen auseinander und zeigte, daß von einer Aufteilung der Steuer von zurückgelegten Gewerben auf die noch fortbestehenden desselben Steuerbezirkes keine Rede sei. Die Tendenz des § 49 ist vor allem, die dermal bestehende Erwerbsteuer für den Übergang von einem System zum anderen mit einer bestimmten Summe zu salvieren. Diese Hauptsumme wird dann nach dem neuen Maßstabe verteilt, und von einer solchen Stabilität derselben wie bei der Grundsteuer kann allerdings keine Rede sein. Daher auch die Notwendigkeit der Revisionen in kürzeren Perioden, die Festhaltung des strengen Landesquotensystems könne hierbei nicht Platz greifen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> fügte bei, daß man die Grundverschiedenheit in den drei Steueranlagen nicht aus den Augen verlieren müsse, wonach bei der Grundsteuer eine unveränderliche Hauptsumme, bei der Einkommensteuer ein fixer Perzent, bei der Erwerbsteuer aber eine nur für den Übergang angenommene Jahressumme ausgesprochen wird, welche nach Maß der Umstände veränderlich sein muß. Nachdem übrigens der <hi rend="#letterspaced">
+                        <rs type="person">Hofvizekanzler Baron Reichenstein</rs>
+                     </hi> geltend gemacht hatte, daß die im § 49 erscheinende Erwähnung der „Steuerrepartition auf die Verwaltungsgebiete“ leicht mißverstanden werden könnte und doch nicht eben notwendig erscheint, dort davon zu sprechen, erklärte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> gegen die Weglassung der Worte: „auf die Verwaltungsgebiete und in diesen“ keine Erinnerung zu erheben, und der Ministerrat war sofort damit einverstanden.</p>
+                  <p>Schließlich machte der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> darauf aufmerksam, daß in dem Gesetz über die Erwerbsteuer, wohl ebenso wie in jenem über die Grund- und Rentensteuern, der Steuerzuschläge Erwähnung zu machen wäre, und es dürfte dies am besten durch Einschaltung eines Paragraphen nach dem § 68 geschehen können. Der Ministerrat fand gegen diesen Antrag nichts einzuwenden.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_511_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Gesetzentwurf über die Zins- und Rentensteuer</head>
+                  <p>In bezug auf den Gesetzentwurf für die Zins- und Rentensteuer bemerkte der Staatsratspräsident, es sei in den § 6 sehr zweckmäßig die Bestimmung aufgenommen worden, daß die Höhe des Perzentensatzes nur im verfassungsmäßigen Wege geändert werden könne, nur scheine es zur Wahrung der Steuerkontinuität und zur Gewinnung <pb n="260" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s260.pdf"/>eines festen Ausgangspunktes angezeigt, dort bestimmter zu sagen: „Die Höhe des bestehenden Perzentensatzes“. Der Finanzminister fand dagegen nichts zu erinnern.</p>
+                  <p>Auf die vom <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> gestellte Frage, was es mit der im §23 statuierten, nicht sehr deutlich gefaßten Ausnahme für eine Bewandtnis habe, erwiderte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß diese Bestimmung mit § 4.2 im Zusammenhang stehe und sich dadurch auch motiviere<note type="footnote" n="9">Es ging um die Steuerumlagen der Lokalverwaltungskörperschaften, die der Zins- und Rentensteuer nicht unterlagen.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_5_8_511_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Gesetzentwurf über die allgemeine Klassen- und Einkommensteuer</head>
+                  <p>Belangend den Entwurf des Gesetzes über die allgemeine Klassen- und Einkommensteuer teilt der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> die vom Staatsrate im vorigen Jahre<note type="footnote" n="10">Im Gutachten des Staatsrates <bibl type="archival">HHSTA., JStr. 531/1863</bibl>.</note> gegen diese Art der Besteuerung geltend gemachten Gründe und glaubt, daß die damals erteilte Ah. Genehmigung zur Einbringung eines Gesetzentwurfes über die Personal-, Luxus- und Klassensteuer<note type="footnote" n="11">Die Personal-, Luxus- und Einkommensteuer des Reformpakets 1863/64 war nun durch die allgemeine Klassen- und Einkommensteuer ersetzt.</note> der wiederholten Diskussion im Prinzip nicht hinderlich sei, da damals nur von einer außerordentlichen Besteuerung auf ein Jahr die Rede war, während es sich gegenwärtig um die bleibende Einführung dieser Steuergattungen handelt<note type="footnote" n="12">Es handelte sich nicht um zwei, sondern um eine neue progressive Einkommensteuer, deren Progression nach 15 <quote>Classensätzen</quote> gestaffelt war. Diese Steuer war das Herzstück der Plenerschen Steuerreform. Sie wurde in § 1 des Entwurfs so definiert: <quote>Die allgemeine Klassen- und Einkommensteuer ist vom gesamten reinen Einkommen zu entrichten, welches sich aus einer oder mehreren Quellen in der Hand einer physischen Person vereinigt, dasselbe mag von einer direkten Steuer getroffen sein oder nicht.</quote>
+                     </note>. Freiherr v. Lichtenfels las hierauf das 1863 über diesen Gegenstand abgegebene staaträtliche Gutachten, wonach von der Einführung dieser neuen Steuer Umgang zu nehmen und der vorhandene Ausfall im Staatshaushalte lieber durch Zuschläge zu bestehenden Steuern zu decken wäre. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, es wäre allerdings am rationellsten, sich auf die Einhebung einer einzigen Steuer, und zwar bloß vom reinen Einkommen zu beschränken. Allein dies ist <ref xml:id="fn_5_8_511_f">ohne eine außerordentliche Erschütterung der Steuern und Besitzverhältnisse und ohne bedenkliche Gefährdung der Steuereinnahmen während einer längeren Reihe von Jahren</ref>
+                     <note type="variant" n="f" target="#fn_5_8_511_f">Einfügung f–f Pleners.</note> nicht möglich, und es bleibt dann nichts übrig, als durch verschiedene Steuern auf Grund und Boden, Gebäude, Gewerbe, Renten etc. <ref xml:id="fn_5_8_511_g">den Ertrag dieser verschiedenen Objekte und durch dieselben</ref>
+                     <note type="variant" n="g" target="#fn_5_8_511_g">Einfügung g–g Pleners.</note> annähernd das reine Einkommen jedes Staatsbürgers gleichmäßig zu treffen. Leider aber kommt man dabei nicht zum Zweck einer gleichmäßigen Verteilung, weil die Passivkapitalien, welche auf den Realitäten oder dem Gewerbsbetriebe haften, den Reinertrag bald weniger, bald mehr schmälern, ja selbst hie und da ganz absorbieren <ref xml:id="fn_5_8_511_h">und bei Ertrags- oder Objektssteuern nicht abgezogen werden dürfen</ref>
+                     <note type="variant" n="h" target="#fn_5_8_511_h">Einfügung h–h Pleners.</note>. Durch weitere Zuschläge auf <ref xml:id="fn_5_8_511_i">diese Steuern behufs der Deckung gesteigerter Staatsbedürfnisse</ref>
+                     <note type="variant" n="i" target="#fn_5_8_511_i">Korrektur i–i Pleners aus <quote>direkte Steuern.</quote>
+                     </note>, würde das Mißverhältnis noch schreiender und viele Steuerholden wieder gezwungen sein, ihr <pb n="261" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s261.pdf"/>Kapital anzugreifen, eine in nationalökonomischer Beziehung ganz verwerfliche Folge. Durch die vorgeschlagene neue Einkommen- und Klassensteuer wird ein Ausweg gefunden, das nach Abzug der Passiven ganz rein erübrigende Einkommen zu treffen, und zwar mit einem relativ sehr mäßigen Perzente zu treffen, wobei aber doch die namhafte Summe von 20 Millionen Gulden jährlich für den Staatsschatz gewonnen würde. Dieser Zuwachs am Staatseinkommen sei aber umso unentbehrlicher, als die sorgfältigste Revision der Budgets die Unmöglichkeit erheblicher Ersparungen am Staatsaufwande erwiesen hat und als die gerühmte finanzielle Panazee<note type="footnote" n="13">Allheilmittel.</note> der autonomen Verwaltung sich ohne Zweifel als eine Illusion herausstellen wird. Aus diesem Grunde ist auch die Finanzverwaltung von der Idee abgegangen, die Einkommen- und Klassensteuer bloß für ein Jahr in Anspruch zu nehmen. Sie ist ein bleibend notwendig gewordenes Auskunftsmittel, um, ad instar der englischen Einkommensteuer, das reine Einkommen der Personen, nicht den bloß durchschnittlichen Ertrag der Objekte und Unternehmungen zu belegen und eine neue Quelle zur Bestreitung der außerordentlichen Ausgaben zu eröffnen. Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> äußerte, er sehe wohl ein, daß bei der Unmöglichkeit größerer Ersparungen zur Vermehrung der Einnahmen geschritten werden muß. Allein man darf hiezu kein so bedenkliches Mittel ergreifen, wie die fragliche Steuer, wo ein ungeheurer Apparat mit inquisitorischen Plackereien in Bewegung gesetzt werden wird, um ein weit geringeres Resultat als die gehofften 20 Millionen zu erzielen. Denn da die Erhebung des reinen Einkommens hauptsächlich auf Fassionen beruht, so muß man sich auf großartige Verschweigungen gefaßt machen, so daß nur eine kleine Zahl gewissenhafter Fatenten ins Mitleid gezogen, somit die beabsichtigte gleichmäßige Besteuerung keineswegs erreicht werden wird. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> glaubte dagegen mit Rücksicht auf die bei der Einkommensteuer gesammelten Erfahrungen hoffen zu können, daß der Apparat nicht kostspielig sein werde, <ref xml:id="fn_5_8_511_j">indem die hiezu schon itzt bestehenden Steuerkommissionen und Inspektoren verwendet werden und nach dem neuen Steuerprojekte keineswegs eine alljährliche, sondern nur eine Fassion bei Einführung der Steuer und Erneuerungen nur im Falle von Veränderungen eintreten sollen</ref>
+                     <note type="variant" n="j" target="#fn_5_8_511_j">Einfügung j–j Pleners.</note>. Wenn man bei der neuen Steuer tadle, daß dasselbe Objekt zum zweitenmale getroffen werde, so läßt sich ganz dasselbe gegen jeden Steuerzuschlag sagen, auf deren Vermehrung gleichwohl der Staatsrat hinweist. <ref xml:id="fn_5_8_511_k">Die proponierte Steuer ist keine Doppelbesteuerung des nämlichen Objektes, sondern nur eine weitere höhere Anspruchnahme des Steuerträgers außer der von ihm bereits bezahlten Ertragsteuer. Diese weitergehende Anspruchnahme geschieht aber statt der ihn härter treffenden Form des Ertragsteuerzuschlages in jener einer sein schuldenfreies Einkommen treffenden Abgabe</ref>
+                     <note type="variant" n="k" target="#fn_5_8_511_k">Einfügung k–k Pleners.</note>. Durch die beantragten vielen Ausnahmen wird die Steuer den Forderungen der Billigkeit entsprechen und zugleich für die Kontribuenten schonender, für den Staatsschatz aber einträglicher sein als jede andere Form, wie z. B. die der Zuschläge zu bestehenden direkten Steuern.</p>
+                  <p>
+                     <pb n="262" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s262.pdf"/>Fortsetzung am <date when="1864-11-10">10. November 1864</date>.</p>
+                  <p>Vorsitz und Gegenwärtige wie im Ministerrate am <date when="1864-11-09">9. November 1864</date>.</p>
+                  <p>Im Nachhange zu der im Ministerrate am 9. d. M. gelieferten Begründung des Gesetzentwurfes über die allgemeine Klassen- und Einkommensteuer führte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> noch folgende Momente an.</p>
+                  <p>Dem Minister liegt die ebenso wichtige als schwierige Aufgabe ob, vor den Reichsrat mit einem plausiblen Plane zur Herstellung des Gleichgewichts im Staatshaushalte zu treten. Man muß endlich zu einem Normalbudget kommen, wobei das Ordinarium eine stabile Größe bildet, so daß dessen alljährliche Diskussion entfällt. <ref xml:id="fn_5_8_511_l">Für die Bedeckung des Normalbudgets sollen die bestehenden Ertragssteuern (Grund-, Gebäude-, Erwerb- und Rentensteuer) und die indirekten Abgaben dienen und, ebenfalls von der alljährlichen Bewilligung ausgenommen, ein für alle Male stabil sein</ref>
+                     <note type="variant" n="l" target="#fn_5_8_511_l">Einfügung l–l Pleners.</note>. Neben diesem Ordinarium erscheint aber auch das jährlich veränderliche Extraordinarium, und für dieses soll eine ausreichende Bedeckung <ref xml:id="fn_5_8_511_m">durch die neue Steuer</ref>
+                     <note type="variant" n="m" target="#fn_5_8_511_m">Einfügung m–m Pleners.</note> geschaffen werden. Wie soll man aber diese <ref xml:id="fn_5_8_511_n">Bedeckung ohne Steuer</ref>
+                     <note type="variant" n="n" target="#fn_5_8_511_n">Einfügung n–n Pleners.</note> finden und das stets wiederkehrende Defizit beseitigen, <ref xml:id="fn_5_8_511_o">indem eine alljährlich wiederkehrende Veräußerung von unbeweglichem Staatseigentume sich bald erschöpfen und fortwährende Kreditoperationen entweder unmöglich oder durch die Zinsenlast unerschwinglich sein werden</ref>
+                     <note type="variant" n="o" target="#fn_5_8_511_o">Einfügung o–o Pleners.</note>. Schon in der letzten Sitzung ist nachgewiesen worden, daß und warum die direkten Steuern keine weiteren Zuschläge vertragen. Die Erhöhung der indirekten Abgaben würde erfahrungsgemäß statt eines Mehr- einen Minderertrag zur Folge haben. Die Kuponsteuer mit ihrer drohenden Erhöhung auf zehn und mehr Perzente ist ein Damoklesschwert, welches die ausländischen Kapitalisten von der Geldanlage in österreichischen Fonds abschreckt und den Kurs unserer Papiere bei Aufnahme neuer Anlehen schwer herabdrückt. Der Verkauf von Staatseigentum ist nur ein Palliativ und kann nicht mehr lang fortgesetzt werden, nachdem der Staat sich gewisser Montanwerke, der Salinen und der großen Waldkomplexe aus höheren Rücksichten nicht entäußern darf. Es erübrigt also nichts als die Einführung einer neuen Steuer, insbesondere einer solchen, die bloß das reine Einkommen, und zwar mit einem relativ mäßigen Perzente belegt, dadurch aber ergiebig wird, daß die Massen davon <ref xml:id="fn_5_8_511_p">mittels mäßiger Einschätzung in Klassen von 50 Kreuzer, 1 fl., 2 fl. bis 12 fl. getroffen werden, wobei Einkommen von 365 fl. ganz steuerfrei sind</ref>
+                     <note type="variant" n="p" target="#fn_5_8_511_p">Einfügung p–p Pleners statt <quote>getroffen werden.</quote>
+                     </note>. Die Fatierung <ref xml:id="fn_5_8_511_q">beginnt erst bei Einkommen über 1500 fl. jährlich</ref>
+                     <note type="variant" n="q" target="#fn_5_8_511_q">Einfügung q–q Pleners.</note>, ist nicht kompliziert und bedarf keiner jährlichen Wiederholung, sondern nur der Anzeige über die eingetretenen Veränderungen. Die in England gemachte Erfahrung läßt hoffen, daß der Steuerertrag, mag er auch im ersten Jahre nur mäßig sein, sich in einer großen Progression steigern wird. Wisse jemand ein besseres Mittel <pb n="263" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s263.pdf"/>zur Deckung des Defizits, so werde es der Finanzminister mit Freuden begrüßen, denn seine Rolle unter den gegenwärtigen Zeitläuften sei unleidlich und nicht länger haltbar.</p>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> berief sich auf seine in der gestrigen Sitzung angeführten Gegengründe und fügte bei: Die beantragte „neue“ Steuer sei doch nichts als eine neue Belastung derselben Personen unter einem neuen Namen, wobei die angestrebte Gleichmäßigkeit durch ungenaue Fassionen vereitelt werden wird. Dieses angebliche Korrektiv der Grundsteuer beruht selbst auf einer unrichtigen Basis und führt daher nicht zum Ziel. Votant müsse demnach den Antrag des Staatsrates festhalten. Für die Einführung der in Rede stehenden Steuer, so bemerkte <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi>, werden zwei Hauptmomente geltend gemacht: das eine beruht auf einer Theorie der Besteuerung, das zweite auf der finanziellen Notwendigkeit. Die theoretische Begründung mit ihren subtilen Distinktionen zwischen Ertrags- und Einkommensteuern ist hübsch erfunden<ref xml:id="fn_5_8_511_r"/>
+                     <note type="variant" n="r" target="#fn_5_8_511_r">Korrektur Lassers aus <quote>geschrieben.</quote>
+                     </note>, doch traut sich Ritter v. Lasser darüber kein maßgebendes Urteil zu. Aber vom praktischen Standpunkt drängt sich manches Bedenken dagegen auf. Z. B. jemand besitzt ein hypotheziertes Kapital von 2000 fl., welches ihm vertragsmäßig zu 5% verzinset werden soll. Der Schuldner bringt aber davon gesetzmäßig die Einkommensteuer à 7% in Abzug und zahlt statt 100 nur 93 fl. Nun soll dieser geschmälerte „reine“ Zinsertrag doch wieder mit der Einkommensteuer getroffen werden! Ist dies nicht eine doppelte Besteuerung und kann der erübrigende Rest nicht mit gleich viel oder weniger Berechtigung wieder durch neue Steuern in infinitum reduziert werden? <ref xml:id="fn_5_8_511_s">Unbestritten ist, daß die Distinktion zwischen Ertrag und Einkommen bei den Objekten der Erwerbsteuer II. Klasse und bei denen der Zins- und Rentensteuer praktisch nicht vorhanden sei, hier also wirklich eine Doppelbesteuerung unter verschiedenen Namen eintrete</ref>
+                     <note type="variant" n="s" target="#fn_5_8_511_s">Einfügung s–s Lassers.</note>. Nach dem neuen System würde weiters der Ausländer in zweifacher Beziehung vor dem österreichischen Staatsbürger begünstigt: der erstere zahlte bloß die Grundsteuer, nicht aber die Einkommensteuer vom reinen Einkommen von Grund und Boden; ferner würde ihm der Obligationskupon ungeschmälert ausbezahlt, während der Österreicher den Kupon fatieren und sohin besteuern muß. Dieses System ist ferner eine Art <ref xml:id="fn_5_8_511_t">Prämie für das Schuldenmachen</ref>
+                     <note type="variant" n="t" target="#fn_5_8_511_t">Korrektur t–t Lassers aus <quote>Aufforderung an die Grundeigentümer zur Aufnahme von Darlehen, wodurch sie ihr steuerbares Einkommen wirklich oder scheinbar vermindern können.</quote>
+                     </note>. Was das finanzielle Resultat betrifft, so ist Votant überzeugt, daß der Steuerertrag tief unter den gehegten Erwartungen bleiben wird, trotz allen Sekkaturen bei der Durchführung, welche die ehrlichen Leute zwingen, die Geheimnisse ihres Vermögensstandes zu offenbaren und manchen Geschäftsmann veranlassen werden, seines Kredits wegen ein höheres Einkommen zu versteuern, als er besitzt. Ritter v. Lasser teile daher vollkommen die Meinung des Staatsratspräsidenten über das Meritum der Frage. Er wolle aber dessenungeachtet <ref xml:id="fn_5_8_511_u">in Anbetracht der Finanznot und in der Erwägung, daß, wenn schon ein höherer Steuerertrag unentbehrlich sei, das Steigern der Zuschläge zu den mit empfindlichen Mängeln behafteten jetzigen direkten Steuern auch keineswegs empfehlenswert erscheine</ref>
+                     <note type="variant" n="u" target="#fn_5_8_511_u">Einfügung u–u Lassers.</note>, nicht der Absicht des Finanzministers entgegentreten und <pb n="264" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s264.pdf"/>ihn hindern, den voraussichtlich erfolglosen Versuch zu machen, dieses Gesetz beim Reichsrate durchzubringen. Votant werde daher dort weder dagegen sprechen noch stimmen, allein man dürfe nicht erwarten, daß er bei der Debatte dafür das Wort ergreife. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Polizeiminister</rs>
+                     </hi> teilt über das Meritum die Ansichten der Vorstimme; wenn es aber keine Alternative neben diesem neuen Steuergesetz gibt, so wolle er der Einbringung desselben nicht entgegentreten. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Graf Nádasdy</rs>
+                     </hi> erinnerte, daß der Finanzminister seinerzeit die Einführung der Kuponsteuer dadurch motiviert habe, das Ausland werde dieselbe gut aufnehmen<note type="footnote" n="14">Die Zins- und Kuponsteuer war unter Finanzminister Bruck mit kaiserlicher Verordnung v. <date when="1859-04-28">28. 4. 1859</date>, <bibl type="archival">RGBL. Nr. 67/1859,</bibl> als von der Einkommensteuer abgetrennte Steuer eingeführt worden, <bibl type="archival">HHSTA., RR., GA. 458/1859</bibl>; MK. v. <date when="1859-04-16">16. 4. 1859</date>; <bibl type="secondary">
+                           <author>Brandt</author>, Der österreichische Neoabsolutismus 2, 784 ff.</bibl>; das von Nádasdy zitierte Argument ist aus den Akten nicht nachweisbar. Plener selbst trat stets gegen die Erhöhung der Zinssteuer auf 10% ein, <ref type="protocol-link" target="MRP-1-3-01-0-18520508-P-0009.xml#top_3_1_9_2">MR. v. <date when="1852-05-08">8. 5. 1852</date>/II</ref>, und <ref type="protocol-link" target="MRP-1-5-04-0-18620520-P-0233.xml#top_5_4_233_3">MR. v. <date when="1862-05-20">20. 5. 1862</date>/III</ref>, <bibl type="internal_ref">
+                           <ref type="internal" n="a5-b4-z230" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b4/pdf/a5-b4-z230.pdf" target="MRP-1-5-04-0-18620508-P-0230.xml">ÖMR. V/4, Nr. 230</ref>
+                        </bibl> und <quote>233.</quote>
+                     </note>, und der darauf folgende Stand der Kurse habe diese Weissagung gerechtfertigt. Votant sehe daher nicht recht ein, warum die Kuponsteuer jetzt als nachteilig abgestellt und nicht vielmehr von sieben auf etwa zehn Perzent erhöht werden solle. Gegen die Klassen- und Einkommensteuer habe aber Graf Nádasdy, nebst den bereits von andern zur Sprache gebrachten, auch noch das Bedenken, daß sie in Ungarn den widrigsten Eindruck hervorbringen und einen neuen Abhaltungsgrund von der Beschickung des Reichsrates bilden würde. Es wäre daher geraten, von der Einbringung jener Steuer, wenigstens dermal, Umgang zu nehmen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, er sehe nicht ab, warum diese Steuer in Ungarn besonders übel aufgenommen werden sollte, wo doch das Publikum schon an die Einkommensteuerfassionen gewohnt ist <ref xml:id="fn_5_8_511_v">und nach den dort bestehenden besonderen gesetzlichen Bestimmungen sämtliche Hypothekar- und Chirographendarlehen und deren Interessen einbekannt werden müssen</ref>
+                     <note type="variant" n="v" target="#fn_5_8_511_v">Einfügung v–v Pleners.</note>und nach den dort bestehenden besonderen gesetzlichen Bestimmungen sämtliche Hypothekar- und Chirographendarlehen<note type="footnote" n="15">Chirographum = Handschrift, Schuldschein. Chirographendarlehen ist ein Darlehen oder eine Forderung, die nicht durch Pfand sichergestellt ist.</note> und deren Interessen einbekannt werden müssen. Übrigens werde der dazu erforderliche Apparat weder vexatorisch noch kospielig sein. Was den Zeitpunkt der Einführung dieser Steuer betrifft, möge man sich darüber beruhigen, daß wohl ein paar Jahre darüber vergehen werden, indem sie ein Glied des ganzen neuen Steuersystems bildet, dessen reichsrätliche Beratung mehr als eine Session in Anspruch nehmen wird. <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Hein</rs>
+                     </hi> trat dem Finanzminister bei, weil er in dieser Steuer einen Ausweg findet, um mit dem verderblichen System fortwährender Zuschläge auf die direkten Steuern ein Ende zu machen. Die Klassen- und Einkommensteuer werde doch stets nur Zahlungsfähige treffen, <ref xml:id="fn_5_8_511_w">sei im Prozentensatze sehr mäßig gehalten und notwendiger Schlußstein zum ganzen Gebäude des neuen Systems direkter Steuern, vorausgesetzt, daß es bei Fixierung von Steuerprozenten der Ertragssteuer bei den Objekten bleibe und nicht wieder wie früher und bisher zu dem Mittel der Zuschläge auf diese Prozente der Ertragssteuer gegriffen, also deren Kapitalisierung unmöglich gemacht werde. Die Zuschläge haben das Üble im Gefolge, daß anscheinend alle gleich, in der Tat aber die einzelnen rücksichtslos und ungleich hart getroffen werden. Was den Einwand betrifft, daß diese Klassen- und Einkommenssteuer in Ungarn sehr mißliebig werde aufgenommen werden und die Ungarn abschrecken würde, in den Reichstag zu kommen, so habe der Herr Finanzminister schon diesen Einwand widerlegt. Gefiele aber den Ungarn diese Steuer nicht, so werden sie sich umso eher bewogen finden, den Reichsrat zu beschicken, um sie hinwegvotieren zu können</ref>
+                     <note type="variant" n="w" target="#fn_5_8_511_w">Einfügung w–w Heins.</note>sei im Prozentensatze sehr mäßig gehalten und notwendiger Schlußstein zum ganzen Gebäude des neuen Systems direkter Steuern, vorausgesetzt, daß es bei Fixierung von Steuerprozenten der Ertragssteuer bei den Objekten bleibe und nicht wieder wie früher und bisher zu dem Mittel der Zuschläge auf diese Prozente der Ertragssteuer gegriffen, also deren Kapitalisierung unmöglich gemacht werde. Die Zuschläge haben das Üble im Gefolge, daß anscheinend alle gleich, in der Tat aber die einzelnen rücksichtslos und ungleich hart getroffen werden. <pb n="265" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s265.pdf"/>Was den Einwand betrifft, daß diese Klassen- und Einkommenssteuer in Ungarn sehr mißliebig werde aufgenommen werden und die Ungarn abschrecken würde, in den Reichstag zu kommen, so habe der Herr Finanzminister schon diesen Einwand widerlegt. Gefiele aber den Ungarn diese Steuer nicht, so werden sie sich umso eher bewogen finden, den Reichsrat zu beschicken, um sie hinwegvotieren zu können. Der <hi rend="#letterspaced">
+                        <rs type="person">ungarische Hofkanzler</rs>
+                     </hi>, der es von seinem Standpunkt vorgezogen hätte, wenn die Steuervorlagen in dieser Reichsratssession noch nicht eingebracht worden wären, ist auch der Ansicht des Grafen Nádasdy, daß die neue Steuer in Ungarn die gehässigste sein werde. In weiter fortgeschrittenen Ländern mag man vielleicht die Fatierung als etwas Leichtes betrachten, allein jenseits der Leitha werde es für die immense Majorität der Bevölkerung sehr kompliziert erscheinen. Der gewissenhafte Mensch wird dabei auf eine Art moralischer Folter gespannt, und minder strenge Gewissen werden zur Immoralität verleitet. Beiläufig wolle Graf Zichy noch erwähnen, daß er von seinem eigenen unverschuldeten Grundbesitze in den zwei letzten Jahren gar keinen Reinertrag gehabt habe! Über den Gegenstand der Frage teile er die Meinung des Staatsrates. Wenn die Alternative so steht, daß man nur zwischen der Einkommen- und Klassensteuer und neuen Steuerzuschlägen die Wahl hat, erklärte der <hi rend="#letterspaced">
+                        <rs type="person">kroatisch-slawonische Hofkanzler</rs>
+                     </hi> sich für die Einbringung des neuen Steuergesetzes entscheiden zu müssen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Leiter des Handelsministeriums</rs>
+                     </hi> fände mit dem System der Ertragssteuern die Fortsetzung von Steuerzuschlägen nicht vereinbarlich. Da die Utopie der Physiokraten – eine einzige Steuer – unausführbar ist, bleibt nichts übrig, als mehrere Steuern einzuheben, und die in Rede stehende empfiehlt sich dadurch, daß sie bloß Wohlhabende oder doch Zahlungsfähige trifft, während die weitere Erhöhung der aufs äußerste bereits gespannten Zuschläge finanziell und nationalökonomisch inkorrekt, in politischer Beziehung aber nachteilig wäre. Freiherr v. Kalchberg stimme daher mit dem Finanzminister. Der <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgische Hofvizekanzler</rs>
+                     </hi> bemerkt, man könne jetzt noch nicht voraussagen, wieviel <ref xml:id="fn_5_8_511_x">die Summe der Reinerträgnisse in den Katastern der verschiedenen beantragten Ertragssteuern betragen werde und welcher Steuerbetrag auf das durch die Anlegung der neuen Kataster gewonnene Steuerobjekt ohne Überlastung desselben gelegt werden könnte, wenn nicht schon à priori die Summe ausgesprochen würde, welche und nicht mehr z. B. bei der Grundsteuer zu erzielen sei. Da sich aber allem Anschein nach der Gesamtertrag höher stellen könnte als bisher, so wäre es vielleicht</ref>
+                     <note type="variant" n="x" target="#fn_5_8_511_x">Einfügung x–x Reichensteins statt: <quote>die neue Umlegung der bereits bestehenden Steuern tragen werde, doch allem Anschein nach dürfte der Gesamtertrag sich bald höher stellen als bisher; es wäre daher wohl.</quote>
+                     </note> verfrüht, jetzt schon mit dem Antrag auf eine neue Steuer aufzutreten. Wofern aber der Finanzminister die Einbringung dieses Gesetzes als eine unentbehrliche Ergänzung seines Steuersystems betrachtet, will Freiherr [v. Reichenstein] ebensowenig als Minister Ritter v. Lasser, jedoch unter dem gleichen Vorbehalte, der Einbringung entgegentreten.</p>
+                  <p>
+                     <hi rend="#letterspaced">
+                        <rs type="person">Se. k. k. Hoheit der durchlauchtigste Herr Erzherzog</rs>
+                     </hi> konstatierte, daß die Stimmen­mehrheit sich für die Einbringung des Gesetzentwurfs über die Klassen- und Einkommensteuer erklärt habe.</p>
+                  <p>
+                     <pb n="266" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s266.pdf"/>Zu den §§ 3 und 5 erschien es dem <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsidenten</rs>
+                     </hi> unzulässig, die Staatsbeamten mit ihren Bezügen der Klassen- und Einkommensteuer zu unterwerfen. Denn was soll es nützen, der geringeren Klasse dieser Individuen (welche nämlich nicht 1500 fl. des Jahres beziehen) eine Klassensteuer aufzulegen, während auf der anderen Seite ihre Bezüge ohnehin so kärglich bemessen sind, daß man auf außerordentliche Zulagen für dieselben anzutragen genötigt ist. Belangend die über jährliche 1500 fl. gestellten Individuen, ist der Grundsatz, daß die hier in Frage stehende Einkommensteuer nur vom reinen Ertrage entrichtet werden soll, bei ihnen meist illusorisch, da der Beamte in der Regel außer seinem Gehalte kein Einkommen hat und die Haushaltungskosten nicht als Passiven betrachtet werden dürfen (§ 8). Noch weniger könne man sich mit der Einbeziehung der veränderlichen Bezüge, Dienstwohnungen und Naturalbezüge in die Berechnung (§ 7.d) einverstanden erklären. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß es einen schlechten Eindruck machen müßte, wenn, während fast alle Klassen der Bevölkerung bis zum Kleinhäusler herab die Einkommensteuer bezahlen, die Beamten frei bleiben würden. Der Betrag von 1 fl. jährlich bei einem Einkommen von 450 fl. sei nicht unerschwinglich. Beamte mit einem Einkommen von 1500 fl. bis 8000 fl. aber können wohl unschwer die höhere, <ref xml:id="fn_5_8_511_y">sehr mäßige, von 1 bis 2%</ref>
+                     <note type="variant" n="y" target="#fn_5_8_511_y">Einfügung y–y Pleners.</note>, Steuer vertragen. Nachdem der <hi rend="#letterspaced">
+                        <rs type="person">Staatsratspräsident</rs>
+                     </hi> und <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister Ritter v. Lasser</rs>
+                     </hi> auf die Inkonsequenz hingewiesen hatten, die darin liegen würde, die Staatsbeamten, die nach dem gestrigen Beschluß erwerbsteuerfrei sein werden, für klasseneinkommensteuerpflichtig zu erklären, äußerte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi>, daß er einer Ausnahme zu deren Gunsten nicht länger entgegentreten wolle und hiernach die §§ 4 und 5 des Gesetzentwurfes modifizieren werde.</p>
+                  <p>Die Bestimmungen der §§6, 19 und 20 veranlaßten den <hi rend="#letterspaced">
+                        <rs type="person">siebenbürgischen Hofvizekanzler</rs>
+                     </hi> zur Frage, ob denn das System der Einschätzungen, wie es bei der ersten Kategorie stattfinden soll, nicht auch in ähnlicher Weise bei der zweiten Kategorie mit wesentlicher Vereinfachung des Geschäftes angewendet werden könnte. Es wären hiezu weitere fünf Klassen mit Jahresbeträgen von 15 fl. bis 400 fl. festzusetzen. Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Finanzminister</rs>
+                     </hi> erwiderte, daß nach reifster Erwägung notwendig befunden wurde, das immerhin etwas minderverläßliche System der Einschätzungen im Interesse der Steuerpflichtigen sowie der Finanzen auf die höheren Vermögensklassen nicht anzuwenden und für die letzteren die sicherere Basis der Fassionen zu wählen. Als Grenzlinie der zwei Kategorien sei mit Vorbedacht das jährliche Einkommen von 1500 fl. gewählt worden.</p>
+                  <p>Hiemit wurde die Beratung über die neuen Steuervorlagen geschlossen<note type="footnote" n="16">Mit Ah. E. v. <date when="1864-11-14">14. 11. 1864</date> wurde Plener ermächtigt, die Steuergesetze im Reichsrat einzubringen, <bibl type="archival">HHSTA., Kab. Kanzlei, KZ. 3417/1864,</bibl> was er gleichzeitig mit dem Budget für 1865 tat, <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, 25 ff. (3. Sitzung/<date when="1864-11-17">17. 11. 1864</date>)</bibl>. Der zur Beratung der Steuerreformgesetze bestellte Parlamentsausschuß beantragte im Mai 1865, die Tätigkeit auch nach dem Ende der Session fortsetzen zu dürfen; die Regierung befürwortete diesen Vorgang, <ref type="protocol-link" target="MRP-1-5-09-0-18650309-P-0548.xml#top_5_9_548_4">MR. v. <date when="1865-03-09">9. 3. 1865</date>/IV</ref>. Nach längeren Debatten über den Antrag, für den sich auch Finanzminister Plener im Abgeordnetenhaus einsetzte, wurde am <date when="1865-06-01">1. 6. 1865</date> ein Gesetz verabschiedet, mit dem der Ausschuß beauftragt wurde, seine Arbeit nach Sessionsschluß fortzuführen und dem nächsten Reichsrat gleich am Beginn der Sitzungen Bericht zu erstatten, vgl. <bibl type="secondary">
+                           <title>Prot. Reichsrat, AH.</title> 1864/65, Index, Direkte Steuern</bibl>. Das Gesetz wurde dem Herrenhaus mitgeteilt. Dort wurde zwar ein Ausschuß eingesetzt, es kam aber zu keiner Plenardebatte mehr, so daß das Gesetz auch nicht zur Sanktion vorgelegt werden konnte. Damit war die Weiterarbeit nach Sessionsschluß nicht möglich, und die Steuerreformgesetzentwürfe waren hinfällig geworden.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>
+                     <pb n="267" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a5-b8-pdf.xml%23a5-b8_einzelseiten/a5-b8_s267.pdf"/>Wien, <date when="1864-11-13">13. November 1864</date>. Erzherzog Rainer.</dateline>
+                  <seg type="emperors_approval">Ah. E. Ich habe den Inhalt dieses Protokolls zur Kenntnis genommen. Franz Joseph. Wien, den <date when="1864-11-27">27. November 1864</date>.</seg>
+                  <seg type="other">Empfangen <date when="1864-11-28">28. November 1864</date>. Erzherzog Rainer.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

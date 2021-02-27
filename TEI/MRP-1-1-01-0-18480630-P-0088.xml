@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:number="http://dummy/" xmlns:functx="http://www.functx.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="s" type="desc">Digitale Edition</title> <title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie, digitale Edition</title> <title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy, digital edition</title><title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title><title level="s" type="sub" n="1">Abteilung I</title><title level="s" type="sub">Die Ministerien des Revolutionsjahres 1848</title>
+            <title level="m" type="main" n="1">Band 1</title>
+            <title level="m" type="sub">März 1848–<date when="1848-11-21">21. November 1848</date>
+            </title>
+            <title level="a" type="desc" n="088">Sitzung 88</title>
+            <meeting>
+               <placeName>Wien</placeName>
+               <date when="1848-06-30"/>
+            </meeting>
+            <editor ref="#editor_Kletecka">
+               <persName>
+                  <forename>Thomas</forename>
+                  <surname>Kletečka</surname>
+               </persName>
+            </editor>
+            <respStmt>
+               <resp>Projektverantwortung: </resp>
+               <name>Research Unit Digital Historiography and Editions, <rs type="institution" ref="http://d-nb.info/gnd/1202798799">Institute for Habsburg and Balkan Studies (IHB)</rs>, Austrian Academy of Sciences</name>
+            </respStmt>
+            <respStmt>
+               <resp>Digitalisierung der gedruckten Quellen </resp>
+               <name>Verlag der Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Conversion to TEI-conformant markup </resp>
+               <persName ref="#editor_Kurz">
+                  <forename>Stephan</forename>
+                  <surname>Kurz</surname>
+                  <affiliation>IHB</affiliation>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Österreichische Akademie der Wissenschaften</publisher>
+            <availability status="free">
+               <licence target="https://creativecommons.org/licenses/by/4.0/deed.de">Lizenziert unter CC-BY-4.0 (https://creativecommons.org/licenses/by/4.0/deed.de)</licence>
+            </availability>
+            <date when="2020"/>
+         <idno type="DOI">https://zenodo.org/badge/latestdoi/342235542</idno>
+</publicationStmt>
+         <seriesStmt>
+            <title>Edition der Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie online (MRP)</title><title level="s" type="overarching" xml:lang="de">Die Ministerratsprotokolle Österreichs und der österreichisch-ungarischen Monarchie</title>
+<title level="s" type="overarching" xml:lang="en">Minutes of Ministers’ Councils of Austria and the Austro-Hungarian Monarchy</title>
+<title level="s" type="main" n="1">Die Protokolle des österreichischen Ministerrates 1848–1867</title>
+            <respStmt>
+               <resp>Bearbeitet und herausgegeben an der </resp>
+               <name>Österreichischen Akademie der Wissenschaften</name>
+            </respStmt>
+            <respStmt>
+               <resp>Textverantwortung</resp>
+               <name>bei den jeweiligen Bandbearbeitern und Herausgebern der Serie und ihrer Bände</name>
+            </respStmt>
+            <respStmt>
+               <resp>Hauptbearbeiter Digitale Version</resp>
+               <name>Stephan Kurz</name>
+            </respStmt>
+            <biblScope unit="series">
+                28 Bände Retrodigitalisate, vgl. den Editionsplan und die Bandübersicht unter
+                <ref target="https://mrp.oeaw.ac.at/pages/volumes.html">https://mrp.oeaw.ac.at/pages/volumes.html</ref>. Vollständige bibliographische Referenzen zur Gesamtedition siehe <ref target="https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A">https://www.zotero.org/groups/2042149/mrp-bib/collections/TR58LL9A</ref>. 
+            </biblScope>
+         </seriesStmt>
+         <notesStmt>
+            <note>
+                This TEI document has been generated from a rekeyed XML file (a1-1848_z88.xml) corresponding to the printed edition quoted below.
+                In addition, the tei:sourceDesc has additional information on the original sources used for the creation of the print edition. 
+            </note><note>The XML data mentioned in the note is available through both http://doi.org/10.5281/zenodo.3580414 and http://hw.oeaw.ac.at/ministerrat/</note>
+            <relatedItem>
+               <biblStruct>
+                  <monogr>
+                     <editor ref="#editor_Kletečka">
+                        <persName>
+                           <forename>Thomas</forename>
+                           <surname>Kletečka</surname>
+                        </persName>
+                     </editor>
+                     <title>Die Protokolle des österreichischen Ministerrates 1848–1867, Abteilung I Die Ministerien des Revolutionsjahres 1848, Band 1 März 1848–21. November 1848</title>
+                     <imprint>
+                        <pubPlace>Wien</pubPlace>
+                        <publisher>ÖBV</publisher>
+                        <date when="1984">1984</date>
+                     </imprint>
+                  </monogr>
+               </biblStruct>
+            </relatedItem>
+         </notesStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <idno type="MRZ">1335 et 1336</idno>
+               </msIdentifier>
+               <p>
+                  <span>Protokoll in Reinschrift überliefert</span>
+                  <placeName>Wien</placeName>
+                  <date when="1848-06-30"/>
+               </p>
+            </msDesc>
+            <bibl>
+                Quellbestand: AT-OeStA/HHSTA KA KK ÖMR-Prot Österreichische Ministerratsprotokolle, 1848-1866 (Teilbestand)
+                <ref target="https://www.archivinformationssystem.at/detail.aspx?ID=946">https://www.archivinformationssystem.at/detail.aspx?ID=946</ref>
+            </bibl>
+            <bibl>Quelle für diese TEI-Datei ist die im notesStmt beschriebene Druckedition.</bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <abstract>
+            <list type="listperson_prose">
+               <item ana="formatted">
+                  <orig>RS.; P. Wacek; VS. Pillersdorf; anw. Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; BdE. Pillersdorf (1. 7.).</orig>
+               </item>
+            </list>
+            <listPerson type="attendants">
+               <person role="protocol">
+                  <persName ref="#mpr9255">
+                     <surname>Wacek</surname>
+                  </persName>
+               </person>
+               <person role="chair">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8151">
+                     <surname>Sommaruga</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr6886">
+                     <surname>Krauß</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8177">
+                     <surname>Latour</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8194">
+                     <surname>Doblhoff</surname>
+                  </persName>
+               </person>
+               <person role="attendant">
+                  <persName ref="#mpr8190">
+                     <surname>Baumgartner</surname>
+                  </persName>
+               </person>
+               <person role="signed-protocol">
+                  <persName ref="#mpr8148">
+                     <surname>Pillersdorf</surname>
+                  </persName>
+                  <note>BdE. <date when="1848-07-01">1. 7.</date>
+                  </note>
+               </person>
+            </listPerson>
+            <list type="agenda">
+               <item>
+                  <label>
+                     <num n="1">I.</num>
+                  </label>
+                  <ref target="#top_1_1_88_1">Programmentwurf für die „Wiener Zeitung“ als Regierungsorgan</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="2">II.</num>
+                  </label>
+                  <ref target="#top_1_1_88_2">Verschiebung der Reichstagseröffnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="3">III.</num>
+                  </label>
+                  <ref target="#top_1_1_88_3">Teilnahme der Erzherzöge Franz Joseph und Ferdinand Maximilian an der Reichstagseröffnung</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="4">IV.</num>
+                  </label>
+                  <ref target="#top_1_1_88_4">Bestellung Erzherzog Johanns zum Reichsverweser</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="5">V.</num>
+                  </label>
+                  <ref target="#top_1_1_88_5">Aufhebung der Urbarialleistungen in Oberösterreich</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="6">VI.</num>
+                  </label>
+                  <ref target="#top_1_1_88_6">Aufhebung der Patrimonial- und Einführung der If. Gerichte</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="7">VII.</num>
+                  </label>
+                  <ref target="#top_1_1_88_7">Pensionierung Karl Freiherr Smolas</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="8">VIII.</num>
+                  </label>
+                  <ref target="#top_1_1_88_8">Radetzky zum geplanten Waffenstillstand in Italien</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="9">IX.</num>
+                  </label>
+                  <ref target="#top_1_1_88_9">Rücktritt Joseph Matthias Graf Thuns von der böhmischen OberstburggrafensteIle; Bestellung Graf Anton Mitrowskys zu seinem Nachfolger</ref>
+               </item>
+               <item>
+                  <label>
+                     <num n="10">X.</num>
+                  </label>
+                  <ref target="#top_1_1_88_10">Protest des mährischen Landtages gegen die Anordnung wegen Ablieferung der Depositen an die Staatskassen</ref>
+               </item>
+            </list>
+         </abstract>
+      </profileDesc>
+      <encodingDesc>
+         <appInfo>
+            <application xml:id="verlag2tei" ident="verlag2tei" version="1.0">
+               <label>generic XML from ministerrat.dtd to TEI</label>
+            </application>
+         </appInfo>
+         <styleDefDecl scheme="css"/>
+         <tagsDecl>
+            <rendition xml:id="b" scheme="css">font-weight:bold;</rendition>
+            <rendition xml:id="su" scheme="css">vertical-align:super;font-size:.7em;</rendition>
+            <rendition xml:id="s" scheme="css">text-decoration:line-through;</rendition>
+            <rendition xml:id="u" scheme="css">text-decoration:underline;</rendition>
+            <rendition xml:id="ow" scheme="css">text-decoration:line-through;text-decoration-style:double;</rendition>
+            <rendition xml:id="r" scheme="css">display:block;text-align:right;</rendition>
+            <rendition xml:id="letterspaced" scheme="css">letter-spacing:0.15em;</rendition>
+         </tagsDecl>
+         <editorialDecl>
+            <p>Ausführliche Editionsrichtlinien sind vermerkt in den Einleitungen zur Gesamtedition (Rumpler, MRP-1-0-00-0-00000000-edition.xml) sowie in den Dokumenten bzw. Abschnitten <q>Probleme der Edition</q>.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc>
+         <list>
+            <item>
+               <date when="2020-01-30">2020-01-30</date> first version generated via verlag2tei.xsl</item><item><date when="2020-01-30">2021-02-25</date> updated teiHeaders with more detailed series title information</item>
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="MRP-1-1-01-0-18480630-P-0088" ana="a1-1848_z88">
+            <head corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml#a1-1848_z88.pdf">
+               <title type="num">Nr. 88</title>
+               <title type="descr">Ministerrat, Wien, <date when="1848-06-30">30. Juni 1848</date>
+               </title>
+            </head>
+            <div type="regest">
+               <list type="listperson_prose">
+                  <item ana="formatted">
+                     <orig>
+                                <choice>
+                                    <abbr>RS.</abbr>
+                                    <expan>Reinschrift</expan>
+                                </choice>; <choice>
+                                    <abbr>P.</abbr>
+                                    <expan>Protokoll</expan>
+                                </choice> Wacek; <choice>
+                                    <abbr>VS.</abbr>
+                                    <expan>Vorsitz</expan>
+                                </choice> Pillersdorf; <choice>
+                                    <abbr>anw.</abbr>
+                                    <expan>anwesend</expan>
+                                </choice> Sommaruga, Krauß, Latour, Doblhoff, Baumgartner; <choice>
+                                    <abbr>BdE.</abbr>
+                                    <expan>Bestätigung der Einsicht</expan>
+                                </choice> Pillersdorf (1. 7.).</orig>
+                  </item>
+               </list>
+               <p>
+                  <idno type="MRZ">1335 et 1336</idno>
+                  <idno type="KZ"/>
+               </p>
+            </div>
+            <div type="protocol">
+               <head>Protokoll der Ministerratssitzung vom <date when="1848-06-30">30. Juni 1848</date> unter dem Vorsitze des provisorischen Ministerpräsidenten, Ministers des Inneren Freiherrn v. Pillersdorf.</head>
+               <div type="agenda_item" xml:id="top_1_1_88_1" n="1">
+                  <head type="regest">
+                     <label>
+                        <num>I. </num>
+                     </label>Programmentwurf für die „Wiener Zeitung“ als Regierungsorgan</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Baron Pillersdorf</rs>
+                     </hi> teilte dem Ministerrate den Entwurf des Programms auf die Wiener Zeitung als ministerielles Organ mit<note type="footnote" n="1">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480628-P-0086.xml">MR. v. <date when="1848-06-28">28. 6. 1848</date>/X</ref>.</note>.</p>
+                  <p>Die Zeitung wird hiernach wie bisher aus dem Hauptblatte, dem Amts-, dann dem Intelligenzblatte bestehen, auch wird täglich ein Abendblatt hievon erscheinen. Eine neue Bestimmung nach diesem Programme erscheint die, daß das Feuilleton dieser Zeitung nicht dem Hauptblatte zur Ausfüllung des allenfalls erübrigenden Platzes beigefügt wird, sondern nach Art der Augsburger Allgemeinen Zeitung ein für sich bestehendes neues Blatt bilden soll<note type="footnote" n="2">Siehe dazu das Schreiben Pillersdorfs an Krauß v. <date when="1848-07-02">2. 7. 1848</date>, in dem er dieses Programm näher ausführt, <bibl type="archival">FA., FM., Präs. 2595/1848</bibl>.</note>.</p>
+                  <p>Da dieses auf den in dem Vertrage mit den Ghelenschen Erben<note type="footnote" n="3">Zu diesem Vertrag siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480617-P-0075.xml#top_1_1_75_4">MR. v. <date when="1848-06-17">17. 6. 1848</date>/IV</ref>.</note> vorgesehenen Preis und die Kontraktsstipulation einen ändernden Einfluß nimmt, so wird der Finanzminister noch heute mit den Ghelenschen Erben in eine Unterhandlung treten, um womöglich für das Ärar noch einen weiteren pekuniären Vorteil zu erzielen. Sollte dies bei der Kürze der Zeit (denn morgen kommt schon die Wiener Zeitung in der neuen Form heraus) nicht mehr ausführbar sein, so bliebe dann allerdings nichts übrig, als es bei dem Programme bewenden zu lassen<note type="footnote" n="4">Krauß gelang es, bessere Konditionen für den Staat zu erreichen. Der in Anm. 3. zit. Vertrag v. <date when="1848-06-28">28. 6. 1848</date> enthält einen Zusatz v. <date when="1848-07-05">5. 7. 1848</date>, der bestimmte, <quote>daß die Pächter sich verpflichten, die ganze Manipulation zum Satze und Drucke der WIENER ZEITUNG ganz abgesondert von der Manipulation aller übrigen Arbeiten der Druckerei besorgen zu lassen</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_2" n="2">
+                  <head type="regest">
+                     <label>
+                        <num>II. </num>
+                     </label>Verschiebung der Reichstagseröffnung</head>
+                  <p>Derselbe Minister teilte eine Depesche von Böhmen mit, aus welcher hervorgeht, daß am 8. Juli in ganz Böhmen die Wahlen der Abgeordneten zu dem österreichischen Reichstage vorgenommen werden sollen<note type="footnote" n="5">Dieses Telegramm konnte weder unter den Beständen des AVA., IM., Präs., noch unter denen des SUA., PG., und ebd., PGT. gefunden werden. Mit Rundschreiben (K.) v. <date when="1848-06-29">29. 6. 1848</date> hatte Thun sämtliche Kreisämter beauftragt, dieses Datum bekanntzugeben, <bibl type="archival">SUA., PG., StH., Präs. 5813/1848</bibl>.</note>.</p>
+                  <p>
+                     <pb n="502" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s502.pdf"/>Da hiernach angenommen werden kann, daß der größte Teil der böhmischen Deputierten bis zum 12. Juli hierorts eintreffen werden, und zu wünschen ist, daß sie an der Präsidentenwahl mit Teil nehmen, so wäre nach der Ansicht des Ministers des Inneren die Konstituierung des Reichstages bis zu dem erwähnten Tage zu verschieben, womit sich die übrigen Mitglieder des Ministerrates einverstanden erklärten<note type="footnote" n="6">Zur Eröffnung des Reichstages siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480706-P-0093.xml#top_1_1_93_2">MR. v. <date when="1848-07-06">6. 7. 1848</date>/II</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_3" n="3">
+                  <head type="regest">
+                     <label>
+                        <num>III. </num>
+                     </label>Teilnahme der Erzherzöge Franz Joseph und Ferdinand Maximilian an der Reichstagseröffnung</head>
+                  <p>Freiherr v. Pillersdorf las ferner dem Ministerrate jene au. Vorträge vor, welche infolge des Beschlusses des Ministerrates vom 29. Juni<note type="footnote" n="7">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480629-P-0087.xml#top_1_1_87_5">MR. v. <date when="1848-06-29">29. 6. 1848</date>/V</ref>.</note> Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Franz Karl und Sr. kaiserlichen Hoheit dem durchlauchtigsten Herrn Erzherzoge Johann, Stellvertreter Ew. Majestät, überreicht werden sollen, dem ersteren, um die Notwendigkeit vorzustellen und die Bitte zu wiederholen, Höchstdieselben wollen im Interesse der Ah. Dynastie die Einleitung zu treffen geruhen, daß zur feierlichen Eröffnung des Reichstages die durchlauchtigsten jungen Herren Erzherzoge Franz Joseph und Ferdinand Max hierorts gegenwärtig sind, dem zweiten, daß Höchstsie diese Bitte des Ministeriums bei Sr. kaiserlichen Hoheit mit Ihrem gnädigen und vielvermögenden Vorworte zu unterstützen geruhen.</p>
+                  <p>Gegen die Textierung dieser au. Vorträge wurde von keiner Seite etwas erinnert<note type="footnote" n="8">Der entsprechende Akt <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1308/1848</bibl>, Vortrag des Ministeriums an Erzherzog Franz Karl, ist nicht mehr auffindbar. Aus dem Protokollbuch geht hervor, daß der Vortrag nicht einmal zur Ah. Entschließung vorgelegt wurde. Ein entsprechender Vortrag an Erzherzog Johann ist auch nicht im Protokollbuch der Kabinettskanzlei verzeichnet. Die beiden angesprochenen Söhne Erzherzog Franz Karls waren jedenfalls bei der Eröffnung des Reichstages am <date when="1848-07-22">22. 7. 1848</date> nicht anwesend; sie kehrten erst mit dem kaiserlichen Hof am <date when="1848-08-12">12. 8. 1848</date> nach Wien zurück, siehe dazu <bibl type="secondary">
+                           <author>Corti</author>, Vom Kind zum Kaiser 305</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_4" n="4">
+                  <head type="regest">
+                     <label>
+                        <num>IV. </num>
+                     </label>Bestellung Erzherzog Johanns zum Reichsverweser</head>
+                  <p>Der wegen Unpäßlichkeit abwesende Minister der auswärtigen Angelegenheiten Freiherr v. Wessenberg ließ dem Ministerrate durch den provisorischen Ministerpräsidenten Freiherrn v. Pillersdorf die neben angeschlossene Darstellung über die gegenwärtigen deutschen Angelegenheiten zukommen<note type="footnote" n="9">Liegt dem Originalprotokoll in handschriftlicher Fassung bei.</note>.</p>
+                  <p>Es geht daraus hervor, daß man in Frankfurt nach langen Debatten auf die Idee eines einzigen Direktors oder Reichsverwesers gekommen ist, welcher die Geschäfte durch von ihm zu ernennende verantwortliche Minister zu besorgen hätte, und daß am 22. d. M. sich eine bedeutende Menge Stimmen zugunsten Sr. kaiserliche Hoheit des durchlauchtigsten Herrn Erzherzogs Johann für diese Stelle ausgesprochen hatte<note type="footnote" n="10">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480626-P-0084.xml#top_1_1_84_7">MR. v. <date when="1848-06-26">26. 6. 1848</date>/VII</ref>. Das war in der 21. Sitzung des Frankfurter Parlaments geschehen, <bibl type="secondary">
+                           <title>Stenographische Berichte über die Verhandlungen der Deutschen Constitutionellen Nationalversammlung</title> 1, 453–471</bibl>.</note>. Der 26. Juni war für die entscheidende Abstimmung bestimmt. Nach der Ansicht des Baron Wessenberg erscheint es dringend notwendig, sich im voraus über den Entschluß zu beraten, welchen man österreichischerseits nehmen will in dem Falle die Mehrheit sich wirklich für Se. kaiserliche Hoheit ausspräche.</p>
+                  <p>
+                     <pb n="503" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s503.pdf"/>Es dürfte dann mehr als eine Verlegenheit eintreten; die eine liege schon in der gegenwärtigen Stellung Sr. kaiserlichen Hoheit<note type="footnote" n="11">Erzherzog Johann war während der Abwesenheit Ferdinands zu dessen Stellvertreter ernannt worden, siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480621-P-0079.xml#top_1_1_79_1">MR. v. <date when="1848-06-21">21. 6. 1848</date>/I</ref>.</note> – eine andere werde sich zeigen in Berechnung der Folgen, welche dessen Nichtannahme haben könnte. Vorerst müßte man allerdings die Attributionen der befragten Stelle kennen. Um mehr als ein Namensträger zu sein, müßte der Reichsverweser nebst der persönlichen Unverantwortlichkeit auch wenigstens das Recht der Zustimmung zu den Beschlüssen der Nationalversammlung erhalten, denn nur dann hätte er eine wirkliche Gewalt. Baron Wessenberg unterzog dieses der Erwägung des Ministerrates und bemerkte gleichzeitig, ob, da die Verhältnisse zu Deutschland mehr wie je in das innere Staatsleben eingreifen, nicht ein eigenes Komitee zur Erörterung und Beratung der deutschen Angelegenheiten überhaupt bestimmt werden sollte, welches sohin seine Vorträge und Gutachten hierüber an den Ministerrat zu erstatten hätte.</p>
+                  <p>Der Ministerrat erklärte sich in beiden Punkten mit den Ansichten des Ministers der auswärtigen Angelegenheiten Baron v. Wessenberg einverstanden, daß nämlich, bevor Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Johann Sich über den oberwähnten Gegenstand aussprechen können, früher die Attributionen der gedachten Stelle genau bekannt sein müssen und daß es unter den gegenwärtigen Verhältnissen notwendig sei, für die Erörterung und Begutachtung der deutschen Angelegenheiten ein eigenes Komitee aufzustellen.</p>
+                  <p>Was dieses Komitee anbelangt, so hätte der mit den deutschen Angelegenheiten genau vertraute gewesene Bundestagsgesandte Graf Colloredo den Ah. Auftrag zu erhalten, ein solches Komitee nach seinem besten Ermessen zusammenzusetzen und mit der Begutachtung der oberwähnten Fragen die Arbeiten des Komitees beginnen zu lasen<note type="footnote" n="12">Die Idee, ein solches Komitee einzusetzen, war wiederholt im Ministerrat zur Sprache gekommen, siehe dazu zuletzt <ref type="protocol-link" target="MRP-1-1-01-0-18480611-P-0068.xml#top_1_1_68_3">MR. v. <date when="1848-06-11">11. 6. 1848</date>/III</ref>.</note>. Nachdem übrigens Se. kaiserliche Hoheit der durchlauchtigste Herr Erzherzog Johann die Minister zu einer Beratung bei Höchstdemselben für morgen, den 1. Juli um 2 Uhr mittags, durch den provisorischen Ministerpräsidenten bescheiden zu lassen geruhten, so wird bei diesem Anlasse der oberwähnte Gegenstand näher besprochen und auch die Bitte wegen Hierhersendung der jungen Herren Erzherzoge<note type="footnote" n="13">Siehe dazu den vorhergehenden Tagesordnungspunkt.</note> oder wenigstens des zur Thronfolge berufenen zur feierlichen Reichstagseröffnung angeregt werden<note type="footnote" n="14">Fortsetzung des Gegenstandes über die Berufung Erzherzog Johanns zum Reichsverweser in <ref type="protocol-link" target="MRP-1-1-01-0-18480701-P-0089.xml#top_1_1_89_2">MR. v. <date when="1848-07-01">1. 7. 1848</date>/II</ref>. Der Reichstag wurde am <date when="1848-07-22">22. 7. 1848</date> von Erzherzog Johann eröffnet.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_5" n="5">
+                  <head type="regest">
+                     <label>
+                        <num>V. </num>
+                     </label>Aufhebung der Urbarialleistungen in Oberösterreich</head>
+                  <p>Der Minister des Inneren brachte hierauf die Aufhebung der Urbarialleistungen in Oberösterreich zur Sprache<note type="footnote" n="15">Fortsetzung des <ref type="protocol-link" target="MRP-1-1-01-0-18480531-P-0057.xml#top_1_1_57_2">MR. v. <date when="1848-05-31">31. 5. 1848</date>/II</ref>.</note>. Es ist bereits früher von den Landesbehörden angetragen worden, daß die Naturalleistungen heuer noch fortzudauern und erst mit dem künftigen Jahre gegen Entschädigung aufzuhören hätten<note type="footnote" n="16">Unter den Beständen des AVA., IM., Präs. konnte kein entsprechendes Schreiben Skrbenskys gefunden werden. Zu der vorherrschenden Meinung unter den oberösterreichischen Ständen im Juni 1848 vgl. <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtage 1, 98–103</bibl>, und <bibl type="secondary">
+                           <author>Gerlich</author>, Grundentlastung 27</bibl>.</note>. Gegenwärtig wird von dem Regierungspräsidenten <pb n="504" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s504.pdf"/>Baron Skrbensky vorgestellt, daß schon jetzt und für heuer die Aufhebung der Urbarialnaturalleistung allgemein gewünscht werde<note type="footnote" n="17">Dieser Beschluß wurde in der Sitzung am <date when="1848-06-26">26. 6. 1848</date> in einer ständischen Versammlung gefaßt, siehe dazu <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtage 1, 99 f</bibl>.</note>. Es bestehe ein großer Widerwille gegen die Naturalleistung, besonders bei den Zehentpflichtigen. Die Berechtigten seien gefaßt, heuer nichts in natura zu bekommen und wünschen nur eine Entschädigung. Die obderennsischen Stände haben sich daher in dem Beschlusse geeiniget, daß schon für heuer keine Verpflichtung zur Zehentleistung in natura bestehen, dafür aber eine Entschädigung geleistet werden soll<note type="footnote" n="18">Die oberösterreichischen Stände entsandten eine fünfköpfige Deputation nach Wien, um diesen Beschluß der Regierung vorzulegen, siehe dazu <quote>ebd., 101 f</quote>.</note>.</p>
+                  <p>Was die Entschädigung (Ausmittlung der Quantitäten und Preise) anbelangt, wurden die Katastralerhebungen zur Grundlage genommen. Da aber nach diesen die Preise offenbar zu gering entfielen, so wurde ein Zuschlag von einigen von 33%, von anderen von 20% in Antrag gebracht. Die Stände erklärten sich durch Stimmenmehrheit für diesen letzteren Zuschlag und bitten um Sanktion dieses ihres Beschlusses, indem sie die Notwendigkeit darstellen, diese Maßregel noch vor dem Reichstage in Ausführung zu bringen, weil aus einer Verzögerung selbst die Störung der öffentlichen Ruhe zu besorgen wäre und man die Unterlassung selbst der Regierung imputieren könnte.</p>
+                  <p>Der Minister des Inneren verkennt wohl nicht, daß die näheren Bestimmungen über diesen Gegenstand von dem Reichstage auszugehen hätten. Nachdem aber der Gegenstand als so dringend dargestellt wird und die Billigkeit der Maßregel einleuchtet, so gedenkt er den Antrag der Stände genehmigend zu erledigen, jedoch nur als eine provisorische Maßregel und mit dem Vorbehalte, daß, wenn der Reichstag eine andere Bestimmung treffen sollte, sich dieser zu unterziehen wäre. Hiervon wäre zugleich Ew. Majestät mittelst dieses Protokolles die au. Anzeige zu erstatten. Der Ministerrat fand dagegen nichts zu erinnern<note type="footnote" n="19">Mit seinem – nicht mehr vorhandenem – Erlaß v. <date when="1848-06-30">30. 6. 1848</date>, <bibl type="archival">AVA., IM., Allg. 1568/336 ex 1848</bibl>, gab Pillersdorf seine Zustimmung zu den Beschlüssen der oberösterreichischen Stände, siehe dazu <bibl type="secondary">
+                           <author>Hugelmann</author>, Landtage 1, 102</bibl>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_6" n="6">
+                  <head type="regest">
+                     <label>
+                        <num>VI. </num>
+                     </label>Aufhebung der Patrimonial- und Einführung der If. Gerichte</head>
+                  <p>Hieran knüpfte der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Handels etc. Baron Doblhoff</rs>
+                     </hi> die Bemerkung, daß durch diesen Widerwillen gegen alle Urbarialleistungen die Dominien sich in einer sehr drückenden Lage befinden. Sie beziehen nun fast gar keine Urbarialien, haben die Urbarialsteuer fortan zu leisten, und was das drückendste ist, müssen die Patrimonialgerichtsbarkeit, deren Kosten sie mit den nun versiegten Einnahmen bestritten hatten, fortführen, wozu noch der Umstand komme, daß die Patrimonialgerichte jetzt fast gar keine Autorität mehr haben<note type="footnote" n="20">Zur Entwicklung und Aufgabe der Patrimonialgerichte im Vormärz siehe das Kapitel VI: <quote>Die letzten 13 Jahre der Patrimonialjustiz unter Kaiser Ferdinand</quote> in <bibl type="secondary">
+                           <author>Domin - Petrushevecz</author>, Neuere österreichische Rechtsgeschichte 335–361</bibl>.</note>.</p>
+                  <p>Es sei ihm von mehreren Seiten der Wunsch ausgedrückt worden, die Patrimonialgerichtsbarkeit möge nun bei den geänderten Umständen den Dominien bald abgenommen werden.</p>
+                  <p>
+                     <pb n="505" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s505.pdf"/>Um zu diesem Ziele zu gelangen, findet es der Ministerrat angemessen, daß über die Art und Weise der Aufhebung der Patrimonial- und Einführung der lf. Gerichte auf dem Lande der Minister des Handels etc. Baron Doblhoff und der Minister der Justiz Baron Sommaruga eine Zusammentretung abhalten und dann dem Ministerrate ihre Vorschläge erstatten<note type="footnote" n="21">Fortsetzung des Gegenstandes in <ref type="protocol-link" target="MRP-1-1-01-0-18480915-P-0120.xml#top_1_1_120_12">MR. v. <date when="1848-09-15">15. 9. 1848</date>/XII</ref>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_7" n="7">
+                  <head type="regest">
+                     <label>
+                        <num>VII. </num>
+                     </label>Pensionierung Karl Freiherr Smolas</head>
+                  <p>Mit dem hier vorliegenden au. Vortrage vom 27. Juni d. J., Z. 2391<note type="footnote" n="22">
+                        <bibl type="archival">HHSTA., Kab. Kanzlei, MRZ. 1313/1848</bibl>.</note>, unterstützt der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Kriegsminister den Antrag</rs>
+                     </hi> des Generalquartiermeisters bei der Armee in Italien FML. Hess<note type="footnote" n="23">Schreiben Hess’ v. <date when="1848-06-16">16. 6. 1848</date>. <quote>ebd</quote>.</note>, daß dem Oberstleutnant des Generalquartiermeisterstabes Baron Karl Smola, welcher bei der Einnahme von Udine den rechten Fuß verlor und daher zu Kriegsdiensten nicht mehr geeignet ist, bei dessen Versetzung in den Ruhestand der Oberstencharakter und die diesem Charakter entsprechende Pension huldreichst verliehen werden wolle. Der Oberstleutnant Baron Smola hat 31 Jahre mit dem ausgezeichnetsten Eifer und dem besten Erfolge gedient und ist der Zweitälteste Oberstleutnant im Generalquartiermeisterstabe.</p>
+                  <p>Der Ministerrat stimmte diesem Antrage vollkommen bei<note type="footnote" n="24">Der in Anm. 22 zit. Vortrag wurde mit Ah. E. v. <date when="1848-07-01">1. 7. 1848</date> resolviert, <quote>ebd., MRZ. 1335/1848</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_8" n="8">
+                  <head type="regest">
+                     <label>
+                        <num>VIII. </num>
+                     </label>Radetzky zum geplanten Waffenstillstand in Italien</head>
+                  <p>Der Kriegsminister teilte ferner einen ihm von dem Feldmarschall Grafen Radetzky zugekommenen Bericht vom 25. Juni<note type="footnote" n="25">
+                        <bibl type="archival">KA., HKR., KM., Präs. 2940/1848</bibl>.</note> von Verona mit, nach welchem nichts Neues sowohl in seiner als in des Feindes Lage vorgefallen ist. Der Feldmarschall erwähnt darin der Gründe, welche er durch den Fürsten Schwarzenberg gegen den beabsichtigten Waffenstillstand, der faktisch wirklich bestehe, dem Ministerium vortragen ließ<note type="footnote" n="26">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480623-P-0081.xml#top_1_1_81_5">MR. v. <date when="1848-06-23">23. 6. 1848</date>/V</ref> und <ref type="protocol-link" target="MRP-1-1-01-0-18480624-P-0082.xml#top_1_1_82_8">MR. v. <date when="1848-06-24">24. 6. 1848</date>/VIII</ref>.</note>, und bemerkt, daß, wenn der Waffenstillstand dennoch angeordnet werden wollte, man ihm (Grafen Radetzky) ersparen möge, diesen Waffenstillstand selbst anzutragen. Dieser Antrag sollte im diplomatische Wege geschehen, und dem Feldmarschall oder vielmehr dem FML. v. Hess nur die Art und Weise der militärischen Ausführung desselben überlassen werden.</p>
+                  <p>Durch die neuesten Beschlüsse und Anträge des Ministeriums ist es, was dem Feldmarschall noch nicht bekannt war, von dem Waffenstillstande ohnedies abgekommen<note type="footnote" n="27">Siehe dazu <ref type="protocol-link" target="MRP-1-1-01-0-18480626-P-0084.xml#top_1_1_84_2">MR. v. <date when="1848-06-26">26. 6. 1848</date>/II</ref>. Auf dem in Anm. 25 zit. Bericht Radetzkys steht auch: <quote>Durch mehrere Erlässe widerlegt, also lediglich ad acta</quote>.</note>.</p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_9" n="9">
+                  <head type="regest">
+                     <label>
+                        <num>IX. </num>
+                     </label>Rücktritt Joseph Matthias Graf Thuns von der böhmischen OberstburggrafensteIle; Bestellung Graf Anton Mitrowskys zu seinem Nachfolger</head>
+                  <p>Der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister des Inneren Freiherr v. Pillersdorf</rs>
+                     </hi> brachte zur Kenntnis des Ministerrates, daß der Oberstlandeskämmerer in Böhmen, Joseph Mathias Graf Thun, welcher in Ermanglung eines Oberstburggrafen dessen Stelle versah<note type="footnote" n="28">Mit Ah. E. v. <date when="1848-04-10">10. 4. 1848</date> war Joseph Mathias Graf Thun mit der Leitung der ständischen Angelegenheiten in Böhmen betraut worden, siehe dazu Schreiben Pillersdorfs an Dietrichstein v. <date when="1848-04-13">13. 4. 1848</date>, <bibl type="archival">HHSTA., OKäA. 401 B, r. 14</bibl>.</note>, diese letztere zurückgelegt habe. Seit dem 25. Mai unwohl, habe er sich bemüßiget gesehen, die Versehung der Oberstburggrafenstelle dem ihm nachfolgenden obersten Landesoffizier, <pb n="506" corresp="https://hw.oeaw.ac.at/ministerrat/serie-1/a1-pdf.xml%23a1_einzelseiten/a1-1848_s506.pdf"/>Grafen Mittrowsky, zu übertragen. Er bemerkt, daß er während seiner Amtsverwaltung jederzeit bemüht war, die Leidenschaften im Zaume zu halten, die Anhänglichkeit an das Ah. Kaiserhaus zu befördern und das innige und feste Zusammenhalten aller Teile der Monarchie anzustreben. Die Ereignisse in Wien hätten indessen sein Wirken gelähmt u. dgl.<note type="footnote" n="29">Unter den Beständen des AVA., IM., Präs., des HHSTA., Kab. Kanzlei und OKäA., und des SUA., PG., konnte kein Schriftwechsel in dieser Angelegenheit gefunden werden.</note>
+                  </p>
+               </div>
+               <div type="agenda_item" xml:id="top_1_1_88_10" n="10">
+                  <head type="regest">
+                     <label>
+                        <num>X. </num>
+                     </label>Protest des mährischen Landtages gegen die Anordnung wegen Ablieferung der Depositen an die Staatskassen</head>
+                  <p>Schließlich bemerkte dieser Minister, daß ihm eine Vorstellung des mährischen Landtages gegen die von dem Ministerium angeordnete Maßregel der Abfuhr der Depositen an die Staatskassen zugekommen sei<note type="footnote" n="30">Zur Übergabe der gerichtlich hinterlegten Depositen an den Staatsschuldentilgungsfonds siehe <ref type="protocol-link" target="MRP-1-1-01-0-18480519-P-0043.xml#top_1_1_43_19">MR. I v. <date when="1848-05-19">19. 5. 1848</date>/XIX</ref>.</note>. Es wird darin angeführt, daß diese Maßregel widerrechtlich sei, daß mit den Depositen nicht nach Belieben verfügt werden könne, daß hierdurch vorzüglich das Vermögen der Witwen und Waisen in Anspruch genommen werde, daß Staatsschulden nicht ohne Zustimmung des Reichstages kontrahiert werden können u. dgl. und die Bitte beigefügt, es möge diese ministerielle Maßregel zurückgenommen oder wenigstens auf solche Depositen beschränkt werden, auf welche dem Staate bereits ein Anspruch erwachsen ist (d. i. auf Caducitäten).</p>
+                  <p>Dagegen wurde von Seite der <hi rend="#letterspaced">
+                        <rs type="person" ana="indirect">Minister der Justiz</rs>
+                     </hi> und der <hi rend="#letterspaced">
+                        <rs type="person">Finanzen</rs>
+                     </hi> erinnert, daß die gedachte Maßregel keineswegs ungerecht sei, weil die Depositen verzinset und nach dem Wunsche der Depositare jederzeit sicher zurückgezahlt werden.</p>
+                  <p>Die Eingabe der mährischen Stände wurde daher zur motivierten Zurückweisung dem Finanzminister Freiherrn v. Krauß übergeben<note type="footnote" n="31">Der entsprechende Akt <bibl type="archival">FA., FM., Präs. 2602/1848</bibl>, in dem das mährische Landespräsidium die Eingabe des mährischen Landtagspräsidiums übermittelte und mit der nach dem Ministerratsbeschlusse erfolgten Erledigung ist nicht mehr auffindbar.</note>.</p>
+               </div>
+               <closer>
+                  <dateline>Wien, den <date when="1848-07-01">1. Juli 1848</date>. Pillersdorf.</dateline>
+                  <seg type="emperors_approval">Ah. E. Der Inhalt dieses Protokolles dient Mir zur Wissenschaft. Ezherzog Johann. Wien, den <date when="1848-07-01">1. Juli 1848</date>.</seg>
+               </closer>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>
