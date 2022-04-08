@@ -32,7 +32,7 @@ MRP-^Serie / Series
 
 This directory contains 
 
-- a `tei:listPerson` containing rudimentary information about the ministers of the first series (`MRP-1-*.xml`)
+- a `tei:standOff`  containing rudimentary information about the ministers of the first series (`MRP-1-*.xml`) and references for the third series.
 - `abbr.json` Abbreviations used in the documents
 - `glossdata.json` A list of less common words and their explanation
 
@@ -61,6 +61,8 @@ Zusätzlich zu diesen Funktionalitäten erlauben API-Zugänge unter anderem:
 - Volltextsuche mit KWIC-Ergebnissen
 
 Die API ist dokumentiert unter <https://mrp.oeaw.ac.at/api/api.html>. 
+
+Zusätzlich sind die in `indices/standOff.xml` jeweils mit aktuellem Stand archivierten Entitätsdaten über die *Modulare Prosopographische Rgistratur* (MPR) unter <https://mpr.acdh.oeaw.ac.at/> öffentlich einsehbar und nachnutzbar. 
 
 ## Note
 
