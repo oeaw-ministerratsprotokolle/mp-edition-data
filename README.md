@@ -12,6 +12,11 @@ All of this is in German language.
 
 The edition is ongoing, an overview of what is already published is available at <https://mrp.oeaw.ac.at/pages/volumes.html>. 
 
+This new release now includes the two recently published volumes
+
+- CMR II (ed. by Thomas Kletečka and Richard Lein)
+- CMR III/1 (ed. by Klaus Koch)
+
 #### File naming scheme
 
 ```
@@ -32,7 +37,7 @@ MRP-^Serie / Series
 
 This directory contains 
 
-- a `tei:standOff`  containing rudimentary information about the ministers of the first series (`MRP-1-*.xml`) and references for the third series.
+- a `tei:standOff`  containing rudimentary information about the ministers of the first series (`MRP-1-*.xml`) and references for the third (`MRP-3-*.xml`) series.
 - `abbr.json` Abbreviations used in the documents
 - `glossdata.json` A list of less common words and their explanation
 
