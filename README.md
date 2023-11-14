@@ -18,7 +18,7 @@ Keep this in mind when attempting any quantitative use of this data.
 
 This release includes the following recently published volumes
 
-- CMR II (ed. by Thomas Kletečka and Richard Lein)
+- CMR II (ed. by Thomas Kletečka and Richard Lein), now also with `tei:pb/@facs` references to burnt material 
 - CMR III/1 (ed. by Klaus Koch)
 - CMR VIII/1 (ed. by Wladimir Fischer-Nebmaier @sviatoplok)
 
