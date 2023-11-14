@@ -84,7 +84,8 @@ Data curation for is done elsewhere. If you are interested in our docx => xsl =
 
 ## Quote the dataset
 
-[![DOI](https://zenodo.org/badge/342235542.svg)](https://zenodo.org/badge/latestdoi/342235542)
+[![DOI](https://zenodo.org/badge/4568291.svg)](https://zenodo.org/badge/latestdoi/4568291)
+https://zenodo.org/doi/10.5281/zenodo.4568291
 
 Cf. the [Zenodo Ministerratsprotokolle Community](https://zenodo.org/communities/ministerratsprotokolle)
 
