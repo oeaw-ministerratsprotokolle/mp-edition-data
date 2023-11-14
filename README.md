@@ -16,6 +16,7 @@ This new release now includes the two recently published volumes
 
 - CMR II (ed. by Thomas Kletečka and Richard Lein)
 - CMR III/1 (ed. by Klaus Koch)
+- CMR VIII/1 (ed. by Wladimir Fischer-Nebmaier @sviatoplok)
 
 #### File naming scheme
 
@@ -71,10 +72,10 @@ Zusätzlich sind die in `indices/standOff.xml` jeweils mit aktuellem Stand archi
 
 ## Note
 
-Data curation for is done elsewhere. If you are interested in our docx => xsl => xml workflow, don't hesitate to get in touch. 
+Data curation for is done elsewhere. If you are interested in our docx => xsl => xml workflow, don’t hesitate to get in touch. 
 
 ## Quote the dataset
 
 [![DOI](https://zenodo.org/badge/342235542.svg)](https://zenodo.org/badge/latestdoi/342235542)
 
-Cf. the [Zenodo Ministerratsprotokolle Community](https://zenodo.org/communities/ministerratsprotokolle/?page=1&size=20)
+Cf. the [Zenodo Ministerratsprotokolle Community](https://zenodo.org/communities/ministerratsprotokolle)
