@@ -12,7 +12,11 @@ All of this is in German language.
 
 The edition is ongoing, an overview of what is already published is available at <https://mrp.oeaw.ac.at/pages/volumes.html>. 
 
-This new release now includes the two recently published volumes
+CAVEAT: The CMR series (= `TEI/MRP-3-0-*`) is based on archival sources that have partially been damaged. `tei:seg type="supplied-from-other-source` indicates that the textual content has been supplied from complimentary material such as the materials used for a session’s preparation. Empty `tei:div type="protocol"` point to documents that did not survive the 1927 palace of justice fire (<https://de.wikipedia.org/wiki/Wiener_Justizpalastbrand>).  
+
+Keep this in mind when attempting any quantitative use of this data.
+
+This release includes the following recently published volumes
 
 - CMR II (ed. by Thomas Kletečka and Richard Lein)
 - CMR III/1 (ed. by Klaus Koch)
@@ -70,6 +74,10 @@ Die API ist dokumentiert unter <https://mrp.oeaw.ac.at/api/api.html>.
 
 Zusätzlich sind die in `indices/standOff.xml` jeweils mit aktuellem Stand archivierten Entitätsdaten über die *Modulare Prosopographische Rgistratur* (MPR) unter <https://mpr.acdh.oeaw.ac.at/> öffentlich einsehbar und nachnutzbar. 
 
+CAVEAT: Die CMR-Reihe (= `TEI/MRP-3-0-*`) basiert auf einem Quellenbestand, der teilweise dezimiert oder beschädigt ist. `tei:seg type="supplied-from-other-source"` zeigt an, dass der Textinhalt aus ergänzendem Material stammt, z.B. den Materialien zur Vorbereitung einer Sitzung, dem Ministervortrag u. dgl. Leere `tei:div type="protocol"` weisen auf Dokumente hin, die den Brand des Justizpalastes von 1927 nicht überlebt haben (<https://de.wikipedia.org/wiki/Wiener_Justizpalastbrand>).  
+
+Beachten Sie dies, wenn Sie versuchen, diese Daten quantitativ zu nutzen.
+
 ## Note
 
 Data curation for is done elsewhere. If you are interested in our docx => xsl => xml workflow, don’t hesitate to get in touch. 
@@ -79,3 +87,8 @@ Data curation for is done elsewhere. If you are interested in our docx => xsl =
 [![DOI](https://zenodo.org/badge/342235542.svg)](https://zenodo.org/badge/latestdoi/342235542)
 
 Cf. the [Zenodo Ministerratsprotokolle Community](https://zenodo.org/communities/ministerratsprotokolle)
+
+
+## License
+
+This dataset is provided under CC-BY 4.0 as in the <./LICENCE.md> file.
