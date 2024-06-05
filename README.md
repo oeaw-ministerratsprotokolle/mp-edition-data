@@ -47,6 +47,15 @@ This directory contains
 - `glossdata.json` A list of less common words and their explanation
 
 
+### `listEvent` 
+
+This directory contains session agenda item data.  
+It is particularly important for interpretation of the minutes as it documents the material destroyed by fire during the 1927 Justizpalastbrand (around 80% of the once available material was destroyed or damaged). 
+
+- `CMR-listEvent.xml` contains all known agenda items of the Cisleithanian government 1872-1914 (which covers all non-published volumes), and includes information on their state and availability ("noch nicht ediert"/`subtype="someSourceSurvived"` referring to available material, while "keine Quellen überliefert"/`subtype="noSourceSurvived"` points to the opposite). 
+
+Publication of this data follows the May 2024 publishing of the same data through the MRP web application’s [calendar](https://mrp.oeaw.ac.at/pages/calendar.html).
+
 ## About the data
 
 Das [Institute for Habsburg and Balkan Studies der Österreichischen Akademie der Wissenschaften](https://www.oeaw.ac.at/ihb/forschungsbereiche/digitale-historiographie-und-editionen/forschung/) bearbeitet die Protokolle des Ministerrats Österreichs (1848–1867) und der österreichisch-ungarischen Monarchie (1867–1918). Die Protokolle des Gemeinsamen Ministerrates, der gesamtstaatliche Materien behandelte, werden an der [Ungarischen Akademie der Wissenschaften](https://tti.btk.mta.hu/en/) herausgegeben.
