@@ -6,7 +6,7 @@ Repo for TEI XML data from the [Ministerratsprotokolle](https://www.oeaw.ac.at/i
 
 ### `TEI`
 
-Contains [TEI](https://www.tei-c.org/) encoded XML files derived from custom XML of 70 years of governmental activity in the Austrian (1848-1867) and Austro-Hungarian (1867-1918) Minutes of Ministers’ Councils (*Ministerratsprotokolle*). 
+Contains [TEI](https://www.tei-c.org/) encoded XML files derived from custom XML of 70 years of governmental activity in the Austrian (1848–1867) and Austro-Hungarian (1867–1918) Minutes of Ministers’ Councils (*Ministerratsprotokolle*) in their born-digital form. 
 
 All of this is in German language. 
 
@@ -18,9 +18,12 @@ Keep this in mind when attempting any quantitative use of this data.
 
 This release includes the following recently published volumes
 
-- CMR II (ed. by Thomas Kletečka and Richard Lein), now also with `tei:pb/@facs` references to burnt material 
+- CMR I (ed. by Stefan Malfèr)
+- CMR II (ed. by Thomas Kletečka and Richard Lein @RdLein), now also with `tei:pb/@facs` references to burnt material 
 - CMR III/1 (ed. by Klaus Koch)
+- CMR IV/1 (ed. by Anatol Schmied-Kowarzik @AnToMaAi), now also with (still incomplete) `tei:pb/@facs` references to burnt material 
 - CMR VIII/1 (ed. by Wladimir Fischer-Nebmaier @sviatoplok)
+- CMR VIII/2 (ed. by Wladimir Fischer-Nebmaier @sviatoplok)
 
 #### File naming scheme
 
